@@ -2254,6 +2254,18 @@
    "written_at": "2026-09-03T09:40:53Z"
   },
   {
+   "id": "note-48e8bae9f471",
+   "kind": "causal_notes",
+   "asset": "AAPL",
+   "move_id": "move-AAPL-2026-08-04",
+   "move_date": "2026-08-04",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely due to broader market factors or micro‑price dynamics.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:54:02Z"
+  },
+  {
    "id": "note-c7269bd0ff85",
    "kind": "causal_notes",
    "asset": "AAPL",
@@ -2264,6 +2276,18 @@
    "confidence": 0,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T09:43:44Z"
+  },
+  {
+   "id": "note-8252dd3ad649",
+   "kind": "causal_notes",
+   "asset": "AAPL",
+   "move_id": "move-AAPL-2026-07-24",
+   "move_date": "2026-07-24",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely a broader market rally or sector momentum drove the move.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:54:00Z"
   },
   {
    "id": "note-9525d9684371",
@@ -2300,6 +2324,18 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T10:24:55Z"
+  },
+  {
+   "id": "note-6a4a79f76dbc",
+   "kind": "causal_notes",
+   "asset": "AAPL",
+   "move_id": "move-AAPL-2026-04-22",
+   "move_date": "2026-04-22",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely due to broader market or internal factors.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:53:58Z"
   },
   {
    "id": "note-a312b596c0be",
@@ -2340,6 +2376,19 @@
  ],
  "predictions": [
   {
+   "id": "pred-32148b797a98",
+   "event_id": "evt-44257358827f",
+   "created_at": "2026-09-02",
+   "expires_at": "2026-09-09",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 30,
+   "reasoning": "Small earthquake unlikely to affect Apple’s CA facilities or supply chain.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-bd2ce2eb9f46",
    "event_id": "evt-1872b330cb7f",
    "created_at": "2026-09-02",
@@ -2364,6 +2413,15 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
   },
   {
+   "id": "evt-1698716a1aa8",
+   "date": "2026-08-31",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Southeast Asia",
+   "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
    "id": "evt-2e61fbe3cf57",
    "date": "2026-08-31",
    "event_type": "natural_disaster",
@@ -2371,6 +2429,15 @@
    "region": "Southeast Asia",
    "summary": "A magnitude 5.5 earthquake struck Indonesia at 10 km depth, affecting about 9,000 people with MMI VI.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
+   "id": "evt-04b813e3b2ba",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "North America",
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, affected Mexico with no population impacted.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
   },
   {
    "id": "evt-dfa14d13a34a",
@@ -2406,6 +2473,15 @@
    "severity": 3,
    "region": "Pacific Ocean",
    "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  },
+  {
+   "id": "evt-7b0c4ff2b1d8",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "A 5.9 magnitude earthquake occurred at 10 km depth in the Southern East Pacific Rise on 2 September 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
   },
   {

@@ -2314,6 +2314,18 @@
    "written_at": "2026-09-03T10:41:04Z"
   },
   {
+   "id": "note-e0683703bcb4",
+   "kind": "causal_notes",
+   "asset": "JPM",
+   "move_id": "move-JPM-2026-04-15",
+   "move_date": "2026-04-15",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely internal earnings miss or macro data.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:53:31Z"
+  },
+  {
    "id": "note-206fdd8ff0ff",
    "kind": "causal_notes",
    "asset": "JPM",
@@ -2337,6 +2349,19 @@
    "threshold_pct": 0.5,
    "confidence": 45,
    "reasoning": "Global risk aversion may hit banks, modest short‑term dip.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-4235269d92c1",
+   "event_id": "evt-42dd92dcec05",
+   "created_at": "2026-09-02",
+   "expires_at": "2026-09-09",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 45,
+   "reasoning": "Risk event may cause slight volatility, but likely range within 7 days.",
    "status": "open",
    "outcome": null
   },
@@ -2365,6 +2390,15 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
   },
   {
+   "id": "evt-1698716a1aa8",
+   "date": "2026-08-31",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Southeast Asia",
+   "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
    "id": "evt-2e61fbe3cf57",
    "date": "2026-08-31",
    "event_type": "natural_disaster",
@@ -2372,6 +2406,15 @@
    "region": "Southeast Asia",
    "summary": "A magnitude 5.5 earthquake struck Indonesia at 10 km depth, affecting about 9,000 people with MMI VI.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
+   "id": "evt-04b813e3b2ba",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "North America",
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, affected Mexico with no population impacted.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
   },
   {
    "id": "evt-dfa14d13a34a",
@@ -2407,6 +2450,15 @@
    "severity": 3,
    "region": "Pacific Ocean",
    "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  },
+  {
+   "id": "evt-7b0c4ff2b1d8",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "A 5.9 magnitude earthquake occurred at 10 km depth in the Southern East Pacific Rise on 2 September 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
   },
   {

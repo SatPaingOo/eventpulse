@@ -2238,6 +2238,18 @@
  ],
  "causal_notes": [
   {
+   "id": "note-368e7fed8c67",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-08-27",
+   "move_date": "2026-08-27",
+   "event_ids": [],
+   "reasoning": "No listed events; likely due to unreported supply/demand shift or inventory data release.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:54:00Z"
+  },
+  {
    "id": "note-cd5fca1f2eda",
    "kind": "causal_notes",
    "asset": "WTI",
@@ -2260,6 +2272,18 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T10:25:19Z"
+  },
+  {
+   "id": "note-85a1ba5619e1",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-07-24",
+   "move_date": "2026-07-24",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely due to broader supply concerns or market sentiment affecting WTI prices.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:53:59Z"
   },
   {
    "id": "note-c64a73eed984",
@@ -2298,6 +2322,30 @@
    "written_at": "2026-09-03T09:43:32Z"
   },
   {
+   "id": "note-9a1be6dd2c1c",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-06-29",
+   "move_date": "2026-06-29",
+   "event_ids": [],
+   "reasoning": "No events identified; price move likely due to market speculation or unreported supply/demand shifts.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:53:32Z"
+  },
+  {
+   "id": "note-a2896e6c0b87",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-06-16",
+   "move_date": "2026-06-16",
+   "event_ids": [],
+   "reasoning": "No listed events; likely due to global supply concerns or inventory drawdown.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:54:00Z"
+  },
+  {
    "id": "note-1305094fae0a",
    "kind": "causal_notes",
    "asset": "WTI",
@@ -2308,6 +2356,18 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T10:29:58Z"
+  },
+  {
+   "id": "note-a031cd3600f2",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-06-10",
+   "move_date": "2026-06-10",
+   "event_ids": [],
+   "reasoning": "No events identified; price move likely due to market microstructure or data error.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:53:33Z"
   },
   {
    "id": "note-1b839ba9a584",
@@ -2346,6 +2406,18 @@
    "written_at": "2026-09-03T09:44:21Z"
   },
   {
+   "id": "note-a29d42c75e9b",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-05-26",
+   "move_date": "2026-05-26",
+   "event_ids": [],
+   "reasoning": "Likely due to a surprise rise in U.S. crude inventories, signaling oversupply and weaker demand.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:53:32Z"
+  },
+  {
    "id": "note-b63864706444",
    "kind": "causal_notes",
    "asset": "WTI",
@@ -2382,6 +2454,18 @@
    "written_at": "2026-09-03T10:30:25Z"
   },
   {
+   "id": "note-b437a4a255f8",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-04-24",
+   "move_date": "2026-04-24",
+   "event_ids": [],
+   "reasoning": "No listed events; likely due to market microstructure or technical factors.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:53:59Z"
+  },
+  {
    "id": "note-5be70e931421",
    "kind": "causal_notes",
    "asset": "WTI",
@@ -2404,6 +2488,18 @@
    "confidence": 0,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T09:42:06Z"
+  },
+  {
+   "id": "note-a3a3f2b72036",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-04-13",
+   "move_date": "2026-04-13",
+   "event_ids": [],
+   "reasoning": "No specific event, likely driven by broader market sentiment or supply concerns in the oil sector.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:54:27Z"
   },
   {
    "id": "note-0125e382b59b",
@@ -2444,6 +2540,19 @@
  ],
  "predictions": [
   {
+   "id": "pred-51d9c24993e0",
+   "event_id": "evt-42dd92dcec05",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Angola's oil output may drop, tightening supply, pushing WTI up.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-3193887298e8",
    "event_id": "evt-b78001e90008",
    "created_at": "2026-09-03",
@@ -2453,6 +2562,19 @@
    "threshold_pct": 1.0,
    "confidence": 60,
    "reasoning": "Angola fire may cut oil output, tightening supply and lifting WTI prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-531bead034e6",
+   "event_id": "evt-7b0c4ff2b1d8",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Offshore rigs and pipelines in Pacific may be damaged, tightening supply and pushing prices up.",
    "status": "open",
    "outcome": null
   },
@@ -2613,6 +2735,19 @@
    "outcome": null
   },
   {
+   "id": "pred-cf9aca69d48a",
+   "event_id": "evt-1698716a1aa8",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Indonesia's quake could disrupt oil infrastructure, tightening supply, lifting prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-a20524d13fc8",
    "event_id": "evt-5f2d3ddf40ed",
    "created_at": "2026-09-03",
@@ -2637,6 +2772,15 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
   },
   {
+   "id": "evt-1698716a1aa8",
+   "date": "2026-08-31",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Southeast Asia",
+   "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
    "id": "evt-2e61fbe3cf57",
    "date": "2026-08-31",
    "event_type": "natural_disaster",
@@ -2644,6 +2788,15 @@
    "region": "Southeast Asia",
    "summary": "A magnitude 5.5 earthquake struck Indonesia at 10 km depth, affecting about 9,000 people with MMI VI.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
+   "id": "evt-04b813e3b2ba",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "North America",
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, affected Mexico with no population impacted.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
   },
   {
    "id": "evt-dfa14d13a34a",
@@ -2679,6 +2832,15 @@
    "severity": 3,
    "region": "Pacific Ocean",
    "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  },
+  {
+   "id": "evt-7b0c4ff2b1d8",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "A 5.9 magnitude earthquake occurred at 10 km depth in the Southern East Pacific Rise on 2 September 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
   },
   {
@@ -2763,6 +2925,15 @@
    "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss"
   },
   {
+   "id": "evt-c8541b6f48f3",
+   "date": "2026-09-03",
+   "event_type": "other",
+   "severity": 2,
+   "region": "US",
+   "summary": "Disney actress Carla Jeffery, known for role in Zombies, dies at 33.",
+   "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "id": "evt-113ba61fca20",
    "date": "2026-09-03",
    "event_type": "other",
@@ -2817,6 +2988,15 @@
    "url": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss"
   },
   {
+   "id": "evt-42dd92dcec05",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Africa",
+   "summary": "Forest fire started in Angola on 31 August 2026, burning until 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031502"
+  },
+  {
    "id": "evt-dbe4446e85a0",
    "date": "2026-09-03",
    "event_type": "other",
@@ -2844,6 +3024,15 @@
    "url": "https://www.bbc.co.uk/news/articles/cj9x2k8n3y1o?at_medium=RSS&at_campaign=rss"
   },
   {
+   "id": "evt-c23662161120",
+   "date": "2026-09-03",
+   "event_type": "political",
+   "severity": 3,
+   "region": "Europe",
+   "summary": "Maltese tycoon acquitted in the 2017 murder case of journalist Daphne Caruana Galizia.",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss"
+  },
+  {
    "id": "evt-7417ddfcb001",
    "date": "2026-09-03",
    "event_type": "natural_disaster",
@@ -2868,6 +3057,24 @@
    "severity": 3,
    "region": "Africa",
    "summary": "Forest fire started in the Democratic Republic of Congo on 31 August 2026 and continued until 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"
+  },
+  {
+   "id": "evt-a9cc9632e5ca",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Canada",
+   "summary": "Powerful storm in Toronto caused power outages, flooding, and flight cancellations at Pearson Airport.",
+   "url": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss"
+  },
+  {
+   "id": "evt-f88bbaaca6d2",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Africa",
+   "summary": "Forest fire started in DRC on 31 Aug 2026, lasted until 2 Sep 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"
   }
  ]

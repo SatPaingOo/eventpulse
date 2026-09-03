@@ -1,98 +1,143 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
-<meta name="theme-color" content="#070b16"/>
+<meta name="theme-color" content="#0b0d12"/>
 <title>Markets — event-driven market intelligence · EventPulse</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><text x='50' y='68' font-size='46' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>EP</text></svg>"/>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23e8a020'/><text x='50' y='68' font-size='46' text-anchor='middle' fill='%230b0d12' font-family='Arial' font-weight='bold'>EP</text></svg>"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com"></script>
-<script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','ui-sans-serif','system-ui'],mono:['JetBrains Mono','ui-monospace','SFMono-Regular']}}}}</script>
+<script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','ui-sans-serif','system-ui'],display:['Space Grotesk','Inter','system-ui'],mono:['JetBrains Mono','ui-monospace','SFMono-Regular']}}}}</script>
 <style>
+:root{--bg:#0b0d12;--panel:rgba(255,255,255,.03);--panel2:rgba(255,255,255,.06);
+  --line:rgba(255,255,255,.09);--gold:#e8a020;--gold2:#f6c453;--amber:#fbbf24;
+  --ink:#e7e9ee;--mut:#8b93a3;--up:#34d399;--down:#fb7185;--teal:#2dd4bf}
 html{-webkit-text-size-adjust:100%}
-body{overflow-x:hidden;overflow-x:clip}
-.logo-mark{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;font-weight:800;font-size:13px;letter-spacing:.02em}
-.nav-link{font-size:13px;color:#94a3b8;padding:7px 10px;border-radius:8px;transition:color .15s;white-space:nowrap}
-@media(min-width:640px){.nav-link{font-size:14px;padding:7px 13px}}
-.nav-link:hover{color:#e2e8f0}
-.nav-link.active{color:#fff;background:rgba(255,255,255,.06)}
-.pulse-dot{width:8px;height:8px;border-radius:9999px;background:#34d399;box-shadow:0 0 0 0 rgba(52,211,153,.6);animation:pulse 2s infinite;flex-shrink:0}
-@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(52,211,153,.55)}70%{box-shadow:0 0 0 9px rgba(52,211,153,0)}100%{box-shadow:0 0 0 0 rgba(52,211,153,0)}}
-.grad-text{background:linear-gradient(100deg,#818cf8,#c084fc,#f472b6);-webkit-background-clip:text;background-clip:text;color:transparent}
-.surface{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:16px}
+body{overflow-x:hidden;overflow-x:clip;background:var(--bg)}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);
+  background-size:44px 44px;mask-image:radial-gradient(ellipse 90% 70% at 50% 0%,#000 30%,transparent 78%)}
+.font-display{font-family:'Space Grotesk','Inter',system-ui,sans-serif}
+h1,h2,h3{font-family:'Space Grotesk','Inter',system-ui,sans-serif;letter-spacing:-.01em}
+.logo-mark{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:10px;
+  background:linear-gradient(135deg,#f6c453,#e8a020 60%,#b97a10);color:#0b0d12;font-weight:800;font-size:14px;
+  box-shadow:0 0 0 1px rgba(246,196,83,.35),0 4px 18px -6px rgba(232,160,32,.55)}
+.site-nav{position:sticky;top:0;z-index:50;background:rgba(11,13,18,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(255,255,255,.07)}
+.nav-burger{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:10px;
+  color:#cdd3de;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);transition:background .15s}
+.nav-burger:active{background:rgba(255,255,255,.12)}
+@media(min-width:640px){.nav-burger{display:none}}
+.nav-menu{display:none;flex-direction:column;position:absolute;top:calc(100% + 0px);left:0;right:0;margin:0 .75rem;
+  background:rgba(15,17,24,.97);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:.4rem;
+  box-shadow:0 18px 40px -12px rgba(0,0,0,.6)}
+.nav-menu.open{display:flex}
+.nav-link{font-size:15px;color:#aab2c0;padding:12px 16px;border-radius:10px;transition:all .15s;font-weight:500}
+.nav-link:hover{color:#fff;background:rgba(255,255,255,.06)}
+.nav-link.active{color:#f6c453;background:rgba(246,196,83,.08)}
+@media(min-width:640px){.nav-menu{display:flex;flex-direction:row;position:static;background:transparent;border:0;box-shadow:none;padding:0;gap:2px;margin:0}
+  .nav-link{font-size:14px;padding:8px 13px;border-radius:9px}}
+.pulse-dot{width:8px;height:8px;border-radius:9999px;background:var(--gold2);box-shadow:0 0 0 0 rgba(246,196,83,.6);animation:pulse 2s infinite;flex-shrink:0}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(246,196,83,.5)}70%{box-shadow:0 0 0 9px rgba(246,196,83,0)}100%{box-shadow:0 0 0 0 rgba(246,196,83,0)}}
+.grad-text{background:linear-gradient(100deg,#f6c453,#e8a020 55%,#f472b6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.surface{background:var(--panel);border:1px solid var(--line);border-radius:16px;backdrop-filter:blur(6px)}
 @media(min-width:768px){.surface{border-radius:18px}}
+.surface:hover{border-color:rgba(246,196,83,.28)}
 .ambient{position:fixed;inset:0;overflow:hidden;overflow-x:clip;pointer-events:none;z-index:0}
-.blob{position:absolute;border-radius:9999px;filter:blur(120px);opacity:.16}
-.blob-a{width:520px;height:520px;background:#4f46e5;top:-140px;left:-120px}
-.blob-b{width:460px;height:460px;background:#7c3aed;top:20%;right:-160px}
-.blob-c{width:380px;height:380px;background:#0ea5e9;bottom:-120px;left:30%}
+.glow{position:absolute;border-radius:9999px;filter:blur(130px);opacity:.14}
+.glow-a{width:560px;height:560px;background:#e8a020;top:-200px;left:-140px}
+.glow-b{width:520px;height:520px;background:#0d9488;bottom:-180px;right:-160px;opacity:.11}
 .tnum{font-variant-numeric:tabular-nums}
-.chip{font-size:10px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;padding:2px 8px;border-radius:9999px;white-space:nowrap}
-@media(min-width:640px){.chip{font-size:11px;padding:2px 9px}}
+.chip{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 9px;border-radius:9999px;white-space:nowrap}
+@media(min-width:640px){.chip{font-size:11px;padding:3px 10px}}
 a{color:inherit}
 .wrap-balance{text-wrap:balance}
-@media(max-width:640px){h1{letter-spacing:-.02em}}
+/* ticker tape */
+.ticker{border-bottom:1px solid rgba(255,255,255,.07);background:rgba(232,160,32,.045);overflow:hidden;position:relative;z-index:1}
+.ticker-track{display:inline-flex;align-items:center;white-space:nowrap;will-change:transform;animation:tick 60s linear infinite}
+.ticker:hover .ticker-track{animation-play-state:paused}
+.ticker-item{display:inline-flex;align-items:baseline;gap:8px;padding:7px 26px;font-size:12.5px;color:#c9d0dc;border-right:1px solid rgba(255,255,255,.07);font-family:'JetBrains Mono',monospace}
+.ticker-item b{color:#f1f3f7;font-weight:600}
+.ticker-item .up{color:var(--up)}.ticker-item .down{color:var(--down)}
+@keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.ticker-track{animation:none}}
 </style>
 <script>
-function epLocal(iso){ if(!iso) return ''; const d=new Date(iso); if(isNaN(d)) return iso;
-  return d.toLocaleString(undefined,{year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}); }
-function epRel(iso){ if(!iso) return ''; const d=new Date(iso); if(isNaN(d)) return '';
-  const s=(Date.now()-d.getTime())/1000; if(s<45) return 'just now';
-  const m=s/60; if(m<60) return Math.round(m)+'m ago'; const h=m/60; if(h<24) return Math.round(h)+'h ago';
-  const da=h/24; if(da<30) return Math.round(da)+'d ago'; return d.toLocaleDateString(); }
 document.addEventListener('DOMContentLoaded',function(){
+  var burger=document.getElementById('navBurger'), menu=document.getElementById('navMenu');
+  if(burger&&menu){
+    burger.addEventListener('click',function(){ var open=menu.classList.toggle('open');
+      burger.setAttribute('aria-expanded',open?'true':'false');
+      burger.setAttribute('aria-label',open?'Close menu':'Open menu'); });
+    menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){
+      menu.classList.remove('open'); burger.setAttribute('aria-expanded','false'); }); });
+    document.addEventListener('click',function(e){ if(!menu.contains(e.target)&&!burger.contains(e.target)){
+      menu.classList.remove('open'); burger.setAttribute('aria-expanded','false'); } });
+  }
+  function epLocal(iso){ if(!iso) return ''; var d=new Date(iso); if(isNaN(d)) return iso;
+    return d.toLocaleString(undefined,{year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}); }
+  function epRel(iso){ if(!iso) return ''; var d=new Date(iso); if(isNaN(d)) return '';
+    var s=(Date.now()-d.getTime())/1000; if(s<45) return 'just now';
+    var m=s/60; if(m<60) return Math.round(m)+'m ago'; var h=m/60; if(h<24) return Math.round(h)+'h ago';
+    var da=h/24; if(da<30) return Math.round(da)+'d ago'; return d.toLocaleDateString(); }
   document.querySelectorAll('[data-utc]').forEach(function(el){
     var iso=el.getAttribute('data-utc'); if(!iso) return;
     var rel=epRel(iso), loc=epLocal(iso);
     el.textContent=rel?rel:loc;
     el.setAttribute('title',loc+' (local time)');
   });
-});</script>
-</head><body class="bg-[#070b16] text-slate-200 font-sans antialiased">
-<div class="ambient"><div class="blob blob-a"></div><div class="blob blob-b"></div><div class="blob blob-c"></div></div><nav class="site-nav"><div class="max-w-7xl mx-auto px-4 sm:px-5 py-3 flex items-center justify-between relative z-10">
-<a href="./index.html" class="flex items-center gap-2 min-w-0">
+});
+</script>
+</head><body class="bg-[#0b0d12] text-slate-200 font-sans antialiased">
+<div class="ambient"><div class="glow glow-a"></div><div class="glow glow-b"></div></div><nav class="site-nav"><div class="max-w-7xl mx-auto px-4 sm:px-5 py-3 flex items-center justify-between relative">
+<a href="./index.html" class="flex items-center gap-2.5 min-w-0">
   <span class="logo-mark shrink-0">EP</span>
-  <span class="font-bold tracking-tight text-white truncate">EventPulse</span>
+  <span class="font-display font-bold tracking-tight text-white text-[15px] sm:text-base truncate">EventPulse</span>
 </a>
-<div class="flex items-center gap-1 sm:gap-2" id="siteMenu">
+<button class="nav-burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+</button>
+<div class="nav-menu" id="navMenu">
   <a href="./index.html" class="nav-link active">Markets</a>
   <a href="./events.html" class="nav-link ">Events</a>
   <a href="./patterns.html" class="nav-link ">Track&nbsp;record</a>
 </div></div></nav>
-<header class="relative z-10"><div class="max-w-7xl mx-auto px-4 sm:px-5 pt-12 sm:pt-16 pb-8 text-center">
-  <div class="inline-flex flex-wrap items-center justify-center gap-2 rounded-full border border-white/10 bg-white/5 px-3.5 py-1.5 text-xs text-slate-300 mb-6">
+<div class="ticker-wrap relative z-10"><div class="ticker"><div class="ticker-track"><span class="ticker-item"><b>Gold</b><span class="tnum">4,484.60</span><span class="up tnum">+2.71%</span></span><span class="ticker-item"><b>Crude Oil (WTI)</b><span class="tnum">90.91</span><span class="down tnum">-0.11%</span></span><span class="ticker-item"><b>Apple</b><span class="tnum">324.96</span><span class="down tnum">-0.05%</span></span><span class="ticker-item"><b>NVIDIA</b><span class="tnum">224.41</span><span class="up tnum">+3.21%</span></span><span class="ticker-item"><b>Microsoft</b><span class="tnum">496.82</span><span class="down tnum">-0.84%</span></span><span class="ticker-item"><b>Tesla</b><span class="tnum">357.01</span><span class="up tnum">+0.26%</span></span><span class="ticker-item"><b>JPMorgan</b><span class="tnum">356.22</span><span class="up tnum">+0.36%</span></span><span class="ticker-item"><b>Gold</b><span class="tnum">4,484.60</span><span class="up tnum">+2.71%</span></span><span class="ticker-item"><b>Crude Oil (WTI)</b><span class="tnum">90.91</span><span class="down tnum">-0.11%</span></span><span class="ticker-item"><b>Apple</b><span class="tnum">324.96</span><span class="down tnum">-0.05%</span></span><span class="ticker-item"><b>NVIDIA</b><span class="tnum">224.41</span><span class="up tnum">+3.21%</span></span><span class="ticker-item"><b>Microsoft</b><span class="tnum">496.82</span><span class="down tnum">-0.84%</span></span><span class="ticker-item"><b>Tesla</b><span class="tnum">357.01</span><span class="up tnum">+0.26%</span></span><span class="ticker-item"><b>JPMorgan</b><span class="tnum">356.22</span><span class="up tnum">+0.36%</span></span></div></div></div>
+<header class="relative z-10"><div class="max-w-7xl mx-auto px-4 sm:px-5 pt-10 sm:pt-16 pb-8 text-center">
+  <div class="inline-flex flex-wrap items-center justify-center gap-2 rounded-full border border-amber-400/20 bg-amber-400/5 px-3.5 py-1.5 text-xs text-amber-100/80 mb-7">
     <span class="pulse-dot"></span><span>Autonomous pipeline · updating every 6h</span>
-    <span class="text-slate-500 ml-1">last <span data-utc="2026-09-03T10:42:03Z">2026-09-03 · 10:42</span></span></div>
-  <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-white max-w-4xl mx-auto leading-[1.06] wrap-balance">
-    Events move markets.<br class='hidden sm:block'/> We <span class="grad-text">prove it with data.</span></h1>
+    <span class="text-amber-200/40 ml-1">last <span data-utc="2026-09-03T10:55:25Z">2026-09-03 · 10:55</span></span></div>
+  <h1 class="font-display text-3xl sm:text-5xl lg:text-[3.6rem] font-bold tracking-tight text-white max-w-4xl mx-auto leading-[1.05] wrap-balance">
+    Read the market's <span class="grad-text">signal</span> before it moves.</h1>
   <p class="mt-5 text-slate-400 max-w-2xl mx-auto text-base sm:text-lg leading-relaxed px-2">
-    EventPulse watches politics, conflict and disasters 24/7, tracks how they move
-    gold, oil and major companies, explains every significant price move — then
-    scores its own predictions against reality and publishes the record.
+    EventPulse watches geopolitics, conflict and disasters around the clock, measures how they
+    move gold, oil and the companies that matter — then scores its own calls against
+    reality and shows you the track record.
   </p>
-  <div class="mt-7 flex flex-wrap justify-center gap-3 px-4">
-    <a href="#markets" class="px-6 py-3 rounded-xl font-semibold bg-indigo-500 hover:bg-indigo-400 text-white transition-colors">View markets</a>
-    <a href="events.html" class="px-6 py-3 rounded-xl font-semibold border border-white/15 hover:bg-white/5 transition-colors">Latest events</a>
+  <div class="mt-8 flex flex-wrap justify-center gap-3 px-4">
+    <a href="#markets" class="px-6 py-3 rounded-xl font-semibold bg-amber-400 hover:bg-amber-300 text-[#0b0d12] transition-colors shadow-[0_6px_24px_-8px_rgba(232,160,32,.6)]">View markets</a>
+    <a href="events.html" class="px-6 py-3 rounded-xl font-semibold border border-white/15 text-slate-200 hover:bg-white/5 transition-colors">Latest events</a>
   </div>
   
-      <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-3xl mx-auto mt-12" id="stats">
-        <div class="surface p-4"><div class="text-2xl font-bold text-white tnum">7</div><div class="text-xs text-slate-500 mt-0.5">assets watched</div></div>
-        <div class="surface p-4"><div class="text-2xl font-bold text-white tnum">36</div><div class="text-xs text-slate-500 mt-0.5">events recorded</div></div>
-        <div class="surface p-4"><div class="text-2xl font-bold text-white tnum">32</div><div class="text-xs text-slate-500 mt-0.5">open calls</div></div>
-        <div class="surface p-4"><div class="text-2xl font-bold text-slate-200 tnum">—%</div><div class="text-xs text-slate-500 mt-0.5">verified hit rate</div></div>
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3 max-w-3xl mx-auto mt-11" id="stats">
+        <div class="surface p-3.5 sm:p-4"><div class="text-xl sm:text-2xl font-bold text-white tnum">7</div><div class="text-[11px] sm:text-xs text-slate-500 mt-0.5">assets watched</div></div>
+        <div class="surface p-3.5 sm:p-4"><div class="text-xl sm:text-2xl font-bold text-white tnum">48</div><div class="text-[11px] sm:text-xs text-slate-500 mt-0.5">events recorded</div></div>
+        <div class="surface p-3.5 sm:p-4"><div class="text-xl sm:text-2xl font-bold text-white tnum">44</div><div class="text-[11px] sm:text-xs text-slate-500 mt-0.5">open calls</div></div>
+        <div class="surface p-3.5 sm:p-4"><div class="text-xl sm:text-2xl font-bold text-amber-300 tnum">—%</div><div class="text-[11px] sm:text-xs text-slate-500 mt-0.5">verified hit rate</div></div>
       </div>
 </div></header>
 <main class="relative z-10 max-w-7xl mx-auto px-4 sm:px-5">
   <section id="markets" class="py-6 scroll-mt-6">
     <div class="flex items-end justify-between mb-4 sm:mb-5 gap-3">
-      <div><h2 class="text-xl sm:text-2xl font-bold text-white">Markets</h2>
+      <div><h2 class="font-display text-xl sm:text-2xl font-bold text-white">Markets</h2>
       <p class="text-slate-500 text-xs sm:text-sm mt-0.5">Latest closes · 1-day change · 45-day trend</p></div>
-      <a href="patterns.html" class="text-xs text-indigo-300 hover:underline shrink-0">track record →</a>
+      <a href="patterns.html" class="text-xs text-amber-300/90 hover:text-amber-200 hover:underline shrink-0">track record →</a>
     </div>
     <div class="grid grid-cols-1 min-[480px]:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-4">
-        <a href="asset/xau-usd.html" class="surface p-4 hover:border-white/20 transition-colors block min-w-0">
+        <a href="asset/xau-usd.html" class="surface p-4 block min-w-0 group">
           <div class="flex items-start justify-between gap-2">
-            <div class="min-w-0"><div class="font-semibold text-white truncate">Gold</div>
+            <div class="min-w-0"><div class="font-semibold text-white group-hover:text-amber-300 transition-colors truncate">Gold</div>
             <div class="text-xs text-slate-500 mt-0.5 truncate">XAU/USD · metals</div></div>
             <span class='chip bg-emerald-400/10 text-emerald-400 tnum'>+2.71%</span>
           </div>
@@ -102,9 +147,9 @@ document.addEventListener('DOMContentLoaded',function(){
             <div class="min-w-0 flex-1 max-w-[45%] sm:max-w-[52%]"><svg width='140' height='40' viewBox='0 0 140 40' class="w-full h-10" preserveAspectRatio='none'><path d='M0,40 L0.0,30.4 L3.2,28.2 L6.4,28.7 L9.5,32.6 L12.7,29.5 L15.9,30.9 L19.1,36.4 L22.3,33.1 L25.5,34.0 L28.6,37.0 L31.8,35.6 L35.0,35.7 L38.2,32.6 L41.4,28.6 L44.5,33.8 L47.7,32.7 L50.9,32.4 L54.1,34.4 L57.3,34.5 L60.5,31.1 L63.6,33.7 L66.8,34.5 L70.0,31.3 L73.2,23.5 L76.4,23.7 L79.5,18.6 L82.7,17.5 L85.9,16.4 L89.1,15.0 L92.3,17.4 L95.5,16.5 L98.6,14.6 L101.8,17.3 L105.0,10.9 L108.2,9.5 L111.4,3.9 L114.5,3.0 L117.7,3.1 L120.9,5.2 L124.1,4.6 L127.3,11.4 L130.5,13.9 L133.6,18.2 L136.8,17.2 L140.0,11.1 L140,40 Z' fill='#34d399' opacity='0.10'/><polyline points='0.0,30.4 3.2,28.2 6.4,28.7 9.5,32.6 12.7,29.5 15.9,30.9 19.1,36.4 22.3,33.1 25.5,34.0 28.6,37.0 31.8,35.6 35.0,35.7 38.2,32.6 41.4,28.6 44.5,33.8 47.7,32.7 50.9,32.4 54.1,34.4 57.3,34.5 60.5,31.1 63.6,33.7 66.8,34.5 70.0,31.3 73.2,23.5 76.4,23.7 79.5,18.6 82.7,17.5 85.9,16.4 89.1,15.0 92.3,17.4 95.5,16.5 98.6,14.6 101.8,17.3 105.0,10.9 108.2,9.5 111.4,3.9 114.5,3.0 117.7,3.1 120.9,5.2 124.1,4.6 127.3,11.4 130.5,13.9 133.6,18.2 136.8,17.2 140.0,11.1' fill='none' stroke='#34d399' stroke-width='1.6' stroke-linejoin='round' stroke-linecap='round' vector-effect='non-scaling-stroke'/></svg></div>
           </div>
         </a>
-        <a href="asset/wti.html" class="surface p-4 hover:border-white/20 transition-colors block min-w-0">
+        <a href="asset/wti.html" class="surface p-4 block min-w-0 group">
           <div class="flex items-start justify-between gap-2">
-            <div class="min-w-0"><div class="font-semibold text-white truncate">Crude Oil (WTI)</div>
+            <div class="min-w-0"><div class="font-semibold text-white group-hover:text-amber-300 transition-colors truncate">Crude Oil (WTI)</div>
             <div class="text-xs text-slate-500 mt-0.5 truncate">WTI · energy</div></div>
             <span class='chip bg-rose-400/10 text-rose-400 tnum'>-0.11%</span>
           </div>
@@ -114,9 +159,9 @@ document.addEventListener('DOMContentLoaded',function(){
             <div class="min-w-0 flex-1 max-w-[45%] sm:max-w-[52%]"><svg width='140' height='40' viewBox='0 0 140 40' class="w-full h-10" preserveAspectRatio='none'><path d='M0,40 L0.0,36.8 L3.2,37.0 L6.4,34.3 L9.5,29.9 L12.7,31.9 L15.9,32.9 L19.1,23.2 L22.3,21.5 L25.5,21.1 L28.6,22.0 L31.8,17.0 L35.0,15.9 L38.2,13.5 L41.4,10.7 L44.5,3.0 L47.7,7.1 L50.9,16.8 L54.1,21.6 L57.3,14.1 L60.5,15.4 L63.6,13.8 L66.8,20.0 L70.0,26.6 L73.2,27.4 L76.4,24.4 L79.5,23.1 L82.7,17.5 L85.9,15.9 L89.1,15.8 L92.3,18.7 L95.5,17.1 L98.6,14.1 L101.8,13.4 L105.0,12.1 L108.2,9.3 L111.4,10.4 L114.5,13.3 L117.7,17.1 L120.9,17.3 L124.1,15.5 L127.3,15.6 L130.5,12.2 L133.6,5.8 L136.8,4.7 L140.0,4.8 L140,40 Z' fill='#34d399' opacity='0.10'/><polyline points='0.0,36.8 3.2,37.0 6.4,34.3 9.5,29.9 12.7,31.9 15.9,32.9 19.1,23.2 22.3,21.5 25.5,21.1 28.6,22.0 31.8,17.0 35.0,15.9 38.2,13.5 41.4,10.7 44.5,3.0 47.7,7.1 50.9,16.8 54.1,21.6 57.3,14.1 60.5,15.4 63.6,13.8 66.8,20.0 70.0,26.6 73.2,27.4 76.4,24.4 79.5,23.1 82.7,17.5 85.9,15.9 89.1,15.8 92.3,18.7 95.5,17.1 98.6,14.1 101.8,13.4 105.0,12.1 108.2,9.3 111.4,10.4 114.5,13.3 117.7,17.1 120.9,17.3 124.1,15.5 127.3,15.6 130.5,12.2 133.6,5.8 136.8,4.7 140.0,4.8' fill='none' stroke='#34d399' stroke-width='1.6' stroke-linejoin='round' stroke-linecap='round' vector-effect='non-scaling-stroke'/></svg></div>
           </div>
         </a>
-        <a href="asset/aapl.html" class="surface p-4 hover:border-white/20 transition-colors block min-w-0">
+        <a href="asset/aapl.html" class="surface p-4 block min-w-0 group">
           <div class="flex items-start justify-between gap-2">
-            <div class="min-w-0"><div class="font-semibold text-white truncate">Apple</div>
+            <div class="min-w-0"><div class="font-semibold text-white group-hover:text-amber-300 transition-colors truncate">Apple</div>
             <div class="text-xs text-slate-500 mt-0.5 truncate">AAPL · equity</div></div>
             <span class='chip bg-rose-400/10 text-rose-400 tnum'>-0.05%</span>
           </div>
@@ -126,9 +171,9 @@ document.addEventListener('DOMContentLoaded',function(){
             <div class="min-w-0 flex-1 max-w-[45%] sm:max-w-[52%]"><svg width='140' height='40' viewBox='0 0 140 40' class="w-full h-10" preserveAspectRatio='none'><path d='M0,40 L0.0,37.0 L3.2,26.4 L6.4,23.4 L9.5,24.9 L12.7,22.9 L15.9,20.8 L19.1,21.4 L22.3,19.9 L25.5,21.8 L28.6,12.4 L31.8,8.1 L35.0,7.7 L38.2,13.0 L41.4,12.2 L44.5,13.6 L47.7,16.7 L50.9,8.3 L54.1,5.4 L57.3,3.0 L60.5,4.4 L63.6,7.9 L66.8,26.2 L70.0,30.3 L73.2,25.8 L76.4,24.6 L79.5,23.6 L82.7,22.9 L85.9,26.5 L89.1,29.0 L92.3,31.0 L95.5,28.7 L98.6,28.2 L101.8,28.5 L105.0,25.2 L108.2,20.1 L111.4,24.2 L114.5,25.7 L117.7,24.9 L120.9,25.3 L124.1,22.6 L127.3,21.8 L130.5,18.0 L133.6,20.1 L136.8,13.9 L140.0,14.0 L140,40 Z' fill='#34d399' opacity='0.10'/><polyline points='0.0,37.0 3.2,26.4 6.4,23.4 9.5,24.9 12.7,22.9 15.9,20.8 19.1,21.4 22.3,19.9 25.5,21.8 28.6,12.4 31.8,8.1 35.0,7.7 38.2,13.0 41.4,12.2 44.5,13.6 47.7,16.7 50.9,8.3 54.1,5.4 57.3,3.0 60.5,4.4 63.6,7.9 66.8,26.2 70.0,30.3 73.2,25.8 76.4,24.6 79.5,23.6 82.7,22.9 85.9,26.5 89.1,29.0 92.3,31.0 95.5,28.7 98.6,28.2 101.8,28.5 105.0,25.2 108.2,20.1 111.4,24.2 114.5,25.7 117.7,24.9 120.9,25.3 124.1,22.6 127.3,21.8 130.5,18.0 133.6,20.1 136.8,13.9 140.0,14.0' fill='none' stroke='#34d399' stroke-width='1.6' stroke-linejoin='round' stroke-linecap='round' vector-effect='non-scaling-stroke'/></svg></div>
           </div>
         </a>
-        <a href="asset/nvda.html" class="surface p-4 hover:border-white/20 transition-colors block min-w-0">
+        <a href="asset/nvda.html" class="surface p-4 block min-w-0 group">
           <div class="flex items-start justify-between gap-2">
-            <div class="min-w-0"><div class="font-semibold text-white truncate">NVIDIA</div>
+            <div class="min-w-0"><div class="font-semibold text-white group-hover:text-amber-300 transition-colors truncate">NVIDIA</div>
             <div class="text-xs text-slate-500 mt-0.5 truncate">NVDA · equity</div></div>
             <span class='chip bg-emerald-400/10 text-emerald-400 tnum'>+3.21%</span>
           </div>
@@ -138,9 +183,9 @@ document.addEventListener('DOMContentLoaded',function(){
             <div class="min-w-0 flex-1 max-w-[45%] sm:max-w-[52%]"><svg width='140' height='40' viewBox='0 0 140 40' class="w-full h-10" preserveAspectRatio='none'><path d='M0,40 L0.0,30.2 L3.2,32.7 L6.4,32.0 L9.5,30.8 L12.7,24.4 L15.9,25.6 L19.1,18.2 L22.3,24.9 L25.5,17.5 L28.6,16.9 L31.8,21.4 L35.0,25.5 L38.2,25.1 L41.4,21.5 L44.5,17.3 L47.7,20.2 L50.9,21.9 L54.1,31.2 L57.3,30.7 L60.5,37.0 L63.6,32.5 L66.8,27.4 L70.0,22.1 L73.2,17.4 L76.4,10.8 L79.5,11.1 L82.7,6.6 L85.9,12.3 L89.1,12.4 L92.3,6.5 L95.5,5.4 L98.6,5.5 L101.8,5.7 L105.0,10.4 L108.2,12.3 L111.4,13.0 L114.5,14.9 L117.7,20.5 L120.9,16.4 L124.1,19.4 L127.3,3.0 L130.5,12.3 L133.6,9.4 L136.8,12.4 L140.0,6.2 L140,40 Z' fill='#34d399' opacity='0.10'/><polyline points='0.0,30.2 3.2,32.7 6.4,32.0 9.5,30.8 12.7,24.4 15.9,25.6 19.1,18.2 22.3,24.9 25.5,17.5 28.6,16.9 31.8,21.4 35.0,25.5 38.2,25.1 41.4,21.5 44.5,17.3 47.7,20.2 50.9,21.9 54.1,31.2 57.3,30.7 60.5,37.0 63.6,32.5 66.8,27.4 70.0,22.1 73.2,17.4 76.4,10.8 79.5,11.1 82.7,6.6 85.9,12.3 89.1,12.4 92.3,6.5 95.5,5.4 98.6,5.5 101.8,5.7 105.0,10.4 108.2,12.3 111.4,13.0 114.5,14.9 117.7,20.5 120.9,16.4 124.1,19.4 127.3,3.0 130.5,12.3 133.6,9.4 136.8,12.4 140.0,6.2' fill='none' stroke='#34d399' stroke-width='1.6' stroke-linejoin='round' stroke-linecap='round' vector-effect='non-scaling-stroke'/></svg></div>
           </div>
         </a>
-        <a href="asset/msft.html" class="surface p-4 hover:border-white/20 transition-colors block min-w-0">
+        <a href="asset/msft.html" class="surface p-4 block min-w-0 group">
           <div class="flex items-start justify-between gap-2">
-            <div class="min-w-0"><div class="font-semibold text-white truncate">Microsoft</div>
+            <div class="min-w-0"><div class="font-semibold text-white group-hover:text-amber-300 transition-colors truncate">Microsoft</div>
             <div class="text-xs text-slate-500 mt-0.5 truncate">MSFT · equity</div></div>
             <span class='chip bg-rose-400/10 text-rose-400 tnum'>-0.84%</span>
           </div>
@@ -150,9 +195,9 @@ document.addEventListener('DOMContentLoaded',function(){
             <div class="min-w-0 flex-1 max-w-[45%] sm:max-w-[52%]"><svg width='140' height='40' viewBox='0 0 140 40' class="w-full h-10" preserveAspectRatio='none'><path d='M0,40 L0.0,36.3 L3.2,34.7 L6.4,35.7 L9.5,35.1 L12.7,36.5 L15.9,36.3 L19.1,36.1 L22.3,34.6 L25.5,36.1 L28.6,33.4 L31.8,32.0 L35.0,33.9 L38.2,31.7 L41.4,32.9 L44.5,34.8 L47.7,37.0 L50.9,37.0 L54.1,35.1 L57.3,34.0 L60.5,34.7 L63.6,19.2 L66.8,15.7 L70.0,9.9 L73.2,8.5 L76.4,9.9 L79.5,6.7 L82.7,6.7 L85.9,5.2 L89.1,5.7 L92.3,8.6 L95.5,7.5 L98.6,7.9 L101.8,11.7 L105.0,11.4 L108.2,10.7 L111.4,11.3 L114.5,10.8 L117.7,9.7 L120.9,8.6 L124.1,7.4 L127.3,5.2 L130.5,3.0 L133.6,4.6 L136.8,6.2 L140.0,7.3 L140,40 Z' fill='#34d399' opacity='0.10'/><polyline points='0.0,36.3 3.2,34.7 6.4,35.7 9.5,35.1 12.7,36.5 15.9,36.3 19.1,36.1 22.3,34.6 25.5,36.1 28.6,33.4 31.8,32.0 35.0,33.9 38.2,31.7 41.4,32.9 44.5,34.8 47.7,37.0 50.9,37.0 54.1,35.1 57.3,34.0 60.5,34.7 63.6,19.2 66.8,15.7 70.0,9.9 73.2,8.5 76.4,9.9 79.5,6.7 82.7,6.7 85.9,5.2 89.1,5.7 92.3,8.6 95.5,7.5 98.6,7.9 101.8,11.7 105.0,11.4 108.2,10.7 111.4,11.3 114.5,10.8 117.7,9.7 120.9,8.6 124.1,7.4 127.3,5.2 130.5,3.0 133.6,4.6 136.8,6.2 140.0,7.3' fill='none' stroke='#34d399' stroke-width='1.6' stroke-linejoin='round' stroke-linecap='round' vector-effect='non-scaling-stroke'/></svg></div>
           </div>
         </a>
-        <a href="asset/tsla.html" class="surface p-4 hover:border-white/20 transition-colors block min-w-0">
+        <a href="asset/tsla.html" class="surface p-4 block min-w-0 group">
           <div class="flex items-start justify-between gap-2">
-            <div class="min-w-0"><div class="font-semibold text-white truncate">Tesla</div>
+            <div class="min-w-0"><div class="font-semibold text-white group-hover:text-amber-300 transition-colors truncate">Tesla</div>
             <div class="text-xs text-slate-500 mt-0.5 truncate">TSLA · equity</div></div>
             <span class='chip bg-emerald-400/10 text-emerald-400 tnum'>+0.26%</span>
           </div>
@@ -162,9 +207,9 @@ document.addEventListener('DOMContentLoaded',function(){
             <div class="min-w-0 flex-1 max-w-[45%] sm:max-w-[52%]"><svg width='140' height='40' viewBox='0 0 140 40' class="w-full h-10" preserveAspectRatio='none'><path d='M0,40 L0.0,3.0 L3.2,11.5 L6.4,4.5 L9.5,9.0 L12.7,11.4 L15.9,8.0 L19.1,7.7 L22.3,11.2 L25.5,10.8 L28.6,11.3 L31.8,12.2 L35.0,14.9 L38.2,17.9 L41.4,15.4 L44.5,16.7 L47.7,31.3 L50.9,33.1 L54.1,34.1 L57.3,34.6 L60.5,37.0 L63.6,34.2 L66.8,33.5 L70.0,30.6 L73.2,29.2 L76.4,30.8 L79.5,31.3 L82.7,28.9 L85.9,28.3 L89.1,27.8 L92.3,29.2 L95.5,25.9 L98.6,25.2 L101.8,26.0 L105.0,26.7 L108.2,22.9 L111.4,24.5 L114.5,19.7 L117.7,23.4 L120.9,23.1 L124.1,24.3 L127.3,21.9 L130.5,23.5 L133.6,18.4 L136.8,21.5 L140.0,21.3 L140,40 Z' fill='#fb7185' opacity='0.10'/><polyline points='0.0,3.0 3.2,11.5 6.4,4.5 9.5,9.0 12.7,11.4 15.9,8.0 19.1,7.7 22.3,11.2 25.5,10.8 28.6,11.3 31.8,12.2 35.0,14.9 38.2,17.9 41.4,15.4 44.5,16.7 47.7,31.3 50.9,33.1 54.1,34.1 57.3,34.6 60.5,37.0 63.6,34.2 66.8,33.5 70.0,30.6 73.2,29.2 76.4,30.8 79.5,31.3 82.7,28.9 85.9,28.3 89.1,27.8 92.3,29.2 95.5,25.9 98.6,25.2 101.8,26.0 105.0,26.7 108.2,22.9 111.4,24.5 114.5,19.7 117.7,23.4 120.9,23.1 124.1,24.3 127.3,21.9 130.5,23.5 133.6,18.4 136.8,21.5 140.0,21.3' fill='none' stroke='#fb7185' stroke-width='1.6' stroke-linejoin='round' stroke-linecap='round' vector-effect='non-scaling-stroke'/></svg></div>
           </div>
         </a>
-        <a href="asset/jpm.html" class="surface p-4 hover:border-white/20 transition-colors block min-w-0">
+        <a href="asset/jpm.html" class="surface p-4 block min-w-0 group">
           <div class="flex items-start justify-between gap-2">
-            <div class="min-w-0"><div class="font-semibold text-white truncate">JPMorgan</div>
+            <div class="min-w-0"><div class="font-semibold text-white group-hover:text-amber-300 transition-colors truncate">JPMorgan</div>
             <div class="text-xs text-slate-500 mt-0.5 truncate">JPM · equity</div></div>
             <span class='chip bg-emerald-400/10 text-emerald-400 tnum'>+0.36%</span>
           </div>
@@ -177,113 +222,113 @@ document.addEventListener('DOMContentLoaded',function(){
   </section>
   <section class="py-8 grid lg:grid-cols-2 gap-4 sm:gap-6">
     <div class="surface p-4 sm:p-5"><div class="flex items-center justify-between mb-1">
-      <h2 class="text-lg font-semibold text-white">Recent events</h2>
-      <a href="events.html" class="text-xs text-indigo-300 hover:underline">all →</a></div>
+      <h2 class="font-display text-lg font-semibold text-white">Recent events</h2>
+      <a href="events.html" class="text-xs text-amber-300/90 hover:text-amber-200 hover:underline">all →</a></div>
       <p class="text-xs text-slate-500 mb-2">What happened, classified &amp; severity-rated by the extractor</p>
       <ul>
         <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0">
-          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-indigo-400/70 shrink-0"></span></div>
+          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-amber-400/80 shrink-0"></span></div>
           <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-indigo-500/15 text-indigo-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Europe</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum" data-utc="2026-09-02">2026-09-02</span></div>
             <div class="text-sm text-slate-200 leading-snug">Protests erupt in Spain over government&#x27;s handling of Ceuta migrant crisis, with opposition parties accusing PM Pedro Sánchez of abandoning residents.</div>
-            <a class='text-xs text-indigo-400 hover:underline' href='https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&amp;at_campaign=rss' target='_blank' rel='noopener'>source ↗</a>
+            <a class='text-xs text-amber-300/90 hover:text-amber-200 hover:underline' href='https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&amp;at_campaign=rss' target='_blank' rel='noopener'>source ↗</a>
           </div>
         </li>
         <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0">
-          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-indigo-400/70 shrink-0"></span></div>
+          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-amber-400/80 shrink-0"></span></div>
           <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Pacific Ocean</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum" data-utc="2026-09-02">2026-09-02</span></div>
             <div class="text-sm text-slate-200 leading-snug">A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.</div>
-            <a class='text-xs text-indigo-400 hover:underline' href='https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1563166' target='_blank' rel='noopener'>source ↗</a>
+            <a class='text-xs text-amber-300/90 hover:text-amber-200 hover:underline' href='https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1563166' target='_blank' rel='noopener'>source ↗</a>
           </div>
         </li>
         <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0">
-          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-indigo-400/70 shrink-0"></span></div>
+          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-amber-400/80 shrink-0"></span></div>
           <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+              <span class="text-[11px] text-slate-500">Pacific Ocean</span>
+              <span class="text-[11px] text-slate-600 ml-auto tnum" data-utc="2026-09-02">2026-09-02</span></div>
+            <div class="text-sm text-slate-200 leading-snug">A 5.9 magnitude earthquake occurred at 10 km depth in the Southern East Pacific Rise on 2 September 2026.</div>
+            <a class='text-xs text-amber-300/90 hover:text-amber-200 hover:underline' href='https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1563166' target='_blank' rel='noopener'>source ↗</a>
+          </div>
+        </li>
+        <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0">
+          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-amber-400/80 shrink-0"></span></div>
+          <div class="min-w-0 flex-1">
+            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Pacific Ocean</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum" data-utc="2026-09-02">2026-09-02</span></div>
             <div class="text-sm text-slate-200 leading-snug">A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 02 Sep 2026.</div>
-            <a class='text-xs text-indigo-400 hover:underline' href='https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1563166' target='_blank' rel='noopener'>source ↗</a>
+            <a class='text-xs text-amber-300/90 hover:text-amber-200 hover:underline' href='https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1563166' target='_blank' rel='noopener'>source ↗</a>
           </div>
         </li>
         <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0">
-          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-indigo-400/70 shrink-0"></span></div>
+          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-amber-400/80 shrink-0"></span></div>
           <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Pacific Ocean</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum" data-utc="2026-09-02">2026-09-02</span></div>
             <div class="text-sm text-slate-200 leading-snug">Magnitude 5.9 earthquake at 10 km depth struck Southern East Pacific Rise on 2 Sep 2026.</div>
-            <a class='text-xs text-indigo-400 hover:underline' href='https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1563166' target='_blank' rel='noopener'>source ↗</a>
+            <a class='text-xs text-amber-300/90 hover:text-amber-200 hover:underline' href='https://www.gdacs.org/report.aspx?eventtype=EQ&amp;eventid=1563166' target='_blank' rel='noopener'>source ↗</a>
           </div>
         </li>
         <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0">
-          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-indigo-400/70 shrink-0"></span></div>
+          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-amber-400/80 shrink-0"></span></div>
           <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-indigo-500/15 text-indigo-300'>geopolitical</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-amber-400/10 text-amber-300'>geopolitical</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Europe</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum" data-utc="2026-09-02">2026-09-02</span></div>
             <div class="text-sm text-slate-200 leading-snug">Russian President Putin is issuing a veiled threat to the UK as part of Russia&#x27;s campaign against the West, aiming to keep Britain uncertain about Moscow&#x27;s intentions.</div>
-            <a class='text-xs text-indigo-400 hover:underline' href='https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&amp;at_campaign=rss' target='_blank' rel='noopener'>source ↗</a>
+            <a class='text-xs text-amber-300/90 hover:text-amber-200 hover:underline' href='https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&amp;at_campaign=rss' target='_blank' rel='noopener'>source ↗</a>
           </div>
         </li>
         <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0">
-          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-indigo-400/70 shrink-0"></span></div>
+          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-amber-400/80 shrink-0"></span></div>
           <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-indigo-500/15 text-indigo-300'>military</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-amber-400/10 text-amber-300'>military</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Southeast Asia</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum" data-utc="2026-09-02">2026-09-02</span></div>
             <div class="text-sm text-slate-200 leading-snug">US troops historically arrived in Pattaya, Thailand, a beach resort known for racy bars.</div>
-            <a class='text-xs text-indigo-400 hover:underline' href='https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&amp;at_campaign=rss' target='_blank' rel='noopener'>source ↗</a>
+            <a class='text-xs text-amber-300/90 hover:text-amber-200 hover:underline' href='https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&amp;at_campaign=rss' target='_blank' rel='noopener'>source ↗</a>
           </div>
         </li>
         <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0">
-          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-indigo-400/70 shrink-0"></span></div>
+          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-amber-400/80 shrink-0"></span></div>
           <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">East Asia</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum" data-utc="2026-09-01">2026-09-01</span></div>
             <div class="text-sm text-slate-200 leading-snug">Tropical Storm KROVANH-26, Category 1 winds, affected Japan with no population impact.</div>
-            <a class='text-xs text-indigo-400 hover:underline' href='https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001318' target='_blank' rel='noopener'>source ↗</a>
+            <a class='text-xs text-amber-300/90 hover:text-amber-200 hover:underline' href='https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001318' target='_blank' rel='noopener'>source ↗</a>
           </div>
         </li>
         <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0">
-          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-indigo-400/70 shrink-0"></span></div>
+          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-amber-400/80 shrink-0"></span></div>
           <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+              <span class="text-[11px] text-slate-500">North America</span>
+              <span class="text-[11px] text-slate-600 ml-auto tnum" data-utc="2026-09-01">2026-09-01</span></div>
+            <div class="text-sm text-slate-200 leading-snug">Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, affected Mexico with no population impacted.</div>
+            <a class='text-xs text-amber-300/90 hover:text-amber-200 hover:underline' href='https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001317' target='_blank' rel='noopener'>source ↗</a>
+          </div>
+        </li>
+        <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0">
+          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-amber-400/80 shrink-0"></span></div>
+          <div class="min-w-0 flex-1">
+            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
               <span class="text-[11px] text-slate-500">North America</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum" data-utc="2026-09-01">2026-09-01</span></div>
             <div class="text-sm text-slate-200 leading-snug">Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.</div>
-            <a class='text-xs text-indigo-400 hover:underline' href='https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001317' target='_blank' rel='noopener'>source ↗</a>
-          </div>
-        </li>
-        <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0">
-          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-indigo-400/70 shrink-0"></span></div>
-          <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
-              <span class="text-[11px] text-slate-500">North America</span>
-              <span class="text-[11px] text-slate-600 ml-auto tnum" data-utc="2026-09-01">2026-09-01</span></div>
-            <div class="text-sm text-slate-200 leading-snug">Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected.</div>
-            <a class='text-xs text-indigo-400 hover:underline' href='https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001317' target='_blank' rel='noopener'>source ↗</a>
-          </div>
-        </li>
-        <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0">
-          <div class="flex flex-col items-center pt-1"><span class="w-2 h-2 rounded-full bg-indigo-400/70 shrink-0"></span></div>
-          <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-1.5 mb-1"><span class='chip bg-indigo-500/15 text-indigo-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
-              <span class="text-[11px] text-slate-500">US</span>
-              <span class="text-[11px] text-slate-600 ml-auto tnum" data-utc="2026-09-03">2026-09-03</span></div>
-            <div class="text-sm text-slate-200 leading-snug">Disney star Carla Jeffery, known for playing Bree in Disney Channel&#x27;s Zombies, dies at 33.</div>
-            <a class='text-xs text-indigo-400 hover:underline' href='https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&amp;at_campaign=rss' target='_blank' rel='noopener'>source ↗</a>
+            <a class='text-xs text-amber-300/90 hover:text-amber-200 hover:underline' href='https://www.gdacs.org/report.aspx?eventtype=TC&amp;eventid=1001317' target='_blank' rel='noopener'>source ↗</a>
           </div>
         </li></ul></div>
     <div class="surface p-4 sm:p-5"><div class="flex items-center justify-between mb-1">
-      <h2 class="text-lg font-semibold text-white">Open calls</h2>
-      <a href="patterns.html" class="text-xs text-indigo-300 hover:underline">verified →</a></div>
+      <h2 class="font-display text-lg font-semibold text-white">Open calls</h2>
+      <a href="patterns.html" class="text-xs text-amber-300/90 hover:text-amber-200 hover:underline">verified →</a></div>
       <p class="text-xs text-slate-500 mb-2">Structured predictions, auto-scored when they expire</p>
       <ul>
         <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0 items-start">
@@ -299,7 +344,31 @@ document.addEventListener('DOMContentLoaded',function(){
           </div>
         </li>
         <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0 items-start">
-          <div class="pt-0.5 shrink-0"><span class='chip bg-sky-400/10 text-sky-300'>▬ range</span></div>
+          <div class="pt-0.5 shrink-0"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></div>
+          <div class="min-w-0 flex-1">
+            <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
+              <span class="font-semibold text-white">AAPL</span>
+              <span class="text-slate-500 text-xs">threshold ±0.50%</span>
+              <span class="text-slate-500 text-xs">conf 30%</span>
+              <span class="text-slate-500 text-xs ml-auto tnum">due <span data-utc="2026-09-09">2026-09-09</span></span>
+            </div>
+            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Small earthquake unlikely to affect Apple’s CA facilities or supply chain.</div>
+          </div>
+        </li>
+        <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0 items-start">
+          <div class="pt-0.5 shrink-0"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></div>
+          <div class="min-w-0 flex-1">
+            <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
+              <span class="font-semibold text-white">TSLA</span>
+              <span class="text-slate-500 text-xs">threshold ±0.50%</span>
+              <span class="text-slate-500 text-xs">conf 35%</span>
+              <span class="text-slate-500 text-xs ml-auto tnum">due <span data-utc="2026-09-09">2026-09-09</span></span>
+            </div>
+            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Minor quake unlikely to disrupt Tesla&#x27;s CA plant operations.</div>
+          </div>
+        </li>
+        <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0 items-start">
+          <div class="pt-0.5 shrink-0"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></div>
           <div class="min-w-0 flex-1">
             <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
               <span class="font-semibold text-white">AAPL</span>
@@ -311,7 +380,31 @@ document.addEventListener('DOMContentLoaded',function(){
           </div>
         </li>
         <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0 items-start">
-          <div class="pt-0.5 shrink-0"><span class='chip bg-sky-400/10 text-sky-300'>▬ range</span></div>
+          <div class="pt-0.5 shrink-0"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></div>
+          <div class="min-w-0 flex-1">
+            <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
+              <span class="font-semibold text-white">JPM</span>
+              <span class="text-slate-500 text-xs">threshold ±0.50%</span>
+              <span class="text-slate-500 text-xs">conf 45%</span>
+              <span class="text-slate-500 text-xs ml-auto tnum">due <span data-utc="2026-09-09">2026-09-09</span></span>
+            </div>
+            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Risk event may cause slight volatility, but likely range within 7 days.</div>
+          </div>
+        </li>
+        <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0 items-start">
+          <div class="pt-0.5 shrink-0"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></div>
+          <div class="min-w-0 flex-1">
+            <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
+              <span class="font-semibold text-white">NVDA</span>
+              <span class="text-slate-500 text-xs">threshold ±0.50%</span>
+              <span class="text-slate-500 text-xs">conf 32%</span>
+              <span class="text-slate-500 text-xs ml-auto tnum">due <span data-utc="2026-09-09">2026-09-09</span></span>
+            </div>
+            <div class="text-xs text-slate-400 mt-0.5 leading-snug">NVDA’s CA operations face minimal risk from a 3.2 magnitude quake.</div>
+          </div>
+        </li>
+        <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0 items-start">
+          <div class="pt-0.5 shrink-0"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></div>
           <div class="min-w-0 flex-1">
             <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
               <span class="font-semibold text-white">JPM</span>
@@ -347,63 +440,15 @@ document.addEventListener('DOMContentLoaded',function(){
           </div>
         </li>
         <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0 items-start">
-          <div class="pt-0.5 shrink-0"><span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></div>
-          <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
-              <span class="font-semibold text-white">WTI</span>
-              <span class="text-slate-500 text-xs">threshold ±1.00%</span>
-              <span class="text-slate-500 text-xs">conf 60%</span>
-              <span class="text-slate-500 text-xs ml-auto tnum">due <span data-utc="2026-09-10">2026-09-10</span></span>
-            </div>
-            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Angola fire may cut oil output, tightening supply and lifting WTI prices.</div>
-          </div>
-        </li>
-        <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0 items-start">
-          <div class="pt-0.5 shrink-0"><span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></div>
+          <div class="pt-0.5 shrink-0"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></div>
           <div class="min-w-0 flex-1">
             <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
               <span class="font-semibold text-white">XAU/USD</span>
-              <span class="text-slate-500 text-xs">threshold ±1.50%</span>
-              <span class="text-slate-500 text-xs">conf 55%</span>
-              <span class="text-slate-500 text-xs ml-auto tnum">due <span data-utc="2026-09-10">2026-09-10</span></span>
-            </div>
-            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Earthquake raises risk sentiment, driving safe‑haven demand for gold.</div>
-          </div>
-        </li>
-        <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0 items-start">
-          <div class="pt-0.5 shrink-0"><span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></div>
-          <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
-              <span class="font-semibold text-white">XAU/USD</span>
-              <span class="text-slate-500 text-xs">threshold ±1.50%</span>
-              <span class="text-slate-500 text-xs">conf 50%</span>
-              <span class="text-slate-500 text-xs ml-auto tnum">due <span data-utc="2026-09-10">2026-09-10</span></span>
-            </div>
-            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Small quake may boost safe‑haven demand, lifting gold.</div>
-          </div>
-        </li>
-        <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0 items-start">
-          <div class="pt-0.5 shrink-0"><span class='chip bg-sky-400/10 text-sky-300'>▬ range</span></div>
-          <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
-              <span class="font-semibold text-white">WTI</span>
               <span class="text-slate-500 text-xs">threshold ±0.50%</span>
-              <span class="text-slate-500 text-xs">conf 55%</span>
+              <span class="text-slate-500 text-xs">conf 40%</span>
               <span class="text-slate-500 text-xs ml-auto tnum">due <span data-utc="2026-09-10">2026-09-10</span></span>
             </div>
-            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Minor shipping disruptions may slightly dampen demand, but no major impact on global oil supply.</div>
-          </div>
-        </li>
-        <li class="flex gap-2.5 sm:gap-3 py-3 border-b border-white/5 last:border-0 items-start">
-          <div class="pt-0.5 shrink-0"><span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></div>
-          <div class="min-w-0 flex-1">
-            <div class="flex flex-wrap items-center gap-x-2 gap-y-1 text-sm">
-              <span class="font-semibold text-white">WTI</span>
-              <span class="text-slate-500 text-xs">threshold ±1.00%</span>
-              <span class="text-slate-500 text-xs">conf 55%</span>
-              <span class="text-slate-500 text-xs ml-auto tnum">due <span data-utc="2026-09-10">2026-09-10</span></span>
-            </div>
-            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Russia‑UK tensions heighten supply risk, lifting crude prices.</div>
+            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Moderate quake unlikely to trigger strong safe‑haven flight; price likely sideways.</div>
           </div>
         </li></ul></div>
   </section>

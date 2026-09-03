@@ -2230,6 +2230,18 @@
  ],
  "causal_notes": [
   {
+   "id": "note-73518f5a506a",
+   "kind": "causal_notes",
+   "asset": "TSLA",
+   "move_id": "move-TSLA-2026-09-01",
+   "move_date": "2026-09-01",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely a broader market sell‑off or sector rotation affecting Tesla shares.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:53:31Z"
+  },
+  {
    "id": "note-42b9762a279e",
    "kind": "causal_notes",
    "asset": "TSLA",
@@ -2276,6 +2288,18 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T10:40:09Z"
+  },
+  {
+   "id": "note-73f460f5b36e",
+   "kind": "causal_notes",
+   "asset": "TSLA",
+   "move_id": "move-TSLA-2026-07-23",
+   "move_date": "2026-07-23",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely internal factors or market sentiment caused the 14.5% drop.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:53:30Z"
   },
   {
    "id": "note-20612410bf7f",
@@ -2336,6 +2360,18 @@
    "confidence": 0,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T09:42:43Z"
+  },
+  {
+   "id": "note-a0fe8821a87c",
+   "kind": "causal_notes",
+   "asset": "TSLA",
+   "move_id": "move-TSLA-2026-06-16",
+   "move_date": "2026-06-16",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely a broader market or sector shift impacted TSLA.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:53:05Z"
   },
   {
    "id": "note-b0e7a96a90a1",
@@ -2470,7 +2506,21 @@
    "written_at": "2026-09-03T09:40:16Z"
   }
  ],
- "predictions": [],
+ "predictions": [
+  {
+   "id": "pred-f9ae3dcea82e",
+   "event_id": "evt-44257358827f",
+   "created_at": "2026-09-02",
+   "expires_at": "2026-09-09",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 35,
+   "reasoning": "Minor quake unlikely to disrupt Tesla's CA plant operations.",
+   "status": "open",
+   "outcome": null
+  }
+ ],
  "events": [
   {
    "id": "evt-d131b45f2d67",
@@ -2482,6 +2532,15 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
   },
   {
+   "id": "evt-1698716a1aa8",
+   "date": "2026-08-31",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Southeast Asia",
+   "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
    "id": "evt-2e61fbe3cf57",
    "date": "2026-08-31",
    "event_type": "natural_disaster",
@@ -2489,6 +2548,15 @@
    "region": "Southeast Asia",
    "summary": "A magnitude 5.5 earthquake struck Indonesia at 10 km depth, affecting about 9,000 people with MMI VI.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
+   "id": "evt-04b813e3b2ba",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "North America",
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, affected Mexico with no population impacted.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
   },
   {
    "id": "evt-dfa14d13a34a",
@@ -2524,6 +2592,15 @@
    "severity": 3,
    "region": "Pacific Ocean",
    "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  },
+  {
+   "id": "evt-7b0c4ff2b1d8",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "A 5.9 magnitude earthquake occurred at 10 km depth in the Southern East Pacific Rise on 2 September 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
   },
   {

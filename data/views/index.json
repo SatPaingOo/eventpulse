@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-03T10:42:03Z",
+ "updated_at": "2026-09-03T10:55:25Z",
  "prices": [
   {
    "asset": "XAU/USD",
@@ -423,6 +423,16 @@
    "published_at": "Wed, 02 Sep 2026 12:55:32 GMT"
   },
   {
+   "id": "evt-7b0c4ff2b1d8",
+   "event_type": "natural_disaster",
+   "region": "Pacific Ocean",
+   "severity": 3,
+   "summary": "A 5.9 magnitude earthquake occurred at 10 km depth in the Southern East Pacific Rise on 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166",
+   "date_utc": "2026-09-02",
+   "published_at": "Wed, 02 Sep 2026 12:55:32 GMT"
+  },
+  {
    "id": "evt-460698bcb271",
    "event_type": "natural_disaster",
    "region": "Pacific Ocean",
@@ -473,6 +483,16 @@
    "published_at": "Tue, 01 Sep 2026 09:28:20 GMT"
   },
   {
+   "id": "evt-04b813e3b2ba",
+   "event_type": "natural_disaster",
+   "region": "North America",
+   "severity": 2,
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, affected Mexico with no population impacted.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317",
+   "date_utc": "2026-09-01",
+   "published_at": "Tue, 01 Sep 2026 09:24:37 GMT"
+  },
+  {
    "id": "evt-dfa14d13a34a",
    "event_type": "natural_disaster",
    "region": "North America",
@@ -481,26 +501,6 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317",
    "date_utc": "2026-09-01",
    "published_at": "Tue, 01 Sep 2026 09:24:37 GMT"
-  },
-  {
-   "id": "evt-af6573dd186b",
-   "event_type": "natural_disaster",
-   "region": "North America",
-   "severity": 3,
-   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected.",
-   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317",
-   "date_utc": "2026-09-01",
-   "published_at": "Tue, 01 Sep 2026 09:24:37 GMT"
-  },
-  {
-   "id": "evt-113ba61fca20",
-   "event_type": "other",
-   "region": "US",
-   "severity": 2,
-   "summary": "Disney star Carla Jeffery, known for playing Bree in Disney Channel's Zombies, dies at 33.",
-   "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss",
-   "date_utc": "2026-09-03",
-   "published_at": "Thu, 03 Sep 2026 09:37:34 GMT"
   }
  ],
  "open_predictions": [
@@ -520,6 +520,36 @@
    "written_at": "2026-09-03T10:31:54Z"
   },
   {
+   "id": "pred-32148b797a98",
+   "kind": "prediction",
+   "asset": "AAPL",
+   "event_id": "evt-44257358827f",
+   "created_at": "2026-09-02",
+   "expires_at": "2026-09-09",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 30,
+   "reasoning": "Small earthquake unlikely to affect Apple’s CA facilities or supply chain.",
+   "status": "open",
+   "written_at": "2026-09-03T10:54:30Z"
+  },
+  {
+   "id": "pred-f9ae3dcea82e",
+   "kind": "prediction",
+   "asset": "TSLA",
+   "event_id": "evt-44257358827f",
+   "created_at": "2026-09-02",
+   "expires_at": "2026-09-09",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 35,
+   "reasoning": "Minor quake unlikely to disrupt Tesla's CA plant operations.",
+   "status": "open",
+   "written_at": "2026-09-03T10:54:30Z"
+  },
+  {
    "id": "pred-bd2ce2eb9f46",
    "kind": "prediction",
    "asset": "AAPL",
@@ -533,6 +563,36 @@
    "reasoning": "No direct exposure to Chile quake.",
    "status": "open",
    "written_at": "2026-09-03T10:41:35Z"
+  },
+  {
+   "id": "pred-4235269d92c1",
+   "kind": "prediction",
+   "asset": "JPM",
+   "event_id": "evt-42dd92dcec05",
+   "created_at": "2026-09-02",
+   "expires_at": "2026-09-09",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 45,
+   "reasoning": "Risk event may cause slight volatility, but likely range within 7 days.",
+   "status": "open",
+   "written_at": "2026-09-03T10:55:25Z"
+  },
+  {
+   "id": "pred-2a3c6a43ecea",
+   "kind": "prediction",
+   "asset": "NVDA",
+   "event_id": "evt-44257358827f",
+   "created_at": "2026-09-02",
+   "expires_at": "2026-09-09",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 32,
+   "reasoning": "NVDA’s CA operations face minimal risk from a 3.2 magnitude quake.",
+   "status": "open",
+   "written_at": "2026-09-03T10:54:30Z"
   },
   {
    "id": "pred-e51739a3c243",
@@ -580,85 +640,25 @@
    "written_at": "2026-09-03T10:26:14Z"
   },
   {
-   "id": "pred-3193887298e8",
-   "kind": "prediction",
-   "asset": "WTI",
-   "event_id": "evt-b78001e90008",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 60,
-   "reasoning": "Angola fire may cut oil output, tightening supply and lifting WTI prices.",
-   "status": "open",
-   "written_at": "2026-09-03T10:42:03Z"
-  },
-  {
-   "id": "pred-af95eb78439c",
+   "id": "pred-90aeb061c5f7",
    "kind": "prediction",
    "asset": "XAU/USD",
-   "event_id": "evt-d0c07be49111",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 55,
-   "reasoning": "Earthquake raises risk sentiment, driving safe‑haven demand for gold.",
-   "status": "open",
-   "written_at": "2026-09-03T10:41:06Z"
-  },
-  {
-   "id": "pred-655b802c2f9e",
-   "kind": "prediction",
-   "asset": "XAU/USD",
-   "event_id": "evt-85a5a1f4b9bf",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 50,
-   "reasoning": "Small quake may boost safe‑haven demand, lifting gold.",
-   "status": "open",
-   "written_at": "2026-09-03T10:30:58Z"
-  },
-  {
-   "id": "pred-7b5bf5ac8bc1",
-   "kind": "prediction",
-   "asset": "WTI",
-   "event_id": "evt-2c32c06a9e16",
+   "event_id": "evt-7b0c4ff2b1d8",
    "created_at": "2026-09-03",
    "expires_at": "2026-09-10",
    "horizon_days": 7,
    "direction": "range",
    "threshold_pct": 0.5,
-   "confidence": 55,
-   "reasoning": "Minor shipping disruptions may slightly dampen demand, but no major impact on global oil supply.",
+   "confidence": 40,
+   "reasoning": "Moderate quake unlikely to trigger strong safe‑haven flight; price likely sideways.",
    "status": "open",
-   "written_at": "2026-09-03T10:31:24Z"
-  },
-  {
-   "id": "pred-3d44451517ff",
-   "kind": "prediction",
-   "asset": "WTI",
-   "event_id": "evt-811efa11450a",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Russia‑UK tensions heighten supply risk, lifting crude prices.",
-   "status": "open",
-   "written_at": "2026-09-03T10:26:14Z"
+   "written_at": "2026-09-03T10:54:56Z"
   }
  ],
  "stats": {
   "assets": 7,
-  "events": 36,
-  "open_predictions": 32,
+  "events": 48,
+  "open_predictions": 44,
   "resolved": 0,
   "accuracy": null
  }

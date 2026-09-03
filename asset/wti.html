@@ -1,75 +1,119 @@
 <!DOCTYPE html>
 <html lang="en"><head>
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
-<meta name="theme-color" content="#070b16"/>
+<meta name="theme-color" content="#0b0d12"/>
 <title>Crude Oil (WTI) (WTI) · EventPulse</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><text x='50' y='68' font-size='46' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>EP</text></svg>"/>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%23e8a020'/><text x='50' y='68' font-size='46' text-anchor='middle' fill='%230b0d12' font-family='Arial' font-weight='bold'>EP</text></svg>"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet"/>
 <script src="https://cdn.tailwindcss.com"></script>
-<script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','ui-sans-serif','system-ui'],mono:['JetBrains Mono','ui-monospace','SFMono-Regular']}}}}</script>
+<script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','ui-sans-serif','system-ui'],display:['Space Grotesk','Inter','system-ui'],mono:['JetBrains Mono','ui-monospace','SFMono-Regular']}}}}</script>
 <style>
+:root{--bg:#0b0d12;--panel:rgba(255,255,255,.03);--panel2:rgba(255,255,255,.06);
+  --line:rgba(255,255,255,.09);--gold:#e8a020;--gold2:#f6c453;--amber:#fbbf24;
+  --ink:#e7e9ee;--mut:#8b93a3;--up:#34d399;--down:#fb7185;--teal:#2dd4bf}
 html{-webkit-text-size-adjust:100%}
-body{overflow-x:hidden;overflow-x:clip}
-.logo-mark{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;font-weight:800;font-size:13px;letter-spacing:.02em}
-.nav-link{font-size:13px;color:#94a3b8;padding:7px 10px;border-radius:8px;transition:color .15s;white-space:nowrap}
-@media(min-width:640px){.nav-link{font-size:14px;padding:7px 13px}}
-.nav-link:hover{color:#e2e8f0}
-.nav-link.active{color:#fff;background:rgba(255,255,255,.06)}
-.pulse-dot{width:8px;height:8px;border-radius:9999px;background:#34d399;box-shadow:0 0 0 0 rgba(52,211,153,.6);animation:pulse 2s infinite;flex-shrink:0}
-@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(52,211,153,.55)}70%{box-shadow:0 0 0 9px rgba(52,211,153,0)}100%{box-shadow:0 0 0 0 rgba(52,211,153,0)}}
-.grad-text{background:linear-gradient(100deg,#818cf8,#c084fc,#f472b6);-webkit-background-clip:text;background-clip:text;color:transparent}
-.surface{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:16px}
+body{overflow-x:hidden;overflow-x:clip;background:var(--bg)}
+body::before{content:"";position:fixed;inset:0;z-index:0;pointer-events:none;
+  background-image:linear-gradient(rgba(255,255,255,.022) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(255,255,255,.022) 1px,transparent 1px);
+  background-size:44px 44px;mask-image:radial-gradient(ellipse 90% 70% at 50% 0%,#000 30%,transparent 78%)}
+.font-display{font-family:'Space Grotesk','Inter',system-ui,sans-serif}
+h1,h2,h3{font-family:'Space Grotesk','Inter',system-ui,sans-serif;letter-spacing:-.01em}
+.logo-mark{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;border-radius:10px;
+  background:linear-gradient(135deg,#f6c453,#e8a020 60%,#b97a10);color:#0b0d12;font-weight:800;font-size:14px;
+  box-shadow:0 0 0 1px rgba(246,196,83,.35),0 4px 18px -6px rgba(232,160,32,.55)}
+.site-nav{position:sticky;top:0;z-index:50;background:rgba(11,13,18,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(255,255,255,.07)}
+.nav-burger{display:inline-flex;align-items:center;justify-content:center;width:42px;height:42px;border-radius:10px;
+  color:#cdd3de;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);transition:background .15s}
+.nav-burger:active{background:rgba(255,255,255,.12)}
+@media(min-width:640px){.nav-burger{display:none}}
+.nav-menu{display:none;flex-direction:column;position:absolute;top:calc(100% + 0px);left:0;right:0;margin:0 .75rem;
+  background:rgba(15,17,24,.97);border:1px solid rgba(255,255,255,.1);border-radius:14px;padding:.4rem;
+  box-shadow:0 18px 40px -12px rgba(0,0,0,.6)}
+.nav-menu.open{display:flex}
+.nav-link{font-size:15px;color:#aab2c0;padding:12px 16px;border-radius:10px;transition:all .15s;font-weight:500}
+.nav-link:hover{color:#fff;background:rgba(255,255,255,.06)}
+.nav-link.active{color:#f6c453;background:rgba(246,196,83,.08)}
+@media(min-width:640px){.nav-menu{display:flex;flex-direction:row;position:static;background:transparent;border:0;box-shadow:none;padding:0;gap:2px;margin:0}
+  .nav-link{font-size:14px;padding:8px 13px;border-radius:9px}}
+.pulse-dot{width:8px;height:8px;border-radius:9999px;background:var(--gold2);box-shadow:0 0 0 0 rgba(246,196,83,.6);animation:pulse 2s infinite;flex-shrink:0}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(246,196,83,.5)}70%{box-shadow:0 0 0 9px rgba(246,196,83,0)}100%{box-shadow:0 0 0 0 rgba(246,196,83,0)}}
+.grad-text{background:linear-gradient(100deg,#f6c453,#e8a020 55%,#f472b6);-webkit-background-clip:text;background-clip:text;color:transparent}
+.surface{background:var(--panel);border:1px solid var(--line);border-radius:16px;backdrop-filter:blur(6px)}
 @media(min-width:768px){.surface{border-radius:18px}}
+.surface:hover{border-color:rgba(246,196,83,.28)}
 .ambient{position:fixed;inset:0;overflow:hidden;overflow-x:clip;pointer-events:none;z-index:0}
-.blob{position:absolute;border-radius:9999px;filter:blur(120px);opacity:.16}
-.blob-a{width:520px;height:520px;background:#4f46e5;top:-140px;left:-120px}
-.blob-b{width:460px;height:460px;background:#7c3aed;top:20%;right:-160px}
-.blob-c{width:380px;height:380px;background:#0ea5e9;bottom:-120px;left:30%}
+.glow{position:absolute;border-radius:9999px;filter:blur(130px);opacity:.14}
+.glow-a{width:560px;height:560px;background:#e8a020;top:-200px;left:-140px}
+.glow-b{width:520px;height:520px;background:#0d9488;bottom:-180px;right:-160px;opacity:.11}
 .tnum{font-variant-numeric:tabular-nums}
-.chip{font-size:10px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;padding:2px 8px;border-radius:9999px;white-space:nowrap}
-@media(min-width:640px){.chip{font-size:11px;padding:2px 9px}}
+.chip{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;padding:3px 9px;border-radius:9999px;white-space:nowrap}
+@media(min-width:640px){.chip{font-size:11px;padding:3px 10px}}
 a{color:inherit}
 .wrap-balance{text-wrap:balance}
-@media(max-width:640px){h1{letter-spacing:-.02em}}
+/* ticker tape */
+.ticker{border-bottom:1px solid rgba(255,255,255,.07);background:rgba(232,160,32,.045);overflow:hidden;position:relative;z-index:1}
+.ticker-track{display:inline-flex;align-items:center;white-space:nowrap;will-change:transform;animation:tick 60s linear infinite}
+.ticker:hover .ticker-track{animation-play-state:paused}
+.ticker-item{display:inline-flex;align-items:baseline;gap:8px;padding:7px 26px;font-size:12.5px;color:#c9d0dc;border-right:1px solid rgba(255,255,255,.07);font-family:'JetBrains Mono',monospace}
+.ticker-item b{color:#f1f3f7;font-weight:600}
+.ticker-item .up{color:var(--up)}.ticker-item .down{color:var(--down)}
+@keyframes tick{0%{transform:translateX(0)}100%{transform:translateX(-50%)}}
+@media(prefers-reduced-motion:reduce){.ticker-track{animation:none}}
 </style>
 <script>
-function epLocal(iso){ if(!iso) return ''; const d=new Date(iso); if(isNaN(d)) return iso;
-  return d.toLocaleString(undefined,{year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}); }
-function epRel(iso){ if(!iso) return ''; const d=new Date(iso); if(isNaN(d)) return '';
-  const s=(Date.now()-d.getTime())/1000; if(s<45) return 'just now';
-  const m=s/60; if(m<60) return Math.round(m)+'m ago'; const h=m/60; if(h<24) return Math.round(h)+'h ago';
-  const da=h/24; if(da<30) return Math.round(da)+'d ago'; return d.toLocaleDateString(); }
 document.addEventListener('DOMContentLoaded',function(){
+  var burger=document.getElementById('navBurger'), menu=document.getElementById('navMenu');
+  if(burger&&menu){
+    burger.addEventListener('click',function(){ var open=menu.classList.toggle('open');
+      burger.setAttribute('aria-expanded',open?'true':'false');
+      burger.setAttribute('aria-label',open?'Close menu':'Open menu'); });
+    menu.querySelectorAll('a').forEach(function(a){ a.addEventListener('click',function(){
+      menu.classList.remove('open'); burger.setAttribute('aria-expanded','false'); }); });
+    document.addEventListener('click',function(e){ if(!menu.contains(e.target)&&!burger.contains(e.target)){
+      menu.classList.remove('open'); burger.setAttribute('aria-expanded','false'); } });
+  }
+  function epLocal(iso){ if(!iso) return ''; var d=new Date(iso); if(isNaN(d)) return iso;
+    return d.toLocaleString(undefined,{year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}); }
+  function epRel(iso){ if(!iso) return ''; var d=new Date(iso); if(isNaN(d)) return '';
+    var s=(Date.now()-d.getTime())/1000; if(s<45) return 'just now';
+    var m=s/60; if(m<60) return Math.round(m)+'m ago'; var h=m/60; if(h<24) return Math.round(h)+'h ago';
+    var da=h/24; if(da<30) return Math.round(da)+'d ago'; return d.toLocaleDateString(); }
   document.querySelectorAll('[data-utc]').forEach(function(el){
     var iso=el.getAttribute('data-utc'); if(!iso) return;
     var rel=epRel(iso), loc=epLocal(iso);
     el.textContent=rel?rel:loc;
     el.setAttribute('title',loc+' (local time)');
   });
-});</script>
-</head><body class="bg-[#070b16] text-slate-200 font-sans antialiased">
-<div class="ambient"><div class="blob blob-a"></div><div class="blob blob-b"></div><div class="blob blob-c"></div></div><nav class="site-nav"><div class="max-w-7xl mx-auto px-4 sm:px-5 py-3 flex items-center justify-between relative z-10">
-<a href="./index.html" class="flex items-center gap-2 min-w-0">
+});
+</script>
+</head><body class="bg-[#0b0d12] text-slate-200 font-sans antialiased">
+<div class="ambient"><div class="glow glow-a"></div><div class="glow glow-b"></div></div><nav class="site-nav"><div class="max-w-7xl mx-auto px-4 sm:px-5 py-3 flex items-center justify-between relative">
+<a href="./index.html" class="flex items-center gap-2.5 min-w-0">
   <span class="logo-mark shrink-0">EP</span>
-  <span class="font-bold tracking-tight text-white truncate">EventPulse</span>
+  <span class="font-display font-bold tracking-tight text-white text-[15px] sm:text-base truncate">EventPulse</span>
 </a>
-<div class="flex items-center gap-1 sm:gap-2" id="siteMenu">
+<button class="nav-burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+</button>
+<div class="nav-menu" id="navMenu">
   <a href="./index.html" class="nav-link ">Markets</a>
   <a href="./events.html" class="nav-link ">Events</a>
   <a href="./patterns.html" class="nav-link ">Track&nbsp;record</a>
 </div></div></nav>
 <header class="relative z-10"><div class="max-w-6xl mx-auto px-4 sm:px-5 pt-8 sm:pt-10 pb-4">
-  <a href="index.html" class="text-xs text-slate-500 hover:text-slate-300">← All markets</a>
+  <a href="index.html" class="text-xs text-slate-500 hover:text-amber-300/80 transition-colors">← All markets</a>
   <div class="flex flex-wrap items-end justify-between gap-4 mt-3">
     <div class="min-w-0">
-      <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight wrap-balance">Crude Oil (WTI)
+      <h1 class="font-display text-2xl sm:text-3xl lg:text-4xl font-bold text-white tracking-tight wrap-balance">Crude Oil (WTI)
         <span class="text-slate-500 font-semibold text-lg sm:text-xl ml-1">WTI</span></h1>
       <div class="flex flex-wrap items-center gap-x-3 gap-y-1 mt-2 text-sm text-slate-400">
         <span class="text-2xl sm:text-3xl font-bold text-white tnum">90.91</span>
         <span class='chip bg-rose-400/10 text-rose-400 tnum'>-0.11%</span>
         <span class="text-xs text-slate-500 tnum">2026-09-03</span>
-        <span class='chip bg-white/5 text-slate-300'>energy</span>
+        <span class='chip bg-amber-400/10 text-amber-300'>energy</span>
       </div>
     </div>
     <div class="hidden sm:block w-64 shrink-0"><svg width='260' height='64' viewBox='0 0 260 64' preserveAspectRatio='none'><path d='M0,64 L0.0,8.3 L4.4,14.0 L8.8,20.9 L13.2,31.1 L17.6,42.6 L22.0,40.8 L26.4,41.2 L30.8,45.6 L35.3,49.6 L39.7,56.6 L44.1,52.7 L48.5,59.3 L52.9,55.6 L57.3,58.7 L61.7,60.9 L66.1,60.7 L70.5,61.0 L74.9,56.4 L79.3,48.8 L83.7,52.3 L88.1,54.0 L92.5,37.5 L96.9,34.5 L101.4,33.9 L105.8,35.5 L110.2,26.8 L114.6,25.0 L119.0,20.9 L123.4,16.2 L127.8,3.0 L132.2,10.1 L136.6,26.5 L141.0,34.7 L145.4,22.0 L149.8,24.1 L154.2,21.5 L158.6,32.1 L163.1,43.3 L167.5,44.6 L171.9,39.6 L176.3,37.4 L180.7,27.7 L185.1,25.1 L189.5,24.9 L193.9,29.8 L198.3,27.0 L202.7,21.9 L207.1,20.8 L211.5,18.6 L215.9,13.7 L220.3,15.6 L224.7,20.6 L229.2,27.1 L233.6,27.4 L238.0,24.2 L242.4,24.6 L246.8,18.8 L251.2,7.8 L255.6,5.9 L260.0,6.1 L260,64 Z' fill='#34d399' opacity='0.10'/><polyline points='0.0,8.3 4.4,14.0 8.8,20.9 13.2,31.1 17.6,42.6 22.0,40.8 26.4,41.2 30.8,45.6 35.3,49.6 39.7,56.6 44.1,52.7 48.5,59.3 52.9,55.6 57.3,58.7 61.7,60.9 66.1,60.7 70.5,61.0 74.9,56.4 79.3,48.8 83.7,52.3 88.1,54.0 92.5,37.5 96.9,34.5 101.4,33.9 105.8,35.5 110.2,26.8 114.6,25.0 119.0,20.9 123.4,16.2 127.8,3.0 132.2,10.1 136.6,26.5 141.0,34.7 145.4,22.0 149.8,24.1 154.2,21.5 158.6,32.1 163.1,43.3 167.5,44.6 171.9,39.6 176.3,37.4 180.7,27.7 185.1,25.1 189.5,24.9 193.9,29.8 198.3,27.0 202.7,21.9 207.1,20.8 211.5,18.6 215.9,13.7 220.3,15.6 224.7,20.6 229.2,27.1 233.6,27.4 238.0,24.2 242.4,24.6 246.8,18.8 251.2,7.8 255.6,5.9 260.0,6.1' fill='none' stroke='#34d399' stroke-width='1.6' stroke-linejoin='round' stroke-linecap='round' vector-effect='non-scaling-stroke'/></svg></div>
@@ -83,7 +127,7 @@ document.addEventListener('DOMContentLoaded',function(){
       <div id="chart-tip" class="absolute hidden pointer-events-none bg-[#0c1222]/95 border border-white/10 rounded-lg px-3 py-2 text-xs text-slate-300 shadow-xl"></div>
     </div>
     <div class="flex flex-wrap gap-x-4 gap-y-1.5 mt-2 px-1 text-[11px] text-slate-500">
-      <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-indigo-400"></span>event (hover)</span>
+      <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-amber-400"></span>event (hover)</span>
       <span class="flex items-center gap-1.5"><span class="w-3 h-0.5 bg-emerald-400"></span>price</span>
       <span class="flex items-center gap-1.5"><span class="w-3 h-0.5 bg-slate-600"></span>last close 90.91</span>
     </div>
@@ -91,9 +135,18 @@ document.addEventListener('DOMContentLoaded',function(){
 
   <section class="grid lg:grid-cols-2 gap-4 sm:gap-6 mt-6 sm:mt-8">
     <div class="surface p-4 sm:p-5 min-w-0">
-      <h2 class="text-lg font-semibold text-white mb-1">Why it moved</h2>
+      <h2 class="font-display text-lg font-semibold text-white mb-1">Why it moved</h2>
       <p class="text-xs text-slate-500 mb-2">Each significant move (≥ threshold) is matched to the events that plausibly caused it</p>
       <ul>
+        <li class="py-3 border-b border-white/5 last:border-0">
+          <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <span class="tnum">2026-08-27</span>
+            <span class="tnum">—</span>
+            <span class="chip bg-white/5 text-slate-400">proposed</span>
+            <span class="text-slate-600">confidence 55%</span></div>
+          <div class="text-sm text-slate-200 mt-1 leading-snug">No listed events; likely due to unreported supply/demand shift or inventory data release.</div>
+          
+        </li>
         <li class="py-3 border-b border-white/5 last:border-0">
           <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
             <span class="tnum">2026-08-10</span>
@@ -110,6 +163,15 @@ document.addEventListener('DOMContentLoaded',function(){
             <span class="chip bg-white/5 text-slate-400">proposed</span>
             <span class="text-slate-600">confidence 55%</span></div>
           <div class="text-sm text-slate-200 mt-1 leading-snug">Price jump likely from market speculation or unreported data release.</div>
+          
+        </li>
+        <li class="py-3 border-b border-white/5 last:border-0">
+          <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <span class="tnum">2026-07-24</span>
+            <span class="tnum">—</span>
+            <span class="chip bg-white/5 text-slate-400">proposed</span>
+            <span class="text-slate-600">confidence 55%</span></div>
+          <div class="text-sm text-slate-200 mt-1 leading-snug">No candidate events; likely due to broader supply concerns or market sentiment affecting WTI prices.</div>
           
         </li>
         <li class="py-3 border-b border-white/5 last:border-0">
@@ -141,11 +203,38 @@ document.addEventListener('DOMContentLoaded',function(){
         </li>
         <li class="py-3 border-b border-white/5 last:border-0">
           <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <span class="tnum">2026-06-29</span>
+            <span class="tnum">—</span>
+            <span class="chip bg-white/5 text-slate-400">proposed</span>
+            <span class="text-slate-600">confidence 30%</span></div>
+          <div class="text-sm text-slate-200 mt-1 leading-snug">No events identified; price move likely due to market speculation or unreported supply/demand shifts.</div>
+          
+        </li>
+        <li class="py-3 border-b border-white/5 last:border-0">
+          <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <span class="tnum">2026-06-16</span>
+            <span class="tnum">—</span>
+            <span class="chip bg-white/5 text-slate-400">proposed</span>
+            <span class="text-slate-600">confidence 55%</span></div>
+          <div class="text-sm text-slate-200 mt-1 leading-snug">No listed events; likely due to global supply concerns or inventory drawdown.</div>
+          
+        </li>
+        <li class="py-3 border-b border-white/5 last:border-0">
+          <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
             <span class="tnum">2026-06-15</span>
             <span class="tnum">—</span>
             <span class="chip bg-white/5 text-slate-400">proposed</span>
             <span class="text-slate-600">confidence 55%</span></div>
           <div class="text-sm text-slate-200 mt-1 leading-snug">No listed events; likely due to market volatility or supply concerns, causing a 4.9% drop in WTI.</div>
+          
+        </li>
+        <li class="py-3 border-b border-white/5 last:border-0">
+          <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <span class="tnum">2026-06-10</span>
+            <span class="tnum">—</span>
+            <span class="chip bg-white/5 text-slate-400">proposed</span>
+            <span class="text-slate-600">confidence 30%</span></div>
+          <div class="text-sm text-slate-200 mt-1 leading-snug">No events identified; price move likely due to market microstructure or data error.</div>
           
         </li>
         <li class="py-3 border-b border-white/5 last:border-0">
@@ -177,6 +266,15 @@ document.addEventListener('DOMContentLoaded',function(){
         </li>
         <li class="py-3 border-b border-white/5 last:border-0">
           <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <span class="tnum">2026-05-26</span>
+            <span class="tnum">—</span>
+            <span class="chip bg-white/5 text-slate-400">proposed</span>
+            <span class="text-slate-600">confidence 55%</span></div>
+          <div class="text-sm text-slate-200 mt-1 leading-snug">Likely due to a surprise rise in U.S. crude inventories, signaling oversupply and weaker demand.</div>
+          
+        </li>
+        <li class="py-3 border-b border-white/5 last:border-0">
+          <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
             <span class="tnum">2026-05-21</span>
             <span class="tnum">—</span>
             <span class="chip bg-white/5 text-slate-400">proposed</span>
@@ -204,6 +302,15 @@ document.addEventListener('DOMContentLoaded',function(){
         </li>
         <li class="py-3 border-b border-white/5 last:border-0">
           <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <span class="tnum">2026-04-24</span>
+            <span class="tnum">—</span>
+            <span class="chip bg-white/5 text-slate-400">proposed</span>
+            <span class="text-slate-600">confidence 55%</span></div>
+          <div class="text-sm text-slate-200 mt-1 leading-snug">No listed events; likely due to market microstructure or technical factors.</div>
+          
+        </li>
+        <li class="py-3 border-b border-white/5 last:border-0">
+          <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
             <span class="tnum">2026-04-20</span>
             <span class="tnum">—</span>
             <span class="chip bg-white/5 text-slate-400">proposed</span>
@@ -218,6 +325,15 @@ document.addEventListener('DOMContentLoaded',function(){
             <span class="chip bg-white/5 text-slate-400">proposed</span>
             <span class="text-slate-600">confidence 0%</span></div>
           <div class="text-sm text-slate-200 mt-1 leading-snug"></div>
+          
+        </li>
+        <li class="py-3 border-b border-white/5 last:border-0">
+          <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <span class="tnum">2026-04-13</span>
+            <span class="tnum">—</span>
+            <span class="chip bg-white/5 text-slate-400">proposed</span>
+            <span class="text-slate-600">confidence 55%</span></div>
+          <div class="text-sm text-slate-200 mt-1 leading-snug">No specific event, likely driven by broader market sentiment or supply concerns in the oil sector.</div>
           
         </li>
         <li class="py-3 border-b border-white/5 last:border-0">
@@ -249,7 +365,7 @@ document.addEventListener('DOMContentLoaded',function(){
         </li></ul>
     </div>
     <div class="surface p-4 sm:p-5 min-w-0">
-      <h2 class="text-lg font-semibold text-white mb-1">Our calls</h2>
+      <h2 class="font-display text-lg font-semibold text-white mb-1">Our calls</h2>
       <p class="text-xs text-slate-500 mb-2">Predictions made from events — scored against the real close when due</p>
       <div class="overflow-x-auto"><table class="w-full text-xs min-w-[420px]">
         <thead><tr class="text-left text-slate-500 border-b border-white/10">
@@ -261,17 +377,33 @@ document.addEventListener('DOMContentLoaded',function(){
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
           <td class="py-2.5 pr-3"><span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></td>
           <td class="py-2.5 pr-3 tnum text-slate-300">±1.00%</td>
-          <td class="py-2.5 pr-3 tnum text-slate-300">60%</td>
+          <td class="py-2.5 pr-3 tnum text-slate-300">55%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr>
         <tr class="border-b border-white/5">
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
-          <td class="py-2.5 pr-3"><span class='chip bg-sky-400/10 text-sky-300'>▬ range</span></td>
+          <td class="py-2.5 pr-3"><span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></td>
+          <td class="py-2.5 pr-3 tnum text-slate-300">±1.00%</td>
+          <td class="py-2.5 pr-3 tnum text-slate-300">60%</td>
+          <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
+        </tr>
+        <tr class="border-b border-white/5">
+          <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
+          <td class="py-2.5 pr-3"><span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></td>
+          <td class="py-2.5 pr-3 tnum text-slate-300">±1.50%</td>
+          <td class="py-2.5 pr-3 tnum text-slate-300">55%</td>
+          <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
+        </tr>
+        <tr class="border-b border-white/5">
+          <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
+          <td class="py-2.5 pr-3"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></td>
           <td class="py-2.5 pr-3 tnum text-slate-300">±0.50%</td>
           <td class="py-2.5 pr-3 tnum text-slate-300">55%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr>
         <tr class="border-b border-white/5">
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
@@ -279,15 +411,15 @@ document.addEventListener('DOMContentLoaded',function(){
           <td class="py-2.5 pr-3 tnum text-slate-300">±1.00%</td>
           <td class="py-2.5 pr-3 tnum text-slate-300">55%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr>
         <tr class="border-b border-white/5">
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
-          <td class="py-2.5 pr-3"><span class='chip bg-sky-400/10 text-sky-300'>▬ range</span></td>
+          <td class="py-2.5 pr-3"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></td>
           <td class="py-2.5 pr-3 tnum text-slate-300">±0.50%</td>
           <td class="py-2.5 pr-3 tnum text-slate-300">40%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-17</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr>
         <tr class="border-b border-white/5">
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
@@ -295,7 +427,7 @@ document.addEventListener('DOMContentLoaded',function(){
           <td class="py-2.5 pr-3 tnum text-slate-300">±1.00%</td>
           <td class="py-2.5 pr-3 tnum text-slate-300">55%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr>
         <tr class="border-b border-white/5">
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
@@ -303,7 +435,7 @@ document.addEventListener('DOMContentLoaded',function(){
           <td class="py-2.5 pr-3 tnum text-slate-300">±1.00%</td>
           <td class="py-2.5 pr-3 tnum text-slate-300">45%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr>
         <tr class="border-b border-white/5">
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
@@ -311,7 +443,7 @@ document.addEventListener('DOMContentLoaded',function(){
           <td class="py-2.5 pr-3 tnum text-slate-300">±1.00%</td>
           <td class="py-2.5 pr-3 tnum text-slate-300">50%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr>
         <tr class="border-b border-white/5">
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
@@ -319,7 +451,7 @@ document.addEventListener('DOMContentLoaded',function(){
           <td class="py-2.5 pr-3 tnum text-slate-300">±1.00%</td>
           <td class="py-2.5 pr-3 tnum text-slate-300">55%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr>
         <tr class="border-b border-white/5">
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
@@ -327,7 +459,7 @@ document.addEventListener('DOMContentLoaded',function(){
           <td class="py-2.5 pr-3 tnum text-slate-300">±0.50%</td>
           <td class="py-2.5 pr-3 tnum text-slate-300">50%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr>
         <tr class="border-b border-white/5">
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
@@ -335,7 +467,7 @@ document.addEventListener('DOMContentLoaded',function(){
           <td class="py-2.5 pr-3 tnum text-slate-300">±1.00%</td>
           <td class="py-2.5 pr-3 tnum text-slate-300">60%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr>
         <tr class="border-b border-white/5">
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
@@ -343,15 +475,15 @@ document.addEventListener('DOMContentLoaded',function(){
           <td class="py-2.5 pr-3 tnum text-slate-300">±2.00%</td>
           <td class="py-2.5 pr-3 tnum text-slate-300">70%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr>
         <tr class="border-b border-white/5">
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
-          <td class="py-2.5 pr-3"><span class='chip bg-sky-400/10 text-sky-300'>▬ range</span></td>
+          <td class="py-2.5 pr-3"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></td>
           <td class="py-2.5 pr-3 tnum text-slate-300">±1.00%</td>
           <td class="py-2.5 pr-3 tnum text-slate-300">40%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr>
         <tr class="border-b border-white/5">
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
@@ -359,7 +491,15 @@ document.addEventListener('DOMContentLoaded',function(){
           <td class="py-2.5 pr-3 tnum text-slate-300">±0.50%</td>
           <td class="py-2.5 pr-3 tnum text-slate-300">40%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
+        </tr>
+        <tr class="border-b border-white/5">
+          <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
+          <td class="py-2.5 pr-3"><span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></td>
+          <td class="py-2.5 pr-3 tnum text-slate-300">±1.50%</td>
+          <td class="py-2.5 pr-3 tnum text-slate-300">55%</td>
+          <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr>
         <tr class="border-b border-white/5">
           <td class="py-2.5 pr-3 whitespace-nowrap tnum text-slate-500">2026-09-03</td>
@@ -367,7 +507,7 @@ document.addEventListener('DOMContentLoaded',function(){
           <td class="py-2.5 pr-3 tnum text-slate-300">±1.50%</td>
           <td class="py-2.5 pr-3 tnum text-slate-300">65%</td>
           <td class="py-2.5 pr-3 text-slate-500 tnum">2026-09-10</td>
-          <td class="py-2.5"><span class='chip bg-indigo-500/15 text-indigo-300'>open</span></td>
+          <td class="py-2.5"><span class='chip bg-amber-400/10 text-amber-300'>● open</span></td>
         </tr></tbody>
       </table></div>
     </div>
@@ -375,256 +515,328 @@ document.addEventListener('DOMContentLoaded',function(){
 
   <section class="mt-6 sm:mt-8 surface p-4 sm:p-5">
     <div class="flex items-center justify-between mb-2 gap-2 flex-wrap">
-      <h2 class="text-lg font-semibold text-white">Timeline · events near this asset</h2>
-      <span class="text-[11px] text-slate-500">27 in price window</span></div>
+      <h2 class="font-display text-lg font-semibold text-white">Timeline · events near this asset</h2>
+      <span class="text-[11px] text-slate-500">35 in price window</span></div>
     <ul class="grid sm:grid-cols-2 gap-x-8">
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Indonesia</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-08-31</span></div>
             <div class="text-sm text-slate-200 mt-0.5">A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+              <span class="text-[11px] text-slate-500">Southeast Asia</span>
+              <span class="text-[11px] text-slate-600 ml-auto tnum">2026-08-31</span></div>
+            <div class="text-sm text-slate-200 mt-0.5">A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.</div>
+          </div>
+        </li>
+        <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
+          <div class="min-w-0">
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Southeast Asia</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-08-31</span></div>
             <div class="text-sm text-slate-200 mt-0.5">A magnitude 5.5 earthquake struck Indonesia at 10 km depth, affecting about 9,000 people with MMI VI.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+              <span class="text-[11px] text-slate-500">North America</span>
+              <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-01</span></div>
+            <div class="text-sm text-slate-200 mt-0.5">Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, affected Mexico with no population impacted.</div>
+          </div>
+        </li>
+        <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
+          <div class="min-w-0">
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
               <span class="text-[11px] text-slate-500">North America</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-01</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">North America</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-01</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">East Asia</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-01</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Tropical Storm KROVANH-26, Category 1 winds, affected Japan with no population impact.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Pacific Ocean</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-02</span></div>
             <div class="text-sm text-slate-200 mt-0.5">A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+              <span class="text-[11px] text-slate-500">Pacific Ocean</span>
+              <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-02</span></div>
+            <div class="text-sm text-slate-200 mt-0.5">A 5.9 magnitude earthquake occurred at 10 km depth in the Southern East Pacific Rise on 2 September 2026.</div>
+          </div>
+        </li>
+        <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
+          <div class="min-w-0">
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Europe</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-02</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Protests erupt in Spain over government&#x27;s handling of Ceuta migrant crisis, with opposition parties accusing PM Pedro Sánchez of abandoning residents.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Pacific Ocean</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-02</span></div>
             <div class="text-sm text-slate-200 mt-0.5">A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 02 Sep 2026.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Pacific Ocean</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-02</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Magnitude 5.9 earthquake at 10 km depth struck Southern East Pacific Rise on 2 Sep 2026.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>geopolitical</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>geopolitical</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Europe</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-02</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Russian President Putin is issuing a veiled threat to the UK as part of Russia&#x27;s campaign against the West, aiming to keep Britain uncertain about Moscow&#x27;s intentions.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>military</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>military</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Southeast Asia</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-02</span></div>
             <div class="text-sm text-slate-200 mt-0.5">US troops historically arrived in Pattaya, Thailand, a beach resort known for racy bars.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>military</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>military</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Pacific</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">US forces boarded and sank a boat in the eastern Pacific, claiming it was a floating refueling station for drug traffickers.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Global</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">WMO warns of a supersized El Niño that could disrupt global economies.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Africa</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Forest fire started in the Democratic Republic of Congo on 31 August 2026 and burned until 2 September 2026.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Europe</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Maltese tycoon acquitted in 2017 murder case of journalist Daphne Caruana Galizia.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+              <span class="text-[11px] text-slate-500">US</span>
+              <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
+            <div class="text-sm text-slate-200 mt-0.5">Disney actress Carla Jeffery, known for role in Zombies, dies at 33.</div>
+          </div>
+        </li>
+        <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
+          <div class="min-w-0">
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
               <span class="text-[11px] text-slate-500">US</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Disney star Carla Jeffery, known for playing Bree in Disney Channel&#x27;s Zombies, dies at 33.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
               <span class="text-[11px] text-slate-500">US</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Disney Channel actress Carla Jeffery, known for her role as Bree in the 2018 film Zombies, died at age 33.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Europe</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Maltese tycoon acquitted in 2017 murder case of journalist Daphne Caruana Galizia.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Africa</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">A forest fire started in Angola on 31 August 2026 and continued until 2 September 2026.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Southern Africa</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Forest fire started in Angola on 31 Aug 2026 and continued until 2 Sep 2026.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">North America</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Powerful storm hits Toronto, Canada, causing severe flooding, power outages for tens of thousands, and flight cancellations at Pearson airport.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 1</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+              <span class="text-[11px] text-slate-500">Africa</span>
+              <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
+            <div class="text-sm text-slate-200 mt-0.5">Forest fire started in Angola on 31 August 2026, burning until 2 September 2026.</div>
+          </div>
+        </li>
+        <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
+          <div class="min-w-0">
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 1</span>
               <span class="text-[11px] text-slate-500">Turkey</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">A man rescued a girl from a 3rd floor balcony in Diyarbakir, Turkey, by scaling the building.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>economic</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Asia</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Asian economies build oil and gas storage capacity to reduce exposure to Middle East conflict.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
               <span class="text-[11px] text-slate-500">Southeast Asia</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">US sailors shop and bar-hopping in Pattaya after a 250‑day voyage.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+              <span class="text-[11px] text-slate-500">Europe</span>
+              <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
+            <div class="text-sm text-slate-200 mt-0.5">Maltese tycoon acquitted in the 2017 murder case of journalist Daphne Caruana Galizia.</div>
+          </div>
+        </li>
+        <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
+          <div class="min-w-0">
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
               <span class="text-[11px] text-slate-500">Africa</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Forest fire started in Zambia on 1 September 2026 and continued until 2 September 2026.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Canada</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Powerful storm in Toronto caused power outages for tens of thousands and severe flooding, leading to flight cancellations at Pearson Airport.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
-          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
-            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Africa</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Forest fire started in the Democratic Republic of Congo on 31 August 2026 and continued until 2 September 2026.</div>
+          </div>
+        </li>
+        <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
+          <div class="min-w-0">
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+              <span class="text-[11px] text-slate-500">Canada</span>
+              <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
+            <div class="text-sm text-slate-200 mt-0.5">Powerful storm in Toronto caused power outages, flooding, and flight cancellations at Pearson Airport.</div>
+          </div>
+        </li>
+        <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
+          <span class="w-2 h-2 rounded-full bg-amber-400/80 mt-1.5 shrink-0"></span>
+          <div class="min-w-0">
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+              <span class="text-[11px] text-slate-500">Africa</span>
+              <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-03</span></div>
+            <div class="text-sm text-slate-200 mt-0.5">Forest fire started in DRC on 31 Aug 2026, lasted until 2 Sep 2026.</div>
           </div>
         </li></ul>
   </section>
 </main>
 <script>
-const CHART_DATA = {"dates": ["2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06", "2026-03-09", "2026-03-10", "2026-03-11", "2026-03-12", "2026-03-13", "2026-03-16", "2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20", "2026-03-23", "2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-10", "2026-08-11", "2026-08-12", "2026-08-13", "2026-08-14", "2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-21", "2026-08-24", "2026-08-25", "2026-08-26", "2026-08-27", "2026-08-28", "2026-08-31", "2026-09-01", "2026-09-02", "2026-09-03"], "closes": [74.559998, 74.660004, 81.010002, 90.900002, 94.769997, 83.449997, 87.25, 95.730003, 98.709999, 93.5, 96.209999, 96.32, 96.139999, 98.32, 88.129997, 92.349998, 90.32, 94.480003, 99.639999, 102.879997, 101.379997, 100.120003, 111.540001, 112.410004, 112.949997, 94.410004, 97.870003, 96.57, 99.080002, 91.279999, 91.290001, 94.690002, 83.849998, 89.610001, 92.129997, 92.959999, 95.849998, 94.400002, 96.370003, 99.93, 106.879997, 105.07, 101.940002, 106.419998, 102.269997, 95.080002, 94.809998, 95.419998, 98.07, 102.18, 101.019997, 101.169998, 105.419998, 108.660004, 107.769997, 98.260002, 96.349998, 96.599998, 93.889999, 88.68, 88.900002, 87.360001, 92.160004, 93.760002, 96.019997, 93.040001, 90.540001, 91.300003, 88.199997, 90.029999, 87.709999, 84.879997, 80.75, 76.050003, 76.790001, 76.599998, 74.82, 73.209999, 70.339996, 71.919998, 69.230003, 70.75, 69.5, 68.580002, 68.690002, 68.550003, 70.440002, 73.519997, 72.080002, 71.410004, 78.139999, 79.339996, 79.599998, 78.949997, 82.489998, 83.230003, 84.910004, 86.830002, 92.190002, 89.309998, 82.610001, 79.260002, 84.459999, 83.589996, 84.669998, 80.339996, 75.769997, 75.220001, 77.290001, 78.18, 82.129997, 83.199997, 83.269997, 81.25, 82.400002, 84.5, 84.940002, 85.830002, 87.830002, 87.059998, 85.010002, 82.360001, 82.230003, 83.529999, 83.400002, 85.760002, 90.220001, 91.010002, 90.910004], "events": [{"id": "evt-d131b45f2d67", "date": "2026-08-31", "event_type": "natural_disaster", "severity": 3, "region": "Indonesia", "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"}, {"id": "evt-2e61fbe3cf57", "date": "2026-08-31", "event_type": "natural_disaster", "severity": 3, "region": "Southeast Asia", "summary": "A magnitude 5.5 earthquake struck Indonesia at 10 km depth, affecting about 9,000 people with MMI VI.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"}, {"id": "evt-dfa14d13a34a", "date": "2026-09-01", "event_type": "natural_disaster", "severity": 2, "region": "North America", "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.", "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"}, {"id": "evt-af6573dd186b", "date": "2026-09-01", "event_type": "natural_disaster", "severity": 3, "region": "North America", "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected.", "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"}, {"id": "evt-2c32c06a9e16", "date": "2026-09-01", "event_type": "natural_disaster", "severity": 3, "region": "East Asia", "summary": "Tropical Storm KROVANH-26, Category 1 winds, affected Japan with no population impact.", "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001318"}, {"id": "evt-5f2d3ddf40ed", "date": "2026-09-02", "event_type": "natural_disaster", "severity": 3, "region": "Pacific Ocean", "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"}, {"id": "evt-4aedef2c6201", "date": "2026-09-02", "event_type": "political", "severity": 3, "region": "Europe", "summary": "Protests erupt in Spain over government's handling of Ceuta migrant crisis, with opposition parties accusing PM Pedro Sánchez of abandoning residents.", "url": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss"}, {"id": "evt-460698bcb271", "date": "2026-09-02", "event_type": "natural_disaster", "severity": 3, "region": "Pacific Ocean", "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 02 Sep 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"}, {"id": "evt-4044f64f38fd", "date": "2026-09-02", "event_type": "natural_disaster", "severity": 3, "region": "Pacific Ocean", "summary": "Magnitude 5.9 earthquake at 10 km depth struck Southern East Pacific Rise on 2 Sep 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"}, {"id": "evt-811efa11450a", "date": "2026-09-02", "event_type": "geopolitical", "severity": 3, "region": "Europe", "summary": "Russian President Putin is issuing a veiled threat to the UK as part of Russia's campaign against the West, aiming to keep Britain uncertain about Moscow's intentions.", "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss"}, {"id": "evt-c77aea482cfd", "date": "2026-09-02", "event_type": "military", "severity": 3, "region": "Southeast Asia", "summary": "US troops historically arrived in Pattaya, Thailand, a beach resort known for racy bars.", "url": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss"}, {"id": "evt-025a8316544f", "date": "2026-09-03", "event_type": "military", "severity": 3, "region": "Pacific", "summary": "US forces boarded and sank a boat in the eastern Pacific, claiming it was a floating refueling station for drug traffickers.", "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/us-forces-board-and-destroy-alleged-cartel-boat-in-eastern-pacific?traffic_source=rss"}, {"id": "evt-9630b1d4665e", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Global", "summary": "WMO warns of a supersized El Niño that could disrupt global economies.", "url": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss"}, {"id": "evt-d27d9a52ef1f", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Africa", "summary": "Forest fire started in the Democratic Republic of Congo on 31 August 2026 and burned until 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"}, {"id": "evt-bc2d67686d26", "date": "2026-09-03", "event_type": "political", "severity": 3, "region": "Europe", "summary": "Maltese tycoon acquitted in 2017 murder case of journalist Daphne Caruana Galizia.", "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss"}, {"id": "evt-113ba61fca20", "date": "2026-09-03", "event_type": "other", "severity": 2, "region": "US", "summary": "Disney star Carla Jeffery, known for playing Bree in Disney Channel's Zombies, dies at 33.", "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss"}, {"id": "evt-3be5faf1bf81", "date": "2026-09-03", "event_type": "other", "severity": 2, "region": "US", "summary": "Disney Channel actress Carla Jeffery, known for her role as Bree in the 2018 film Zombies, died at age 33.", "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss"}, {"id": "evt-99caa2d3d71a", "date": "2026-09-03", "event_type": "political", "severity": 3, "region": "Europe", "summary": "Maltese tycoon acquitted in 2017 murder case of journalist Daphne Caruana Galizia.", "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss"}, {"id": "evt-2ebce50d7c25", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Africa", "summary": "A forest fire started in Angola on 31 August 2026 and continued until 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031502"}, {"id": "evt-b78001e90008", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Southern Africa", "summary": "Forest fire started in Angola on 31 Aug 2026 and continued until 2 Sep 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031502"}, {"id": "evt-ceb2ed694b95", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "North America", "summary": "Powerful storm hits Toronto, Canada, causing severe flooding, power outages for tens of thousands, and flight cancellations at Pearson airport.", "url": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss"}, {"id": "evt-dbe4446e85a0", "date": "2026-09-03", "event_type": "other", "severity": 1, "region": "Turkey", "summary": "A man rescued a girl from a 3rd floor balcony in Diyarbakir, Turkey, by scaling the building.", "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/girl-rescued-by-free-climbing-neighbour-from-balcony-in-turkiye?traffic_source=rss"}, {"id": "evt-dc9695e783a8", "date": "2026-09-03", "event_type": "economic", "severity": 3, "region": "Asia", "summary": "Asian economies build oil and gas storage capacity to reduce exposure to Middle East conflict.", "url": "https://www.aljazeera.com/economy/2026/9/3/asia-looks-to-store-oil-gas-closer-to-home-after-strait-of-hormuz-crisis?traffic_source=rss"}, {"id": "evt-21cffd557075", "date": "2026-09-03", "event_type": "other", "severity": 2, "region": "Southeast Asia", "summary": "US sailors shop and bar-hopping in Pattaya after a 250‑day voyage.", "url": "https://www.bbc.co.uk/news/articles/cj9x2k8n3y1o?at_medium=RSS&at_campaign=rss"}, {"id": "evt-7417ddfcb001", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 2, "region": "Africa", "summary": "Forest fire started in Zambia on 1 September 2026 and continued until 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031499"}, {"id": "evt-489101f1c7eb", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Canada", "summary": "Powerful storm in Toronto caused power outages for tens of thousands and severe flooding, leading to flight cancellations at Pearson Airport.", "url": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss"}, {"id": "evt-669eac89d8c9", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Africa", "summary": "Forest fire started in the Democratic Republic of Congo on 31 August 2026 and continued until 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"}]};
+const CHART_DATA = {"dates": ["2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06", "2026-03-09", "2026-03-10", "2026-03-11", "2026-03-12", "2026-03-13", "2026-03-16", "2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20", "2026-03-23", "2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-10", "2026-08-11", "2026-08-12", "2026-08-13", "2026-08-14", "2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-21", "2026-08-24", "2026-08-25", "2026-08-26", "2026-08-27", "2026-08-28", "2026-08-31", "2026-09-01", "2026-09-02", "2026-09-03"], "closes": [74.559998, 74.660004, 81.010002, 90.900002, 94.769997, 83.449997, 87.25, 95.730003, 98.709999, 93.5, 96.209999, 96.32, 96.139999, 98.32, 88.129997, 92.349998, 90.32, 94.480003, 99.639999, 102.879997, 101.379997, 100.120003, 111.540001, 112.410004, 112.949997, 94.410004, 97.870003, 96.57, 99.080002, 91.279999, 91.290001, 94.690002, 83.849998, 89.610001, 92.129997, 92.959999, 95.849998, 94.400002, 96.370003, 99.93, 106.879997, 105.07, 101.940002, 106.419998, 102.269997, 95.080002, 94.809998, 95.419998, 98.07, 102.18, 101.019997, 101.169998, 105.419998, 108.660004, 107.769997, 98.260002, 96.349998, 96.599998, 93.889999, 88.68, 88.900002, 87.360001, 92.160004, 93.760002, 96.019997, 93.040001, 90.540001, 91.300003, 88.199997, 90.029999, 87.709999, 84.879997, 80.75, 76.050003, 76.790001, 76.599998, 74.82, 73.209999, 70.339996, 71.919998, 69.230003, 70.75, 69.5, 68.580002, 68.690002, 68.550003, 70.440002, 73.519997, 72.080002, 71.410004, 78.139999, 79.339996, 79.599998, 78.949997, 82.489998, 83.230003, 84.910004, 86.830002, 92.190002, 89.309998, 82.610001, 79.260002, 84.459999, 83.589996, 84.669998, 80.339996, 75.769997, 75.220001, 77.290001, 78.18, 82.129997, 83.199997, 83.269997, 81.25, 82.400002, 84.5, 84.940002, 85.830002, 87.830002, 87.059998, 85.010002, 82.360001, 82.230003, 83.529999, 83.400002, 85.760002, 90.220001, 91.010002, 90.910004], "events": [{"id": "evt-d131b45f2d67", "date": "2026-08-31", "event_type": "natural_disaster", "severity": 3, "region": "Indonesia", "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"}, {"id": "evt-1698716a1aa8", "date": "2026-08-31", "event_type": "natural_disaster", "severity": 3, "region": "Southeast Asia", "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"}, {"id": "evt-2e61fbe3cf57", "date": "2026-08-31", "event_type": "natural_disaster", "severity": 3, "region": "Southeast Asia", "summary": "A magnitude 5.5 earthquake struck Indonesia at 10 km depth, affecting about 9,000 people with MMI VI.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"}, {"id": "evt-04b813e3b2ba", "date": "2026-09-01", "event_type": "natural_disaster", "severity": 2, "region": "North America", "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, affected Mexico with no population impacted.", "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"}, {"id": "evt-dfa14d13a34a", "date": "2026-09-01", "event_type": "natural_disaster", "severity": 2, "region": "North America", "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.", "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"}, {"id": "evt-af6573dd186b", "date": "2026-09-01", "event_type": "natural_disaster", "severity": 3, "region": "North America", "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected.", "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"}, {"id": "evt-2c32c06a9e16", "date": "2026-09-01", "event_type": "natural_disaster", "severity": 3, "region": "East Asia", "summary": "Tropical Storm KROVANH-26, Category 1 winds, affected Japan with no population impact.", "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001318"}, {"id": "evt-5f2d3ddf40ed", "date": "2026-09-02", "event_type": "natural_disaster", "severity": 3, "region": "Pacific Ocean", "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"}, {"id": "evt-7b0c4ff2b1d8", "date": "2026-09-02", "event_type": "natural_disaster", "severity": 3, "region": "Pacific Ocean", "summary": "A 5.9 magnitude earthquake occurred at 10 km depth in the Southern East Pacific Rise on 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"}, {"id": "evt-4aedef2c6201", "date": "2026-09-02", "event_type": "political", "severity": 3, "region": "Europe", "summary": "Protests erupt in Spain over government's handling of Ceuta migrant crisis, with opposition parties accusing PM Pedro Sánchez of abandoning residents.", "url": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss"}, {"id": "evt-460698bcb271", "date": "2026-09-02", "event_type": "natural_disaster", "severity": 3, "region": "Pacific Ocean", "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 02 Sep 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"}, {"id": "evt-4044f64f38fd", "date": "2026-09-02", "event_type": "natural_disaster", "severity": 3, "region": "Pacific Ocean", "summary": "Magnitude 5.9 earthquake at 10 km depth struck Southern East Pacific Rise on 2 Sep 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"}, {"id": "evt-811efa11450a", "date": "2026-09-02", "event_type": "geopolitical", "severity": 3, "region": "Europe", "summary": "Russian President Putin is issuing a veiled threat to the UK as part of Russia's campaign against the West, aiming to keep Britain uncertain about Moscow's intentions.", "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss"}, {"id": "evt-c77aea482cfd", "date": "2026-09-02", "event_type": "military", "severity": 3, "region": "Southeast Asia", "summary": "US troops historically arrived in Pattaya, Thailand, a beach resort known for racy bars.", "url": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss"}, {"id": "evt-025a8316544f", "date": "2026-09-03", "event_type": "military", "severity": 3, "region": "Pacific", "summary": "US forces boarded and sank a boat in the eastern Pacific, claiming it was a floating refueling station for drug traffickers.", "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/us-forces-board-and-destroy-alleged-cartel-boat-in-eastern-pacific?traffic_source=rss"}, {"id": "evt-9630b1d4665e", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Global", "summary": "WMO warns of a supersized El Niño that could disrupt global economies.", "url": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss"}, {"id": "evt-d27d9a52ef1f", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Africa", "summary": "Forest fire started in the Democratic Republic of Congo on 31 August 2026 and burned until 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"}, {"id": "evt-bc2d67686d26", "date": "2026-09-03", "event_type": "political", "severity": 3, "region": "Europe", "summary": "Maltese tycoon acquitted in 2017 murder case of journalist Daphne Caruana Galizia.", "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss"}, {"id": "evt-c8541b6f48f3", "date": "2026-09-03", "event_type": "other", "severity": 2, "region": "US", "summary": "Disney actress Carla Jeffery, known for role in Zombies, dies at 33.", "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss"}, {"id": "evt-113ba61fca20", "date": "2026-09-03", "event_type": "other", "severity": 2, "region": "US", "summary": "Disney star Carla Jeffery, known for playing Bree in Disney Channel's Zombies, dies at 33.", "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss"}, {"id": "evt-3be5faf1bf81", "date": "2026-09-03", "event_type": "other", "severity": 2, "region": "US", "summary": "Disney Channel actress Carla Jeffery, known for her role as Bree in the 2018 film Zombies, died at age 33.", "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss"}, {"id": "evt-99caa2d3d71a", "date": "2026-09-03", "event_type": "political", "severity": 3, "region": "Europe", "summary": "Maltese tycoon acquitted in 2017 murder case of journalist Daphne Caruana Galizia.", "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss"}, {"id": "evt-2ebce50d7c25", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Africa", "summary": "A forest fire started in Angola on 31 August 2026 and continued until 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031502"}, {"id": "evt-b78001e90008", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Southern Africa", "summary": "Forest fire started in Angola on 31 Aug 2026 and continued until 2 Sep 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031502"}, {"id": "evt-ceb2ed694b95", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "North America", "summary": "Powerful storm hits Toronto, Canada, causing severe flooding, power outages for tens of thousands, and flight cancellations at Pearson airport.", "url": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss"}, {"id": "evt-42dd92dcec05", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Africa", "summary": "Forest fire started in Angola on 31 August 2026, burning until 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031502"}, {"id": "evt-dbe4446e85a0", "date": "2026-09-03", "event_type": "other", "severity": 1, "region": "Turkey", "summary": "A man rescued a girl from a 3rd floor balcony in Diyarbakir, Turkey, by scaling the building.", "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/girl-rescued-by-free-climbing-neighbour-from-balcony-in-turkiye?traffic_source=rss"}, {"id": "evt-dc9695e783a8", "date": "2026-09-03", "event_type": "economic", "severity": 3, "region": "Asia", "summary": "Asian economies build oil and gas storage capacity to reduce exposure to Middle East conflict.", "url": "https://www.aljazeera.com/economy/2026/9/3/asia-looks-to-store-oil-gas-closer-to-home-after-strait-of-hormuz-crisis?traffic_source=rss"}, {"id": "evt-21cffd557075", "date": "2026-09-03", "event_type": "other", "severity": 2, "region": "Southeast Asia", "summary": "US sailors shop and bar-hopping in Pattaya after a 250‑day voyage.", "url": "https://www.bbc.co.uk/news/articles/cj9x2k8n3y1o?at_medium=RSS&at_campaign=rss"}, {"id": "evt-c23662161120", "date": "2026-09-03", "event_type": "political", "severity": 3, "region": "Europe", "summary": "Maltese tycoon acquitted in the 2017 murder case of journalist Daphne Caruana Galizia.", "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss"}, {"id": "evt-7417ddfcb001", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 2, "region": "Africa", "summary": "Forest fire started in Zambia on 1 September 2026 and continued until 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031499"}, {"id": "evt-489101f1c7eb", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Canada", "summary": "Powerful storm in Toronto caused power outages for tens of thousands and severe flooding, leading to flight cancellations at Pearson Airport.", "url": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss"}, {"id": "evt-669eac89d8c9", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Africa", "summary": "Forest fire started in the Democratic Republic of Congo on 31 August 2026 and continued until 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"}, {"id": "evt-a9cc9632e5ca", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Canada", "summary": "Powerful storm in Toronto caused power outages, flooding, and flight cancellations at Pearson Airport.", "url": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss"}, {"id": "evt-f88bbaaca6d2", "date": "2026-09-03", "event_type": "natural_disaster", "severity": 3, "region": "Africa", "summary": "Forest fire started in DRC on 31 Aug 2026, lasted until 2 Sep 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"}]};
 (function(){
   const cv = document.getElementById('price-chart');
   const wrap = document.getElementById('chart-wrap');
@@ -654,13 +866,13 @@ const CHART_DATA = {"dates": ["2026-03-03", "2026-03-04", "2026-03-05", "2026-03
     const up = d.closes[n - 1] >= d.closes[0];
     const gcol = up ? 'rgba(52,211,153,' : 'rgba(251,113,133,';
     const grad = ctx.createLinearGradient(0, 0, 0, H);
-    grad.addColorStop(0, gcol + '0.22)'); grad.addColorStop(1, gcol + '0.02)');
+    grad.addColorStop(0, gcol + '0.20)'); grad.addColorStop(1, gcol + '0.02)');
     ctx.fillStyle = grad; ctx.fill();
-    // line
+    // line (gold when falling matches the theme; keep emerald/rose semantic)
     ctx.beginPath(); ctx.moveTo(px(0), py(d.closes[0]));
     for (let i = 1; i < n; i++) ctx.lineTo(px(i), py(d.closes[i]));
-    ctx.strokeStyle = up ? '#34d399' : '#fb7185'; ctx.lineWidth = 2; ctx.lineJoin = 'round'; ctx.stroke();
-    // event markers
+    ctx.strokeStyle = up ? '#34d399' : '#e8a020'; ctx.lineWidth = 2; ctx.lineJoin = 'round'; ctx.stroke();
+    // event markers — amber diamond, rose when severe
     const evs = d.events || [];
     const dateIdx = {}; d.dates.forEach((dt, i) => dateIdx[dt] = i);
     const markers = [];
@@ -670,7 +882,7 @@ const CHART_DATA = {"dates": ["2026-03-03", "2026-03-04", "2026-03-05", "2026-03
       const x = px(i), y = py(d.closes[i]);
       ctx.beginPath();
       ctx.moveTo(x, y - 8); ctx.lineTo(x + 5, y); ctx.lineTo(x, y + 8); ctx.lineTo(x - 5, y); ctx.closePath();
-      ctx.fillStyle = (e.severity && e.severity >= 4) ? '#fb7185' : '#818cf8';
+      ctx.fillStyle = (e.severity && e.severity >= 4) ? '#fb7185' : '#f6c453';
       ctx.fill();
       markers.push({x, y, e});
     });
