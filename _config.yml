@@ -1,0 +1,11 @@
+# GitHub Pages deploys from the repo root; keep the site out of Jekyll processing.
+markdown: kramdown
+exclude:
+  - README.md
+  - LICENSE
+  - src
+  - scripts
+  - config
+  - data
+  - tests
+  - tools
