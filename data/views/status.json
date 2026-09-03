@@ -1,61 +1,61 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-09-03T10:26:45Z",
+ "updated_at": "2026-09-03T10:31:54Z",
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
    "message": "0 new price snapshots",
-   "started_at": "2026-09-03T10:24:08Z",
-   "ended_at": "2026-09-03T10:24:10Z",
+   "started_at": "2026-09-03T10:28:44Z",
+   "ended_at": "2026-09-03T10:28:47Z",
    "count": 0
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "4 new items (rss 4, gdelt 0, disasters 0)",
-   "started_at": "2026-09-03T10:24:10Z",
-   "ended_at": "2026-09-03T10:24:46Z",
-   "count": 4
+   "message": "3 new items (rss 3, gdelt 0, disasters 0)",
+   "started_at": "2026-09-03T10:28:47Z",
+   "ended_at": "2026-09-03T10:29:20Z",
+   "count": 3
   },
   "extract": {
    "stage": "extract",
    "ok": true,
    "message": "12 events extracted from 12 items",
-   "started_at": "2026-09-03T10:24:46Z",
-   "ended_at": "2026-09-03T10:24:54Z",
+   "started_at": "2026-09-03T10:29:20Z",
+   "ended_at": "2026-09-03T10:29:30Z",
    "count": 12
   },
   "explain": {
    "stage": "explain",
    "ok": true,
    "message": "0 new moves, 20 new causal notes",
-   "started_at": "2026-09-03T10:24:54Z",
-   "ended_at": "2026-09-03T10:26:03Z",
+   "started_at": "2026-09-03T10:29:30Z",
+   "ended_at": "2026-09-03T10:30:55Z",
    "count": 20
   },
   "predict": {
    "stage": "predict",
    "ok": true,
-   "message": "7 predictions from 8 events",
-   "started_at": "2026-09-03T10:26:03Z",
-   "ended_at": "2026-09-03T10:26:45Z",
-   "count": 7
+   "message": "14 predictions from 8 events",
+   "started_at": "2026-09-03T10:30:55Z",
+   "ended_at": "2026-09-03T10:31:54Z",
+   "count": 14
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
    "message": "0 resolved, 0 voided",
-   "started_at": "2026-09-03T10:26:45Z",
-   "ended_at": "2026-09-03T10:26:45Z",
+   "started_at": "2026-09-03T10:31:54Z",
+   "ended_at": "2026-09-03T10:31:54Z",
    "count": 0
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
    "message": "no resolutions yet",
-   "started_at": "2026-09-03T10:26:45Z",
-   "ended_at": "2026-09-03T10:26:45Z",
+   "started_at": "2026-09-03T10:31:54Z",
+   "ended_at": "2026-09-03T10:31:54Z",
    "count": 0
   }
  },
