@@ -1,63 +1,63 @@
 {
-  "project": "EventPulse",
-  "updated_at": "2026-09-03T09:44:21Z",
-  "stages": {
-    "ingest_prices": {
-      "stage": "ingest_prices",
-      "ok": true,
-      "message": "0 new price snapshots",
-      "started_at": "2026-09-03T09:24:56Z",
-      "ended_at": "2026-09-03T09:24:57Z",
-      "count": 0
-    },
-    "ingest_news": {
-      "stage": "ingest_news",
-      "ok": true,
-      "message": "6 new items (rss 6, gdelt 0, disasters 0)",
-      "started_at": "2026-09-03T09:24:57Z",
-      "ended_at": "2026-09-03T09:26:01Z",
-      "count": 6
-    },
-    "extract": {
-      "stage": "extract",
-      "ok": true,
-      "message": "0 events extracted from 60 items",
-      "started_at": "2026-09-03T09:26:01Z",
-      "ended_at": "2026-09-03T09:38:14Z",
-      "count": 0
-    },
-    "explain": {
-      "stage": "explain",
-      "ok": true,
-      "message": "0 new moves, 30 new causal notes",
-      "started_at": "2026-09-03T09:38:14Z",
-      "ended_at": "2026-09-03T09:44:21Z",
-      "count": 30
-    },
-    "predict": {
-      "stage": "predict",
-      "ok": true,
-      "message": "0 predictions from 0 events",
-      "started_at": "2026-09-03T09:44:21Z",
-      "ended_at": "2026-09-03T09:44:21Z",
-      "count": 0
-    },
-    "resolve": {
-      "stage": "resolve",
-      "ok": true,
-      "message": "0 resolved, 0 voided",
-      "started_at": "2026-09-03T09:44:21Z",
-      "ended_at": "2026-09-03T09:44:21Z",
-      "count": 0
-    },
-    "reflect": {
-      "stage": "reflect",
-      "ok": true,
-      "message": "no resolutions yet",
-      "started_at": "2026-09-03T09:44:21Z",
-      "ended_at": "2026-09-03T09:44:21Z",
-      "count": 0
-    }
+ "project": "EventPulse",
+ "updated_at": "2026-09-03T10:20:00Z",
+ "stages": {
+  "ingest_prices": {
+   "stage": "ingest_prices",
+   "ok": true,
+   "message": "0 new price snapshots",
+   "started_at": "2026-09-03T10:12:01Z",
+   "ended_at": "2026-09-03T10:12:04Z",
+   "count": 0
   },
-  "healthy": true
+  "ingest_news": {
+   "stage": "ingest_news",
+   "ok": true,
+   "message": "6 new items (rss 5, gdelt 0, disasters 1)",
+   "started_at": "2026-09-03T10:12:04Z",
+   "ended_at": "2026-09-03T10:13:08Z",
+   "count": 6
+  },
+  "extract": {
+   "stage": "extract",
+   "ok": true,
+   "message": "0 events extracted from 12 items",
+   "started_at": "2026-09-03T10:13:08Z",
+   "ended_at": "2026-09-03T10:14:59Z",
+   "count": 0
+  },
+  "explain": {
+   "stage": "explain",
+   "ok": true,
+   "message": "0 new moves, 0 new causal notes",
+   "started_at": "2026-09-03T10:14:59Z",
+   "ended_at": "2026-09-03T10:20:00Z",
+   "count": 0
+  },
+  "predict": {
+   "stage": "predict",
+   "ok": true,
+   "message": "0 predictions from 0 events",
+   "started_at": "2026-09-03T10:20:00Z",
+   "ended_at": "2026-09-03T10:20:00Z",
+   "count": 0
+  },
+  "resolve": {
+   "stage": "resolve",
+   "ok": true,
+   "message": "0 resolved, 0 voided",
+   "started_at": "2026-09-03T10:20:00Z",
+   "ended_at": "2026-09-03T10:20:00Z",
+   "count": 0
+  },
+  "reflect": {
+   "stage": "reflect",
+   "ok": true,
+   "message": "no resolutions yet",
+   "started_at": "2026-09-03T10:20:00Z",
+   "ended_at": "2026-09-03T10:20:00Z",
+   "count": 0
+  }
+ },
+ "healthy": true
 }
