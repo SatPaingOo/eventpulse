@@ -22,10 +22,11 @@
   <a href="./markets.html" class="nav-link ">Markets</a>
   <a href="./daily.html" class="nav-link ">Daily</a>
   <a href="./patterns.html" class="nav-link active">Track&nbsp;record</a>
+  <a href="./about.html" class="nav-link ">How&nbsp;it&nbsp;works</a>
 </div></div></nav><div class="ticker"><div class="ticker-track"><span class='ticker-item'><b>Gold</b><span class='tnum'>4,484.60</span><span class='up tnum'>+2.71%</span></span><span class='ticker-item'><b>Crude Oil (WTI)</b><span class='tnum'>90.91</span><span class='down tnum'>-0.11%</span></span><span class='ticker-item'><b>Apple</b><span class='tnum'>329.84</span><span class='up tnum'>+1.50%</span></span><span class='ticker-item'><b>NVIDIA</b><span class='tnum'>226.88</span><span class='up tnum'>+1.10%</span></span><span class='ticker-item'><b>Microsoft</b><span class='tnum'>513.07</span><span class='up tnum'>+3.27%</span></span><span class='ticker-item'><b>Tesla</b><span class='tnum'>380.36</span><span class='up tnum'>+6.54%</span></span><span class='ticker-item'><b>JPMorgan</b><span class='tnum'>361.37</span><span class='up tnum'>+1.45%</span></span><span class='ticker-item'><b>Gold</b><span class='tnum'>4,484.60</span><span class='up tnum'>+2.71%</span></span><span class='ticker-item'><b>Crude Oil (WTI)</b><span class='tnum'>90.91</span><span class='down tnum'>-0.11%</span></span><span class='ticker-item'><b>Apple</b><span class='tnum'>329.84</span><span class='up tnum'>+1.50%</span></span><span class='ticker-item'><b>NVIDIA</b><span class='tnum'>226.88</span><span class='up tnum'>+1.10%</span></span><span class='ticker-item'><b>Microsoft</b><span class='tnum'>513.07</span><span class='up tnum'>+3.27%</span></span><span class='ticker-item'><b>Tesla</b><span class='tnum'>380.36</span><span class='up tnum'>+6.54%</span></span><span class='ticker-item'><b>JPMorgan</b><span class='tnum'>361.37</span><span class='up tnum'>+1.45%</span></span></div></div>
 <header class="relative z-10"><div class="max-w-6xl mx-auto px-4 sm:px-5 pt-10 sm:pt-12 pb-2">
   <h1 class="font-display text-2xl sm:text-3xl font-bold text-white tracking-tight">Track record</h1>
-  <p class="text-slate-400 mt-1 text-sm">Every prediction is scored deterministically against the real close — no AI in the scoring, so this record is honest by construction.</p>
+  <p class="text-slate-400 mt-1 text-sm max-w-3xl">When a severe event happens, EventPulse publishes a <em>call</em> — for example "WTI up at least 2% within 14 days". When the window closes, a fixed rule compares the call to the <em>actual price move</em> and marks it hit or miss. This page is that scoreboard: how often we were right, broken down by event type, direction and asset. <span class="text-slate-500">No AI is involved in scoring — the market itself is the judge.</span></p>
 </div></header>
 <main class="relative z-10 max-w-6xl mx-auto px-4 sm:px-5 py-6">
   
@@ -36,21 +37,39 @@
       <p class="text-xs text-slate-500 mb-1">Predictions opened from events — the first scores land as their 7/14-day windows close.</p>
       <ul>
         <li class="flex items-start gap-2.5 py-2.5 border-b border-white/5 last:border-0">
-          <span class="shrink-0 pt-0.5"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></span>
+          <span class="shrink-0 pt-0.5"><span class='chip bg-rose-400/10 text-rose-300'>▼ down</span></span>
           <div class="min-w-0">
-            <div class="text-sm"><span class="font-semibold text-white">NVDA</span>
-              <span class="text-slate-500 text-xs"> ±1.00% · conf 20%</span>
+            <div class="text-sm"><span class="font-semibold text-white">TSLA</span>
+              <span class="text-slate-500 text-xs"> ±0.50% · conf 25%</span>
               <span class="text-slate-500 text-xs ml-2">due <span data-utc="2026-09-09">2026-09-09</span></span></div>
-            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Small quake unlikely to disrupt NVIDIA supply chain; expect minimal price change.</div>
+            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Earthquake may affect California manufacturing sites, causing slight downward bias.</div>
           </div>
         </li>
         <li class="flex items-start gap-2.5 py-2.5 border-b border-white/5 last:border-0">
-          <span class="shrink-0 pt-0.5"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></span>
+          <span class="shrink-0 pt-0.5"><span class='chip bg-rose-400/10 text-rose-300'>▼ down</span></span>
           <div class="min-w-0">
-            <div class="text-sm"><span class="font-semibold text-white">TSLA</span>
-              <span class="text-slate-500 text-xs"> ±0.50% · conf 35%</span>
+            <div class="text-sm"><span class="font-semibold text-white">AAPL</span>
+              <span class="text-slate-500 text-xs"> ±0.50% · conf 25%</span>
               <span class="text-slate-500 text-xs ml-2">due <span data-utc="2026-09-09">2026-09-09</span></span></div>
-            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Minor quake unlikely to disrupt Tesla&#x27;s CA plant operations.</div>
+            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Minor quake may cause brief operational delays at California HQ, modest sell pressure.</div>
+          </div>
+        </li>
+        <li class="flex items-start gap-2.5 py-2.5 border-b border-white/5 last:border-0">
+          <span class="shrink-0 pt-0.5"><span class='chip bg-rose-400/10 text-rose-300'>▼ down</span></span>
+          <div class="min-w-0">
+            <div class="text-sm"><span class="font-semibold text-white">JPM</span>
+              <span class="text-slate-500 text-xs"> ±0.50% · conf 50%</span>
+              <span class="text-slate-500 text-xs ml-2">due <span data-utc="2026-09-09">2026-09-09</span></span></div>
+            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Risk‑off sentiment can pressure bank stocks, causing a modest decline.</div>
+          </div>
+        </li>
+        <li class="flex items-start gap-2.5 py-2.5 border-b border-white/5 last:border-0">
+          <span class="shrink-0 pt-0.5"><span class='chip bg-rose-400/10 text-rose-300'>▼ down</span></span>
+          <div class="min-w-0">
+            <div class="text-sm"><span class="font-semibold text-white">JPM</span>
+              <span class="text-slate-500 text-xs"> ±0.50% · conf 45%</span>
+              <span class="text-slate-500 text-xs ml-2">due <span data-utc="2026-09-09">2026-09-09</span></span></div>
+            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Global risk aversion may hit banks, modest short‑term dip.</div>
           </div>
         </li>
         <li class="flex items-start gap-2.5 py-2.5 border-b border-white/5 last:border-0">
@@ -63,33 +82,15 @@
           </div>
         </li>
         <li class="flex items-start gap-2.5 py-2.5 border-b border-white/5 last:border-0">
-          <span class="shrink-0 pt-0.5"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></span>
-          <div class="min-w-0">
-            <div class="text-sm"><span class="font-semibold text-white">JPM</span>
-              <span class="text-slate-500 text-xs"> ±0.50% · conf 45%</span>
-              <span class="text-slate-500 text-xs ml-2">due <span data-utc="2026-09-09">2026-09-09</span></span></div>
-            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Global risk sentiment may slightly pressure banking, but impact expected to be minimal.</div>
-          </div>
-        </li>
-        <li class="flex items-start gap-2.5 py-2.5 border-b border-white/5 last:border-0">
           <span class="shrink-0 pt-0.5"><span class='chip bg-rose-400/10 text-rose-300'>▼ down</span></span>
           <div class="min-w-0">
-            <div class="text-sm"><span class="font-semibold text-white">NVDA</span>
-              <span class="text-slate-500 text-xs"> ±0.50% · conf 25%</span>
-              <span class="text-slate-500 text-xs ml-2">due <span data-utc="2026-09-09">2026-09-09</span></span></div>
-            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Small quake could disrupt California fabs, leading to short-term supply concerns.</div>
-          </div>
-        </li>
-        <li class="flex items-start gap-2.5 py-2.5 border-b border-white/5 last:border-0">
-          <span class="shrink-0 pt-0.5"><span class='chip bg-teal-400/10 text-teal-300'>▬ range</span></span>
-          <div class="min-w-0">
             <div class="text-sm"><span class="font-semibold text-white">JPM</span>
-              <span class="text-slate-500 text-xs"> ±0.50% · conf 45%</span>
+              <span class="text-slate-500 text-xs"> ±0.50% · conf 35%</span>
               <span class="text-slate-500 text-xs ml-2">due <span data-utc="2026-09-09">2026-09-09</span></span></div>
-            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Risk event may cause slight volatility, but likely range within 7 days.</div>
+            <div class="text-xs text-slate-400 mt-0.5 leading-snug">Risk-off and local slowdown pressure banks.</div>
           </div>
         </li></ul>
     </div>
   
-  <div class="surface p-5 text-slate-500">No resolved predictions yet — scores appear as the calls above reach their expiry dates.</div>
+  <div class="surface p-5 text-slate-500">No scored calls yet — scores appear as the calls above reach their 7/14-day expiry dates.</div>
 </main><footer class='mt-12 sm:mt-14 border-t border-white/5 pt-5 pb-8 text-[11px] sm:text-xs text-slate-500 flex flex-wrap justify-between gap-2'><span>EventPulse · event-driven market intelligence</span><span class='text-slate-600'>Research / education only — not financial advice · scores are computed deterministically from market data</span></footer><script src="./assets/js/app.js"></script></body></html>
