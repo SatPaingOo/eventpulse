@@ -64,7 +64,9 @@
     tip.classList.remove('hidden');
     tip.style.left = (best.x + 10) + 'px';
     tip.style.top = (best.y - 10) + 'px';
-    tip.innerHTML = '<div style="font-weight:600;color:#f6c453;margin-bottom:2px">' + (best.e.event_type || 'event') + ' · ' + (best.e.region || '') + ' · sev ' + (best.e.severity || '') + '</div><div style="max-width:240px">' + (best.e.summary || '') + '</div>';
+    var dtLine = '';
+    if (best.e.dt){ try { dtLine = '<div style="color:#8b93a3;font-size:10px;margin-bottom:2px;font-family:JetBrains Mono,monospace">' + new Date(best.e.dt).toLocaleString(undefined,{year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}) + '</div>'; } catch(err){} }
+    tip.innerHTML = dtLine + '<div style="font-weight:600;color:#f6c453;margin-bottom:2px">' + (best.e.event_type || 'event') + ' · ' + (best.e.region || '') + ' · sev ' + (best.e.severity || '') + '</div><div style="max-width:240px">' + (best.e.summary || '') + '</div>';
   }
   if (cv){ cv.addEventListener('mousemove', onMove); cv.addEventListener('mouseleave', function(){ if (tip) tip.classList.add('hidden'); }); }
   window.addEventListener('resize', draw);
