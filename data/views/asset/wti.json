@@ -2355,6 +2355,19 @@
    "events": []
   },
   {
+   "id": "note-fcbc3acf0a15",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-06-24",
+   "move_date": "2026-06-24",
+   "event_ids": [],
+   "reasoning": "No candidate events in window; likely driven by broader macro factors or market sentiment.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T11:32:44Z",
+   "events": []
+  },
+  {
    "id": "note-a2896e6c0b87",
    "kind": "causal_notes",
    "asset": "WTI",
@@ -2482,6 +2495,19 @@
    "confidence": 30,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T11:11:07Z",
+   "events": []
+  },
+  {
+   "id": "note-90adf6b5d9cb",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-04-30",
+   "move_date": "2026-04-30",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely due to global supply concerns or inventory draw.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T11:32:45Z",
    "events": []
   },
   {
@@ -2669,6 +2695,32 @@
    "outcome": null
   },
   {
+   "id": "pred-715e12654e1e",
+   "event_id": "evt-2b3f3d57d8c2",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 70,
+   "reasoning": "Offshore quake may disrupt drilling rigs and pipelines, tightening supply and pushing oil prices up.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-2b131243f266",
+   "event_id": "evt-421a7dbde4ef",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Earthquake may disrupt South Atlantic shipping lanes, tightening oil supply and pushing WTI up.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-199bdbc27708",
    "event_id": "evt-6b9c3462b7a0",
    "created_at": "2026-09-03",
@@ -2691,6 +2743,19 @@
    "threshold_pct": 1.0,
    "confidence": 50,
    "reasoning": "Political risk dampens oil demand, pushing prices lower.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-57ffb207895f",
+   "event_id": "evt-eb23cca1de37",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Cyclone disrupts shipping lanes, tightening oil supply, pushing prices up.",
    "status": "open",
    "outcome": null
   },
@@ -2756,6 +2821,19 @@
    "threshold_pct": 1.0,
    "confidence": 60,
    "reasoning": "Earthquake may disrupt offshore drilling, shipping lanes, causing oil supply concerns, pushing prices up.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-5c84817c1b48",
+   "event_id": "evt-e39aa4b76748",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 45,
+   "reasoning": "Minor shipping disruption near South Sandwich Islands could tighten supply, pushing WTI up.",
    "status": "open",
    "outcome": null
   },
@@ -2867,6 +2945,15 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
   },
   {
+   "id": "evt-597b5e6562a7",
+   "date": "2026-08-31",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Southeast Asia",
+   "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, potentially affecting 9,000 people with MMI VI.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
    "id": "evt-bf1893a1bc3f",
    "date": "2026-08-31",
    "event_type": "natural_disaster",
@@ -2891,6 +2978,15 @@
    "severity": 2,
    "region": "North America",
    "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
+  },
+  {
+   "id": "evt-eb23cca1de37",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "East Pacific",
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 1-3 Sep 2026 in East Pacific, no population affected.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
   },
   {
@@ -2919,6 +3015,15 @@
    "region": "East Asia",
    "summary": "Tropical Storm KROVANH-26, Category 1 winds, affected Japan with no population impact.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001318"
+  },
+  {
+   "id": "evt-2b3f3d57d8c2",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "A magnitude 5.9 earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
   },
   {
    "id": "evt-5f2d3ddf40ed",
@@ -3092,6 +3197,24 @@
    "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss"
   },
   {
+   "id": "evt-1de70b7192e2",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Africa",
+   "summary": "A forest fire began on 31 August 2026 in the Democratic Republic of Congo and continued until 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"
+  },
+  {
+   "id": "evt-592e2307b848",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Africa",
+   "summary": "Forest fire started in Angola on 31 August 2026 and continued until 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031502"
+  },
+  {
    "id": "evt-ca911d44e6c9",
    "date": "2026-09-03",
    "event_type": "natural_disaster",
@@ -3173,6 +3296,15 @@
    "url": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss"
   },
   {
+   "id": "evt-998afb3534a4",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "North America",
+   "summary": "A powerful thunderstorm struck Toronto, causing severe flooding, power outages for tens of thousands, and flight cancellations at Pearson Airport.",
+   "url": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss"
+  },
+  {
    "id": "evt-c23662161120",
    "date": "2026-09-03",
    "event_type": "political",
@@ -3225,6 +3357,24 @@
    "region": "Africa",
    "summary": "Forest fire started in DRC on 31 Aug 2026, lasted until 2 Sep 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"
+  },
+  {
+   "id": "evt-78565c6a8dd1",
+   "date": "2026-09-03",
+   "event_type": "political",
+   "severity": 2,
+   "region": "Europe",
+   "summary": "Maltese tycoon acquitted of murder of journalist Daphne Caruana Galizia.",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss"
+  },
+  {
+   "id": "evt-c2583b702272",
+   "date": "2026-09-03",
+   "event_type": "other",
+   "severity": 2,
+   "region": "US",
+   "summary": "Disney actress Carla Jeffery, known for Zombies, dies at 33.",
+   "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss"
   }
  ]
 }

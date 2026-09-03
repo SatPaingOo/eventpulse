@@ -2295,6 +2295,19 @@
    "events": []
   },
   {
+   "id": "note-8b8d13aa216e",
+   "kind": "causal_notes",
+   "asset": "TSLA",
+   "move_id": "move-TSLA-2026-08-03",
+   "move_date": "2026-08-03",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely a micro‑price move from liquidity or market noise.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T11:32:48Z",
+   "events": []
+  },
+  {
    "id": "note-2b7b54c24fd2",
    "kind": "causal_notes",
    "asset": "TSLA",
@@ -2412,6 +2425,19 @@
    "events": []
   },
   {
+   "id": "note-150bf0b5afac",
+   "kind": "causal_notes",
+   "asset": "TSLA",
+   "move_id": "move-TSLA-2026-05-07",
+   "move_date": "2026-05-07",
+   "event_ids": [],
+   "reasoning": "No candidate events in window; likely an unreported catalyst or market micro‑move.",
+   "confidence": 50,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T11:33:16Z",
+   "events": []
+  },
+  {
    "id": "note-81de86a47f0d",
    "kind": "causal_notes",
    "asset": "TSLA",
@@ -2451,6 +2477,19 @@
    "events": []
   },
   {
+   "id": "note-b9d40e4379e0",
+   "kind": "causal_notes",
+   "asset": "TSLA",
+   "move_id": "move-TSLA-2026-04-02",
+   "move_date": "2026-04-02",
+   "event_ids": [],
+   "reasoning": "No external events; likely earnings miss or guidance downgrade.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T11:33:15Z",
+   "events": []
+  },
+  {
    "id": "note-11350b7c5ffc",
    "kind": "causal_notes",
    "asset": "TSLA",
@@ -2478,6 +2517,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-1090a2895ea7",
+   "event_id": "evt-bddad8eda218",
+   "created_at": "2026-09-02",
+   "expires_at": "2026-09-09",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 0.5,
+   "confidence": 25,
+   "reasoning": "Earthquake may affect California manufacturing sites, causing slight downward bias.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-f9ae3dcea82e",
    "event_id": "evt-44257358827f",
@@ -2521,6 +2573,15 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
   },
   {
+   "id": "evt-597b5e6562a7",
+   "date": "2026-08-31",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Southeast Asia",
+   "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, potentially affecting 9,000 people with MMI VI.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
    "id": "evt-bf1893a1bc3f",
    "date": "2026-08-31",
    "event_type": "natural_disaster",
@@ -2545,6 +2606,15 @@
    "severity": 2,
    "region": "North America",
    "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
+  },
+  {
+   "id": "evt-eb23cca1de37",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "East Pacific",
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 1-3 Sep 2026 in East Pacific, no population affected.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
   },
   {
@@ -2573,6 +2643,15 @@
    "region": "East Asia",
    "summary": "Tropical Storm KROVANH-26, Category 1 winds, affected Japan with no population impact.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001318"
+  },
+  {
+   "id": "evt-2b3f3d57d8c2",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "A magnitude 5.9 earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
   },
   {
    "id": "evt-5f2d3ddf40ed",
