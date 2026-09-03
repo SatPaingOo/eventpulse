@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-03T10:55:25Z",
+ "updated_at": "2026-09-03T11:13:01Z",
  "prices": [
   {
    "asset": "XAU/USD",
@@ -443,6 +443,16 @@
    "published_at": "Wed, 02 Sep 2026 12:55:32 GMT"
   },
   {
+   "id": "evt-78c2c5cca070",
+   "event_type": "natural_disaster",
+   "region": "Pacific Ocean",
+   "severity": 3,
+   "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166",
+   "date_utc": "2026-09-02",
+   "published_at": "Wed, 02 Sep 2026 12:55:32 GMT"
+  },
+  {
    "id": "evt-4044f64f38fd",
    "event_type": "natural_disaster",
    "region": "Pacific Ocean",
@@ -491,16 +501,6 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317",
    "date_utc": "2026-09-01",
    "published_at": "Tue, 01 Sep 2026 09:24:37 GMT"
-  },
-  {
-   "id": "evt-dfa14d13a34a",
-   "event_type": "natural_disaster",
-   "region": "North America",
-   "severity": 2,
-   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.",
-   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317",
-   "date_utc": "2026-09-01",
-   "published_at": "Tue, 01 Sep 2026 09:24:37 GMT"
   }
  ],
  "open_predictions": [
@@ -533,6 +533,36 @@
    "reasoning": "Small earthquake unlikely to affect Apple’s CA facilities or supply chain.",
    "status": "open",
    "written_at": "2026-09-03T10:54:30Z"
+  },
+  {
+   "id": "pred-89a6306e63ab",
+   "kind": "prediction",
+   "asset": "JPM",
+   "event_id": "evt-ceb2ed694b95",
+   "created_at": "2026-09-02",
+   "expires_at": "2026-09-09",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 0.5,
+   "confidence": 35,
+   "reasoning": "Risk-off and local slowdown pressure banks.",
+   "status": "open",
+   "written_at": "2026-09-03T11:12:35Z"
+  },
+  {
+   "id": "pred-089ded909004",
+   "kind": "prediction",
+   "asset": "JPM",
+   "event_id": "evt-ed08f94ed32e",
+   "created_at": "2026-09-02",
+   "expires_at": "2026-09-09",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 0.5,
+   "confidence": 55,
+   "reasoning": "Risk‑off from Malta case may reduce global bank earnings.",
+   "status": "open",
+   "written_at": "2026-09-03T11:12:07Z"
   },
   {
    "id": "pred-f9ae3dcea82e",
@@ -623,42 +653,12 @@
    "reasoning": "Risk-off sentiment from quake may lift safe-haven demand.",
    "status": "open",
    "written_at": "2026-09-03T10:41:06Z"
-  },
-  {
-   "id": "pred-10171aa8f70c",
-   "kind": "prediction",
-   "asset": "XAU/USD",
-   "event_id": "evt-811efa11450a",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Geopolitical tension raises risk premium, boosting safe‑haven demand.",
-   "status": "open",
-   "written_at": "2026-09-03T10:26:14Z"
-  },
-  {
-   "id": "pred-90aeb061c5f7",
-   "kind": "prediction",
-   "asset": "XAU/USD",
-   "event_id": "evt-7b0c4ff2b1d8",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "range",
-   "threshold_pct": 0.5,
-   "confidence": 40,
-   "reasoning": "Moderate quake unlikely to trigger strong safe‑haven flight; price likely sideways.",
-   "status": "open",
-   "written_at": "2026-09-03T10:54:56Z"
   }
  ],
  "stats": {
   "assets": 7,
-  "events": 48,
-  "open_predictions": 44,
+  "events": 60,
+  "open_predictions": 55,
   "resolved": 0,
   "accuracy": null
  }

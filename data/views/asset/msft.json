@@ -2239,7 +2239,8 @@
    "reasoning": "No candidate events; likely market microstructure or earnings anticipation.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:25:05Z"
+   "written_at": "2026-09-03T10:25:05Z",
+   "events": []
   },
   {
    "id": "note-21cdfaf60299",
@@ -2251,19 +2252,8 @@
    "reasoning": "No events listed; likely a broader market sell‑off or sector rotation impacted MSFT shares.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:53:31Z"
-  },
-  {
-   "id": "note-cfeef5fc706d",
-   "kind": "causal_notes",
-   "asset": "MSFT",
-   "move_id": "move-MSFT-2026-07-22",
-   "move_date": "2026-07-22",
-   "event_ids": [],
-   "reasoning": "",
-   "confidence": 0,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T09:40:29Z"
+   "written_at": "2026-09-03T10:53:31Z",
+   "events": []
   },
   {
    "id": "note-836d1a22b063",
@@ -2275,7 +2265,8 @@
    "reasoning": "No listed events; likely internal factors or broader market sentiment caused the decline.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:25:18Z"
+   "written_at": "2026-09-03T10:25:18Z",
+   "events": []
   },
   {
    "id": "note-628add7edd90",
@@ -2287,7 +2278,8 @@
    "reasoning": "No relevant events detected; likely market microstructure or broader tech sector movement.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:40:10Z"
+   "written_at": "2026-09-03T10:40:10Z",
+   "events": []
   },
   {
    "id": "note-546423e26d98",
@@ -2299,7 +2291,8 @@
    "reasoning": "No specific event; likely broader market sell‑off or sector rotation affecting MSFT.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:54:27Z"
+   "written_at": "2026-09-03T10:54:27Z",
+   "events": []
   },
   {
    "id": "note-f0c49945e430",
@@ -2311,19 +2304,8 @@
    "reasoning": "No event in window; likely a broader tech rally or positive earnings sentiment lifted MSFT shares.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:54:01Z"
-  },
-  {
-   "id": "note-5ced590c4329",
-   "kind": "causal_notes",
-   "asset": "MSFT",
-   "move_id": "move-MSFT-2026-05-15",
-   "move_date": "2026-05-15",
-   "event_ids": [],
-   "reasoning": "",
-   "confidence": 0,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T09:43:56Z"
+   "written_at": "2026-09-03T10:54:01Z",
+   "events": []
   },
   {
    "id": "note-f74c36f297db",
@@ -2335,7 +2317,8 @@
    "reasoning": "No candidate events; likely normal market microstructure or algorithmic trading caused the 1.633% rise.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:25:42Z"
+   "written_at": "2026-09-03T10:25:42Z",
+   "events": []
   },
   {
    "id": "note-e1aaa3cbdef9",
@@ -2347,7 +2330,8 @@
    "reasoning": "No candidate events; price move likely due to broader tech rally or market microstructure effects.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:54:01Z"
+   "written_at": "2026-09-03T10:54:01Z",
+   "events": []
   },
   {
    "id": "note-85dcaa803f72",
@@ -2359,7 +2343,8 @@
    "reasoning": "No candidate events; likely an earnings surprise or macro shift.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:29:57Z"
+   "written_at": "2026-09-03T10:29:57Z",
+   "events": []
   },
   {
    "id": "note-a1a8d9df5938",
@@ -2371,7 +2356,8 @@
    "reasoning": "No candidate events; likely internal earnings miss or macro news affecting tech sector.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:40:10Z"
+   "written_at": "2026-09-03T10:40:10Z",
+   "events": []
   },
   {
    "id": "note-48acb7ef85e4",
@@ -2383,7 +2369,8 @@
    "reasoning": "No candidate events; likely internal factors or market microstructure noise.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:40:11Z"
+   "written_at": "2026-09-03T10:40:11Z",
+   "events": []
   }
  ],
  "predictions": [],
@@ -2416,6 +2403,15 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
   },
   {
+   "id": "evt-bf1893a1bc3f",
+   "date": "2026-08-31",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Southeast Asia",
+   "summary": "Magnitude 5.5 earthquake at 10km depth in Indonesia, affecting ~9,000 people at MMI VI.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
    "id": "evt-04b813e3b2ba",
    "date": "2026-09-01",
    "event_type": "natural_disaster",
@@ -2426,6 +2422,15 @@
   },
   {
    "id": "evt-dfa14d13a34a",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "North America",
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
+  },
+  {
+   "id": "evt-a20c334593be",
    "date": "2026-09-01",
    "event_type": "natural_disaster",
    "severity": 2,
@@ -2485,6 +2490,15 @@
    "severity": 3,
    "region": "Pacific Ocean",
    "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 02 Sep 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  },
+  {
+   "id": "evt-78c2c5cca070",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 2 September 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
   },
   {

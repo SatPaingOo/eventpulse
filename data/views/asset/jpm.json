@@ -2230,6 +2230,19 @@
  ],
  "causal_notes": [
   {
+   "id": "note-f12ba2d68cae",
+   "kind": "causal_notes",
+   "asset": "JPM",
+   "move_id": "move-JPM-2026-08-19",
+   "move_date": "2026-08-19",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely unrelated to earnings or macro news, could be normal intraday volatility.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T11:11:10Z",
+   "events": []
+  },
+  {
    "id": "note-45f373b352ff",
    "kind": "causal_notes",
    "asset": "JPM",
@@ -2239,7 +2252,8 @@
    "reasoning": "No events; likely earnings beat or market sentiment shift.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:25:40Z"
+   "written_at": "2026-09-03T10:25:40Z",
+   "events": []
   },
   {
    "id": "note-0fe2b00a28d1",
@@ -2251,7 +2265,8 @@
    "reasoning": "No candidate events; likely earnings miss or macro shift.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:29:57Z"
+   "written_at": "2026-09-03T10:29:57Z",
+   "events": []
   },
   {
    "id": "note-6bf558177f00",
@@ -2263,7 +2278,8 @@
    "reasoning": "No candidate events; move likely due to broader market factors or earnings expectations.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:25:39Z"
+   "written_at": "2026-09-03T10:25:39Z",
+   "events": []
   },
   {
    "id": "note-83f61a13a674",
@@ -2275,19 +2291,8 @@
    "reasoning": "No candidate events; likely internal factors or market noise caused the 3.337% rise.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:30:28Z"
-  },
-  {
-   "id": "note-61bf22dd96fe",
-   "kind": "causal_notes",
-   "asset": "JPM",
-   "move_id": "move-JPM-2026-05-19",
-   "move_date": "2026-05-19",
-   "event_ids": [],
-   "reasoning": "",
-   "confidence": 0,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T09:39:52Z"
+   "written_at": "2026-09-03T10:30:28Z",
+   "events": []
   },
   {
    "id": "note-4cbae3c71d40",
@@ -2299,7 +2304,8 @@
    "reasoning": "No candidate events; likely internal earnings or market sentiment drove the 1.627% rise.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:25:05Z"
+   "written_at": "2026-09-03T10:25:05Z",
+   "events": []
   },
   {
    "id": "note-73ec3c176b90",
@@ -2311,7 +2317,8 @@
    "reasoning": "No candidate events in window; move likely due to broader market factors or JPM-specific news not captured.",
    "confidence": 50,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:41:04Z"
+   "written_at": "2026-09-03T10:41:04Z",
+   "events": []
   },
   {
    "id": "note-e0683703bcb4",
@@ -2323,7 +2330,8 @@
    "reasoning": "No candidate events; likely internal earnings miss or macro data.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:53:31Z"
+   "written_at": "2026-09-03T10:53:31Z",
+   "events": []
   },
   {
    "id": "note-206fdd8ff0ff",
@@ -2335,7 +2343,8 @@
    "reasoning": "No candidate events; likely an earnings miss or macro news affecting JPM's outlook.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:29:56Z"
+   "written_at": "2026-09-03T10:29:56Z",
+   "events": []
   }
  ],
  "predictions": [
@@ -2349,6 +2358,32 @@
    "threshold_pct": 0.5,
    "confidence": 45,
    "reasoning": "Global risk aversion may hit banks, modest short‑term dip.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-89a6306e63ab",
+   "event_id": "evt-ceb2ed694b95",
+   "created_at": "2026-09-02",
+   "expires_at": "2026-09-09",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 0.5,
+   "confidence": 35,
+   "reasoning": "Risk-off and local slowdown pressure banks.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-089ded909004",
+   "event_id": "evt-ed08f94ed32e",
+   "created_at": "2026-09-02",
+   "expires_at": "2026-09-09",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 0.5,
+   "confidence": 55,
+   "reasoning": "Risk‑off from Malta case may reduce global bank earnings.",
    "status": "open",
    "outcome": null
   },
@@ -2408,6 +2443,15 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
   },
   {
+   "id": "evt-bf1893a1bc3f",
+   "date": "2026-08-31",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Southeast Asia",
+   "summary": "Magnitude 5.5 earthquake at 10km depth in Indonesia, affecting ~9,000 people at MMI VI.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
    "id": "evt-04b813e3b2ba",
    "date": "2026-09-01",
    "event_type": "natural_disaster",
@@ -2418,6 +2462,15 @@
   },
   {
    "id": "evt-dfa14d13a34a",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "North America",
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
+  },
+  {
+   "id": "evt-a20c334593be",
    "date": "2026-09-01",
    "event_type": "natural_disaster",
    "severity": 2,
@@ -2477,6 +2530,15 @@
    "severity": 3,
    "region": "Pacific Ocean",
    "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 02 Sep 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  },
+  {
+   "id": "evt-78c2c5cca070",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 2 September 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
   },
   {

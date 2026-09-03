@@ -2238,16 +2238,17 @@
  ],
  "causal_notes": [
   {
-   "id": "note-1196734c0c1a",
+   "id": "note-c2b021da2b40",
    "kind": "causal_notes",
    "asset": "XAU/USD",
-   "move_id": "move-XAU/USD-2026-09-03",
-   "move_date": "2026-09-03",
+   "move_id": "move-XAU/USD-2026-07-14",
+   "move_date": "2026-07-14",
    "event_ids": [],
-   "reasoning": "",
-   "confidence": 0,
+   "reasoning": "No candidate events; likely driven by broader macro factors such as inflation expectations or geopolitical tensions.",
+   "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T09:38:51Z"
+   "written_at": "2026-09-03T11:11:09Z",
+   "events": []
   },
   {
    "id": "note-f72bc37e9ea2",
@@ -2259,7 +2260,21 @@
    "reasoning": "No candidate events; likely due to global risk sentiment shift, USD strength, or supply concerns.",
    "confidence": 55,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:25:30Z"
+   "written_at": "2026-09-03T10:25:30Z",
+   "events": []
+  },
+  {
+   "id": "note-be00af81ef05",
+   "kind": "causal_notes",
+   "asset": "XAU/USD",
+   "move_id": "move-XAU/USD-2026-03-31",
+   "move_date": "2026-03-31",
+   "event_ids": [],
+   "reasoning": "No listed events; move likely due to market microstructure or technical trading patterns.",
+   "confidence": 40,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T11:12:04Z",
+   "events": []
   }
  ],
  "predictions": [
@@ -2312,6 +2327,19 @@
    "threshold_pct": 1.5,
    "confidence": 55,
    "reasoning": "Earthquake raises risk sentiment, driving safe‑haven demand for gold.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-7e5b4597374d",
+   "event_id": "evt-ed08f94ed32e",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "European political uncertainty boosts safe‑haven demand for gold.",
    "status": "open",
    "outcome": null
   },
@@ -2407,6 +2435,19 @@
    "outcome": null
   },
   {
+   "id": "pred-54330b964d77",
+   "event_id": "evt-745b3e88c503",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Fire disrupts DRC gold mining, tightening supply and lifting prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-3bbd6136a1a7",
    "event_id": "evt-a71cb42372ee",
    "created_at": "2026-09-03",
@@ -2416,6 +2457,19 @@
    "threshold_pct": 0.5,
    "confidence": 40,
    "reasoning": "Earthquake raises risk, pushes investors to safe-haven gold.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-499082a3eace",
+   "event_id": "evt-ceb2ed694b95",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Risk-off from storm boosts gold.",
    "status": "open",
    "outcome": null
   },
@@ -2442,6 +2496,32 @@
    "threshold_pct": 1.0,
    "confidence": 55,
    "reasoning": "Moderate quake raises risk sentiment; gold seen as safe haven.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-400570a9ca23",
+   "event_id": "evt-2e61fbe3cf57",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Earthquake raises risk premium, boosting gold as safe‑haven.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-3aca9097b9f9",
+   "event_id": "evt-ca911d44e6c9",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Natural disaster triggers risk‑off sentiment, boosting safe‑haven gold demand.",
    "status": "open",
    "outcome": null
   },
@@ -2553,6 +2633,15 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
   },
   {
+   "id": "evt-bf1893a1bc3f",
+   "date": "2026-08-31",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Southeast Asia",
+   "summary": "Magnitude 5.5 earthquake at 10km depth in Indonesia, affecting ~9,000 people at MMI VI.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
    "id": "evt-04b813e3b2ba",
    "date": "2026-09-01",
    "event_type": "natural_disaster",
@@ -2563,6 +2652,15 @@
   },
   {
    "id": "evt-dfa14d13a34a",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "North America",
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
+  },
+  {
+   "id": "evt-a20c334593be",
    "date": "2026-09-01",
    "event_type": "natural_disaster",
    "severity": 2,
@@ -2625,6 +2723,15 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
   },
   {
+   "id": "evt-78c2c5cca070",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  },
+  {
    "id": "evt-4044f64f38fd",
    "date": "2026-09-02",
    "event_type": "natural_disaster",
@@ -2679,6 +2786,15 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"
   },
   {
+   "id": "evt-745b3e88c503",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Africa",
+   "summary": "A forest fire began on 31 August 2026 in the Democratic Republic of Congo and continued until 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"
+  },
+  {
    "id": "evt-bc2d67686d26",
    "date": "2026-09-03",
    "event_type": "political",
@@ -2695,6 +2811,15 @@
    "region": "US",
    "summary": "Disney actress Carla Jeffery, known for role in Zombies, dies at 33.",
    "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-ed08f94ed32e",
+   "date": "2026-09-03",
+   "event_type": "political",
+   "severity": 3,
+   "region": "Europe",
+   "summary": "Maltese tycoon acquitted in court over 2017 murder of journalist Daphne Caruana Galizia.",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss"
   },
   {
    "id": "evt-113ba61fca20",
@@ -2715,6 +2840,15 @@
    "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss"
   },
   {
+   "id": "evt-e609de23e43b",
+   "date": "2026-09-03",
+   "event_type": "other",
+   "severity": 2,
+   "region": "US",
+   "summary": "Disney Channel actress Carla Jeffery, known for role in Zombies, died at age 33.",
+   "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "id": "evt-99caa2d3d71a",
    "date": "2026-09-03",
    "event_type": "political",
@@ -2722,6 +2856,15 @@
    "region": "Europe",
    "summary": "Maltese tycoon acquitted in 2017 murder case of journalist Daphne Caruana Galizia.",
    "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss"
+  },
+  {
+   "id": "evt-ca911d44e6c9",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Africa",
+   "summary": "Forest fire started in Angola on 31 August 2026, lasting until 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031502"
   },
   {
    "id": "evt-2ebce50d7c25",
@@ -2785,6 +2928,15 @@
    "region": "Southeast Asia",
    "summary": "US sailors shop and bar-hopping in Pattaya after a 250‑day voyage.",
    "url": "https://www.bbc.co.uk/news/articles/cj9x2k8n3y1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-fc36df4af8a5",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "North America",
+   "summary": "Powerful storm hits Toronto, causing power outages, flooding, and flight cancellations at Pearson Airport.",
+   "url": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss"
   },
   {
    "id": "evt-c23662161120",
