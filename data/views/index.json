@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-09-03T10:20:00Z",
+ "updated_at": "2026-09-03T10:26:45Z",
  "prices": [
   {
    "asset": "XAU/USD",
@@ -401,12 +401,209 @@
    ]
   }
  ],
- "recent_events": [],
- "open_predictions": [],
+ "recent_events": [
+  {
+   "id": "evt-4aedef2c6201",
+   "published_at": "Wed, 02 Sep 2026 21:34:27 GMT",
+   "event_type": "political",
+   "region": "Europe",
+   "severity": 3,
+   "summary": "Protests erupt in Spain over government's handling of Ceuta migrant crisis, with opposition parties accusing PM Pedro Sánchez of abandoning residents.",
+   "url": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-5f2d3ddf40ed",
+   "published_at": "Wed, 02 Sep 2026 12:55:32 GMT",
+   "event_type": "natural_disaster",
+   "region": "Pacific Ocean",
+   "severity": 3,
+   "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  },
+  {
+   "id": "evt-811efa11450a",
+   "published_at": "Wed, 02 Sep 2026 11:47:11 GMT",
+   "event_type": "geopolitical",
+   "region": "Europe",
+   "severity": 3,
+   "summary": "Russian President Putin is issuing a veiled threat to the UK as part of Russia's campaign against the West, aiming to keep Britain uncertain about Moscow's intentions.",
+   "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-c77aea482cfd",
+   "published_at": "Wed, 02 Sep 2026 07:18:39 GMT",
+   "event_type": "military",
+   "region": "Southeast Asia",
+   "severity": 3,
+   "summary": "US troops historically arrived in Pattaya, Thailand, a beach resort known for racy bars.",
+   "url": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-2c32c06a9e16",
+   "published_at": "Tue, 01 Sep 2026 09:28:20 GMT",
+   "event_type": "natural_disaster",
+   "region": "East Asia",
+   "severity": 3,
+   "summary": "Tropical Storm KROVANH-26, Category 1 winds, affected Japan with no population impact.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001318"
+  },
+  {
+   "id": "evt-7417ddfcb001",
+   "published_at": "Thu, 03 Sep 2026 07:02:25 GMT",
+   "event_type": "natural_disaster",
+   "region": "Africa",
+   "severity": 2,
+   "summary": "Forest fire started in Zambia on 1 September 2026 and continued until 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031499"
+  },
+  {
+   "id": "evt-9630b1d4665e",
+   "published_at": "Thu, 03 Sep 2026 06:01:54 GMT",
+   "event_type": "natural_disaster",
+   "region": "Global",
+   "severity": 3,
+   "summary": "WMO warns of a supersized El Niño that could disrupt global economies.",
+   "url": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-21cffd557075",
+   "published_at": "Thu, 03 Sep 2026 05:17:04 GMT",
+   "event_type": "other",
+   "region": "Southeast Asia",
+   "severity": 2,
+   "summary": "US sailors shop and bar-hopping in Pattaya after a 250‑day voyage.",
+   "url": "https://www.bbc.co.uk/news/articles/cj9x2k8n3y1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-dbe4446e85a0",
+   "published_at": "Thu, 03 Sep 2026 04:37:34 +0000",
+   "event_type": "other",
+   "region": "Turkey",
+   "severity": 1,
+   "summary": "A man rescued a girl from a 3rd floor balcony in Diyarbakir, Turkey, by scaling the building.",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/girl-rescued-by-free-climbing-neighbour-from-balcony-in-turkiye?traffic_source=rss"
+  },
+  {
+   "id": "evt-dc9695e783a8",
+   "published_at": "Thu, 03 Sep 2026 04:26:27 +0000",
+   "event_type": "economic",
+   "region": "Asia",
+   "severity": 3,
+   "summary": "Asian economies build oil and gas storage capacity to reduce exposure to Middle East conflict.",
+   "url": "https://www.aljazeera.com/economy/2026/9/3/asia-looks-to-store-oil-gas-closer-to-home-after-strait-of-hormuz-crisis?traffic_source=rss"
+  }
+ ],
+ "open_predictions": [
+  {
+   "id": "pred-f9b6328dd92a",
+   "kind": "prediction",
+   "asset": "XAU/USD",
+   "event_id": "evt-025a8316544f",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Risk premium from increased maritime enforcement pushes safe-haven demand.",
+   "status": "open",
+   "written_at": "2026-09-03T10:26:25Z"
+  },
+  {
+   "id": "pred-3d44451517ff",
+   "kind": "prediction",
+   "asset": "WTI",
+   "event_id": "evt-811efa11450a",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Russia‑UK tensions heighten supply risk, lifting crude prices.",
+   "status": "open",
+   "written_at": "2026-09-03T10:26:14Z"
+  },
+  {
+   "id": "pred-d1afbe982196",
+   "kind": "prediction",
+   "asset": "XAU/USD",
+   "event_id": "evt-5f2d3ddf40ed",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Moderate quake triggers safe‑haven demand, lifting gold.",
+   "status": "open",
+   "written_at": "2026-09-03T10:26:36Z"
+  },
+  {
+   "id": "pred-7ce0a465f88e",
+   "kind": "prediction",
+   "asset": "XAU/USD",
+   "event_id": "evt-4aedef2c6201",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Political unrest in Spain may push investors to safe-haven gold, boosting price.",
+   "status": "open",
+   "written_at": "2026-09-03T10:26:04Z"
+  },
+  {
+   "id": "pred-22fd051d60ce",
+   "kind": "prediction",
+   "asset": "WTI",
+   "event_id": "evt-025a8316544f",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 0.5,
+   "confidence": 50,
+   "reasoning": "Potential supply disruption risk in Pacific shipping lanes boosts oil prices.",
+   "status": "open",
+   "written_at": "2026-09-03T10:26:25Z"
+  },
+  {
+   "id": "pred-10171aa8f70c",
+   "kind": "prediction",
+   "asset": "XAU/USD",
+   "event_id": "evt-811efa11450a",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Geopolitical tension raises risk premium, boosting safe‑haven demand.",
+   "status": "open",
+   "written_at": "2026-09-03T10:26:14Z"
+  },
+  {
+   "id": "pred-a20524d13fc8",
+   "kind": "prediction",
+   "asset": "WTI",
+   "event_id": "evt-5f2d3ddf40ed",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 65,
+   "reasoning": "Offshore drilling disruption risk in Pacific may tighten supply, pushing WTI higher.",
+   "status": "open",
+   "written_at": "2026-09-03T10:26:36Z"
+  }
+ ],
  "stats": {
   "assets": 7,
-  "events": 0,
-  "open_predictions": 0,
+  "events": 12,
+  "open_predictions": 7,
   "resolved": 0,
   "accuracy": null
  }

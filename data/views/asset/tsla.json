@@ -2230,6 +2230,18 @@
  ],
  "causal_notes": [
   {
+   "id": "note-42b9762a279e",
+   "kind": "causal_notes",
+   "asset": "TSLA",
+   "move_id": "move-TSLA-2026-08-27",
+   "move_date": "2026-08-27",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely due to internal factors or market sentiment.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:25:29Z"
+  },
+  {
    "id": "note-20612410bf7f",
    "kind": "causal_notes",
    "asset": "TSLA",
@@ -2266,6 +2278,18 @@
    "written_at": "2026-09-03T09:42:43Z"
   },
   {
+   "id": "note-b0e7a96a90a1",
+   "kind": "causal_notes",
+   "asset": "TSLA",
+   "move_id": "move-TSLA-2026-06-10",
+   "move_date": "2026-06-10",
+   "event_ids": [],
+   "reasoning": "No external events; likely due to earnings miss or negative sentiment affecting Tesla stock.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:25:52Z"
+  },
+  {
    "id": "note-8136a4cf89ef",
    "kind": "causal_notes",
    "asset": "TSLA",
@@ -2278,6 +2302,18 @@
    "written_at": "2026-09-03T09:39:15Z"
   },
   {
+   "id": "note-fa5e6ab691d6",
+   "kind": "causal_notes",
+   "asset": "TSLA",
+   "move_id": "move-TSLA-2026-05-26",
+   "move_date": "2026-05-26",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely due to broader market factors.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:25:40Z"
+  },
+  {
    "id": "note-a6ab2c5b51f9",
    "kind": "causal_notes",
    "asset": "TSLA",
@@ -2288,6 +2324,18 @@
    "confidence": 0,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T09:41:54Z"
+  },
+  {
+   "id": "note-0cdc4b4b9baa",
+   "kind": "causal_notes",
+   "asset": "TSLA",
+   "move_id": "move-TSLA-2026-04-21",
+   "move_date": "2026-04-21",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely internal factors or market sentiment caused the decline.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:25:08Z"
   },
   {
    "id": "note-125749e4c8cc",
@@ -2315,5 +2363,51 @@
   }
  ],
  "predictions": [],
- "events": []
+ "events": [
+  {
+   "id": "evt-2c32c06a9e16",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "East Asia",
+   "summary": "Tropical Storm KROVANH-26, Category 1 winds, affected Japan with no population impact.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001318"
+  },
+  {
+   "id": "evt-4aedef2c6201",
+   "date": "2026-09-02",
+   "event_type": "political",
+   "severity": 3,
+   "region": "Europe",
+   "summary": "Protests erupt in Spain over government's handling of Ceuta migrant crisis, with opposition parties accusing PM Pedro Sánchez of abandoning residents.",
+   "url": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-c77aea482cfd",
+   "date": "2026-09-02",
+   "event_type": "military",
+   "severity": 3,
+   "region": "Southeast Asia",
+   "summary": "US troops historically arrived in Pattaya, Thailand, a beach resort known for racy bars.",
+   "url": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-811efa11450a",
+   "date": "2026-09-02",
+   "event_type": "geopolitical",
+   "severity": 3,
+   "region": "Europe",
+   "summary": "Russian President Putin is issuing a veiled threat to the UK as part of Russia's campaign against the West, aiming to keep Britain uncertain about Moscow's intentions.",
+   "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-5f2d3ddf40ed",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  }
+ ]
 }

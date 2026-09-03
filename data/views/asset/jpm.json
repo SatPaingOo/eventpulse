@@ -2230,6 +2230,30 @@
  ],
  "causal_notes": [
   {
+   "id": "note-45f373b352ff",
+   "kind": "causal_notes",
+   "asset": "JPM",
+   "move_id": "move-JPM-2026-07-30",
+   "move_date": "2026-07-30",
+   "event_ids": [],
+   "reasoning": "No events; likely earnings beat or market sentiment shift.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:25:40Z"
+  },
+  {
+   "id": "note-6bf558177f00",
+   "kind": "causal_notes",
+   "asset": "JPM",
+   "move_id": "move-JPM-2026-06-12",
+   "move_date": "2026-06-12",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely due to broader market factors or earnings expectations.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:25:39Z"
+  },
+  {
    "id": "note-61bf22dd96fe",
    "kind": "causal_notes",
    "asset": "JPM",
@@ -2240,8 +2264,66 @@
    "confidence": 0,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T09:39:52Z"
+  },
+  {
+   "id": "note-4cbae3c71d40",
+   "kind": "causal_notes",
+   "asset": "JPM",
+   "move_id": "move-JPM-2026-05-12",
+   "move_date": "2026-05-12",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely internal earnings or market sentiment drove the 1.627% rise.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:25:05Z"
   }
  ],
  "predictions": [],
- "events": []
+ "events": [
+  {
+   "id": "evt-2c32c06a9e16",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "East Asia",
+   "summary": "Tropical Storm KROVANH-26, Category 1 winds, affected Japan with no population impact.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001318"
+  },
+  {
+   "id": "evt-4aedef2c6201",
+   "date": "2026-09-02",
+   "event_type": "political",
+   "severity": 3,
+   "region": "Europe",
+   "summary": "Protests erupt in Spain over government's handling of Ceuta migrant crisis, with opposition parties accusing PM Pedro Sánchez of abandoning residents.",
+   "url": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-c77aea482cfd",
+   "date": "2026-09-02",
+   "event_type": "military",
+   "severity": 3,
+   "region": "Southeast Asia",
+   "summary": "US troops historically arrived in Pattaya, Thailand, a beach resort known for racy bars.",
+   "url": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-811efa11450a",
+   "date": "2026-09-02",
+   "event_type": "geopolitical",
+   "severity": 3,
+   "region": "Europe",
+   "summary": "Russian President Putin is issuing a veiled threat to the UK as part of Russia's campaign against the West, aiming to keep Britain uncertain about Moscow's intentions.",
+   "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-5f2d3ddf40ed",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  }
+ ]
 }

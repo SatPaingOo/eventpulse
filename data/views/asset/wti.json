@@ -2238,6 +2238,42 @@
  ],
  "causal_notes": [
   {
+   "id": "note-cd5fca1f2eda",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-08-10",
+   "move_date": "2026-08-10",
+   "event_ids": [],
+   "reasoning": "No events listed; likely due to market expectations of supply disruptions or inventory drawdown, driving price up.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:25:18Z"
+  },
+  {
+   "id": "note-3c0c9bc4de27",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-07-29",
+   "move_date": "2026-07-29",
+   "event_ids": [],
+   "reasoning": "Price jump likely from market speculation or unreported data release.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:25:19Z"
+  },
+  {
+   "id": "note-c64a73eed984",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-07-17",
+   "move_date": "2026-07-17",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely due to market speculation or supply concerns.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:26:03Z"
+  },
+  {
    "id": "note-8e0c0bc2689c",
    "kind": "causal_notes",
    "asset": "WTI",
@@ -2296,8 +2332,172 @@
    "confidence": 0,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T09:42:06Z"
+  },
+  {
+   "id": "note-52049a4c8d53",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-03-17",
+   "move_date": "2026-03-17",
+   "event_ids": [],
+   "reasoning": "No specific event; likely driven by broader market dynamics or supply concerns affecting WTI prices.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:25:05Z"
+  },
+  {
+   "id": "note-0c880efdcfb0",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-03-16",
+   "move_date": "2026-03-16",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely due to market microstructure or other unlisted factors.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:25:29Z"
   }
  ],
- "predictions": [],
- "events": []
+ "predictions": [
+  {
+   "id": "pred-3d44451517ff",
+   "event_id": "evt-811efa11450a",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Russia‑UK tensions heighten supply risk, lifting crude prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-22fd051d60ce",
+   "event_id": "evt-025a8316544f",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 0.5,
+   "confidence": 50,
+   "reasoning": "Potential supply disruption risk in Pacific shipping lanes boosts oil prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-a20524d13fc8",
+   "event_id": "evt-5f2d3ddf40ed",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 65,
+   "reasoning": "Offshore drilling disruption risk in Pacific may tighten supply, pushing WTI higher.",
+   "status": "open",
+   "outcome": null
+  }
+ ],
+ "events": [
+  {
+   "id": "evt-2c32c06a9e16",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "East Asia",
+   "summary": "Tropical Storm KROVANH-26, Category 1 winds, affected Japan with no population impact.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001318"
+  },
+  {
+   "id": "evt-4aedef2c6201",
+   "date": "2026-09-02",
+   "event_type": "political",
+   "severity": 3,
+   "region": "Europe",
+   "summary": "Protests erupt in Spain over government's handling of Ceuta migrant crisis, with opposition parties accusing PM Pedro Sánchez of abandoning residents.",
+   "url": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-c77aea482cfd",
+   "date": "2026-09-02",
+   "event_type": "military",
+   "severity": 3,
+   "region": "Southeast Asia",
+   "summary": "US troops historically arrived in Pattaya, Thailand, a beach resort known for racy bars.",
+   "url": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-811efa11450a",
+   "date": "2026-09-02",
+   "event_type": "geopolitical",
+   "severity": 3,
+   "region": "Europe",
+   "summary": "Russian President Putin is issuing a veiled threat to the UK as part of Russia's campaign against the West, aiming to keep Britain uncertain about Moscow's intentions.",
+   "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-5f2d3ddf40ed",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  },
+  {
+   "id": "evt-21cffd557075",
+   "date": "2026-09-03",
+   "event_type": "other",
+   "severity": 2,
+   "region": "Southeast Asia",
+   "summary": "US sailors shop and bar-hopping in Pattaya after a 250‑day voyage.",
+   "url": "https://www.bbc.co.uk/news/articles/cj9x2k8n3y1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-dbe4446e85a0",
+   "date": "2026-09-03",
+   "event_type": "other",
+   "severity": 1,
+   "region": "Turkey",
+   "summary": "A man rescued a girl from a 3rd floor balcony in Diyarbakir, Turkey, by scaling the building.",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/girl-rescued-by-free-climbing-neighbour-from-balcony-in-turkiye?traffic_source=rss"
+  },
+  {
+   "id": "evt-025a8316544f",
+   "date": "2026-09-03",
+   "event_type": "military",
+   "severity": 3,
+   "region": "Pacific",
+   "summary": "US forces boarded and sank a boat in the eastern Pacific, claiming it was a floating refueling station for drug traffickers.",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/us-forces-board-and-destroy-alleged-cartel-boat-in-eastern-pacific?traffic_source=rss"
+  },
+  {
+   "id": "evt-9630b1d4665e",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Global",
+   "summary": "WMO warns of a supersized El Niño that could disrupt global economies.",
+   "url": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-7417ddfcb001",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "Africa",
+   "summary": "Forest fire started in Zambia on 1 September 2026 and continued until 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031499"
+  },
+  {
+   "id": "evt-dc9695e783a8",
+   "date": "2026-09-03",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "Asia",
+   "summary": "Asian economies build oil and gas storage capacity to reduce exposure to Middle East conflict.",
+   "url": "https://www.aljazeera.com/economy/2026/9/3/asia-looks-to-store-oil-gas-closer-to-home-after-strait-of-hormuz-crisis?traffic_source=rss"
+  }
+ ]
 }
