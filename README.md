@@ -1,3 +1,6 @@
 # EventPulse (live)
 
-Deploy target for [EventPulse](https://github.com/SatPaingOo/eventpulse-engine). Built static site only — no source, no secrets, no raw data. Force-pushed by the engine pipeline. Do not commit directly.
+Deploy target for EventPulse (eventpulse-engine). This repository
+contains only the built static site: no source code, no secrets, no
+raw data. It is force-pushed by the engine's pipeline on every run.
+Do not commit to it directly.

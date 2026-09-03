@@ -2,14 +2,6 @@
   "asset": "JPM",
   "snapshots": [
     {
-      "id": "snap-JPM-2026-03-12",
-      "kind": "snapshot",
-      "asset": "JPM",
-      "date": "2026-03-12",
-      "close": 280.187439,
-      "written_at": "2026-09-03T08:59:41Z"
-    },
-    {
       "id": "snap-JPM-2026-03-13",
       "kind": "snapshot",
       "asset": "JPM",
@@ -938,6 +930,14 @@
       "written_at": "2026-09-03T08:59:41Z"
     },
     {
+      "id": "snap-JPM-2026-08-28",
+      "kind": "snapshot",
+      "asset": "JPM",
+      "date": "2026-08-28",
+      "close": 357.619995,
+      "written_at": "2026-09-03T09:12:13Z"
+    },
+    {
       "id": "snap-JPM-2026-08-31",
       "kind": "snapshot",
       "asset": "JPM",
@@ -964,281 +964,41 @@
   ],
   "moves": [
     {
-      "id": "move-JPM-2026-06-08",
+      "id": "move-JPM-2026-04-23",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-06-08",
-      "pct_change": -0.403,
+      "date": "2026-04-23",
+      "pct_change": -0.425,
       "direction": "down",
       "significant": false,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-06-09",
+      "id": "move-JPM-2026-04-17",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-06-09",
-      "pct_change": 0.511,
+      "date": "2026-04-17",
+      "pct_change": 0.11,
       "direction": "up",
       "significant": false,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-06-10",
+      "id": "move-JPM-2026-05-11",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-06-10",
-      "pct_change": -1.138,
+      "date": "2026-05-11",
+      "pct_change": -0.695,
       "direction": "down",
       "significant": false,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-06-11",
+      "id": "move-JPM-2026-05-28",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-06-11",
-      "pct_change": 1.407,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-06-12",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-06-12",
-      "pct_change": 2.306,
-      "direction": "up",
-      "significant": true,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-06-15",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-06-15",
-      "pct_change": -0.412,
-      "direction": "down",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-06-16",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-06-16",
-      "pct_change": 3.676,
-      "direction": "up",
-      "significant": true,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-06-17",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-06-17",
-      "pct_change": 0.701,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-06-18",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-06-18",
-      "pct_change": -2.471,
-      "direction": "down",
-      "significant": true,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-06-22",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-06-22",
-      "pct_change": 1.925,
-      "direction": "up",
-      "significant": true,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-06-23",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-06-23",
-      "pct_change": 0.802,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-06-24",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-06-24",
-      "pct_change": -0.206,
-      "direction": "down",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-06-25",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-06-25",
-      "pct_change": 0.501,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-06-26",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-06-26",
-      "pct_change": -1.811,
-      "direction": "down",
-      "significant": true,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-06-29",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-06-29",
-      "pct_change": 0.103,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-06-30",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-06-30",
-      "pct_change": -0.625,
-      "direction": "down",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-01",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-01",
-      "pct_change": 2.059,
-      "direction": "up",
-      "significant": true,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-02",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-02",
-      "pct_change": 0.12,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-06",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-06",
-      "pct_change": 1.427,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-07",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-07",
-      "pct_change": 0.444,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-08",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-08",
-      "pct_change": -2.535,
-      "direction": "down",
-      "significant": true,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-09",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-09",
-      "pct_change": 1.467,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-10",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-10",
-      "pct_change": 0.298,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-13",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-13",
-      "pct_change": -0.577,
-      "direction": "down",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-14",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-14",
-      "pct_change": 2.499,
-      "direction": "up",
-      "significant": true,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-15",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-15",
-      "pct_change": 1.172,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-16",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-16",
-      "pct_change": -1.084,
-      "direction": "down",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-17",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-17",
-      "pct_change": -0.597,
+      "date": "2026-05-28",
+      "pct_change": -0.852,
       "direction": "down",
       "significant": false,
       "written_at": "2026-09-03T09:00:18Z"
@@ -1254,6 +1014,176 @@
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
+      "id": "move-JPM-2026-03-30",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-03-30",
+      "pct_change": 0.329,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-08-31",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-08-31",
+      "pct_change": 0.508,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-05-22",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-05-22",
+      "pct_change": 1.116,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-04-28",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-04-28",
+      "pct_change": -0.058,
+      "direction": "down",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-05-19",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-05-19",
+      "pct_change": -1.673,
+      "direction": "down",
+      "significant": true,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-04-08",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-04-08",
+      "pct_change": 3.554,
+      "direction": "up",
+      "significant": true,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-04-07",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-04-07",
+      "pct_change": 0.66,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-06-16",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-06-16",
+      "pct_change": 3.676,
+      "direction": "up",
+      "significant": true,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-04-16",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-04-16",
+      "pct_change": 1.314,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-06-25",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-06-25",
+      "pct_change": 0.501,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-04-29",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-04-29",
+      "pct_change": -0.706,
+      "direction": "down",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-08-24",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-08-24",
+      "pct_change": 1.368,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-07-10",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-07-10",
+      "pct_change": 0.298,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-05-18",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-05-18",
+      "pct_change": 0.98,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-03-04",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-03-04",
+      "pct_change": -0.29,
+      "direction": "down",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-06-24",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-06-24",
+      "pct_change": -0.206,
+      "direction": "down",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-06-30",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-06-30",
+      "pct_change": -0.625,
+      "direction": "down",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
       "id": "move-JPM-2026-07-21",
       "kind": "move",
       "asset": "JPM",
@@ -1264,123 +1194,23 @@
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-07-22",
+      "id": "move-JPM-2026-03-24",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-07-22",
-      "pct_change": 0.863,
+      "date": "2026-03-24",
+      "pct_change": 0.859,
       "direction": "up",
       "significant": false,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-07-23",
+      "id": "move-JPM-2026-05-27",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-07-23",
-      "pct_change": 0.485,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-24",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-24",
-      "pct_change": 0.946,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-27",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-27",
-      "pct_change": 0.847,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-28",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-28",
-      "pct_change": 0.312,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-29",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-29",
-      "pct_change": -3.526,
+      "date": "2026-05-27",
+      "pct_change": -2.432,
       "direction": "down",
       "significant": true,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-30",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-30",
-      "pct_change": 1.781,
-      "direction": "up",
-      "significant": true,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-07-31",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-07-31",
-      "pct_change": 0.268,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-08-03",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-08-03",
-      "pct_change": 0.242,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-08-04",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-08-04",
-      "pct_change": 1.384,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-08-05",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-08-05",
-      "pct_change": 0.481,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-08-06",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-08-06",
-      "pct_change": -0.818,
-      "direction": "down",
-      "significant": false,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
@@ -1394,91 +1224,101 @@
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-08-10",
+      "id": "move-JPM-2026-04-22",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-08-10",
-      "pct_change": 0.635,
+      "date": "2026-04-22",
+      "pct_change": 0.006,
       "direction": "up",
       "significant": false,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-08-11",
+      "id": "move-JPM-2026-04-14",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-08-11",
-      "pct_change": 0.625,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-08-12",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-08-12",
-      "pct_change": 0.867,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-08-13",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-08-13",
-      "pct_change": -0.567,
+      "date": "2026-04-14",
+      "pct_change": -0.816,
       "direction": "down",
       "significant": false,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-08-14",
+      "id": "move-JPM-2026-05-12",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-08-14",
-      "pct_change": -0.074,
-      "direction": "down",
-      "significant": false,
+      "date": "2026-05-12",
+      "pct_change": 1.627,
+      "direction": "up",
+      "significant": true,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-08-17",
+      "id": "move-JPM-2026-07-06",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-08-17",
-      "pct_change": -0.518,
-      "direction": "down",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-08-18",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-08-18",
-      "pct_change": 0.634,
+      "date": "2026-07-06",
+      "pct_change": 1.427,
       "direction": "up",
       "significant": false,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-08-19",
+      "id": "move-JPM-2026-07-16",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-08-19",
-      "pct_change": -1.649,
+      "date": "2026-07-16",
+      "pct_change": -1.084,
+      "direction": "down",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-07-13",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-07-13",
+      "pct_change": -0.577,
+      "direction": "down",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-04-27",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-04-27",
+      "pct_change": 1.087,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-05-13",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-05-13",
+      "pct_change": -1.519,
       "direction": "down",
       "significant": true,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-08-20",
+      "id": "move-JPM-2026-03-11",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-08-20",
-      "pct_change": -1.598,
+      "date": "2026-03-11",
+      "pct_change": -0.419,
+      "direction": "down",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-03-05",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-03-05",
+      "pct_change": -1.951,
       "direction": "down",
       "significant": true,
       "written_at": "2026-09-03T09:00:18Z"
@@ -1494,33 +1334,73 @@
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-08-24",
+      "id": "move-JPM-2026-05-06",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-08-24",
-      "pct_change": 1.368,
+      "date": "2026-05-06",
+      "pct_change": 1.778,
       "direction": "up",
-      "significant": false,
+      "significant": true,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-08-25",
+      "id": "move-JPM-2026-03-20",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-08-25",
-      "pct_change": 0.084,
-      "direction": "up",
-      "significant": false,
-      "written_at": "2026-09-03T09:00:18Z"
-    },
-    {
-      "id": "move-JPM-2026-08-26",
-      "kind": "move",
-      "asset": "JPM",
-      "date": "2026-08-26",
-      "pct_change": -0.053,
+      "date": "2026-03-20",
+      "pct_change": -0.49,
       "direction": "down",
       "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-06-23",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-06-23",
+      "pct_change": 0.802,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-08-18",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-08-18",
+      "pct_change": 0.634,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-08-12",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-08-12",
+      "pct_change": 0.867,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-08-10",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-08-10",
+      "pct_change": 0.635,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-07-14",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-07-14",
+      "pct_change": 2.499,
+      "direction": "up",
+      "significant": true,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
@@ -1534,33 +1414,153 @@
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-08-31",
+      "id": "move-JPM-2026-07-30",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-08-31",
-      "pct_change": 0.508,
+      "date": "2026-07-30",
+      "pct_change": 1.781,
+      "direction": "up",
+      "significant": true,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-07-22",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-07-22",
+      "pct_change": 0.863,
       "direction": "up",
       "significant": false,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-09-01",
+      "id": "move-JPM-2026-04-20",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-09-01",
-      "pct_change": -0.301,
+      "date": "2026-04-20",
+      "pct_change": 2.159,
+      "direction": "up",
+      "significant": true,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-07-28",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-07-28",
+      "pct_change": 0.312,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-06-29",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-06-29",
+      "pct_change": 0.103,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-06-09",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-06-09",
+      "pct_change": 0.511,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-03-27",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-03-27",
+      "pct_change": -3.024,
+      "direction": "down",
+      "significant": true,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-08-11",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-08-11",
+      "pct_change": 0.625,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-07-08",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-07-08",
+      "pct_change": -2.535,
+      "direction": "down",
+      "significant": true,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-03-17",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-03-17",
+      "pct_change": 0.255,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-03-23",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-03-23",
+      "pct_change": 1.169,
+      "direction": "up",
+      "significant": false,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-06-22",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-06-22",
+      "pct_change": 1.925,
+      "direction": "up",
+      "significant": true,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-06-03",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-06-03",
+      "pct_change": -0.037,
       "direction": "down",
       "significant": false,
       "written_at": "2026-09-03T09:00:18Z"
     },
     {
-      "id": "move-JPM-2026-09-02",
+      "id": "move-JPM-2026-06-18",
       "kind": "move",
       "asset": "JPM",
-      "date": "2026-09-02",
-      "pct_change": 0.358,
-      "direction": "up",
-      "significant": false,
+      "date": "2026-06-18",
+      "pct_change": -2.471,
+      "direction": "down",
+      "significant": true,
+      "written_at": "2026-09-03T09:00:18Z"
+    },
+    {
+      "id": "move-JPM-2026-07-29",
+      "kind": "move",
+      "asset": "JPM",
+      "date": "2026-07-29",
+      "pct_change": -3.526,
+      "direction": "down",
+      "significant": true,
       "written_at": "2026-09-03T09:00:18Z"
     }
   ],
