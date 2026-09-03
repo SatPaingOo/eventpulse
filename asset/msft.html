@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en"><head>
-<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<meta name="theme-color" content="#070b16"/>
 <title>Microsoft (MSFT) · EventPulse</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%236366f1'/><text x='50' y='68' font-size='46' text-anchor='middle' fill='white' font-family='Arial' font-weight='bold'>EP</text></svg>"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
@@ -8,65 +9,88 @@
 <script src="https://cdn.tailwindcss.com"></script>
 <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','ui-sans-serif','system-ui'],mono:['JetBrains Mono','ui-monospace','SFMono-Regular']}}}}</script>
 <style>
+html{-webkit-text-size-adjust:100%}
+body{overflow-x:hidden;overflow-x:clip}
 .logo-mark{display:inline-flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:9px;background:linear-gradient(135deg,#6366f1,#8b5cf6);color:#fff;font-weight:800;font-size:13px;letter-spacing:.02em}
-.nav-link{font-size:14px;color:#94a3b8;padding:6px 12px;border-radius:8px;transition:color .15s}
+.nav-link{font-size:13px;color:#94a3b8;padding:7px 10px;border-radius:8px;transition:color .15s;white-space:nowrap}
+@media(min-width:640px){.nav-link{font-size:14px;padding:7px 13px}}
 .nav-link:hover{color:#e2e8f0}
 .nav-link.active{color:#fff;background:rgba(255,255,255,.06)}
-.pulse-dot{width:8px;height:8px;border-radius:9999px;background:#34d399;box-shadow:0 0 0 0 rgba(52,211,153,.6);animation:pulse 2s infinite}
+.pulse-dot{width:8px;height:8px;border-radius:9999px;background:#34d399;box-shadow:0 0 0 0 rgba(52,211,153,.6);animation:pulse 2s infinite;flex-shrink:0}
 @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(52,211,153,.55)}70%{box-shadow:0 0 0 9px rgba(52,211,153,0)}100%{box-shadow:0 0 0 0 rgba(52,211,153,0)}}
 .grad-text{background:linear-gradient(100deg,#818cf8,#c084fc,#f472b6);-webkit-background-clip:text;background-clip:text;color:transparent}
-.surface{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:18px}
-.ambient{position:fixed;inset:0;overflow:hidden;pointer-events:none;z-index:0}
+.surface{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:16px}
+@media(min-width:768px){.surface{border-radius:18px}}
+.ambient{position:fixed;inset:0;overflow:hidden;overflow-x:clip;pointer-events:none;z-index:0}
 .blob{position:absolute;border-radius:9999px;filter:blur(120px);opacity:.16}
 .blob-a{width:520px;height:520px;background:#4f46e5;top:-140px;left:-120px}
 .blob-b{width:460px;height:460px;background:#7c3aed;top:20%;right:-160px}
 .blob-c{width:380px;height:380px;background:#0ea5e9;bottom:-120px;left:30%}
 .tnum{font-variant-numeric:tabular-nums}
-.chip{font-size:11px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;padding:2px 9px;border-radius:9999px}
+.chip{font-size:10px;font-weight:600;letter-spacing:.03em;text-transform:uppercase;padding:2px 8px;border-radius:9999px;white-space:nowrap}
+@media(min-width:640px){.chip{font-size:11px;padding:2px 9px}}
 a{color:inherit}
+.wrap-balance{text-wrap:balance}
+@media(max-width:640px){h1{letter-spacing:-.02em}}
 </style>
+<script>
+function epLocal(iso){ if(!iso) return ''; const d=new Date(iso); if(isNaN(d)) return iso;
+  return d.toLocaleString(undefined,{year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}); }
+function epRel(iso){ if(!iso) return ''; const d=new Date(iso); if(isNaN(d)) return '';
+  const s=(Date.now()-d.getTime())/1000; if(s<45) return 'just now';
+  const m=s/60; if(m<60) return Math.round(m)+'m ago'; const h=m/60; if(h<24) return Math.round(h)+'h ago';
+  const da=h/24; if(da<30) return Math.round(da)+'d ago'; return d.toLocaleDateString(); }
+document.addEventListener('DOMContentLoaded',function(){
+  document.querySelectorAll('[data-utc]').forEach(function(el){
+    var iso=el.getAttribute('data-utc'); if(!iso) return;
+    var rel=epRel(iso), loc=epLocal(iso);
+    el.textContent=rel?rel:loc;
+    el.setAttribute('title',loc+' (local time)');
+  });
+});</script>
 </head><body class="bg-[#070b16] text-slate-200 font-sans antialiased">
-<div class="ambient"><div class="blob blob-a"></div><div class="blob blob-b"></div><div class="blob blob-c"></div></div><nav class="site-nav"><div class="max-w-7xl mx-auto px-5 py-3.5 flex items-center justify-between relative z-10">
-<a href="./index.html" class="flex items-center gap-2.5">
-  <span class="logo-mark">EP</span>
-  <span class="font-bold tracking-tight text-white">EventPulse</span>
+<div class="ambient"><div class="blob blob-a"></div><div class="blob blob-b"></div><div class="blob blob-c"></div></div><nav class="site-nav"><div class="max-w-7xl mx-auto px-4 sm:px-5 py-3 flex items-center justify-between relative z-10">
+<a href="./index.html" class="flex items-center gap-2 min-w-0">
+  <span class="logo-mark shrink-0">EP</span>
+  <span class="font-bold tracking-tight text-white truncate">EventPulse</span>
 </a>
-<div class="nav-links" id="siteMenu">
+<div class="flex items-center gap-1 sm:gap-2" id="siteMenu">
   <a href="./index.html" class="nav-link ">Markets</a>
   <a href="./events.html" class="nav-link ">Events</a>
-  <a href="./patterns.html" class="nav-link ">Track record</a>
+  <a href="./patterns.html" class="nav-link ">Track&nbsp;record</a>
 </div></div></nav>
-<header class="relative z-10"><div class="max-w-6xl mx-auto px-5 pt-10 pb-4">
+<header class="relative z-10"><div class="max-w-6xl mx-auto px-4 sm:px-5 pt-8 sm:pt-10 pb-4">
   <a href="index.html" class="text-xs text-slate-500 hover:text-slate-300">← All markets</a>
   <div class="flex flex-wrap items-end justify-between gap-4 mt-3">
-    <div>
-      <h1 class="text-3xl sm:text-4xl font-extrabold text-white tracking-tight">Microsoft
-        <span class="text-slate-500 font-semibold text-xl ml-1">MSFT</span></h1>
-      <div class="flex flex-wrap items-center gap-3 mt-2 text-sm text-slate-400">
-        <span class="text-2xl font-bold text-white tnum">496.82</span>
+    <div class="min-w-0">
+      <h1 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-white tracking-tight wrap-balance">Microsoft
+        <span class="text-slate-500 font-semibold text-lg sm:text-xl ml-1">MSFT</span></h1>
+      <div class="flex flex-wrap items-center gap-x-3 gap-y-1 mt-2 text-sm text-slate-400">
+        <span class="text-2xl sm:text-3xl font-bold text-white tnum">496.82</span>
         <span class='chip bg-rose-400/10 text-rose-400 tnum'>-0.84%</span>
         <span class="text-xs text-slate-500 tnum">2026-09-02</span>
         <span class='chip bg-white/5 text-slate-300'>equity</span>
       </div>
     </div>
-    <svg width='260' height='64' viewBox='0 0 260 64' preserveAspectRatio='none'><path d='M0,64 L0.0,42.9 L4.4,45.0 L8.8,47.5 L13.2,47.4 L17.6,44.2 L22.0,46.3 L26.4,51.6 L30.8,51.5 L35.3,55.8 L39.7,53.4 L44.1,56.5 L48.5,61.0 L52.9,53.8 L57.3,55.4 L61.7,53.8 L66.1,49.7 L70.5,47.5 L74.9,48.8 L79.3,48.1 L83.7,50.1 L88.1,49.7 L92.5,49.4 L96.9,47.3 L101.4,49.5 L105.8,45.6 L110.2,43.7 L114.6,46.3 L119.0,43.3 L123.4,44.9 L127.8,47.5 L132.2,50.7 L136.6,50.6 L141.0,48.0 L145.4,46.5 L149.8,47.5 L154.2,25.7 L158.6,20.9 L163.1,12.6 L167.5,10.8 L171.9,12.7 L176.3,8.3 L180.7,8.2 L185.1,6.0 L189.5,6.8 L193.9,10.9 L198.3,9.3 L202.7,9.9 L207.1,15.3 L211.5,14.8 L215.9,13.8 L220.3,14.6 L224.7,13.9 L229.2,12.4 L233.6,10.8 L238.0,9.2 L242.4,6.0 L246.8,3.0 L251.2,5.2 L255.6,7.5 L260.0,9.0 L260,64 Z' fill='#34d399' opacity='0.10'/><polyline points='0.0,42.9 4.4,45.0 8.8,47.5 13.2,47.4 17.6,44.2 22.0,46.3 26.4,51.6 30.8,51.5 35.3,55.8 39.7,53.4 44.1,56.5 48.5,61.0 52.9,53.8 57.3,55.4 61.7,53.8 66.1,49.7 70.5,47.5 74.9,48.8 79.3,48.1 83.7,50.1 88.1,49.7 92.5,49.4 96.9,47.3 101.4,49.5 105.8,45.6 110.2,43.7 114.6,46.3 119.0,43.3 123.4,44.9 127.8,47.5 132.2,50.7 136.6,50.6 141.0,48.0 145.4,46.5 149.8,47.5 154.2,25.7 158.6,20.9 163.1,12.6 167.5,10.8 171.9,12.7 176.3,8.3 180.7,8.2 185.1,6.0 189.5,6.8 193.9,10.9 198.3,9.3 202.7,9.9 207.1,15.3 211.5,14.8 215.9,13.8 220.3,14.6 224.7,13.9 229.2,12.4 233.6,10.8 238.0,9.2 242.4,6.0 246.8,3.0 251.2,5.2 255.6,7.5 260.0,9.0' fill='none' stroke='#34d399' stroke-width='1.6' stroke-linejoin='round' stroke-linecap='round' vector-effect='non-scaling-stroke'/></svg>
+    <div class="hidden sm:block w-64 shrink-0"><svg width='260' height='64' viewBox='0 0 260 64' preserveAspectRatio='none'><path d='M0,64 L0.0,42.9 L4.4,45.0 L8.8,47.5 L13.2,47.4 L17.6,44.2 L22.0,46.3 L26.4,51.6 L30.8,51.5 L35.3,55.8 L39.7,53.4 L44.1,56.5 L48.5,61.0 L52.9,53.8 L57.3,55.4 L61.7,53.8 L66.1,49.7 L70.5,47.5 L74.9,48.8 L79.3,48.1 L83.7,50.1 L88.1,49.7 L92.5,49.4 L96.9,47.3 L101.4,49.5 L105.8,45.6 L110.2,43.7 L114.6,46.3 L119.0,43.3 L123.4,44.9 L127.8,47.5 L132.2,50.7 L136.6,50.6 L141.0,48.0 L145.4,46.5 L149.8,47.5 L154.2,25.7 L158.6,20.9 L163.1,12.6 L167.5,10.8 L171.9,12.7 L176.3,8.3 L180.7,8.2 L185.1,6.0 L189.5,6.8 L193.9,10.9 L198.3,9.3 L202.7,9.9 L207.1,15.3 L211.5,14.8 L215.9,13.8 L220.3,14.6 L224.7,13.9 L229.2,12.4 L233.6,10.8 L238.0,9.2 L242.4,6.0 L246.8,3.0 L251.2,5.2 L255.6,7.5 L260.0,9.0 L260,64 Z' fill='#34d399' opacity='0.10'/><polyline points='0.0,42.9 4.4,45.0 8.8,47.5 13.2,47.4 17.6,44.2 22.0,46.3 26.4,51.6 30.8,51.5 35.3,55.8 39.7,53.4 44.1,56.5 48.5,61.0 52.9,53.8 57.3,55.4 61.7,53.8 66.1,49.7 70.5,47.5 74.9,48.8 79.3,48.1 83.7,50.1 88.1,49.7 92.5,49.4 96.9,47.3 101.4,49.5 105.8,45.6 110.2,43.7 114.6,46.3 119.0,43.3 123.4,44.9 127.8,47.5 132.2,50.7 136.6,50.6 141.0,48.0 145.4,46.5 149.8,47.5 154.2,25.7 158.6,20.9 163.1,12.6 167.5,10.8 171.9,12.7 176.3,8.3 180.7,8.2 185.1,6.0 189.5,6.8 193.9,10.9 198.3,9.3 202.7,9.9 207.1,15.3 211.5,14.8 215.9,13.8 220.3,14.6 224.7,13.9 229.2,12.4 233.6,10.8 238.0,9.2 242.4,6.0 246.8,3.0 251.2,5.2 255.6,7.5 260.0,9.0' fill='none' stroke='#34d399' stroke-width='1.6' stroke-linejoin='round' stroke-linecap='round' vector-effect='non-scaling-stroke'/></svg></div>
   </div>
+  <div class="sm:hidden mt-3 w-full"><svg width='320' height='48' viewBox='0 0 320 48' class="w-full h-12" preserveAspectRatio='none'><path d='M0,48 L0.0,31.9 L5.4,33.4 L10.8,35.3 L16.3,35.2 L21.7,32.8 L27.1,34.3 L32.5,38.2 L38.0,38.1 L43.4,41.2 L48.8,39.5 L54.2,41.7 L59.7,45.0 L65.1,39.8 L70.5,40.9 L75.9,39.8 L81.4,36.8 L86.8,35.2 L92.2,36.2 L97.6,35.6 L103.1,37.1 L108.5,36.8 L113.9,36.6 L119.3,35.1 L124.7,36.7 L130.2,33.9 L135.6,32.5 L141.0,34.4 L146.4,32.2 L151.9,33.3 L157.3,35.3 L162.7,37.5 L168.1,37.5 L173.6,35.6 L179.0,34.5 L184.4,35.2 L189.8,19.5 L195.3,15.9 L200.7,10.0 L206.1,8.6 L211.5,10.0 L216.9,6.8 L222.4,6.8 L227.8,5.2 L233.2,5.8 L238.6,8.7 L244.1,7.6 L249.5,8.0 L254.9,11.9 L260.3,11.5 L265.8,10.8 L271.2,11.4 L276.6,10.9 L282.0,9.8 L287.5,8.7 L292.9,7.5 L298.3,5.2 L303.7,3.0 L309.2,4.6 L314.6,6.3 L320.0,7.3 L320,48 Z' fill='#34d399' opacity='0.10'/><polyline points='0.0,31.9 5.4,33.4 10.8,35.3 16.3,35.2 21.7,32.8 27.1,34.3 32.5,38.2 38.0,38.1 43.4,41.2 48.8,39.5 54.2,41.7 59.7,45.0 65.1,39.8 70.5,40.9 75.9,39.8 81.4,36.8 86.8,35.2 92.2,36.2 97.6,35.6 103.1,37.1 108.5,36.8 113.9,36.6 119.3,35.1 124.7,36.7 130.2,33.9 135.6,32.5 141.0,34.4 146.4,32.2 151.9,33.3 157.3,35.3 162.7,37.5 168.1,37.5 173.6,35.6 179.0,34.5 184.4,35.2 189.8,19.5 195.3,15.9 200.7,10.0 206.1,8.6 211.5,10.0 216.9,6.8 222.4,6.8 227.8,5.2 233.2,5.8 238.6,8.7 244.1,7.6 249.5,8.0 254.9,11.9 260.3,11.5 265.8,10.8 271.2,11.4 276.6,10.9 282.0,9.8 287.5,8.7 292.9,7.5 298.3,5.2 303.7,3.0 309.2,4.6 314.6,6.3 320.0,7.3' fill='none' stroke='#34d399' stroke-width='1.6' stroke-linejoin='round' stroke-linecap='round' vector-effect='non-scaling-stroke'/></svg></div>
 </div></header>
-<main class="relative z-10 max-w-6xl mx-auto px-5">
-  <section class="surface p-3 sm:p-4">
+<main class="relative z-10 max-w-6xl mx-auto px-4 sm:px-5">
+  <section class="surface p-2.5 sm:p-4">
     <div id="chart-wrap" class="relative">
-      <canvas id="price-chart" class="w-full" height="300"></canvas>
+      <canvas id="price-chart" class="w-full" height="260"></canvas>
       <div id="chart-tip" class="absolute hidden pointer-events-none bg-[#0c1222]/95 border border-white/10 rounded-lg px-3 py-2 text-xs text-slate-300 shadow-xl"></div>
     </div>
-    <div class="flex flex-wrap gap-x-5 gap-y-1.5 mt-2 px-1 text-[11px] text-slate-500">
+    <div class="flex flex-wrap gap-x-4 gap-y-1.5 mt-2 px-1 text-[11px] text-slate-500">
       <span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-indigo-400"></span>event (hover)</span>
       <span class="flex items-center gap-1.5"><span class="w-3 h-0.5 bg-emerald-400"></span>price</span>
       <span class="flex items-center gap-1.5"><span class="w-3 h-0.5 bg-slate-600"></span>last close 496.82</span>
     </div>
   </section>
 
-  <section class="grid lg:grid-cols-2 gap-6 mt-8">
-    <div class="surface p-5">
+  <section class="grid lg:grid-cols-2 gap-4 sm:gap-6 mt-6 sm:mt-8">
+    <div class="surface p-4 sm:p-5 min-w-0">
       <h2 class="text-lg font-semibold text-white mb-1">Why it moved</h2>
       <p class="text-xs text-slate-500 mb-2">Each significant move (≥ threshold) is matched to the events that plausibly caused it</p>
       <ul>
@@ -99,6 +123,15 @@ a{color:inherit}
         </li>
         <li class="py-3 border-b border-white/5 last:border-0">
           <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <span class="tnum">2026-06-05</span>
+            <span class="tnum">—</span>
+            <span class="chip bg-white/5 text-slate-400">proposed</span>
+            <span class="text-slate-600">confidence 55%</span></div>
+          <div class="text-sm text-slate-200 mt-1 leading-snug">No relevant events detected; likely market microstructure or broader tech sector movement.</div>
+          
+        </li>
+        <li class="py-3 border-b border-white/5 last:border-0">
+          <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
             <span class="tnum">2026-05-15</span>
             <span class="tnum">—</span>
             <span class="chip bg-white/5 text-slate-400">proposed</span>
@@ -123,12 +156,30 @@ a{color:inherit}
             <span class="text-slate-600">confidence 55%</span></div>
           <div class="text-sm text-slate-200 mt-1 leading-snug">No candidate events; likely an earnings surprise or macro shift.</div>
           
+        </li>
+        <li class="py-3 border-b border-white/5 last:border-0">
+          <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <span class="tnum">2026-03-24</span>
+            <span class="tnum">—</span>
+            <span class="chip bg-white/5 text-slate-400">proposed</span>
+            <span class="text-slate-600">confidence 55%</span></div>
+          <div class="text-sm text-slate-200 mt-1 leading-snug">No candidate events; likely internal earnings miss or macro news affecting tech sector.</div>
+          
+        </li>
+        <li class="py-3 border-b border-white/5 last:border-0">
+          <div class="flex flex-wrap items-center gap-2 text-[11px] text-slate-500">
+            <span class="tnum">2026-03-18</span>
+            <span class="tnum">—</span>
+            <span class="chip bg-white/5 text-slate-400">proposed</span>
+            <span class="text-slate-600">confidence 55%</span></div>
+          <div class="text-sm text-slate-200 mt-1 leading-snug">No candidate events; likely internal factors or market microstructure noise.</div>
+          
         </li></ul>
     </div>
-    <div class="surface p-5">
+    <div class="surface p-4 sm:p-5 min-w-0">
       <h2 class="text-lg font-semibold text-white mb-1">Our calls</h2>
       <p class="text-xs text-slate-500 mb-2">Predictions made from events — scored against the real close when due</p>
-      <div class="overflow-x-auto"><table class="w-full text-xs">
+      <div class="overflow-x-auto"><table class="w-full text-xs min-w-[420px]">
         <thead><tr class="text-left text-slate-500 border-b border-white/10">
           <th class="py-2 pr-3 font-medium">made</th><th class="py-2 pr-3 font-medium">call</th>
           <th class="py-2 pr-3 font-medium">bar</th><th class="py-2 pr-3 font-medium">conf</th>
@@ -138,11 +189,20 @@ a{color:inherit}
     </div>
   </section>
 
-  <section class="mt-8 surface p-5">
-    <div class="flex items-center justify-between mb-2">
+  <section class="mt-6 sm:mt-8 surface p-4 sm:p-5">
+    <div class="flex items-center justify-between mb-2 gap-2 flex-wrap">
       <h2 class="text-lg font-semibold text-white">Timeline · events near this asset</h2>
-      <span class="text-[11px] text-slate-500">8 in price window</span></div>
+      <span class="text-[11px] text-slate-500">11 in price window</span></div>
     <ul class="grid sm:grid-cols-2 gap-x-8">
+        <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
+          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <div class="min-w-0">
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+              <span class="text-[11px] text-slate-500">Indonesia</span>
+              <span class="text-[11px] text-slate-600 ml-auto tnum">2026-08-31</span></div>
+            <div class="text-sm text-slate-200 mt-0.5">A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.</div>
+          </div>
+        </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
           <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
@@ -159,6 +219,15 @@ a{color:inherit}
               <span class="text-[11px] text-slate-500">North America</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-01</span></div>
             <div class="text-sm text-slate-200 mt-0.5">Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.</div>
+          </div>
+        </li>
+        <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
+          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <div class="min-w-0">
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+              <span class="text-[11px] text-slate-500">North America</span>
+              <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-01</span></div>
+            <div class="text-sm text-slate-200 mt-0.5">Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected.</div>
           </div>
         </li>
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
@@ -200,6 +269,15 @@ a{color:inherit}
         <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
           <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
           <div class="min-w-0">
+            <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+              <span class="text-[11px] text-slate-500">Pacific Ocean</span>
+              <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-02</span></div>
+            <div class="text-sm text-slate-200 mt-0.5">Magnitude 5.9 earthquake at 10 km depth struck Southern East Pacific Rise on 2 Sep 2026.</div>
+          </div>
+        </li>
+        <li class="flex gap-3 py-2.5 border-b border-white/5 last:border-0">
+          <span class="w-2 h-2 rounded-full bg-indigo-400/70 mt-1.5 shrink-0"></span>
+          <div class="min-w-0">
             <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-indigo-500/15 text-indigo-300'>geopolitical</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
               <span class="text-[11px] text-slate-500">Europe</span>
               <span class="text-[11px] text-slate-600 ml-auto tnum">2026-09-02</span></div>
@@ -218,7 +296,7 @@ a{color:inherit}
   </section>
 </main>
 <script>
-const CHART_DATA = {"dates": ["2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06", "2026-03-09", "2026-03-10", "2026-03-11", "2026-03-12", "2026-03-13", "2026-03-16", "2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20", "2026-03-23", "2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-10", "2026-08-11", "2026-08-12", "2026-08-13", "2026-08-14", "2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-21", "2026-08-24", "2026-08-25", "2026-08-26", "2026-08-27", "2026-08-28", "2026-08-31", "2026-09-01", "2026-09-02"], "closes": [402.299683, 403.564575, 409.02243, 407.309387, 407.757568, 404.122314, 403.24585, 400.238037, 393.953491, 398.335754, 397.797913, 390.20871, 387.44986, 380.328735, 381.454193, 371.235565, 369.54245, 364.49292, 355.330017, 357.511169, 368.675964, 367.879181, 371.952667, 371.375, 370.787415, 372.819153, 371.56427, 369.373138, 382.818634, 391.523346, 409.560272, 418.563782, 421.083588, 416.382629, 422.448059, 431.172699, 414.07196, 422.906189, 423.105377, 427.517487, 422.746796, 406.134155, 412.767273, 411.950562, 409.719635, 412.289185, 419.071716, 413.444519, 410.994446, 406.124176, 403.574524, 407.777496, 420.217072, 421.830566, 415.73526, 419.360535, 418.302521, 417.783539, 415.248291, 411.894623, 426.187683, 449.394012, 459.654694, 440.480774, 426.537048, 427.245697, 415.887085, 410.966339, 402.652008, 396.613342, 389.606567, 390.005798, 399.008881, 393.089996, 378.198029, 378.687103, 366.64978, 373.237366, 364.773315, 352.167023, 372.269196, 367.877472, 372.319092, 383.557953, 389.756256, 386.013306, 388.109375, 382.61972, 383.637787, 384.376404, 390.255341, 384.206726, 394.886627, 400.346344, 393.080017, 401.534119, 397.002625, 389.606567, 380.863007, 380.982819, 388.368896, 392.610901, 389.806183, 450.252411, 463.846802, 486.733704, 491.884033, 486.544067, 498.920746, 499.050507, 505.109131, 502.863342, 491.50473, 495.946381, 494.469147, 479.447449, 480.725037, 483.399994, 481.149994, 483.23999, 487.309998, 491.709991, 496.369995, 505.059998, 513.530029, 507.290009, 501.019989, 496.820007], "events": [{"id": "evt-2e61fbe3cf57", "date": "2026-08-31", "event_type": "natural_disaster", "severity": 3, "region": "Southeast Asia", "summary": "A magnitude 5.5 earthquake struck Indonesia at 10 km depth, affecting about 9,000 people with MMI VI.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"}, {"id": "evt-dfa14d13a34a", "date": "2026-09-01", "event_type": "natural_disaster", "severity": 2, "region": "North America", "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.", "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"}, {"id": "evt-2c32c06a9e16", "date": "2026-09-01", "event_type": "natural_disaster", "severity": 3, "region": "East Asia", "summary": "Tropical Storm KROVANH-26, Category 1 winds, affected Japan with no population impact.", "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001318"}, {"id": "evt-5f2d3ddf40ed", "date": "2026-09-02", "event_type": "natural_disaster", "severity": 3, "region": "Pacific Ocean", "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"}, {"id": "evt-4aedef2c6201", "date": "2026-09-02", "event_type": "political", "severity": 3, "region": "Europe", "summary": "Protests erupt in Spain over government's handling of Ceuta migrant crisis, with opposition parties accusing PM Pedro Sánchez of abandoning residents.", "url": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss"}, {"id": "evt-460698bcb271", "date": "2026-09-02", "event_type": "natural_disaster", "severity": 3, "region": "Pacific Ocean", "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 02 Sep 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"}, {"id": "evt-811efa11450a", "date": "2026-09-02", "event_type": "geopolitical", "severity": 3, "region": "Europe", "summary": "Russian President Putin is issuing a veiled threat to the UK as part of Russia's campaign against the West, aiming to keep Britain uncertain about Moscow's intentions.", "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss"}, {"id": "evt-c77aea482cfd", "date": "2026-09-02", "event_type": "military", "severity": 3, "region": "Southeast Asia", "summary": "US troops historically arrived in Pattaya, Thailand, a beach resort known for racy bars.", "url": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss"}]};
+const CHART_DATA = {"dates": ["2026-03-03", "2026-03-04", "2026-03-05", "2026-03-06", "2026-03-09", "2026-03-10", "2026-03-11", "2026-03-12", "2026-03-13", "2026-03-16", "2026-03-17", "2026-03-18", "2026-03-19", "2026-03-20", "2026-03-23", "2026-03-24", "2026-03-25", "2026-03-26", "2026-03-27", "2026-03-30", "2026-03-31", "2026-04-01", "2026-04-02", "2026-04-06", "2026-04-07", "2026-04-08", "2026-04-09", "2026-04-10", "2026-04-13", "2026-04-14", "2026-04-15", "2026-04-16", "2026-04-17", "2026-04-20", "2026-04-21", "2026-04-22", "2026-04-23", "2026-04-24", "2026-04-27", "2026-04-28", "2026-04-29", "2026-04-30", "2026-05-01", "2026-05-04", "2026-05-05", "2026-05-06", "2026-05-07", "2026-05-08", "2026-05-11", "2026-05-12", "2026-05-13", "2026-05-14", "2026-05-15", "2026-05-18", "2026-05-19", "2026-05-20", "2026-05-21", "2026-05-22", "2026-05-26", "2026-05-27", "2026-05-28", "2026-05-29", "2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04", "2026-06-05", "2026-06-08", "2026-06-09", "2026-06-10", "2026-06-11", "2026-06-12", "2026-06-15", "2026-06-16", "2026-06-17", "2026-06-18", "2026-06-22", "2026-06-23", "2026-06-24", "2026-06-25", "2026-06-26", "2026-06-29", "2026-06-30", "2026-07-01", "2026-07-02", "2026-07-06", "2026-07-07", "2026-07-08", "2026-07-09", "2026-07-10", "2026-07-13", "2026-07-14", "2026-07-15", "2026-07-16", "2026-07-17", "2026-07-20", "2026-07-21", "2026-07-22", "2026-07-23", "2026-07-24", "2026-07-27", "2026-07-28", "2026-07-29", "2026-07-30", "2026-07-31", "2026-08-03", "2026-08-04", "2026-08-05", "2026-08-06", "2026-08-07", "2026-08-10", "2026-08-11", "2026-08-12", "2026-08-13", "2026-08-14", "2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-21", "2026-08-24", "2026-08-25", "2026-08-26", "2026-08-27", "2026-08-28", "2026-08-31", "2026-09-01", "2026-09-02"], "closes": [402.299683, 403.564575, 409.02243, 407.309387, 407.757568, 404.122314, 403.24585, 400.238037, 393.953491, 398.335754, 397.797913, 390.20871, 387.44986, 380.328735, 381.454193, 371.235565, 369.54245, 364.49292, 355.330017, 357.511169, 368.675964, 367.879181, 371.952667, 371.375, 370.787415, 372.819153, 371.56427, 369.373138, 382.818634, 391.523346, 409.560272, 418.563782, 421.083588, 416.382629, 422.448059, 431.172699, 414.07196, 422.906189, 423.105377, 427.517487, 422.746796, 406.134155, 412.767273, 411.950562, 409.719635, 412.289185, 419.071716, 413.444519, 410.994446, 406.124176, 403.574524, 407.777496, 420.217072, 421.830566, 415.73526, 419.360535, 418.302521, 417.783539, 415.248291, 411.894623, 426.187683, 449.394012, 459.654694, 440.480774, 426.537048, 427.245697, 415.887085, 410.966339, 402.652008, 396.613342, 389.606567, 390.005798, 399.008881, 393.089996, 378.198029, 378.687103, 366.64978, 373.237366, 364.773315, 352.167023, 372.269196, 367.877472, 372.319092, 383.557953, 389.756256, 386.013306, 388.109375, 382.61972, 383.637787, 384.376404, 390.255341, 384.206726, 394.886627, 400.346344, 393.080017, 401.534119, 397.002625, 389.606567, 380.863007, 380.982819, 388.368896, 392.610901, 389.806183, 450.252411, 463.846802, 486.733704, 491.884033, 486.544067, 498.920746, 499.050507, 505.109131, 502.863342, 491.50473, 495.946381, 494.469147, 479.447449, 480.725037, 483.399994, 481.149994, 483.23999, 487.309998, 491.709991, 496.369995, 505.059998, 513.530029, 507.290009, 501.019989, 496.820007], "events": [{"id": "evt-d131b45f2d67", "date": "2026-08-31", "event_type": "natural_disaster", "severity": 3, "region": "Indonesia", "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"}, {"id": "evt-2e61fbe3cf57", "date": "2026-08-31", "event_type": "natural_disaster", "severity": 3, "region": "Southeast Asia", "summary": "A magnitude 5.5 earthquake struck Indonesia at 10 km depth, affecting about 9,000 people with MMI VI.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"}, {"id": "evt-dfa14d13a34a", "date": "2026-09-01", "event_type": "natural_disaster", "severity": 2, "region": "North America", "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.", "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"}, {"id": "evt-af6573dd186b", "date": "2026-09-01", "event_type": "natural_disaster", "severity": 3, "region": "North America", "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected.", "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"}, {"id": "evt-2c32c06a9e16", "date": "2026-09-01", "event_type": "natural_disaster", "severity": 3, "region": "East Asia", "summary": "Tropical Storm KROVANH-26, Category 1 winds, affected Japan with no population impact.", "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001318"}, {"id": "evt-5f2d3ddf40ed", "date": "2026-09-02", "event_type": "natural_disaster", "severity": 3, "region": "Pacific Ocean", "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"}, {"id": "evt-4aedef2c6201", "date": "2026-09-02", "event_type": "political", "severity": 3, "region": "Europe", "summary": "Protests erupt in Spain over government's handling of Ceuta migrant crisis, with opposition parties accusing PM Pedro Sánchez of abandoning residents.", "url": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss"}, {"id": "evt-460698bcb271", "date": "2026-09-02", "event_type": "natural_disaster", "severity": 3, "region": "Pacific Ocean", "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 02 Sep 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"}, {"id": "evt-4044f64f38fd", "date": "2026-09-02", "event_type": "natural_disaster", "severity": 3, "region": "Pacific Ocean", "summary": "Magnitude 5.9 earthquake at 10 km depth struck Southern East Pacific Rise on 2 Sep 2026.", "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"}, {"id": "evt-811efa11450a", "date": "2026-09-02", "event_type": "geopolitical", "severity": 3, "region": "Europe", "summary": "Russian President Putin is issuing a veiled threat to the UK as part of Russia's campaign against the West, aiming to keep Britain uncertain about Moscow's intentions.", "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss"}, {"id": "evt-c77aea482cfd", "date": "2026-09-02", "event_type": "military", "severity": 3, "region": "Southeast Asia", "summary": "US troops historically arrived in Pattaya, Thailand, a beach resort known for racy bars.", "url": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss"}]};
 (function(){
   const cv = document.getElementById('price-chart');
   const wrap = document.getElementById('chart-wrap');
@@ -291,4 +369,4 @@ const CHART_DATA = {"dates": ["2026-03-03", "2026-03-04", "2026-03-05", "2026-03
   window.addEventListener('resize', draw);
   draw();
 })();
-</script><footer class='mt-14 border-t border-white/5 pt-5 pb-8 text-xs text-slate-500 flex flex-wrap justify-between gap-2'><span>EventPulse · event-driven market intelligence</span><span><p class='text-slate-600 text-xs'>Research / education only — not financial advice. Scores are computed deterministically from market data.</p></span></footer></body></html>
+</script><footer class='mt-12 sm:mt-14 border-t border-white/5 pt-5 pb-8 text-[11px] sm:text-xs text-slate-500 flex flex-wrap justify-between gap-2'><span>EventPulse · event-driven market intelligence</span><span><p class='text-slate-600 text-xs'>Research / education only — not financial advice. Scores are computed deterministically from market data.</p></span></footer></body></html>

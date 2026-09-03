@@ -2264,6 +2264,19 @@
  ],
  "predictions": [
   {
+   "id": "pred-0b43918a823a",
+   "event_id": "evt-d131b45f2d67",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 0.5,
+   "confidence": 30,
+   "reasoning": "Risk-off sentiment from quake may lift safe-haven demand.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-10171aa8f70c",
    "event_id": "evt-811efa11450a",
    "created_at": "2026-09-03",
@@ -2277,6 +2290,19 @@
    "outcome": null
   },
   {
+   "id": "pred-af95eb78439c",
+   "event_id": "evt-d0c07be49111",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Earthquake raises risk sentiment, driving safe‑haven demand for gold.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-655b802c2f9e",
    "event_id": "evt-85a5a1f4b9bf",
    "created_at": "2026-09-03",
@@ -2286,6 +2312,19 @@
    "threshold_pct": 1.5,
    "confidence": 50,
    "reasoning": "Small quake may boost safe‑haven demand, lifting gold.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-67a4b65ae3a6",
+   "event_id": "evt-1872b330cb7f",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Moderate quake boosts safe-haven demand, lifting gold.",
    "status": "open",
    "outcome": null
   },
@@ -2342,6 +2381,19 @@
    "outcome": null
   },
   {
+   "id": "pred-68f896263fa9",
+   "event_id": "evt-af6573dd186b",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 0.5,
+   "confidence": 40,
+   "reasoning": "Natural disaster raises risk sentiment, boosting safe‑haven gold demand.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-a81f11890b2b",
    "event_id": "evt-6b9c3462b7a0",
    "created_at": "2026-09-03",
@@ -2381,6 +2433,19 @@
    "outcome": null
   },
   {
+   "id": "pred-82fe2506521f",
+   "event_id": "evt-d27d9a52ef1f",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Risk aversion from African fire pushes safe‑haven gold up.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-839987a6109c",
    "event_id": "evt-9630b1d4665e",
    "created_at": "2026-09-03",
@@ -2395,6 +2460,15 @@
   }
  ],
  "events": [
+  {
+   "id": "evt-d131b45f2d67",
+   "date": "2026-08-31",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Indonesia",
+   "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
   {
    "id": "evt-2e61fbe3cf57",
    "date": "2026-08-31",
@@ -2411,6 +2485,15 @@
    "severity": 2,
    "region": "North America",
    "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
+  },
+  {
+   "id": "evt-af6573dd186b",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "North America",
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
   },
   {
@@ -2450,6 +2533,15 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
   },
   {
+   "id": "evt-4044f64f38fd",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "Magnitude 5.9 earthquake at 10 km depth struck Southern East Pacific Rise on 2 Sep 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  },
+  {
    "id": "evt-811efa11450a",
    "date": "2026-09-02",
    "event_type": "geopolitical",
@@ -2486,6 +2578,15 @@
    "url": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss"
   },
   {
+   "id": "evt-d27d9a52ef1f",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Africa",
+   "summary": "Forest fire started in the Democratic Republic of Congo on 31 August 2026 and burned until 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"
+  },
+  {
    "id": "evt-bc2d67686d26",
    "date": "2026-09-03",
    "event_type": "political",
@@ -2504,12 +2605,39 @@
    "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss"
   },
   {
+   "id": "evt-3be5faf1bf81",
+   "date": "2026-09-03",
+   "event_type": "other",
+   "severity": 2,
+   "region": "US",
+   "summary": "Disney Channel actress Carla Jeffery, known for her role as Bree in the 2018 film Zombies, died at age 33.",
+   "url": "https://www.bbc.co.uk/news/articles/ceq8r5gjygno?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-99caa2d3d71a",
+   "date": "2026-09-03",
+   "event_type": "political",
+   "severity": 3,
+   "region": "Europe",
+   "summary": "Maltese tycoon acquitted in 2017 murder case of journalist Daphne Caruana Galizia.",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/maltese-tycoon-acquitted-of-killing-journalist-daphne-caruana-galizia?traffic_source=rss"
+  },
+  {
    "id": "evt-2ebce50d7c25",
    "date": "2026-09-03",
    "event_type": "natural_disaster",
    "severity": 3,
    "region": "Africa",
    "summary": "A forest fire started in Angola on 31 August 2026 and continued until 2 September 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031502"
+  },
+  {
+   "id": "evt-b78001e90008",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Southern Africa",
+   "summary": "Forest fire started in Angola on 31 Aug 2026 and continued until 2 Sep 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031502"
   },
   {
@@ -2556,6 +2684,15 @@
    "region": "Africa",
    "summary": "Forest fire started in Zambia on 1 September 2026 and continued until 2 September 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031499"
+  },
+  {
+   "id": "evt-489101f1c7eb",
+   "date": "2026-09-03",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Canada",
+   "summary": "Powerful storm in Toronto caused power outages for tens of thousands and severe flooding, leading to flight cancellations at Pearson Airport.",
+   "url": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss"
   },
   {
    "id": "evt-669eac89d8c9",

@@ -2266,6 +2266,30 @@
    "written_at": "2026-09-03T09:43:44Z"
   },
   {
+   "id": "note-9525d9684371",
+   "kind": "causal_notes",
+   "asset": "AAPL",
+   "move_id": "move-AAPL-2026-07-02",
+   "move_date": "2026-07-02",
+   "event_ids": [],
+   "reasoning": "No listed events; price jump likely due to market sentiment or unreported news.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:40:38Z"
+  },
+  {
+   "id": "note-26e29cbf7f0c",
+   "kind": "causal_notes",
+   "asset": "AAPL",
+   "move_id": "move-AAPL-2026-06-12",
+   "move_date": "2026-06-12",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely a broader market sell‑off or sector rotation affecting Apple.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:40:09Z"
+  },
+  {
    "id": "note-a52098a10107",
    "kind": "causal_notes",
    "asset": "AAPL",
@@ -2314,8 +2338,31 @@
    "written_at": "2026-09-03T09:42:55Z"
   }
  ],
- "predictions": [],
+ "predictions": [
+  {
+   "id": "pred-bd2ce2eb9f46",
+   "event_id": "evt-1872b330cb7f",
+   "created_at": "2026-09-02",
+   "expires_at": "2026-09-09",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 30,
+   "reasoning": "No direct exposure to Chile quake.",
+   "status": "open",
+   "outcome": null
+  }
+ ],
  "events": [
+  {
+   "id": "evt-d131b45f2d67",
+   "date": "2026-08-31",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Indonesia",
+   "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
   {
    "id": "evt-2e61fbe3cf57",
    "date": "2026-08-31",
@@ -2332,6 +2379,15 @@
    "severity": 2,
    "region": "North America",
    "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
+  },
+  {
+   "id": "evt-af6573dd186b",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "North America",
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
   },
   {
@@ -2368,6 +2424,15 @@
    "severity": 3,
    "region": "Pacific Ocean",
    "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 02 Sep 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  },
+  {
+   "id": "evt-4044f64f38fd",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "Magnitude 5.9 earthquake at 10 km depth struck Southern East Pacific Rise on 2 Sep 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
   },
   {

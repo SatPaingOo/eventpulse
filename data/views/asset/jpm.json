@@ -2302,6 +2302,18 @@
    "written_at": "2026-09-03T10:25:05Z"
   },
   {
+   "id": "note-73ec3c176b90",
+   "kind": "causal_notes",
+   "asset": "JPM",
+   "move_id": "move-JPM-2026-05-07",
+   "move_date": "2026-05-07",
+   "event_ids": [],
+   "reasoning": "No candidate events in window; move likely due to broader market factors or JPM-specific news not captured.",
+   "confidence": 50,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:41:04Z"
+  },
+  {
    "id": "note-206fdd8ff0ff",
    "kind": "causal_notes",
    "asset": "JPM",
@@ -2344,6 +2356,15 @@
  ],
  "events": [
   {
+   "id": "evt-d131b45f2d67",
+   "date": "2026-08-31",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Indonesia",
+   "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
    "id": "evt-2e61fbe3cf57",
    "date": "2026-08-31",
    "event_type": "natural_disaster",
@@ -2359,6 +2380,15 @@
    "severity": 2,
    "region": "North America",
    "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
+  },
+  {
+   "id": "evt-af6573dd186b",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "North America",
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
   },
   {
@@ -2395,6 +2425,15 @@
    "severity": 3,
    "region": "Pacific Ocean",
    "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 02 Sep 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  },
+  {
+   "id": "evt-4044f64f38fd",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "Magnitude 5.9 earthquake at 10 km depth struck Southern East Pacific Rise on 2 Sep 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
   },
   {

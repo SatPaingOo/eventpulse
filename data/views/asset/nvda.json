@@ -2254,6 +2254,30 @@
    "written_at": "2026-09-03T09:42:18Z"
   },
   {
+   "id": "note-32edb6649ddd",
+   "kind": "causal_notes",
+   "asset": "NVDA",
+   "move_id": "move-NVDA-2026-08-24",
+   "move_date": "2026-08-24",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely a broader market sell‑off or sector rotation impacted NVDA.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:41:04Z"
+  },
+  {
+   "id": "note-778abe406d57",
+   "kind": "causal_notes",
+   "asset": "NVDA",
+   "move_id": "move-NVDA-2026-08-12",
+   "move_date": "2026-08-12",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely driven by broader market rally or sector rotation boosting NVDA shares.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:40:08Z"
+  },
+  {
    "id": "note-45d50358a666",
    "kind": "causal_notes",
    "asset": "NVDA",
@@ -2288,6 +2312,18 @@
    "confidence": 0,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T09:39:03Z"
+  },
+  {
+   "id": "note-15981dbd7cd0",
+   "kind": "causal_notes",
+   "asset": "NVDA",
+   "move_id": "move-NVDA-2026-07-16",
+   "move_date": "2026-07-16",
+   "event_ids": [],
+   "reasoning": "No listed events; likely broader tech sell‑off or earnings miss.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:40:36Z"
   },
   {
    "id": "note-8380118589d3",
@@ -2398,6 +2434,30 @@
    "written_at": "2026-09-03T10:30:27Z"
   },
   {
+   "id": "note-9e1ae3091779",
+   "kind": "causal_notes",
+   "asset": "NVDA",
+   "move_id": "move-NVDA-2026-04-14",
+   "move_date": "2026-04-14",
+   "event_ids": [],
+   "reasoning": "No events listed; move likely due to earnings or product launch expectations.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:40:37Z"
+  },
+  {
+   "id": "note-e7af81c15533",
+   "kind": "causal_notes",
+   "asset": "NVDA",
+   "move_id": "move-NVDA-2026-04-10",
+   "move_date": "2026-04-10",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely due to broader market sentiment or internal factors.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:40:38Z"
+  },
+  {
    "id": "note-8c39a67e3923",
    "kind": "causal_notes",
    "asset": "NVDA",
@@ -2420,6 +2480,18 @@
    "confidence": 0,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T09:41:30Z"
+  },
+  {
+   "id": "note-64ed300e60e2",
+   "kind": "causal_notes",
+   "asset": "NVDA",
+   "move_id": "move-NVDA-2026-03-26",
+   "move_date": "2026-03-26",
+   "event_ids": [],
+   "reasoning": "No events; likely macro sell‑off or earnings miss.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-03T10:40:10Z"
   },
   {
    "id": "note-f0c94d75b7fe",
@@ -2461,6 +2533,15 @@
  "predictions": [],
  "events": [
   {
+   "id": "evt-d131b45f2d67",
+   "date": "2026-08-31",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Indonesia",
+   "summary": "A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1562739"
+  },
+  {
    "id": "evt-2e61fbe3cf57",
    "date": "2026-08-31",
    "event_type": "natural_disaster",
@@ -2476,6 +2557,15 @@
    "severity": 2,
    "region": "North America",
    "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected in Mexico.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
+  },
+  {
+   "id": "evt-af6573dd186b",
+   "date": "2026-09-01",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "North America",
+   "summary": "Tropical cyclone MARIE-26, Category 1, active 01-03 Sep 2026 in East Pacific, no population affected.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001317"
   },
   {
@@ -2512,6 +2602,15 @@
    "severity": 3,
    "region": "Pacific Ocean",
    "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 02 Sep 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
+  },
+  {
+   "id": "evt-4044f64f38fd",
+   "date": "2026-09-02",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Pacific Ocean",
+   "summary": "Magnitude 5.9 earthquake at 10 km depth struck Southern East Pacific Rise on 2 Sep 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166"
   },
   {
