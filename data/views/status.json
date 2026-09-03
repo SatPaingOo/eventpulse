@@ -1,78 +1,78 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-09-03T19:36:58Z",
- "run_id": "run-2026-09-03T1936",
+ "updated_at": "2026-09-03T20:00:20Z",
+ "run_id": "run-2026-09-03T2000",
  "healthy": true,
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
    "message": "0 new price snapshots",
-   "started_at": "2026-09-03T19:17:59Z",
-   "ended_at": "2026-09-03T19:18:06Z",
+   "started_at": "2026-09-03T19:41:41Z",
+   "ended_at": "2026-09-03T19:41:51Z",
    "count": 0
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "75 new items (rss 6, gdelt 0, disasters 6, asset 63, pruned 15)",
-   "started_at": "2026-09-03T19:18:06Z",
-   "ended_at": "2026-09-03T19:19:15Z",
-   "count": 75
+   "message": "52 new items (rss 1, gdelt 0, disasters 9, asset 42, pruned 17)",
+   "started_at": "2026-09-03T19:41:51Z",
+   "ended_at": "2026-09-03T19:42:44Z",
+   "count": 52
   },
   "extract": {
    "stage": "extract",
    "ok": true,
-   "message": "8 events extracted from 80 items; 321 fresh left for next run",
-   "started_at": "2026-09-03T19:19:15Z",
-   "ended_at": "2026-09-03T19:27:19Z",
-   "count": 8
+   "message": "6 events extracted from 80 items; 352 fresh left for next run",
+   "started_at": "2026-09-03T19:42:44Z",
+   "ended_at": "2026-09-03T19:50:45Z",
+   "count": 6
   },
   "explain": {
    "stage": "explain",
    "ok": true,
    "message": "0 new moves, 3 new causal notes",
-   "started_at": "2026-09-03T19:27:19Z",
-   "ended_at": "2026-09-03T19:32:38Z",
+   "started_at": "2026-09-03T19:50:45Z",
+   "ended_at": "2026-09-03T19:56:01Z",
    "count": 3
   },
   "predict": {
    "stage": "predict",
    "ok": true,
    "message": "0 predictions from 8 events",
-   "started_at": "2026-09-03T19:32:38Z",
-   "ended_at": "2026-09-03T19:36:58Z",
+   "started_at": "2026-09-03T19:56:01Z",
+   "ended_at": "2026-09-03T20:00:20Z",
    "count": 0
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
    "message": "0 resolved, 0 voided",
-   "started_at": "2026-09-03T19:36:58Z",
-   "ended_at": "2026-09-03T19:36:58Z",
+   "started_at": "2026-09-03T20:00:20Z",
+   "ended_at": "2026-09-03T20:00:20Z",
    "count": 0
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
    "message": "no resolutions yet",
-   "started_at": "2026-09-03T19:36:58Z",
-   "ended_at": "2026-09-03T19:36:58Z",
+   "started_at": "2026-09-03T20:00:20Z",
+   "ended_at": "2026-09-03T20:00:20Z",
    "count": 0
   }
  },
  "llm_usage": {
-  "run_started_utc": "2026-09-03T19:17:59Z",
+  "run_started_utc": "2026-09-03T19:41:41Z",
   "by_model": [
    {
     "provider": "groq",
     "model": "openai/gpt-oss-20b",
     "calls": 32,
-    "ok": 5,
-    "errors": 27,
-    "prompt_tokens": 3388,
-    "completion_tokens": 4110,
-    "total_tokens": 7498
+    "ok": 4,
+    "errors": 28,
+    "prompt_tokens": 1908,
+    "completion_tokens": 2056,
+    "total_tokens": 3964
    },
    {
     "provider": "openrouter",
