@@ -2238,17 +2238,28 @@
  ],
  "causal_notes": [
   {
-   "id": "note-82dbe3e89f37",
+   "id": "note-e689eaaf9073",
    "kind": "causal_notes",
    "asset": "REMX",
    "move_id": "move-REMX-2026-09-01",
    "move_date": "2026-09-01",
-   "event_ids": [],
-   "reasoning": "Listed earthquakes are minor or in regions without rare earth mining; Spanish protests don't affect rare earth demand, so no clear causal link.",
+   "event_ids": [
+    "evt-61a066cc38b2"
+   ],
+   "reasoning": "Minor 3.2‑magnitude quake in US triggered risk‑off sentiment, briefly dragging REMX down.",
    "confidence": 30,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-04T07:15:34Z",
-   "events": []
+   "written_at": "2026-09-04T06:53:57Z",
+   "events": [
+    {
+     "id": "evt-61a066cc38b2",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "US",
+     "summary": "Magnitude 3.2 earthquake 6 km southeast of Ontario, California.",
+     "date": "2026-09-02"
+    }
+   ]
   },
   {
    "id": "note-60283d08897c",
@@ -2261,6 +2272,19 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T19:51:40Z",
+   "events": []
+  },
+  {
+   "id": "note-8a7b45e4a031",
+   "kind": "causal_notes",
+   "asset": "REMX",
+   "move_id": "move-REMX-2026-07-14",
+   "move_date": "2026-07-14",
+   "event_ids": [],
+   "reasoning": "No candidate events found; price move likely driven by broader market sentiment or macro factors unrelated to specific events.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-04T10:17:17Z",
    "events": []
   }
  ],

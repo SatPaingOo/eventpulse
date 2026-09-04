@@ -2237,7 +2237,34 @@
   }
  ],
  "causal_notes": [],
- "predictions": [],
+ "predictions": [
+  {
+   "id": "pred-fe70dd4d8f78",
+   "event_id": "evt-c3056ab54e5d",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-10",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Energy sector benefits from rising oil prices, lifting XLE performance.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-693a7583724e",
+   "event_id": "evt-e3133aa56362",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-17",
+   "horizon_days": 14,
+   "direction": "down",
+   "threshold_pct": 2.5,
+   "confidence": 58,
+   "reasoning": "Energy stocks could ease on steady oil outlook, prompting modest decline.",
+   "status": "open",
+   "outcome": null
+  }
+ ],
  "events": [
   {
    "id": "evt-2ef123ab8fd5",
