@@ -2236,238 +2236,82 @@
    "written_at": "2026-09-03T18:09:46Z"
   }
  ],
- "causal_notes": [],
+ "causal_notes": [
+  {
+   "id": "note-a5e712b9f13c",
+   "kind": "causal_notes",
+   "asset": "PLAT",
+   "move_id": "move-PLAT-2026-03-12",
+   "move_date": "2026-03-12",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely market microstructure noise or unrelated macro data.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-04T01:56:47Z",
+   "events": []
+  }
+ ],
  "predictions": [],
  "events": [
   {
-   "id": "evt-9699ff6f2901",
+   "id": "evt-dbeef4b126e0",
    "date": "2026-09-03",
-   "dt": "2026-09-03T19:53:12Z",
+   "dt": "2026-09-03T20:08:38Z",
+   "event_type": "natural_disaster",
+   "severity": 1,
+   "region": "North America",
+   "summary": "A 3.1 magnitude earthquake struck 93 km SSW of Nikolski, Alaska.",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rmbrgz"
+  },
+  {
+   "id": "evt-36e28de7e4e3",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T20:56:51Z",
+   "event_type": "natural_disaster",
+   "severity": 1,
+   "region": "US",
+   "summary": "Magnitude 2.8 earthquake near Nikolski, Alaska, USA.",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rmdhbb"
+  },
+  {
+   "id": "evt-2ef123ab8fd5",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T21:00:10Z",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "Southeast Asia",
+   "summary": "Magnitude 4.8 earthquake struck 57 km north of Ende, Indonesia.",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te51"
+  },
+  {
+   "id": "evt-5eb17f02b6c2",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T23:43:18Z",
    "event_type": "economic",
    "severity": 2,
    "region": "US",
-   "summary": "Johnson & Johnson shares may be priced about 24% below fair value after news of an FDA approval.",
-   "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPc0p2bk91blVFYXd0TnRaZ3gyajJZc2lsQzRHTEhpYW9nZHBjMHRkNlZrdGlDcHBXM2dReDM2S1BxazB5UFktcXBMNHB6NUhLb2U3Ml9sTnEtQ1k3UnlZZkk2MjZRWnZBOVlnT3ByR2FvQVhHZF84RXdUajQ4cWp5TmxIbkdURWY0YjhnZlJJSnR3UmRkU3dFdmRwVlJCNU5RemFGVkNSX0loeHEyVFNtS1BEdU4tTzd6eFVic0VGS3o1TmNoRnk0WXA5SVE5UFVtajZYVW1XVGRZRHUxc08w0gHkAUFVX3lxTFBoNzMtY3FNR2RuWVFBeVU0TkFoR0VaQXVNVkt1aWoteXZtTTNzeGdkWVQzbWZEUzRHN096YkVWdEdGLW5MMFFoRGRnVnk5T2VqMERVTTJYOF9ETE43VDFOM0dEek02UF9DWmVVYV9mOUlUOGJUdEdUb0tHNHYyNWZXM093UXJXMVhFRFRwSWJEcnB4S0ZxejZiUG9pdVgwQTE0Zk0xeVZfcjBTaG4xcFVPUU1Ka01QUVdxS3NmaFVSMlUyRThGbU1HcHFjWFVEN1BVY1BqS0xKT2dZbDRVdTFhSE00Uw?oc=5"
+   "summary": "Review of Q2 performance for American Express compared to credit card peers.",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPUzlXZUd0Y3M0eWlMSnRTLU40Z0txemRFRnBadzY5RWlqLVZTZlhpLUZWWnRLb2NLdFp5YzRBbkoydU9ERWUwd3ZlOThBNjRFbUQ1VGtHR3VqWFJTcFBUT0hBamxBaUtHc012VHhOR0l3UmZRMXp3eXdYNmVZMWplWTNGV1k2SmNoNmpvdGVUOUlvWEMxRzg3RQ?oc=5"
   },
   {
-   "id": "evt-a71cb42372ee",
+   "id": "evt-b7bebc0f55f9",
    "date": "2026-09-03",
-   "dt": "2026-09-03T06:04:02Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "South America",
-   "summary": "Magnitude 5.1 earthquake 42 km NW of Coquimbo, Chile.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tduc"
-  },
-  {
-   "id": "evt-ecdd25450cb1",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T06:01:54Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "Global",
-   "summary": "WMO warns of a supersized El Niño that could disrupt global economies.",
-   "url": "https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "id": "evt-b78001e90008",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T07:02:57Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "Southern Africa",
-   "summary": "Forest fire started in Angola on 31 Aug 2026 and continued until 2 Sep 2026.",
-   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031502"
-  },
-  {
-   "id": "evt-ceb2ed694b95",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T05:01:00Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "North America",
-   "summary": "Powerful storm hits Toronto, Canada, causing severe flooding, power outages for tens of thousands, and flight cancellations at Pearson airport.",
-   "url": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss"
-  },
-  {
-   "id": "evt-ae4f2fd20028",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T20:22:43Z",
-   "event_type": "natural_disaster",
-   "severity": 1,
-   "region": "US",
-   "summary": "A magnitude 3.7 earthquake occurred 60 km NNW of Nelson Lagoon, Alaska.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rmcdsj"
-  },
-  {
-   "id": "evt-f9303e9b7ccd",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T20:49:05Z",
+   "dt": "2026-09-03T22:31:23Z",
    "event_type": "other",
    "severity": 2,
    "region": "US",
-   "summary": "ICE officer charged with lying about January shooting of a Venezuelan man in Minnesota.",
-   "url": "https://www.bbc.co.uk/news/articles/c70dzzkwgg5o?at_medium=RSS&at_campaign=rss"
+   "summary": "A man in the United States survived 271 days with a transplanted pig kidney while awaiting a human transplant.",
+   "url": "https://www.bbc.co.uk/news/articles/c305qn2jeggo?at_medium=RSS&at_campaign=rss"
   },
   {
-   "id": "evt-6f6886a7373f",
+   "id": "evt-82abde089f15",
    "date": "2026-09-03",
-   "dt": "2026-09-03T18:31:04Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "Oceania",
-   "summary": "A magnitude 5 earthquake struck the Fiji region.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te2i"
-  },
-  {
-   "id": "evt-bf63fb8f69dc",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T05:17:04Z",
-   "event_type": "military",
-   "severity": 2,
-   "region": "Southeast Asia",
-   "summary": "US sailors visited Pattaya, Thailand, after a 250‑day voyage, shopping and drinking.",
-   "url": "https://www.bbc.co.uk/news/articles/cj9x2k8n3y1o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "id": "evt-d38d9ca70c4b",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T04:26:27Z",
-   "event_type": "geopolitical",
-   "severity": 3,
-   "region": "Asia",
-   "summary": "Asian economies build storage capacity to reduce exposure to Middle East conflict after Strait of Hormuz crisis.",
-   "url": "https://www.aljazeera.com/economy/2026/9/3/asia-looks-to-store-oil-gas-closer-to-home-after-strait-of-hormuz-crisis?traffic_source=rss"
-  },
-  {
-   "id": "evt-747e8094660f",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T20:36:20Z",
+   "dt": "2026-09-03T22:51:00Z",
    "event_type": "economic",
    "severity": 2,
    "region": "US",
-   "summary": "Microsoft's stock target increased to $550 amid growing AI potential.",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBLUHlmZ1J1OC14dUxVYlQ0aWJ3MmM0eXA1OEphWklBOW00eHE2eXZ5bElEelJTb0J3MjA2VXVjRk51eEhuZUtSZG5HcEZkNEZNNmhPN1UwMkdWbkE?oc=5"
-  },
-  {
-   "id": "evt-b81f4360f3e4",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T20:31:08Z",
-   "event_type": "military",
-   "severity": 3,
-   "region": "Middle East",
-   "summary": "Israeli drone strike and gunfire in Gaza killed three and injured others amid ceasefire tensions.",
-   "url": "https://www.aljazeera.com/news/2026/9/3/israel-kills-3-in-gaza-as-far-right-minister-plans-for-palestinian-removals?traffic_source=rss"
-  },
-  {
-   "id": "evt-e7951b424479",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T07:02:57Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "Africa",
-   "summary": "Forest fire started in Angola on 31 Aug 2026, lasted until 2 Sep 2026.",
-   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031502"
-  },
-  {
-   "id": "evt-411bd27f128b",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T19:56:34Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "South Asia",
-   "summary": "Rescuers in Nepal are searching for tunnel survivors after floods, using rafts and a drone.",
-   "url": "https://www.bbc.co.uk/news/videos/ckg0eerml02o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "id": "evt-6a656024595c",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T18:45:39Z",
-   "event_type": "natural_disaster",
-   "severity": 2,
-   "region": "North America",
-   "summary": "A 5.3 magnitude earthquake struck 104 km south-southwest of Nikolski, Alaska.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te2m"
-  },
-  {
-   "id": "evt-4d579a0f3b5f",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T13:03:18Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "US",
-   "summary": "Magnitude 5.2 earthquake 100 km SSW of Nikolski, Alaska.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdys"
-  },
-  {
-   "id": "evt-42dd92dcec05",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T07:02:57Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "Africa",
-   "summary": "Forest fire started in Angola on 31 August 2026, burning until 2 September 2026.",
-   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031502"
-  },
-  {
-   "id": "evt-6f866d74dc7b",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T13:30:28Z",
-   "event_type": "military",
-   "severity": 3,
-   "region": "Russia",
-   "summary": "Ukraine targets Russian space program infrastructure at Plesetsk to disrupt war support.",
-   "url": "https://www.aljazeera.com/news/2026/9/3/ukraine-targets-russias-space-programme-as-war-intensifies?traffic_source=rss"
-  },
-  {
-   "id": "evt-93ebeb7f3ae0",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T07:02:42Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "Africa",
-   "summary": "Forest fire started in the Democratic Republic of Congo on 31 August 2026 and continued until 2 September 2026.",
-   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"
-  },
-  {
-   "id": "evt-dbe4446e85a0",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T04:37:34Z",
-   "event_type": "other",
-   "severity": 1,
-   "region": "Turkey",
-   "summary": "A man rescued a girl from a 3rd floor balcony in Diyarbakir, Turkey, by scaling the building.",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/girl-rescued-by-free-climbing-neighbour-from-balcony-in-turkiye?traffic_source=rss"
-  },
-  {
-   "id": "evt-6b9c3462b7a0",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T06:04:02Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "South America",
-   "summary": "Magnitude 5.1 earthquake 42 km northwest of Coquimbo, Chile.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tduc"
-  },
-  {
-   "id": "evt-2f9f108096c5",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T07:46:19Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "Oceania",
-   "summary": "Magnitude 4.5 earthquake 122 km WNW of Houma, Tonga.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdv1"
-  },
-  {
-   "id": "evt-ce0ea44beb50",
-   "date": "2026-09-03",
-   "dt": "2026-09-03T05:17:04Z",
-   "event_type": "other",
-   "severity": 1,
-   "region": "Southeast Asia",
-   "summary": "US sailors visited Pattaya, Thailand, for shopping and leisure after a 250‑day voyage.",
-   "url": "https://www.bbc.co.uk/news/articles/cj9x2k8n3y1o?at_medium=RSS&at_campaign=rss"
+   "summary": "Maine residents prepare for higher heating oil costs ahead of winter.",
+   "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOTnA2RW4xeDVtQXgtN0stX3h1UVlDNnVQVzFqRXlOemx5THliUU16WHcwdkx1c21OejVtYjI3Z2JUbXB6cUVzQVdLWWc5QlN6SDJ2Tmk5eGRFWkQ1a09WUGtvNTY3UmJhU0d3NnZqNnY2TFBSby15TXg3QzZuUFNIUDhadnAzZHNYYWF0REdjWVhMcDBiN1hrWFdKRjJiLTFXNzNJNXgzNUxldndQckRUczNyejBNZXI5QlBoWEFleUxHOTc0V3Y0VlVwa0tzSjI4RV9DV1owdkRkamRyRFRkOFp5em14ODkyTUgyaWNrMmd6RHc?oc=5"
   },
   {
    "id": "evt-e6dc5e521816",
@@ -2480,6 +2324,16 @@
    "url": "https://www.bbc.co.uk/news/articles/cqv5wxyp5xwo?at_medium=RSS&at_campaign=rss"
   },
   {
+   "id": "evt-18cb330e1788",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T21:39:46Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "Global",
+   "summary": "Oil prices remain high, supporting global energy stocks such as Aker BP and Imperial Oil.",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObEhzVGZfRUdwanZ6YWhoR3ViU3hTOGtJaEUxUjB0cmZ2MWgyek9JcEFFZmVWWTNVamNSM21YR0c5eU1DYWZFd3czTzVVZ0gyeUhIemdqT2hGRkQ3WnFMRzNqanNSbEJXU2tTT3lpOGgzX3g1RUIwZEp0UmUwdnVvMmVvZkVGb3ltUDN0TGdjRVJVN21vV0g3bUtxVGcyaDZnSU0xWnlGcTA1a0M2Y3NPZnV3djVsLTF4czhOWDJNNUZLVU1nN3Yxd9IBzgFBVV95cUxQZDBnZWp2dnFfbUNyTGozNFhxRDB0aTlsWFhRS2FNLUk3Y3k3UGg1TzlkNDU2SS10UTJrM2tPQkJiR19ZSVRYLXFtNVhUNFVLYWhGeGdaVC1WUUJ2NWJVNjZxdHhHZUNCb0hzWnRnZ3BZV1ctRWNnMW5aT2t6Z1c4aVJJZlZOT3cyTTBJTmc3RE5mclo5ODR2MXFxTS05VGZUai10NGVRMFExNjlRN3IxOEdZd2I4R2UwNU1lcVFuUGVOclVtdHZiaDVQc3QwQQ?oc=5"
+  },
+  {
    "id": "evt-dc9695e783a8",
    "date": "2026-09-03",
    "dt": "2026-09-03T04:26:27Z",
@@ -2488,6 +2342,16 @@
    "region": "Asia",
    "summary": "Asian economies build oil and gas storage capacity to reduce exposure to Middle East conflict.",
    "url": "https://www.aljazeera.com/economy/2026/9/3/asia-looks-to-store-oil-gas-closer-to-home-after-strait-of-hormuz-crisis?traffic_source=rss"
+  },
+  {
+   "id": "evt-4d5a88324c52",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T22:08:33Z",
+   "event_type": "political",
+   "severity": 3,
+   "region": "Latin America",
+   "summary": "Critics label the United States' multi‑billion‑dollar oil deal with Venezuela as modern colonialism.",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/aje-onl-nf_us-venezuela-oil-deal_colonialism-030926?traffic_source=rss"
   },
   {
    "id": "evt-4906e39b0a4e",
@@ -2500,6 +2364,16 @@
    "url": "https://www.aljazeera.com/news/2026/9/3/ukraine-targets-russias-space-programme-as-war-intensifies?traffic_source=rss"
   },
   {
+   "id": "evt-9caefc29bf68",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T20:44:49Z",
+   "event_type": "military",
+   "severity": 3,
+   "region": "Ukraine",
+   "summary": "Ukrainian drone strike in Russian‑controlled Horlivka kills one and injures five.",
+   "url": "https://www.aljazeera.com/news/2026/9/3/ten-injured-in-ukraine-as-kyiv-expects-talks-with-us-envoys-in-coming-days?traffic_source=rss"
+  },
+  {
    "id": "evt-dfa07a339939",
    "date": "2026-09-03",
    "dt": "2026-09-03T18:46:14Z",
@@ -2508,6 +2382,26 @@
    "region": "Middle East",
    "summary": "Four Palestine Action activists convicted of terrorist‑linked criminal damage are appealing their sentences.",
    "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/four-imprisoned-palestine-action-activists-appeal-terrorism-sentences-2?traffic_source=rss"
+  },
+  {
+   "id": "evt-5135eaccd937",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T21:32:58Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "Global",
+   "summary": "Battery storage growth is boosting momentum for lithium mining companies worldwide.",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTW1vXy1vczdkYXBLN1FyRDFUSDZUNEhIeTZtOUY3Z1d1UEFPU2s4MnVlUWJNRk9ycDBGUVNxRzBqZ2JZTUE0Y3pOUkNfZ3FoRXJmNmxCOUFWZG9NdXVWMkhwMTVpN3lOQUEzS3RVU0ZHdGhINXJ5VTFXemFRbUp2UnI1aUlQcURZaE42Q1NVWU1JMEJJaHV2aHNnMldSZw?oc=5"
+  },
+  {
+   "id": "evt-00984f015807",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T23:46:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Apple SVP Jennifer Newstead sold $456,177 worth of Apple shares.",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcXAxSXBTclNRT0REc0VmX3NPdnNZUFB1d0N1WVVoQnVYVEZRbFZKN1JWbDRqSWlGV2RZeTkzdVlQWGhrcGg3LXY2dE4zNk0wOVZ5bE84ZE9Kd0hDY2NxdnN6RUxYVlJxRG04TzdFT2k0ZVBpcXpKanhkbXBYdWdCZkFleGowdFJ6d3BITEZfcDZYeE1KTlM1NG5nRFhjeDhMZHBET0l6ZlROaVBtRTlr?oc=5"
   },
   {
    "id": "evt-fd22aeaf1a91",
@@ -2640,6 +2534,16 @@
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tduc"
   },
   {
+   "id": "evt-881f4a2b3b38",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T20:48:29Z",
+   "event_type": "political",
+   "severity": 3,
+   "region": "South Asia",
+   "summary": "India rejected a Hague arbitration court ruling that the Indus Waters Treaty remains in force.",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/3/03-09-sv-india-rejects-iwt-ruling-in-fm?traffic_source=rss"
+  },
+  {
    "id": "evt-7417ddfcb001",
    "date": "2026-09-03",
    "dt": "2026-09-03T07:02:25Z",
@@ -2680,6 +2584,16 @@
    "url": "https://www.aljazeera.com/news/2026/9/3/serbia-welcomes-return-of-war-criminal-mladics-body-with-military-honours?traffic_source=rss"
   },
   {
+   "id": "evt-166db57d8486",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T20:49:05Z",
+   "event_type": "other",
+   "severity": 2,
+   "region": "US",
+   "summary": "An ICE officer faces federal charges for lying about the January shooting of a Venezuelan man in Minnesota.",
+   "url": "https://www.bbc.co.uk/news/articles/c70dzzkwgg5o?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "id": "evt-be79afdd9510",
    "date": "2026-09-03",
    "dt": "2026-09-03T09:37:34Z",
@@ -2698,6 +2612,16 @@
    "region": "US",
    "summary": "Magnitude 2.7 earthquake occurred 3 km southwest of Pāhala, Hawaii.",
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75028562"
+  },
+  {
+   "id": "evt-dafbf2361456",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T21:35:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Apple grew from $350B to multi-trillion under Tim Cook; article examines if John Ternus can sustain growth.",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYWhiZ211RExfS1BzRUd0SkhzVGJSQVhZX0tuRUp2cEotUzZTZ3VETExBLS14WVZpSC1MMUg1RGh6TF9VWXcyOElOajYybVdLUG50TWwtX3R4Zk5ua3FSVHAtSTZVQ01wcjJ1MV8yZTQzQURDWXoyYkNBVFdBMER2N0RiTmJraHNNaldIbDd2RkN1Zw?oc=5"
   },
   {
    "id": "evt-3a88ceb64be2",
@@ -2720,6 +2644,16 @@
    "url": "https://www.aljazeera.com/news/2026/9/3/powerful-storm-hits-canadas-toronto-cutting-power-to-tens-of-thousands?traffic_source=rss"
   },
   {
+   "id": "evt-5377eed30ee2",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T21:26:06Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "ExxonMobil shares fell 1.1%, with analysts citing market factors.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONm5sZlB4UkFDaWI1aDFUOWl3SXYxdlVlLVlpMnNYZElxZmI5QnktQU85LURjel9nSXZFc3J1MEVYUHIwaXZ0blFhVGNSNDV6VkItZ2VOeFkwVzZ1VkdOWF9ya3ZlbnZmRDBzLV9fMXhuWkxVVE9KVEVyRzZtUkFKUmwxdmFoTlotdEw0ejVPMk1zMnU0cGdCSkpId2t4WWZCTTBnQlUxWTY?oc=5"
+  },
+  {
    "id": "evt-899b495c3ba0",
    "date": "2026-09-03",
    "dt": "2026-09-03T07:02:42Z",
@@ -2730,6 +2664,16 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031500"
   },
   {
+   "id": "evt-64a40e0e27df",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T21:21:23Z",
+   "event_type": "economic",
+   "severity": 4,
+   "region": "US",
+   "summary": "US gasoline prices hit record highs as supply crunch worsens due to conflicts.",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZHF2Z29UenJROHZ5YlJpTFBHM1pmWmdNaWROSnhyNlhDVVZmVGVXTkRaT1k4N1NBY1B1YUhDbmE2SGQ2TllTNExHWk9JT1JCWHRKQnVpZEx5SVVNZHdhc2tsbEEtWG01Ty1QUXpMSWdWR3NuQTVQaWNhLUViMXkzRl9WNk81bDdiVk5tb1hPeVBMczFGaWVmaTNzWEdYZ29P?oc=5"
+  },
+  {
    "id": "evt-cd720feff950",
    "date": "2026-09-03",
    "dt": "2026-09-03T06:04:02Z",
@@ -2738,6 +2682,36 @@
    "region": "South America",
    "summary": "Magnitude 5.1 earthquake 42 km northwest of Coquimbo, Chile.",
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tduc"
+  },
+  {
+   "id": "evt-672a8cf65685",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T20:55:49Z",
+   "event_type": "other",
+   "severity": 2,
+   "region": "US",
+   "summary": "An ICE agent was charged with lying under oath about a Minnesota shooting.",
+   "url": "https://www.aljazeera.com/news/2026/9/3/ice-agent-charged-with-lying-under-oath-about-minnesota-shooting?traffic_source=rss"
+  },
+  {
+   "id": "evt-f5df612315e1",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T20:48:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "Global",
+   "summary": "Denison Mines shares surged as Phoenix Uranium's build accelerated.",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPY3BNTVVuOWlha1JlVjBMdEJzS0pKdE5BSWUzQ1dJenh4VVRxLWxkU0VndllNRGpVODNBZlVXQkw1S1NYWnlOOTFTdHQ5YlBGM1hIODdxWGg2RndIRHh2UXE2R2Zwby0zZktuSDVubjJFNF9paU1RUk5DRXZTU19Da1JZTU45UQ?oc=5"
+  },
+  {
+   "id": "evt-9d632dfa95cd",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T19:56:34Z",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "South Asia",
+   "summary": "Rescuers use rafts and drones to search for survivors in a tunnel after Nepal-Tibet floods.",
+   "url": "https://www.bbc.co.uk/news/videos/ckg0eerml02o?at_medium=RSS&at_campaign=rss"
   },
   {
    "id": "evt-669eac89d8c9",
@@ -2758,6 +2732,26 @@
    "region": "Southeast Asia",
    "summary": "US sailors shop and bar‑hop in Pattaya after a 250‑day voyage.",
    "url": "https://www.bbc.co.uk/news/articles/cj9x2k8n3y1o?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-b134bef4d09e",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T20:13:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Amazon and Microsoft compared on AI cloud metric; Amazon deemed superior.",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWU5Xb3dPN0RxLXIxRjZoMGdRRktnY1h1Q1BMU3JCZ3V5dFctY0tkUW8wNVFjbUJpUExwZGhPSVppQnZzMXZuM01OajZMM2FWZWtEbFV0SUFsX2xxM3JmVjhFZjJJQ2lEaXpIZlZmWDMzUWlncW1TTkZnU0hsbF8xSEtn?oc=5"
+  },
+  {
+   "id": "evt-9abfdcd729a2",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T20:56:18Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "Global",
+   "summary": "SMU Survey reports lowest mill negotiability rates in five years, indicating steel market softness.",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNk1qSVFzT1k5UUdqYktsdHBVeWpEWGVyMHZlb0RwWlJuejBmOGR3Nk05QVJkWEwtd2l6R2FpSkZpVVZNbGt0YjZZT2xMdXVXUk1adTlWRFlXaHI1SnVjVVhDVkYzTVNIdHdCdVE4VkRCX2dCV0dDQ3hGN0x0WUxQWmxLaEw3ZkltTzgxQnQtNXZYUVhaeHBXZngwaEFZMDB6S0VMUHdpQQ?oc=5"
   },
   {
    "id": "evt-61a1dad4076d",
@@ -2838,6 +2832,26 @@
    "region": "US",
    "summary": "Magnitude 2.7 earthquake 3 km SW of Pāhala, Hawaii.",
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75028562"
+  },
+  {
+   "id": "evt-862bbab1d6b4",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T21:32:55Z",
+   "event_type": "political",
+   "severity": 2,
+   "region": "US",
+   "summary": "NYC bans AI use for students up to grade 8 for one year, setting precedent for other US states.",
+   "url": "https://www.aljazeera.com/economy/2026/9/3/nycs-ai-ban-through-grade-8-sets-stage-for-rest-of-us-experts-say?traffic_source=rss"
+  },
+  {
+   "id": "evt-a3151daae677",
+   "date": "2026-09-03",
+   "dt": "2026-09-03T21:21:33Z",
+   "event_type": "natural_disaster",
+   "severity": 1,
+   "region": "Caribbean",
+   "summary": "A 3.19 magnitude earthquake struck 8 km WNW of Maricao, Puerto Rico.",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71530758"
   }
  ]
 }
