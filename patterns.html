@@ -29,11 +29,20 @@
   <p class="text-slate-400 mt-1 text-sm max-w-3xl">When a severe event happens, EventPulse publishes a <em>call</em> — for example "WTI up at least 2% within 14 days". When the window closes, a fixed rule compares the call to the <em>actual price move</em> and marks it hit or miss. This page is that scoreboard: how often we were right, broken down by event type, direction and asset. <span class="text-slate-500">No AI is involved in scoring — the market itself is the judge.</span></p>
 </div></header>
 <main class="relative z-10 max-w-6xl mx-auto px-4 sm:px-5 py-6 space-y-6">
+  <div class="surface p-4">
+    <div class="flex flex-wrap items-center gap-x-2.5 gap-y-2 text-[11px]">
+      <span class="chip bg-white/5 text-slate-300">1 · call opened</span><span class="text-slate-600">→</span>
+      <span class="chip bg-amber-400/10 text-amber-300">2 · window runs (7/14 days)</span><span class="text-slate-600">→</span>
+      <span class="chip bg-teal-400/10 text-teal-300">3 · auto-scored at expiry</span><span class="text-slate-600">→</span>
+      <span class="chip bg-emerald-400/10 text-emerald-300">4 · hit / miss recorded</span>
+    </div>
+    <p class="text-[11px] text-slate-500 mt-2">One call travels through both lists: while its window is running it sits in <span class="text-slate-300">Calls in progress</span>; the day it expires the system compares it with the real close and it moves to <span class="text-slate-300">Scored calls</span> below — same call, same reasoning, now with a verdict.</p>
+  </div>
   
     <div class="surface p-4 sm:p-5 mb-6">
       <div class="flex items-center justify-between mb-1">
         <h2 class="font-display text-lg font-semibold text-white">Calls in progress</h2>
-        <span class="text-[11px] text-slate-500">auto-scored at expiry</span></div>
+        <span class="text-[11px] text-slate-500">stage 1 — waiting for the window to close</span></div>
       <p class="text-xs text-slate-500 mb-1">Each call was opened on the day its event was analysed and is auto-scored against the real close when its window ends. <span class="text-amber-300/90">First scores land on <span class="tnum">2026-09-09</span>.</span></p>
       <ul>
         <li class="flex items-start gap-2.5 py-2.5 border-b border-white/5 last:border-0">
@@ -182,6 +191,7 @@
     <div class="surface p-4 sm:p-5">
       <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
         <h2 class="font-display text-lg font-semibold text-white">Scored calls</h2>
+        <span class="text-[11px] text-slate-500">stage 2 — the same calls, after their window closed</span>
         <div class="flex flex-wrap items-center gap-2">
           <input type="date" id="r-from" class="bg-white/5 border border-white/10 rounded-lg px-2 py-1 text-[11px] text-slate-200" title="From date">
           <input type="date" id="r-to" class="bg-white/5 border border-white/10 rounded-lg px-2 py-1 text-[11px] text-slate-200" title="To date">
@@ -191,12 +201,12 @@
           <span id="r-count" class="text-[11px] text-slate-500"></span>
         </div>
       </div>
-      <div class="overflow-x-auto"><table class="w-full text-xs min-w-[560px]">
+      <div class="overflow-x-auto"><table class="w-full text-xs min-w-[620px]">
         <thead><tr class="text-left text-slate-500 border-b border-white/10">
-          <th class="py-2 pr-3 font-medium">asset</th><th class="py-2 pr-3 font-medium">call</th>
+          <th class="py-2 pr-3 font-medium">opened</th><th class="py-2 pr-3 font-medium">asset</th><th class="py-2 pr-3 font-medium">call</th>
           <th class="py-2 pr-3 font-medium">bar</th><th class="py-2 pr-3 font-medium">actual</th>
           <th class="py-2 pr-3 font-medium">result</th><th class="py-2 font-medium">scored at</th></tr></thead>
-        <tbody id="r-body"><tr><td colspan="6" class="py-4 text-slate-500">No scored calls yet — the first 7/14-day windows close soon.</td></tr></tbody>
+        <tbody id="r-body"><tr><td colspan="7" class="py-4 text-slate-500">No scored calls yet — the first 7/14-day windows close soon.</td></tr></tbody>
       </table></div>
     </div>
     <script>

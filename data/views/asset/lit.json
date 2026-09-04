@@ -2251,7 +2251,21 @@
    "events": []
   }
  ],
- "predictions": [],
+ "predictions": [
+  {
+   "id": "pred-f43f25347d7c",
+   "event_id": "evt-41f7b2f44bf6",
+   "created_at": "2026-09-03",
+   "expires_at": "2026-09-17",
+   "horizon_days": 14,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 45,
+   "reasoning": "Higher EV demand from Cybercabs raises lithium consumption expectations, supporting lithium ETFs.",
+   "status": "open",
+   "outcome": null
+  }
+ ],
  "events": [
   {
    "id": "evt-2ef123ab8fd5",
