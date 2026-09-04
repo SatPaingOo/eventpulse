@@ -2238,6 +2238,30 @@
  ],
  "causal_notes": [
   {
+   "id": "note-e689eaaf9073",
+   "kind": "causal_notes",
+   "asset": "REMX",
+   "move_id": "move-REMX-2026-09-01",
+   "move_date": "2026-09-01",
+   "event_ids": [
+    "evt-61a066cc38b2"
+   ],
+   "reasoning": "Minor 3.2‑magnitude quake in US triggered risk‑off sentiment, briefly dragging REMX down.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-04T06:53:57Z",
+   "events": [
+    {
+     "id": "evt-61a066cc38b2",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "US",
+     "summary": "Magnitude 3.2 earthquake 6 km southeast of Ontario, California.",
+     "date": "2026-09-02"
+    }
+   ]
+  },
+  {
    "id": "note-60283d08897c",
    "kind": "causal_notes",
    "asset": "REMX",
