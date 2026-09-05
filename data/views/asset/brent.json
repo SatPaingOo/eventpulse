@@ -2259,6 +2259,19 @@
    "events": []
   },
   {
+   "id": "note-dfdbed907400",
+   "kind": "causal_notes",
+   "asset": "Brent",
+   "move_id": "move-Brent-2026-05-27",
+   "move_date": "2026-05-27",
+   "event_ids": [],
+   "reasoning": "No events in window; price drop likely from broader market sentiment or supply/demand shifts.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-05T14:13:23Z",
+   "events": []
+  },
+  {
    "id": "note-91675df86f83",
    "kind": "causal_notes",
    "asset": "Brent",
@@ -2283,9 +2296,48 @@
    "hypothesis_status": "proposed",
    "written_at": "2026-09-04T06:56:53Z",
    "events": []
+  },
+  {
+   "id": "note-6f3e60e93872",
+   "kind": "causal_notes",
+   "asset": "Brent",
+   "move_id": "move-Brent-2026-05-06",
+   "move_date": "2026-05-06",
+   "event_ids": [],
+   "reasoning": "No candidate events; price drop likely due to market microstructure or other unlisted factors.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-05T14:12:53Z",
+   "events": []
+  },
+  {
+   "id": "note-289ae816a798",
+   "kind": "causal_notes",
+   "asset": "Brent",
+   "move_id": "move-Brent-2026-03-23",
+   "move_date": "2026-03-23",
+   "event_ids": [],
+   "reasoning": "No candidate events; price drop likely due to market speculation or supply concerns.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-05T14:13:21Z",
+   "events": []
   }
  ],
  "predictions": [
+  {
+   "id": "pred-856cf1f2b3f1",
+   "event_id": "evt-971ab1619467",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 2.0,
+   "confidence": 57,
+   "reasoning": "Similar to WTI, legal pressure on major polluters can curb demand and pull Brent lower.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-a9f1a18aeb6d",
    "event_id": "evt-720fd41f727c",
