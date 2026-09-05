@@ -2246,6 +2246,58 @@
  ],
  "causal_notes": [
   {
+   "id": "note-dc05f17552ef",
+   "kind": "causal_notes",
+   "asset": "PLAT",
+   "move_id": "move-PLAT-2026-07-09",
+   "move_date": "2026-07-09",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely due to market microstructure or random noise.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-05T09:40:02Z",
+   "events": []
+  },
+  {
+   "id": "note-c038073af2c2",
+   "kind": "causal_notes",
+   "asset": "PLAT",
+   "move_id": "move-PLAT-2026-07-01",
+   "move_date": "2026-07-01",
+   "event_ids": [],
+   "reasoning": "No events reported; move likely due to market microstructure, liquidity shifts, or technical trading patterns.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-05T09:40:30Z",
+   "events": []
+  },
+  {
+   "id": "note-af77c1469158",
+   "kind": "causal_notes",
+   "asset": "PLAT",
+   "move_id": "move-PLAT-2026-03-31",
+   "move_date": "2026-03-31",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely due to market microstructure or technical trading factors.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-05T09:40:29Z",
+   "events": []
+  },
+  {
+   "id": "note-eeb0f2f2a65c",
+   "kind": "causal_notes",
+   "asset": "PLAT",
+   "move_id": "move-PLAT-2026-03-20",
+   "move_date": "2026-03-20",
+   "event_ids": [],
+   "reasoning": "No events detected; likely a technical breakout or market microstructure shift caused the 1.619% rise.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-05T09:40:32Z",
+   "events": []
+  },
+  {
    "id": "note-a5e712b9f13c",
    "kind": "causal_notes",
    "asset": "PLAT",
@@ -2259,18 +2311,22 @@
    "events": []
   }
  ],
- "predictions": [],
- "events": [
+ "predictions": [
   {
-   "id": "evt-2662dc10330d",
-   "date": "2026-09-04",
-   "dt": "2026-09-04T05:04:54Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "Southeast Asia",
-   "summary": "A magnitude 5.2 earthquake struck 28 km south of Cilacap, Indonesia, according to USGS.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te82"
-  },
+   "id": "pred-46f8bdcb511d",
+   "event_id": "evt-4c6079a09d24",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 70,
+   "reasoning": "US-Iran tensions boost demand for platinum in automotive catalysts, sustaining price rise.",
+   "status": "open",
+   "outcome": null
+  }
+ ],
+ "events": [
   {
    "id": "evt-984e4075f98f",
    "date": "2026-09-04",
@@ -2560,6 +2616,16 @@
    "region": "India",
    "summary": "Indian cricketer Smriti Mandhana overtook Mithali Raj to become the highest run-scorer in women's international cricket.",
    "url": "https://www.aljazeera.com/sports/2026/9/4/indias-smriti-mandhana-becomes-top-run-scorer-in-womens-cricket?traffic_source=rss"
+  },
+  {
+   "id": "evt-18f1140308dc",
+   "date": "2026-09-04",
+   "dt": "2026-09-04T23:52:30Z",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "Russia",
+   "summary": "Magnitude 5.5 earthquake occurred 156 km east of Kuril'sk, Russia.",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefx"
   },
   {
    "id": "evt-f113698514ac",

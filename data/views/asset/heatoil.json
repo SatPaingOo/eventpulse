@@ -2246,6 +2246,19 @@
  ],
  "causal_notes": [
   {
+   "id": "note-2ec93722629b",
+   "kind": "causal_notes",
+   "asset": "HEATOIL",
+   "move_id": "move-HEATOIL-2026-06-25",
+   "move_date": "2026-06-25",
+   "event_ids": [],
+   "reasoning": "No candidate events; price rise likely from market speculation or technical factors.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-05T09:40:31Z",
+   "events": []
+  },
+  {
    "id": "note-91d3bf733e08",
    "kind": "causal_notes",
    "asset": "HEATOIL",
@@ -2366,16 +2379,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-2662dc10330d",
-   "date": "2026-09-04",
-   "dt": "2026-09-04T05:04:54Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "Southeast Asia",
-   "summary": "A magnitude 5.2 earthquake struck 28 km south of Cilacap, Indonesia, according to USGS.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te82"
-  },
   {
    "id": "evt-984e4075f98f",
    "date": "2026-09-04",
@@ -2665,6 +2668,16 @@
    "region": "India",
    "summary": "Indian cricketer Smriti Mandhana overtook Mithali Raj to become the highest run-scorer in women's international cricket.",
    "url": "https://www.aljazeera.com/sports/2026/9/4/indias-smriti-mandhana-becomes-top-run-scorer-in-womens-cricket?traffic_source=rss"
+  },
+  {
+   "id": "evt-18f1140308dc",
+   "date": "2026-09-04",
+   "dt": "2026-09-04T23:52:30Z",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "Russia",
+   "summary": "Magnitude 5.5 earthquake occurred 156 km east of Kuril'sk, Russia.",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefx"
   },
   {
    "id": "evt-f113698514ac",

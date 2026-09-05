@@ -2493,6 +2493,19 @@
    "outcome": null
   },
   {
+   "id": "pred-c43264ed3627",
+   "event_id": "evt-c80b1d585a8a",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Regional conflict raises risk premium, boosting safe‑haven demand for gold.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-63257a43df30",
    "event_id": "evt-c3eef8d63fb0",
    "created_at": "2026-09-04",
@@ -2502,6 +2515,32 @@
    "threshold_pct": 1.2,
    "confidence": 58,
    "reasoning": "Stable Italian government cuts European political risk, reducing safe‑haven demand for gold.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-eda4ecaac9e1",
+   "event_id": "evt-01bc4240ddbc",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 60,
+   "reasoning": "Geopolitical tension pushes investors to gold safe haven.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-35f55146baae",
+   "event_id": "evt-22f602020498",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.5,
+   "confidence": 50,
+   "reasoning": "Risk-off sentiment eases, gold demand weakens, price likely to decline.",
    "status": "open",
    "outcome": null
   },
@@ -2541,6 +2580,19 @@
    "threshold_pct": 1.2,
    "confidence": 55,
    "reasoning": "Acquittal raises EU rule‑of‑law concerns, prompting safe‑haven demand for gold.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-548a8f6c4786",
+   "event_id": "evt-91787986028f",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Political instability drives safe‑haven demand, lifting gold.",
    "status": "open",
    "outcome": null
   },
@@ -2946,71 +2998,9 @@
    "reasoning": "El Niño raises geopolitical risk, boosting safe‑haven demand for gold.",
    "status": "open",
    "outcome": null
-  },
-  {
-   "id": "pred-7cbac8a2d2ec",
-   "event_id": "evt-99caa2d3d71a",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 50,
-   "reasoning": "Political uncertainty in Malta may boost safe‑haven demand for gold.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-31dd54980736",
-   "event_id": "evt-2384ac012797",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 50,
-   "reasoning": "Safe‑haven demand rises after Pacific quake, pushing gold higher.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-9d9a8fef6421",
-   "event_id": "evt-bc2d67686d26",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Malta political turmoil may boost safe‑haven demand for gold.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-e47f43009c80",
-   "event_id": "evt-421a7dbde4ef",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 45,
-   "reasoning": "Small quake may trigger risk‑off sentiment, boosting gold as a safe‑haven.",
-   "status": "open",
-   "outcome": null
   }
  ],
  "events": [
-  {
-   "id": "evt-2662dc10330d",
-   "date": "2026-09-04",
-   "dt": "2026-09-04T05:04:54Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "Southeast Asia",
-   "summary": "A magnitude 5.2 earthquake struck 28 km south of Cilacap, Indonesia, according to USGS.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te82"
-  },
   {
    "id": "evt-984e4075f98f",
    "date": "2026-09-04",
@@ -3300,6 +3290,16 @@
    "region": "India",
    "summary": "Indian cricketer Smriti Mandhana overtook Mithali Raj to become the highest run-scorer in women's international cricket.",
    "url": "https://www.aljazeera.com/sports/2026/9/4/indias-smriti-mandhana-becomes-top-run-scorer-in-womens-cricket?traffic_source=rss"
+  },
+  {
+   "id": "evt-18f1140308dc",
+   "date": "2026-09-04",
+   "dt": "2026-09-04T23:52:30Z",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "Russia",
+   "summary": "Magnitude 5.5 earthquake occurred 156 km east of Kuril'sk, Russia.",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefx"
   },
   {
    "id": "evt-f113698514ac",

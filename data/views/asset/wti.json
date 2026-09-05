@@ -2651,6 +2651,19 @@
    "outcome": null
   },
   {
+   "id": "pred-8786acdd90de",
+   "event_id": "evt-1434d10d2818",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 65,
+   "reasoning": "Diesel price spike signals higher crude demand, boosting WTI.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-c80365c47287",
    "event_id": "evt-c3eef8d63fb0",
    "created_at": "2026-09-04",
@@ -2690,6 +2703,45 @@
    "outcome": null
   },
   {
+   "id": "pred-e1a21de3d669",
+   "event_id": "evt-91787986028f",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 3.0,
+   "confidence": 65,
+   "reasoning": "Middle East tension raises supply risk, pushing WTI higher.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-a05541e60f12",
+   "event_id": "evt-22f602020498",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Stabilization reduces risk premium, oil demand expected to normalize, price drop likely.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-19aac0f7815e",
+   "event_id": "evt-08bae5a6aad0",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 65,
+   "reasoning": "Geopolitical risk in Middle East lifts WTI.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-3de77aa999df",
    "event_id": "evt-c3056ab54e5d",
    "created_at": "2026-09-04",
@@ -2699,6 +2751,19 @@
    "threshold_pct": 2.0,
    "confidence": 70,
    "reasoning": "Bullish forecast and Iran risk boost demand, likely pushing WTI further above $90.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-6666127dd919",
+   "event_id": "evt-01bc4240ddbc",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 70,
+   "reasoning": "US threat to Iran may tighten supply, driving oil higher.",
    "status": "open",
    "outcome": null
   },
@@ -3091,84 +3156,9 @@
    "reasoning": "Minor shipping disruption near South Sandwich Islands could tighten supply, pushing WTI up.",
    "status": "open",
    "outcome": null
-  },
-  {
-   "id": "pred-35755cc37cb5",
-   "event_id": "evt-78c2c5cca070",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 2.0,
-   "confidence": 65,
-   "reasoning": "Offshore drilling disruption in Pacific may tighten supply, lifting prices.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-715e12654e1e",
-   "event_id": "evt-2b3f3d57d8c2",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 70,
-   "reasoning": "Offshore quake may disrupt drilling rigs and pipelines, tightening supply and pushing oil prices up.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-68e5da760ff6",
-   "event_id": "evt-2e61fbe3cf57",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 1.5,
-   "confidence": 45,
-   "reasoning": "Potential disruption to Indonesian oil production could pressure WTI prices.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-b84e2749a7f5",
-   "event_id": "evt-4e7cb75a4e46",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 3.0,
-   "confidence": 50,
-   "reasoning": "Supply disruptions in key regions push oil prices higher.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-64935dae84a4",
-   "event_id": "evt-2384ac012797",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 55,
-   "reasoning": "Earthquake near Pacific could disrupt offshore drilling and shipping, tightening oil supply, boosting WTI.",
-   "status": "open",
-   "outcome": null
   }
  ],
  "events": [
-  {
-   "id": "evt-2662dc10330d",
-   "date": "2026-09-04",
-   "dt": "2026-09-04T05:04:54Z",
-   "event_type": "natural_disaster",
-   "severity": 3,
-   "region": "Southeast Asia",
-   "summary": "A magnitude 5.2 earthquake struck 28 km south of Cilacap, Indonesia, according to USGS.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000te82"
-  },
   {
    "id": "evt-984e4075f98f",
    "date": "2026-09-04",
@@ -3458,6 +3448,16 @@
    "region": "India",
    "summary": "Indian cricketer Smriti Mandhana overtook Mithali Raj to become the highest run-scorer in women's international cricket.",
    "url": "https://www.aljazeera.com/sports/2026/9/4/indias-smriti-mandhana-becomes-top-run-scorer-in-womens-cricket?traffic_source=rss"
+  },
+  {
+   "id": "evt-18f1140308dc",
+   "date": "2026-09-04",
+   "dt": "2026-09-04T23:52:30Z",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "Russia",
+   "summary": "Magnitude 5.5 earthquake occurred 156 km east of Kuril'sk, Russia.",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tefx"
   },
   {
    "id": "evt-f113698514ac",
