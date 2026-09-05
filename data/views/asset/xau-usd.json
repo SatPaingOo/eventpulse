@@ -2480,6 +2480,19 @@
  ],
  "predictions": [
   {
+   "id": "pred-8a9fb7e08756",
+   "event_id": "evt-f369b439e748",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Geopolitical conflict boosts safe‑haven demand, pushing gold higher.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-219538147410",
    "event_id": "evt-720fd41f727c",
    "created_at": "2026-09-04",
@@ -2593,6 +2606,19 @@
    "threshold_pct": 1.2,
    "confidence": 55,
    "reasoning": "Acquittal raises EU rule‑of‑law concerns, prompting safe‑haven demand for gold.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-4da30ed184c6",
+   "event_id": "evt-74cc60859407",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Bolivia blast raises geopolitical risk, investors seek safe-haven gold.",
    "status": "open",
    "outcome": null
   },
@@ -2970,32 +2996,6 @@
    "threshold_pct": 1.0,
    "confidence": 20,
    "reasoning": "Natural disaster raises risk sentiment, lifting gold.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-909f6a3195c5",
-   "event_id": "evt-50378bd856ed",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 48,
-   "reasoning": "Regional quake spikes safe‑haven demand, nudging gold higher despite limited global impact.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-a81f11890b2b",
-   "event_id": "evt-6b9c3462b7a0",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Moderate quake raises risk sentiment; gold seen as safe haven.",
    "status": "open",
    "outcome": null
   }

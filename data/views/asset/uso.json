@@ -2298,6 +2298,19 @@
    "events": []
   },
   {
+   "id": "note-3b15583e8c4b",
+   "kind": "causal_notes",
+   "asset": "USO",
+   "move_id": "move-USO-2026-03-17",
+   "move_date": "2026-03-17",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely due to broader oil market dynamics or liquidity shift.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-05T19:48:48Z",
+   "events": []
+  },
+  {
    "id": "note-90d113dc6e2e",
    "kind": "causal_notes",
    "asset": "USO",
@@ -2335,6 +2348,19 @@
    "threshold_pct": 1.0,
    "confidence": 60,
    "reasoning": "Oil ETF tracks Brent; supply concerns boost USO.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-4c947b22c91a",
+   "event_id": "evt-a543e603ea23",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 65,
+   "reasoning": "USO tracks WTI; expected to rise as oil prices climb.",
    "status": "open",
    "outcome": null
   },

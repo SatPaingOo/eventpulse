@@ -2638,6 +2638,19 @@
  ],
  "predictions": [
   {
+   "id": "pred-7c0321fd4a33",
+   "event_id": "evt-a543e603ea23",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 70,
+   "reasoning": "US strike on Iranian tankers heightens supply risk, pushing WTI higher.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-1d9ae683894d",
    "event_id": "evt-f56612da7281",
    "created_at": "2026-09-04",
@@ -2777,6 +2790,19 @@
    "threshold_pct": 2.0,
    "confidence": 58,
    "reasoning": "Compensation claims raise costs for oil polluters, pressuring crude prices in the short term.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-f2f47c051080",
+   "event_id": "evt-f369b439e748",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Middle East strike raises supply‑risk fears, likely nudging oil higher.",
    "status": "open",
    "outcome": null
   },
@@ -3128,32 +3154,6 @@
    "threshold_pct": 0.5,
    "confidence": 40,
    "reasoning": "Local production disruption could reduce supply, pressuring prices down.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-fee10a08ad87",
-   "event_id": "evt-460698bcb271",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 60,
-   "reasoning": "Earthquake may disrupt offshore drilling, shipping lanes, causing oil supply concerns, pushing prices up.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-71c0a404172c",
-   "event_id": "evt-15852198adba",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Risk‑off sentiment from Spanish protests reduces global demand, pushing oil lower.",
    "status": "open",
    "outcome": null
   }

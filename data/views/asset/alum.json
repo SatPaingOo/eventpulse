@@ -2270,9 +2270,35 @@
    "hypothesis_status": "proposed",
    "written_at": "2026-09-04T01:53:23Z",
    "events": []
+  },
+  {
+   "id": "note-d3783542a3ed",
+   "kind": "causal_notes",
+   "asset": "ALUM",
+   "move_id": "move-ALUM-2026-05-06",
+   "move_date": "2026-05-06",
+   "event_ids": [],
+   "reasoning": "No listed events; likely a supply-demand shift, e.g., mild weather reducing production or increased demand in Asia.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-05T19:48:47Z",
+   "events": []
   }
  ],
  "predictions": [
+  {
+   "id": "pred-e7805e112953",
+   "event_id": "evt-ceddce78686d",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Rebuilding efforts increase aluminum use for temporary structures and repair.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-f62d5365d82d",
    "event_id": "evt-899b495c3ba0",
