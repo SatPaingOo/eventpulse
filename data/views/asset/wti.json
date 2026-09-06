@@ -2638,6 +2638,19 @@
  ],
  "predictions": [
   {
+   "id": "pred-98c746ea465b",
+   "event_id": "evt-72d721ba5ffa",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 65,
+   "reasoning": "Diesel price spike signals higher fuel costs, driving up crude oil prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-7c0321fd4a33",
    "event_id": "evt-a543e603ea23",
    "created_at": "2026-09-04",
@@ -2673,6 +2686,19 @@
    "threshold_pct": 1.5,
    "confidence": 65,
    "reasoning": "Diesel price spike signals higher crude demand, boosting WTI.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-0e1d71ae21c0",
+   "event_id": "evt-e28e12075b41",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Alaska oil fields may face short‑term shutdowns, tightening supply and nudging prices higher.",
    "status": "open",
    "outcome": null
   },
@@ -2738,6 +2764,19 @@
    "threshold_pct": 1.5,
    "confidence": 55,
    "reasoning": "Stabilization reduces risk premium, oil demand expected to normalize, price drop likely.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-4b9cbe97e5bb",
+   "event_id": "evt-d888e3d23133",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 70,
+   "reasoning": "Strikes threaten Iranian tanker supply, tightening oil flow and pushing WTI higher.",
    "status": "open",
    "outcome": null
   },
@@ -3115,45 +3154,6 @@
    "threshold_pct": 1.5,
    "confidence": 45,
    "reasoning": "Local disruptions cut demand, oil falls.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-58204ba14851",
-   "event_id": "evt-2ebce50d7c25",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Angola's oil output may be disrupted, tightening supply and pushing WTI higher.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-7b5bf5ac8bc1",
-   "event_id": "evt-2c32c06a9e16",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "range",
-   "threshold_pct": 0.5,
-   "confidence": 55,
-   "reasoning": "Minor shipping disruptions may slightly dampen demand, but no major impact on global oil supply.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-c6c870b8877b",
-   "event_id": "evt-d131b45f2d67",
-   "created_at": "2026-09-03",
-   "expires_at": "2026-09-10",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 0.5,
-   "confidence": 40,
-   "reasoning": "Local production disruption could reduce supply, pressuring prices down.",
    "status": "open",
    "outcome": null
   }

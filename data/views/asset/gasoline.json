@@ -2246,6 +2246,19 @@
  ],
  "causal_notes": [
   {
+   "id": "note-024c7dc68ce2",
+   "kind": "causal_notes",
+   "asset": "GASOLINE",
+   "move_id": "move-GASOLINE-2026-08-26",
+   "move_date": "2026-08-26",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely due to market microstructure or unrelated factors.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-06T01:46:22Z",
+   "events": []
+  },
+  {
    "id": "note-a44d1b23f3c7",
    "kind": "causal_notes",
    "asset": "GASOLINE",
@@ -2285,6 +2298,19 @@
    "events": []
   },
   {
+   "id": "note-b4f2f13a1783",
+   "kind": "causal_notes",
+   "asset": "GASOLINE",
+   "move_id": "move-GASOLINE-2026-05-12",
+   "move_date": "2026-05-12",
+   "event_ids": [],
+   "reasoning": "No listed events; likely due to market speculation or minor supply disruptions affecting gasoline prices.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-06T01:46:26Z",
+   "events": []
+  },
+  {
    "id": "note-78eff3692fce",
    "kind": "causal_notes",
    "asset": "GASOLINE",
@@ -2311,6 +2337,19 @@
    "events": []
   },
   {
+   "id": "note-326ffb23a9d4",
+   "kind": "causal_notes",
+   "asset": "GASOLINE",
+   "move_id": "move-GASOLINE-2026-04-01",
+   "move_date": "2026-04-01",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely due to broader market factors or supply/demand shifts.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-06T01:45:55Z",
+   "events": []
+  },
+  {
    "id": "note-33dec0173602",
    "kind": "causal_notes",
    "asset": "GASOLINE",
@@ -2325,6 +2364,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-00877ec9b5c0",
+   "event_id": "evt-72d721ba5ffa",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 60,
+   "reasoning": "Higher diesel costs push overall fuel prices up, lifting gasoline demand and price.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-e87111647616",
    "event_id": "evt-fb064f020a27",
