@@ -2246,6 +2246,30 @@
  ],
  "causal_notes": [
   {
+   "id": "note-1c2de84613f3",
+   "kind": "causal_notes",
+   "asset": "LIT",
+   "move_id": "move-LIT-2026-09-01",
+   "move_date": "2026-09-01",
+   "event_ids": [
+    "evt-d0c07be49111"
+   ],
+   "reasoning": "Magnitude‑5.2 quake in South Sandwich Islands spurred risk‑off sentiment, prompting a sell‑off in commodities like lithium.",
+   "confidence": 60,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-06T14:39:42Z",
+   "events": [
+    {
+     "id": "evt-d0c07be49111",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "South Atlantic",
+     "summary": "Magnitude 5.2 earthquake struck the South Sandwich Islands region.",
+     "date": "2026-09-02"
+    }
+   ]
+  },
+  {
    "id": "note-ec73bd49983b",
    "kind": "causal_notes",
    "asset": "LIT",
@@ -2282,6 +2306,19 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-04T06:23:06Z",
+   "events": []
+  },
+  {
+   "id": "note-e725ff706dff",
+   "kind": "causal_notes",
+   "asset": "LIT",
+   "move_id": "move-LIT-2026-05-04",
+   "move_date": "2026-05-04",
+   "event_ids": [],
+   "reasoning": "No external event; likely a liquidity/technical glitch or small order imbalance caused the 1.8% dip.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-06T14:39:45Z",
    "events": []
   },
   {

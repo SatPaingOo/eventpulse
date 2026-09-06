@@ -2244,7 +2244,21 @@
    "written_at": "2026-09-03T18:09:47Z"
   }
  ],
- "causal_notes": [],
+ "causal_notes": [
+  {
+   "id": "note-ac0292ae5d8d",
+   "kind": "causal_notes",
+   "asset": "XLE",
+   "move_id": "move-XLE-2026-07-08",
+   "move_date": "2026-07-08",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely due to broader market factors.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-06T14:39:13Z",
+   "events": []
+  }
+ ],
  "predictions": [
   {
    "id": "pred-bece643c8e82",
@@ -2308,6 +2322,19 @@
    "threshold_pct": 1.5,
    "confidence": 55,
    "reasoning": "Energy sector ETF likely to fall as oil‑related firms face higher litigation costs.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-13e90e1f9c4f",
+   "event_id": "evt-3fcf34009b01",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 52,
+   "reasoning": "Energy sector ETF likely to benefit from any oil price uplift driven by Middle‑East geopolitical concerns.",
    "status": "open",
    "outcome": null
   },
