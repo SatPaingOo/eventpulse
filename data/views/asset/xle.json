@@ -2247,6 +2247,19 @@
  "causal_notes": [],
  "predictions": [
   {
+   "id": "pred-bece643c8e82",
+   "event_id": "evt-5c05a4aa88ed",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 30,
+   "reasoning": "Higher oil prices benefit energy stocks, boosting the XLE ETF.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-efcc8d86e652",
    "event_id": "evt-1c807a10890d",
    "created_at": "2026-09-04",
@@ -2308,6 +2321,19 @@
    "threshold_pct": 1.0,
    "confidence": 65,
    "reasoning": "Fuel cost surge boosts energy sector ETF XLE, reflecting higher oil and gas earnings.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-825d69dbe1c6",
+   "event_id": "evt-4e748bfb9b41",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Uncertainty over US policy may dampen energy sector demand, leading to a short‑term sell‑off.",
    "status": "open",
    "outcome": null
   },

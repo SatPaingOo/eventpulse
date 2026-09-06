@@ -2246,6 +2246,19 @@
  ],
  "causal_notes": [
   {
+   "id": "note-ca5a10bd9898",
+   "kind": "causal_notes",
+   "asset": "Brent",
+   "move_id": "move-Brent-2026-06-22",
+   "move_date": "2026-06-22",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely a broader market sentiment shift or technical trading pattern caused the price drop.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-06T09:56:11Z",
+   "events": []
+  },
+  {
    "id": "note-a84a09983ada",
    "kind": "causal_notes",
    "asset": "Brent",
@@ -2322,6 +2335,19 @@
    "hypothesis_status": "proposed",
    "written_at": "2026-09-05T14:13:21Z",
    "events": []
+  },
+  {
+   "id": "note-ebf5635ad6e4",
+   "kind": "causal_notes",
+   "asset": "Brent",
+   "move_id": "move-Brent-2026-03-06",
+   "move_date": "2026-03-06",
+   "event_ids": [],
+   "reasoning": "No candidate events in window; price move likely due to broader market dynamics or unreported factors.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-06T09:55:13Z",
+   "events": []
   }
  ],
  "predictions": [
@@ -2335,6 +2361,19 @@
    "threshold_pct": 2.0,
    "confidence": 57,
    "reasoning": "Similar to WTI, legal pressure on major polluters can curb demand and pull Brent lower.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-09128bdd468f",
+   "event_id": "evt-5c05a4aa88ed",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 35,
+   "reasoning": "Supply risk from Angola could tighten global oil markets, lifting Brent prices.",
    "status": "open",
    "outcome": null
   },
@@ -2404,6 +2443,19 @@
    "outcome": null
   },
   {
+   "id": "pred-e02a3923255c",
+   "event_id": "evt-4ab931707154",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.8,
+   "confidence": 68,
+   "reasoning": "Global oil markets react similarly to geopolitical risk, lifting Brent.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-d0cb06729d92",
    "event_id": "evt-f56612da7281",
    "created_at": "2026-09-04",
@@ -2452,6 +2504,19 @@
    "threshold_pct": 1.0,
    "confidence": 70,
    "reasoning": "Iran tensions cut supply, pushing Brent higher.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-a3268bbd2785",
+   "event_id": "evt-171cf7438d9a",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Risk premium from Falklands dispute pushes crude prices up.",
    "status": "open",
    "outcome": null
   },

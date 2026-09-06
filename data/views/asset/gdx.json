@@ -2246,6 +2246,48 @@
  ],
  "causal_notes": [
   {
+   "id": "note-a816e9c6c260",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-09-02",
+   "move_date": "2026-09-02",
+   "event_ids": [
+    "evt-592e2307b848",
+    "evt-899b495c3ba0",
+    "evt-93ebeb7f3ae0"
+   ],
+   "reasoning": "Continued African forest fires heightened risk sentiment, boosting gold demand and GDX shares.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-06T09:55:13Z",
+   "events": [
+    {
+     "id": "evt-592e2307b848",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Africa",
+     "summary": "Forest fire started in Angola on 31 August 2026 and continued until 2 September 2026.",
+     "date": "2026-09-03"
+    },
+    {
+     "id": "evt-899b495c3ba0",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Africa",
+     "summary": "Forest fire started in the Democratic Republic of Congo on 31 August 2026 and continued until 2 September 2026.",
+     "date": "2026-09-03"
+    },
+    {
+     "id": "evt-93ebeb7f3ae0",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Africa",
+     "summary": "Forest fire started in the Democratic Republic of Congo on 31 August 2026 and continued until 2 September 2026.",
+     "date": "2026-09-03"
+    }
+   ]
+  },
+  {
    "id": "note-e00340d7f3f5",
    "kind": "causal_notes",
    "asset": "GDX",
