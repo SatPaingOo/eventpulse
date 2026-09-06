@@ -2288,6 +2288,30 @@
    ]
   },
   {
+   "id": "note-d6058ddf7b3c",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-09-01",
+   "move_date": "2026-09-01",
+   "event_ids": [
+    "evt-d0c07be49111"
+   ],
+   "reasoning": "Earthquake raised risk sentiment, prompting sell‑offs in gold‑mining stocks.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-06T19:47:40Z",
+   "events": [
+    {
+     "id": "evt-d0c07be49111",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "South Atlantic",
+     "summary": "Magnitude 5.2 earthquake struck the South Sandwich Islands region.",
+     "date": "2026-09-02"
+    }
+   ]
+  },
+  {
    "id": "note-e00340d7f3f5",
    "kind": "causal_notes",
    "asset": "GDX",
