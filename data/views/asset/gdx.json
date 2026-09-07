@@ -2377,6 +2377,19 @@
    "events": []
   },
   {
+   "id": "note-485c434349f4",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-06-23",
+   "move_date": "2026-06-23",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely due to broader market factors or sector rotation.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-07T16:52:09Z",
+   "events": []
+  },
+  {
    "id": "note-6d40f8d31fd4",
    "kind": "causal_notes",
    "asset": "GDX",
@@ -2400,6 +2413,19 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-04T01:52:56Z",
+   "events": []
+  },
+  {
+   "id": "note-a78847d13d51",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-06-01",
+   "move_date": "2026-06-01",
+   "event_ids": [],
+   "reasoning": "No events; likely sector rotation or broader market sell‑off affecting miners.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-07T16:52:08Z",
    "events": []
   },
   {
@@ -2492,6 +2518,19 @@
    "threshold_pct": 2.0,
    "confidence": 40,
    "reasoning": "Higher gold demand lifts gold‑mining stocks like GDX.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-6c6a509da87c",
+   "event_id": "evt-073cee61b509",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 50,
+   "reasoning": "Gold miners benefit from rising gold demand amid ICC‑related risk.",
    "status": "open",
    "outcome": null
   },

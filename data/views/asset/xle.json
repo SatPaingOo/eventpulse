@@ -2270,6 +2270,19 @@
    "hypothesis_status": "proposed",
    "written_at": "2026-09-06T14:39:13Z",
    "events": []
+  },
+  {
+   "id": "note-d8750bd5ca3a",
+   "kind": "causal_notes",
+   "asset": "XLE",
+   "move_id": "move-XLE-2026-04-29",
+   "move_date": "2026-04-29",
+   "event_ids": [],
+   "reasoning": "Sector rally from positive oil outlook and macro data lifted XLE.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-07T16:52:11Z",
+   "events": []
   }
  ],
  "predictions": [
@@ -2296,6 +2309,32 @@
    "threshold_pct": 1.0,
    "confidence": 55,
    "reasoning": "Uncertainty over policy ahead of 2026 midterms may weigh on US energy stocks.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-5589092dd6d2",
+   "event_id": "evt-29acdf1994ff",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Energy ETF benefits from higher crude and gasoline prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-875416cea49e",
+   "event_id": "evt-3092f85f077a",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 45,
+   "reasoning": "Uncertain German policy could affect energy sector; unclear net impact.",
    "status": "open",
    "outcome": null
   },

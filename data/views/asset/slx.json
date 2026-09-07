@@ -2298,6 +2298,19 @@
    "events": []
   },
   {
+   "id": "note-4c31ba61ca22",
+   "kind": "causal_notes",
+   "asset": "SLX",
+   "move_id": "move-SLX-2026-05-08",
+   "move_date": "2026-05-08",
+   "event_ids": [],
+   "reasoning": "No events identified; move likely due to normal market microstructure or liquidity fluctuations.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-07T16:53:07Z",
+   "events": []
+  },
+  {
    "id": "note-6535a10ede51",
    "kind": "causal_notes",
    "asset": "SLX",
@@ -2338,6 +2351,32 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-a87f37bf8f13",
+   "event_id": "evt-38bd937cbd48",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 30,
+   "reasoning": "Steel demand for rebuilding is limited to the region, unlikely to affect global steel index.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-e5944d8c55f5",
+   "event_id": "evt-e72174039f96",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Higher copper signals increased construction activity, lifting steel demand and prices.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-d69612b1127c",
    "event_id": "evt-ceddce78686d",
