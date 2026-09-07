@@ -2325,6 +2325,19 @@
    "events": []
   },
   {
+   "id": "note-4fe06ebf5b9f",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-08-18",
+   "move_date": "2026-08-18",
+   "event_ids": [],
+   "reasoning": "No events in window; move likely due to market microstructure or unrelated factors.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-07T11:00:51Z",
+   "events": []
+  },
+  {
    "id": "note-f32ef2ca85fc",
    "kind": "causal_notes",
    "asset": "GDX",
@@ -2456,6 +2469,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-340c20dfc76e",
+   "event_id": "evt-123c45d88de2",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Gold price rise from risk aversion boosts gold but hurts gold miners.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-19b550bfbd35",
    "event_id": "evt-9797b3ac019c",
