@@ -2246,6 +2246,30 @@
  ],
  "causal_notes": [
   {
+   "id": "note-1e5a5f9f307e",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-09-03",
+   "move_date": "2026-09-03",
+   "event_ids": [
+    "evt-720fd41f727c"
+   ],
+   "reasoning": "Israeli military actions in Lebanon heightened geopolitical risk, boosting safe‑haven demand for gold and lifting GDX.",
+   "confidence": 60,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-07T21:03:10Z",
+   "events": [
+    {
+     "id": "evt-720fd41f727c",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Israeli demolitions continue in southern Lebanon.",
+     "date": "2026-09-04"
+    }
+   ]
+  },
+  {
    "id": "note-a816e9c6c260",
    "kind": "causal_notes",
    "asset": "GDX",
