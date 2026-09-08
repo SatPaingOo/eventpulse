@@ -2285,6 +2285,19 @@
    "events": []
   },
   {
+   "id": "note-521fa3b50cd1",
+   "kind": "causal_notes",
+   "asset": "BA",
+   "move_id": "move-BA-2026-07-31",
+   "move_date": "2026-07-31",
+   "event_ids": [],
+   "reasoning": "No candidate events found near 2026-07-31; price move likely due to market noise or untracked factors.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-08T01:56:47Z",
+   "events": []
+  },
+  {
    "id": "note-0a886f9c8fca",
    "kind": "causal_notes",
    "asset": "BA",
@@ -2491,6 +2504,19 @@
    "threshold_pct": 2.0,
    "confidence": 55,
    "reasoning": "Potential US defense budget increases due to Trump meeting anti‑Zionist rabbis may lift defense stocks.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-8fe8819eab23",
+   "event_id": "evt-528fd4892573",
+   "created_at": "2026-09-04",
+   "expires_at": "2026-09-11",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Trump's threat could favor US-made aircraft, boosting Boeing sales expectations.",
    "status": "open",
    "outcome": null
   },
