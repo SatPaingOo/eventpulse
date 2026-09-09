@@ -2449,6 +2449,19 @@
    "events": []
   },
   {
+   "id": "note-4c39c7c94a29",
+   "kind": "causal_notes",
+   "asset": "USO",
+   "move_id": "move-USO-2026-03-11",
+   "move_date": "2026-03-11",
+   "event_ids": [],
+   "reasoning": "No candidate events in window; move likely due to market micro‑fluctuation or unrelated news.",
+   "confidence": 20,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-09T10:22:52Z",
+   "events": []
+  },
+  {
    "id": "note-8a8c45e8d4a6",
    "kind": "causal_notes",
    "asset": "USO",
@@ -2463,6 +2476,32 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-6a89809e790b",
+   "event_id": "evt-e047606cd314",
+   "created_at": "2026-09-08",
+   "expires_at": "2026-09-15",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Oil price surge lifts crude ETF USO.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-345d8a719fcc",
+   "event_id": "evt-a066d0516f56",
+   "created_at": "2026-09-08",
+   "expires_at": "2026-09-15",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "USO could climb as oil prices rise from increased demand due to detours.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-ec27e182ff0a",
    "event_id": "evt-1434d10d2818",

@@ -2321,6 +2321,32 @@
  ],
  "predictions": [
   {
+   "id": "pred-4843e5f93350",
+   "event_id": "evt-e047606cd314",
+   "created_at": "2026-09-08",
+   "expires_at": "2026-09-15",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Energy sector ETF gains from rising oil prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-53c0988688db",
+   "event_id": "evt-e0dbccd4d569",
+   "created_at": "2026-09-08",
+   "expires_at": "2026-09-15",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Energy stocks benefit from rising gas prices and broader energy demand in Europe.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-36abb30a5a1e",
    "event_id": "evt-4586db5cdbb2",
    "created_at": "2026-09-08",
@@ -2330,6 +2356,19 @@
    "threshold_pct": 1.5,
    "confidence": 55,
    "reasoning": "Energy sector ETF tracks oil; lower oil prices drag down the index.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-30b49580fb78",
+   "event_id": "evt-636c27c0bae0",
+   "created_at": "2026-09-08",
+   "expires_at": "2026-09-22",
+   "horizon_days": 14,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 40,
+   "reasoning": "Indirect impact on energy demand via regional instability; effect likely muted.",
    "status": "open",
    "outcome": null
   },
