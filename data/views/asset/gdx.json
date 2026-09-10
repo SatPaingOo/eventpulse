@@ -2482,6 +2482,19 @@
    "events": []
   },
   {
+   "id": "note-043487f59ce5",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-05-11",
+   "move_date": "2026-05-11",
+   "event_ids": [],
+   "reasoning": "No listed events; likely driven by broader macro factors such as rising inflation expectations boosting gold demand.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-10T10:16:04Z",
+   "events": []
+  },
+  {
    "id": "note-5bcd2c14174d",
    "kind": "causal_notes",
    "asset": "GDX",
@@ -2561,6 +2574,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-320680e32136",
+   "event_id": "evt-712cc801ad67",
+   "created_at": "2026-09-09",
+   "expires_at": "2026-09-16",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 45,
+   "reasoning": "Higher gold prices support gold‑miner shares, leading to a modest rally.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-66fc7a1404be",
    "event_id": "evt-fd0e192ab484",

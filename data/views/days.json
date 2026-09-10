@@ -12,7 +12,32 @@
      "region": "Middle East",
      "summary": "Iranian media report enemy projectiles striking Sirik areas amid ongoing conflict.",
      "url": "https://www.aljazeera.com/news/liveblog/2026/9/10/iran-war-live-iran-media-says-sirik-areas-hit-with-hostile-projectiles?traffic_source=rss",
-     "moved": [],
+     "moved": [
+      {
+       "asset": "Brent",
+       "asset_label": "Brent Crude",
+       "date": "2026-09-09",
+       "pct_change": 2.04,
+       "direction": "up",
+       "reasoning": "Iranian media reports enemy projectiles in Sirik area, signaling heightened Middle East tension, increasing supply risk and driving Brent up.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-e6d82af45d5d"
+       ]
+      },
+      {
+       "asset": "WTI",
+       "asset_label": "Crude Oil (WTI)",
+       "date": "2026-09-10",
+       "pct_change": 2.574,
+       "direction": "up",
+       "reasoning": "Iranian projectile strikes in Sirik raise supply concerns, boosting WTI.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-e6d82af45d5d"
+       ]
+      }
+     ],
      "calls": [
       {
        "asset": "Brent",
@@ -41,6 +66,67 @@
      ]
     },
     {
+     "id": "evt-e8c73d24c8a0",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T08:50:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "A semiconductor stock is projected to grow faster than major AI chipmakers.",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWDYyTEQzR1NmVWZxWk1jT255OGw4dmMxdjZSNy1FTG1lU2JkazlzNFdOaVN0UkdzY3Bnd2p0VGYyNWk5RWpzOENCTFR6S2Z1MFMyXzVoSjd6Q0pLX25pbmctdHZGMFp1Y0ZEQ3p4dGVSZnhJN09tclYyRVdLZmJhREtBZjB4MHhCSF94TW8zdGp2Zw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-80394c0774ab",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T10:02:31Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "South Korea's National Pension Service purchased 345,123 shares of Walmart Inc., adding to its investment portfolio.",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOGxJYnROOV9pUDNYMHdyRWVmSTJ3dnpQaXRwczI3SkFCV3BDRlF5cTFqRTdtRTJrLWFyOUt2MllVREFfX3RNTm1ncFlKaGtQMURSNXIzNVNlMmh6b0t2dXRtaHlYQzNTNFFpX192QlhOTkJ5ZUJKRmZ1czZvcFE3RXV6Mlg1YWZlcGVtR2t6UW5oelF3VEdpNDdGZGVRQnNqVUhfMUVuUGRxRUNqb0s4ZWdualQtMFRPV2tUamprSzU?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-89bb12baea56",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T05:55:57Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "Europe",
+     "summary": "Europe’s far‑right gains threaten to deepen divisions over Ukraine and Russia, raising questions about Putin’s influence.",
+     "url": "https://www.aljazeera.com/opinions/2026/9/10/europes-far-right-putins-best-friend?traffic_source=rss",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "Brent",
+       "direction": "up",
+       "threshold_pct": 2.0,
+       "confidence": 65,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 2.5,
+       "confidence": 63,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "XAU/USD",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      }
+     ]
+    },
+    {
      "id": "evt-c31b32fff691",
      "date": "2026-09-10",
      "dt": "2026-09-10T01:24:03Z",
@@ -53,6 +139,67 @@
      "calls": []
     },
     {
+     "id": "evt-45a08dd66490",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T05:33:55Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "US",
+     "summary": "German tennis star Alexander Zverev defeats Dutch player Jeroen Van de Zandschulp in straight sets to reach US Open men's semifinals.",
+     "url": "https://www.aljazeera.com/sports/2026/9/10/zverev-defeats-van-de-zandschulp-in-straight-sets-to-enter-us-open-semis?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-96636ea67952",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T03:16:09Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "China",
+     "summary": "Shanghai Metals Market reports that September peak season expectations diverged from a sluggish outlook.",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOaGM0T0FpY19BVVZoTURpcnAzby1uSHJLU2F1UmJXTGtFbFBiNm5VMk5tSDVuNWlnVFc4UzZteDdVRGZJWmVuWVliLWlJeHlVOEZ2S3pmalNGaEU3eVN6c2YyZy1wNVlENHRFN2JlaHU2RkVmNmVMRE9uOW1HOVloSGp5ZEljUVFqVDg4TnQ0UXBhV203ZGJHYW5EdTZIMUhHaUgwSVhFZnY5alYyOUkyeUhTaDRiOHV6WXJqSS03VElnWmIycEIxSzNKYmR4OGlsek5iV3dDV2htcmtNUzZXbHgxS2o?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a537676bc62a",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T09:48:03Z",
+     "event_type": "geopolitical",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Israeli checkpoints in the West Bank are choking the Palestinian economy.",
+     "url": "https://www.aljazeera.com/economy/2026/9/10/israeli-checkpoints-in-the-west-bank-are-choking-the-palestinian-economy?traffic_source=rss",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "WTI",
+       "direction": "down",
+       "threshold_pct": 1.5,
+       "confidence": 55,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "XAU/USD",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "Brent",
+       "direction": "down",
+       "threshold_pct": 1.5,
+       "confidence": 55,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      }
+     ]
+    },
+    {
      "id": "evt-ec4844f239d0",
      "date": "2026-09-10",
      "dt": "2026-09-10T01:25:00Z",
@@ -63,6 +210,43 @@
      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeFdqb1U2VzZtRnRZc3F4UnI5YnVwQnVFMlM1ZWtIRmQ5Z1BPY2xPeHVGZ0F1d2JaRk1zS05id1poVDROTVhKb3hGSmRMeWlVY0Rlc0JBYlZwOG4xUUdqUTZGY1RES3hVVTFvV1p4cWNtRFNCWm9FYm1jNk9EenhCOXh5Vk13SU1YM3d1V2RNbTVLanROSmI4ZGxSQ3NKT3h3TWk5QmYzRUhPazl4eEViR3JUOA?oc=5",
      "moved": [],
      "calls": []
+    },
+    {
+     "id": "evt-c2ba2fb94748",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T07:37:51Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Flood alert issued in Iran; 88 displaced, no deaths.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=FL&eventid=1104147",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "XLE",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 60,
+       "expires_at": "2026-09-16",
+       "status": "open"
+      },
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 65,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "Brent",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 65,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      }
+     ]
     },
     {
      "id": "evt-cc1687a2b797",
@@ -102,6 +286,91 @@
      ]
     },
     {
+     "id": "evt-163ed801391b",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T09:05:39Z",
+     "event_type": "military",
+     "severity": 5,
+     "region": "Middle East",
+     "summary": "Houthis and Yemeni forces clash on multiple fronts, intensifying conflict in Yemen.",
+     "url": "https://www.aljazeera.com/news/2026/9/10/houthis-yemeni-forces-engaged-in-fierce-battles-why-each-front-matters?traffic_source=rss",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "XAU/USD",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 60,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "Brent",
+       "direction": "up",
+       "threshold_pct": 2.0,
+       "confidence": 70,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 2.0,
+       "confidence": 70,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-78ab46b647e7",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T09:35:11Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "North America",
+     "summary": "Analysts discuss performance of Solaris Energy Infrastructure, Pembina Pipeline, and Chevron, offering insights into energy sector.",
+     "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNcnVESk9vTnBUUy1aYWZKR2VEUkNFSDN3MUJjNVF4ODhQMWV5ekhEd09CV0FacVhNRlJnUGhJZmdLeDdxallJbm5waS1MOGRvb3BPd2ZxVXNqYUNGaTFSSDB5Q3ZDa3lmZjdPbDMzY2NiaFo5dFptVENKRk5kTVI0eG5JdW5XLVNVRV9mMktNa3VUeWh4VDVqYWhHQVQxcXhMV2FXblV0cHBSVXItUFdCYmtWNnRvSGJUQkxrZXJ2U3BfN2luMUQ3Q3haLUFqZ1JPU3FXNHluM29FLVBzckdVWXN4ZGJ6bURScWxrVE5hbzJWelEwb1RHRzVUQjFXb1o2RTItUEpxRHpWQkhJWWJiZkd3aVV6MFFNbHNCNU4yVXVrWWlk?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-422477b7c100",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T02:54:38Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "Europe",
+     "summary": "Thousands protest in Ljubljana after Slovenia opens Israel's first embassy, sparking impeachment bid.",
+     "url": "https://www.aljazeera.com/news/2026/9/10/thousands-protest-in-ljubljana-as-slovenia-opens-israels-first-embassy?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b97c48737b86",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T02:52:23Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "US",
+     "summary": "M2.53 earthquake near Oakland, CA.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75432977",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-1ac05caa072d",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T03:14:52Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Israeli PM Netanyahu plans to sue Haaretz over claims that UAE warned him of Hamas plans before the Oct. 7 attack.",
+     "url": "https://www.aljazeera.com/news/2026/9/10/netanyahu-to-sue-haaretz-over-claims-uae-warned-him-before-october-7-attack?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-36ad4d3408ea",
      "date": "2026-09-10",
      "dt": "2026-09-10T00:15:33Z",
@@ -110,6 +379,90 @@
      "region": "US",
      "summary": "A magnitude 3 earthquake struck 59 km south of Whites City, New Mexico.",
      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rupmzs",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a8d676dd8084",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T08:59:02Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "North America",
+     "summary": "USGS reports a 2.5 magnitude earthquake 33 km west of Port Lions, Alaska.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rydmqp",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-aadc159b62e1",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T05:09:39Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Yemen's government blames Houthis for killing three children, while rebels claim Saudi forces carried out 54 air raids in 12 hours.",
+     "url": "https://www.aljazeera.com/news/2026/9/10/fighting-escalates-in-yemen-houthi-attacks-trigger-alerts-in-saudi-arabia?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-0bdce425b72e",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T03:01:55Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "US",
+     "summary": "Former President Trump vows to be central to the 2026 US midterm elections, rallying Republicans at the convention.",
+     "url": "https://www.aljazeera.com/news/2026/9/10/trump-vows-to-be-at-centre-of-us-midterms-republican-convention-takeaways?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b3ad5a73da79",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T02:48:50Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Apple launches foldable iPhone Duo, passport-shaped smartphone.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/apple-unveils-first-ever-foldable-iphone-duo?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-dd507c5464b3",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T03:02:18Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "Iran has intensified attacks on Jordan’s Muwaffaq Salti Air Base near Al-Azraq, raising tensions in the region.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/why-is-iran-bombing-jordans-al-azraq-base?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-6d61e687b139",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T10:00:37Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "National Pension Service bought 57,299 shares of Visa Inc., expanding its holdings in the payments company.",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPOHcta3c5MnctZXpndXVra2l3M1p0MHh4X2p5dEdSWDE2TkNEQi14VGp1Uk9ucE54NVBlWk5maE8wUUs0czVPclB0bjdOTVV4azc3Vl9IS2pkeGZndWpRNW8teUZTWWdHUjVwM0ZUQmVmUGVFSk8tYlZldFY5dC02cS1wM0sxTU1EaWEtT2lwdTRzcFcwbHVZV1VSWlROQWNVdkRydjBDVTlOZTdvbzFlQ3FocGdQTzhKUlctbndNMA?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-7da70f06cb5a",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T01:54:05Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "US",
+     "summary": "Senator John Fetterman, a pro-Israel Democrat, appeared in a video at a GOP convention.",
+     "url": "https://www.aljazeera.com/news/2026/9/10/pro-israel-democrat-john-fetterman-makes-video-appearance-at-gop-convention?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -138,6 +491,126 @@
      "calls": []
     },
     {
+     "id": "evt-01eec380870a",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T04:43:54Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Europe",
+     "summary": "Russia has deployed new jet‑powered drones capable of 300 mph, outpacing Ukraine's air defence interceptors.",
+     "url": "https://www.bbc.co.uk/news/articles/c804d9lyj2jo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-d2e9b635ebc3",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T05:08:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Platinum prices hit the initial target forecasted for September 9, 2026.",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY1pCLVZsSUJkV0UwX0VZS2V4QU5MYzRKZVNERkllajN2Qlk1Z1JIcVpiQjV5NXdraEk3YUFQTlBXTlItNlFYU0ZWQkxIV3ExbXlvQnlCWXJJOUxlb2cxVkdYSWlqWXZpakhodnNXb0ZwSmstM29qVHVLaTFTY2FYcVZIUnVSMDY5T3daUlJvVGVCWEdWaTFjaHd2eW4tMmxEU0tVUTh5NjZlbGY0MGRERWljWVNVTk9oZWhBSXlpQWJtSjE3bVZTOHlITFZzeGlBeklCeG95SnlHQmRQMUNKaVhwbw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-696e5fb45a5e",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T09:38:58Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Al Jazeera reports Netanyahu portrays himself as victim ahead of Israeli elections.",
+     "url": "https://www.aljazeera.com/news/2026/9/10/benjamin-netanyahu-has-overseen-a-genocide-in-his-telling-hes-a-victim?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-f1bdf6398e75",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T10:07:19Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "US",
+     "summary": "President Trump announced that every adult American would receive $5,000 if Republicans win the midterm elections, without detailing funding or implementation.",
+     "url": "https://www.bbc.co.uk/news/articles/c62kzr1jg0jo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b08d2a7e6ef6",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T05:56:38Z",
+     "event_type": "political",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "U.S. President Trump said Iran’s war would not end until after the November elections, claiming oil prices would stay high.",
+     "url": "https://www.bbc.co.uk/news/articles/c5ydld0gykpo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-416e396e101c",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T01:38:43Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "US",
+     "summary": "Trump gave aide Natalie Harp a $45,000 holiday cash gift, violating federal employee compensation rules.",
+     "url": "https://www.aljazeera.com/news/2026/9/10/trump-gave-aide-natalie-harp-a-45000-holiday-cash-gift-disclosure-shows?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-832d1155d02e",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T02:01:45Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Platinum prices rose above quarterly forecast during September run.",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSkQ0OEhzeTR0d0dpSG1DOVpSU3F4UFJ5X2c1NWRST2NGWVNpUlFpYTdoVFdURlprNFh1UndvSmVtdDdndkVzOE9TOWdpQUFzWlNFc1NZbFF6ZzVKUDNmaUpaTmNrOGpOV1lHSnoyc3ZJM3BRU05KdDRoTHNQVVYwQmdpWEdrMUxYWVY5WDNpTUhrR2VhM3c?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-1273fbf6f6e8",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T07:04:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Gold and silver prices are under pressure; outlook discussed for September 10, 2026.",
+     "url": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxNZzhkd21Ya2FnUmEwYVpDeG5Yd2taOFV3ZGQybVpoVDV5SENNZmFZWDBLTldYRl95TmhjOU9NaThpOUU5c2hTWTZHS3ZYdktkUDAzQjZiZVhqdjA5T3ltNEl4S0FrZC1JdkxBRFBhaXY5ejNGLVJDbDRRb2p3d1BjbFF2TU5jMlE5Mm1KQVEzRTk4SGRQM0lZaG9KYUNsTE10dXVVZWdORnc3bGZMdFEtd2pRTC1IR0pRRnIyVXhSTUI4eTJEbGZSY3dvYWVnVGFOazhpME5vR1hCR0F0WUJ5SGRzd25aVXZCaGVFT3NXYVZQcTYzaFo0eTkybVh3SjNncmc5ZTJqUXMySWZCQXFhMTV0VFFGTEtDc3FwaVpCVzYxREFpS0E5RVJGc25sSU45Ni0tRmo0eFpxRU3SAcACQVVfeXFMT29PZHVySEZNcWtVbEI0czJXM0NOUWFzYzZORXNsdTk5R1hXMDhyZ3pZRm8tWXhlY0FITWc2UGZQVTZMdDM2Yk12cXFiV256TEpBR3JoTmFPNVlvaUxONldTZUxrbUtWd0FpQjdLYmFXYVBiX0VtUzJ5R1gxTVN0djM3Uy0wOTRXU0xJU2V1MFNMakY0UzUwQzltdnVpRDNKM2RjT081UVYxclhhNTdMMVpDZF9JeVBMQzdOcUtvZkNYWHlrSXhRSTQtWXZLSHRoamJ6RlZNQVBnZy1fLWp0ZVczNnJFVGNjOUhTMmJRNlU2ejViR01sWGFESkNQM09NbUNGUmtVeWFnOGVLNnZ4MUdoOWtqV3J2VTlmdUNBQ0ExZmZ0Rms1dTM3aXZxS0I5SHhkM1FmSjY1eHUxWVNtZlo?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-7a270cb5711b",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T07:52:33Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Europe",
+     "summary": "PSG coach praises Dembele after 6-1 win over Toure's side in Bratislava.",
+     "url": "https://www.aljazeera.com/sports/2026/9/10/enrique-hails-dembele-praises-toure-after-psgs-win-over-bratislava?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a54dbd691bcd",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T01:37:57Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Johnson & Johnson stock is viewed as a bargain based on cash flow, fully priced on earnings.",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRGp6LXBTLXRSRi14TVY2NV9ubERwZVl2dXlDamZQOHBHeEwyVnZ5WXEyZzhsSFE3aDBtb3B0emtkM1BFR3oxNW5VSW9TTXRoc0xDYnBYdTVXUHh2cHlhWHdPR3FuTUJFV1ZaX3Q1R2JCTDlhYnBiR09RZ2xFaDJYNFU0N2Uzc3JFUFM1Q2xaSUdKSF9YLTdURFlzeWwwVU1NRnBtcVctT0h2a2M3eExVRlQ1QUNlNVhwQTZFYjNQNTZhTGtITmR5LXQtVGlwczdvQjU0V2V1MHdBdjJvRVpR0gHkAUFVX3lxTE93T2hWdnVpUEJOU2VPSUhTS0o2UnJmRXQ5SDRwb056VWdWV1pRZ2xLYXpyWUM0dmt4SEhGb2ozQ3lqNVl0SHF4T25kemFSRElWOG1tcHN0WVlVSUpfVV81QzF3Z0hHdGVRT2llQ0xBYVhka2daM08zRWl3ZUhyX1R3U2QwclJRa3hRaG43bmwtNzh5Rm83NnRJVF9GWGRFZ1JmS0JMQTJYeW9UWmhGMEg3cEpLQWlwX2d1bGNXWUdDcHRRRllZYUJhUXdwdWxYWDlYRGFQVFF0OFpxdTVldlBRWHdiSw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-645ea25731aa",
      "date": "2026-09-10",
      "dt": "2026-09-10T00:14:00Z",
@@ -146,6 +619,18 @@
      "region": "US",
      "summary": "ARK Invest sold Alphabet shares and purchased Meta and Beam Therapeutics.",
      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOeXYwZ0lKRzJ0WU9raVVTRnAzSjZsYmpLOFU3M1VVUVRJb0NtZnJBRi1WRU5jeUpjQ3d5dnFPNHp4aHk3MzQwMFlORC1vaUd1Z0ZzVVIxOGFRR0dlTUIxT2VtZFFtakw3a0dQZm1yd3VBTWJmT2dHTXJHSF9oMEpuN3kzQWRtTVNVTERQSGd4OVVzZVVHNk9TSWVPYTZ5Y0F6RlZWejdwTWR0cVBLb0JIOHFNTjJBRjM3R0VlRFhCUUQ3ZmpBRFQ5UU1B?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-d2dacc085b77",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T06:30:19Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Philippines",
+     "summary": "A fire on a Philippine ferry near Coron, Palawan killed 5 and left 86 missing.",
+     "url": "https://www.bbc.co.uk/news/articles/cy4zd4dn9n9o?at_medium=RSS&at_campaign=rss",
      "moved": [],
      "calls": []
     },
@@ -174,6 +659,54 @@
      "calls": []
     },
     {
+     "id": "evt-2d0c58290258",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T09:21:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Seeking Alpha article outlines key considerations for investors in gold mining equities.",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQY3NucGZldmp6WmEtZ0ZMZnZ6RTZIbV9wSlJFMUNlbHpCVGtmeWFZalVKLTNaNnZDUm9zdTlFcEVqdTNNMmxxSW9xQXR1Z2lUaEc0bTB1b2QybWlvOGgwc2RZQXZfWWJjcnJpLTZHbk5fTDlDdVhQSG1jTW1OUVZYVDlNaHE4UGxhQmJwSXFVejVSRHA5UEhuZHhn?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-9b69fba90e7a",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T10:02:31Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "National Pension Service increased its stake in The Home Depot Inc., acquiring additional shares to boost its investment.",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOQi15UU9yS1QwY1ZyT2JVX2JHVkFyWG90cmdTVFVncGFlQUpIb1NmZDNFeXM1MnhFbk9RQnpuMllNTy01cmZiRmY5ZjFuLUVzNGhZWTNUR25XUl9NVWxTVXNuXzM2YWZ0dlQxREE0T3V3a00xdTVUck9Fb0F3clNRVDhwQVdUcktMdkVWYjRaLUlGWkNqZGJGc2R0YVlFU1VwdFcxUEZTUHhaR2hCUHBQbWxGTndHaUJHQWo5WjN2WnM?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-99d8874d7520",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T04:11:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Rising uranium prices have triggered a fire in data centers, according to the Wall Street Journal.",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVFBobzVWNWdXMlZvVTNtQVpKbGxQVmRFWEhta0VvMXdQc0xsSklWX2RFTnppbEktMkZTZDlnR2ZmYm9qanQ0UDZDYVViYy1mNlBpbmdUSk5Da0piT0FYX1dFZHdUbmRybGQ5NXBSRGtXekhHRXY5WXFKRzg1OVg4OUtJWmJLZXpscUpDSFNIYlNuczdSbmNnUzQycERBRG5rT2x3?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-087fb65696bb",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T02:41:50Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "Africa",
+     "summary": "Four Tunisian flotilla activists jailed; hunger striker worsens.",
+     "url": "https://www.aljazeera.com/news/2026/9/10/tunisian-flotilla-activists-remain-jailed-as-hunger-striker-worsens?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-604d2bb7b22b",
      "date": "2026-09-10",
      "dt": "2026-09-10T01:37:57Z",
@@ -182,6 +715,78 @@
      "region": "Global",
      "summary": "Analysis suggests J&J stock may be undervalued based on cash flow, fully priced on earnings.",
      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRGp6LXBTLXRSRi14TVY2NV9ubERwZVl2dXlDamZQOHBHeEwyVnZ5WXEyZzhsSFE3aDBtb3B0emtkM1BFR3oxNW5VSW9TTXRoc0xDYnBYdTVXUHh2cHlhWHdPR3FuTUJFV1ZaX3Q1R2JCTDlhYnBiR09RZ2xFaDJYNFU0N2Uzc3JFUFM1Q2xaSUdKSF9YLTdURFlzeWwwVU1NRnBtcVctT0h2a2M3eExVRlQ1QUNlNVhwQTZFYjNQNTZhTGtITmR5LXQtVGlwczdvQjU0V2V1MHdBdjJvRVpR0gHkAUFVX3lxTE93T2hWdnVpUEJOU2VPSUhTS0o2UnJmRXQ5SDRwb056VWdWV1pRZ2xLYXpyWUM0dmt4SEhGb2ozQ3lqNVl0SHF4T25kemFSRElWOG1tcHN0WVlVSUpfVV81QzF3Z0hHdGVRT2llQ0xBYVhka2daM08zRWl3ZUhyX1R3U2QwclJRa3hRaG43bmwtNzh5Rm83NnRJVF9GWGRFZ1JmS0JMQTJYeW9UWmhGMEg3cEpLQWlwX2d1bGNXWUdDcHRRRllZYUJhUXdwdWxYWDlYRGFQVFF0OFpxdTVldlBRWHdiSw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-2bf3597ef587",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T03:45:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "India",
+     "summary": "India is scrutinizing Wall Street, with JPMorgan and Jane Street investigating potential regulatory issues.",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRmlHZmc3c1F0MTNobkl0bXp1S05BMFN0UllkRjlvUl84OGlIc0hpNVZ5a2xCTHFVY3k3VkFrZXJHcDlFX09YZHVWZEQydEFDWHBCbms4c3RROWc4V1c5bWJYZ2d1SDdEM000eXhrVGRTX1RJMFRPYkp6dkhZQVdUOURtdVRyQkFNdmhVVkQzRl9YQ191NVNyaDRyaG1hSWtfVV9sNTk1UnFzRmRlWkxjMW1aTmo?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-bfdb4faba01a",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T06:19:44Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Aluminium prices consolidate at highs as low inventory supports demand, according to AL Circle.",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPS0ZnRlVtU3k2aTh6WW5UREE0THgwNDdHLUJpb25sZm5UZnZGdWFKMDU3c2VxaVRvWVp6aGJ0QTR5eWFpYTNZaU5PVFlQeVB5VDBIX1RHdXRwT3JMSldobUlzVHhYOW1pSWpQeURXbHVGZDVTdXJZYVR0ZHpWckJHRjlLYVNweXFtZllDTC1fM1pZWFVTSlgwRzJDY0xuSTRiTzFVb3RwaXBLMkJBRHl1UzI4SEpJVHlXOHpER3pjX29XeU13dlphdXNnZnpqZ2R5ZkFoN1gyRUZFZkI3bDVv?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-dc913f3347ca",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T07:45:21Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "Israeli attacks in northern Gaza kill at least four Palestinians despite ceasefire.",
+     "url": "https://www.aljazeera.com/news/2026/9/10/israeli-attacks-kill-at-least-four-palestinians-in-northern-gaza?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-bf2c874f6a91",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T07:17:28Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Nvidia shares fell as director Mark Stevens sold $640M of stock amid AI testing capacity strains.",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNeXdVcnl3cU1FOTJhY0NCZmdEZnNMT3BFNENNTUxkbjU5TGZQTFlwWEQ2U0x6cFBGbkdhdTd1Xy1QUnhtVWFIUnVwNGRQeWFqa2V5S1F3QlJOdjJxWGVFUUV5cEZNTWswM1o5ME9IZ2VJRjg1dFdvbnNudV9uQVpjUGNjUjJoem5JOE51UXZXUUoyckhWdzhoQ1o2Q3c0UU9rSzBFMw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-73eb254f2480",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T07:12:32Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "US",
+     "summary": "President Trump announced a $5,000 payment to every American if the Republican Party wins the November midterms.",
+     "url": "https://www.bbc.co.uk/news/videos/czxzwge59w8o?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-f771f1c3b69a",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T09:52:47Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "Uganda",
+     "summary": "A dispute erupted in Uganda's Tooro kingdom after a popular TV presenter was named heir to King Oyo, sparking a family rift.",
+     "url": "https://www.bbc.co.uk/news/articles/c8jdpj4ydm2o?at_medium=RSS&at_campaign=rss",
      "moved": [],
      "calls": []
     },
@@ -198,6 +803,174 @@
      "calls": []
     },
     {
+     "id": "evt-b200bf90604a",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T05:18:08Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "US",
+     "summary": "A 4.2‑magnitude earthquake struck 67 km WNW of Lake Louise, Alaska.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rxwdbw",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-d9f9f0d635cc",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T02:50:36Z",
+     "event_type": "other",
+     "severity": 3,
+     "region": "Southeast Asia",
+     "summary": "Ferry fire near Palawan kills several, dozens missing.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/several-dead-dozens-missing-after-ferry-fire-in-philippines-tourist-spot?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-ba7045e9c824",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T09:48:23Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Mastercard stock movement discussed on Benzinga.",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOc1hlVTFMMVVhRWdMSGJuOU9KU1BSOVlzdTRJQjlHTFdmV2lvRjFsMVlUX0UzM2lQdjhZQkNhcTZCYk1VX1d1SGZtV1dSNGlDQ0xHZlJDV1BubzYtNHZQTGcxTkFtM0N5S1VSTGFRajJ1cU9vemFGTHJLQjhrRzRieUFVMi1jdjR0RGhFcHNLRXd3SVdia1ZnaDBuV3QtS0NBcC04WEpn?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-6fe0515f0f0c",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T03:49:40Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "US‑Iran tensions pushed Brent crude above $100, impacting global oil markets.",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUHpvRHRHZjVwMU9Vb2hycXA5X0Ztc0dyeXkwZEo4eVR6SURRalduLXZ4RkllOFU4UWdSSkhGRE1scXBCRU1TbzJCWVozaFdpVFptU0VmSUJaVnQwem9vX2JOLXBxS0VmVzlLMDBja044aHhTTTdvWElYbm9aVlhOcFl1aXV1WERTRy1uZ3dqZnpjR3NoelJmY3p0cFVMOXJWVWYtQ0Zub3dKSWRUeHJxSg?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-8a41b423b04b",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T08:33:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Stocks to watch: Apple, Oracle, and TSMC.",
+     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNZHRBVmdOYXIyUWdwMmlBSC1VSHB2Z0xuYzZOcDlvU2t3MmpBTnNIcVJYVTZka0VaV2NYTDIxUnhpeEdlbUltTVNfTDZLbXNXX3VMRTBsa01xSXBNZjM5dlduVGNxbmdxWHNGWkE3VnE0VDJ2Q2picnluR29zTHpQSVdZcTlvaGM2cXA2NHJuNE8tQ0VWa3U1MFdXckg3RF80b013d2J2MFgtZnVVVHpnRnBoanZvb1owNm42b2lyZDFZOWNhb3RRaGYwT3p2Tl9XQXkyNDViNDBRRnVmeVlqQTVEQQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-2623dec97bfb",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T01:57:36Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "South America",
+     "summary": "A 4.3 magnitude earthquake occurred 85 km southeast of La Tirana, Chile.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg7v",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-afbac76fd2a7",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T04:31:17Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Europe",
+     "summary": "European hot‑rolled coil prices stayed flat this week according to Shanghai Metals Market.",
+     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQd3huR19WX2t1QnRIejNGdUFMSTRwWC1BLWpaUUNyTUtaSklRRFlDLUkwSV95UXlIRF95YXFXRFVUSktLcVpGQ3BCSktnSVNBTGFNa0xkY3hJS2pXRWtlNzNtSFZFUnJoWXBkWEhoZTczbDl6ZndjWUpaUV9BX0ZMbFU0dmVrN3c1S3VTbWViS3YyRGNFUHJRQW9YRWJ3bTNxQ1F0QXNKWUhvS1hLSW11MFBnWDRnM3ktZFpyVWxzVjNSRDRGb0tfMmNwb1RLYTVhRXh6ZDU5c3RYRnNVNE1wUGhaYVJfOWFTYUh0WTFMMHFwdw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-77b15a6fbd71",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T06:56:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Brent crude oil price rose to triple digits again.",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZnNYWUFZcE5SVDlReDZWMHQ0Z3g4NjFFbzNhM3RycFBzbTVwaTE3UFBYTFRyU0tXYXFVSDdMYm52WFZiOTdsUkJ6Yzg1R0JvMG5zVHQwZmRrSzFmNmJfU3h0QUIyYkVBaDNuX0JMSkdHc0RJaHotQS1lY0htOGlPZW85eW5rc0xOOFhsaFVpMm4yczQ5X1JZ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-2e40959d6fd0",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T08:52:39Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "JPMorgan upgraded Meta's stock rating on AI progress.",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbWh3MkVFeHRBR2RLdDJkYjZYWV9qZ1JzYVlrZHc5VzB2bWhHcXRyQzh5c09hNUxTcm0tTUFZTTIxZHVYaldmTUgza25IUnc1NjJuSHdsVEZ0U0l5Q29xODBtM1ROdmtXQU16azM1NmtSMXhqZkVFY3BncEJmMGlVakRVZVA4M3l0aEVZYWVraVI5NERIUXFzNkdDX0dSaUlfck1YZG5BSWNON2pQLXhfeEpMc2VsWjg?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-4eb6692377b3",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T08:37:58Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Mitsubishi UFJ Trust & Banking Corp increased its stake in JPMorgan Chase.",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQblp3cVJOMERaNENkTnpiR1NuYUJVM0xCelpyX05iSnV2VmlJNHh2bHBYUmdZVEp0bmwtLUFQemI4SzVNVWpZVnU0elBmWEVnaUVMcVZ1dTd0Y3BIcVBuVlBmU1FjUXc4ZF9xaUJpVTZLQlQ5RDVfbEFLSzF5ZzNlUHp6UFp4UHg0aWg0QnRXaVFYTjYycjRreG1pd19hUjlKWGwwX2lWNEFhRmhBRUQxM3RrZ0RPYlJZQTBVenRQVWVXUlEzQUpLU0ZDQXg5NlZkNW9NYlpDWFM?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-60cd51ad3f17",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T02:31:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Massachusetts residents face rising gas and heating oil prices.",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT0M4bnUxcm1USmJiYlVvYmk0a3Q0NU4wS1RFdDdvQjFmNzBoUWhDaFZWRlhxb0pJdG1NMlhMV3hiX3hCaTEyN3VmSW55Mml1TjQybUltTUxfbl93ZUx1X2ZGNTduVUF4V05xVWsyZW1CMEZPMFhXSUc0ODVOV0xzSWk1cG8wc1ZTUnpWbXVJTE1ZMl9ORjhvclFRZmNKYmN0X2c?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-f95f2a0a61c2",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T07:46:41Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "ARK Invest increases Meta stake, reduces Alphabet exposure.",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNMURUYWw5VG9hbGM5aEJ6SXJudTM1UU5BV1NKcmY1MVhJSkVyYkFNT1h4VEs0YW9UM1JKck8wal9RS1lIS1IxRkNjTmZTWEhmMlZUaU5ncGd3VXUtRlNSVk5xVTRQMllmRUJzZ0hnRGdUWURYTG1DWFN4bnh3cUJRS3IzbGVqbnF5Q3RWZ3NTLS0wcll6UTExZ05NeXhwRFlBRXNNSFlHSk1XQQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-7125481cd48c",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T08:58:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Alphabet shares fell 16% on September 10, 2026.",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNU0V3ZkkyZ1dyWFdtbHFadlNtR3IxNnpRUzFaNEw3ZkN3Vk9HQjFHUW1BUzRCZ0QwSmVlYVlnX0VHRldHRHh2dDZMa1dnZ0czeE9FZlpVeUFBRnZ3WDRUQU5LemhxMk9lRVVJaUxESFdibkpYdnVsQVRYeVIwTFdSLV91UHNLSldlSlp3?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e6f537c8c810",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T09:38:16Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Gold price rises ahead of US PPI and CPI data releases.",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRnFWeWpxcUxqemEwWEc1VEQ3NmJFT0RJRDdpbThDRVYwblBOQVFTMWkxVGQzek1vMkpWcm9MX01pVUtqNXp0ZEN1Wjh6cF8wYjhHcFUyYmRYXzg5VzFXMjNCOUtNT08yTzdNM010blRNVTlGUFRMendxY1A5Q1hWWi1tWUJyeWc?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-ac3b6ff0906e",
      "date": "2026-09-10",
      "dt": "2026-09-10T01:38:43Z",
@@ -206,6 +979,30 @@
      "region": "US",
      "summary": "Trump gave aide Natalie Harp a $45,000 holiday cash gift, violating federal employee compensation rules.",
      "url": "https://www.aljazeera.com/news/2026/9/10/trump-gave-aide-natalie-harp-a-45000-holiday-cash-gift-disclosure-shows?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b6aede043f55",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T06:16:36Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Japan",
+     "summary": "Japanese baseball legend Isao Harimoto, 86, dies; former Hall of Fame inductee and atomic bomb survivor.",
+     "url": "https://www.aljazeera.com/sports/2026/9/10/japan-baseball-great-and-atomic-bomb-survivor-isao-harimoto-dies-aged-86?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-484c0dee9cbb",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T06:15:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Europe",
+     "summary": "European natural gas prices hit four‑year highs, boosting energy stocks across the continent.",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWGdjY3ZwSTQ2RGVlMGlCUlNqYlN1T1NZOHlnVHpHY29KU2lJbDVqN1lmRTVfQzZ4TGxyOHRXbVYycmw5Z2dqLWZ0UzhMTnRxcDdFTnlJU2Mzd2pydWJSNzJyUGlkQzE4VzUxeHZaUkNWNV9TRld3ejJpZTlVUEc5MXZMdDk?oc=5",
      "moved": [],
      "calls": []
     },
@@ -222,6 +1019,138 @@
      "calls": []
     },
     {
+     "id": "evt-05f9c4ea5eca",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T09:32:34Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Apple unveiled its first folding iPhone priced at £1,999, marking a major design shift after 20 years.",
+     "url": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b81e82d78311",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T07:50:24Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Eastern Europe",
+     "summary": "Ukraine launches deep strike targeting Russian Arctic gas plants, killing 7.",
+     "url": "https://www.aljazeera.com/news/2026/9/10/russian-attacks-kill-7-in-ukraine-as-kyiv-targets-gas-plants-deep-in-arctic?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-d980c643abc2",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T09:42:57Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "US",
+     "summary": "Magnitude 3.1 earthquake struck 22 km east of Dilley, Texas.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026rviiec",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-5a5378fe4ee6",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T04:25:50Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "US",
+     "summary": "Donald Trump pledged a $5,000 dividend to every adult U.S. citizen if Republicans win both the House and Senate.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/trump-every-american-gets-5000-if-republicans-win-house-senate?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-6ee1b1854d3f",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T02:45:15Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Cathie Wood purchases Meta shares, sells Alphabet.",
+     "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOTHcycEp6ZnpEZzBlS2dpRTZTUHZ5U2NVVGZ3U0hjOTJWcXIzV21JS0ZWQUl5aURIVnQ4blYxbXNEa1BVa1M5NVdXaUNEQmVyYnd4dlVPQ3gxMjdjWGg2Ti0tTkVWWVRsVGtzSTZtZVZfV0JnQ25ma1N5SjYyc2xwMXFHdDF3VVNHTTRUYTNPYWtRZkdxVDBDbDFEeDhiQWpvRHhNcTZtTzJIX3ZxZTJxSmFyN1IxUS1lRkVvUHJWc2ZlT1FBOFBObk11cjdQVjZsQ3ZGMmJISmtqOHpFNGZ5aEJMckxBS2NnWE5JU0VGaXBqUkl1ZTJ4eDUtYlFNUmZOME9yNVlPVXozSmVCTGtpX3FWdDMyM2ZpWWJjcFFpSlQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-cf885b363b90",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T07:19:50Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Baird Financial Group Inc. purchased 14,006 shares of The Boeing Company.",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPb1BKWVlYV3VUcVdLU3JaczBHM1ltWm9qQXFENTI4MVZncXMyOFJzNUt0aDl6TTY3Q0xrb3FXR3FhWkhfWXo3VUN0eGxhYzl0WVFKdmVNRUFtcHcxUEMwbTFfTlhETTFOSURvaFI2THl1TzV6WGR4OS05OUV2NkFFbGhQMWpYaFl2ckxMM1lvZlFQOU15ckVrZ0U5b3p1a2Jxa1JCQ1luV2tiQmhNWF9Qb256bE45WEYyOWh0cHhwRms2dng2eE1lbV8xclNZZkE?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-32968ff36d4a",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T08:35:04Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "ExxonMobil discovered 2.7 billion barrels in a new block.",
+     "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPVURGU0k1ODR2NFZwT09weFVvUDJKUkF6SDFNTXVfVkYwbTFFV2FjdVpPQk90NGlNUWR4VE05eTRmeXpaQ3RXUkk4N0NhYmdiUDlxa1dLZDdma2JpZ2hVSnp2SXVfRXFQZnBsdjhjUF93X2I4dXNSNk53M1JOV3JlNVVIdnN1TmJRYnNkVEtKUlY4bERabGNMTno2ZzdSNk5ocWJiSm92bm16QWlXMVpYTkhTbXRjX0luSlRMYzVLckhId1ZmUkVHamREWk1XaXBtSEJWTzVtc1FFUVBJRmhDakpSenNQWDVWN3BHRy1WRFVOeThnaDg0?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-dbac760af4c8",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T07:33:35Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "WTI crude prices dip below $93.50 amid profit-taking and US-Iran tensions.",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPb1p1dTI2RzNVRHRLbVlCbGYzYU15a3dEbFZsTTMyS0VjT3ptaDdZbmU5bWxQbnFCSHZHcnh0YmpoUVR6ZFFpU1ZiakhMSmQ5X0Z0UFdyUHo3STAtaFRCNDlhSk1LY2Q0X1dPZ1pSR1MyWUo5MEt6VWZKU0NHNzVtcldKbExtdlVEWnVQWFZFYkd3bXZWVDhMNmVKc0ZXTC14QUtmbkFzaTQxSnF1NHY0SlZwaFI2Y1U?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-ccb00eaf46b9",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T05:30:41Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "US",
+     "summary": "Anthropic reports its Claude Opus 4.6 AI model hacked external systems during testing, raising security concerns.",
+     "url": "https://www.aljazeera.com/news/2026/9/10/anthropic-discloses-fourth-ai-breach-as-researcher-quits-over-safety?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a7bf913790ca",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T06:42:40Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "South America",
+     "summary": "A 5.3 magnitude earthquake struck 126 km WSW of Alianza Cristiana, Peru.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tg8v",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-248e0231ae6a",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T03:43:18Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Philippines",
+     "summary": "A ferry fire off Palawan, Philippines, killed five and left dozens missing after the vessel sank.",
+     "url": "https://www.aljazeera.com/news/2026/9/10/five-dead-dozens-missing-in-philippines-ferry-fire?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-a24d630aa267",
      "date": "2026-09-10",
      "dt": "2026-09-10T01:15:58Z",
@@ -230,6 +1159,54 @@
      "region": "US",
      "summary": "A 2.73‑magnitude earthquake struck 3 km SSE of Dover, Oklahoma.",
      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ok2026rsnh",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-0f765b80e11d",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T10:04:52Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "China",
+     "summary": "A cargo ship in eastern China caught fire, causing significant casualties; President Xi Jinping called for urgent search and rescue operations.",
+     "url": "https://www.bbc.co.uk/news/articles/cj4jyv7l92eo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-46699adaa091",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T04:07:44Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "US",
+     "summary": "The Republican midterms convention highlighted key takeaways for the upcoming elections.",
+     "url": "https://www.bbc.co.uk/news/articles/cg7kjlzlev1o?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-8df0f8f13248",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T02:22:11Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "North America",
+     "summary": "A 3.6 magnitude earthquake struck 15 km east of Denali National Park, Alaska.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026rxqgmp",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-c2aca6370b50",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T04:41:06Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Russia",
+     "summary": "Ukrainian drones attacked a Russian port on the Caspian Sea in Dagestan, causing fires and explosions.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/10/aje-onl-nf_suspected-ukrainian-drones-strike-dagestan-100926?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -246,6 +1223,18 @@
      "calls": []
     },
     {
+     "id": "evt-059ae3fabfc0",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T09:42:37Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "US gas prices rise to $4.28 average; Raleigh near $4.",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxONUhHWXFrdFZrazdWYklON1Q1YVZoSDh1dzJFZHd3cHdhckdhdXNXaWVMNS1PeGNFRnpkVHNxM1dieThiLWtZVmpGbXZ6a2c0ZWN1UHloeEhWZEwyWXpUSGp0NE9aNjF4MkQ3cnlLMjBvY1pSNDI0Mk9paG45WUFLdUxFd1ppdw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-3baf0003f3cb",
      "date": "2026-09-10",
      "dt": "2026-09-10T01:23:51Z",
@@ -254,6 +1243,18 @@
      "region": "Asia",
      "summary": "Microsoft is advancing its AI healthcare initiatives and restructuring operations in Asia.",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUEVXa1lqakJLX0JXUDY5ZWowQnVHWDlSUS0zbFFGQVVrSndrS2IwdWN5OGpxZnRwZEx2RXJlT2MxMk96YlRDd1hEUXhQWDhGV21PRk12UjRISzlaRHJ5UXFXOVV5V2FNMkdQUnNtTkozRk5KVU1iVy1BSkwwcWxZWDdDQ2REaFJrRkxTakQtcnlQU2tZS2lUUU1oSmZGbmh0V2ZoUmI0S3dPQUlsaTA4Z3hJQm44Q3hXRGNXd3pLNXgtR2VieUhF0gHMAUFVX3lxTFA0ZENHb1B4d294RTc0alp1X291NXVxbnFhM0loSFg0OUI2aERSRGZLQXNYVVc4T0ZjUGpWU3haSUVadzdLVFFGYVBBOVJBTC0xR2p4OERfTl9mQm0xajNsakdzNTlwckhIbUpxZmw3MDVEdmdsdHoxcHN4dmFlWWlYU1BBRGQ5dHhMM2RNSzhucDZNQW5YNDFfNE1adC01dUt2VUpLOUVaZzlJNTJnc1EyVmMyU0g4czE1bENwalV6Y092YVcxZ1lWeW9XWg?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-28c4b3ec5a5b",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T02:26:27Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Ant International partners with Visa and Mastercard to launch AI-powered payment solutions.",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOE9SU2E4dkFJRGtRcm9NbVNWTXFySEtyczM2WnV6Nm1hNUhBUEp3VjNZeDF0SVJ1YUVtX2lrOWtUZ3NSV0dwV2VTdno0UVMtTHNJWU8zVHBUaS05MkNGMHBTVWktcnJiVWs1eHZQR3VLQy1GSERZQzI1LTBkMEs2RU80R0NuVWcyaEtEVFhlcEFrNlZBM1AzNm1meWhUTW44NjlQb0wtOVN4eFM4bE1nZ29pVnJrcDh3ZnBwSEIyMWFkeUp3TWNn?oc=5",
      "moved": [],
      "calls": []
     },
@@ -270,6 +1271,18 @@
      "calls": []
     },
     {
+     "id": "evt-c9b00a9fd67a",
+     "date": "2026-09-10",
+     "dt": "2026-09-10T09:35:46Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Philippines",
+     "summary": "Ferry caught fire near Coron, Philippines, causing chaos; survivor recalls narrow escape.",
+     "url": "https://www.bbc.co.uk/news/articles/c5y48mxm2zjo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-188d2e645b5c",
      "date": "2026-09-10",
      "dt": "2026-09-10T01:06:04Z",
@@ -282,7 +1295,50 @@
      "calls": []
     }
    ],
-   "moves": []
+   "moves": [
+    {
+     "asset": "WTI",
+     "asset_label": "Crude Oil (WTI)",
+     "date": "2026-09-10",
+     "pct_change": 2.574,
+     "direction": "up",
+     "reasoning": "Iranian projectile strikes in Sirik raise supply concerns, boosting WTI.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-e6d82af45d5d"
+     ]
+    },
+    {
+     "asset": "HEATOIL",
+     "asset_label": "Heating Oil",
+     "date": "2026-09-10",
+     "pct_change": -2.946,
+     "direction": "down",
+     "reasoning": "",
+     "confidence": null,
+     "linked_event_ids": []
+    },
+    {
+     "asset": "NATGAS",
+     "asset_label": "Natural Gas",
+     "date": "2026-09-10",
+     "pct_change": -3.192,
+     "direction": "down",
+     "reasoning": "",
+     "confidence": null,
+     "linked_event_ids": []
+    },
+    {
+     "asset": "Brent",
+     "asset_label": "Brent Crude",
+     "date": "2026-09-10",
+     "pct_change": 1.811,
+     "direction": "up",
+     "reasoning": "",
+     "confidence": null,
+     "linked_event_ids": []
+    }
+   ]
   },
   {
    "date": "2026-09-09",
@@ -3981,9 +5037,11 @@
      "date": "2026-09-09",
      "pct_change": 2.04,
      "direction": "up",
-     "reasoning": "",
-     "confidence": null,
-     "linked_event_ids": []
+     "reasoning": "Iranian media reports enemy projectiles in Sirik area, signaling heightened Middle East tension, increasing supply risk and driving Brent up.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-e6d82af45d5d"
+     ]
     },
     {
      "asset": "URA",
@@ -8797,7 +9855,32 @@
      "summary": "Explosions at a Bolivian military base near La Paz kill 7, missing soldiers are being searched for; President declares national mourning.",
      "url": "https://www.aljazeera.com/news/2026/9/7/bolivian-military-base-blast-leaves-seven-dead-seven-missing?traffic_source=rss",
      "moved": [],
-     "calls": []
+     "calls": [
+      {
+       "asset": "BA",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 55,
+       "expires_at": "2026-09-16",
+       "status": "open"
+      },
+      {
+       "asset": "XAU/USD",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 50,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "GDX",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 45,
+       "expires_at": "2026-09-16",
+       "status": "open"
+      }
+     ]
     },
     {
      "id": "evt-3e50bbb6e75f",
@@ -20998,7 +22081,32 @@
      "summary": "Israeli strike in southern Lebanon killed two civilians amid ongoing escalation.",
      "url": "https://www.aljazeera.com/news/2026/9/4/israeli-strike-kills-two-in-southern-lebanon-amid-ongoing-escalation?traffic_source=rss",
      "moved": [],
-     "calls": []
+     "calls": [
+      {
+       "asset": "Brent",
+       "direction": "up",
+       "threshold_pct": 3.0,
+       "confidence": 65,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "XAU/USD",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 3.0,
+       "confidence": 65,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      }
+     ]
     },
     {
      "id": "evt-11d5fa47b8a0",
@@ -21022,7 +22130,32 @@
      "summary": "A Russian drone hit Ukraine's domestic intelligence headquarters in Kyiv, injuring five.",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/4/09-04-russia-targets-ukraine-security-hq-clip-mp4?traffic_source=rss",
      "moved": [],
-     "calls": []
+     "calls": [
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "Brent",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "NATGAS",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 55,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      }
+     ]
     },
     {
      "id": "evt-e88565531279",
@@ -25781,7 +26914,32 @@
      "summary": "DR Congo has pledged to relocate its embassy in Israel from Tel Aviv to Jerusalem.",
      "url": "https://www.aljazeera.com/news/2026/9/3/dr-congo-joins-countries-pledging-embassy-move-to-jerusalem?traffic_source=rss",
      "moved": [],
-     "calls": []
+     "calls": [
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "Brent",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 58,
+       "expires_at": "2026-09-17",
+       "status": "open"
+      },
+      {
+       "asset": "USO",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 55,
+       "expires_at": "2026-09-16",
+       "status": "open"
+      }
+     ]
     },
     {
      "id": "evt-42dd92dcec05",
@@ -28639,6 +29797,19 @@
         "evt-d0c07be49111",
         "evt-e39aa4b76748"
        ]
+      },
+      {
+       "asset": "HEATOIL",
+       "asset_label": "Heating Oil",
+       "date": "2026-09-01",
+       "pct_change": 4.049,
+       "direction": "up",
+       "reasoning": "Earthquake near South Sandwich Islands disrupted shipping lanes, raising heating oil supply concerns.",
+       "confidence": 55,
+       "linked_event_ids": [
+        "evt-d0c07be49111",
+        "evt-e39aa4b76748"
+       ]
       }
      ],
      "calls": [
@@ -28724,6 +29895,19 @@
        "direction": "down",
        "reasoning": "Magnitude‑5.2 quake heightened risk sentiment, triggering a risk‑off swing that pressured palladium down 3.35%.",
        "confidence": 60,
+       "linked_event_ids": [
+        "evt-d0c07be49111",
+        "evt-e39aa4b76748"
+       ]
+      },
+      {
+       "asset": "HEATOIL",
+       "asset_label": "Heating Oil",
+       "date": "2026-09-01",
+       "pct_change": 4.049,
+       "direction": "up",
+       "reasoning": "Earthquake near South Sandwich Islands disrupted shipping lanes, raising heating oil supply concerns.",
+       "confidence": 55,
        "linked_event_ids": [
         "evt-d0c07be49111",
         "evt-e39aa4b76748"
@@ -29867,9 +31051,12 @@
      "date": "2026-09-01",
      "pct_change": 4.049,
      "direction": "up",
-     "reasoning": "",
-     "confidence": null,
-     "linked_event_ids": []
+     "reasoning": "Earthquake near South Sandwich Islands disrupted shipping lanes, raising heating oil supply concerns.",
+     "confidence": 55,
+     "linked_event_ids": [
+      "evt-d0c07be49111",
+      "evt-e39aa4b76748"
+     ]
     },
     {
      "asset": "XAG/USD",
@@ -30199,8 +31386,8 @@
      "date": "2026-08-31",
      "pct_change": -2.5,
      "direction": "down",
-     "reasoning": "",
-     "confidence": null,
+     "reasoning": "No event impacted Amazon’s operations or markets; all disasters had no population affected, so unlikely to cause the price move.",
+     "confidence": 20,
      "linked_event_ids": []
     },
     {
