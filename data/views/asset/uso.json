@@ -2270,6 +2270,39 @@
  ],
  "causal_notes": [
   {
+   "id": "note-dbf37021a4e3",
+   "kind": "causal_notes",
+   "asset": "USO",
+   "move_id": "move-USO-2026-09-01",
+   "move_date": "2026-09-01",
+   "event_ids": [
+    "evt-d0c07be49111",
+    "evt-e39aa4b76748"
+   ],
+   "reasoning": "Earthquake near South Sandwich Islands could disrupt offshore oil operations or shipping lanes, tightening supply and pushing USO up.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-11T10:13:46Z",
+   "events": [
+    {
+     "id": "evt-d0c07be49111",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "South Atlantic",
+     "summary": "Magnitude 5.2 earthquake struck the South Sandwich Islands region.",
+     "date": "2026-09-02"
+    },
+    {
+     "id": "evt-e39aa4b76748",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "South Sandwich Islands",
+     "summary": "USGS reports a magnitude 5.2 earthquake near the South Sandwich Islands.",
+     "date": "2026-09-02"
+    }
+   ]
+  },
+  {
    "id": "note-d9c476207a2c",
    "kind": "causal_notes",
    "asset": "USO",
@@ -2280,6 +2313,19 @@
    "confidence": 30,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-07T16:52:40Z",
+   "events": []
+  },
+  {
+   "id": "note-873cd645000f",
+   "kind": "causal_notes",
+   "asset": "USO",
+   "move_id": "move-USO-2026-08-06",
+   "move_date": "2026-08-06",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely due to broader oil market volatility or liquidity changes.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-11T10:13:16Z",
    "events": []
   },
   {
@@ -2580,6 +2626,32 @@
    "threshold_pct": 2.0,
    "confidence": 55,
    "reasoning": "Higher oil price lifts crude‑ETF demand; recent +9.8% suggests continued short‑term rally.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-1517b26d1063",
+   "event_id": "evt-fd17836c604a",
+   "created_at": "2026-09-10",
+   "expires_at": "2026-09-17",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Oil ETF tracks WTI; price drop reduces USO value.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-5f755a785228",
+   "event_id": "evt-2a53b5d8942a",
+   "created_at": "2026-09-10",
+   "expires_at": "2026-09-17",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "USO tracks crude oil futures; higher Brent drives the ETF higher.",
    "status": "open",
    "outcome": null
   },
