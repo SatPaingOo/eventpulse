@@ -35,7 +35,7 @@
     <label class="flex flex-col gap-1 text-[11px] text-slate-500"><span>To</span>
       <input type="date" id="f-to" class="bg-white/5 border border-white/10 rounded-lg px-2.5 py-1.5 text-xs text-slate-200"></label>
     <label class="flex flex-col gap-1 text-[11px] text-slate-500"><span>Asset moved</span>
-      <select id="f-asset" class="bg-white/5 border border-white/10 rounded-lg px-2.5 py-1.5 text-xs text-slate-200"><option value="">All</option><option value="AAPL">AAPL</option><option value="ALUM">ALUM</option><option value="AMZN">AMZN</option><option value="BA">BA</option><option value="Brent">Brent</option><option value="CAT">CAT</option><option value="COPPER">COPPER</option><option value="CVX">CVX</option><option value="GASOLINE">GASOLINE</option><option value="GDX">GDX</option><option value="GOOGL">GOOGL</option><option value="HD">HD</option><option value="HEATOIL">HEATOIL</option><option value="JNJ">JNJ</option><option value="JPM">JPM</option><option value="LIT">LIT</option><option value="MA">MA</option><option value="META">META</option><option value="MSFT">MSFT</option><option value="NATGAS">NATGAS</option><option value="NFLX">NFLX</option><option value="NVDA">NVDA</option><option value="PAL">PAL</option><option value="PLAT">PLAT</option><option value="REMX">REMX</option><option value="SIL">SIL</option><option value="SLX">SLX</option><option value="TSLA">TSLA</option><option value="UNH">UNH</option><option value="URA">URA</option><option value="USO">USO</option><option value="V">V</option><option value="WMT">WMT</option><option value="WTI">WTI</option><option value="XAG/USD">XAG/USD</option><option value="XAU/USD">XAU/USD</option><option value="XLE">XLE</option><option value="XOM">XOM</option></select></label>
+      <select id="f-asset" class="bg-white/5 border border-white/10 rounded-lg px-2.5 py-1.5 text-xs text-slate-200"><option value="">All</option><option value="AAPL">AAPL</option><option value="ALUM">ALUM</option><option value="AMZN">AMZN</option><option value="BA">BA</option><option value="Brent">Brent</option><option value="CAT">CAT</option><option value="COPPER">COPPER</option><option value="CVX">CVX</option><option value="GASOLINE">GASOLINE</option><option value="GDX">GDX</option><option value="GOOGL">GOOGL</option><option value="HD">HD</option><option value="HEATOIL">HEATOIL</option><option value="JNJ">JNJ</option><option value="JPM">JPM</option><option value="LIT">LIT</option><option value="MA">MA</option><option value="META">META</option><option value="MSFT">MSFT</option><option value="NATGAS">NATGAS</option><option value="NFLX">NFLX</option><option value="NVDA">NVDA</option><option value="PAL">PAL</option><option value="PLAT">PLAT</option><option value="REMX">REMX</option><option value="SIL">SIL</option><option value="SLX">SLX</option><option value="TSLA">TSLA</option><option value="UNH">UNH</option><option value="URA">URA</option><option value="USO">USO</option><option value="V">V</option><option value="WMT">WMT</option><option value="WTI">WTI</option><option value="XAG/USD">XAG/USD</option><option value="XAU/USD">XAU/USD</option><option value="XOM">XOM</option></select></label>
     <label class="flex flex-col gap-1 text-[11px] text-slate-500"><span>Event type</span>
       <select id="f-type" class="bg-white/5 border border-white/10 rounded-lg px-2.5 py-1.5 text-xs text-slate-200"><option value="">All</option><option value="economic">economic</option><option value="geopolitical">geopolitical</option><option value="military">military</option><option value="natural_disaster">natural_disaster</option><option value="other">other</option><option value="political">political</option></select></label>
     <div class="ml-auto flex items-center gap-3 self-end pb-1">
@@ -45,10 +45,134 @@
   </div>
   <div class="space-y-4" id="daily-list">
     
+        <section class="surface p-4 sm:p-5 daily-day" data-date="2026-09-12">
+          <div class="flex items-center gap-3 mb-3">
+            <h2 class="font-display text-lg font-bold text-white tnum">2026-09-12</h2>
+            <span class="text-[11px] text-slate-500">16 event(s) · 0 move(s)</span>
+          </div>
+          <div class="grid lg:grid-cols-2 gap-4">
+            <div><h3 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">What happened</h3>
+              <ul>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">South America</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T00:18:59Z" data-dt>2026-09-12T00:18:59Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Magnitude 4.5 earthquake 9 km WNW of Quicacha, Peru.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 1</span>
+                <span class="text-[11px] text-slate-500">North America</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T00:28:57Z" data-dt>2026-09-12T00:28:57Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Magnitude 2.7 earthquake struck 22 km SSW of Sunrise, Alaska.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T00:22:12Z" data-dt>2026-09-12T00:22:12Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Magnitude 2.6 earthquake 19 km NNW of Jal, New Mexico.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">North America</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T00:47:00Z" data-dt>2026-09-12T00:47:00Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">J.P. Morgan revised its price target for Lithium Americas stock.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T00:31:16Z" data-dt>2026-09-12T00:31:16Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Arrest made in Mississippi over death of Tasia Fortune.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T01:02:34Z" data-dt>2026-09-12T01:02:34Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Meta stock sees significant news that could affect investors.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Europe</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T00:36:44Z" data-dt>2026-09-12T00:36:44Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Passenger train derailed in France, 44 injured, 1 critical.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">South Sandwich Islands</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T00:55:08Z" data-dt>2026-09-12T00:55:08Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 5.1 magnitude earthquake struck the South Sandwich Islands region.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T00:49:39Z" data-dt>2026-09-12T00:49:39Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Caterpillar reports record power sales and introduces new dozer model, signaling growth.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">Global</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T00:34:00Z" data-dt>2026-09-12T00:34:00Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Microsoft stock remains flat in 2026.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Canada</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T00:52:00Z" data-dt>2026-09-12T00:52:00Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Canadians brace for impact of Trump&#x27;s trade war, with new tariffs testing consumer willingness.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">Global</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T01:00:00Z" data-dt>2026-09-12T01:00:00Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Analysis questions whether gold price will fall below $4,000 amid renewed economic risks.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="geopolitical" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>geopolitical</span><span class='chip bg-rose-500/15 text-rose-300'>sev 4</span>
+                <span class="text-[11px] text-slate-500">Middle East</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T00:00:00Z" data-dt>2026-09-12T00:00:00Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Houthis seize Yemen&#x27;s Red Sea coast; Saudi Arabia shuts oil pipeline after drone attack.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T00:04:23Z" data-dt>2026-09-12T00:04:23Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Former US diplomat Zalmay Khalilzad discusses US handling of Afghanistan and Iraq wars.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">North America</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T00:47:00Z" data-dt>2026-09-12T00:47:00Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">J.P. Morgan revised its price target for Lithium Americas stock.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="geopolitical" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>geopolitical</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Middle East</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-12T01:22:41Z" data-dt>2026-09-12T01:22:41Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">CIA releases dozens of declassified documents on bin Laden and al-Qaeda, revealing strategic insights.</div>
+              
+            </li></ul></div>
+            <div><h3 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">How markets moved</h3>
+              <ul><li class="text-slate-500 text-sm py-1">no significant moves recorded</li></ul></div>
+          </div>
+        </section>
         <section class="surface p-4 sm:p-5 daily-day" data-date="2026-09-11">
           <div class="flex items-center gap-3 mb-3">
             <h2 class="font-display text-lg font-bold text-white tnum">2026-09-11</h2>
-            <span class="text-[11px] text-slate-500">245 event(s) · 15 move(s)</span>
+            <span class="text-[11px] text-slate-500">309 event(s) · 15 move(s)</span>
           </div>
           <div class="grid lg:grid-cols-2 gap-4">
             <div><h3 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">What happened</h3>
@@ -58,6 +182,20 @@
                 <span class="text-[11px] text-slate-500">US</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T11:18:00Z" data-dt>2026-09-11T11:18:00Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Stocks of Oracle, Adobe, Copart, RH, Chevron and others influenced today&#x27;s market movements.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:21:48Z" data-dt>2026-09-11T19:21:48Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">US leaders marked the 25th anniversary of the 9/11 attacks, with remarks linking to the current US-Iran conflict.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:32:28Z" data-dt>2026-09-11T21:32:28Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Johnson &amp; Johnson announced two new moves to reshape its device business.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
@@ -95,6 +233,13 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Taiwan vice president Hsiao visits Europe for a democracy conference.</div>
               <div class="text-[11px] text-slate-500 mt-0.5">calls opened: <span class='tnum'>XAG/USD <span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></span> <span class='tnum'>WTI <span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></span> <span class='tnum'>XAU/USD <span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></span></div>
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:32:28Z" data-dt>2026-09-11T21:32:28Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Three U.S. energy stocks are directly exposed to oil price movements.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="military" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>military</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
                 <span class="text-[11px] text-slate-500">Middle East</span>
@@ -107,6 +252,20 @@
                 <span class="text-[11px] text-slate-500">Asia</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T18:53:32Z" data-dt>2026-09-11T18:53:32Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 4.4‑magnitude earthquake occurred 132 km east of Noda, Japan.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">Global</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:35:31Z" data-dt>2026-09-11T19:35:31Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Chevron forecasts that $100 oil price can persist longer than expected.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">UK</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:37:17Z" data-dt>2026-09-11T19:37:17Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Manchester City manager Enzo Maresca says focus is on team ahead of derby.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="military" data-assets="">
@@ -135,7 +294,7 @@
                 <span class="text-[11px] text-slate-500">Global</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:35:31Z" data-dt>2026-09-11T19:35:31Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Chevron forecasts that $100 oil prices could persist longer than expected.</div>
-              
+              <div class="text-[11px] text-slate-500 mt-0.5">calls opened: <span class='tnum'>Brent <span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></span> <span class='tnum'>XLE <span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></span> <span class='tnum'>WTI <span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></span></div>
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
@@ -143,6 +302,13 @@
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T10:19:23Z" data-dt>2026-09-11T10:19:23Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">A magnitude 2.63 earthquake occurred 6 km west of Edwards Air Force Base, California.</div>
               
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:23:51Z" data-dt>2026-09-11T21:23:51Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">US commemorates 25th anniversary of 9/11 attacks with tributes.</div>
+              <div class="text-[11px] text-slate-500 mt-0.5">calls opened: <span class='tnum'>AAPL <span class='chip bg-rose-400/10 text-rose-300'>▼ down</span></span> <span class='tnum'>XAU/USD <span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></span> <span class='tnum'>XAG/USD <span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></span></div>
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
@@ -312,6 +478,13 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">UK House of Commons rejected assisted dying bill 286-270.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">Africa</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T23:01:15Z" data-dt>2026-09-11T23:01:15Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Forest fire started in Zambia on 10/09/2026, continuing until 11/09/2026.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">US</span>
@@ -359,6 +532,13 @@
                 <span class="text-[11px] text-slate-500">Middle East</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T15:34:30Z" data-dt>2026-09-11T15:34:30Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Iran-backed Houthi forces reportedly seize control of most of Yemen&#x27;s western Red Sea coast.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:25:16Z" data-dt>2026-09-11T19:25:16Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">JPMorgan downgrades Chewy stock.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
@@ -422,6 +602,34 @@
                 <span class="text-[11px] text-slate-500">US</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T07:55:00Z" data-dt>2026-09-11T07:55:00Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Home heating oil prices rise this winter, according to Audacy.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:26:18Z" data-dt>2026-09-11T21:26:18Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Boeing shares rise 2.8%.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Global</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T22:58:26Z" data-dt>2026-09-11T22:58:26Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">TSM posted record sales; Nvidia highlighted as both beneficiary and payer.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Europe</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:59:41Z" data-dt>2026-09-11T19:59:41Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">UK Foreign Office documents reveal warnings about Israeli violence and rights abuses since 2002.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">Haiti</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T20:56:41Z" data-dt>2026-09-11T20:56:41Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 4.1 magnitude earthquake struck 38 km west-northwest of Anse à Galets, Haiti.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
@@ -515,6 +723,13 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Johnbosco Ezenwa discusses factors driving higher crude oil prices.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="military" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>military</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Middle East</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:01:07Z" data-dt>2026-09-11T19:01:07Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Houthi forces advance in Yemen, consolidating power and exposing government weakness, threatening Red Sea shipping.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 1</span>
                 <span class="text-[11px] text-slate-500">Europe</span>
@@ -522,11 +737,25 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Kylian Mbappé, a Real Madrid player, criticized AI dictator memes for lacking political awareness.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">Africa</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T23:00:55Z" data-dt>2026-09-11T23:00:55Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Forest fire started in Botswana on 10/09/2026, continuing until 11/09/2026.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">Australia</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T05:15:00Z" data-dt>2026-09-11T05:15:00Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Shares of Brazilian Rare Earths fell amid weakness in Australian mining stocks.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="geopolitical" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>geopolitical</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Sudan</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T23:08:05Z" data-dt>2026-09-11T23:08:05Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">The UN extended a partial arms embargo on Sudan for one month.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
@@ -593,10 +822,24 @@
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 1</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:14:24Z" data-dt>2026-09-11T19:14:24Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 3.3 magnitude earthquake occurred 263 km southeast of Perryville, Alaska.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">South America</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T03:01:07Z" data-dt>2026-09-11T03:01:07Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Forest fire reported in Brazil from 08/09/2026 to 10/09/2026.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:09:26Z" data-dt>2026-09-11T19:09:26Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Deere &amp; Co. and Caterpillar Inc. stocks rose over 40% in 2026.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
@@ -662,6 +905,13 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Wall Street analysts argue that Visa&#x27;s Agentic Commerce strategy is not a major threat, challenging prevailing market concerns.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="geopolitical" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>geopolitical</span><span class='chip bg-rose-500/15 text-rose-300'>sev 4</span>
+                <span class="text-[11px] text-slate-500">Middle East</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T22:51:56Z" data-dt>2026-09-11T22:51:56Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Saudi Arabia shut down a crucial pipeline after a drone attack originating from Iraq.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
                 <span class="text-[11px] text-slate-500">US</span>
@@ -681,6 +931,13 @@
                 <span class="text-[11px] text-slate-500">Global</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T15:16:00Z" data-dt>2026-09-11T15:16:00Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Global stock indices fell for the week as oil prices and bond yields rose, but ended on a high note.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:01:23Z" data-dt>2026-09-11T21:01:23Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">NYC Mayor Zohran Mamdani commemorated the 25th anniversary of 9/11, calling it the darkest day in the city&#x27;s history.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
@@ -735,6 +992,13 @@
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T22:24:00Z" data-dt>2026-09-11T22:24:00Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Heating oil prices climbed as homeowners in Florida weigh when to refill tanks.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T12:21:35Z" data-dt>2026-09-11T12:21:35Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Chewy shares fell 1.9% after JPMorgan downgraded the stock to neutral.</div>
               
@@ -751,6 +1015,13 @@
                 <span class="text-[11px] text-slate-500">United Kingdom</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T14:22:19Z" data-dt>2026-09-11T14:22:19Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Hull City midfielder Sorba Thomas was unharmed after a car overturned in a crash near the club&#x27;s training ground in the United Kingdom.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:11:32Z" data-dt>2026-09-11T21:11:32Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Visa shares jump 13.06% after forming an AI alliance, trading below its global fund value.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
@@ -772,6 +1043,13 @@
                 <span class="text-[11px] text-slate-500">US</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T07:06:53Z" data-dt>2026-09-11T07:06:53Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 2.5‑magnitude earthquake occurred 59 km S of Kaktovik, Alaska.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">Africa</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T23:01:06Z" data-dt>2026-09-11T23:01:06Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Forest fire started in Angola on 10/09/2026, continuing until 11/09/2026.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
@@ -814,6 +1092,13 @@
                 <span class="text-[11px] text-slate-500">Spain</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T11:56:59Z" data-dt>2026-09-11T11:56:59Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Flood in Spain from 9-11 Sep 2026 caused 1 death, no displacement.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">Global</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:12:16Z" data-dt>2026-09-11T19:12:16Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Natural gas futures gained momentum as shoulder season drives demand.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
@@ -886,6 +1171,13 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Nigeria has suspended official visits to South Africa amid anti-foreigner protests that have caused mass exodus.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Indonesia</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:23:55Z" data-dt>2026-09-11T21:23:55Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 6.6 magnitude earthquake struck 115 km NNE of Teluknaga, Indonesia.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
                 <span class="text-[11px] text-slate-500">US</span>
@@ -914,6 +1206,13 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Nvidia CEO Jensen Huang dismissed concerns about circular financing, stating the company would pursue such strategies if beneficial.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Africa</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:23:41Z" data-dt>2026-09-11T19:23:41Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Fire at a DRC school kills 28 students and destroys homes.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">US</span>
@@ -935,6 +1234,13 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Manufacturers Life Insurance Company sells shares of The Home Depot, a routine corporate transaction.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:30:30Z" data-dt>2026-09-11T21:30:30Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Home Depot stock has yielded significant returns over the past 15 years.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
                 <span class="text-[11px] text-slate-500">Switzerland</span>
@@ -949,11 +1255,25 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 4.9 magnitude earthquake struck 69 km north of Isangel, Vanuatu.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 1</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T23:27:37Z" data-dt>2026-09-11T23:27:37Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Magnitude 2.9 earthquake occurred 5 km north of Stroud, Oklahoma, reported by USGS.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
                 <span class="text-[11px] text-slate-500">UK</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T15:22:21Z" data-dt>2026-09-11T15:22:21Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">UK banks have debanked several pro-Palestine voices, including a Palestine Action prisoner’s mother, George Galloway, and a leftist news outlet.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:12:14Z" data-dt>2026-09-11T21:12:14Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">JPMorgan adjusts outlook for Hims &amp; Hers stock due to key risk.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
@@ -975,6 +1295,13 @@
                 <span class="text-[11px] text-slate-500">US</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T10:02:25Z" data-dt>2026-09-11T10:02:25Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Manufacturers Life Insurance Company sells shares of Procter &amp; Gamble, a routine corporate transaction.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T20:31:15Z" data-dt>2026-09-11T20:31:15Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Kalshi announced a futures contract that will allow trading on Tesla and Apple share prices.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
@@ -1033,6 +1360,13 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Integrated Wealth Concepts LLC increased its Boeing stock position.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">South Asia</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T20:00:55Z" data-dt>2026-09-11T20:00:55Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Man arrested after throwing chilli powder at bank employees in Nagpur, India.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">Global</span>
@@ -1047,6 +1381,27 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Meta stock volatility forecast amid rising data center costs.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="military" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>military</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Middle East</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:30:47Z" data-dt>2026-09-11T21:30:47Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Saudi Arabia reports drone attack from Iraq on East-West pipeline.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="military" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>military</span><span class='chip bg-rose-500/15 text-rose-300'>sev 4</span>
+                <span class="text-[11px] text-slate-500">Middle East</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:53:34Z" data-dt>2026-09-11T21:53:34Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Israeli demolitions in Masafer Yatta target homes and schools, threatening education.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 1</span>
+                <span class="text-[11px] text-slate-500">North America</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:48:41Z" data-dt>2026-09-11T19:48:41Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 2.5 magnitude earthquake struck 104 km SSE of Old Harbor, Alaska.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">US</span>
@@ -1059,6 +1414,13 @@
                 <span class="text-[11px] text-slate-500">Global</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T08:15:25Z" data-dt>2026-09-11T08:15:25Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Anthropic blocks a potential AI-driven attempt to create biological weapons, citing safety concerns.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:45:05Z" data-dt>2026-09-11T21:45:05Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Boeing stock outperformed the market upswing, showing stronger performance.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
@@ -1096,6 +1458,13 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 2.6 magnitude earthquake struck 174 km west of Adak, Alaska, reported by USGS.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T22:42:36Z" data-dt>2026-09-11T22:42:36Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Home Depot stock fell 25% over the past year, analysts say the shares are stretched.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">US</span>
@@ -1124,11 +1493,25 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Procter &amp; Gamble stock is in focus today due to recent developments.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T23:47:30Z" data-dt>2026-09-11T23:47:30Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">JNJ stock rises after Apollo&#x27;s $20B orthopedics talks.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="military" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>military</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
                 <span class="text-[11px] text-slate-500">Europe</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T13:09:44Z" data-dt>2026-09-11T13:09:44Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Russian forces struck fuel stations in Kyiv, killing two civilians, marking a second day of attacks on civilian infrastructure.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:09:00Z" data-dt>2026-09-11T19:09:00Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Shares of Deere and Caterpillar climbed over 40% YTD, prompting investors to consider taking profits or holding.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
@@ -1150,6 +1533,13 @@
                 <span class="text-[11px] text-slate-500">Middle East</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T14:47:12Z" data-dt>2026-09-11T14:47:12Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Houthis have seized Yemen&#x27;s coast and may close the Red Sea, raising regional security concerns.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Europe</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T20:34:29Z" data-dt>2026-09-11T20:34:29Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Denise Cosco, who testified against her father and the Ndrangheta clan in Italy, was tragically killed.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
@@ -1199,6 +1589,13 @@
                 <span class="text-[11px] text-slate-500">US</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T10:02:25Z" data-dt>2026-09-11T10:02:25Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Manufacturers Life Insurance Company sells shares of Procter &amp; Gamble.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:46:16Z" data-dt>2026-09-11T19:46:16Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Chewy shares drop after JPMorgan downgrades the company amid macro headwinds.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
@@ -1272,6 +1669,13 @@
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T22:30:00Z" data-dt>2026-09-11T22:30:00Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Florida gas prices rose 18 cents to $4.16 per gallon, President Trump said relief would not come before the midterms.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">US</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:46:16Z" data-dt>2026-09-11T19:46:16Z</span></div>
@@ -1292,6 +1696,20 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Tesla shares fall after SpaceX IPO and earnings miss, according to Bloomberg.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Global</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T20:54:17Z" data-dt>2026-09-11T20:54:17Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Lithium inventory fluctuations confuse the industry and depress prices.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T23:51:05Z" data-dt>2026-09-11T23:51:05Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">JNJ stock rises after Apollo&#x27;s $20B orthopedics talks.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">Ireland</span>
@@ -1304,6 +1722,13 @@
                 <span class="text-[11px] text-slate-500">Global</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T09:54:51Z" data-dt>2026-09-11T09:54:51Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Six Nigerians accused of romance scams will be extradited to the US to face wire fraud and money‑laundering charges, per South African police.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 1</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:17:05Z" data-dt>2026-09-11T19:17:05Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 3.2 magnitude earthquake struck 107 km southeast of Akhiok, Alaska.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="military" data-assets="">
@@ -1327,6 +1752,13 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Magnitude 4.4 earthquake 283 km WNW of Longyearbyen, Svalbard and Jan Mayen on 09/09/2026.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">South Asia</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T20:07:15Z" data-dt>2026-09-11T20:07:15Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Pakistani cricketer Razaullah hit six runs in his debut, helping Pakistan lead England by 130 runs.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">US</span>
@@ -1342,10 +1774,24 @@
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T23:16:59Z" data-dt>2026-09-11T23:16:59Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Visa Inc. shares were purchased by Talon Private Wealth LLC.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
                 <span class="text-[11px] text-slate-500">US</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T16:19:00Z" data-dt>2026-09-11T16:19:00Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">US diesel prices exceed $6 per gallon, increasing transportation costs for goods.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T20:35:23Z" data-dt>2026-09-11T20:35:23Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Home Depot SVP of Finance sold 675 shares of the company’s stock.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
@@ -1360,6 +1806,13 @@
                 <span class="text-[11px] text-slate-500">Global</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T00:57:00Z" data-dt>2026-09-11T00:57:00Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Amazon and Alphabet compete in robotaxi race, aiming to generate revenue in cities worldwide.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">Botswana</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T23:01:44Z" data-dt>2026-09-11T23:01:44Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A forest fire started in Botswana on 09/09/2026 and continued until 11/09/2026.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
@@ -1397,6 +1850,13 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Afghan medical students in Pakistan face expulsion threats; a court temporarily suspended the directive but eviction risk remains.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">France</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:25:32Z" data-dt>2026-09-11T21:25:32Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Passenger train derailed on Rouen-Caen route in Normandy, France, injuring at least 44.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="military" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>military</span><span class='chip bg-rose-500/15 text-rose-300'>sev 4</span>
                 <span class="text-[11px] text-slate-500">Middle East</span>
@@ -1413,6 +1873,13 @@
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">South America</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T22:57:51Z" data-dt>2026-09-11T22:57:51Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Brazilian presidential candidate Flavio Bolsonaro faces corruption probe related to Banco Master scandal.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
                 <span class="text-[11px] text-slate-500">Middle East</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T05:25:34Z" data-dt>2026-09-11T05:25:34Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Israeli film NAZA received standing ovation at Biennale, confronting Israel&#x27;s genocide in Gaza.</div>
@@ -1423,6 +1890,13 @@
                 <span class="text-[11px] text-slate-500">US</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T13:00:05Z" data-dt>2026-09-11T13:00:05Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">ExxonMobil remains a trending stock as market analysts discuss factors driving investor interest.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:34:14Z" data-dt>2026-09-11T19:34:14Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Analysis projects potential movement of Alphabet stock over the next year.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
@@ -1451,6 +1925,13 @@
                 <span class="text-[11px] text-slate-500">US</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T14:17:05Z" data-dt>2026-09-11T14:17:05Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Oil ETFs offer new trading avenue amid oil price spike.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">Angola</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T23:01:26Z" data-dt>2026-09-11T23:01:26Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A forest fire started in Angola on 09/09/2026 and continued until 11/09/2026.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="military" data-assets="">
@@ -1495,6 +1976,20 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Houthi spokesman says maritime navigation in the Red Sea is safe, except for Saudi ships.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:28:34Z" data-dt>2026-09-11T21:28:34Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Top seeds Aryna Sabalenka and Elena Rybakina clash in the US Open women&#x27;s singles final.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="other" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>other</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T20:42:05Z" data-dt>2026-09-11T20:42:05Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A US attorney was fined and held in contempt for citing fake witnesses in a murder case, blaming ChatGPT.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
                 <span class="text-[11px] text-slate-500">Global</span>
@@ -1509,6 +2004,13 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Iran’s Revolutionary Guard says it captured a US‑operated surface drone near the Strait of Hormuz.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="military" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>military</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Middle East</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:44:58Z" data-dt>2026-09-11T19:44:58Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Houthi rebels capture strategic coastline in Yemen, potentially escalating Iran-related conflict.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">India</span>
@@ -1516,11 +2018,25 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Gold prices in India were reported on September 11.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T22:42:35Z" data-dt>2026-09-11T22:42:35Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Boeing shares face scrutiny after Afcom expressed interest in the 777 8F freighter.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 1</span>
                 <span class="text-[11px] text-slate-500">Caribbean</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T08:12:14Z" data-dt>2026-09-11T08:12:14Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 3.75 magnitude earthquake struck 113 km north of Culebra, Puerto Rico.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">Southeast Asia</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T21:43:40Z" data-dt>2026-09-11T21:43:40Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 6.6 magnitude earthquake struck Indonesia at depth 358 km, potentially affecting 30,000 people.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
@@ -1615,10 +2131,31 @@
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T20:25:45Z" data-dt>2026-09-11T20:25:45Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">U.S. diesel prices hit a record $6 per gallon, the highest since 2012, affecting fuel costs.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">Global</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T23:20:00Z" data-dt>2026-09-11T23:20:00Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Apple, Microsoft, and Nvidia ranked among the largest companies by market capitalization.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">US</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T14:27:00Z" data-dt>2026-09-11T14:27:00Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Diesel prices exceed $6 per gallon for first time, affecting consumers.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-rose-500/15 text-rose-300'>sev 4</span>
+                <span class="text-[11px] text-slate-500">Asia</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T20:04:02Z" data-dt>2026-09-11T20:04:02Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">BRICS leaders met in New Delhi to discuss strengthening emerging economies and reshaping the global order.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
@@ -1719,11 +2256,32 @@
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Turkish President Erdogan discusses foreign policy, regional conflicts, and 25 years of AK Party rule in an interview.</div>
               
             </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:26:38Z" data-dt>2026-09-11T19:26:38Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Meta stock may swing as data center bill rises.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="military" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>military</span><span class='chip bg-rose-500/15 text-rose-300'>sev 4</span>
+                <span class="text-[11px] text-slate-500">Middle East</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:28:34Z" data-dt>2026-09-11T19:28:34Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Saudi pipeline attacks disrupt energy markets.</div>
+              
+            </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
               <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
                 <span class="text-[11px] text-slate-500">Africa</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T17:16:00Z" data-dt>2026-09-11T17:16:00Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Morocco PM criticized football chief for claiming Morocco will host 2030 World Cup final.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>economic</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T19:13:01Z" data-dt>2026-09-11T19:13:01Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Alphabet Inc. shares surged after a positive earnings report.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
@@ -1752,6 +2310,20 @@
                 <span class="text-[11px] text-slate-500">Hong Kong</span>
                 <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T08:00:28Z" data-dt>2026-09-11T08:00:28Z</span></div>
               <div class="text-sm text-slate-200 mt-0.5 leading-snug">Hong Kong courts imposed harsh jail terms on Tiananmen vigil activists under national security law.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="political" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>political</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
+                <span class="text-[11px] text-slate-500">US</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T20:59:51Z" data-dt>2026-09-11T20:59:51Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">US lawmakers introduce bills to enforce human oversight of AI and prevent rogue systems amid extinction concerns.</div>
+              
+            </li>
+            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
+              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-white/5 text-slate-400'>sev 2</span>
+                <span class="text-[11px] text-slate-500">South America</span>
+                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-09-11T22:32:23Z" data-dt>2026-09-11T22:32:23Z</span></div>
+              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 4.9 magnitude earthquake struck 235 km west of Puerto Chacabuco, Chile.</div>
               
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-type="economic" data-assets="">
@@ -19671,9 +20243,9 @@
               <div class="flex flex-wrap items-center gap-2 text-sm">
                 <a href="asset/hd.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Home Depot</a>
                 <span class="chip down tnum">-2.46%</span>
-                
+                <span class="text-[11px] text-slate-500">conf 10%</span>
               </div>
-              
+              <div class="text-xs text-slate-400 mt-1 leading-snug">None of the listed events directly affect Home Depot’s operations or market perception.</div>
             </li>
             <li class="py-2 border-b border-white/5 last:border-0" data-asset="CAT">
               <div class="flex flex-wrap items-center gap-2 text-sm">
@@ -19762,172 +20334,6 @@
                 
               </div>
               
-            </li></ul></div>
-          </div>
-        </section>
-        <section class="surface p-4 sm:p-5 daily-day" data-date="2026-08-31">
-          <div class="flex items-center gap-3 mb-3">
-            <h2 class="font-display text-lg font-bold text-white tnum">2026-08-31</h2>
-            <span class="text-[11px] text-slate-500">6 event(s) · 14 move(s)</span>
-          </div>
-          <div class="grid lg:grid-cols-2 gap-4">
-            <div><h3 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">What happened</h3>
-              <ul>
-            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
-              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
-                <span class="text-[11px] text-slate-500">Southeast Asia</span>
-                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-08-31T08:18:53Z" data-dt>2026-08-31T08:18:53Z</span></div>
-              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A magnitude 5.5 earthquake struck Indonesia at 10 km depth, affecting about 9,000 people with MMI VI.</div>
-              <div class="text-[11px] text-slate-500 mt-0.5">calls opened: <span class='tnum'>XAU/USD <span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></span> <span class='tnum'>WTI <span class='chip bg-rose-400/10 text-rose-300'>▼ down</span></span></div>
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
-              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
-                <span class="text-[11px] text-slate-500">Indonesia</span>
-                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-08-31T08:18:53Z" data-dt>2026-08-31T08:18:53Z</span></div>
-              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.</div>
-              <div class="text-[11px] text-slate-500 mt-0.5">calls opened: <span class='tnum'>XAU/USD <span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></span> <span class='tnum'>WTI <span class='chip bg-rose-400/10 text-rose-300'>▼ down</span></span></div>
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
-              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
-                <span class="text-[11px] text-slate-500">Southeast Asia</span>
-                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-08-31T08:18:53Z" data-dt>2026-08-31T08:18:53Z</span></div>
-              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 5.5 magnitude earthquake struck Indonesia at 10km depth, affecting about 9,000 people with MMI VI.</div>
-              <div class="text-[11px] text-slate-500 mt-0.5">calls opened: <span class='tnum'>XAU/USD <span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></span> <span class='tnum'>WTI <span class='chip bg-emerald-400/10 text-emerald-300'>▲ up</span></span></div>
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
-              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
-                <span class="text-[11px] text-slate-500">Southeast Asia</span>
-                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-08-31T08:18:53Z" data-dt>2026-08-31T08:18:53Z</span></div>
-              <div class="text-sm text-slate-200 mt-0.5 leading-snug">Magnitude 5.5 earthquake at 10km depth in Indonesia, affecting ~9,000 people at MMI VI.</div>
-              
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
-              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
-                <span class="text-[11px] text-slate-500">Southeast Asia</span>
-                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-08-31T08:18:53Z" data-dt>2026-08-31T08:18:53Z</span></div>
-              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A 5.5 magnitude earthquake struck Indonesia at 10km depth, potentially affecting 9,000 people with MMI VI.</div>
-              
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-type="natural_disaster" data-assets="">
-              <div class="flex flex-wrap items-center gap-1.5"><span class='chip bg-amber-400/10 text-amber-300'>natural_disaster</span><span class='chip bg-amber-500/15 text-amber-300'>sev 3</span>
-                <span class="text-[11px] text-slate-500">Southeast Asia</span>
-                <span class="text-[11px] text-slate-500 ml-auto tnum font-mono" data-utc="2026-08-31T08:18:53Z" data-dt>2026-08-31T08:18:53Z</span></div>
-              <div class="text-sm text-slate-200 mt-0.5 leading-snug">A magnitude 5.5 earthquake struck Indonesia at 10km depth, affecting about 9,000 people at MMI VI.</div>
-              
-            </li></ul></div>
-            <div><h3 class="text-xs font-semibold text-slate-400 uppercase tracking-wider mb-1">How markets moved</h3>
-              <ul>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="NATGAS">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/natgas.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Natural Gas</a>
-                <span class="chip up tnum">+1.63%</span>
-                <span class="text-[11px] text-slate-500">conf 10%</span>
-              </div>
-              <div class="text-xs text-slate-400 mt-1 leading-snug">Event occurs after price move, no causal link.</div>
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="CVX">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/cvx.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Chevron</a>
-                <span class="chip up tnum">+2.12%</span>
-                <span class="text-[11px] text-slate-500">conf 30%</span>
-              </div>
-              <div class="text-xs text-slate-400 mt-1 leading-snug">No candidate event aligns with Chevron’s price move; tropical cyclones listed had no population impact and unlikely to affect operations.</div>
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="WMT">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/wmt.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Walmart</a>
-                <span class="chip up tnum">+1.73%</span>
-                <span class="text-[11px] text-slate-500">conf 10%</span>
-              </div>
-              <div class="text-xs text-slate-400 mt-1 leading-snug">No listed event occurred before or on 2026-08-31, so none could explain the price move.</div>
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="PLAT">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/plat.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Platinum</a>
-                <span class="chip down tnum">-3.20%</span>
-                <span class="text-[11px] text-slate-500">conf 30%</span>
-              </div>
-              <div class="text-xs text-slate-400 mt-1 leading-snug">No significant supply disruption; events are weak and after price move.</div>
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="AMZN">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/amzn.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Amazon</a>
-                <span class="chip down tnum">-2.50%</span>
-                <span class="text-[11px] text-slate-500">conf 20%</span>
-              </div>
-              <div class="text-xs text-slate-400 mt-1 leading-snug">No event impacted Amazon’s operations or markets; all disasters had no population affected, so unlikely to cause the price move.</div>
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="HEATOIL">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/heatoil.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Heating Oil</a>
-                <span class="chip up tnum">+3.18%</span>
-                
-              </div>
-              
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="GASOLINE">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/gasoline.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Gasoline</a>
-                <span class="chip down tnum">-1.52%</span>
-                
-              </div>
-              
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="XLE">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/xle.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Energy Sector</a>
-                <span class="chip up tnum">+2.04%</span>
-                
-              </div>
-              
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="USO">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/uso.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Crude Oil ETF</a>
-                <span class="chip up tnum">+3.08%</span>
-                
-              </div>
-              
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="WTI">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/wti.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Crude Oil (WTI)</a>
-                <span class="chip up tnum">+2.83%</span>
-                
-              </div>
-              
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="GOOGL">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/googl.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Alphabet</a>
-                <span class="chip down tnum">-2.09%</span>
-                
-              </div>
-              
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="TSLA">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/tsla.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Tesla</a>
-                <span class="chip up tnum">+5.50%</span>
-                
-              </div>
-              
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="XOM">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/xom.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Exxon Mobil</a>
-                <span class="chip up tnum">+2.71%</span>
-                
-              </div>
-              
-            </li>
-            <li class="py-2 border-b border-white/5 last:border-0" data-asset="PAL">
-              <div class="flex flex-wrap items-center gap-2 text-sm">
-                <a href="asset/pal.html" class="font-semibold text-white hover:text-amber-300 transition-colors">Palladium</a>
-                <span class="chip down tnum">-4.60%</span>
-                <span class="text-[11px] text-slate-500">conf 10%</span>
-              </div>
-              <div class="text-xs text-slate-400 mt-1 leading-snug">No listed event impacts palladium supply or demand; none in mining regions.</div>
             </li></ul></div>
           </div>
         </section>
