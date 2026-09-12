@@ -2372,6 +2372,19 @@
    "events": []
   },
   {
+   "id": "note-c75135b2b5c3",
+   "kind": "causal_notes",
+   "asset": "NATGAS",
+   "move_id": "move-NATGAS-2026-07-20",
+   "move_date": "2026-07-20",
+   "event_ids": [],
+   "reasoning": "No candidate events in the window to explain the price move.",
+   "confidence": 20,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-12T14:38:40Z",
+   "events": []
+  },
+  {
    "id": "note-890674bda8e6",
    "kind": "causal_notes",
    "asset": "NATGAS",
@@ -2646,6 +2659,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-27abe92e3e00",
+   "event_id": "evt-ad67e418c6cb",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.5,
+   "confidence": 45,
+   "reasoning": "Russia‑Saudi alignment could shift focus to oil, reducing demand outlook for gas.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-ce786c698a14",
    "event_id": "evt-7ddd3915267f",

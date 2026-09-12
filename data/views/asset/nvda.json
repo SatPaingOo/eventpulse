@@ -2278,19 +2278,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-35bcb927cb6a",
-   "kind": "causal_notes",
-   "asset": "NVDA",
-   "move_id": "move-NVDA-2026-07-23",
-   "move_date": "2026-07-23",
-   "event_ids": [],
-   "reasoning": "No candidate events; likely internal factors or market noise caused the decline.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T15:25:03Z",
-   "events": []
-  },
-  {
    "id": "note-8fb040bce9d3",
    "kind": "causal_notes",
    "asset": "NVDA",
@@ -2444,6 +2431,19 @@
    "confidence": 30,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T15:25:35Z",
+   "events": []
+  },
+  {
+   "id": "note-4f3f53772e0b",
+   "kind": "causal_notes",
+   "asset": "NVDA",
+   "move_id": "move-NVDA-2026-05-15",
+   "move_date": "2026-05-15",
+   "event_ids": [],
+   "reasoning": "No listed events; likely earnings miss or sector rotation triggered selloff.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-12T14:38:11Z",
    "events": []
   },
   {
@@ -2669,6 +2669,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-f78c56f7251b",
+   "event_id": "evt-c62e183de367",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Burry's short on NVDA signals expected AI downturn.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-f95e73d6b737",
    "event_id": "evt-35ac8cbd5c9d",
