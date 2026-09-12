@@ -2751,6 +2751,19 @@
    "outcome": null
   },
   {
+   "id": "pred-06e3b94d79ef",
+   "event_id": "evt-13728314e167",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Tensions in Strait of Hormuz raise supply fears, pushing oil prices up.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-d3497988cf9d",
    "event_id": "evt-2a53b5d8942a",
    "created_at": "2026-09-11",
@@ -2812,6 +2825,19 @@
    "threshold_pct": 1.5,
    "confidence": 65,
    "reasoning": "Middle East conflict raises supply risk, pushing Brent higher.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-80e669d37b88",
+   "event_id": "evt-679fe02213d9",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 2.0,
+   "confidence": 55,
+   "reasoning": "Improved regional diplomacy reduces war risk premium, likely cutting Brent prices in the week.",
    "status": "open",
    "outcome": null
   },
@@ -3176,32 +3202,6 @@
    "threshold_pct": 1.0,
    "confidence": 40,
    "reasoning": "Reduced air traffic lowers global crude demand, easing Brent.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-c5ceabe22f36",
-   "event_id": "evt-5e06971d6f54",
-   "created_at": "2026-09-07",
-   "expires_at": "2026-09-14",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 2.0,
-   "confidence": 70,
-   "reasoning": "Global oil price surge from Iran conflict lifts Brent similarly to WTI.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-aa1888265c83",
-   "event_id": "evt-1298445fffa4",
-   "created_at": "2026-09-07",
-   "expires_at": "2026-09-14",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.4,
-   "confidence": 63,
-   "reasoning": "Geopolitical tension in the region boosts global crude demand, lifting Brent.",
    "status": "open",
    "outcome": null
   }

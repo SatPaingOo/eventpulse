@@ -2318,6 +2318,32 @@
    ]
   },
   {
+   "id": "note-5c65bc212362",
+   "kind": "causal_notes",
+   "asset": "COPPER",
+   "move_id": "move-COPPER-2026-08-25",
+   "move_date": "2026-08-25",
+   "event_ids": [],
+   "reasoning": "No specific event in window; price rise likely from general market sentiment or macro data shifts affecting copper demand.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-12T19:53:15Z",
+   "events": []
+  },
+  {
+   "id": "note-616a6d1d5313",
+   "kind": "causal_notes",
+   "asset": "COPPER",
+   "move_id": "move-COPPER-2026-08-21",
+   "move_date": "2026-08-21",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely driven by broader macro supply‑demand shifts or market microstructure factors.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-12T19:52:43Z",
+   "events": []
+  },
+  {
    "id": "note-bba137ac8da3",
    "kind": "causal_notes",
    "asset": "COPPER",
@@ -2422,6 +2448,19 @@
    "events": []
   },
   {
+   "id": "note-9e5456c55c87",
+   "kind": "causal_notes",
+   "asset": "COPPER",
+   "move_id": "move-COPPER-2026-04-14",
+   "move_date": "2026-04-14",
+   "event_ids": [],
+   "reasoning": "No events identified; move likely due to market microstructure or data error.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-12T19:53:13Z",
+   "events": []
+  },
+  {
    "id": "note-787e385f3518",
    "kind": "causal_notes",
    "asset": "COPPER",
@@ -2498,6 +2537,19 @@
    "threshold_pct": 1.5,
    "confidence": 55,
    "reasoning": "Stronger BRICS economies increase infrastructure spending, raising copper demand.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-559600777066",
+   "event_id": "evt-fcae3d1daeca",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Kenya crackdown curtails foreign trade, reducing demand for African‑sourced copper and adding supply‑chain risk.",
    "status": "open",
    "outcome": null
   },

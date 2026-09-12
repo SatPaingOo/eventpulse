@@ -2294,30 +2294,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-a76fdb0608f2",
-   "kind": "causal_notes",
-   "asset": "GASOLINE",
-   "move_id": "move-GASOLINE-2026-09-06",
-   "move_date": "2026-09-06",
-   "event_ids": [
-    "evt-74f72b85dae5"
-   ],
-   "reasoning": "North Korea warship deployment raises geopolitical risk, spiking oil prices and gasoline.",
-   "confidence": 60,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-09T15:34:22Z",
-   "events": [
-    {
-     "id": "evt-74f72b85dae5",
-     "event_type": "military",
-     "severity": 3,
-     "region": "East Asia",
-     "summary": "North Korea deploys a warship described as capable of annihilating retaliatory strikes, adding to its nuclear response system.",
-     "date": "2026-09-07"
-    }
-   ]
-  },
-  {
    "id": "note-024c7dc68ce2",
    "kind": "causal_notes",
    "asset": "GASOLINE",
@@ -2419,6 +2395,19 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-08T20:30:48Z",
+   "events": []
+  },
+  {
+   "id": "note-2d4017f78ace",
+   "kind": "causal_notes",
+   "asset": "GASOLINE",
+   "move_id": "move-GASOLINE-2026-06-15",
+   "move_date": "2026-06-15",
+   "event_ids": [],
+   "reasoning": "No events in window; price drop likely from market microstructure or unrelated supply/demand shifts.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-12T19:53:43Z",
    "events": []
   },
   {
