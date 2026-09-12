@@ -2354,6 +2354,19 @@
    "events": []
   },
   {
+   "id": "note-89c18b170109",
+   "kind": "causal_notes",
+   "asset": "CAT",
+   "move_id": "move-CAT-2026-08-03",
+   "move_date": "2026-08-03",
+   "event_ids": [],
+   "reasoning": "No events; price move likely due to earnings beat or macro data.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-12T09:47:29Z",
+   "events": []
+  },
+  {
    "id": "note-b92dd15137de",
    "kind": "causal_notes",
    "asset": "CAT",
@@ -2563,6 +2576,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-1dfe58d7ccbd",
+   "event_id": "evt-da6dfb667b4f",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 50,
+   "reasoning": "Higher defense spending increases demand for heavy equipment and construction machinery, supporting Caterpillar.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-85c5400b0224",
    "event_id": "evt-5d0563c235e4",

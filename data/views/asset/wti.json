@@ -2699,6 +2699,19 @@
    "outcome": null
   },
   {
+   "id": "pred-7bad2be84f75",
+   "event_id": "evt-f223de2bb19a",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Meeting aims to ease Strait tensions, reducing supply risk, likely easing WTI prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-2281fb47a349",
    "event_id": "evt-43defe64e9a8",
    "created_at": "2026-09-11",
@@ -2725,6 +2738,19 @@
    "outcome": null
   },
   {
+   "id": "pred-904570778ff6",
+   "event_id": "evt-7d02fae6d45b",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 65,
+   "reasoning": "Middle East conflict raises supply risk, pushing WTI higher.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-18342645ae9c",
    "event_id": "evt-0dce5b53f724",
    "created_at": "2026-09-11",
@@ -2734,6 +2760,19 @@
    "threshold_pct": 2.0,
    "confidence": 60,
    "reasoning": "Diplomatic break could tighten Gulf supply routes, boosting WTI prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-5ae13ab5a147",
+   "event_id": "evt-ee6b8078e49f",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 65,
+   "reasoning": "Yemen conflict near Bab-el-Mandeb raises oil supply risk, pushing WTI higher.",
    "status": "open",
    "outcome": null
   },
@@ -2777,6 +2816,19 @@
    "outcome": null
   },
   {
+   "id": "pred-60bc41633790",
+   "event_id": "evt-b9ffe7905ca3",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 60,
+   "reasoning": "Supply disruption risk from Yemen raises oil demand.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-cc81bfc20420",
    "event_id": "evt-70a1841bfebb",
    "created_at": "2026-09-11",
@@ -2786,6 +2838,19 @@
    "threshold_pct": 2.0,
    "confidence": 55,
    "reasoning": "Reduced passenger flights lower jet fuel consumption, pressuring crude prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-5afbd20e224f",
+   "event_id": "evt-5dddce01e9e4",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "BRICS strengthening boosts oil demand, weakens USD, lifting WTI.",
    "status": "open",
    "outcome": null
   },
@@ -3137,71 +3202,6 @@
    "threshold_pct": 4.0,
    "confidence": 65,
    "reasoning": "Rubio's visit signals support for right-wing governments in oil-rich Ecuador/Colombia, boosting supply expectations and commodity demand.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-4737e795bb32",
-   "event_id": "evt-433fb2c1acb1",
-   "created_at": "2026-09-08",
-   "expires_at": "2026-09-15",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 2.0,
-   "confidence": 70,
-   "reasoning": "US‑Iran strikes cut Strait traffic, tightening supply and pushing WTI higher.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-b8f2d7b1f14d",
-   "event_id": "evt-d452ad1d47ef",
-   "created_at": "2026-09-08",
-   "expires_at": "2026-09-15",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Panama Canal traffic cut by El Niño raises shipping costs, boosting oil transport costs, pushing prices up.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-973bd5a74f82",
-   "event_id": "evt-6c24e06d6fc7",
-   "created_at": "2026-09-08",
-   "expires_at": "2026-09-15",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Conflict threatens Gulf shipping lanes, tightening supply and pushing prices up.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-e08e38e2a19c",
-   "event_id": "evt-6d6364c1fef1",
-   "created_at": "2026-09-08",
-   "expires_at": "2026-09-15",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 2.0,
-   "confidence": 55,
-   "reasoning": "Middle East tension may tighten supply, pushing oil higher.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-dc704558eefc",
-   "event_id": "evt-b9a88e8564a1",
-   "created_at": "2026-09-07",
-   "expires_at": "2026-09-14",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 2.0,
-   "confidence": 55,
-   "reasoning": "Legal dispute involving Israel heightens Middle‑East supply‑risk concerns, supporting oil.",
    "status": "open",
    "outcome": null
   }

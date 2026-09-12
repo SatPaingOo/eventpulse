@@ -2294,19 +2294,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-b5a1c3c4e544",
-   "kind": "causal_notes",
-   "asset": "Brent",
-   "move_id": "move-Brent-2026-08-06",
-   "move_date": "2026-08-06",
-   "event_ids": [],
-   "reasoning": "No events listed; likely due to supply constraints or geopolitical tensions affecting Brent supply/demand balance.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-07T11:01:20Z",
-   "events": []
-  },
-  {
    "id": "note-d48e06c9f113",
    "kind": "causal_notes",
    "asset": "Brent",
@@ -2671,6 +2658,19 @@
    "events": []
   },
   {
+   "id": "note-8459636616f8",
+   "kind": "causal_notes",
+   "asset": "Brent",
+   "move_id": "move-Brent-2026-03-09",
+   "move_date": "2026-03-09",
+   "event_ids": [],
+   "reasoning": "No listed events; likely due to market speculation or supply-demand imbalance.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-12T09:47:30Z",
+   "events": []
+  },
+  {
    "id": "note-ebf5635ad6e4",
    "kind": "causal_notes",
    "asset": "Brent",
@@ -2685,6 +2685,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-5c256255e405",
+   "event_id": "evt-b9ffe7905ca3",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 60,
+   "reasoning": "Middle East conflict pressures global crude supply.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-2a872e0d19bd",
    "event_id": "evt-fd17836c604a",
@@ -2712,6 +2725,19 @@
    "outcome": null
   },
   {
+   "id": "pred-8e10b1d89693",
+   "event_id": "evt-f223de2bb19a",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Improved Strait understanding cuts perceived risk, easing Brent crude prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-d3497988cf9d",
    "event_id": "evt-2a53b5d8942a",
    "created_at": "2026-09-11",
@@ -2721,6 +2747,45 @@
    "threshold_pct": 1.5,
    "confidence": 70,
    "reasoning": "Brent surged to $108, first since May, signaling supply concerns that should keep prices higher.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-9f9e7fb4463f",
+   "event_id": "evt-ee6b8078e49f",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 65,
+   "reasoning": "Regional tension threatens global supply routes, lifting Brent prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-1bb0862d8679",
+   "event_id": "evt-5dddce01e9e4",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Higher BRICS demand and weaker USD support Brent prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-dc8fa70addf0",
+   "event_id": "evt-7d02fae6d45b",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 65,
+   "reasoning": "Middle East conflict raises supply risk, pushing Brent higher.",
    "status": "open",
    "outcome": null
   },
@@ -3138,71 +3203,6 @@
    "confidence": 55,
    "reasoning": "Geopolitical tension in East Asia raises global oil risk premium, lifting Brent.",
    "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-129954dd2759",
-   "event_id": "evt-8614fa8e9163",
-   "created_at": "2026-09-06",
-   "expires_at": "2026-09-13",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 1.5,
-   "confidence": 55,
-   "reasoning": "Similar to WTI, Iran's policy reduces domestic use, increasing export supply and easing global pressure on Brent.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-a0bf04c63f04",
-   "event_id": "evt-3fcf34009b01",
-   "created_at": "2026-09-04",
-   "expires_at": "2026-09-11",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 55,
-   "reasoning": "Regional instability could tighten global crude supplies, nudging Brent higher over the next week.",
-   "status": "void",
-   "outcome": null
-  },
-  {
-   "id": "pred-856cf1f2b3f1",
-   "event_id": "evt-971ab1619467",
-   "created_at": "2026-09-04",
-   "expires_at": "2026-09-11",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 2.0,
-   "confidence": 57,
-   "reasoning": "Similar to WTI, legal pressure on major polluters can curb demand and pull Brent lower.",
-   "status": "void",
-   "outcome": null
-  },
-  {
-   "id": "pred-84d1fa5448b1",
-   "event_id": "evt-b9bc628195c8",
-   "created_at": "2026-09-04",
-   "expires_at": "2026-09-11",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 2.0,
-   "confidence": 48,
-   "reasoning": "Similar to WTI, Brent may rise on broader Middle‑East/Africa supply concerns.",
-   "status": "void",
-   "outcome": null
-  },
-  {
-   "id": "pred-09128bdd468f",
-   "event_id": "evt-5c05a4aa88ed",
-   "created_at": "2026-09-04",
-   "expires_at": "2026-09-11",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 35,
-   "reasoning": "Supply risk from Angola could tighten global oil markets, lifting Brent prices.",
-   "status": "void",
    "outcome": null
   }
  ],
