@@ -2382,6 +2382,19 @@
    "events": []
   },
   {
+   "id": "note-d48f08800a8e",
+   "kind": "causal_notes",
+   "asset": "XLE",
+   "move_id": "move-XLE-2026-06-01",
+   "move_date": "2026-06-01",
+   "event_ids": [],
+   "reasoning": "XLE rose 1.8% likely due to broader energy sector rally from higher oil prices and positive earnings outlook.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T20:02:38Z",
+   "events": []
+  },
+  {
    "id": "note-38cda87bdd6d",
    "kind": "causal_notes",
    "asset": "XLE",
@@ -2484,6 +2497,19 @@
    "threshold_pct": 1.5,
    "confidence": 60,
    "reasoning": "Higher crude prices lift energy sector stocks, benefiting XLE.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-4cc810321a59",
+   "event_id": "evt-dc63e042a725",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.0,
+   "confidence": 45,
+   "reasoning": "Risk‑off sentiment may curb energy‑sector exposure after the disaster.",
    "status": "open",
    "outcome": null
   },
