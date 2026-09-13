@@ -2331,6 +2331,19 @@
    "events": []
   },
   {
+   "id": "note-2e4973932291",
+   "kind": "causal_notes",
+   "asset": "XAU/USD",
+   "move_id": "move-XAU/USD-2026-08-28",
+   "move_date": "2026-08-28",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely market noise or unreported macro factors.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T01:53:53Z",
+   "events": []
+  },
+  {
    "id": "note-015c505163ad",
    "kind": "causal_notes",
    "asset": "XAU/USD",
@@ -2658,6 +2671,19 @@
    "outcome": null
   },
   {
+   "id": "pred-a57d7dd55d73",
+   "event_id": "evt-fe62e6137f5e",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Protest signals political uncertainty in Germany, boosting safe‑haven demand for gold.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-e305880a9253",
    "event_id": "evt-b266005b267c",
    "created_at": "2026-09-11",
@@ -2667,6 +2693,19 @@
    "threshold_pct": 1.5,
    "confidence": 55,
    "reasoning": "Protests may curb foreign labor in South African mines, tightening gold supply and lifting prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-c5fadc821064",
+   "event_id": "evt-663255993872",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Geopolitical tension drives safe‑haven demand, lifting gold.",
    "status": "open",
    "outcome": null
   },
@@ -3031,32 +3070,6 @@
    "threshold_pct": 1.5,
    "confidence": 60,
    "reasoning": "US political uncertainty pushes investors to safe‑haven gold.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-a4ab9d66a36b",
-   "event_id": "evt-1298445fffa4",
-   "created_at": "2026-09-07",
-   "expires_at": "2026-09-14",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Conflict drives safe‑haven demand, supporting gold prices.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-29b615847e03",
-   "event_id": "evt-85fb6fc4fae0",
-   "created_at": "2026-09-07",
-   "expires_at": "2026-09-14",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 55,
-   "reasoning": "UK political tension raises safe‑haven demand, modestly boosting gold.",
    "status": "open",
    "outcome": null
   }

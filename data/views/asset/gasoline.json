@@ -2294,45 +2294,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-024c7dc68ce2",
-   "kind": "causal_notes",
-   "asset": "GASOLINE",
-   "move_id": "move-GASOLINE-2026-08-26",
-   "move_date": "2026-08-26",
-   "event_ids": [],
-   "reasoning": "No candidate events; move likely due to market microstructure or unrelated factors.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-06T01:46:22Z",
-   "events": []
-  },
-  {
-   "id": "note-225bfa7babf5",
-   "kind": "causal_notes",
-   "asset": "GASOLINE",
-   "move_id": "move-GASOLINE-2026-08-06",
-   "move_date": "2026-08-06",
-   "event_ids": [],
-   "reasoning": "No events in window; likely a supply/demand shift or market sentiment caused the 3.5% rise.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-06T19:50:12Z",
-   "events": []
-  },
-  {
-   "id": "note-00f83afd4a98",
-   "kind": "causal_notes",
-   "asset": "GASOLINE",
-   "move_id": "move-GASOLINE-2026-07-30",
-   "move_date": "2026-07-30",
-   "event_ids": [],
-   "reasoning": "No candidate events; price drop likely from market microstructure or unrelated supply/demand shifts.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-11T10:14:14Z",
-   "events": []
-  },
-  {
    "id": "note-a44d1b23f3c7",
    "kind": "causal_notes",
    "asset": "GASOLINE",
@@ -2515,6 +2476,19 @@
    "events": []
   },
   {
+   "id": "note-66f82ba009fb",
+   "kind": "causal_notes",
+   "asset": "GASOLINE",
+   "move_id": "move-GASOLINE-2026-05-05",
+   "move_date": "2026-05-05",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely due to broader market volatility or supply chain disruptions affecting gasoline demand.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T01:53:53Z",
+   "events": []
+  },
+  {
    "id": "note-fe310e2979b1",
    "kind": "causal_notes",
    "asset": "GASOLINE",
@@ -2593,6 +2567,19 @@
    "events": []
   },
   {
+   "id": "note-8bcb684615e9",
+   "kind": "causal_notes",
+   "asset": "GASOLINE",
+   "move_id": "move-GASOLINE-2026-03-27",
+   "move_date": "2026-03-27",
+   "event_ids": [],
+   "reasoning": "No candidate events; price rise likely from market speculation or minor supply shock not captured.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T01:54:24Z",
+   "events": []
+  },
+  {
    "id": "note-8ecb5a112f49",
    "kind": "causal_notes",
    "asset": "GASOLINE",
@@ -2645,6 +2632,19 @@
    "events": []
   },
   {
+   "id": "note-a4e61473bbfd",
+   "kind": "causal_notes",
+   "asset": "GASOLINE",
+   "move_id": "move-GASOLINE-2026-03-11",
+   "move_date": "2026-03-11",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely a broader market factor or supply‑demand shift caused the 5.6% rise.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T01:54:25Z",
+   "events": []
+  },
+  {
    "id": "note-30e14249b823",
    "kind": "causal_notes",
    "asset": "GASOLINE",
@@ -2685,6 +2685,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-2cf5e09d8155",
+   "event_id": "evt-e6e11e2933fd",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Diesel price increase reflects higher oil prices, likely boosting gasoline.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-f605b2932334",
    "event_id": "evt-7ed6d05db380",
@@ -2734,7 +2747,7 @@
    "threshold_pct": 4.0,
    "confidence": 52,
    "reasoning": "Travel slowdown cuts gasoline usage, extending recent price decline.",
-   "status": "open",
+   "status": "void",
    "outcome": null
   },
   {

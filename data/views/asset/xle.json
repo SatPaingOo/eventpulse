@@ -2369,6 +2369,19 @@
    "events": []
   },
   {
+   "id": "note-362e7df7ce6b",
+   "kind": "causal_notes",
+   "asset": "XLE",
+   "move_id": "move-XLE-2026-04-17",
+   "move_date": "2026-04-17",
+   "event_ids": [],
+   "reasoning": "No specific event; likely a broader energy sector sell‑off or oil price drop triggered the decline.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T01:53:56Z",
+   "events": []
+  },
+  {
    "id": "note-88e2e8fed1cf",
    "kind": "causal_notes",
    "asset": "XLE",
@@ -2419,6 +2432,19 @@
    "threshold_pct": 1.0,
    "confidence": 60,
    "reasoning": "Energy sector index benefits from sustained high oil.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-174a79ca0e8c",
+   "event_id": "evt-e6e11e2933fd",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Energy sector benefits from rising fuel prices, boosting XLE.",
    "status": "open",
    "outcome": null
   },

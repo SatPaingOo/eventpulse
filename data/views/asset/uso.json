@@ -2597,6 +2597,19 @@
    "events": []
   },
   {
+   "id": "note-c206d32dfaca",
+   "kind": "causal_notes",
+   "asset": "USO",
+   "move_id": "move-USO-2026-03-19",
+   "move_date": "2026-03-19",
+   "event_ids": [],
+   "reasoning": "No listed events; likely due to global oil supply/demand shifts or geopolitical tensions.",
+   "confidence": 50,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T01:53:25Z",
+   "events": []
+  },
+  {
    "id": "note-6b0971ac2c68",
    "kind": "causal_notes",
    "asset": "USO",
@@ -2663,6 +2676,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-84c4964c9a2b",
+   "event_id": "evt-5038a20e8ac5",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Oil ETF tracks WTI; expected to rise with oil price.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-5a85b58ce092",
    "event_id": "evt-43defe64e9a8",

@@ -2294,19 +2294,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-0e0dbb80091c",
-   "kind": "causal_notes",
-   "asset": "WTI",
-   "move_id": "move-WTI-2026-06-22",
-   "move_date": "2026-06-22",
-   "event_ids": [],
-   "reasoning": "No listed events; likely a broader market sell‑off or supply concern (e.g., OPEC+ output cuts) triggered the dip.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T11:41:22Z",
-   "events": []
-  },
-  {
    "id": "note-a2896e6c0b87",
    "kind": "causal_notes",
    "asset": "WTI",
@@ -2486,6 +2473,19 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T11:32:45Z",
+   "events": []
+  },
+  {
+   "id": "note-03e19c401c40",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-04-28",
+   "move_date": "2026-04-28",
+   "event_ids": [],
+   "reasoning": "No candidate events identified in the window.",
+   "confidence": 0,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T01:53:25Z",
    "events": []
   },
   {
@@ -2686,6 +2686,19 @@
  ],
  "predictions": [
   {
+   "id": "pred-b7a22cd693f8",
+   "event_id": "evt-e6e11e2933fd",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 60,
+   "reasoning": "Diesel price rise signals higher crude demand, pushing WTI up.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-c2c59df41629",
    "event_id": "evt-9388b002c49b",
    "created_at": "2026-09-11",
@@ -2842,6 +2855,32 @@
    "outcome": null
   },
   {
+   "id": "pred-95456ce77d49",
+   "event_id": "evt-71f7a48116a4",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 45,
+   "reasoning": "Fire‑related transport bottlenecks in Southeast Asia may tighten crude supplies, giving a slight upward bias.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-72cc5c89e346",
+   "event_id": "evt-5038a20e8ac5",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Middle East tensions raise supply risk, pushing WTI higher.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-279eae135e69",
    "event_id": "evt-b68bec1ccdee",
    "created_at": "2026-09-11",
@@ -2890,6 +2929,19 @@
    "threshold_pct": 2.0,
    "confidence": 60,
    "reasoning": "Supply disruption risk from Yemen raises oil demand.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-2d8c45f8b42b",
+   "event_id": "evt-663255993872",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Control of Bab al-Mandeb raises shipping costs, tightening oil supply and pushing WTI higher.",
    "status": "open",
    "outcome": null
   },
@@ -3150,58 +3202,6 @@
    "threshold_pct": 1.5,
    "confidence": 60,
    "reasoning": "WTI may rise as shipping disruptions increase fuel demand and rerouting costs.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-dccf2e56f518",
-   "event_id": "evt-9bfc50fa9bd5",
-   "created_at": "2026-09-09",
-   "expires_at": "2026-09-16",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 2.0,
-   "confidence": 60,
-   "reasoning": "Geopolitical tensions constrain supply, likely lifting WTI further in the next week.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-fb604a5c246e",
-   "event_id": "evt-4c0015bcfb2c",
-   "created_at": "2026-09-09",
-   "expires_at": "2026-09-16",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 65,
-   "reasoning": "Russia sanctions risk raises oil supply uncertainty, pushing WTI higher.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-ef606994fc0a",
-   "event_id": "evt-e6d82af45d5d",
-   "created_at": "2026-09-09",
-   "expires_at": "2026-09-16",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 65,
-   "reasoning": "Middle East conflict raises supply risk, boosting oil prices.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-2df7900f888c",
-   "event_id": "evt-3f04c4cdb2d5",
-   "created_at": "2026-09-09",
-   "expires_at": "2026-09-16",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 40,
-   "reasoning": "Geopolitical uncertainty can tighten supply expectations, lifting oil prices.",
    "status": "open",
    "outcome": null
   }
