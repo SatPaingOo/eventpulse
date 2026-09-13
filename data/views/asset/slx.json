@@ -2462,6 +2462,19 @@
  ],
  "predictions": [
   {
+   "id": "pred-fb6e99734109",
+   "event_id": "evt-5f2cc20b7777",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 60,
+   "reasoning": "Defense production surge and supply disruptions boost steel demand, lifting SLX.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-d187c13cda34",
    "event_id": "evt-b14b9bded01a",
    "created_at": "2026-09-11",
@@ -2471,6 +2484,19 @@
    "threshold_pct": 1.5,
    "confidence": 58,
    "reasoning": "School rebuilding drives steel demand, boosting prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-76c918ba537c",
+   "event_id": "evt-a6aa6f8b61b1",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 30,
+   "reasoning": "Ferry sinking may delay regional shipping, slightly tightening supply for steel.",
    "status": "open",
    "outcome": null
   },

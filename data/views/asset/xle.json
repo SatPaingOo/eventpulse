@@ -2343,6 +2343,45 @@
    "events": []
   },
   {
+   "id": "note-ee77cab403ee",
+   "kind": "causal_notes",
+   "asset": "XLE",
+   "move_id": "move-XLE-2026-06-15",
+   "move_date": "2026-06-15",
+   "event_ids": [],
+   "reasoning": "No candidate events; move likely from broader market or sector-wide factors.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T10:50:20Z",
+   "events": []
+  },
+  {
+   "id": "note-5827aa201989",
+   "kind": "causal_notes",
+   "asset": "XLE",
+   "move_id": "move-XLE-2026-06-09",
+   "move_date": "2026-06-09",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely a broader energy sector sell‑off or macro shift.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T10:50:20Z",
+   "events": []
+  },
+  {
+   "id": "note-38cda87bdd6d",
+   "kind": "causal_notes",
+   "asset": "XLE",
+   "move_id": "move-XLE-2026-05-07",
+   "move_date": "2026-05-07",
+   "event_ids": [],
+   "reasoning": "Sector-wide sell‑off from broader market decline, likely driven by rising interest rates and weak energy demand outlook.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T10:49:47Z",
+   "events": []
+  },
+  {
    "id": "note-9e1ae2c39608",
    "kind": "causal_notes",
    "asset": "XLE",
@@ -2422,6 +2461,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-e53ce4825d10",
+   "event_id": "evt-2f69cb407dbb",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Higher crude prices lift energy sector stocks, benefiting XLE.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-b1b80c96a7e4",
    "event_id": "evt-b68bec1ccdee",

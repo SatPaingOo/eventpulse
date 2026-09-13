@@ -4,6 +4,367 @@
    "date": "2026-09-13",
    "events": [
     {
+     "id": "evt-42712f27e2c3",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T00:00:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Canada",
+     "summary": "Gold price in Canada reported by Kitco.",
+     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBVMHM0YXN3UkRUdlVZXzdrUjJmSHh5eFZ6Q0pSOVhYV1pLU0VzSXNhWGRVREpJbm9uX3pvSkZsMDNVRmg4a3JPYXlTY2N3OEF5Wm00MA?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-68cbfb71eb54",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T04:22:41Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Europe",
+     "summary": "Wildfire rages on Brac Island, Croatia, prompting emergency alert.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/wildfire-rages-on-croatias-dalmatian-coast-island-of-brac?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-4d407704940f",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T03:00:07Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Caribbean",
+     "summary": "A 3.51 magnitude earthquake hit 59 km N of Culebra, Puerto Rico, as reported by USGS.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026256001",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-c25192967d12",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T03:23:40Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Caribbean",
+     "summary": "A 3.63 magnitude earthquake occurred 141 km NNW of Charlotte Amalie, U.S. Virgin Islands, per USGS.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr2026256002",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-035444a2de9e",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T00:43:48Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "Europe",
+     "summary": "US President Donald Trump expressed desire for a united Ireland during his visit.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/12-09-sv-trump-for-united-ireland-ir?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e5660399157e",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T08:31:15Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Asia",
+     "summary": "A 4.7 magnitude earthquake struck 25 km north of Mutsu, Japan, according to USGS.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th5d",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-9f7c7f9a60d4",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T03:50:32Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Asia",
+     "summary": "M4.9 earthquake strikes Bonin Islands, Japan.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th3a",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b69434d963be",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T10:06:49Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "How many Home Depot shares needed for $10,000 annual dividends.",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbFotRzNfQ3luSGw4MVVFcVRCZS1nMDlSNUtkTHdIV3F4U3dpVWpOV2ZHd3htRnlGZW5POUxreVV4X1R1RXZ2Q0pmU3REeXQzWW1WZ2g3MkRyS3pWcU5CcmZMMzFjLU5LSUxUQ0FJTnJpVkg1SnRrU2xkQnpXcXJtVktQc1VienNneTJVcGI0VjZsX0N3Ylo4?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a6aa6f8b61b1",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T03:41:14Z",
+     "event_type": "other",
+     "severity": 3,
+     "region": "Oceania",
+     "summary": "Ferry sinks off Vanuatu, one dead, 30 missing.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/one-dead-more-than-30-missing-after-vanuatu-ferry-sinks-pms-office-says?traffic_source=rss",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "SLX",
+       "direction": "range",
+       "threshold_pct": 0.5,
+       "confidence": 30,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "COPPER",
+       "direction": "range",
+       "threshold_pct": 0.5,
+       "confidence": 30,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "ALUM",
+       "direction": "range",
+       "threshold_pct": 0.5,
+       "confidence": 30,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-81baf94f06aa",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T03:23:41Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Caribbean",
+     "summary": "A 3.4 magnitude earthquake struck 130 km NNE of Vieques, Puerto Rico, reported by USGS.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71531608",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-f0e36f1c85e8",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T09:26:18Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Chevron reduced its debt by $8 billion in Q2 2026, while maintaining a 3.40% dividend yield.",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOFhFTXVZVUhhWFpVN3NMTkJKMlRIcFZSUFdURFZvOEM3WTdXQUY5NmR1WXV4UmFRTE5QY3BMQUoyUUtpQTJkWTRuT3c3RFd0azNlYnVJY04xY1g3ekluQWgxQnF3VmVzM1l0dF9nQXcxTEFZdDl2Z3BCM2RCWW8wLWE1eldHTnZlbVFvNGVQTV9lWjlIUTg5OUJxZ2QzWE9ZdUVSR2RzTEZEbzdtMHJjeDJaXzE1TGYxbEt3?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b6dd5c1b9e6d",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T00:00:40Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "Houthis and Saudi Arabia are exchanging strikes near Bab al-Mandeb, raising concerns over oil industry.",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/9/13/iran-war-live-saudi-arabia-and-houthis-trade-strikes-over-bab-al-mandeb?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-12b59663eda7",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T00:08:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Boeing's defense business could cushion its commercial recovery, analysts say.",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbklKd0IzX1E0dHg1NTRqRDB5MHZHcl9fNkhOSGNfUlk5bW1uMXpsRlZDeG5SUjFyOThtb2lqQVhvVHgzSXZJaDRDTXc5NkFaVkZlZzBhUERPb0s1cXZrZGQwSG1wYTJhdWVKX3VyQ1p2czhUS3hHYy1hN2lWUkxvcnlrOENaaEh4TGRhZmlVZnVJZk5mbGlicVZXdkc0VVU?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-eedd0ffdde66",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T09:42:08Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Southeast Asia",
+     "summary": "Six dead and 107 rescued after Indonesian ferry Virgo Transport 8 went missing in Java Sea amid bad weather; 130 people still missing.",
+     "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-0a955c4bd3d3",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T03:34:13Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Caribbean",
+     "summary": "M3.39 earthquake near Cruz Bay, US Virgin Islands.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71531623",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-6411924c67c4",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T02:32:12Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Iraq seizes drone-launching platform used for targeting Saudi oil pipeline in Maysan province near Iranian border.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/iraq-seizes-drone-launching-platform-used-for-targeting-saudi-oil-pipeline?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-079c85ebd9c9",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T07:19:21Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Oceania",
+     "summary": "A 5.2 magnitude earthquake occurred 43 km ESE of Port-Olry, Vanuatu.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th4y",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b6bbd46b17f9",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T00:24:29Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Houthis fired a projectile that wounded two and damaged a mosque in Saudi Arabia's Jazan region.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/houthi-projectile-wounds-two-damages-mosque-in-jazan-region-saudi-says?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b94c646dbd9d",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T07:48:22Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Africa",
+     "summary": "The Olympic flame arrived in Senegal for the country's first Olympic event in Africa, marking a historic moment.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/olympic-flame-arrives-in-senegal-for-first-ever-olympic-event-in-africa?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-26351b2909a7",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T04:34:56Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Walmart's stock remains stable as it expands restaurant delivery services.",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWUhfSWpneUVyTXJQdlFIRUpJdVcyZldiYWtuRzFibTFsT1lNVHVYX2REZnFqZzMtTUhMckpwSHo2eEJqNXFiTHB6THFFbUtialhRM3VlS2xObEhaaFdxcnVxUTVsY2xWWFlWTkNIelRpXzBDdmMxOWI4Q1NIVGIwM3hOMENfcDV0ZnpuVS1aWWtuNGZrUUxIMmhwQzRsb2x0MG84UHhDaWUtSnQyVE00UGduYmN5YzNNLVBJZjljbW5kbXU0MkwzNFRUcGQ1QThmNkYyVUpR0gHWAUFVX3lxTE9ZSF9Jamd5RXJNclB2UUhFSkl1VzJmV2Jha25HMWJtMWxPWU1UdVhfZERmcWpnMy1NSExySnBIejZ4Qmo1cWJMcHpMcUVtS2JqWFEzdWVLbE5sSFpoV3FydXFRNWxjbFZYWVZOQ0h6VGlfMEN2YzE5YjhDU0hUYjAzeE4wQ19wNXRmem5VLVpZa240ZmtRTEgyaHBDNGxvbHQwbzhQeENpZS1KdDJUTTRQZ25iY3ljM00tUElmOWNtbmRtdTQyTDM0VFRwZDVBOGY2RjJVSlE?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-127f27786b15",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T08:39:49Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "Europe",
+     "summary": "Sweden's election voting underway, with far‑right Sweden Democrats potentially entering government.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/voting-under-way-in-sweden-election-that-could-see-far-right-enter-govt?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-89fae0e6352d",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T08:05:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Investing $20,000 in Apple stock 10 years ago outperformed the same amount in Amazon, suggesting Apple as a better long-term buy.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObm1rMV9JM285bkhzLUNGRmh4SWdPZUFKc0NsMDJqbGtILThXczF5VWVEbjdYVl9LZGJ3MkpHVWR4bDlISThjS21oTk9FajM2cUNLLW1kcExHTkEtTFdValpXQmFUcnExZldzTzNKZzR1blYxZTdfVlBveEJ0cDlTUWpQZzg1RFJqUVZkQ0YyN3NYR0w1aVVuUw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-d93aac0729cb",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T10:12:15Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "East Africa",
+     "summary": "Buganda kingdom's traditions endure within Uganda's republic.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/a-kingdom-within-a-republic-inside-ugandas-buganda?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-df2609fbdc8f",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T04:40:18Z",
+     "event_type": "geopolitical",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Yemen refugees flee to Djibouti as Houthis tighten grip on Bab al-Mandeb strait.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/1400-yemenis-flee-to-djibouti-within-24-hours?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-2f862b3888cc",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T07:01:12Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Africa",
+     "summary": "A forest fire began in Namibia on 12 September 2026 and continued into 13 September 2026.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031935",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-c53e5d250423",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T07:23:54Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Australia",
+     "summary": "Elevate Uranium Ltd's share price reported in ASX news, reflecting recent market activity.",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fclVCYU5UdUZiVEY2R0tJSmZIei1CWkQtS1Y3MHdiVTBGVWNtZG5FNWdkLV9sLUwxcnNvcmpDUjZNSEZNMnptZGNRMWczYUd3SGdTNlRhWEZ3bkVZOS1lRTZLNjYyeVUzU2ZLSF9DUk0yVmdnVmZ6cVp3?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e575859014d9",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T02:37:24Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Europe",
+     "summary": "Video shows passengers screaming as turbulence rocked a Turkish Airlines flight bound for Tunisia.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/we-started-to-plummet-turbulence-rocks-turkish-airlines-flight?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-bc2766b081ec",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T02:42:17Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Netflix expands its NFL reach, with analysis suggesting the company remains undervalued at 6%.",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQb2pYVkdpclZIbi11a1dZY3lXVEIxd2hEdVpXV1RjUXJkSnJnemxLcG02X0c3bUhKVUdwN3c2bjE2eWZmbnhOZXlYSjJaenYxNEFad3hTS2lwZVVoZndtNGFFdFlzRUh6SHFETlR3RTNVQU5RbjI3b1Zua3daS25yYW1xWEtIVHNZMkxBZnB2N3pNOVRwc3dPZ1ZLbng4YjBHSXVlQktBOXR0OG5EVF94RWxrUTVDYllIbUY0aXJGR3LSAcYBQVVfeXFMTV95T3V2VVhGVm0xZ1FSYmxXNFh6VHlDZV9iQXpQWkVvVEpsY2N0SEMtb3VCMmlxbzlWTFBjT2RCckRBZS1faGlwRG5hNzVFQnJkVXJLeldMdjd5aUZ4M056UHEzQzRSZE1VTzlLZ3RpTktNaUFhVFNRNk1ETXYxZzI2WmI0cWQwb3E3ZjFHMkQ1N2lESkJSM0drNHNSQ1hETFUwWXAyZzRraGZUY3hkRkRiY3JtTDdzQ1RlNGJGODNNUFBBTzVR?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-0c0b2cc4b448",
      "date": "2026-09-13",
      "dt": "2026-09-13T00:58:24Z",
@@ -40,6 +401,210 @@
      "calls": []
     },
     {
+     "id": "evt-8525995013b3",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T08:45:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Analysts discuss whether Alphabet could overtake Nvidia in market dominance by 2027.",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ1hHOWIySWltRXpydi1xMjhXZjh4R0pRcnBhb2lkaWcxSWNFNlgyclpZZVRBOU1ENHk0aXJoc3pKT2g4VDZzWWcyUV9JWlRoRDFrVTJPNFpNSjZ0cC1pQlVDenZzTVdzakZVc0NBUHBLTE41SjY0RWJvWk1VUGlxdGk1QU5YS3Brd2gzV0dVY25BUEoyQTlKS3l3?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-819dac832fd0",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T00:58:24Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "US",
+     "summary": "USGS reports a magnitude 2.9 earthquake 47 km south of Whites City, New Mexico.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026saectr",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-bbcbf4ddc9d6",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T01:41:10Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "Europe",
+     "summary": "Spain's new Sahrawi citizenship law strains ties with Morocco.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/why-spains-new-sahrawi-citizenship-law-matters-to-morocco?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-527704bcfc2d",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T01:32:56Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Iranian President says Tehran is not at war with Saudi Arabia.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/13-09-clip-pezeshkian-iran-not-at-war-with-saudis-ir?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-9f4d9d25b731",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T00:49:08Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "US",
+     "summary": "Workers fired for posting about Charlie Kirk received settlements or had to restart careers.",
+     "url": "https://www.bbc.co.uk/news/articles/cj06jgl9qzlo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-2e5b2dfeb073",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T08:51:55Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Analysts discuss whether Alphabet could overtake Nvidia in market dominance by 2027.",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPc0pSV09WTG01OWtJeWJJeHFtSUxRVmc5MTkzektoZGFMcEtYUHN3SkM2NUtITWVPRHRUQmNvZzFLWkRTS0RGN0xUcEUzVGs5al85OTRKM3R4cl9KRVNlVVRjVmxlMnI0bVZETG1IdlhPQ0txTGl5V3Y3MEs3R0lQVE1JTDdMUQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-7bcf0967ea23",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T07:30:23Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Oceania",
+     "summary": "A magnitude 5 earthquake struck southeast of the Loyalty Islands in the Pacific, near New Caledonia.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th50",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b25ab1a0a0b7",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T02:44:32Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Yemen’s Houthis seized Mayun Island in the Red Sea, strengthening their control over the Bab al-Mandeb Strait.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/yemens-houthis-seize-strategic-mayun-island-in-red-sea?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b019f685a11d",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T07:29:07Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Analysts suggest Visa Inc. may be overvalued by 88% due to AI payments and on-chain credit initiatives.",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNNGNldFJNTl9rTHBOT1JHeFZpRzV6OEozTUZOYTk0dC12OHY4bVJta0RzS2Y1cmhiemw2b1pQSWhRcnB4NHhiQXY4YkxDSTMtWG1YM0lpM1M1QkYySklxTGJKdUFIdndmYVl6RWFJNXNwR1JtVW5hU1RCcVFGNENib2poY2llRzUtYlFkaEhKUllIa0xsUkw3YzEyaFhHcEtHWWVScFFDWjBic253UTQ2VVRocDJRUnFnNjBQQTFRZk5OMDNHaEJYUGtXVHDSAdIBQVVfeXFMTnFqVXcyZ182Z3dra1lZZmRHSm9Ob09SWW8zbVM3bHc4Q3BicUdPNGFsM0hXdXZWVGpPMTl2SXh1M1Fwdm5aOWoybEdlVmRsRlZsTXQyWVdUMTBEOW5vUVV4ZVFhM3BJWGxTRVRVZ1l3YXNDdS1mVWp3b05lVVZaTWFmNUZybC00c0JxeW1nelNmN3JWbkV5ZjMxc0JDTjFkLXI5NWdJTmRfdTNtdVZCejJyeUdiYUhfb3p5UEVTMW9TdFkwUkRseW1MMTNUc1h2QVpn?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-5878ea3ff387",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T10:19:59Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "US",
+     "summary": "Magnitude 3.3 earthquake 57 km south of Whites City, New Mexico.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/tx2026sawssd",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-7edd71ee6200",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T08:13:56Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "A Houthi strike damaged a mosque and homes in Saudi Arabia, escalating tensions in the region.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/mosque-and-homes-damaged-in-saudi-arabia-after-alleged-houthi-strike?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e8b818cf4bb6",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T10:22:01Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Israeli strike on Gaza kills two Palestinians despite US-brokered ceasefire.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/israeli-attack-on-gaza-kills-two-palestinians?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-8d53f7774dcb",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T02:08:42Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "North America",
+     "summary": "Magnitude 3.9 earthquake 150 km west-southwest of Adak, Alaska.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th2x",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b6faf1da1c75",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T07:36:09Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Performance Wealth Partners LLC increased its JPMorgan Chase & Co. holdings, raising its stake in the bank.",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOb1RtaWZPZ0Vacjc3eU1JeTBPY3dxcWNPNWo3eEh5bFBMWFpnSl9pdkVjd0E5WFpLUFhMN05ZMndtMElRTUxZNV9TQ3psdTJGb25pQ0NqUG1hLU80bU95MWMtb1dvZXBGcVpVcFVPa1JEck9vUGlhR0xjX2JXWjdTTXgxVjI0bENsUHhNbENBamp2ZW5IdDV2OFRHYlBadm1uTjYxdjNDaGx3ZGxiQmdJekRFX05pVGtBQm5FNUNjdWV1YXZ2QXBuTFZCQ3ZUNmFzc1N3QWR3?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-cab0c278e6c9",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T08:03:38Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Motley Fool reports that $20,000 invested in Apple 10 years ago outperformed Amazon, recommending Apple for future gains.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaFBhT2hTUGFzMG9Hd3BxcnZSVlNJXzhVdkVBWjRDbkE1aW5pSHQwTV9VVUoyM00wb0xINzFYc3F3YnZnUGNBSnRJeXZkNGNOc1hERFZNWklOcWFuTFFwUEVBX1hJamdiTElhN1JQdVFNTEtQbC1meG1NeWFHa0xPZ2NQOHdzYVNUbE5JbEs0cWxBcF9aaFRrVA?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b40bc4349c59",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T09:50:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "How many Home Depot shares needed for $10,000 annual dividends.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcnRYZmxJa3RIZEk3NDlMcEpkT3lxd1RhU0c2X2NhY0M5WUV2bGtrblhTaEdxVzdYWXFGMUNTNGtSbjRwWnpzNGwzdlprR1VnM2lxMllIZmtISVpVQjZCT3llX1hIU3A4b1J4Z0JheThEVC1ISlJQbXBlbWFid1J4cG1lMjM5aElHMWEtWHo3MHN1UTAxUENFSQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a13da41c1fc1",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T08:17:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Nvidia's price-to-earnings ratio dropped to 14, indicating a potential buying opportunity.",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBMVU5ralBGMU9vRnRLZ1NFS2JfVEs2R1hsMUJRdlBCVmdOYS1fZFNLa19RcVZidUg1Tms1b01WdHdLejg2WUk0bVB5NUVVVVE2Y0VoUFY1WUo1bko4RVBoSGhEY0lvODhzcEhQSVRIeWpNNUtoQUN6WXdMRQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-2a1c9739b8ef",
      "date": "2026-09-13",
      "dt": "2026-09-13T00:00:40Z",
@@ -62,6 +627,54 @@
      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/12-09-sv-trump-for-united-ireland-ir?traffic_source=rss",
      "moved": [],
      "calls": []
+    },
+    {
+     "id": "evt-de97286031f1",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T10:02:57Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "US",
+     "summary": "Magnitude 3.4 earthquake 45 km WNW of Central, Alaska.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026sdtrsy",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a5f0ad53c31f",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T08:54:32Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Africa",
+     "summary": "Niger's military government appointed a new army chief of staff following a failed mutiny, reshuffling command.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/niger-military-government-reshuffles-army-command-weeks-after-deadly-mutiny?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-7c1446e4f93b",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T02:19:24Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Gas and diesel prices rise in Philadelphia area, affecting drivers.",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNX3dvT2QtdGNCeVRaYVpsRVFKOW9ydVhMZ3hNZEdfOTg0RVhlLTNIZ0d4b0dwaTFCVndrU3F1WWNJOFJ0aGc5S0JvcHozQUFrTFRHYXJZNWdxalBlWEY3M2tIZjdlSzVwbV9jRU5aR1o0SWxpanJUam1Fb0FBWWZtc1drTy16bThNTjZ6QVZVcmIwR3N6TkHSAZsBQVVfeXFMT1h0ZzFqQlpISFZySHRnVF9KZGZJUzEyNlVnbURpWkhQM0ZraDRfZ2U3VE9nTlJjZHBpQnZZT0haZkdrdFd4a2tmUHg4UmFHMFh0WVRqMWp3dHk5R1ZESUQ5MG9ZN1BReGtZQmxjUDBiZ0N2QjR5d3NNYlNRTFlfRGNVWkVSNDJvNTJoQllUU0NMSjNwNEIweXU1SWM?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-90d68db271c5",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T02:03:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Microsoft reports Azure revenue publicly, revealing margins.",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1DTFhaZFlSWnpjZVpWalk3aWFmdTZabC1iMnMwb0NSRzlxM0kwbVJqekx5cmNkVXZfcEVnRmxjZC0yYVpfLXB0Uk1Nam14Tlh1Q1Mzb0VMWGc2bV9QNmJlM2Q4ZXZ0TVpzZUZDVjRxa281bkh6M09XODhB?oc=5",
+     "moved": [],
+     "calls": []
     }
    ],
    "moves": []
@@ -78,6 +691,18 @@
      "region": "China",
      "summary": "Explores how modern Chinese youth are adapting ancient marriage traditions to find love.",
      "url": "https://www.aljazeera.com/video/101-east/2026/9/12/chinas-marriage-crisis-the-search-for-love?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-33999239ac57",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T22:37:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Cathie Wood sold $28.7 million of Alphabet shares, reducing her stake in the tech giant.",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcXExYlZsYW40U1BwUmh2MXlaVkVjcUFOSXhvczdHc2Jta09OblhLWUF5Uk44RWN4dzluWWdJbHNmUENqT1VFLXRHOHp3dmZ6WGs5SjFQY2dFWTNHdC1MRERwU291YmdNNkgtNVYyR3BOeFBPWDEtb0hTeUgtQmh6Wkc1NGRSWlZRSmRMUk9VZDNaNE1nWmxyX1hsR25YZWdsNkFxakk3Y3oyMnV5ZnNHWnJpVVotZHRJ?oc=5",
      "moved": [],
      "calls": []
     },
@@ -193,6 +818,18 @@
      "calls": []
     },
     {
+     "id": "evt-030dc4f129ad",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T21:27:18Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Century Aluminum (CENX) stock appears undervalued based on earnings power analysis.",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPVGFMbHFwdFVERUU0anFTVW5rR19zWDJqVUlGcTFJWFRzUDVjcG84REs2Q0UyTFhnQ0VvRkc2WkQ1dnZpVTF5cHE0Y0Y0cXdGc1poV2tXcnl1VVBTdWlTci05NnBoTjhmbEY2QzlINHRyLWxBZ0Z6LThyOWRpUEU1TWh4Z3ZJRkJMMHB3QkZBNUJTOHN6X3RoYzJxT2JNa2s0LXpNWjVBRi1VUHhtMFJDVVZlNFNQYnJGRGFxdk5pQjNoTi1rQlpVZmN2M0kyOHV4VHfSAdcBQVVfeXFMUDhHODRRcHg4QUtPNmhrR3B5allWVEFwQTYxdmo3T3dpbEs3QW1BS253T0pzSS1OMjFLZjdNUTlFeHpBdG1RWlFKbXFQTjNrN29zcEN0ZDItQ3JzNG11Y3YwclQ1aXk5aGRNZnB5dGVOQXcwM0tsQWZjZUc3MElsS0hRamN4OVZhNUtYWXAzU05hU2tucGw1RkRJTVhnTUhyNmNvV3U0aG01NUQtcVVObnNBa0RDUS14RC1nZkYtX1JnYk01aldtdUVfaGlteXJJNVViTWpJRkk?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-c02ff9834ce8",
      "date": "2026-09-12",
      "dt": "2026-09-12T00:31:16Z",
@@ -225,6 +862,18 @@
      "region": "Southeast Asia",
      "summary": "M4.6 earthquake 45 km NNE of Ruteng, Indonesia.",
      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgwe",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-64ed2b245911",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T22:51:28Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Europe",
+     "summary": "Arsenal won their fourth match of the season, beating Sunderland; manager Arteta criticized penalty decision.",
+     "url": "https://www.aljazeera.com/sports/2026/9/12/arteta-seethes-at-sunderland-penalty-decision-despite-arsenal-win?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -519,6 +1168,43 @@
      "calls": []
     },
     {
+     "id": "evt-098acaaa9bc4",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:02:31Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Southern Africa",
+     "summary": "A forest fire started on 09/09/2026 in Angola and continued until 12/09/2026.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031923",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "USO",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 55,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "Brent",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      }
+     ]
+    },
+    {
      "id": "evt-aa577d496eb4",
      "date": "2026-09-12",
      "dt": "2026-09-12T07:33:24Z",
@@ -551,6 +1237,18 @@
      "region": "US",
      "summary": "Rising oil prices may affect Chevron's bull case, according to analysis.",
      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONl9VQ0RCQ1VQbFUwUVhWWVZNdjYzTm1qejhQNldzLW1qTlh0ZkliTEt5UW9jaXZuWHhKRl9DSGpsMVZKQ1A4NGdQVkdGSG9OU3dfZGFiazN3Y2RvU0lEeHFuWXFvN2czeGJhVDl5cVRoZzBvY2x0b19jaEtiaUJKdnVEZzdiMTRhZHZhTjJadGU2Wm13aFoySFZwZDExWE5CeEU0QTJuZGRLeHUtTmxZSm1mUmQ4WjhKcEE3LdIBwgFBVV95cUxNSDAwb21iYTFFVG9KTHJuU1JUam5Zd0xKZXNkaHp2WVlpQklQTTY3UW96LWM4VFhreklBbnYwOXlHTk5pNzI4RFNkREZQc3dUY0s5cXVoVDRFWGFUVHUxaUpZS3pUMGNGczZ0aFZmU2NjaXR0aXZ0cHh5MWJCQVJ0d0RJOGdvNDVsQjlIdlJZdlR4bDhLRlhyWF9VLVF2MTJMMzNURzAxUmV1YzBlaU1IeEtabWlzcUUtUmlXRlRTOTVRdw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-c95e0da22ae7",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T22:37:03Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "Europe",
+     "summary": "Hundreds of thousands protest in 20 German cities, demanding banning of the far‑right Alternative for Germany party.",
+     "url": "https://www.aljazeera.com/news/2026/9/12/tens-of-thousands-march-across-germany-to-protest-far-right-party-afd?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -657,6 +1355,43 @@
      ]
     },
     {
+     "id": "evt-5f2cc20b7777",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:51:05Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Ukraine",
+     "summary": "More than 300 Russians missing after 2024 Kursk offensive in Ukraine, officials say.",
+     "url": "https://www.bbc.co.uk/news/articles/c62ene9kr71o?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "SLX",
+       "direction": "up",
+       "threshold_pct": 2.0,
+       "confidence": 60,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "Brent",
+       "direction": "up",
+       "threshold_pct": 2.0,
+       "confidence": 65,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 2.0,
+       "confidence": 70,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      }
+     ]
+    },
+    {
      "id": "evt-71f7a48116a4",
      "date": "2026-09-12",
      "dt": "2026-09-12T23:03:30Z",
@@ -704,6 +1439,43 @@
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWjNtU25pb1laREVSRUtibXBwY01PbkZ0d2w3d3U5Z3JVTVdRSnNIRXhsb3Z5TVBFSWtReHBUdjJVMFFBelhpRTlCb2YyOEtYbGdWYzBjSGlKbGx2LWlLWVBic3h3UTJ5TXp4RDJoN2Z3WEtJWUt1SFpual9aN0VmZDVHdkR3WjlxcFhlQkxReG9CR0tHSE5iRlpuNmZoTF9qdENF?oc=5",
      "moved": [],
      "calls": []
+    },
+    {
+     "id": "evt-580d429cacaf",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T22:40:25Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Oceania",
+     "summary": "Magnitude 4.3 earthquake struck 31 km ESE of Lata, Solomon Islands.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th23",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "XAU/USD",
+       "direction": "range",
+       "threshold_pct": 1.0,
+       "confidence": 30,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "COPPER",
+       "direction": "range",
+       "threshold_pct": 1.0,
+       "confidence": 30,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "ALUM",
+       "direction": "range",
+       "threshold_pct": 1.0,
+       "confidence": 30,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      }
+     ]
     },
     {
      "id": "evt-8762502e2dda",
@@ -839,6 +1611,18 @@
      "calls": []
     },
     {
+     "id": "evt-13f977d23d67",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:25:22Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "US",
+     "summary": "Alexander Zverev defeats Ben Shelton in the US Open men's singles final in New York, ending a 23‑year Grand Slam drought for American men.",
+     "url": "https://www.aljazeera.com/sports/2026/9/12/ben-shelton-alexander-zverev-us-open-2026-men-final-singles?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-9295155557a2",
      "date": "2026-09-12",
      "dt": "2026-09-12T10:14:22Z",
@@ -943,6 +1727,18 @@
      "region": "Middle East",
      "summary": "Iran war increasingly difficult for Trump administration to justify.",
      "url": "https://www.aljazeera.com/video/the-listening-post/2026/9/12/selling-the-war-purges-polygraphs-and-propaganda?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-fccc59ee7112",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:01:19Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Southern Africa",
+     "summary": "Forest fire started in Namibia on 10/09/2026, ongoing until 12/09/2026.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031920",
      "moved": [],
      "calls": []
     },
@@ -1079,6 +1875,18 @@
      "calls": []
     },
     {
+     "id": "evt-67bb1d9a843f",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:01:31Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Southern Africa",
+     "summary": "Forest fire started in Namibia on 10/09/2026, ongoing until 12/09/2026.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031921",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-5d7a6245795d",
      "date": "2026-09-12",
      "dt": "2026-09-12T15:58:53Z",
@@ -1099,6 +1907,18 @@
      "region": "US",
      "summary": "Amazon's $110 steel storage shed hits lowest price in 30 days.",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9UbDRPSlB4R2dNYk5tNmdWbVU1V1B2OHRwMGlBeUZKbHkzUFZWTFIxRWJORWZCVTBJVTJXRkwwUFNMWjYwUXlnazlDa09tSWIwcG54MVdVZmsybnBMekZYQmNYM01WSEFMb2kwU1RvdlcybTJLN2w4QXAtUQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-87d76a4f9f1e",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:02:21Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Southern Africa",
+     "summary": "A forest fire started on 09/09/2026 in Namibia and continued until 12/09/2026.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031922",
      "moved": [],
      "calls": []
     },
@@ -1171,6 +1991,18 @@
      "region": "China",
      "summary": "Study examines modern love trends among young Chinese.",
      "url": "https://www.aljazeera.com/video/101-east/2026/9/12/chinas-marriage-crisis-the-search-for-love?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-7752d3362e41",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:50:03Z",
+     "event_type": "other",
+     "severity": 3,
+     "region": "Philippines",
+     "summary": "Philippine Coast Guard reports death toll rises to 76 after fire on M/V June Aster ferry.",
+     "url": "https://www.aljazeera.com/news/2026/9/12/death-toll-from-philippine-ferry-fire-rises-to-76?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -1343,6 +2175,18 @@
      "calls": []
     },
     {
+     "id": "evt-2ee3ae4e3ccc",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T22:52:29Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "US",
+     "summary": "Magnitude 3.11 earthquake occurred 16 km NE of Milford, Utah.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/uu80156586",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-b36c0efc53a4",
      "date": "2026-09-12",
      "dt": "2026-09-12T13:00:32Z",
@@ -1399,6 +2243,18 @@
      "region": "Middle East",
      "summary": "Saudi Arabia may trigger the Mecca Pact if Houthi attacks continue, prompting potential intervention by Pakistan and Turkey, though direct involvement in Yemen is unlikely.",
      "url": "https://www.aljazeera.com/opinions/2026/9/12/will-the-houthi-attacks-activate-the-mecca-pact?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-2eb6c439558b",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:14:28Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "US",
+     "summary": "Kazakh Elena Rybakina beats Belarusian Aryna Sabalenka in the US Open women's final, claiming the title and becoming world No.1.",
+     "url": "https://www.aljazeera.com/sports/2026/9/12/elena-rybakina-defeats-aryna-sabalenka-in-us-open-womens-singles-final?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -1547,6 +2403,18 @@
      "calls": []
     },
     {
+     "id": "evt-aeca8b1f5cd1",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:03:30Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Southeast Asia",
+     "summary": "A forest fire started on 09/09/2026 in Indonesia and continued until 12/09/2026.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031925",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-a456990dc46e",
      "date": "2026-09-12",
      "dt": "2026-09-12T12:19:56Z",
@@ -1663,6 +2531,18 @@
      "region": "Black Sea",
      "summary": "The first naval battle between two unmanned surface vessels occurred in the Black Sea.",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/first-naval-battle-between-drones-takes-place-in-the-black-sea?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-5e4dce457210",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T22:10:18Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Global",
+     "summary": "USA beat Spain 76‑66 in the Women’s Basketball World Cup semifinal, securing a spot in the final against France.",
+     "url": "https://www.aljazeera.com/sports/2026/9/12/usa-edge-spain-to-book-womens-basketball-world-cup-final-against-france?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -2051,6 +2931,18 @@
      "calls": []
     },
     {
+     "id": "evt-ccb656b61e9c",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:56:58Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Alaska",
+     "summary": "15-year-old boy rescued after two days clinging to capsized boat in Alaska’s Bering Sea.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/teen-rescued-after-clinging-to-boat-for-two-days-off-alaska?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-3db385021681",
      "date": "2026-09-12",
      "dt": "2026-09-12T09:53:59Z",
@@ -2239,6 +3131,18 @@
      "region": "Central America",
      "summary": "A 4.2 magnitude earthquake struck 57 km south-southwest of Ocós, Guatemala.",
      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tgxv",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-d18781c9ef36",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:01:48Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Caribbean",
+     "summary": "Magnitude 3.4 earthquake struck 157 km NNE of Vieques, Puerto Rico.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71531573",
      "moved": [],
      "calls": []
     },
@@ -2651,6 +3555,18 @@
      "calls": []
     },
     {
+     "id": "evt-a819cf29bfc0",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:43:32Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Spain",
+     "summary": "Real Madrid beat Rayo Vallecano 4-1 in La Liga, Mbappe scored twice.",
+     "url": "https://www.aljazeera.com/sports/2026/9/12/mbappe-double-helps-real-madrid-thump-rayo-vallecano-4-1-in-la?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-de5a3be57251",
      "date": "2026-09-12",
      "dt": "2026-09-12T11:01:30Z",
@@ -2999,6 +3915,18 @@
      "calls": []
     },
     {
+     "id": "evt-d8908c1c6083",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T21:41:44Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Eureka Lithium Corp. reported its share price movement following a regulatory filing.",
+     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QNnpMSk10R3hEbnlIbW10OGZBQjVNc0VxUkJUQVhUcmRaVTNmcTl4ZUFrTFpEa2l4OVp6WHZXLWk0cHNKQ3J0cW9PUG83RXFWc0RmUmFKVkVEZFBacVRYMkMyQ2pyQ2JnQjluX2dvZTQ0MF9HZ05Uc01B?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-2047fbb22bc0",
      "date": "2026-09-12",
      "dt": "2026-09-12T17:51:45Z",
@@ -3007,6 +3935,18 @@
      "region": "Europe",
      "summary": "A magnitude 4.8 earthquake occurred 17 km WSW of Lixoúri, Greece, according to USGS.",
      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th16",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e82d5fd32332",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:03:07Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Southern Africa",
+     "summary": "A forest fire started on 09/09/2026 in Zambia and continued until 12/09/2026.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031924",
      "moved": [],
      "calls": []
     },
@@ -3239,6 +4179,18 @@
      "calls": []
     },
     {
+     "id": "evt-f7f444259fff",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T22:14:03Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "Oceania",
+     "summary": "A 4.3‑magnitude earthquake struck 90 km NNE of Rabaul, Papua New Guinea.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th21",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-f2ca5ce2f748",
      "date": "2026-09-12",
      "dt": "2026-09-12T23:02:21Z",
@@ -3463,6 +4415,18 @@
      "region": "Middle East",
      "summary": "In Gaza, couples hold weddings in tents as acts of defiance amid ongoing conflict.",
      "url": "https://www.aljazeera.com/features/longform/2026/9/12/how-to-plan-a-wedding-when-you-dont-know-what-tomorrow-will-bring?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e5c4a97eec1c",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T22:00:28Z",
+     "event_type": "other",
+     "severity": 1,
+     "region": "Netherlands",
+     "summary": "Meena Geltink and Minal Tijssen, adopted in Mumbai, discovered they were sisters after a DNA test.",
+     "url": "https://www.bbc.co.uk/news/articles/c5y6z72z9lno?at_medium=RSS&at_campaign=rss",
      "moved": [],
      "calls": []
     },
@@ -3875,6 +4839,18 @@
      "calls": []
     },
     {
+     "id": "evt-e36ac7aa9005",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T23:30:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Amazon reports lowest price in 30 days for $110 steel storage shed with extra-wide door.",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9UbDRPSlB4R2dNYk5tNmdWbVU1V1B2OHRwMGlBeUZKbHkzUFZWTFIxRWJORWZCVTBJVTJXRkwwUFNMWjYwUXlnazlDa09tSWIwcG54MVdVZmsybnBMekZYQmNYM01WSEFMb2kwU1RvdlcybTJLN2w4QXAtUQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-f65ec2d7ac99",
      "date": "2026-09-12",
      "dt": "2026-09-12T05:08:24Z",
@@ -3931,6 +4907,18 @@
      "region": "Middle East",
      "summary": "Iran officials praise Houthis' capture of Yemen's Red Sea coast, but no plans announced to close Bab al-Mandeb.",
      "url": "https://www.aljazeera.com/news/2026/9/12/divine-triumph-iran-celebrates-houthis-capture-of-yemens-red-sea-coast?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-2d42b3cb9f24",
+     "date": "2026-09-12",
+     "dt": "2026-09-12T21:38:24Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Europe",
+     "summary": "First naval battle between two unmanned surface vessels (USVs) occurs in the Black Sea.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/first-naval-battle-between-drones-takes-place-in-the-black-sea?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -17395,7 +18383,32 @@
      "summary": "Maine officials warn that a heating oil price spike will affect families this winter.",
      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQbUthXzJVcTZoVEtnN212U3g2Q1lSeFRkSnZWT203aXdVa1Rsb1hIVUZLZDRaaXl0S090Ni0teWdtU0ZMcGlRMlJLeklhWjQySVczTjRpM01qU0hWWVdRX05abUNWSTM1MVpjVDAybmZZcVV0c3ZZanRzZW42cl9zSDlxdVhDZVcwM003d19CdThoZHhFRHFuYjM5UFlRUFUwSmpxSW9GdEM4TGE30gHAAUFVX3lxTFAyeGVNa1BTem4taWVCUkxjOFoxUC1TaEVQNFJhbXJRQUh1NEZSTnJiSDFYQVlQVGE3aEI2bHZfRVBReTFtRThzV09Sd1FtVzZLOU9UMllNMDNydFU3WFlNN1JqRFVkdXp6TFVsNEc0LUE1ZFh6Tzk5anp0U2VfUkhPN2tnd3N3SkFHNGo0Z3BPVTNXWXMza3ZKNmpBcXNlN2pkNkxZdGRBc2hGOXNQWVBzRk9SN1ZTWVdjZ3JraDVnWQ?oc=5",
      "moved": [],
-     "calls": []
+     "calls": [
+      {
+       "asset": "XLE",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 65,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "HEATOIL",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 70,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      }
+     ]
     },
     {
      "id": "evt-c2bb7cc903a2",
@@ -29071,7 +30084,32 @@
      "summary": "Israel claims operational control of the strategic Ali al-Taher ridge in Lebanon, while Hezbollah has not yet commented.",
      "url": "https://www.aljazeera.com/news/2026/9/5/israel-claims-control-of-lebanons-key-ali-al-taher-ridge-what-that-means?traffic_source=rss",
      "moved": [],
-     "calls": []
+     "calls": [
+      {
+       "asset": "Brent",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 70,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "XAU/USD",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 60,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 70,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      }
+     ]
     },
     {
      "id": "evt-c3e09db379c8",

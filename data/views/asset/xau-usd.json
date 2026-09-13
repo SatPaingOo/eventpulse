@@ -2593,6 +2593,19 @@
    "outcome": null
   },
   {
+   "id": "pred-763dc712c836",
+   "event_id": "evt-580d429cacaf",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 1.0,
+   "confidence": 30,
+   "reasoning": "Local mining impact on gold unlikely to shift global gold price significantly.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-3642ee49816d",
    "event_id": "evt-679fe02213d9",
    "created_at": "2026-09-11",
@@ -2602,6 +2615,19 @@
    "threshold_pct": 1.5,
    "confidence": 60,
    "reasoning": "Lower geopolitical tension cuts safe‑haven demand for gold, nudging price lower.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-dedbd078a8fe",
+   "event_id": "evt-54b2f069f0ef",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 60,
+   "reasoning": "Regional instability boosts safe‑haven demand for gold.",
    "status": "open",
    "outcome": null
   },
@@ -3044,32 +3070,6 @@
    "threshold_pct": 1.0,
    "confidence": 55,
    "reasoning": "Political uncertainty in Europe may boost safe‑haven demand, lifting gold.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-343ab397cfe3",
-   "event_id": "evt-270da9c5bfff",
-   "created_at": "2026-09-07",
-   "expires_at": "2026-09-14",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Safe‑haven demand rises as war risk escalates, lifting gold.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-5d871d9cacca",
-   "event_id": "evt-123c45d88de2",
-   "created_at": "2026-09-07",
-   "expires_at": "2026-09-14",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "US political uncertainty pushes investors to safe‑haven gold.",
    "status": "open",
    "outcome": null
   }

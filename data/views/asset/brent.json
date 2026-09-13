@@ -2725,6 +2725,19 @@
    "outcome": null
   },
   {
+   "id": "pred-c36df4a8f28e",
+   "event_id": "evt-54b2f069f0ef",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 70,
+   "reasoning": "Geopolitical tension in the region increases supply uncertainty, lifting Brent.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-e4102abb8ea9",
    "event_id": "evt-b68bec1ccdee",
    "created_at": "2026-09-11",
@@ -2773,6 +2786,19 @@
    "threshold_pct": 1.5,
    "confidence": 60,
    "reasoning": "Strategic chokepoint threat tightens global oil flow, boosting Brent prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-0fbc54f079a7",
+   "event_id": "evt-5f2cc20b7777",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 65,
+   "reasoning": "Global oil supply concerns from Russian activity raise Brent prices.",
    "status": "open",
    "outcome": null
   },
@@ -2916,6 +2942,19 @@
    "threshold_pct": 2.0,
    "confidence": 55,
    "reasoning": "Middle East conflict risk supports higher Brent crude prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-d4fb2b5064a1",
+   "event_id": "evt-098acaaa9bc4",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Angola fire threatens oil output, tightening supply, likely pushes Brent higher.",
    "status": "open",
    "outcome": null
   },
@@ -3163,45 +3202,6 @@
    "threshold_pct": 2.0,
    "confidence": 60,
    "reasoning": "Middle East stability cuts risk premium, compressing global crude prices.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-34c1483fb74c",
-   "event_id": "evt-3d49b60c85d8",
-   "created_at": "2026-09-08",
-   "expires_at": "2026-09-15",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 3.5,
-   "confidence": 60,
-   "reasoning": "Rubio's visit signals support for oil exports in Ecuador/Colombia, raising oil prices.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-0b33128438f3",
-   "event_id": "evt-d452ad1d47ef",
-   "created_at": "2026-09-08",
-   "expires_at": "2026-09-15",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Panama Canal traffic cut by El Niño raises shipping costs, boosting oil transport costs, pushing prices up.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-82344a486a3e",
-   "event_id": "evt-3759d69aa9f2",
-   "created_at": "2026-09-07",
-   "expires_at": "2026-09-14",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Alaska quake may affect offshore rigs, slightly tightening global oil supply.",
    "status": "open",
    "outcome": null
   }

@@ -2278,52 +2278,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-dbf37021a4e3",
-   "kind": "causal_notes",
-   "asset": "USO",
-   "move_id": "move-USO-2026-09-01",
-   "move_date": "2026-09-01",
-   "event_ids": [
-    "evt-d0c07be49111",
-    "evt-e39aa4b76748"
-   ],
-   "reasoning": "Earthquake near South Sandwich Islands could disrupt offshore oil operations or shipping lanes, tightening supply and pushing USO up.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-11T10:13:46Z",
-   "events": [
-    {
-     "id": "evt-d0c07be49111",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "South Atlantic",
-     "summary": "Magnitude 5.2 earthquake struck the South Sandwich Islands region.",
-     "date": "2026-09-02"
-    },
-    {
-     "id": "evt-e39aa4b76748",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "South Sandwich Islands",
-     "summary": "USGS reports a magnitude 5.2 earthquake near the South Sandwich Islands.",
-     "date": "2026-09-02"
-    }
-   ]
-  },
-  {
-   "id": "note-d9c476207a2c",
-   "kind": "causal_notes",
-   "asset": "USO",
-   "move_id": "move-USO-2026-08-17",
-   "move_date": "2026-08-17",
-   "event_ids": [],
-   "reasoning": "No candidate events; likely a liquidity or microstructure effect, not tied to a specific news event.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-07T16:52:40Z",
-   "events": []
-  },
-  {
    "id": "note-873cd645000f",
    "kind": "causal_notes",
    "asset": "USO",
@@ -2532,6 +2486,19 @@
    "events": []
   },
   {
+   "id": "note-dd6b06f9086b",
+   "kind": "causal_notes",
+   "asset": "USO",
+   "move_id": "move-USO-2026-05-01",
+   "move_date": "2026-05-01",
+   "event_ids": [],
+   "reasoning": "USO fell 2.9% likely due to a broader oil price decline, not linked to any listed event.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T10:49:51Z",
+   "events": []
+  },
+  {
    "id": "note-3d7684bff516",
    "kind": "causal_notes",
    "asset": "USO",
@@ -2581,6 +2548,19 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-10T20:16:00Z",
+   "events": []
+  },
+  {
+   "id": "note-8c4af22b9bd5",
+   "kind": "causal_notes",
+   "asset": "USO",
+   "move_id": "move-USO-2026-03-31",
+   "move_date": "2026-03-31",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely due to broader oil market dynamics or micro‑price movements.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T10:49:22Z",
    "events": []
   },
   {
@@ -2673,6 +2653,19 @@
    "hypothesis_status": "proposed",
    "written_at": "2026-09-08T01:55:06Z",
    "events": []
+  },
+  {
+   "id": "note-572dad346ec0",
+   "kind": "causal_notes",
+   "asset": "USO",
+   "move_id": "move-USO-2026-03-06",
+   "move_date": "2026-03-06",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely due to broader oil market dynamics or investor sentiment shift.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T10:49:48Z",
+   "events": []
   }
  ],
  "predictions": [
@@ -2686,6 +2679,19 @@
    "threshold_pct": 1.5,
    "confidence": 55,
    "reasoning": "Oil ETF tracks WTI; expected to rise with oil price.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-a24c2c133196",
+   "event_id": "evt-098acaaa9bc4",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Angola fire threatens oil output, tightening supply, likely pushes USO higher.",
    "status": "open",
    "outcome": null
   },
