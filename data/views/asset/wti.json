@@ -2294,32 +2294,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-a2896e6c0b87",
-   "kind": "causal_notes",
-   "asset": "WTI",
-   "move_id": "move-WTI-2026-06-16",
-   "move_date": "2026-06-16",
-   "event_ids": [],
-   "reasoning": "No listed events; likely due to global supply concerns or inventory drawdown.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:54:00Z",
-   "events": []
-  },
-  {
-   "id": "note-1305094fae0a",
-   "kind": "causal_notes",
-   "asset": "WTI",
-   "move_id": "move-WTI-2026-06-15",
-   "move_date": "2026-06-15",
-   "event_ids": [],
-   "reasoning": "No listed events; likely due to market volatility or supply concerns, causing a 4.9% drop in WTI.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:29:58Z",
-   "events": []
-  },
-  {
    "id": "note-a031cd3600f2",
    "kind": "causal_notes",
    "asset": "WTI",
@@ -2411,6 +2385,19 @@
    "events": []
   },
   {
+   "id": "note-11664a47c36b",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-05-20",
+   "move_date": "2026-05-20",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely a general market sell‑off or supply concerns unrelated to listed events.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T15:19:06Z",
+   "events": []
+  },
+  {
    "id": "note-ef84d4531dcc",
    "kind": "causal_notes",
    "asset": "WTI",
@@ -2447,6 +2434,19 @@
    "confidence": 30,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T10:30:25Z",
+   "events": []
+  },
+  {
+   "id": "note-322746bdbfdf",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-05-04",
+   "move_date": "2026-05-04",
+   "event_ids": [],
+   "reasoning": "No listed events; likely driven by market sentiment or technical factors rather than a specific news event.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T15:17:41Z",
    "events": []
   },
   {
@@ -2803,6 +2803,19 @@
    "outcome": null
   },
   {
+   "id": "pred-b5ca01fdc1ee",
+   "event_id": "evt-babd1040bbae",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 3.0,
+   "confidence": 60,
+   "reasoning": "Middle East tensions raise supply risk, pushing crude prices higher.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-880969ffa4dd",
    "event_id": "evt-54b2f069f0ef",
    "created_at": "2026-09-11",
@@ -2838,6 +2851,19 @@
    "threshold_pct": 2.0,
    "confidence": 60,
    "reasoning": "Diplomatic break could tighten Gulf supply routes, boosting WTI prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-784cf5438924",
+   "event_id": "evt-a1a95136ab48",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 58,
+   "reasoning": "Escalation raises Middle East supply risk, boosting oil prices.",
    "status": "open",
    "outcome": null
   },
@@ -3176,32 +3202,6 @@
    "threshold_pct": 2.0,
    "confidence": 70,
    "reasoning": "Yemen conflict threatens Bab al-Mandab shipping lanes, raising supply risk and pushing WTI higher.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-b7e3713b50fd",
-   "event_id": "evt-45693cd64b9d",
-   "created_at": "2026-09-09",
-   "expires_at": "2026-09-16",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 58,
-   "reasoning": "Higher energy prices lift crude futures; political boost to GOP favors pro‑energy policies.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-87ac59c78e11",
-   "event_id": "evt-6a2cc0d4f569",
-   "created_at": "2026-09-09",
-   "expires_at": "2026-09-16",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 3.0,
-   "confidence": 60,
-   "reasoning": "Canada supplies significant crude to US; trade friction curtails flows, likely dampening WTI in the short term.",
    "status": "open",
    "outcome": null
   }

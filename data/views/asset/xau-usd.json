@@ -2396,6 +2396,19 @@
    "events": []
   },
   {
+   "id": "note-79dc24ab6980",
+   "kind": "causal_notes",
+   "asset": "XAU/USD",
+   "move_id": "move-XAU/USD-2026-06-18",
+   "move_date": "2026-06-18",
+   "event_ids": [],
+   "reasoning": "No events listed; likely a general market sell‑off or macro shift affecting gold.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-13T15:19:07Z",
+   "events": []
+  },
+  {
    "id": "note-d2c3af5a4ac4",
    "kind": "causal_notes",
    "asset": "XAU/USD",
@@ -2593,6 +2606,19 @@
    "outcome": null
   },
   {
+   "id": "pred-f126918cd58e",
+   "event_id": "evt-a1a95136ab48",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Conflict spurs safe‑haven demand for gold, supporting price gains.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-763dc712c836",
    "event_id": "evt-580d429cacaf",
    "created_at": "2026-09-11",
@@ -2667,6 +2693,19 @@
    "threshold_pct": 1.2,
    "confidence": 60,
    "reasoning": "Safe‑haven demand rises as political risk spikes.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-3ec7b8f0e4e6",
+   "event_id": "evt-babd1040bbae",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 55,
+   "reasoning": "Geopolitical risk drives investors to gold as safe haven.",
    "status": "open",
    "outcome": null
   },
@@ -3044,32 +3083,6 @@
    "threshold_pct": 1.5,
    "confidence": 50,
    "reasoning": "Political instability drives risk aversion, boosting gold demand.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-823a4a876a5f",
-   "event_id": "evt-b9a88e8564a1",
-   "created_at": "2026-09-07",
-   "expires_at": "2026-09-14",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 65,
-   "reasoning": "Escalating geopolitical tension raises safe‑haven demand for gold.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-a08f26179753",
-   "event_id": "evt-3092f85f077a",
-   "created_at": "2026-09-07",
-   "expires_at": "2026-09-14",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Political uncertainty in Europe may boost safe‑haven demand, lifting gold.",
    "status": "open",
    "outcome": null
   }

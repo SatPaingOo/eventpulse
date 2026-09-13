@@ -2881,6 +2881,19 @@
    "outcome": null
   },
   {
+   "id": "pred-5fa22da7e083",
+   "event_id": "evt-babd1040bbae",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 3.0,
+   "confidence": 60,
+   "reasoning": "Regional instability boosts global oil demand risk premium.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-0aac0744bfdb",
    "event_id": "evt-8cb4a5f21109",
    "created_at": "2026-09-11",
@@ -2942,6 +2955,19 @@
    "threshold_pct": 2.0,
    "confidence": 55,
    "reasoning": "Middle East conflict risk supports higher Brent crude prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-33b31b0e2f11",
+   "event_id": "evt-a1a95136ab48",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 57,
+   "reasoning": "Heightened geopolitical tension lifts Brent as investors price supply concerns.",
    "status": "open",
    "outcome": null
   },
@@ -3176,32 +3202,6 @@
    "threshold_pct": 1.5,
    "confidence": 58,
    "reasoning": "Regional instability can raise Brent via risk‑premium on Middle East oil.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-f97d8913686b",
-   "event_id": "evt-35ec254b7f68",
-   "created_at": "2026-09-08",
-   "expires_at": "2026-09-15",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 65,
-   "reasoning": "Middle East conflict risk lifts global oil supply concerns, boosting Brent.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-c87603dcdb94",
-   "event_id": "evt-4586db5cdbb2",
-   "created_at": "2026-09-08",
-   "expires_at": "2026-09-15",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 2.0,
-   "confidence": 60,
-   "reasoning": "Middle East stability cuts risk premium, compressing global crude prices.",
    "status": "open",
    "outcome": null
   }
