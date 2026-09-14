@@ -1,6 +1,169 @@
 {
  "days": [
   {
+   "date": "2026-09-14",
+   "events": [
+    {
+     "id": "evt-c13ad086254a",
+     "date": "2026-09-14",
+     "dt": "2026-09-14T00:44:10Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "US",
+     "summary": "A magnitude 2.49 earthquake struck 1 km east of Woodside, California, reported by USGS.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75435317",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-f6eb0eded4cc",
+     "date": "2026-09-14",
+     "dt": "2026-09-14T01:02:45Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Saudi Arabia",
+     "summary": "Heavy rain and thunderstorms hit Mecca, affecting worshippers at the Grand Mosque.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/aje-onl-nf_heavy-rain-falls-over-the-kaaba-in-mecca-130926?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b4599e548b51",
+     "date": "2026-09-14",
+     "dt": "2026-09-14T01:42:08Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Indonesia",
+     "summary": "A 4.8 magnitude earthquake struck 119 km south of Dampit, Indonesia.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th9m",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-c6eb4c9d81cf",
+     "date": "2026-09-14",
+     "dt": "2026-09-14T00:53:47Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Indonesia",
+     "summary": "A 4.6 magnitude earthquake occurred 55 km NNW of Ruteng, Indonesia.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th9i",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-0b61c547b03c",
+     "date": "2026-09-14",
+     "dt": "2026-09-14T00:14:09Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Houthi fighters are advancing toward Saudi-backed government-held areas in Marib and Taiz, Yemen.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/yemens-houthis-advance-on-government-strongholds-of-marib-taiz?traffic_source=rss",
+     "moved": [
+      {
+       "asset": "HEATOIL",
+       "asset_label": "Heating Oil",
+       "date": "2026-09-13",
+       "pct_change": 1.611,
+       "direction": "up",
+       "reasoning": "Houthi advance in Yemen threatens Red Sea shipping lanes, tightening crude supply and lifting heating oil prices.",
+       "confidence": 60,
+       "linked_event_ids": [
+        "evt-0b61c547b03c"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-487f6bc6e969",
+     "date": "2026-09-14",
+     "dt": "2026-09-14T01:58:59Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "Sweden",
+     "summary": "Swedish election authority projects left-wing opposition bloc will win a three-seat majority.",
+     "url": "https://www.bbc.co.uk/news/articles/c0qx5d79kdeo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-6b76a9d11a01",
+     "date": "2026-09-14",
+     "dt": "2026-09-14T01:08:01Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "Syria",
+     "summary": "Protests erupted in Syria after government raised fuel prices.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/14-09-sv-syria-protest-fuel-hikes-sy?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-c1a8bdecceb4",
+     "date": "2026-09-14",
+     "dt": "2026-09-14T00:00:00Z",
+     "event_type": "geopolitical",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Oman announced that Hormuz talks with Iran and Gulf states have been postponed.",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/9/14/iran-war-live-oman-says-hormuz-talks-with-iran-gulf-states-postponed?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-5a77318005ad",
+     "date": "2026-09-14",
+     "dt": "2026-09-14T00:37:12Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "US",
+     "summary": "Vandals sprayed red paint on a statue of Charlie Kirk outside Turning Point USA headquarters in the US.",
+     "url": "https://www.aljazeera.com/news/2026/9/14/charlie-kirk-statue-vandalised-outside-turning-point-usa-headquarters?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-ef77d32f83bc",
+     "date": "2026-09-14",
+     "dt": "2026-09-14T00:08:38Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Analyst predicts Netflix stock will increase by 2028, urging investors to buy NFLX now.",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNaFBRcEhGclppMlEyeHphekFrbjZnY2JYenRNc1RGNElwZkw5MWJMd0h2WWxoV2tWLVN4RUtFamFJSWZ6bkp1UUxaeWpvV1lNejAxakE1Uy1Sa2REcHZ5NVR6LUZBS3N6dXZhUUVCM1dtRTN5NTlMUmhHYUFzbV9wRG14R3YzejkyVTdfejc5T1dRYndrc1VQWnZ5UzhqWUJ0eUtnTmRHblJlcmdBWTZwWjVCOWYta190c3hWQTNqUmRMU1pUV1BuelZwcUdYZHM3NUhzV0E0WkRKQ2VlODVyVWlrZUJCcHA2N3c?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-6c56a0d98317",
+     "date": "2026-09-14",
+     "dt": "2026-09-14T00:04:10Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Analyst predicts Netflix stock will increase by 2028, urging investors to buy NFLX now.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdG92X21lVFNtUEZsa0R4MUZYSlVsQ2lya2hiQVlINHdNMFV4a3czWlNqVVZsNTJLR3hQZW1GRFZCV2RjbjBCdUR4T19jZmo4TFNNbDd6cDU3Wlh2Q0VSMDBqUE1peGRyRnVRcDl3NWxCVXMzdjExakszVkhlNkFicEFDZXZmdDVSMnpaTnFOUlowQ05mYmFjQg?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e470cc3a4ce7",
+     "date": "2026-09-14",
+     "dt": "2026-09-14T00:49:58Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "The Motley Fool recommends buying Amazon and two other AI stocks with $5,000.",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPa2ZleFRCWjBla044cHAzNVYzb0tKODB5QzNJMDNrb2dNWE5DRU90dG84NmFwakJXdFBBb1I0d2lsVWNGTnhmQWU2V3l4dmNFS1ZhMy1TZlU1OXgxdGYwaHphdzFtcWx0TUxaLUVVMVdsQ0R1QXQ0TEt4SUFwY2JXYi1lQUwzX3p5RHpRTk1QZXpIdUwzUWRn?oc=5",
+     "moved": [],
+     "calls": []
+    }
+   ],
+   "moves": []
+  },
+  {
    "date": "2026-09-13",
    "events": [
     {
@@ -37,6 +200,18 @@
      "calls": []
     },
     {
+     "id": "evt-5bdced917855",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:21:35Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Asia",
+     "summary": "USGS reports a magnitude 4.2 earthquake 46 km south-southwest of Hualien City, Taiwan.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th7w",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-04d233b0fefc",
      "date": "2026-09-13",
      "dt": "2026-09-13T13:39:12Z",
@@ -45,6 +220,18 @@
      "region": "North America",
      "summary": "A 2.8 magnitude earthquake struck 51 km WNW of Nikiski, Alaska.",
      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026seaxgj",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-f02122c7d43f",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:41:43Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Oceania",
+     "summary": "A 4.9 magnitude earthquake struck 86 km south-southwest of Isangel, Vanuatu.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th81",
      "moved": [],
      "calls": []
     },
@@ -86,6 +273,67 @@
      ]
     },
     {
+     "id": "evt-214273649888",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:34:36Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "US",
+     "summary": "President Trump announced removal of all Irish whiskey tariffs as his two-day visit ends.",
+     "url": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-5fb693e33be9",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:02:41Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Africa",
+     "summary": "Forest fire started in Angola on 10/09/2026, ongoing until 13/09/2026.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031944",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-7874b98bc761",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:50:30Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Apple repurchased over $880B of its shares during Tim Cook's tenure, boosting shareholder returns.",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObXFHS282X0ZSQjR2bzBIUkZuRDVoQVBFRTBOS1ExNy0ycmc2RUJXUVhmdnZSSVAzSWs0ZEVwQ1pLLUxmZmtkWUV4Y2JTY045MHVueXNidWpLSDZFdWZOYTRYckVMUTJkNGVYdmZ1M3R2eDVQSDZZUzRzdzdJU3o3T3o1T3ExdHEwMHlDVWpKR2c?oc=5",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "NVDA",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 40,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "AAPL",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      },
+      {
+       "asset": "MSFT",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 40,
+       "expires_at": "2026-09-18",
+       "status": "open"
+      }
+     ]
+    },
+    {
      "id": "evt-4897081d0216",
      "date": "2026-09-13",
      "dt": "2026-09-13T12:54:45Z",
@@ -107,7 +355,32 @@
      "summary": "US President Trump urged Ukraine's Zelenskyy to halt attacks on Russian diesel infrastructure, citing global fuel shortages.",
      "url": "https://www.aljazeera.com/economy/2026/9/13/trump-tells-zelenskyy-to-stop-hitting-russian-diesel-supplies?traffic_source=rss",
      "moved": [],
-     "calls": []
+     "calls": [
+      {
+       "asset": "GASOLINE",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 55,
+       "expires_at": "2026-09-20",
+       "status": "open"
+      },
+      {
+       "asset": "Brent",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-09-20",
+       "status": "open"
+      },
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-09-20",
+       "status": "open"
+      }
+     ]
     },
     {
      "id": "evt-e5a7fedc302e",
@@ -170,6 +443,55 @@
      "calls": []
     },
     {
+     "id": "evt-a1d39d0a4d34",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T23:33:23Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "An Israeli quadcopter flew low over residential buildings in Gaza City, causing alarm.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/aje-onl-nf_israeli-quadcopter-terrorises-homes-in-gaza-city-130926?traffic_source=rss",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "XAU/USD",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 55,
+       "expires_at": "2026-09-20",
+       "status": "open"
+      },
+      {
+       "asset": "Brent",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-09-20",
+       "status": "open"
+      },
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 65,
+       "expires_at": "2026-09-20",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-ace32c3339c5",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T20:44:51Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Arctic",
+     "summary": "Warming Arctic could become commercial highway; Middle East conflict raises security concerns for shipping routes.",
+     "url": "https://www.aljazeera.com/video/inside-story/2026/9/13/can-a-warming-arctic-become-an-important-commercial-highway?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-9e1643bcee7e",
      "date": "2026-09-13",
      "dt": "2026-09-13T06:54:22Z",
@@ -191,7 +513,32 @@
      "summary": "Wildfire rages on Brac Island, Croatia, prompting emergency alert.",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/wildfire-rages-on-croatias-dalmatian-coast-island-of-brac?traffic_source=rss",
      "moved": [],
-     "calls": []
+     "calls": [
+      {
+       "asset": "NATGAS",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 58,
+       "expires_at": "2026-09-20",
+       "status": "open"
+      },
+      {
+       "asset": "HEATOIL",
+       "direction": "up",
+       "threshold_pct": 2.0,
+       "confidence": 55,
+       "expires_at": "2026-09-20",
+       "status": "open"
+      },
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 52,
+       "expires_at": "2026-09-20",
+       "status": "open"
+      }
+     ]
     },
     {
      "id": "evt-db6cf1ad580b",
@@ -202,6 +549,42 @@
      "region": "Southeast Asia",
      "summary": "Six dead, 107 rescued from Indonesian ferry missing in Java Sea.",
      "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-8751e9588978",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:01:42Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Africa",
+     "summary": "Forest fire started in Zambia on 10/09/2026, ongoing until 13/09/2026.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031941",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-8c63c5c0392a",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T21:21:32Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "US",
+     "summary": "A 40‑year‑old woman in Pennsylvania died from measles, the third US death since the disease was declared eliminated.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/a-third-person-has-died-of-measles-in-the-us-health-officials-say?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-0a644c4ddba8",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:46:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Boeing delivered 51 jets in August, boosting its stock above $200.",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSTdTNEowM2hjWkpNVHpBaGlVeV9Vb0hRaERiM1RwVTdRcm9ETmNJUDBKWHVEWTVCNGJtRUdqSnY1NFNYRVlGSGtUTUZIMC01NHVfeDgwbTc2Z1ItMG1kUFBUamRjeVhoa3kxNlZENjhMVDBGeEtwbDZBOFpSamp6YTQyRW1XVTUzWVBWa09wdFU0V0YxdzlrYkVwX2k?oc=5",
      "moved": [],
      "calls": []
     },
@@ -267,6 +650,30 @@
      "calls": []
     },
     {
+     "id": "evt-8961852e0b12",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T22:54:00Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "Copper prices reached record highs, driven by supply concerns and demand growth.",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdWNPb3Vja2Q2bTdISHBuMURUUVkydVcwY2x5V0ZmUHozZUI1cGY1TkczY1BVTTZYZVZ5V3pOUWRFV19OcFFsakhocUtmTEs1OGxzeDlBZ1RjenlHcUt3SXFmdkUzRXZmYUJIQ29ibjJOek9RUXB4SXVaRHBZbU9ZRkFVMjJTd2N3eWI2M2pzUmp1ZEI1TUlDZXVvdFZGelF1ZGhfbWk2LTFZaTdROUNOQnN4YVpYd9IBvAFBVV95cUxPdmFXd2NFOE9TbjhCR1hSZ3JBdzlqeC1sSU9pYUROSGxFZmFfcFVvcXJxajBOVEdaTjBQWFJ6dUhiX3NqY2wxSWdkSzJLekpFLWg3SkZMSDdVNkI2Q1lCM1RIOUpyMm56ODlSMDFCVVB2V3M1RUdELVo0Q1lMQXNTNVVUeUlYc0RHYWVpczVhNHFnaEFzdXZnbEtLNFdGM1d4Wmp1c1FGcVMxb1FzMEtVRUxMT0JTZTk0UGNXMw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-1d65eda09828",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:14:21Z",
+     "event_type": "geopolitical",
+     "severity": 4,
+     "region": "Europe",
+     "summary": "Russia fired a train on the Polish border, targeting a stationary Ukrainian locomotive, after UK PM Boris Johnson left the station.",
+     "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-035444a2de9e",
      "date": "2026-09-13",
      "dt": "2026-09-13T00:43:48Z",
@@ -275,6 +682,18 @@
      "region": "Europe",
      "summary": "US President Donald Trump expressed desire for a united Ireland during his visit.",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/12-09-sv-trump-for-united-ireland-ir?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-df45b5e34a0d",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T17:34:45Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Nvidia and Broadcom compare AI chip stock upside after latest earnings.",
+     "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNZ2tiRG82VUdCQ2RTV0drTVhld2x0Y0xuOHc4bnBNdFlwdDl3Vm5Fb01qY1RIMm5fMU9RTi1vQ0pQajhRenExaWdHd2Zjd1M2VmhPc1M4REtXQ2lvbG11WXBEcWl5RHAzTTZRcTF2dEg5NGVZelRTeWs3cjdOSFBCMXpxRlQ5Tm5ma0tGclN0dmFBdnJfMDJOaTYtcUFPV2hXRmFkalJuYUJrTlZRNEd2bDA4N3IzTG1SSTdSOW8zWlJJYThrSnE2Y1lsWmhtWDkyVlBJZS1nNFBFRGotb2VLRTh2MS13THJ6cW5ueUYyRzJpSkpyWFRvRWMyRHYtcGhmVjFBd2FxbW1zTEhiS1hBMA?oc=5",
      "moved": [],
      "calls": []
     },
@@ -400,6 +819,30 @@
      "calls": []
     },
     {
+     "id": "evt-e5aa6a8bc3d2",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T22:27:45Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Microsoft's data center expansion could influence investment decisions in its stock.",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbjdtRU1wWWxDVGVaWHNuRl96OFpKYjB6enFNX2JrOHNHRHZIY0t3U3NiZllueXljeFJLYnpkZGtKdlhSbTZ1YWJvdTctRVJjV3lyUkFtYm5XQV9UakJ1RFg0elhrODY2NmZxc2Q4Y3dzYXdJeEdMMmtJcWhvWUZScE1POUdDaWtaUWRWMVd2WXdHRUotVTNYMnREd3lMcUQ0blN5NW0tek4zNVRPampCWjZ2Mzhrd0VXMGYtS2JLR01FTVFlNWdR0gHMAUFVX3lxTE9XV09KRjQ5eXdwNGNQVWh4OXBMQzdEdzNGWVlnakFJVlUwNk9FZDc0ek9sV0o4b04tdVV0NkxIOTVKdm5OUHNlRE90YThNXzRPZHlUOHYzZks0eUVqSFhBTEFTVDl4d0ZZc3hXY0hxZjlZRFVELWFiLXNMZTlRVVJrV2hwWDl6alZ6OXlzY0FSQ1k2Z1ltZ1I5a2ZfZWxMb3VzNXViR0lTU2RuUi1nRkFmWFlWZ0loQmNEMXFFMnpCMVA1cVZnZVpGNUlObw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e7c2a7fc4e79",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T23:31:56Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "US",
+     "summary": "President Trump dismissed AI slowdown calls from tech CEOs, emphasizing US lead over China.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/trump-dismisses-calls-for-ai-slowdown-from-leading-tech-ceos?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-81baf94f06aa",
      "date": "2026-09-13",
      "dt": "2026-09-13T03:23:41Z",
@@ -420,6 +863,18 @@
      "region": "US",
      "summary": "Chevron reduced its debt by $8 billion in Q2 2026, while maintaining a 3.40% dividend yield.",
      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOFhFTXVZVUhhWFpVN3NMTkJKMlRIcFZSUFdURFZvOEM3WTdXQUY5NmR1WXV4UmFRTE5QY3BMQUoyUUtpQTJkWTRuT3c3RFd0azNlYnVJY04xY1g3ekluQWgxQnF3VmVzM1l0dF9nQXcxTEFZdDl2Z3BCM2RCWW8wLWE1eldHTnZlbVFvNGVQTV9lWjlIUTg5OUJxZ2QzWE9ZdUVSR2RzTEZEbzdtMHJjeDJaXzE1TGYxbEt3?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-1c97f3e129a6",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T23:41:31Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Oceania",
+     "summary": "A 4.4 magnitude earthquake struck south of the Fiji Islands, reported by USGS.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th98",
      "moved": [],
      "calls": []
     },
@@ -492,6 +947,30 @@
      "region": "US",
      "summary": "Men’s final of the US Open features Alexander Zverev versus Ben Shelton in New York.",
      "url": "https://www.aljazeera.com/sports/liveblog/2026/9/13/us-open-mens-singles-final-live-alexander-zverev-vs-ben-shelton?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-c7b1aa748599",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:40:25Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "South America",
+     "summary": "A 4.7 magnitude earthquake occurred 60 km west of Cafayate, Argentina.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th7y",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e5c1ebc21323",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T20:29:57Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "US announces removal of Irish whisky tariff, following earlier 5% reduction.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/trump-says-he-plans-to-remove-a-15-tariff-on-irish-whisky?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -628,6 +1107,18 @@
      "calls": []
     },
     {
+     "id": "evt-0548fd5267e1",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T21:12:11Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Europe",
+     "summary": "The United States defeated France 84‑73 in Berlin to win its 12th FIBA Women’s Basketball World Cup.",
+     "url": "https://www.aljazeera.com/sports/2026/9/13/usa-defeat-france-to-win-12th-fiba-womens-basketball-world-cup?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-ddae7fba26ca",
      "date": "2026-09-13",
      "dt": "2026-09-13T07:30:23Z",
@@ -648,6 +1139,18 @@
      "region": "Europe",
      "summary": "Kosovo approves new government after months of political deadlock.",
      "url": "https://www.aljazeera.com/news/2026/9/13/kosovo-approves-new-government-after-months-of-political-deadlock?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-11a51e0eb995",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T20:46:34Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Israeli forces kill a pregnant Palestinian woman in Gaza; settler pogroms intensify across the occupied West Bank.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/jerusalem-daily-pregnant-woman-killed-in-gaza?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -712,6 +1215,42 @@
      "calls": []
     },
     {
+     "id": "evt-795843451b5c",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T22:44:41Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "East Asia",
+     "summary": "A 4.6 magnitude earthquake struck 120 km northeast of Hengchun, Taiwan.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th8v",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-7c7f27ce94b6",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T18:39:28Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "Southeast Asia",
+     "summary": "Bangsamoro's parliamentary election marks a milestone in the Philippines' self-determination struggle.",
+     "url": "https://www.aljazeera.com/opinions/2026/9/13/bangsamoros-parliamentary-election-is-a-turning-point?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b8b9ca45c294",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T20:58:31Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Pacific",
+     "summary": "Tropical Depression FIFTEEN‑E‑26 formed in the East Pacific on 13 Sep 2026, with no population affected by category 1 winds.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001321",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-1f3ee85f2741",
      "date": "2026-09-13",
      "dt": "2026-09-13T14:47:00Z",
@@ -744,6 +1283,18 @@
      "region": "US",
      "summary": "Magnitude 2.53 earthquake struck 6 km east of Willits, California.",
      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75434862",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e5240140d258",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T18:20:22Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Discussion on potential AI development slowdown and its implications.",
+     "url": "https://www.bbc.co.uk/news/articles/cwyzp47py48o?at_medium=RSS&at_campaign=rss",
      "moved": [],
      "calls": []
     },
@@ -864,6 +1415,18 @@
      "region": "Middle East",
      "summary": "Iraq seizes drone-launching platform used for targeting Saudi oil pipeline in Maysan province near Iranian border.",
      "url": "https://www.aljazeera.com/news/2026/9/13/iraq-seizes-drone-launching-platform-used-for-targeting-saudi-oil-pipeline?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-ec5aca416557",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T21:58:17Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Europe",
+     "summary": "Premier League referees' body admitted Erling Haaland's goal against Manchester United should not have stood.",
+     "url": "https://www.aljazeera.com/sports/2026/9/13/manchester-city-wrongly-awarded-haaland-goal-by-var-at-united-refs-body?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -1072,6 +1635,18 @@
      "calls": []
     },
     {
+     "id": "evt-9e3893c0ff57",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T22:33:34Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "US",
+     "summary": "Alexander Zverev won the men's singles title at the US Open in New York, defeating Ben Shelton.",
+     "url": "https://www.aljazeera.com/sports/2026/9/13/zverev-beats-shelton-in-four-sets-to-win-us-open-title?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-f47859a1450b",
      "date": "2026-09-13",
      "dt": "2026-09-13T13:39:12Z",
@@ -1096,6 +1671,18 @@
      "calls": []
     },
     {
+     "id": "evt-b77414a193d9",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T22:50:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Wall Street analysts see strong upside for SpaceX stock while remaining neutral on Apple.",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPODkyQVZNdHNQVzByWWZGUGFfdU9CdnlZU0ZJNTZWN05wN2JvUE1XcEhFdVVaTVpfSTRWWnk4dXVzaVlJZ05RVVBUMUh1QTctQ2NVTHZreHF6encxYW5KWGpSY1ozM2RjREhPYTkzYTktd1BZaFhvX1N5Z2FyTHBFZDBfb1BtVDVldXI4MF94cW9RMndJSEcw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-879fc97a6c83",
      "date": "2026-09-13",
      "dt": "2026-09-13T15:50:46Z",
@@ -1104,6 +1691,18 @@
      "region": "Southeast Asia",
      "summary": "Passenger ship capsized off Java Sea, Indonesia, killing six and leaving 130 missing.",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/six-killed-130-missing-after-indonesian-passenger-ship-capsizes?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-2e3b93e56ff2",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T22:06:06Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "US",
+     "summary": "A 2.55 magnitude earthquake struck 9 km southwest of Brentwood, California.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nc75435217",
      "moved": [],
      "calls": []
     },
@@ -1152,6 +1751,18 @@
      "region": "US",
      "summary": "Walmart stock remains stable amid expansion of its restaurant delivery service.",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPWUhfSWpneUVyTXJQdlFIRUpJdVcyZldiYWtuRzFibTFsT1lNVHVYX2REZnFqZzMtTUhMckpwSHo2eEJqNXFiTHB6THFFbUtialhRM3VlS2xObEhaaFdxcnVxUTVsY2xWWFlWTkNIelRpXzBDdmMxOWI4Q1NIVGIwM3hOMENfcDV0ZnpuVS1aWWtuNGZrUUxIMmhwQzRsb2x0MG84UHhDaWUtSnQyVE00UGduYmN5YzNNLVBJZjljbW5kbXU0MkwzNFRUcGQ1QThmNkYyVUpR0gHWAUFVX3lxTE9ZSF9Jamd5RXJNclB2UUhFSkl1VzJmV2Jha25HMWJtMWxPWU1UdVhfZERmcWpnMy1NSExySnBIejZ4Qmo1cWJMcHpMcUVtS2JqWFEzdWVLbE5sSFpoV3FydXFRNWxjbFZYWVZOQ0h6VGlfMEN2YzE5YjhDU0hUYjAzeE4wQ19wNXRmem5VLVpZa240ZmtRTEgyaHBDNGxvbHQwbzhQeENpZS1KdDJUTTRQZ25iY3ljM00tUElmOWNtbmRtdTQyTDM0VFRwZDVBOGY2RjJVSlE?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-bcf41693d193",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T18:30:29Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Syria",
+     "summary": "A child was killed when a roadside explosive detonated near Damascus, Syria.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/09-13-syrian-child-explosion-clip-mp4?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -1336,6 +1947,18 @@
      "calls": []
     },
     {
+     "id": "evt-630dde391742",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:30:02Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "North America",
+     "summary": "JPMorgan predicts Lithium Americas stock will double, citing bullish outlook.",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWFuT1JIWER5c09wS1VYYTVIZ3lVellad3dxenQ1V0hCZFFmNzlWN2dvWWgtMG9ZbzBUUWluVERETHhwTmFnWDhKeWxsRVYydVNyblBTRG1udUhmelM0NHpHVE1jUTRaZFJtLVFZQ2t2RmRJR0VHWTBGU2ZDTnhJWHN6dnJRUF9BYU85eUtLbGhmNmhMYUFoMk12LXU0bDFSVFdSRUxQbjJjeGM?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-267cfb0bc6dd",
      "date": "2026-09-13",
      "dt": "2026-09-13T00:49:08Z",
@@ -1344,6 +1967,18 @@
      "region": "US",
      "summary": "Employees fired after posting about Charlie Kirk; some received settlements, others must restart careers.",
      "url": "https://www.bbc.co.uk/news/articles/cj06jgl9qzlo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-bbbe73318fea",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T22:08:14Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "Saudi Arabia shut a critical pipeline bypassing the Strait of Hormuz, causing oil prices to rise.",
+     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcWFrNEdSMHhodEJrS2thdWhURmpWejhTNHljZTZEVFpnVUp6cDV2Z202cTA5WVlINW43YVhWeXNjNnRLWFVDVWFlT3BxYk83eGlBWGRzZUVOVTJKbGE5Zl9XelpCOFpLUVRsajFMU1M0WmxaMWo5eVhHeElnZmFpQ2c1U1F3MUFKbks4ag?oc=5",
      "moved": [],
      "calls": []
     },
@@ -1368,6 +2003,18 @@
      "region": "Global",
      "summary": "Analysis compares Nvidia and Broadcom AI chip stocks after earnings, assessing upside potential.",
      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxNZ2tiRG82VUdCQ2RTV0drTVhld2x0Y0xuOHc4bnBNdFlwdDl3Vm5Fb01qY1RIMm5fMU9RTi1vQ0pQajhRenExaWdHd2Zjd1M2VmhPc1M4REtXQ2lvbG11WXBEcWl5RHAzTTZRcTF2dEg5NGVZelRTeWs3cjdOSFBCMXpxRlQ5Tm5ma0tGclN0dmFBdnJfMDJOaTYtcUFPV2hXRmFkalJuYUJrTlZRNEd2bDA4N3IzTG1SSTdSOW8zWlJJYThrSnE2Y1lsWmhtWDkyVlBJZS1nNFBFRGotb2VLRTh2MS13THJ6cW5ueUYyRzJpSkpyWFRvRWMyRHYtcGhmVjFBd2FxbW1zTEhiS1hBMA?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-29b68a62b4b2",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T20:36:39Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "US",
+     "summary": "Magnitude 2.46 earthquake near La Parguera, Puerto Rico.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71531738",
      "moved": [],
      "calls": []
     },
@@ -1444,6 +2091,18 @@
      "calls": []
     },
     {
+     "id": "evt-8bb5b4fc2108",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T20:41:12Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Asia",
+     "summary": "India wins Women’s Asia Cup but does not accept trophy; ceremony led by Pakistani Interior Minister and ACC President Naqvi.",
+     "url": "https://www.aljazeera.com/sports/2026/9/13/india-win-womens-asia-cup-but-do-not-accept-trophy?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-99b8f7ba3fc4",
      "date": "2026-09-13",
      "dt": "2026-09-13T14:38:46Z",
@@ -1480,6 +2139,18 @@
      "calls": []
     },
     {
+     "id": "evt-d81f9c2d6657",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T22:17:15Z",
+     "event_type": "other",
+     "severity": 3,
+     "region": "Global",
+     "summary": "AI companies warn that their technology could pose an existential threat within a decade.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/ai-apocalypse-warnings-benefit-ai-companies?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-c47eba16286b",
      "date": "2026-09-13",
      "dt": "2026-09-13T11:55:47Z",
@@ -1504,6 +2175,18 @@
      "calls": []
     },
     {
+     "id": "evt-cbb2cf327abd",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:01:19Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Africa",
+     "summary": "Forest fire started in Zambia on 11/09/2026, ongoing until 13/09/2026.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031940",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-a36ff9be0e51",
      "date": "2026-09-13",
      "dt": "2026-09-13T14:25:56Z",
@@ -1524,6 +2207,18 @@
      "region": "Global",
      "summary": "Analysts discuss whether Alphabet could overtake Nvidia in market dominance by 2027.",
      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZ1hHOWIySWltRXpydi1xMjhXZjh4R0pRcnBhb2lkaWcxSWNFNlgyclpZZVRBOU1ENHk0aXJoc3pKT2g4VDZzWWcyUV9JWlRoRDFrVTJPNFpNSjZ0cC1pQlVDenZzTVdzakZVc0NBUHBLTE41SjY0RWJvWk1VUGlxdGk1QU5YS3Brd2gzV0dVY25BUEoyQTlKS3l3?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a5415b24aeb6",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T21:43:39Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "UnitedHealth CFO reports cost trend remained steady into Q3, indicating potential turnaround value.",
+     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdlJIQUxUT2NERGRsRVNENDU4MC1lYm51djRkd3ZDdlNrX3o1cFFocEY5ZDNsV2NqRHJnNUZRQUw2X0Iyb1ljX2RMMnQzeUJnbGhhZTYtcTFUTEVEdFA2ZmVQMzE3bVBQR3l1RFU2Q2FQdGRKdkt0RFlFYTBlbmhPQVg1VjUyRUpRbkVUb1lyekhBWlN2eU55RlVuejhGSnFyYm01dFlLVkZZVk5vREZlOTJVdmhZZlhV?oc=5",
      "moved": [],
      "calls": []
     },
@@ -1588,6 +2283,30 @@
      "calls": []
     },
     {
+     "id": "evt-1c99b28a30dc",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T18:39:24Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "England",
+     "summary": "Erling Haaland's controversial goal gives Manchester City a 1-0 win over Manchester United in a 10-man derby.",
+     "url": "https://www.aljazeera.com/sports/2026/9/13/haaland-goal-sees-10-men-city-beat-united-in-controversial-manchester-derby?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-92e1db71e4ac",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T21:10:07Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Europe",
+     "summary": "Russia struck a train at the Poland‑Ukraine border, prompting Poland and Ukraine to accuse Moscow of escalation.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/poland-ukraine-accuse-russia-of-escalation-after-strikes-near-border?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-1d4bfc23d078",
      "date": "2026-09-13",
      "dt": "2026-09-13T19:14:21Z",
@@ -1600,6 +2319,18 @@
      "calls": []
     },
     {
+     "id": "evt-c71d5c9343f7",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:30:02Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "North America",
+     "summary": "JPMorgan predicts Lithium Americas stock will double, citing bullish outlook.",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWFuT1JIWER5c09wS1VYYTVIZ3lVellad3dxenQ1V0hCZFFmNzlWN2dvWWgtMG9ZbzBUUWluVERETHhwTmFnWDhKeWxsRVYydVNyblBTRG1udUhmelM0NHpHVE1jUTRaZFJtLVFZQ2t2RmRJR0VHWTBGU2ZDTnhJWHN6dnJRUF9BYU85eUtLbGhmNmhMYUFoMk12LXU0bDFSVFdSRUxQbjJjeGM?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-cd1120b7ca5f",
      "date": "2026-09-13",
      "dt": "2026-09-13T16:11:43Z",
@@ -1608,6 +2339,18 @@
      "region": "Ukraine",
      "summary": "Ukrainian drone evades Russian helicopter fire before striking a Russian oil tanker.",
      "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/09-12-ukraine-drone-russian-tanker-sv?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-890a416ffcf9",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T22:27:45Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Procter & Gamble is attracting investor attention due to recent developments.",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSmdqRnRYb3hNV2Y5RjRtNzcwU3BwMXJrM2NkdFVJdjVMU0UxX2x0Qk0xeDlubHRobzdlMDROTlJLOG5Yb3NfbTgtS1Vzb3ZGck5XWVpHRVRXelF1N1UxVzNsZHFwQ1h5anpxYmFCVTRSckYzM180UkM2TU9KM05HN0d2RzRQUVBBN01EYWtQQVRGTDFreldheGl3LU54ZnFxaE5ScktaajBWbU1EQXRnRWlWa1hEbWJqUWFySdIBwgFBVV95cUxQMUp0ZW56ZXlYRnU4amlxa21YeUp5ZXpUV3d4T01pS1FxTU51c0JtbHk5cUpzQkM0RWtvVENPUTNMc0xUU3NBQ01NZTN2QlNpSWRvOEpRZkhPS3k0bEp4dkppT05YRmFUam9IMFFZcnV5VzBfTVF5cGZJTlR4N0FWbFNKX3NhbXp6Q1d1aEh5ZzFKRFRoaGlFWFNuVktEZy1wODlxWWdDdTFzb1puNDVEVlYzVC02THktNnZJUF9WaF84UQ?oc=5",
      "moved": [],
      "calls": []
     },
@@ -1660,6 +2403,18 @@
      "calls": []
     },
     {
+     "id": "evt-89fa48692e13",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T22:02:10Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "US",
+     "summary": "American duo Jefferson-Wooden and Bednarek won the 100m and 200m sprint doubles at the Ultimate Championship, each earning $150,000.",
+     "url": "https://www.aljazeera.com/sports/2026/9/13/jefferson-wooden-bednarek-complete-ultimate-championship-sprint-doubles?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-c3b1afbb09a4",
      "date": "2026-09-13",
      "dt": "2026-09-13T07:01:12Z",
@@ -1668,6 +2423,18 @@
      "region": "Africa",
      "summary": "A forest fire started in Namibia on 12/09/2026 and continued until 13/09/2026.",
      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031935",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-84a0b3fc54ad",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T18:35:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Investors view Netflix as overvalued, despite analyst optimism.",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRGtCUnFRcjM1SUczN2ZTMTBtZDVqeUFfaE9ZWUlmX1MxLU91TGwwNC1RMmxnbm1IeGtYYmM5QkdZQU1kNEg2RmFCSnFmdTlmSnlHcGZtMko1ZVp3MEtJZzMyRmJ4UHZ2aWVFZEg2a2NlLXJYQjBacWZxZGlUNEdhZ25EZkZBckRWQzV1NEs1ZEhwSmtpaVItQlFacWdtLUE?oc=5",
      "moved": [],
      "calls": []
     },
@@ -1828,6 +2595,18 @@
      "calls": []
     },
     {
+     "id": "evt-f5fec7bf7dfa",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:45:43Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Europe",
+     "summary": "European long metal prices remain pressured, market sentiment unchanged.",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd216dnJkYkxlNC02Umg4Wkl0N0F0dUdZN1hkaXdEalBtQTM3eUNRTS15RmVKeHlKWmFSQ1MwMXVMSGJPc0xINzkzaVlpTHAtU3oySmZaNTNmTGFYVld2RkFMbzJPUDBRRUFpbDFicE4yUjdZZEZlUWhNbHZ6WVNYRnR4MjRwdWRUUTZXbDFqdzBCVHFLTWRzMVVhcFNQZlhj?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-2e5b2dfeb073",
      "date": "2026-09-13",
      "dt": "2026-09-13T08:51:55Z",
@@ -1840,6 +2619,30 @@
      "calls": []
     },
     {
+     "id": "evt-9dbc0f85515d",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T18:49:37Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "US",
+     "summary": "US President Trump dismisses AI risk warnings, citing US-China rivalry.",
+     "url": "https://www.bbc.co.uk/news/articles/c7v48vp31mdo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-3effc76efbb9",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:55:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Guyana",
+     "summary": "Guyana's president reports increased oil revenue amid Iran conflict reshaping global markets.",
+     "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/9/13/guyanas-oil-boom-and-challenges?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-16a5c13f089e",
      "date": "2026-09-13",
      "dt": "2026-09-13T07:23:54Z",
@@ -1848,6 +2651,18 @@
      "region": "Australia",
      "summary": "Elevate Uranium Ltd shares are reported to have moved following RNS news.",
      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9fclVCYU5UdUZiVEY2R0tJSmZIei1CWkQtS1Y3MHdiVTBGVWNtZG5FNWdkLV9sLUwxcnNvcmpDUjZNSEZNMnptZGNRMWczYUd3SGdTNlRhWEZ3bkVZOS1lRTZLNjYyeVUzU2ZLSF9DUk0yVmdnVmZ6cVp3?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-76bcd97e211e",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T20:33:28Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "Middle East",
+     "summary": "US envoy Jared Kushner says Israel's failed attack on Hamas leadership in Doha left the country isolated.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/09-13-kushner-doha-attack-comments-clip?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -1936,6 +2751,30 @@
      "calls": []
     },
     {
+     "id": "evt-c668441f8bd7",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:01:49Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Africa",
+     "summary": "Forest fire started in Mozambique on 10/09/2026, ongoing until 13/09/2026.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031942",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-4f501181d6ae",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:30:32Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Boeing delivered 51 jets in August, lifting its stock above $200.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORHR4Q0hoQ1VEeTdxWnpUVEtsTUFfMUd0UmVlcV9FNU93Sm4zcEFlSl9qWUhPd2FlVDFMYjRyWWNtOUJIUjJWdXV3Q3BnYXhtMWQ0el8yMHNLdk9EWExuTXZER3A0aHVxZE50dG43eU1nTEdMRWNMeGN5aGRWOEpzUkNOVnIwRlBmR3BaR0J1S2RZc0JILWIxTQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-b019f685a11d",
      "date": "2026-09-13",
      "dt": "2026-09-13T07:29:07Z",
@@ -1960,6 +2799,18 @@
      "calls": []
     },
     {
+     "id": "evt-1805e71800fe",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T22:40:01Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Southeast Asia",
+     "summary": "A 5.1 magnitude earthquake occurred 50 km north of Ruteng, Indonesia.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th8u",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-7e06d15a25f4",
      "date": "2026-09-13",
      "dt": "2026-09-13T17:30:44Z",
@@ -1968,6 +2819,18 @@
      "region": "US",
      "summary": "Magnitude 2.45 earthquake near Silver Springs, Nevada.",
      "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924410",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-763fa7880c9a",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T17:55:25Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "South America",
+     "summary": "A 4.3 magnitude earthquake occurred 13 km northwest of Cepitá, Colombia.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th7k",
      "moved": [],
      "calls": []
     },
@@ -2020,6 +2883,18 @@
      "calls": []
     },
     {
+     "id": "evt-c365efb6b48a",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T18:00:23Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "US",
+     "summary": "A 3.95 magnitude earthquake struck 4 km south of Pāhala, Hawaii.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75034997",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-5ec994d0e1cf",
      "date": "2026-09-13",
      "dt": "2026-09-13T03:41:14Z",
@@ -2028,6 +2903,18 @@
      "region": "Oceania",
      "summary": "Ferry sinks off Vanuatu, one dead and more than 30 missing.",
      "url": "https://www.aljazeera.com/news/2026/9/13/one-dead-more-than-30-missing-after-vanuatu-ferry-sinks-pms-office-says?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-9f0b8208e340",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:25:59Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "Europe",
+     "summary": "Exit polls show Sweden's centre-left parties leading with 51.3% in general election.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/centre-left-opposition-bloc-leads-in-swedish-vote-poll-shows?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -2064,6 +2951,18 @@
      "region": "UK",
      "summary": "Live commentary of the Premier League derby between Manchester United and Manchester City.",
      "url": "https://www.aljazeera.com/sports/liveblog/2026/9/13/live-manchester-united-vs-manchester-city-premier-league-2?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b877b9047300",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T20:55:11Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "Middle East",
+     "summary": "Protests erupt in Syria over fuel price increases.",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQYy1xUjk2WFk2MDNzMWhpbFgzdE8yZDI2Q2UxMTJaNGljNTA4eU9jcnlzSFhiNm1hbXB4RV84SE41T3dBbVIwZENFSXZyUTFkMDh1c05nRHZoU01rT20xMk9TWHZINk9WelJKQWo5b0JYMlFCc28wT2xvQ0VzSGpBSXp4WnZValhLb2dseVpCNGlBdS1XVXpZZ3BnYw?oc=5",
      "moved": [],
      "calls": []
     },
@@ -2152,6 +3051,18 @@
      "calls": []
     },
     {
+     "id": "evt-ba92f769361d",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T21:02:14Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "Australia",
+     "summary": "Pro‑Palestine protesters in Sydney called on the Australian government to increase pressure on Israel.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/pro-palestine-protest-demands-australia-increases-pressure-on-israel?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-6aa81c473008",
      "date": "2026-09-13",
      "dt": "2026-09-13T19:34:36Z",
@@ -2172,6 +3083,18 @@
      "region": "Global",
      "summary": "Alphabet reports a $514B cloud backlog after 82% revenue growth, signaling strong cloud demand.",
      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPTThyVk5taXoxbTJCYkhRNVhHR0N1SWdzQjZ6ekg2ZUtqQzNzeGtVYy1aNnlCdDItaUowQW9Tc0JUZVNCaGotMkJrNUJfUk9MU3pBSFYwTGFCN0VwWkFvSFlBRjRrMktDN3ZwamRyY25ZT040aDFUZmVGdnF0OUhYaUJ2T0x6MWhOT2lVMXhfQQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-6953cf006e0e",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:58:11Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "Sweden",
+     "summary": "Sweden holds election; far-right could enter government.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/swedes-vote-in-election-that-could-see-far-right-in-government?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -2224,6 +3147,30 @@
      "calls": []
     },
     {
+     "id": "evt-aca07cae2fe8",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T22:10:04Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Europe",
+     "summary": "Barcelona won 6-0 against Levante, with Yamal scoring twice, keeping a perfect start to La Liga.",
+     "url": "https://www.aljazeera.com/sports/2026/9/13/barcelona-beat-levante-as-yamal-scores-twice-to-maintain-perfect-start?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e627992fbb7d",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T20:28:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Yahoo Finance article recommends buying Amazon and Alphabet, avoiding Microsoft.",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPb1JFRkZra3Q0bDMycjJKcTR3NHdlYVBVX09vTUVicE15VndCSEU4ejJZc21xaktVMnpJQ056bDZrd1J1bVVGYm9rUkxVQmVfZGFKRGdsUmlrX3N4aFhOUjdDUk5MNzQzdk9SbGdNZ1pqa0kwVFBnZzIzQ19XSDIxRndrSDRPZ09yS0RwSlNOYm9MMTFBSnZ4RzY1UVM?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-3ca2361cb008",
      "date": "2026-09-13",
      "dt": "2026-09-13T15:41:00Z",
@@ -2244,6 +3191,18 @@
      "region": "Global",
      "summary": "Discussion on what an AI slowdown would entail, raising questions about future AI development.",
      "url": "https://www.bbc.co.uk/news/articles/cwyzp47py48o?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-9fd1d05b7269",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T17:30:44Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "US",
+     "summary": "USGS reports a 2.45 magnitude earthquake 18 km southeast of Silver Springs, Nevada.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/nn00924410",
      "moved": [],
      "calls": []
     },
@@ -2308,6 +3267,42 @@
      "calls": []
     },
     {
+     "id": "evt-75192b80f678",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T23:01:43Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "South America",
+     "summary": "A forest fire began in Brazil on 11 September 2026 and continued until 13 September.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031952",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a7ae65eea4fe",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T18:15:12Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "Europe",
+     "summary": "US President Trump urges Ukraine to stop attacks on Russian diesel infrastructure, citing global fuel shortages.",
+     "url": "https://www.aljazeera.com/economy/2026/9/13/trump-tells-zelenskyy-to-stop-hitting-russian-diesel-supplies?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-257cea496077",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:11:30Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Investors think Netflix stock is too expensive; analyst argues otherwise.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGxyUU5pZXNGVElvM2N0MTloWUpsY1ZpMmxMN0ZvRHRsSmYxdG1hOGQ3dDljR3hFS2RKMFlpNjhCV2NoZnJDM3lnR2E0Ynk5bWNBMVdRUXhzT1dwemJvVF9rZTVYWDROLUxuNWdzRXVOc3lCaExDWGFkNFEzcDRocmN2bTA5R1F0czVPbW5heDdLWUpLMUJZcA?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-5922e7281ca1",
      "date": "2026-09-13",
      "dt": "2026-09-13T08:05:00Z",
@@ -2328,6 +3323,18 @@
      "region": "Africa",
      "summary": "A forest fire started in Mozambique on 10 Sep 2026 and continued until 13 Sep 2026.",
      "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031943",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-96f588baae62",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:13:28Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "North America",
+     "summary": "Nvidia's stock appears undervalued per Piper's forecasts, but earnings assumptions are key.",
+     "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUVJtM1E5S2E0VmhVQXNKOHBsMkdITVdud3ZJNW5iWk1wc1Njb1Q2eHQzYlRBTG56OGhZVGZlelBFYkRxSVpPNzZkaHhtdFpIa2ZSOXFQNlpfbGo4cVB3LXNaRHd6YUpmSzdwYTRkdEtSLXQzTXhhb2Fidm9KYnlzeGlUSlJPbUthREV2REtGWkJ2VnRXSzQ5dVlR?oc=5",
      "moved": [],
      "calls": []
     },
@@ -2364,6 +3371,30 @@
      "region": "Asia",
      "summary": "Honglu Steel Structure signs RMB 375m price‑locking agreement for steel structure materials.",
      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaDJlcnFhQ0VvdW1udktHeTFqa3haNk56NUUxWmhqNGp2OEFXSkl2MjRMVURLc055OFBRRXNjcXc5QkFrSklBSHMxQlRFcm9JbUdFNVdUZndGWE8tNzZ1bHljSl9JTV9YbzU1U0JKM1JCZ0RzNTlUdDlZRklhbkk3c09NcEdSaFBNTkI1cWFZZGRtQTNnd3FUT1Vraw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-734cdf9b1243",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T17:16:40Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Tesla announced its new Roadster will use SpaceX technology, potentially affecting Tesla's stock price.",
+     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQMzEzOGp3angtNUFEeXJudF9Xd24tZ0Vlb3RvZWFUVjFBb0oxd09GM2R0cGF3LUhwQW90Xzd2akZNNGw0cEpEVHFZckFwUFlmUllISFpibEVGajlnQXh3LXRBYzJRZ2ZxN3FBUDRVNWlKSTB4OTBlRkNVb1ZDazNEZkIxeXZ3VU5EaExpMzR0STVUUS1PSFFMSnVzWi0?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-3c7f105a2c72",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:02:28Z",
+     "event_type": "natural_disaster",
+     "severity": 2,
+     "region": "Africa",
+     "summary": "Forest fire started in Mozambique on 10/09/2026, ongoing until 13/09/2026.",
+     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031943",
      "moved": [],
      "calls": []
     },
@@ -2452,6 +3483,18 @@
      "calls": []
     },
     {
+     "id": "evt-e3bdfa1a6b55",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T18:20:46Z",
+     "event_type": "natural_disaster",
+     "severity": 1,
+     "region": "Hawaii",
+     "summary": "A 2.61 magnitude earthquake struck 4 km south of Pāhala, Hawaii.",
+     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/hv75035027",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-de97286031f1",
      "date": "2026-09-13",
      "dt": "2026-09-13T10:02:57Z",
@@ -2496,6 +3539,30 @@
      "region": "Africa",
      "summary": "Niger's military government appointed a new army chief of staff following a failed mutiny, reshuffling command.",
      "url": "https://www.aljazeera.com/news/2026/9/13/niger-military-government-reshuffles-army-command-weeks-after-deadly-mutiny?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-06f9c61d44ff",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T18:07:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Nvidia and Broadcom compare AI chip stock upside after latest earnings.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdjVQRjFyY1pTREF4am9XZWRud2V4NGRmN0RoMGhlMjJLVllFMVlwS1hWX184czFSV25TZXFmOXZDT1pYN21BdzRTU0V0Nm00bmgxbFlETG5VbGdpaTBqbGEtOXh6MWxKZUxSeDVtT1RTSHJFZENQNHMyM01PLXV4cHkzQ3QzQzVNUUt5SFJELWlwWmpDRmJaTg?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-9052a67da79b",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T19:55:49Z",
+     "event_type": "other",
+     "severity": 2,
+     "region": "Saudi Arabia",
+     "summary": "Ronaldo demands life bans for Saudi Pro League fans after chants referencing Diogo Jota.",
+     "url": "https://www.aljazeera.com/sports/2026/9/13/ronaldo-calls-of-life-bans-of-saudi-pro-league-fans-after-jota-chants?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -2572,6 +3639,18 @@
      "calls": []
     },
     {
+     "id": "evt-de73804daf0d",
+     "date": "2026-09-13",
+     "dt": "2026-09-13T21:50:50Z",
+     "event_type": "geopolitical",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Tehran and Muscat postponed talks to seek regional consensus amid tensions in the Strait of Hormuz.",
+     "url": "https://www.aljazeera.com/news/2026/9/13/tehran-and-muscat-delay-talks-citing-regional-consensus-need?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-e4fef5cf545a",
      "date": "2026-09-13",
      "dt": "2026-09-13T19:02:41Z",
@@ -2584,7 +3663,50 @@
      "calls": []
     }
    ],
-   "moves": []
+   "moves": [
+    {
+     "asset": "HEATOIL",
+     "asset_label": "Heating Oil",
+     "date": "2026-09-13",
+     "pct_change": 1.611,
+     "direction": "up",
+     "reasoning": "Houthi advance in Yemen threatens Red Sea shipping lanes, tightening crude supply and lifting heating oil prices.",
+     "confidence": 60,
+     "linked_event_ids": [
+      "evt-0b61c547b03c"
+     ]
+    },
+    {
+     "asset": "Brent",
+     "asset_label": "Brent Crude",
+     "date": "2026-09-13",
+     "pct_change": 2.561,
+     "direction": "up",
+     "reasoning": "",
+     "confidence": null,
+     "linked_event_ids": []
+    },
+    {
+     "asset": "WTI",
+     "asset_label": "Crude Oil (WTI)",
+     "date": "2026-09-13",
+     "pct_change": 2.628,
+     "direction": "up",
+     "reasoning": "",
+     "confidence": null,
+     "linked_event_ids": []
+    },
+    {
+     "asset": "NATGAS",
+     "asset_label": "Natural Gas",
+     "date": "2026-09-13",
+     "pct_change": 2.815,
+     "direction": "up",
+     "reasoning": "",
+     "confidence": null,
+     "linked_event_ids": []
+    }
+   ]
   },
   {
    "date": "2026-09-12",
@@ -23158,8 +24280,8 @@
      "date": "2026-09-08",
      "pct_change": 2.569,
      "direction": "up",
-     "reasoning": "",
-     "confidence": null,
+     "reasoning": "None of the listed events directly affect oil supply, demand, or geopolitical risk.",
+     "confidence": 30,
      "linked_event_ids": []
     },
     {
@@ -23387,7 +24509,7 @@
        "threshold_pct": 1.2,
        "confidence": 50,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "XAU/USD",
@@ -23395,7 +24517,7 @@
        "threshold_pct": 1.5,
        "confidence": 55,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       }
      ]
     },
@@ -23617,7 +24739,7 @@
        "threshold_pct": 3.0,
        "confidence": 65,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "WTI",
@@ -23625,7 +24747,7 @@
        "threshold_pct": 3.0,
        "confidence": 65,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       }
      ]
     },
@@ -23666,7 +24788,7 @@
        "threshold_pct": 1.5,
        "confidence": 70,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "ALUM",
@@ -23674,7 +24796,7 @@
        "threshold_pct": 1.0,
        "confidence": 60,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       }
      ]
     },
@@ -23739,7 +24861,7 @@
        "threshold_pct": 1.0,
        "confidence": 55,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       }
      ]
     },
@@ -23772,7 +24894,7 @@
        "threshold_pct": 2.0,
        "confidence": 70,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "ALUM",
@@ -23857,7 +24979,7 @@
        "threshold_pct": 2.0,
        "confidence": 55,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "XAU/USD",
@@ -23865,7 +24987,7 @@
        "threshold_pct": 1.5,
        "confidence": 65,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "AAPL",
@@ -27998,7 +29120,7 @@
        "threshold_pct": 1.0,
        "confidence": 40,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "Brent",
@@ -28006,7 +29128,7 @@
        "threshold_pct": 1.0,
        "confidence": 40,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "WTI",
@@ -28014,7 +29136,7 @@
        "threshold_pct": 1.0,
        "confidence": 40,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       }
      ]
     },
@@ -28103,7 +29225,7 @@
        "threshold_pct": 0.5,
        "confidence": 30,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "COPPER",
@@ -28111,7 +29233,7 @@
        "threshold_pct": 0.5,
        "confidence": 30,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       }
      ]
     },
@@ -31744,7 +32866,7 @@
        "threshold_pct": 2.0,
        "confidence": 65,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "WTI",
@@ -31752,7 +32874,7 @@
        "threshold_pct": 2.0,
        "confidence": 70,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "XAU/USD",
@@ -31760,7 +32882,7 @@
        "threshold_pct": 1.5,
        "confidence": 60,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       }
      ]
     },
@@ -31797,7 +32919,7 @@
        "threshold_pct": 1.5,
        "confidence": 60,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       }
      ]
     },
@@ -31830,7 +32952,7 @@
        "threshold_pct": 1.0,
        "confidence": 25,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "ALUM",
@@ -31838,7 +32960,7 @@
        "threshold_pct": 1.0,
        "confidence": 30,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "SLX",
@@ -31891,7 +33013,7 @@
        "threshold_pct": 1.5,
        "confidence": 65,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "Brent",
@@ -31899,7 +33021,7 @@
        "threshold_pct": 1.4,
        "confidence": 63,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "XAU/USD",
@@ -31907,7 +33029,7 @@
        "threshold_pct": 1.0,
        "confidence": 55,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       }
      ]
     },
@@ -36194,7 +37316,7 @@
        "threshold_pct": 2.0,
        "confidence": 70,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "Brent",
@@ -36202,7 +37324,7 @@
        "threshold_pct": 2.0,
        "confidence": 70,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "GASOLINE",
@@ -36210,7 +37332,7 @@
        "threshold_pct": 2.0,
        "confidence": 65,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       }
      ]
     },
@@ -36279,7 +37401,7 @@
        "threshold_pct": 1.0,
        "confidence": 55,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "GDX",
@@ -36295,7 +37417,7 @@
        "threshold_pct": 1.5,
        "confidence": 60,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       }
      ]
     },
@@ -41029,7 +42151,7 @@
        "threshold_pct": 1.0,
        "confidence": 55,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "WTI",
@@ -41037,7 +42159,7 @@
        "threshold_pct": 1.0,
        "confidence": 55,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       }
      ]
     },
@@ -41078,7 +42200,7 @@
        "threshold_pct": 1.5,
        "confidence": 65,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       },
       {
        "asset": "GASOLINE",
@@ -41086,7 +42208,7 @@
        "threshold_pct": 1.0,
        "confidence": 60,
        "expires_at": "2026-09-14",
-       "status": "open"
+       "status": "void"
       }
      ]
     },
@@ -44045,1009 +45167,6 @@
      "linked_event_ids": [
       "evt-9630b1d4665e"
      ]
-    }
-   ]
-  },
-  {
-   "date": "2026-09-02",
-   "events": [
-    {
-     "id": "evt-d0c07be49111",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T10:54:02Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "South Atlantic",
-     "summary": "Magnitude 5.2 earthquake struck the South Sandwich Islands region.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdkr",
-     "moved": [
-      {
-       "asset": "LIT",
-       "asset_label": "Lithium",
-       "date": "2026-09-01",
-       "pct_change": -2.174,
-       "direction": "down",
-       "reasoning": "Magnitude‑5.2 quake in South Sandwich Islands spurred risk‑off sentiment, prompting a sell‑off in commodities like lithium.",
-       "confidence": 60,
-       "linked_event_ids": [
-        "evt-d0c07be49111"
-       ]
-      },
-      {
-       "asset": "GDX",
-       "asset_label": "Gold Miners",
-       "date": "2026-09-01",
-       "pct_change": -3.898,
-       "direction": "down",
-       "reasoning": "Earthquake raised risk sentiment, prompting sell‑offs in gold‑mining stocks.",
-       "confidence": 55,
-       "linked_event_ids": [
-        "evt-d0c07be49111"
-       ]
-      },
-      {
-       "asset": "PLAT",
-       "asset_label": "Platinum",
-       "date": "2026-09-01",
-       "pct_change": -1.504,
-       "direction": "down",
-       "reasoning": "A 5.2‑magnitude quake near South Sandwich Islands likely disrupted mining or shipping routes, tightening supply and pushing PLAT down.",
-       "confidence": 60,
-       "linked_event_ids": [
-        "evt-d0c07be49111",
-        "evt-e39aa4b76748"
-       ]
-      },
-      {
-       "asset": "PAL",
-       "asset_label": "Palladium",
-       "date": "2026-09-01",
-       "pct_change": -3.353,
-       "direction": "down",
-       "reasoning": "Magnitude‑5.2 quake heightened risk sentiment, triggering a risk‑off swing that pressured palladium down 3.35%.",
-       "confidence": 60,
-       "linked_event_ids": [
-        "evt-d0c07be49111",
-        "evt-e39aa4b76748"
-       ]
-      },
-      {
-       "asset": "HEATOIL",
-       "asset_label": "Heating Oil",
-       "date": "2026-09-01",
-       "pct_change": 4.049,
-       "direction": "up",
-       "reasoning": "Earthquake near South Sandwich Islands disrupted shipping lanes, raising heating oil supply concerns.",
-       "confidence": 55,
-       "linked_event_ids": [
-        "evt-d0c07be49111",
-        "evt-e39aa4b76748"
-       ]
-      },
-      {
-       "asset": "USO",
-       "asset_label": "Crude Oil ETF",
-       "date": "2026-09-01",
-       "pct_change": 5.46,
-       "direction": "up",
-       "reasoning": "Earthquake near South Sandwich Islands could disrupt offshore oil operations or shipping lanes, tightening supply and pushing USO up.",
-       "confidence": 55,
-       "linked_event_ids": [
-        "evt-d0c07be49111",
-        "evt-e39aa4b76748"
-       ]
-      }
-     ],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 55,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 45,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-9181b90611af",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:37:12Z",
-     "event_type": "natural_disaster",
-     "severity": 1,
-     "region": "US",
-     "summary": "Magnitude 3.2 earthquake 6 km southeast of Ontario, California.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540608",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-4aedef2c6201",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T21:34:27Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "Protests erupt in Spain over government's handling of Ceuta migrant crisis, with opposition parties accusing PM Pedro Sánchez of abandoning residents.",
-     "url": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-e39aa4b76748",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T10:54:02Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "South Sandwich Islands",
-     "summary": "USGS reports a magnitude 5.2 earthquake near the South Sandwich Islands.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdkr",
-     "moved": [
-      {
-       "asset": "PLAT",
-       "asset_label": "Platinum",
-       "date": "2026-09-01",
-       "pct_change": -1.504,
-       "direction": "down",
-       "reasoning": "A 5.2‑magnitude quake near South Sandwich Islands likely disrupted mining or shipping routes, tightening supply and pushing PLAT down.",
-       "confidence": 60,
-       "linked_event_ids": [
-        "evt-d0c07be49111",
-        "evt-e39aa4b76748"
-       ]
-      },
-      {
-       "asset": "PAL",
-       "asset_label": "Palladium",
-       "date": "2026-09-01",
-       "pct_change": -3.353,
-       "direction": "down",
-       "reasoning": "Magnitude‑5.2 quake heightened risk sentiment, triggering a risk‑off swing that pressured palladium down 3.35%.",
-       "confidence": 60,
-       "linked_event_ids": [
-        "evt-d0c07be49111",
-        "evt-e39aa4b76748"
-       ]
-      },
-      {
-       "asset": "HEATOIL",
-       "asset_label": "Heating Oil",
-       "date": "2026-09-01",
-       "pct_change": 4.049,
-       "direction": "up",
-       "reasoning": "Earthquake near South Sandwich Islands disrupted shipping lanes, raising heating oil supply concerns.",
-       "confidence": 55,
-       "linked_event_ids": [
-        "evt-d0c07be49111",
-        "evt-e39aa4b76748"
-       ]
-      },
-      {
-       "asset": "USO",
-       "asset_label": "Crude Oil ETF",
-       "date": "2026-09-01",
-       "pct_change": 5.46,
-       "direction": "up",
-       "reasoning": "Earthquake near South Sandwich Islands could disrupt offshore oil operations or shipping lanes, tightening supply and pushing USO up.",
-       "confidence": 55,
-       "linked_event_ids": [
-        "evt-d0c07be49111",
-        "evt-e39aa4b76748"
-       ]
-      }
-     ],
-     "calls": [
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 45,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 40,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-4fc5e39e1bd4",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T07:18:39Z",
-     "event_type": "military",
-     "severity": 2,
-     "region": "Southeast Asia",
-     "summary": "US troops historically arrived in Pattaya, Thailand, a beach resort known for racy bars.",
-     "url": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-61f66fbb309c",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T11:47:11Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "Russian president Vladimir Putin issues veiled threat to the United Kingdom as part of Russia's campaign against Western countries.",
-     "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-4044f64f38fd",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:55:32Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Pacific Ocean",
-     "summary": "Magnitude 5.9 earthquake at 10 km depth struck Southern East Pacific Rise on 2 Sep 2026.",
-     "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 2.0,
-       "confidence": 70,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-c77aea482cfd",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T07:18:39Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "Southeast Asia",
-     "summary": "US troops historically arrived in Pattaya, Thailand, a beach resort known for racy bars.",
-     "url": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 55,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 60,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-7b0c4ff2b1d8",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:55:32Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Pacific Ocean",
-     "summary": "A 5.9 magnitude earthquake occurred at 10 km depth in the Southern East Pacific Rise on 2 September 2026.",
-     "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "range",
-       "threshold_pct": 0.5,
-       "confidence": 40,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 55,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-342984d6aa49",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:37:12Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "US",
-     "summary": "Magnitude 3.2 earthquake 6 km southeast of Ontario, California.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540608",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "NVDA",
-       "direction": "range",
-       "threshold_pct": 1.0,
-       "confidence": 20,
-       "expires_at": "2026-09-09",
-       "status": "void"
-      },
-      {
-       "asset": "TSLA",
-       "direction": "range",
-       "threshold_pct": 1.0,
-       "confidence": 20,
-       "expires_at": "2026-09-09",
-       "status": "void"
-      },
-      {
-       "asset": "AAPL",
-       "direction": "range",
-       "threshold_pct": 1.0,
-       "confidence": 20,
-       "expires_at": "2026-09-09",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-9a6c9dbb6356",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T10:54:02Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "South Sandwich Islands",
-     "summary": "USGS reports a magnitude 5.2 earthquake at South Sandwich Islands.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdkr",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-44257358827f",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:37:12Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "US",
-     "summary": "Magnitude 3.2 earthquake 6 km southeast of Ontario, California.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540608",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "TSLA",
-       "direction": "range",
-       "threshold_pct": 0.5,
-       "confidence": 35,
-       "expires_at": "2026-09-09",
-       "status": "void"
-      },
-      {
-       "asset": "AAPL",
-       "direction": "range",
-       "threshold_pct": 0.5,
-       "confidence": 30,
-       "expires_at": "2026-09-09",
-       "status": "void"
-      },
-      {
-       "asset": "NVDA",
-       "direction": "range",
-       "threshold_pct": 0.5,
-       "confidence": 32,
-       "expires_at": "2026-09-09",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-421a7dbde4ef",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T10:54:02Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "South Atlantic",
-     "summary": "Magnitude 5.2 earthquake struck the South Sandwich Islands region.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdkr",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 55,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 45,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-2384ac012797",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:55:32Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Pacific Ocean",
-     "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 2 September 2026.",
-     "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 50,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 55,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-15852198adba",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T21:34:27Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Spain",
-     "summary": "Protests erupt in Spain over the government's handling of the Ceuta migrant crisis, with opposition parties accusing PM Pedro Sánchez of abandoning residents.",
-     "url": "https://www.bbc.co.uk/news/articles/c1mvn2yp9n2o?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "WTI",
-       "direction": "down",
-       "threshold_pct": 1.0,
-       "confidence": 55,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-afdb90ed5eca",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:37:12Z",
-     "event_type": "natural_disaster",
-     "severity": 2,
-     "region": "US",
-     "summary": "Magnitude 3.2 earthquake 6 km southeast of Ontario, California.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540608",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-811efa11450a",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T11:47:11Z",
-     "event_type": "geopolitical",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "Russian President Putin is issuing a veiled threat to the UK as part of Russia's campaign against the West, aiming to keep Britain uncertain about Moscow's intentions.",
-     "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 55,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-78c2c5cca070",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:55:32Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Pacific Ocean",
-     "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 2 September 2026.",
-     "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 2.0,
-       "confidence": 65,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-f7b0ee8c13ec",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:55:32Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Pacific Ocean",
-     "summary": "Magnitude 5.9 earthquake at 10km depth struck Southern East Pacific Rise on 2 Sep 2026.",
-     "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-9c40313eb3a8",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T11:47:11Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "Russian president threatens UK as part of campaign against West.",
-     "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-acc1f594d259",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T11:47:11Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "Russian President Vladimir Putin's veiled threat to the UK is part of Russia's campaign against the West, according to Rosenberg.",
-     "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-bddad8eda218",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:37:12Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "US",
-     "summary": "Magnitude 3.2 earthquake struck 6 km southeast of Ontario, California.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540608",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "NVDA",
-       "direction": "down",
-       "threshold_pct": 0.5,
-       "confidence": 25,
-       "expires_at": "2026-09-09",
-       "status": "void"
-      },
-      {
-       "asset": "TSLA",
-       "direction": "down",
-       "threshold_pct": 0.5,
-       "confidence": 25,
-       "expires_at": "2026-09-09",
-       "status": "void"
-      },
-      {
-       "asset": "AAPL",
-       "direction": "down",
-       "threshold_pct": 0.5,
-       "confidence": 25,
-       "expires_at": "2026-09-09",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-ebe8d1a4fc9d",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:55:32Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Pacific Ocean",
-     "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 2 September 2026.",
-     "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-2b3f3d57d8c2",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:55:32Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Pacific Ocean",
-     "summary": "A magnitude 5.9 earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.",
-     "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 60,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "JPM",
-       "direction": "down",
-       "threshold_pct": 0.5,
-       "confidence": 50,
-       "expires_at": "2026-09-09",
-       "status": "void"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 70,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-5f2d3ddf40ed",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:55:32Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Pacific Ocean",
-     "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10km depth on 2 September 2026.",
-     "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 55,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 65,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-4ccfb0a01cf8",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:37:12Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "US",
-     "summary": "Magnitude 3.2 earthquake occurred 6 km southeast of Ontario, California.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540608",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-85a5a1f4b9bf",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T10:54:02Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "South Atlantic",
-     "summary": "USGS reports a magnitude 5.2 earthquake near the South Sandwich Islands.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdkr",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "WTI",
-       "direction": "range",
-       "threshold_pct": 1.0,
-       "confidence": 40,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 50,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-7fdd825b6b3b",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T10:54:02Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "South Sandwich Islands",
-     "summary": "USGS reports magnitude 5.2 earthquake near South Sandwich Islands.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000tdkr",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-61a066cc38b2",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:37:12Z",
-     "event_type": "natural_disaster",
-     "severity": 2,
-     "region": "US",
-     "summary": "Magnitude 3.2 earthquake 6 km southeast of Ontario, California.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/ci41540608",
-     "moved": [
-      {
-       "asset": "REMX",
-       "asset_label": "Rare Earths",
-       "date": "2026-09-01",
-       "pct_change": -1.716,
-       "direction": "down",
-       "reasoning": "Minor 3.2‑magnitude quake in US triggered risk‑off sentiment, briefly dragging REMX down.",
-       "confidence": 30,
-       "linked_event_ids": [
-        "evt-61a066cc38b2"
-       ]
-      }
-     ],
-     "calls": []
-    },
-    {
-     "id": "evt-460698bcb271",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:55:32Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Pacific Ocean",
-     "summary": "A 5.9 magnitude earthquake struck the Southern East Pacific Rise at 10 km depth on 02 Sep 2026.",
-     "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 50,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 60,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-50378bd856ed",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T12:55:32Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Pacific Ocean",
-     "summary": "Magnitude 5.9 earthquake at 10km depth in Southern East Pacific Rise on 2 Sep 2026.",
-     "url": "https://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1563166",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "SLX",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 40,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 2.0,
-       "confidence": 42,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 48,
-       "expires_at": "2026-09-10",
-       "status": "void"
-      }
-     ]
-    },
-    {
-     "id": "evt-3d42bb75d3bd",
-     "date": "2026-09-02",
-     "dt": "2026-09-02T11:47:11Z",
-     "event_type": "geopolitical",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "Russian president issues veiled threat to UK as part of campaign against West.",
-     "url": "https://www.bbc.co.uk/news/articles/c62j50n131mo?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": []
-    }
-   ],
-   "moves": [
-    {
-     "asset": "CAT",
-     "asset_label": "Caterpillar",
-     "date": "2026-09-02",
-     "pct_change": 1.684,
-     "direction": "up",
-     "reasoning": "No listed event directly impacts Caterpillar's core business or supply chain.",
-     "confidence": 20,
-     "linked_event_ids": []
-    },
-    {
-     "asset": "NVDA",
-     "asset_label": "NVIDIA",
-     "date": "2026-09-02",
-     "pct_change": 3.205,
-     "direction": "up",
-     "reasoning": "No listed event directly impacts NVDA; small earthquakes and military action are unrelated to its business.",
-     "confidence": 20,
-     "linked_event_ids": []
-    },
-    {
-     "asset": "SLX",
-     "asset_label": "Steel",
-     "date": "2026-09-02",
-     "pct_change": 1.772,
-     "direction": "up",
-     "reasoning": "No listed event directly impacts steel; none affect SLX.",
-     "confidence": 20,
-     "linked_event_ids": []
-    },
-    {
-     "asset": "GDX",
-     "asset_label": "Gold Miners",
-     "date": "2026-09-02",
-     "pct_change": 3.127,
-     "direction": "up",
-     "reasoning": "Continued African forest fires heightened risk sentiment, boosting gold demand and GDX shares.",
-     "confidence": 55,
-     "linked_event_ids": [
-      "evt-592e2307b848",
-      "evt-899b495c3ba0",
-      "evt-93ebeb7f3ae0"
-     ]
-    },
-    {
-     "asset": "BA",
-     "asset_label": "Boeing",
-     "date": "2026-09-02",
-     "pct_change": 1.561,
-     "direction": "up",
-     "reasoning": "No listed event directly impacts Boeing; move likely due to internal factors.",
-     "confidence": 20,
-     "linked_event_ids": []
-    },
-    {
-     "asset": "SIL",
-     "asset_label": "Silver Miners",
-     "date": "2026-09-02",
-     "pct_change": 4.666,
-     "direction": "up",
-     "reasoning": "None of the listed events directly affect silver mining or supply chain; no clear link to the price rise.",
-     "confidence": 20,
-     "linked_event_ids": []
-    },
-    {
-     "asset": "V",
-     "asset_label": "Visa",
-     "date": "2026-09-02",
-     "pct_change": 1.538,
-     "direction": "up",
-     "reasoning": "",
-     "confidence": null,
-     "linked_event_ids": []
-    },
-    {
-     "asset": "PAL",
-     "asset_label": "Palladium",
-     "date": "2026-09-02",
-     "pct_change": 2.232,
-     "direction": "up",
-     "reasoning": "",
-     "confidence": null,
-     "linked_event_ids": []
-    },
-    {
-     "asset": "NFLX",
-     "asset_label": "Netflix",
-     "date": "2026-09-02",
-     "pct_change": 2.376,
-     "direction": "up",
-     "reasoning": "",
-     "confidence": null,
-     "linked_event_ids": []
-    },
-    {
-     "asset": "NATGAS",
-     "asset_label": "Natural Gas",
-     "date": "2026-09-02",
-     "pct_change": 1.791,
-     "direction": "up",
-     "reasoning": "",
-     "confidence": null,
-     "linked_event_ids": []
-    },
-    {
-     "asset": "META",
-     "asset_label": "Meta",
-     "date": "2026-09-02",
-     "pct_change": 2.473,
-     "direction": "up",
-     "reasoning": "",
-     "confidence": null,
-     "linked_event_ids": []
     }
    ]
   }

@@ -2445,6 +2445,19 @@
    "events": []
   },
   {
+   "id": "note-7c7ff4303d21",
+   "kind": "causal_notes",
+   "asset": "MSFT",
+   "move_id": "move-MSFT-2026-06-24",
+   "move_date": "2026-06-24",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely internal factors or market micro‑price noise.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-14T02:12:34Z",
+   "events": []
+  },
+  {
    "id": "note-836d1a22b063",
    "kind": "causal_notes",
    "asset": "MSFT",
@@ -2667,6 +2680,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-22749070b263",
+   "event_id": "evt-7874b98bc761",
+   "created_at": "2026-09-11",
+   "expires_at": "2026-09-18",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 40,
+   "reasoning": "Apple's buyback reflects robust tech cash flows, boosting sector sentiment and Microsoft’s valuation.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-195ff3a0973b",
    "event_id": "evt-35ac8cbd5c9d",
