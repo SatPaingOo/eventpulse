@@ -2310,19 +2310,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-af03c5987775",
-   "kind": "causal_notes",
-   "asset": "HEATOIL",
-   "move_id": "move-HEATOIL-2026-07-09",
-   "move_date": "2026-07-09",
-   "event_ids": [],
-   "reasoning": "No specific event; likely due to broader oil market volatility or inventory data release.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-06T09:55:16Z",
-   "events": []
-  },
-  {
    "id": "note-106a00e730af",
    "kind": "causal_notes",
    "asset": "HEATOIL",
@@ -2583,6 +2570,19 @@
    "events": []
   },
   {
+   "id": "note-7ce97587f393",
+   "kind": "causal_notes",
+   "asset": "HEATOIL",
+   "move_id": "move-HEATOIL-2026-03-27",
+   "move_date": "2026-03-27",
+   "event_ids": [],
+   "reasoning": "No candidate events in window; price move likely due to market microstructure or exogenous factors.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-15T03:57:37Z",
+   "events": []
+  },
+  {
    "id": "note-fb98b86258c4",
    "kind": "causal_notes",
    "asset": "HEATOIL",
@@ -2794,16 +2794,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-184ec787b959",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T11:28:50Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Amazon shares fall, leading big tech to decline in pre-market trading.",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTTgwekhrRFVBbjRqckc3TXoxeUs4al9lMXE3RlBuR1dMZFBHbldkTFB6U0tDNDBTTEVlSnFFTTh5VFlpTkZMSDRTdFYwdkpvcE45ZDRvdEY1cWFKRkI1YnhQSnRjaHRPUzJVaVFwdWpNQzB1Rjl0cGtOUmYtOHZtc1htVnVoTmpsVkp3RGZ4LUF5SDR2cG4tRzAxNjF3ZDg?oc=5"
-  },
   {
    "id": "evt-60fede2c683b",
    "date": "2026-09-14",
@@ -3103,6 +3093,16 @@
    "region": "Africa",
    "summary": "A mutiny in Niger's army highlighted deep grievances and increased reliance on Russia, testing ties with Sahel allies.",
    "url": "https://www.aljazeera.com/news/2026/9/14/niger-mutiny-exposes-growing-reliance-on-russia?traffic_source=rss"
+  },
+  {
+   "id": "evt-697020195849",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T12:26:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "U.S. analysts warn that heating bills will rise this winter, leaving many households with little budget flexibility.",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wRmZyZFYyeExiZDBGcXRvZi0xeTFSZ0xNYkh6THI4RUp6QllRdS1FbE93NXJodmtsZUt3WTdPU1Fka2tJcE94ODhmTHFYR2YwT3QyWHM1eGxpTkxDSjNKdDdVWWo1RGp3dWN0dk9sTVVveG4xQWxvdXlNZkZFZw?oc=5"
   },
   {
    "id": "evt-99ea799265dd",

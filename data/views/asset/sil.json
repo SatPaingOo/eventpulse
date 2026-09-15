@@ -2286,30 +2286,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-976ba9164d38",
-   "kind": "causal_notes",
-   "asset": "SIL",
-   "move_id": "move-SIL-2026-09-10",
-   "move_date": "2026-09-10",
-   "event_ids": [
-    "evt-44d6b73f4b2f"
-   ],
-   "reasoning": "US PPI rise increased Fed hike risk, leading to silver price decline, hurting miners.",
-   "confidence": 70,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-10T15:29:27Z",
-   "events": [
-    {
-     "id": "evt-44d6b73f4b2f",
-     "event_type": "economic",
-     "severity": 2,
-     "region": "US",
-     "summary": "Gold and silver prices fell as a rise in the US Producer Price Index increased the risk of a Federal Reserve rate hike.",
-     "date": "2026-09-10"
-    }
-   ]
-  },
-  {
    "id": "note-8405320f4d23",
    "kind": "causal_notes",
    "asset": "SIL",
@@ -2346,6 +2322,19 @@
    "confidence": 30,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-09T10:22:54Z",
+   "events": []
+  },
+  {
+   "id": "note-10458881d758",
+   "kind": "causal_notes",
+   "asset": "SIL",
+   "move_id": "move-SIL-2026-08-28",
+   "move_date": "2026-08-28",
+   "event_ids": [],
+   "reasoning": "No candidate events near 2026-08-28; move likely due to market noise or untracked factors.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-15T03:55:51Z",
    "events": []
   },
   {
@@ -2717,16 +2706,6 @@
  ],
  "events": [
   {
-   "id": "evt-184ec787b959",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T11:28:50Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Amazon shares fall, leading big tech to decline in pre-market trading.",
-   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTTgwekhrRFVBbjRqckc3TXoxeUs4al9lMXE3RlBuR1dMZFBHbldkTFB6U0tDNDBTTEVlSnFFTTh5VFlpTkZMSDRTdFYwdkpvcE45ZDRvdEY1cWFKRkI1YnhQSnRjaHRPUzJVaVFwdWpNQzB1Rjl0cGtOUmYtOHZtc1htVnVoTmpsVkp3RGZ4LUF5SDR2cG4tRzAxNjF3ZDg?oc=5"
-  },
-  {
    "id": "evt-60fede2c683b",
    "date": "2026-09-14",
    "dt": "2026-09-14T07:34:48Z",
@@ -3025,6 +3004,16 @@
    "region": "Africa",
    "summary": "A mutiny in Niger's army highlighted deep grievances and increased reliance on Russia, testing ties with Sahel allies.",
    "url": "https://www.aljazeera.com/news/2026/9/14/niger-mutiny-exposes-growing-reliance-on-russia?traffic_source=rss"
+  },
+  {
+   "id": "evt-697020195849",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T12:26:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "U.S. analysts warn that heating bills will rise this winter, leaving many households with little budget flexibility.",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wRmZyZFYyeExiZDBGcXRvZi0xeTFSZ0xNYkh6THI4RUp6QllRdS1FbE93NXJodmtsZUt3WTdPU1Fka2tJcE94ODhmTHFYR2YwT3QyWHM1eGxpTkxDSjNKdDdVWWo1RGp3dWN0dk9sTVVveG4xQWxvdXlNZkZFZw?oc=5"
   },
   {
    "id": "evt-99ea799265dd",
