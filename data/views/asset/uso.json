@@ -2678,6 +2678,45 @@
  ],
  "predictions": [
   {
+   "id": "pred-6c31c1bbbfe4",
+   "event_id": "evt-21d8ad5b830e",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 3.0,
+   "confidence": 52,
+   "reasoning": "ETF mirrors crude price moves; rising WTI/Brent lifts USO in the near term.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-5a756eb61e4e",
+   "event_id": "evt-02a2cf1bba9f",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 3.0,
+   "confidence": 53,
+   "reasoning": "ETF tracks crude price; WTI surge lifts USO, with ETF likely appreciating as oil stays above $100.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-a24685ed2486",
+   "event_id": "evt-b2f97ff16e52",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 60,
+   "reasoning": "Crude oil ETF benefits directly from Brent price surge and energy sector investment announcements.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-e7fe05432c9f",
    "event_id": "evt-f3c63fbd57f5",
    "created_at": "2026-09-14",
@@ -2687,6 +2726,19 @@
    "threshold_pct": 1.0,
    "confidence": 55,
    "reasoning": "ETF tracks crude; higher WTI from outage should lift USO in short term.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-2c16c3bdc72f",
+   "event_id": "evt-7059fb1a120d",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 55,
+   "reasoning": "Higher Brent prices boost crude‑oil ETF NAV as investors seek exposure to rising oil prices.",
    "status": "open",
    "outcome": null
   },
@@ -2991,16 +3043,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-0aafc174ea4d",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T10:30:23Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Tech stocks tumble amid widespread AI apocalypse fears.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNG5sa1kyUTFwUEs5eW4tNjRxbVhZWUIzNkloRHRiNFVXV0RXWG5CLWxjTTg3RXBjYXh1RTZ1TGxncklpUG1VY0hFSWg0b2tCYm03N1k1U2JNTVUxWGY0dnlPRmZCdnRUR2VicWljdVZodEgyTjFYa2g0eVktRG53TWR3QnpNcjJCMVpsekJWREVQNWlNTUNIVw?oc=5"
-  },
   {
    "id": "evt-184ec787b959",
    "date": "2026-09-14",
@@ -3590,6 +3632,16 @@
    "region": "Middle East",
    "summary": "Article argues leftist Zionism is impossible, labeling it racist and colonial.",
    "url": "https://www.aljazeera.com/opinions/2026/9/14/can-a-party-be-leftist-and-zionist?traffic_source=rss"
+  },
+  {
+   "id": "evt-605a30a71e9f",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T22:50:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Heating oil prices in Maine are expected to rise sharply before winter, increasing costs for residents.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEhoU1pnbDZ6dEN2OFRESUExVnZiSEpCM2FhY3V3NjFPMXdOaUVDOHFPTURCUTlyanE1OU1vZTdDUXhaREFfcE9CQW44aUV6eHpZTzJvYUNqcHRrX2hycGgtY3ZELVpXVW1OV0JJQmd5Nzl2aDlsMVJEelgyN2xaOHdmYUR5U01ZdnJhWXE3LWVnempGUDRKMkRhU3NxRFZMbmJmZWpRTHc?oc=5"
   }
  ]
 }

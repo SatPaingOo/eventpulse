@@ -2286,19 +2286,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-fd9ac8f856c8",
-   "kind": "causal_notes",
-   "asset": "NVDA",
-   "move_id": "move-NVDA-2026-07-14",
-   "move_date": "2026-07-14",
-   "event_ids": [],
-   "reasoning": "No listed events; likely earnings or analyst upgrade drove the 4.063% rise.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-12T02:02:08Z",
-   "events": []
-  },
-  {
    "id": "note-6b9b72274a6f",
    "kind": "causal_notes",
    "asset": "NVDA",
@@ -2624,6 +2611,19 @@
    "events": []
   },
   {
+   "id": "note-29bc2cbae3db",
+   "kind": "causal_notes",
+   "asset": "NVDA",
+   "move_id": "move-NVDA-2026-03-20",
+   "move_date": "2026-03-20",
+   "event_ids": [],
+   "reasoning": "No candidate events found near 2026-03-20, so no plausible external cause identified.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-15T03:25:45Z",
+   "events": []
+  },
+  {
    "id": "note-f0c94d75b7fe",
    "kind": "causal_notes",
    "asset": "NVDA",
@@ -2677,6 +2677,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-11de69a0cabc",
+   "event_id": "evt-c096fde0aeca",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-28",
+   "horizon_days": 14,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 60,
+   "reasoning": "Alphabet's AI push raises demand for GPUs, supporting NVIDIA earnings outlook.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-51529665ddb3",
    "event_id": "evt-b22e16baf1a3",
@@ -2822,16 +2835,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-0aafc174ea4d",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T10:30:23Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Tech stocks tumble amid widespread AI apocalypse fears.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNG5sa1kyUTFwUEs5eW4tNjRxbVhZWUIzNkloRHRiNFVXV0RXWG5CLWxjTTg3RXBjYXh1RTZ1TGxncklpUG1VY0hFSWg0b2tCYm03N1k1U2JNTVUxWGY0dnlPRmZCdnRUR2VicWljdVZodEgyTjFYa2g0eVktRG53TWR3QnpNcjJCMVpsekJWREVQNWlNTUNIVw?oc=5"
-  },
   {
    "id": "evt-184ec787b959",
    "date": "2026-09-14",
@@ -3421,6 +3424,16 @@
    "region": "Middle East",
    "summary": "Article argues leftist Zionism is impossible, labeling it racist and colonial.",
    "url": "https://www.aljazeera.com/opinions/2026/9/14/can-a-party-be-leftist-and-zionist?traffic_source=rss"
+  },
+  {
+   "id": "evt-605a30a71e9f",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T22:50:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Heating oil prices in Maine are expected to rise sharply before winter, increasing costs for residents.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEhoU1pnbDZ6dEN2OFRESUExVnZiSEpCM2FhY3V3NjFPMXdOaUVDOHFPTURCUTlyanE1OU1vZTdDUXhaREFfcE9CQW44aUV6eHpZTzJvYUNqcHRrX2hycGgtY3ZELVpXVW1OV0JJQmd5Nzl2aDlsMVJEelgyN2xaOHdmYUR5U01ZdnJhWXE3LWVnempGUDRKMkRhU3NxRFZMbmJmZWpRTHc?oc=5"
   }
  ]
 }

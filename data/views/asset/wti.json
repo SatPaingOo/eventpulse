@@ -2780,6 +2780,19 @@
    "outcome": null
   },
   {
+   "id": "pred-ce9104ef0a5c",
+   "event_id": "evt-7059fb1a120d",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 55,
+   "reasoning": "Brent > $100 lifts global oil sentiment, likely pushing WTI higher on tight supply expectations.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-8da7196aadbe",
    "event_id": "evt-9f7c7f9a60d4",
    "created_at": "2026-09-14",
@@ -2802,6 +2815,19 @@
    "threshold_pct": 1.5,
    "confidence": 65,
    "reasoning": "BRICS non‑condemnation may signal higher Iran risk, pushing oil prices up.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-6484498d1c66",
+   "event_id": "evt-02a2cf1bba9f",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 58,
+   "reasoning": "Break above $100 signals bullish momentum; oil demand outlook remains strong, likely pushing price higher.",
    "status": "open",
    "outcome": null
   },
@@ -2858,6 +2884,19 @@
    "outcome": null
   },
   {
+   "id": "pred-20ab8c4ca209",
+   "event_id": "evt-21d8ad5b830e",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 58,
+   "reasoning": "Middle‑East tension lifts crude demand risk premium; short‑term bullish pressure likely persists.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-bc76e6c292e6",
    "event_id": "evt-c418570f928a",
    "created_at": "2026-09-14",
@@ -2867,6 +2906,19 @@
    "threshold_pct": 2.0,
    "confidence": 60,
    "reasoning": "Fire damage to Brazil's offshore oil infrastructure could reduce output, nudging crude oil higher.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-dd52c0be6752",
+   "event_id": "evt-f5460f3fd5c4",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 2.0,
+   "confidence": 55,
+   "reasoning": "Potential compromise could ease Middle East supply concerns, pressuring oil lower.",
    "status": "open",
    "outcome": null
   },
@@ -3168,71 +3220,9 @@
    "reasoning": "Middle East tensions raise supply risk, pushing WTI higher.",
    "status": "open",
    "outcome": null
-  },
-  {
-   "id": "pred-30004cd957c6",
-   "event_id": "evt-098acaaa9bc4",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Angola fire threatens oil output, tightening supply, likely pushes WTI higher.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-279eae135e69",
-   "event_id": "evt-b68bec1ccdee",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 70,
-   "reasoning": "Oil price forecast to stay high, lifting WTI.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-c71af224d53d",
-   "event_id": "evt-fd17836c604a",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 1.5,
-   "confidence": 65,
-   "reasoning": "US-Iran tensions cut supply expectations, driving WTI prices down.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-ff8dc272eeef",
-   "event_id": "evt-fcae3d1daeca",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 1.0,
-   "confidence": 50,
-   "reasoning": "East African political tension raises transport‑route concerns and regional demand, nudging oil lower.",
-   "status": "open",
-   "outcome": null
   }
  ],
  "events": [
-  {
-   "id": "evt-0aafc174ea4d",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T10:30:23Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Tech stocks tumble amid widespread AI apocalypse fears.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNG5sa1kyUTFwUEs5eW4tNjRxbVhZWUIzNkloRHRiNFVXV0RXWG5CLWxjTTg3RXBjYXh1RTZ1TGxncklpUG1VY0hFSWg0b2tCYm03N1k1U2JNTVUxWGY0dnlPRmZCdnRUR2VicWljdVZodEgyTjFYa2g0eVktRG53TWR3QnpNcjJCMVpsekJWREVQNWlNTUNIVw?oc=5"
-  },
   {
    "id": "evt-184ec787b959",
    "date": "2026-09-14",
@@ -3822,6 +3812,16 @@
    "region": "Middle East",
    "summary": "Article argues leftist Zionism is impossible, labeling it racist and colonial.",
    "url": "https://www.aljazeera.com/opinions/2026/9/14/can-a-party-be-leftist-and-zionist?traffic_source=rss"
+  },
+  {
+   "id": "evt-605a30a71e9f",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T22:50:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Heating oil prices in Maine are expected to rise sharply before winter, increasing costs for residents.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEhoU1pnbDZ6dEN2OFRESUExVnZiSEpCM2FhY3V3NjFPMXdOaUVDOHFPTURCUTlyanE1OU1vZTdDUXhaREFfcE9CQW44aUV6eHpZTzJvYUNqcHRrX2hycGgtY3ZELVpXVW1OV0JJQmd5Nzl2aDlsMVJEelgyN2xaOHdmYUR5U01ZdnJhWXE3LWVnempGUDRKMkRhU3NxRFZMbmJmZWpRTHc?oc=5"
   }
  ]
 }

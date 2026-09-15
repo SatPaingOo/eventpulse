@@ -1,168 +1,98 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-09-15T03:03:56Z",
- "run_id": "run-2026-09-15T0303",
+ "updated_at": "2026-09-15T03:27:41Z",
+ "run_id": "run-2026-09-15T0327",
  "healthy": true,
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
    "message": "0 new price snapshots",
-   "started_at": "2026-09-15T02:51:33Z",
-   "ended_at": "2026-09-15T02:51:43Z",
+   "started_at": "2026-09-15T03:16:19Z",
+   "ended_at": "2026-09-15T03:16:28Z",
    "count": 0
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "70 new items (rss 18, gdelt 0, disasters 10, asset 42, pruned 0)",
-   "started_at": "2026-09-15T02:51:43Z",
-   "ended_at": "2026-09-15T02:52:39Z",
-   "count": 70
+   "message": "7 new items (rss 0, gdelt 0, disasters 0, asset 7, pruned 0)",
+   "started_at": "2026-09-15T03:16:28Z",
+   "ended_at": "2026-09-15T03:17:23Z",
+   "count": 7
   },
   "extract": {
    "stage": "extract",
    "ok": true,
-   "message": "114 events extracted from 114 items; 1305 unread left for next run",
-   "started_at": "2026-09-15T02:52:39Z",
-   "ended_at": "2026-09-15T03:02:44Z",
-   "count": 114
+   "message": "258 events extracted from 258 items; 1054 unread left for next run",
+   "started_at": "2026-09-15T03:17:23Z",
+   "ended_at": "2026-09-15T03:25:33Z",
+   "count": 258
   },
   "explain": {
    "stage": "explain",
    "ok": true,
    "message": "0 new moves, 20 new causal notes",
-   "started_at": "2026-09-15T03:02:44Z",
-   "ended_at": "2026-09-15T03:02:58Z",
+   "started_at": "2026-09-15T03:25:33Z",
+   "ended_at": "2026-09-15T03:26:00Z",
    "count": 20
   },
   "predict": {
    "stage": "predict",
    "ok": true,
-   "message": "24 predictions from 8 events",
-   "started_at": "2026-09-15T03:02:58Z",
-   "ended_at": "2026-09-15T03:03:54Z",
-   "count": 24
+   "message": "22 predictions from 8 events",
+   "started_at": "2026-09-15T03:26:00Z",
+   "ended_at": "2026-09-15T03:27:39Z",
+   "count": 22
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
    "message": "0 resolved, 0 voided, 41 waiting for a close",
-   "started_at": "2026-09-15T03:03:54Z",
-   "ended_at": "2026-09-15T03:03:54Z",
+   "started_at": "2026-09-15T03:27:39Z",
+   "ended_at": "2026-09-15T03:27:39Z",
    "count": 0
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
    "message": "accuracy 36.7% (108/294), 1 reflection note(s)",
-   "started_at": "2026-09-15T03:03:54Z",
-   "ended_at": "2026-09-15T03:03:56Z",
+   "started_at": "2026-09-15T03:27:39Z",
+   "ended_at": "2026-09-15T03:27:41Z",
    "count": 1
   }
  },
  "llm_usage": {
-  "run_started_utc": "2026-09-15T02:51:33Z",
+  "run_started_utc": "2026-09-15T03:16:19Z",
   "by_model": [
    {
     "provider": "groq",
     "model": "openai/gpt-oss-120b",
-    "calls": 22,
-    "ok": 16,
-    "errors": 6,
-    "prompt_tokens": 18784,
-    "completion_tokens": 13534,
-    "total_tokens": 32318
+    "calls": 66,
+    "ok": 48,
+    "errors": 18,
+    "prompt_tokens": 49752,
+    "completion_tokens": 34747,
+    "total_tokens": 84499
    },
    {
     "provider": "groq",
     "model": "openai/gpt-oss-20b",
-    "calls": 39,
-    "ok": 28,
-    "errors": 11,
-    "prompt_tokens": 20805,
-    "completion_tokens": 15984,
-    "total_tokens": 36789
+    "calls": 8,
+    "ok": 5,
+    "errors": 3,
+    "prompt_tokens": 7833,
+    "completion_tokens": 5632,
+    "total_tokens": 13465
    },
    {
     "provider": "openrouter",
     "model": "dots-studio/dots-3-note-preview:free",
-    "calls": 5,
-    "ok": 5,
+    "calls": 19,
+    "ok": 19,
     "errors": 0,
-    "prompt_tokens": 8380,
-    "completion_tokens": 76576,
-    "total_tokens": 84956
-   },
-   {
-    "provider": "openrouter",
-    "model": "google/gemma-4-26b-a4b-it:free",
-    "calls": 1,
-    "ok": 0,
-    "errors": 1,
-    "prompt_tokens": 0,
-    "completion_tokens": 0,
-    "total_tokens": 0
-   },
-   {
-    "provider": "openrouter",
-    "model": "google/gemma-4-31b-it:free",
-    "calls": 1,
-    "ok": 0,
-    "errors": 1,
-    "prompt_tokens": 0,
-    "completion_tokens": 0,
-    "total_tokens": 0
-   },
-   {
-    "provider": "openrouter",
-    "model": "liquid/lfm-2.5-2.6b:free",
-    "calls": 1,
-    "ok": 0,
-    "errors": 1,
-    "prompt_tokens": 0,
-    "completion_tokens": 0,
-    "total_tokens": 0
-   },
-   {
-    "provider": "openrouter",
-    "model": "nex-agi/nex-n2.5-mini:free",
-    "calls": 1,
-    "ok": 0,
-    "errors": 1,
-    "prompt_tokens": 0,
-    "completion_tokens": 0,
-    "total_tokens": 0
-   },
-   {
-    "provider": "openrouter",
-    "model": "nex-agi/nex-n2.5-pro:free",
-    "calls": 1,
-    "ok": 0,
-    "errors": 1,
-    "prompt_tokens": 0,
-    "completion_tokens": 0,
-    "total_tokens": 0
-   },
-   {
-    "provider": "openrouter",
-    "model": "nvidia/nemotron-3-super-120b-a12b:free",
-    "calls": 1,
-    "ok": 0,
-    "errors": 1,
-    "prompt_tokens": 0,
-    "completion_tokens": 0,
-    "total_tokens": 0
-   },
-   {
-    "provider": "openrouter",
-    "model": "openrouter/free",
-    "calls": 1,
-    "ok": 0,
-    "errors": 1,
-    "prompt_tokens": 0,
-    "completion_tokens": 0,
-    "total_tokens": 0
+    "prompt_tokens": 30462,
+    "completion_tokens": 51643,
+    "total_tokens": 82105
    }
   ]
  }

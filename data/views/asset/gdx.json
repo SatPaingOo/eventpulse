@@ -2286,45 +2286,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-bd2244078cc2",
-   "kind": "causal_notes",
-   "asset": "GDX",
-   "move_id": "move-GDX-2026-08-28",
-   "move_date": "2026-08-28",
-   "event_ids": [],
-   "reasoning": "Sector rotation to non‑cyclicals amid broader market sell‑off pushed GDX down.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-14T17:17:13Z",
-   "events": []
-  },
-  {
-   "id": "note-e00340d7f3f5",
-   "kind": "causal_notes",
-   "asset": "GDX",
-   "move_id": "move-GDX-2026-08-21",
-   "move_date": "2026-08-21",
-   "event_ids": [],
-   "reasoning": "No specific event; likely sector rotation or macro‑market sentiment drove GDX up.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-06T01:45:55Z",
-   "events": []
-  },
-  {
-   "id": "note-98d3f2b55e63",
-   "kind": "causal_notes",
-   "asset": "GDX",
-   "move_id": "move-GDX-2026-08-20",
-   "move_date": "2026-08-20",
-   "event_ids": [],
-   "reasoning": "No events in window; move likely from broader market sentiment or sector rotation.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-14T02:12:08Z",
-   "events": []
-  },
-  {
    "id": "note-7619730f3d68",
    "kind": "causal_notes",
    "asset": "GDX",
@@ -2403,6 +2364,19 @@
    "events": []
   },
   {
+   "id": "note-c17ccfb0206c",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-07-30",
+   "move_date": "2026-07-30",
+   "event_ids": [],
+   "reasoning": "No candidate events; price move likely driven by broader market or macro factors unrelated to listed events.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-15T03:25:44Z",
+   "events": []
+  },
+  {
    "id": "note-244ea75b42ee",
    "kind": "causal_notes",
    "asset": "GDX",
@@ -2465,6 +2439,19 @@
    "confidence": 30,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-07T16:52:09Z",
+   "events": []
+  },
+  {
+   "id": "note-fdf8636b2dd7",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-06-15",
+   "move_date": "2026-06-15",
+   "event_ids": [],
+   "reasoning": "No candidate events; price move likely driven by broader market factors or gold price fluctuations.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-15T03:25:38Z",
    "events": []
   },
   {
@@ -2543,6 +2530,19 @@
    "confidence": 30,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-14T21:35:51Z",
+   "events": []
+  },
+  {
+   "id": "note-a00adf5e83fb",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-05-15",
+   "move_date": "2026-05-15",
+   "event_ids": [],
+   "reasoning": "No specific events; price drop likely driven by broader market sentiment or macro factors (e.g., USD strength, interest rates).",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-15T03:25:47Z",
    "events": []
   },
   {
@@ -2783,16 +2783,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-0aafc174ea4d",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T10:30:23Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Tech stocks tumble amid widespread AI apocalypse fears.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNG5sa1kyUTFwUEs5eW4tNjRxbVhZWUIzNkloRHRiNFVXV0RXWG5CLWxjTTg3RXBjYXh1RTZ1TGxncklpUG1VY0hFSWg0b2tCYm03N1k1U2JNTVUxWGY0dnlPRmZCdnRUR2VicWljdVZodEgyTjFYa2g0eVktRG53TWR3QnpNcjJCMVpsekJWREVQNWlNTUNIVw?oc=5"
-  },
   {
    "id": "evt-184ec787b959",
    "date": "2026-09-14",
@@ -3382,6 +3372,16 @@
    "region": "Middle East",
    "summary": "Article argues leftist Zionism is impossible, labeling it racist and colonial.",
    "url": "https://www.aljazeera.com/opinions/2026/9/14/can-a-party-be-leftist-and-zionist?traffic_source=rss"
+  },
+  {
+   "id": "evt-605a30a71e9f",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T22:50:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Heating oil prices in Maine are expected to rise sharply before winter, increasing costs for residents.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEhoU1pnbDZ6dEN2OFRESUExVnZiSEpCM2FhY3V3NjFPMXdOaUVDOHFPTURCUTlyanE1OU1vZTdDUXhaREFfcE9CQW44aUV6eHpZTzJvYUNqcHRrX2hycGgtY3ZELVpXVW1OV0JJQmd5Nzl2aDlsMVJEelgyN2xaOHdmYUR5U01ZdnJhWXE3LWVnempGUDRKMkRhU3NxRFZMbmJmZWpRTHc?oc=5"
   }
  ]
 }

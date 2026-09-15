@@ -2518,6 +2518,19 @@
    "events": []
   },
   {
+   "id": "note-66ae8ecbb2de",
+   "kind": "causal_notes",
+   "asset": "XLE",
+   "move_id": "move-XLE-2026-03-26",
+   "move_date": "2026-03-26",
+   "event_ids": [],
+   "reasoning": "No candidate events found near 2026-03-26, so the price move lacks an identified external trigger.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-15T03:25:40Z",
+   "events": []
+  },
+  {
    "id": "note-a81a66da45b0",
    "kind": "causal_notes",
    "asset": "XLE",
@@ -2581,6 +2594,58 @@
    "threshold_pct": 2.0,
    "confidence": 50,
    "reasoning": "Energy sector ETF follows crude; expected price drop lowers earnings outlook for oil‑related firms.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-6744881b7446",
+   "event_id": "evt-c7cc98a110a2",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-28",
+   "horizon_days": 14,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 65,
+   "reasoning": "Higher crude prices increase cash flows and valuations for energy sector companies, likely lifting XLE.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-772c296e0eb4",
+   "event_id": "evt-f5460f3fd5c4",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Energy equities may stay flat as oil outlook remains mixed amid diplomatic talks.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-2f3bf611ddc8",
+   "event_id": "evt-7059fb1a120d",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-28",
+   "horizon_days": 14,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Energy sector index benefits from sustained oil price gains, supporting broader energy equities.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-a1d1355afdca",
+   "event_id": "evt-b2f97ff16e52",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Trump energy investment announcements should boost energy sector equities, lagging oil prices.",
    "status": "open",
    "outcome": null
   },
@@ -2976,16 +3041,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-0aafc174ea4d",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T10:30:23Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Tech stocks tumble amid widespread AI apocalypse fears.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNG5sa1kyUTFwUEs5eW4tNjRxbVhZWUIzNkloRHRiNFVXV0RXWG5CLWxjTTg3RXBjYXh1RTZ1TGxncklpUG1VY0hFSWg0b2tCYm03N1k1U2JNTVUxWGY0dnlPRmZCdnRUR2VicWljdVZodEgyTjFYa2g0eVktRG53TWR3QnpNcjJCMVpsekJWREVQNWlNTUNIVw?oc=5"
-  },
   {
    "id": "evt-184ec787b959",
    "date": "2026-09-14",
@@ -3575,6 +3630,16 @@
    "region": "Middle East",
    "summary": "Article argues leftist Zionism is impossible, labeling it racist and colonial.",
    "url": "https://www.aljazeera.com/opinions/2026/9/14/can-a-party-be-leftist-and-zionist?traffic_source=rss"
+  },
+  {
+   "id": "evt-605a30a71e9f",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T22:50:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Heating oil prices in Maine are expected to rise sharply before winter, increasing costs for residents.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEhoU1pnbDZ6dEN2OFRESUExVnZiSEpCM2FhY3V3NjFPMXdOaUVDOHFPTURCUTlyanE1OU1vZTdDUXhaREFfcE9CQW44aUV6eHpZTzJvYUNqcHRrX2hycGgtY3ZELVpXVW1OV0JJQmd5Nzl2aDlsMVJEelgyN2xaOHdmYUR5U01ZdnJhWXE3LWVnempGUDRKMkRhU3NxRFZMbmJmZWpRTHc?oc=5"
   }
  ]
 }

@@ -2310,19 +2310,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-b25a85d32336",
-   "kind": "causal_notes",
-   "asset": "PAL",
-   "move_id": "move-PAL-2026-09-06",
-   "move_date": "2026-09-06",
-   "event_ids": [],
-   "reasoning": "No listed event directly impacts palladium demand or supply.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-07T01:43:56Z",
-   "events": []
-  },
-  {
    "id": "note-8f30c75c0fd0",
    "kind": "causal_notes",
    "asset": "PAL",
@@ -2366,6 +2353,19 @@
    "confidence": 10,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-04T01:53:22Z",
+   "events": []
+  },
+  {
+   "id": "note-5aba9a8a142c",
+   "kind": "causal_notes",
+   "asset": "PAL",
+   "move_id": "move-PAL-2026-08-28",
+   "move_date": "2026-08-28",
+   "event_ids": [],
+   "reasoning": "No candidate events found near 2026-08-28, so the price jump lacks an identified driver.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-15T03:25:43Z",
    "events": []
   },
   {
@@ -2762,16 +2762,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-0aafc174ea4d",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T10:30:23Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Tech stocks tumble amid widespread AI apocalypse fears.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNG5sa1kyUTFwUEs5eW4tNjRxbVhZWUIzNkloRHRiNFVXV0RXWG5CLWxjTTg3RXBjYXh1RTZ1TGxncklpUG1VY0hFSWg0b2tCYm03N1k1U2JNTVUxWGY0dnlPRmZCdnRUR2VicWljdVZodEgyTjFYa2g0eVktRG53TWR3QnpNcjJCMVpsekJWREVQNWlNTUNIVw?oc=5"
-  },
   {
    "id": "evt-184ec787b959",
    "date": "2026-09-14",
@@ -3361,6 +3351,16 @@
    "region": "Middle East",
    "summary": "Article argues leftist Zionism is impossible, labeling it racist and colonial.",
    "url": "https://www.aljazeera.com/opinions/2026/9/14/can-a-party-be-leftist-and-zionist?traffic_source=rss"
+  },
+  {
+   "id": "evt-605a30a71e9f",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T22:50:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Heating oil prices in Maine are expected to rise sharply before winter, increasing costs for residents.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEhoU1pnbDZ6dEN2OFRESUExVnZiSEpCM2FhY3V3NjFPMXdOaUVDOHFPTURCUTlyanE1OU1vZTdDUXhaREFfcE9CQW44aUV6eHpZTzJvYUNqcHRrX2hycGgtY3ZELVpXVW1OV0JJQmd5Nzl2aDlsMVJEelgyN2xaOHdmYUR5U01ZdnJhWXE3LWVnempGUDRKMkRhU3NxRFZMbmJmZWpRTHc?oc=5"
   }
  ]
 }

@@ -2592,6 +2592,19 @@
    "events": []
   },
   {
+   "id": "note-49b8a909cba3",
+   "kind": "causal_notes",
+   "asset": "REMX",
+   "move_id": "move-REMX-2026-03-31",
+   "move_date": "2026-03-31",
+   "event_ids": [],
+   "reasoning": "No candidate events in window. Move likely due to broad market sentiment, sector rotation, or unrecorded rare earth dynamics.",
+   "confidence": 25,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-15T03:26:00Z",
+   "events": []
+  },
+  {
    "id": "note-9fae49bba54d",
    "kind": "causal_notes",
    "asset": "REMX",
@@ -2683,19 +2696,22 @@
    "reasoning": "Geopolitical competition may spur rare‑earth mining, lifting rare‑earth prices.",
    "status": "open",
    "outcome": null
+  },
+  {
+   "id": "pred-e953f1d33e3f",
+   "event_id": "evt-f64fa987c3c5",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-28",
+   "horizon_days": 14,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 65,
+   "reasoning": "China's export controls on rare earths may tighten global supply, leading to price increases for rare earth ETFs like REMX.",
+   "status": "open",
+   "outcome": null
   }
  ],
  "events": [
-  {
-   "id": "evt-0aafc174ea4d",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T10:30:23Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Tech stocks tumble amid widespread AI apocalypse fears.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNG5sa1kyUTFwUEs5eW4tNjRxbVhZWUIzNkloRHRiNFVXV0RXWG5CLWxjTTg3RXBjYXh1RTZ1TGxncklpUG1VY0hFSWg0b2tCYm03N1k1U2JNTVUxWGY0dnlPRmZCdnRUR2VicWljdVZodEgyTjFYa2g0eVktRG53TWR3QnpNcjJCMVpsekJWREVQNWlNTUNIVw?oc=5"
-  },
   {
    "id": "evt-184ec787b959",
    "date": "2026-09-14",
@@ -3285,6 +3301,16 @@
    "region": "Middle East",
    "summary": "Article argues leftist Zionism is impossible, labeling it racist and colonial.",
    "url": "https://www.aljazeera.com/opinions/2026/9/14/can-a-party-be-leftist-and-zionist?traffic_source=rss"
+  },
+  {
+   "id": "evt-605a30a71e9f",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T22:50:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Heating oil prices in Maine are expected to rise sharply before winter, increasing costs for residents.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEhoU1pnbDZ6dEN2OFRESUExVnZiSEpCM2FhY3V3NjFPMXdOaUVDOHFPTURCUTlyanE1OU1vZTdDUXhaREFfcE9CQW44aUV6eHpZTzJvYUNqcHRrX2hycGgtY3ZELVpXVW1OV0JJQmd5Nzl2aDlsMVJEelgyN2xaOHdmYUR5U01ZdnJhWXE3LWVnempGUDRKMkRhU3NxRFZMbmJmZWpRTHc?oc=5"
   }
  ]
 }

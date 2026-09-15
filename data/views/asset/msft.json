@@ -2286,30 +2286,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-287183b31a7d",
-   "kind": "causal_notes",
-   "asset": "MSFT",
-   "move_id": "move-MSFT-2026-09-03",
-   "move_date": "2026-09-03",
-   "event_ids": [
-    "evt-9630b1d4665e"
-   ],
-   "reasoning": "WMO El Niño warning signals global economic disruption; investors may rotate into large-cap tech like MSFT as a defensive growth play.",
-   "confidence": 25,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T17:02:01Z",
-   "events": [
-    {
-     "id": "evt-9630b1d4665e",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Global",
-     "summary": "WMO warns of a supersized El Niño that could disrupt global economies.",
-     "date": "2026-09-03"
-    }
-   ]
-  },
-  {
    "id": "note-a713326b24ef",
    "kind": "causal_notes",
    "asset": "MSFT",
@@ -2450,6 +2426,19 @@
    "confidence": 50,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-09T20:14:13Z",
+   "events": []
+  },
+  {
+   "id": "note-6c28d29bb4e9",
+   "kind": "causal_notes",
+   "asset": "MSFT",
+   "move_id": "move-MSFT-2026-06-25",
+   "move_date": "2026-06-25",
+   "event_ids": [],
+   "reasoning": "No candidate events found; price move likely due to market noise or undisclosed information.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-15T03:25:48Z",
    "events": []
   },
   {
@@ -2689,6 +2678,19 @@
  ],
  "predictions": [
   {
+   "id": "pred-46521886854c",
+   "event_id": "evt-c096fde0aeca",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-28",
+   "horizon_days": 14,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 50,
+   "reasoning": "Sector‑wide AI spending boosts sentiment for Microsoft’s cloud AI services.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-22749070b263",
    "event_id": "evt-7874b98bc761",
    "created_at": "2026-09-11",
@@ -2755,16 +2757,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-0aafc174ea4d",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T10:30:23Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Tech stocks tumble amid widespread AI apocalypse fears.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNG5sa1kyUTFwUEs5eW4tNjRxbVhZWUIzNkloRHRiNFVXV0RXWG5CLWxjTTg3RXBjYXh1RTZ1TGxncklpUG1VY0hFSWg0b2tCYm03N1k1U2JNTVUxWGY0dnlPRmZCdnRUR2VicWljdVZodEgyTjFYa2g0eVktRG53TWR3QnpNcjJCMVpsekJWREVQNWlNTUNIVw?oc=5"
-  },
   {
    "id": "evt-184ec787b959",
    "date": "2026-09-14",
@@ -3354,6 +3346,16 @@
    "region": "Middle East",
    "summary": "Article argues leftist Zionism is impossible, labeling it racist and colonial.",
    "url": "https://www.aljazeera.com/opinions/2026/9/14/can-a-party-be-leftist-and-zionist?traffic_source=rss"
+  },
+  {
+   "id": "evt-605a30a71e9f",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T22:50:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Heating oil prices in Maine are expected to rise sharply before winter, increasing costs for residents.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEhoU1pnbDZ6dEN2OFRESUExVnZiSEpCM2FhY3V3NjFPMXdOaUVDOHFPTURCUTlyanE1OU1vZTdDUXhaREFfcE9CQW44aUV6eHpZTzJvYUNqcHRrX2hycGgtY3ZELVpXVW1OV0JJQmd5Nzl2aDlsMVJEelgyN2xaOHdmYUR5U01ZdnJhWXE3LWVnempGUDRKMkRhU3NxRFZMbmJmZWpRTHc?oc=5"
   }
  ]
 }

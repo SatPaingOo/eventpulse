@@ -2310,19 +2310,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-9ce33ab1fe18",
-   "kind": "causal_notes",
-   "asset": "NATGAS",
-   "move_id": "move-NATGAS-2026-08-04",
-   "move_date": "2026-08-04",
-   "event_ids": [],
-   "reasoning": "No candidate events in the window to explain the 3.56% drop.",
-   "confidence": 20,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T18:41:25Z",
-   "events": []
-  },
-  {
    "id": "note-8d9541b3b5e1",
    "kind": "causal_notes",
    "asset": "NATGAS",
@@ -2333,6 +2320,19 @@
    "confidence": 50,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-07T21:02:16Z",
+   "events": []
+  },
+  {
+   "id": "note-e88fc50854db",
+   "kind": "causal_notes",
+   "asset": "NATGAS",
+   "move_id": "move-NATGAS-2026-07-22",
+   "move_date": "2026-07-22",
+   "event_ids": [],
+   "reasoning": "No candidate events found; price move likely driven by routine market factors (weather forecasts, inventory reports, or speculative trading).",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-15T03:25:36Z",
    "events": []
   },
   {
@@ -2807,16 +2807,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-0aafc174ea4d",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T10:30:23Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Tech stocks tumble amid widespread AI apocalypse fears.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNG5sa1kyUTFwUEs5eW4tNjRxbVhZWUIzNkloRHRiNFVXV0RXWG5CLWxjTTg3RXBjYXh1RTZ1TGxncklpUG1VY0hFSWg0b2tCYm03N1k1U2JNTVUxWGY0dnlPRmZCdnRUR2VicWljdVZodEgyTjFYa2g0eVktRG53TWR3QnpNcjJCMVpsekJWREVQNWlNTUNIVw?oc=5"
-  },
   {
    "id": "evt-184ec787b959",
    "date": "2026-09-14",
@@ -3406,6 +3396,16 @@
    "region": "Middle East",
    "summary": "Article argues leftist Zionism is impossible, labeling it racist and colonial.",
    "url": "https://www.aljazeera.com/opinions/2026/9/14/can-a-party-be-leftist-and-zionist?traffic_source=rss"
+  },
+  {
+   "id": "evt-605a30a71e9f",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T22:50:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Heating oil prices in Maine are expected to rise sharply before winter, increasing costs for residents.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEhoU1pnbDZ6dEN2OFRESUExVnZiSEpCM2FhY3V3NjFPMXdOaUVDOHFPTURCUTlyanE1OU1vZTdDUXhaREFfcE9CQW44aUV6eHpZTzJvYUNqcHRrX2hycGgtY3ZELVpXVW1OV0JJQmd5Nzl2aDlsMVJEelgyN2xaOHdmYUR5U01ZdnJhWXE3LWVnempGUDRKMkRhU3NxRFZMbmJmZWpRTHc?oc=5"
   }
  ]
 }

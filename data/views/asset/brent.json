@@ -2310,19 +2310,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-7ab3ddfd4e7b",
-   "kind": "causal_notes",
-   "asset": "Brent",
-   "move_id": "move-Brent-2026-07-23",
-   "move_date": "2026-07-23",
-   "event_ids": [],
-   "reasoning": "No events in window; likely due to market speculation or supply concerns, e.g., OPEC+ output cuts or geopolitical tension.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-10T15:29:31Z",
-   "events": []
-  },
-  {
    "id": "note-c8457cae9d88",
    "kind": "causal_notes",
    "asset": "Brent",
@@ -2583,6 +2570,19 @@
    "events": []
   },
   {
+   "id": "note-fb8f3e3eb85e",
+   "kind": "causal_notes",
+   "asset": "Brent",
+   "move_id": "move-Brent-2026-04-21",
+   "move_date": "2026-04-21",
+   "event_ids": [],
+   "reasoning": "No candidate events near 2026-04-21; price move likely driven by market dynamics not captured in event list.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-09-15T03:25:42Z",
+   "events": []
+  },
+  {
    "id": "note-8cd73a28cebc",
    "kind": "causal_notes",
    "asset": "Brent",
@@ -2715,6 +2715,19 @@
    "outcome": null
   },
   {
+   "id": "pred-244c1e967f84",
+   "event_id": "evt-b2f97ff16e52",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 60,
+   "reasoning": "Brent hitting $100 amid energy investments signals continued upward momentum.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-985a4de427c5",
    "event_id": "evt-519d85e57c4e",
    "created_at": "2026-09-14",
@@ -2724,6 +2737,19 @@
    "threshold_pct": 1.5,
    "confidence": 55,
    "reasoning": "Gulf domestic focus could increase global oil supply, lowering Brent prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-08f595d793cf",
+   "event_id": "evt-02a2cf1bba9f",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 55,
+   "reasoning": "Global benchmark follows WTI rally; continued price gains expected as market confidence grows.",
    "status": "open",
    "outcome": null
   },
@@ -2763,6 +2789,32 @@
    "threshold_pct": 1.5,
    "confidence": 65,
    "reasoning": "Similar risk perception shift as WTI, likely lifting Brent.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-058baacb02cb",
+   "event_id": "evt-c7cc98a110a2",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 75,
+   "reasoning": "Brent closely tracks WTI crude; sustained WTI momentum above $100 suggests continued upward pressure on Brent.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-1877b45c8f03",
+   "event_id": "evt-21d8ad5b830e",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 55,
+   "reasoning": "Geopolitical shock raises global oil benchmarks; Brent tracks WTI on supply concerns.",
    "status": "open",
    "outcome": null
   },
@@ -3168,71 +3220,9 @@
    "reasoning": "Similar risk‑off effect on global oil markets, lowering Brent.",
    "status": "open",
    "outcome": null
-  },
-  {
-   "id": "pred-b8be76874110",
-   "event_id": "evt-7ddd3915267f",
-   "created_at": "2026-09-10",
-   "expires_at": "2026-09-17",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Geopolitical tension in Ukraine pushes global oil supply concerns, lifting Brent.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-4b07bebb80d8",
-   "event_id": "evt-08205a61e01a",
-   "created_at": "2026-09-10",
-   "expires_at": "2026-09-17",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 58,
-   "reasoning": "Geopolitical risk in Israel can push global Brent higher.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-3633cc083de8",
-   "event_id": "evt-b971500a636b",
-   "created_at": "2026-09-10",
-   "expires_at": "2026-09-17",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 57,
-   "reasoning": "Bab al‑Mandeb disruption raises risk premium on crude, supporting Brent gains.",
-   "status": "open",
-   "outcome": null
-  },
-  {
-   "id": "pred-137d147351ea",
-   "event_id": "evt-c2ba2fb94748",
-   "created_at": "2026-09-10",
-   "expires_at": "2026-09-17",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 65,
-   "reasoning": "Iran floods threaten export capacity, likely boosting Brent prices.",
-   "status": "open",
-   "outcome": null
   }
  ],
  "events": [
-  {
-   "id": "evt-0aafc174ea4d",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T10:30:23Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Tech stocks tumble amid widespread AI apocalypse fears.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQNG5sa1kyUTFwUEs5eW4tNjRxbVhZWUIzNkloRHRiNFVXV0RXWG5CLWxjTTg3RXBjYXh1RTZ1TGxncklpUG1VY0hFSWg0b2tCYm03N1k1U2JNTVUxWGY0dnlPRmZCdnRUR2VicWljdVZodEgyTjFYa2g0eVktRG53TWR3QnpNcjJCMVpsekJWREVQNWlNTUNIVw?oc=5"
-  },
   {
    "id": "evt-184ec787b959",
    "date": "2026-09-14",
@@ -3822,6 +3812,16 @@
    "region": "Middle East",
    "summary": "Article argues leftist Zionism is impossible, labeling it racist and colonial.",
    "url": "https://www.aljazeera.com/opinions/2026/9/14/can-a-party-be-leftist-and-zionist?traffic_source=rss"
+  },
+  {
+   "id": "evt-605a30a71e9f",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T22:50:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Heating oil prices in Maine are expected to rise sharply before winter, increasing costs for residents.",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMEhoU1pnbDZ6dEN2OFRESUExVnZiSEpCM2FhY3V3NjFPMXdOaUVDOHFPTURCUTlyanE1OU1vZTdDUXhaREFfcE9CQW44aUV6eHpZTzJvYUNqcHRrX2hycGgtY3ZELVpXVW1OV0JJQmd5Nzl2aDlsMVJEelgyN2xaOHdmYUR5U01ZdnJhWXE3LWVnempGUDRKMkRhU3NxRFZMbmJmZWpRTHc?oc=5"
   }
  ]
 }
