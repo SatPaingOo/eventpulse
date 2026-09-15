@@ -2587,6 +2587,19 @@
  ],
  "predictions": [
   {
+   "id": "pred-a4772d5b4091",
+   "event_id": "evt-214273649888",
+   "created_at": "2026-09-14",
+   "expires_at": "2026-09-21",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Cheaper Irish whiskey on Amazon drives higher online alcohol volume.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-538cf0fb662a",
    "event_id": "evt-617c0810b1f5",
    "created_at": "2026-09-08",
@@ -2614,66 +2627,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-14d030c6effc",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T18:31:33Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "Global",
-   "summary": "Chevron is evaluating new gas projects in the Mediterranean region and Argentina as shifting LNG routes create new market opportunities.",
-   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTkVfQVdQVEpYRlpGOTRTQ0M2UGY5WFJCV0w4UFNzWUlmcExEOEpqUzdvTTVWd1R2LUdxcjlITnMtX0R3eVZER2lIT29xUjktWjFSSzhxc0k2OUlyS3AybDhybDcxN3RkbTNYVGNoVngwN1hTN24wQlNKRzhXOU13Ym1CLWxZLTIwS0FYLUYwZzc2WVBtbTJJWE1jcG8tOHp6Zmc5ODI2RzBRODZ6cjZ2em1tUlczWDJNU3VCWGpn0gHDAUFVX3lxTFB2b2FoVW1vLVhiOElTX1Y5Y2hiS2RMUTZBS1FicGFnZ1FFRDc1VV9aZU5WRG9CTjRnX0Jtd3FxZms0bzhIY2F6Z0hFNnR0YTJiVHNyVDlpQldJbTdkRFFjcmdnMnkzNmJQQXpJVG5xZmoyOTRHUnRiNlF1cmtOQ0podEZtYUVWR2NUZkZvekhfQUo1eXg4S01iWWpNWVhuN2s5MEZ5eHZ5NzFZUFY0UDRDUV9GdXJrRjNJb25oMlZRb1ZtZw?oc=5"
-  },
-  {
-   "id": "evt-a252f189f393",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T12:21:44Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "IREN shares fell despite JPMorgan’s double upgrade, with the firm described as a ‘Formidable Neocloud’.",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNYzZhWWFEczlmV2FmQkpGZUt4Uk1GQ1NOd2toTnRwM1lRUkpONDNaT2Zrd0JKbVI1TWhIalpEWTl5RGJGV19lUWZJNmMyRkFiM1BVaElyRHdQM3RSS193Vmx5OEU5UDZKZ2E2aVV2dFlTUGkxQWNnck1ub0dWTE1YVmVmUW5OXzJ0YWtIb1ZScE15RUhuR1c3bDVJeHlDaWM4aHRoS2FHTko4LTBLcExueUhjcGVNQzA?oc=5"
-  },
-  {
-   "id": "evt-06d63349d021",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T15:17:20Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "South America",
-   "summary": "Chevron reports it is still awaiting clear results from its operations in Venezuela, citing ongoing uncertainties.",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPY29mc1E2YWEwX2J1RVhLRDFlTTlKdG1ucTRJdGhEMVp2U3padDMwUWxNVlRud2lEZVhJS0xNUGs0MlN4Rm1NMHFVNWxXM28tczB4RWNCQzNuWk44azVMRjFta0NwdGhiRHlONVpWVV9GU1FPQlNqdmFXbVlkYU1aYVlkSHRtTGhTa3dsM2JhRERPTk1WTUFpVXFwaw?oc=5"
-  },
-  {
-   "id": "evt-b7040aeef00b",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T10:10:00Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Gold prices drop nearly 2% as rising oil prices and Treasury yields boost expectations of Fed rate hikes.",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdHhTNWdPX1Y1X1FSLUVIU0d3NHNCYmpXMG9jZ1NDWmdUVERDeGhuM21rSTJRMDVHaHozeW4xZ3lfLU9oRU9UMVZzNDh2R1FyVE9oRFhuX2lERnllYXlnWFlmWHdQSFdNUjh1MXAzbkQ3al8yMHVWZzBkZGRnbHZJTUhkd2Y3Mm5qbk1yc1R5VjdmSU9jRG9ibFlJc2gyQXgwdkE0ODZma012WHJ3eEpNQW1palhzRHhkM05N?oc=5"
-  },
-  {
-   "id": "evt-8b6080c357aa",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T09:34:20Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "Global",
-   "summary": "The Nuclear Energy Agency says uranium resources are rising but further investment is needed to sustain growth.",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOEVHeWdFU254MEp4REpicHdnUG8zVEJkdldDblYzeGpYSUlfRTF6MkRpUnFsU2hzLTNVSmMwbDNDQ3g4bTNVQUVSbEhMX1V2eDZIX0NVLWlzR0dnQ2NhSUZPM0JWbmMyNGs3aV9uZklpZm5IczhMSE1OTklKRmZ3bjk5VUJCeGN3d1NPN3JYMEZUR3U5UlJTUXZDbWdLalNiaVhxZEt4eE8ycnhEbGY0eVlIMmlfcFlQNVJJ?oc=5"
-  },
-  {
-   "id": "evt-e2f704b02a82",
-   "date": "2026-09-14",
-   "dt": "2026-09-14T17:16:18Z",
-   "event_type": "military",
-   "severity": 3,
-   "region": "Middle East",
-   "summary": "US Vice President JD Vance says the Trump administration is monitoring the Houthi advance in Yemen's Red Sea.",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/9/14/jd-vance-insists-us-is-on-top-of-houthi-advance-in-red-sea?traffic_source=rss"
-  },
   {
    "id": "evt-0aafc174ea4d",
    "date": "2026-09-14",
@@ -2735,6 +2688,16 @@
    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOUkZPTDZNWnVxNEdKUlplTXM5OC1SWE9KNVZFeHJZUl9DSWxzSTRjc0NzNy1wbnN4VWsycFVqdkpkYmhxLThLdzNvZkE4X3BCYkRsT1JMa3BmT25ROW8zT0VFblppZnBFMDVJMTFpS0c2UjM0NEpmWVc5NlFfS2RxRzFQeHhEZ0pGY2lLdExoSDAyRDBhdUlucEhTS0pXaWUtOUFCTFB0eWJMNnFMalZWZ1l0YVpQVFVIVXNCckNhcXNQYno0aGRqSl9zd9IB0AFBVV95cUxNdUJaNTZNWFV4NXpVNEFfMTgxTHAwdG43RXRvaXB5OEVMdUJQMU5wOC1vTloxVy16V2tmZk1FRG5NSmprTlBNa3l5Vm0wWFR5R2RGMlRmcnN5Zmt1Wk9XOS0wUEdTSnpiVUFwa3hwYk0zX0Vpd19tdFFWUkJQZGZsXzJ2Z0hvei1lVlNwVkNrVlRRT1lLamFnQ2NYdlBoZ3pzVHBpMG1uaFowTEthb2p3dXVVU3VWRS04S2VObkNxTXJCbjNNSW8tV1RmdzJrQjZJ?oc=5"
   },
   {
+   "id": "evt-3ea01bd531c6",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T22:06:54Z",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "Papua New Guinea",
+   "summary": "M5.2 earthquake 66 km E of Kainantu, Papua New Guinea.",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000thhd"
+  },
+  {
    "id": "evt-0545159ee653",
    "date": "2026-09-14",
    "dt": "2026-09-14T11:31:39Z",
@@ -2763,6 +2726,16 @@
    "region": "US",
    "summary": "Boeing stock fluctuated on Monday.",
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeUNpY1ZTNEJJLUNWUXpvSUFXWTZxQmRGYjR2Sm02UW5XdUZEM3V4WDk3SEJCUHJySHFSLWZ3TE0xQ3BlMkZNOW5YNzlSZ2MwMVQ0N1NaWkVESlBlOE9lZE41QXZ1aHpxZ25jUVlkVXZXUk4tUzVESjFyN3IyaWZ1bDM5RjFXcGpQMzBxOFVRTVRlRmdBbnRLWnZhWUU0LUI0?oc=5"
+  },
+  {
+   "id": "evt-9ffdbe1cbdda",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T13:55:21Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "Global",
+   "summary": "Gold viewed as safe haven amid global debt crisis, per Sprott analyst Ryan McIntyre.",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVDhrNkQxYVJCd2x0TWx0UU5KRWNDdjYzeVY5MTJjdDA3bUs3d1hiZjNzWF9qbGRBOFZrZGlxaVQ1b2Y2RUw4RmNYM3FsU3ZDMWI0RGg5aDl4NkluMTV3SjFNNF9DSjBMRzFwZnMxcHN4VElrVlI4OXZfclY1UFlHRkF1STg4Um91MExqbFZzV3BRYk5ET3FYN2VfT29YMjlOcmg5dmp3?oc=5"
   },
   {
    "id": "evt-f1e1a94ef351",
@@ -2803,6 +2776,16 @@
    "region": "South Africa",
    "summary": "The body of missing runner Elizabeth Moselakgomo was found in South Africa, with four other women's bodies discovered nearby.",
    "url": "https://www.bbc.co.uk/news/articles/cxyvzggzd5jgo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-ef37fdba6084",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T23:00:47Z",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Africa",
+   "summary": "A forest fire started on 13 Sep 2026 in Namibia and continued until 14 Sep 2026.",
+   "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031966"
   },
   {
    "id": "evt-6c56a0d98317",
@@ -2935,6 +2918,16 @@
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQVBFQXRteWt6eEdidFBRWlZNSDhteG1Vb1h1Z1dieDlYR0tTQVRIUUhCVW9BTmdrUjZqV3ZwLW9GaHZ1ZjYxd2gxWWdCeTFLT05HYTFzTklINjRORU9Ba0tqVkFJd0NhaGR5RENDWFFJWVJqNFVNU2tVU3ZYRFFHaElpLVJRcVBYbDhYYTMxNEw2aGNIdjNpS0xrZFE4VGtVd1E?oc=5"
   },
   {
+   "id": "evt-74679fae6d87",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T22:33:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Investing $1,000 in Tesla stock 1 year ago would yield a substantial return today.",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObWFpenpvWTBYMmhkdGVUM0tfaXJ4bEtNWF9aTWdfdTZZUTZibWl6QjYxUVRGZFRwMkhZVmNQWkFkZ3N1YnpfSE5mOENtcVpJOVhuTnB5RWtzVjNlNUUtSWdRamRzeWZ4T0RsTkx1QW5SQUZ4ZEpSSHdTcl8zcGtuYW1YbkhUUG5fbjRmdEltMGkxX3JRWU9Tdw?oc=5"
+  },
+  {
    "id": "evt-be339446ce32",
    "date": "2026-09-14",
    "dt": "2026-09-14T07:42:55Z",
@@ -2983,6 +2976,16 @@
    "region": "US",
    "summary": "MARA Holdings shares fall 5.7% after JPMorgan issues a double downgrade, impacting investor sentiment.",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQLWFERVFLem5zWVluTHZkbVFja0N6ZVNScXI4S3VRQ0tlM0Q1SHBJbnRlZFFpZGN3UFYzZFM3T201TTB4Z2M5NXJISFg2WkF4WUV3bjB0Y25LX1VKSG9kelRhS3NTNjZJUXlhcnpMNVZ0dWkwRUlMZ0EtRHlkdXpLNmh0UFIta3Nrd1pJcTFUbTVZNVFQUXJJ?oc=5"
+  },
+  {
+   "id": "evt-74c2df8a8340",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T21:15:13Z",
+   "event_type": "natural_disaster",
+   "severity": 2,
+   "region": "Caribbean",
+   "summary": "A magnitude 2.96 earthquake was recorded 15 km north of Arecibo, Puerto Rico.",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/pr71531798"
   },
   {
    "id": "evt-da8b88969980",
@@ -3163,6 +3166,16 @@
    "region": "Global",
    "summary": "Analysts say silver prices will stay below $64.80 per ounce, indicating bearish pressure.",
    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd19wMV9nY1JVWTZhY2FGQUtYamRidjV3WHBoODVlR2hSdFREQlByZE9JSi05eTRUYk1neVVoTFZ2cU9tQUYtbTA5eGUzUk93ZmtHeUEwMFJqblZqSnp3OU1Kei1qRTVqeUxORTBLa2NnZGwzV0N6cHBPcHVaSGYwRVpveXhnTWhkMVBzMjQwZVFiM3JCR056WlRiNzNac2FkZWgyQ0V2c2lhOEJmMHA1Q282cnFiVXZIOHI1UHpudjQyaG8?oc=5"
+  },
+  {
+   "id": "evt-c951d07cd48b",
+   "date": "2026-09-14",
+   "dt": "2026-09-14T18:05:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Dow index falls ~150 points as losses in Goldman Sachs and Caterpillar shares weigh on market.",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMnNJb3M0NmFaRXJJQjJ5eTIzV0VKUlFxUk5XTTdnVkppMkhMMDZGNTk5eDhnVllKTkRmc0FibGU5aFREMnZkZUh5MDZxNUhFQnJDTDFlclJyQXM5NWtISW55RkVUSWRicFJTdGhCTnF6c3lmVXJScTFacDJsNGlpMmdKTEZjY1FxcGVGc2JlRl9DelhrSjdJUzRVWHNrdTRrYnRiUU9HVXJfZG8?oc=5"
   },
   {
    "id": "evt-cf2ed616aef1",
