@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-03T05:35:43Z",
+ "updated_at": "2026-10-03T16:38:45Z",
  "prices": [
   {
    "asset": "XAU/USD",
@@ -2293,6 +2293,17 @@
    "published_at": "Wed, 30 Sep 2026 21:37:00 GMT"
   },
   {
+   "id": "evt-46ac93d43105",
+   "event_type": "economic",
+   "region": "US",
+   "severity": 2,
+   "summary": "MasterCard shares fell more than the broader market today, according to analysis.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLWZaNGtXdk1yUFRYMHM3ZmVuUmVkdVZVRVdDQzhPVDhlTDl6T3RuU1BiNkZ4RzFsV0Z6cGZFMF9rZ3dyeEFzTjd4SkplMTB3XzZiUW1qX1dna2VuM1ctMmdNMUZTYlRIY1gyTHgtMWVqV3N6aGRrbHd0OXJSVUpXQ1R5UV91aHJaWXdLZkJ0SnV0T1R3QUtLWURn?oc=5",
+   "date_utc": "2026-09-30",
+   "dt": "2026-09-30T20:50:04Z",
+   "published_at": "Wed, 30 Sep 2026 20:50:04 GMT"
+  },
+  {
    "id": "evt-4983ec073398",
    "event_type": "economic",
    "region": "US",
@@ -2324,20 +2335,24 @@
    "date_utc": "2026-09-30",
    "dt": "2026-09-30T20:08:47Z",
    "published_at": "Wed, 30 Sep 2026 20:08:47 GMT"
-  },
-  {
-   "id": "evt-3a4ee3de582f",
-   "event_type": "economic",
-   "region": "US",
-   "severity": 2,
-   "summary": "Johnson & Johnson stock approached a record high, with analysts maintaining a buy recommendation.",
-   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYUJfNURCb1lfRnFkQ2RHbENUdzdLTF9QdDZ4RV9WWWh3MENOQ2YtY0hxdk9uM3hUVm5YZDBsOUtpYl9fT2lmdDl1UGRiY1VsTVlCRGMyWV9VMzhVbm83NU14X1FJbTh0b1A0U2tOakNVcEx5RzJaQUlaRUp4NnpERnJVQUxiNXExbS04eWtnaUQ0MXNCckFZ?oc=5",
-   "date_utc": "2026-09-30",
-   "dt": "2026-09-30T20:00:00Z",
-   "published_at": "Wed, 30 Sep 2026 20:00:00 GMT"
   }
  ],
  "open_predictions": [
+  {
+   "id": "pred-3f27485c6858",
+   "kind": "prediction",
+   "asset": "XAU/USD",
+   "event_id": "evt-42e4653dfbb5",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Renewed Ethiopian fighting may lift geopolitical risk and safe-haven demand for gold, though the regional event is modest for global markets.",
+   "status": "open",
+   "written_at": "2026-10-03T16:38:27Z"
+  },
   {
    "id": "pred-2bc29365604d",
    "kind": "prediction",
@@ -2414,6 +2429,21 @@
    "written_at": "2026-10-03T05:34:40Z"
   },
   {
+   "id": "pred-e1d9a547410e",
+   "kind": "prediction",
+   "asset": "Brent",
+   "event_id": "evt-3916c1dd26ca",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 52,
+   "reasoning": "Further Ukraine-Russia fighting may lift geopolitical risk premiums, although no energy disruption was reported.",
+   "status": "open",
+   "written_at": "2026-10-03T16:38:43Z"
+  },
+  {
    "id": "pred-2d711680406b",
    "kind": "prediction",
    "asset": "XLE",
@@ -2457,42 +2487,12 @@
    "reasoning": "Stronger Chevron expectations and persistently high oil prices modestly support the broader US energy sector.",
    "status": "open",
    "written_at": "2026-10-02T21:35:26Z"
-  },
-  {
-   "id": "pred-0a0bc466af78",
-   "kind": "prediction",
-   "asset": "XLE",
-   "event_id": "evt-970f72fa89b3",
-   "created_at": "2026-10-02",
-   "expires_at": "2026-10-09",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Higher gas prices boost energy sector earnings, lifting the sector ETF.",
-   "status": "open",
-   "written_at": "2026-10-03T05:34:53Z"
-  },
-  {
-   "id": "pred-c0b7a099d53f",
-   "kind": "prediction",
-   "asset": "XLE",
-   "event_id": "evt-57355d37e547",
-   "created_at": "2026-10-02",
-   "expires_at": "2026-10-09",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 0.8,
-   "confidence": 45,
-   "reasoning": "Heightened domestic uncertainty may trigger risk‑off, pressuring energy sector exposure.",
-   "status": "open",
-   "written_at": "2026-10-02T21:35:06Z"
   }
  ],
  "stats": {
   "assets": 39,
-  "events": 4270,
-  "open_predictions": 70,
+  "events": 4642,
+  "open_predictions": 102,
   "resolved": 674,
   "accuracy": 31.8
  }

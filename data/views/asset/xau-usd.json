@@ -2704,9 +2704,35 @@
    "hypothesis_status": "proposed",
    "written_at": "2026-09-03T11:32:47Z",
    "events": []
+  },
+  {
+   "id": "note-5aecdb3cef4a",
+   "kind": "causal_notes",
+   "asset": "XAU/USD",
+   "move_id": "move-XAU/USD-2026-03-19",
+   "move_date": "2026-03-19",
+   "event_ids": [],
+   "reasoning": "No candidate events found; price drop likely driven by broader market factors or technical sell‑off.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-03T16:37:14Z",
+   "events": []
   }
  ],
  "predictions": [
+  {
+   "id": "pred-3f27485c6858",
+   "event_id": "evt-42e4653dfbb5",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Renewed Ethiopian fighting may lift geopolitical risk and safe-haven demand for gold, though the regional event is modest for global markets.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-55f9274f4467",
    "event_id": "evt-57355d37e547",
@@ -2721,6 +2747,19 @@
    "outcome": null
   },
   {
+   "id": "pred-e0bc303a74d6",
+   "event_id": "evt-be3b249930a1",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 57,
+   "reasoning": "Israeli election strain may lift safe-haven gold demand as regional geopolitical risk rises, despite gold's recent pullback.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-b7c2e5394271",
    "event_id": "evt-05d526e343d0",
    "created_at": "2026-10-02",
@@ -2730,6 +2769,19 @@
    "threshold_pct": 1.5,
    "confidence": 58,
    "reasoning": "Escalating French unrest raises European political-risk and safe-haven demand, potentially lifting gold despite its recent pullback.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-7550ca8445d4",
+   "event_id": "evt-8a5e1661b6b6",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Conflict drives safe‑haven demand, lifting gold.",
    "status": "open",
    "outcome": null
   },
@@ -2773,6 +2825,19 @@
    "outcome": null
   },
   {
+   "id": "pred-481e16f60adf",
+   "event_id": "evt-cccdf178dc24",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Risk‑off sentiment from Brazil‑US political tension pushes safe‑haven gold higher.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-d6ed94568b1c",
    "event_id": "evt-cc3430a0d1a2",
    "created_at": "2026-10-02",
@@ -2782,6 +2847,19 @@
    "threshold_pct": 1.5,
    "confidence": 65,
    "reasoning": "UK terror threat raises geopolitical risk, boosting gold as a safe‑haven.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-6c97d1c06959",
+   "event_id": "evt-9cd3c10f5105",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 53,
+   "reasoning": "Spanish political unrest may support safe-haven gold demand, though Spain's modest global market weight limits the expected move.",
    "status": "open",
    "outcome": null
   },
@@ -2808,6 +2886,32 @@
    "threshold_pct": 1.0,
    "confidence": 35,
    "reasoning": "Execution controversy raises US political risk, boosting safe‑haven demand for gold.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-d8271d37e288",
+   "event_id": "evt-3916c1dd26ca",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 58,
+   "reasoning": "Renewed strikes increase European security and escalation risk, supporting safe-haven demand for gold.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-7c89a9c34bad",
+   "event_id": "evt-e345ad545197",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Midterm uncertainty boosts safe‑haven demand for gold.",
    "status": "open",
    "outcome": null
   },
@@ -2864,6 +2968,19 @@
    "outcome": null
   },
   {
+   "id": "pred-d6bd0a3c5cab",
+   "event_id": "evt-f3f1817bf9a5",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 58,
+   "reasoning": "Safety concerns raise risk aversion, boosting demand for gold as a safe‑haven.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-686390eefeef",
    "event_id": "evt-8d4f3ce3e777",
    "created_at": "2026-10-02",
@@ -2890,6 +3007,19 @@
    "outcome": null
   },
   {
+   "id": "pred-09ab82060a69",
+   "event_id": "evt-714ebae10fa8",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Middle‑East security incident lifts safe‑haven demand for gold.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-1e0a29cbdfb9",
    "event_id": "evt-1a6c63c3193e",
    "created_at": "2026-10-02",
@@ -2899,6 +3029,19 @@
    "threshold_pct": 1.0,
    "confidence": 55,
    "reasoning": "French political unrest raises safe‑haven demand, nudging gold higher.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-1484da9cc199",
+   "event_id": "evt-0d4a76ef0b2d",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.2,
+   "confidence": 58,
+   "reasoning": "Geopolitical tension in Africa raises safe‑haven demand, supporting gold price.",
    "status": "open",
    "outcome": null
   },
@@ -3096,189 +3239,9 @@
    "reasoning": "Tech sell‑off fuels risk‑off sentiment, boosting gold as a safe‑haven asset.",
    "status": "resolved",
    "outcome": "miss"
-  },
-  {
-   "id": "pred-55f1c1e00cd8",
-   "event_id": "evt-5a2a4f2f3c1d",
-   "created_at": "2026-09-14",
-   "expires_at": "2026-09-21",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Political uncertainty boosts safe‑haven demand for gold.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-4a782c435e66",
-   "event_id": "evt-2c2058f536ad",
-   "created_at": "2026-09-14",
-   "expires_at": "2026-09-21",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 60,
-   "reasoning": "Geopolitical risk spurs safe‑haven demand, lifting gold.",
-   "status": "resolved",
-   "outcome": "hit"
-  },
-  {
-   "id": "pred-4ff82a6196da",
-   "event_id": "evt-3e50bbb6e75f",
-   "created_at": "2026-09-14",
-   "expires_at": "2026-09-21",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Hurricane risk-off may boost safe-haven gold demand.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-ef731893f438",
-   "event_id": "evt-a1d39d0a4d34",
-   "created_at": "2026-09-13",
-   "expires_at": "2026-09-20",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Safety‑first buying in conflict zones lifts gold demand.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-bc141634b9a4",
-   "event_id": "evt-7d02fae6d45b",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Geopolitical tension boosts safe‑haven demand for gold.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-763dc712c836",
-   "event_id": "evt-580d429cacaf",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "range",
-   "threshold_pct": 1.0,
-   "confidence": 30,
-   "reasoning": "Local mining impact on gold unlikely to shift global gold price significantly.",
-   "status": "resolved",
-   "outcome": "hit"
-  },
-  {
-   "id": "pred-7a89bdc54e80",
-   "event_id": "evt-8d34f50429d7",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.2,
-   "confidence": 60,
-   "reasoning": "Safe‑haven demand rises as political risk spikes.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-a1d4b9a2414f",
-   "event_id": "evt-ee6b8078e49f",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Escalating conflict boosts safe‑haven demand, supporting gold.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-f7c7082cc892",
-   "event_id": "evt-2420e2ccfb89",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 0.5,
-   "confidence": 30,
-   "reasoning": "Improved stability reduces risk premium, lowering gold demand.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-926ccde364d5",
-   "event_id": "evt-e8d8652391a6",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 50,
-   "reasoning": "Geopolitical tension in Middle East boosts safe‑haven demand for gold.",
-   "status": "resolved",
-   "outcome": "miss"
   }
  ],
  "events": [
-  {
-   "id": "evt-d4bad5e74013",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T19:52:27Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Visa's stock remained flat as Open‑Source Defense prepared defenses against emerging agentic cyber‑attacks.",
-   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOMGhoN1ZqQXNKZ1c2MnNIWC1MdURSd1F1VW9Ud2g4c2VzOHJHMkZ3WGJFcURBRDBoUlJZeWEyMnpkVVNWMTBwZmx1UmJtQmthV0N4eVd3aU9CMEVSLTlFLTZtWm9XR21YengwVElfMThWZzZ5OTBlTWlIY2RaU0JBVUl5TXFrWlkyOWZUVGY5dUxqUWd4ZDYyTENscnlpTmZrUC1TTm1jd0gwMEJyemJ1VXIxV3N6NW9WSjZKYVhIbTdPZEpMNWQ5VGNrQXFsUQ?oc=5"
-  },
-  {
-   "id": "evt-ac3aff6c75ce",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T15:22:10Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Caterpillar announced a $1 billion investment to support small contractors, outlining growth prospects for its stock through 2030.",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV2NHZUhBVFk1azhCT1ZnM0tyMTBwVE1Qb1NNeGNLdXVJcThuLVRFNG5YQVRqMmxfV29mWnRWa0hOaXhuRG9vbENrdDJFRWFIeG5MS29MYk1uOTdRYjRFbzBUZXBTcDY2TGFrLW14Q2JDZjUwdTBWOGw3a1BKWFQ0RW1lTGVqSVctTEZBblVxQVMtMTQtOFpXVXNYd0xSWkxWNHc?oc=5"
-  },
-  {
-   "id": "evt-98d2dc3c788c",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T09:08:06Z",
-   "event_type": "other",
-   "severity": 3,
-   "region": "Middle East",
-   "summary": "Flydubai Capt. Smit Machchhar said he opened the cockpit door during a co-pilot's attack to let others in.",
-   "url": "https://www.bbc.co.uk/news/articles/c639m98gde00o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "id": "evt-49c831bfb0a2",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T11:35:16Z",
-   "event_type": "natural_disaster",
-   "severity": 2,
-   "region": "Central America",
-   "summary": "USGS reported a magnitude 4.2 earthquake 9 km south-southwest of Yepocapa, Guatemala.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz0z"
-  },
-  {
-   "id": "evt-9fbbaebec95a",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T13:03:00Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Morgan Stanley upgrades Nvidia to 'Top Pick', boosting investor sentiment.",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNG1MN0FXN1JDYm1OUU1OWnpvcE9qXy00RGUwNnJVN3FqcmtSRi1Nd1JQUFAzd3BoMF9WRWUwNURMV2tSN0RvUk5paXpmY1NZSG1GdElENTYtUzZQdkJfLWNDU1VxaFhLZ2g3cXQ0cUliMGt2NXJ0X0phMFRCSkRxbTB6aFBWWk1GU2ZGZlJNV2tYeEFYc3Z5M3I4T0FtQQ?oc=5"
-  },
   {
    "id": "evt-53989364a1bd",
    "date": "2026-10-02",
@@ -3420,6 +3383,16 @@
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSFozQ1lmTFVRMG5zSURYaHNyNXRnUGxpQmw1X0FpVENjd2ZWWVkzYXcyWWNXY0dYN2dJUDN6Y1lpOTJoQjZmbU02ckpJZ25zT3pzSVpuTWRPSDdsaTlIeTRfcUkzZzZqUEt4X1NyTkUxWWpoME85UWxSQW9PM2tnRnBqdEtSUWxCSVRvdVJrTTlUa0dsNWNR?oc=5"
   },
   {
+   "id": "evt-93d230520562",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T23:12:00Z",
+   "event_type": "economic",
+   "severity": 1,
+   "region": "US",
+   "summary": "Barron's published an article discussing Netflix's recent stock weakness.",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VS0dGeE90SFR0Ui1oT3VRMnFGeHB2TnBIcnRBcjVKNWRjSlNnX200WVpPVlM1TkpLY2lhdXY2U2piV3U2SUxzajhmeFFORm1KU2ZLN0p0VWxzbHhMZi03ZkNRRjVVemFETVVkYVpKSjN6NG8?oc=5"
+  },
+  {
    "id": "evt-666d9dda3ac7",
    "date": "2026-10-02",
    "dt": "2026-10-02T13:14:00Z",
@@ -3510,6 +3483,16 @@
    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTGRDcWtQNFZ6Vi14ZEJ2VTVWTWJXdjg3djI2RHJOT2M5TlA0WUg3RFB6bVdKSG43WjZVTS1oWnBYSWd1dEFOel9HV0dqYkczN3laTVJlRjhjNnpkMlJYQmtqQVdTZy1XSHdwbWI1ZDktbW9ReElYZlNlSmZkY1Q4UHJNZ2N5TmhVaHNsVW1sc0ZsYkZpa2dUMkdZQQ?oc=5"
   },
   {
+   "id": "evt-14adc2477799",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T20:38:21Z",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Russia",
+   "summary": "A 4.7 magnitude earthquake struck 52 km south-southwest of Vilyuchinsk, Russia.",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tzd5"
+  },
+  {
    "id": "evt-2379a5c42beb",
    "date": "2026-10-02",
    "dt": "2026-10-02T10:09:43Z",
@@ -3550,6 +3533,16 @@
    "url": "https://www.aljazeera.com/news/2026/10/2/i-want-the-truth-ny-governor-appoints-prosecutor-in-cornell-rape-case?traffic_source=rss"
   },
   {
+   "id": "evt-ec9452ab8dcc",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T20:34:56Z",
+   "event_type": "natural_disaster",
+   "severity": 3,
+   "region": "Japan",
+   "summary": "A 4.5 magnitude earthquake hit 86 km east of Noda, Japan.",
+   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz8f"
+  },
+  {
    "id": "evt-f80e3efd7531",
    "date": "2026-10-02",
    "dt": "2026-10-02T12:07:39Z",
@@ -3580,6 +3573,16 @@
    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLWhNY05yeXdrTi1nQnh5NHdveFp3LW5ya3U0MS1heEtpZjRCTU5PZExZQWUydUM5bWs5LTU3WG43QjBrUjlZZV9LLWJKb09ORHRaejJJUG91OXE2VlNkYTd3bk91ZlU4THROdWlPZEsyWFdjRjRiTEttdl9OcGxBbTZESzc?oc=5"
   },
   {
+   "id": "evt-52463531107f",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T08:24:09Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Yahoo Finance published an analysis of Meta's potential stock performance over the coming year.",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQLWZXc1J2M1Q4U3B4QVd2Tkg2dktKRTBJenpuLUpoX1dzYlFkaUk5bWs3cTRKYzQ2NzVKOWh6Q1RoSFBVaHlJWi1MaUstekpNRFZPUzdjRF9heWVPTVFMWnVEeElvb2Z6bmFNTFM0R2VzTVZmVVNyazRBNXVhNFFDMGVnWUhQdkNMbmR6dWpQeFdkb2tF?oc=5"
+  },
+  {
    "id": "evt-e8a0ad6d0ea3",
    "date": "2026-10-02",
    "dt": "2026-10-02T19:00:56Z",
@@ -3608,6 +3611,16 @@
    "region": "US",
    "summary": "Boeing shares rise after the Society of Professional Engineering Employees in Aerospace (SPEEA) signs a new labor contract with the company.",
    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPNzctOWRtUEhuempzaEZvaVFFRmY0NFJYbXZQQzBIUWxsQlJqSzlkWVRYNllLTm84ekhLT0NUTC14alVHM1hwSF9pUzEzZUJqbmhtSHF3T0x3aml1WVJwbWpLQU1OY19MNVFqa1BfWm5HY1hIQ3BCcEdZd3lPZkpUZ1MyUGFjdmZTbVV6QQ?oc=5"
+  },
+  {
+   "id": "evt-100a75df835c",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T18:35:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Wall Street turns bearish after gold slides post-payrolls; metals test support levels.",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdXdSYnVxelZ3WlhBRmNJUVdfS0QyUVFlUTYzRVprNjVrQXZoLWpzc3ROTllmN1g1RlJTZ3NFYXhlWXBJNzZMX1k0QXZDNi1CWE9pb0x6WFhrZ3ZFdUpkQnVtUzN0MFd3ZWZPWHZqTTJnaWJ0c3N2MENDTXozZ3NyYm5tS3ZpNndWUEw0eURJRV9IMnF5MElrVXFDc3ZsdTFoN0FvSDMtU2l2YnZwaW1qNEJZaXNYTVJo?oc=5"
   },
   {
    "id": "evt-218323a20edc",
