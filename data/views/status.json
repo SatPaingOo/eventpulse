@@ -1,98 +1,98 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-10-02T21:36:17Z",
- "run_id": "run-2026-10-02T2136",
+ "updated_at": "2026-10-03T05:35:43Z",
+ "run_id": "run-2026-10-03T0535",
  "healthy": true,
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
-   "message": "546 new price snapshots",
-   "started_at": "2026-10-02T21:24:57Z",
-   "ended_at": "2026-10-02T21:25:05Z",
-   "count": 546
+   "message": "0 new price snapshots",
+   "started_at": "2026-10-03T05:24:49Z",
+   "ended_at": "2026-10-03T05:24:58Z",
+   "count": 0
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "281 new items (rss 50, gdelt 0, disasters 48, asset 183, pruned 2210)",
-   "started_at": "2026-10-02T21:25:05Z",
-   "ended_at": "2026-10-02T21:25:57Z",
-   "count": 281
+   "message": "108 new items (rss 27, gdelt 0, disasters 13, asset 68, pruned 539)",
+   "started_at": "2026-10-03T05:24:58Z",
+   "ended_at": "2026-10-03T05:25:48Z",
+   "count": 108
   },
   "extract": {
    "stage": "extract",
    "ok": true,
-   "message": "480 events extracted from 480 items; 703 unread left for next run",
-   "started_at": "2026-10-02T21:25:57Z",
-   "ended_at": "2026-10-02T21:34:31Z",
-   "count": 480
+   "message": "486 events extracted from 486 items; 323 unread left for next run",
+   "started_at": "2026-10-03T05:25:48Z",
+   "ended_at": "2026-10-03T05:33:54Z",
+   "count": 486
   },
   "explain": {
    "stage": "explain",
    "ok": true,
-   "message": "546 new moves, 20 new causal notes",
-   "started_at": "2026-10-02T21:34:31Z",
-   "ended_at": "2026-10-02T21:34:51Z",
+   "message": "0 new moves, 20 new causal notes",
+   "started_at": "2026-10-03T05:33:54Z",
+   "ended_at": "2026-10-03T05:34:17Z",
    "count": 20
   },
   "predict": {
    "stage": "predict",
    "ok": true,
-   "message": "33 predictions from 16 events; 41 new events left for next run",
-   "started_at": "2026-10-02T21:34:51Z",
-   "ended_at": "2026-10-02T21:36:15Z",
-   "count": 33
+   "message": "37 predictions from 16 events; 53 new events left for next run",
+   "started_at": "2026-10-03T05:34:17Z",
+   "ended_at": "2026-10-03T05:35:41Z",
+   "count": 37
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
-   "message": "380 resolved, 0 voided, 0 waiting for a close",
-   "started_at": "2026-10-02T21:36:15Z",
-   "ended_at": "2026-10-02T21:36:15Z",
-   "count": 380
+   "message": "0 resolved, 0 voided, 0 waiting for a close",
+   "started_at": "2026-10-03T05:35:41Z",
+   "ended_at": "2026-10-03T05:35:41Z",
+   "count": 0
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
    "message": "accuracy 31.8% (214/674), 1 reflection note(s)",
-   "started_at": "2026-10-02T21:36:15Z",
-   "ended_at": "2026-10-02T21:36:17Z",
+   "started_at": "2026-10-03T05:35:41Z",
+   "ended_at": "2026-10-03T05:35:43Z",
    "count": 1
   }
  },
  "llm_usage": {
-  "run_started_utc": "2026-10-02T21:24:57Z",
+  "run_started_utc": "2026-10-03T05:24:49Z",
   "by_model": [
    {
     "provider": "groq",
     "model": "openai/gpt-oss-120b",
-    "calls": 65,
-    "ok": 38,
-    "errors": 27,
-    "prompt_tokens": 50695,
-    "completion_tokens": 36068,
-    "total_tokens": 86763
+    "calls": 70,
+    "ok": 42,
+    "errors": 28,
+    "prompt_tokens": 45937,
+    "completion_tokens": 37138,
+    "total_tokens": 83075
    },
    {
     "provider": "groq",
     "model": "openai/gpt-oss-20b",
-    "calls": 78,
-    "ok": 47,
-    "errors": 31,
-    "prompt_tokens": 48202,
-    "completion_tokens": 39501,
-    "total_tokens": 87703
+    "calls": 77,
+    "ok": 40,
+    "errors": 37,
+    "prompt_tokens": 44344,
+    "completion_tokens": 41717,
+    "total_tokens": 86061
    },
    {
     "provider": "openrouter",
     "model": "stealth/space-bunny-alpha",
-    "calls": 32,
-    "ok": 32,
+    "calls": 36,
+    "ok": 36,
     "errors": 0,
-    "prompt_tokens": 48962,
-    "completion_tokens": 37575,
-    "total_tokens": 86537
+    "prompt_tokens": 47982,
+    "completion_tokens": 36229,
+    "total_tokens": 84211
    }
   ]
  }
