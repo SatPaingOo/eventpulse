@@ -2790,6 +2790,19 @@
  ],
  "predictions": [
   {
+   "id": "pred-c74529e01d52",
+   "event_id": "evt-ab25170ee236",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.0,
+   "confidence": 55,
+   "reasoning": "Gold miners follow gold; a revised forecast reduces demand, pushing GDX down.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-2af41ec2f700",
    "event_id": "evt-cc3430a0d1a2",
    "created_at": "2026-10-02",
@@ -2935,26 +2948,6 @@
  ],
  "events": [
   {
-   "id": "evt-a9ba423458c5",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T18:30:15Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "JPMorgan holds reserves for potential losses that have not yet materialized.",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNlhGSVlDdEVIcml4T2xBUlktTHhJY29Ud2NmaXpuMUtqVG9KWkc4LXd1Y014VkZTR2E0YXBGZ2s4b0NpQUNtbmVITV9MUHh2ZGduSnRYcERoN3M5YTRJN3ZPOEt4c0FtTmcxbTIxRkRaRGpmdFpZRjgxNm56MUlpc0lLMXliRU54LTBXbFRfa0RqaFVCdmQ0SGdIWmhVdw?oc=5"
-  },
-  {
-   "id": "evt-d9e84ec68219",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T06:02:57Z",
-   "event_type": "natural_disaster",
-   "severity": 1,
-   "region": "Alaska",
-   "summary": "USGS reports a 4.0 magnitude earthquake 75 km SE of Adak, Alaska.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tmocjx"
-  },
-  {
    "id": "evt-e850144ffa3f",
    "date": "2026-10-02",
    "dt": "2026-10-02T09:04:00Z",
@@ -3005,6 +2998,16 @@
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQellLdnFtVW4tY2dDQk9ZVERwRG9JUjNWd2ttd2tSNDNNV2c2T0JXbzRGd3FKV1FuRkZjODZhRlBoS01xNlR6YVZmelRmWmxCZjdsS1hOSnItTVVwRllYSmxITld6U3RoTy14YlBKNmNOR2FLckxBcVhpTE9RTEQyY3NkZHE1OHJpSGRXcm42VW1ULW1PN3ZwM1Jsb0EyZ3R3d1VJ?oc=5"
   },
   {
+   "id": "evt-5f3993c11cfa",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T20:37:34Z",
+   "event_type": "other",
+   "severity": 3,
+   "region": "US",
+   "summary": "Bodycam footage shows Luigi Mangione arrested after the killing of UnitedHealthcare CEO Brian Thompson.",
+   "url": "https://www.bbc.co.uk/news/videos/cmewelkydwwyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "id": "evt-a859892421c8",
    "date": "2026-10-02",
    "dt": "2026-10-02T12:00:07Z",
@@ -3033,6 +3036,16 @@
    "region": "Russia",
    "summary": "Magnitude 5 earthquake near Vilyuchinsk, Russia.",
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz7b"
+  },
+  {
+   "id": "evt-cc6f618076ee",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T19:56:28Z",
+   "event_type": "political",
+   "severity": 2,
+   "region": "US",
+   "summary": "Death penalty in US highlighted after Christa Pike survived two lethal injection attempts in Tennessee.",
+   "url": "https://www.bbc.co.uk/news/videos/c54g1e3yxv0ko?at_medium=RSS&at_campaign=rss"
   },
   {
    "id": "evt-d94dd9ab376e",

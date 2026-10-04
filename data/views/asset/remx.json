@@ -2398,43 +2398,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-e689eaaf9073",
-   "kind": "causal_notes",
-   "asset": "REMX",
-   "move_id": "move-REMX-2026-09-01",
-   "move_date": "2026-09-01",
-   "event_ids": [
-    "evt-44257358827f"
-   ],
-   "reasoning": "Minor 3.2‑magnitude quake in US triggered risk‑off sentiment, briefly dragging REMX down.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-04T06:53:57Z",
-   "events": [
-    {
-     "id": "evt-44257358827f",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "US",
-     "summary": "Magnitude 3.2 earthquake 6 km southeast of Ontario, California.",
-     "date": "2026-09-02"
-    }
-   ]
-  },
-  {
-   "id": "note-5542189e9974",
-   "kind": "causal_notes",
-   "asset": "REMX",
-   "move_id": "move-REMX-2026-08-28",
-   "move_date": "2026-08-28",
-   "event_ids": [],
-   "reasoning": "No listed events; likely driven by earnings miss or supply disruption.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-08T20:31:16Z",
-   "events": []
-  },
-  {
    "id": "note-e68ce28c8b4c",
    "kind": "causal_notes",
    "asset": "REMX",
@@ -2471,6 +2434,19 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-09T10:23:49Z",
+   "events": []
+  },
+  {
+   "id": "note-5cd60cab5009",
+   "kind": "causal_notes",
+   "asset": "REMX",
+   "move_id": "move-REMX-2026-08-07",
+   "move_date": "2026-08-07",
+   "event_ids": [],
+   "reasoning": "No candidate events; price move likely from market microstructure or unrelated news.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-04T16:56:38Z",
    "events": []
   },
   {
@@ -2760,6 +2736,30 @@
    "events": []
   },
   {
+   "id": "note-caa07a48301a",
+   "kind": "causal_notes",
+   "asset": "REMX",
+   "move_id": "move-REMX-2026-03-19",
+   "move_date": "2026-03-19",
+   "event_ids": [
+    "evt-bb3dac205e03"
+   ],
+   "reasoning": "Oil price surge on Mar 16 spooked investors, prompting risk‑off sell‑off that dragged down commodity ETFs including rare‑earths exposure.",
+   "confidence": 35,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-04T16:56:42Z",
+   "events": [
+    {
+     "id": "evt-bb3dac205e03",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Discussion of recent oil price surge and its impact on oil‑focused exchange‑traded funds and broader market sentiment.",
+     "date": "2026-03-16"
+    }
+   ]
+  },
+  {
    "id": "note-324e970f6d7e",
    "kind": "causal_notes",
    "asset": "REMX",
@@ -2829,26 +2829,6 @@
  ],
  "events": [
   {
-   "id": "evt-a9ba423458c5",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T18:30:15Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "JPMorgan holds reserves for potential losses that have not yet materialized.",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNNlhGSVlDdEVIcml4T2xBUlktTHhJY29Ud2NmaXpuMUtqVG9KWkc4LXd1Y014VkZTR2E0YXBGZ2s4b0NpQUNtbmVITV9MUHh2ZGduSnRYcERoN3M5YTRJN3ZPOEt4c0FtTmcxbTIxRkRaRGpmdFpZRjgxNm56MUlpc0lLMXliRU54LTBXbFRfa0RqaFVCdmQ0SGdIWmhVdw?oc=5"
-  },
-  {
-   "id": "evt-d9e84ec68219",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T06:02:57Z",
-   "event_type": "natural_disaster",
-   "severity": 1,
-   "region": "Alaska",
-   "summary": "USGS reports a 4.0 magnitude earthquake 75 km SE of Adak, Alaska.",
-   "url": "https://earthquake.usgs.gov/earthquakes/eventpage/aka2026tmocjx"
-  },
-  {
    "id": "evt-e850144ffa3f",
    "date": "2026-10-02",
    "dt": "2026-10-02T09:04:00Z",
@@ -2899,6 +2879,16 @@
    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQellLdnFtVW4tY2dDQk9ZVERwRG9JUjNWd2ttd2tSNDNNV2c2T0JXbzRGd3FKV1FuRkZjODZhRlBoS01xNlR6YVZmelRmWmxCZjdsS1hOSnItTVVwRllYSmxITld6U3RoTy14YlBKNmNOR2FLckxBcVhpTE9RTEQyY3NkZHE1OHJpSGRXcm42VW1ULW1PN3ZwM1Jsb0EyZ3R3d1VJ?oc=5"
   },
   {
+   "id": "evt-5f3993c11cfa",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T20:37:34Z",
+   "event_type": "other",
+   "severity": 3,
+   "region": "US",
+   "summary": "Bodycam footage shows Luigi Mangione arrested after the killing of UnitedHealthcare CEO Brian Thompson.",
+   "url": "https://www.bbc.co.uk/news/videos/cmewelkydwwyo?at_medium=RSS&at_campaign=rss"
+  },
+  {
    "id": "evt-a859892421c8",
    "date": "2026-10-02",
    "dt": "2026-10-02T12:00:07Z",
@@ -2927,6 +2917,16 @@
    "region": "Russia",
    "summary": "Magnitude 5 earthquake near Vilyuchinsk, Russia.",
    "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us6000tz7b"
+  },
+  {
+   "id": "evt-cc6f618076ee",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T19:56:28Z",
+   "event_type": "political",
+   "severity": 2,
+   "region": "US",
+   "summary": "Death penalty in US highlighted after Christa Pike survived two lethal injection attempts in Tennessee.",
+   "url": "https://www.bbc.co.uk/news/videos/c54g1e3yxv0ko?at_medium=RSS&at_campaign=rss"
   },
   {
    "id": "evt-d94dd9ab376e",
