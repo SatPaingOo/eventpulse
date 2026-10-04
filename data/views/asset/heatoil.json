@@ -2422,32 +2422,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-7f3b8d2248bb",
-   "kind": "causal_notes",
-   "asset": "HEATOIL",
-   "move_id": "move-HEATOIL-2026-06-23",
-   "move_date": "2026-06-23",
-   "event_ids": [],
-   "reasoning": "Pipeline maintenance in Gulf of Mexico cut supply, pushing prices up.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-06T01:46:23Z",
-   "events": []
-  },
-  {
-   "id": "note-91d3bf733e08",
-   "kind": "causal_notes",
-   "asset": "HEATOIL",
-   "move_id": "move-HEATOIL-2026-06-11",
-   "move_date": "2026-06-11",
-   "event_ids": [],
-   "reasoning": "No candidate events in window; likely unrelated supply/demand factors.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-04T01:52:56Z",
-   "events": []
-  },
-  {
    "id": "note-221932150a2d",
    "kind": "causal_notes",
    "asset": "HEATOIL",
@@ -2484,6 +2458,19 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-07T01:43:55Z",
+   "events": []
+  },
+  {
+   "id": "note-f1796dfa5c9d",
+   "kind": "causal_notes",
+   "asset": "HEATOIL",
+   "move_id": "move-HEATOIL-2026-06-03",
+   "move_date": "2026-06-03",
+   "event_ids": [],
+   "reasoning": "No candidate events were found; the price rise likely stems from routine market factors such as inventory changes or speculative trading.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-04T06:04:40Z",
    "events": []
   },
   {
@@ -2640,6 +2627,19 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-06T14:38:46Z",
+   "events": []
+  },
+  {
+   "id": "note-0527f3d13bd5",
+   "kind": "causal_notes",
+   "asset": "HEATOIL",
+   "move_id": "move-HEATOIL-2026-04-14",
+   "move_date": "2026-04-14",
+   "event_ids": [],
+   "reasoning": "Mild winter forecast reduces heating demand, driving supply glut and price drop.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-04T06:04:38Z",
    "events": []
   },
   {
@@ -2840,6 +2840,19 @@
    "outcome": null
   },
   {
+   "id": "pred-4fa9ae10e2b5",
+   "event_id": "evt-de482458efec",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.0,
+   "confidence": 45,
+   "reasoning": "Longer daylight reduces heating needs, pressuring heating oil demand.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-f89b8b5c97dc",
    "event_id": "evt-e3365a8b2b0c",
    "created_at": "2026-09-14",
@@ -2932,16 +2945,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-53989364a1bd",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T19:05:32Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Tesla investors were reminded of an upcoming event on October 15, prompting attention to the stock.",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNenZzMnNzNy14NTNwZVo4SzZRaGZpTFRzaExVTTJxd201bGFyUDlpYmVOZWd6TmFubnVVSWd4UmlHaUZsZVYxOUI0UHNlVDA0clUyY2huQ09Da2stREpabmZ1RWpOQW5hRUQtQWxYT0Zndlg5WWxSN3hYOURUQUlDS3AwQ1ZQalNjdVFiRm9UaFEtUFVoYUVsLTdrcUVscW9uMWc?oc=5"
-  },
   {
    "id": "evt-a9ba423458c5",
    "date": "2026-10-02",
@@ -3161,6 +3164,16 @@
    "region": "Europe",
    "summary": "Intensified Russian missile strikes have heavily damaged Kyiv’s critical infrastructure, with mayor Vitaliy Klitschko warning of a dramatic situation.",
    "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-6d7eb1d5c07f",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T01:05:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Netflix shares fell 14% in September, its biggest monthly decline this year.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNmplR201OWhUZHJxN05tdmVQbUJMUTB0Ni15QzVEeDNXWmNuVi1yVHBGYm1RbGJ1YzNvNUptTms3d0ZNQmFMaWpoNEVxMHhNS3Q4VFVVY1p3NmNCdzY0d01JUzROZ2ZtTlZmWUthUzktZXB5QUs1MjM4cGhwOVNMTGNDNUxyNlUyQTF4NkhhVWRzTVlZS3VWMFFB?oc=5"
   },
   {
    "id": "evt-8ac279ca0017",

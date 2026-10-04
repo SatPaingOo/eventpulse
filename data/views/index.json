@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-10-03T16:38:45Z",
+ "updated_at": "2026-10-04T06:06:27Z",
  "prices": [
   {
    "asset": "XAU/USD",
@@ -2339,6 +2339,21 @@
  ],
  "open_predictions": [
   {
+   "id": "pred-c0c90b2d5120",
+   "kind": "prediction",
+   "asset": "NATGAS",
+   "event_id": "evt-aa07d9872b66",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 45,
+   "reasoning": "Potential damage to Indonesian gas infrastructure could tighten regional gas supply, pushing prices up.",
+   "status": "open",
+   "written_at": "2026-10-04T06:05:48Z"
+  },
+  {
    "id": "pred-3f27485c6858",
    "kind": "prediction",
    "asset": "XAU/USD",
@@ -2472,27 +2487,12 @@
    "reasoning": "Botched execution raises US political risk, prompting investors to seek safe‑haven gold.",
    "status": "open",
    "written_at": "2026-10-02T21:35:06Z"
-  },
-  {
-   "id": "pred-8e85f72941b4",
-   "kind": "prediction",
-   "asset": "XLE",
-   "event_id": "evt-6b427f9e0ccc",
-   "created_at": "2026-10-02",
-   "expires_at": "2026-10-09",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Stronger Chevron expectations and persistently high oil prices modestly support the broader US energy sector.",
-   "status": "open",
-   "written_at": "2026-10-02T21:35:26Z"
   }
  ],
  "stats": {
   "assets": 39,
-  "events": 4642,
-  "open_predictions": 102,
+  "events": 4799,
+  "open_predictions": 135,
   "resolved": 674,
   "accuracy": 31.8
  }

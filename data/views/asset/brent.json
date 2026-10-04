@@ -2422,19 +2422,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-303b763859cf",
-   "kind": "causal_notes",
-   "asset": "Brent",
-   "move_id": "move-Brent-2026-06-29",
-   "move_date": "2026-06-29",
-   "event_ids": [],
-   "reasoning": "No events in window; likely driven by market sentiment or inventory data, causing a 1.6% price jump.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-08T15:39:34Z",
-   "events": []
-  },
-  {
    "id": "note-dc5ef17a20f9",
    "kind": "causal_notes",
    "asset": "Brent",
@@ -2640,6 +2627,19 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-08T10:22:38Z",
+   "events": []
+  },
+  {
+   "id": "note-3f51894043a7",
+   "kind": "causal_notes",
+   "asset": "Brent",
+   "move_id": "move-Brent-2026-04-28",
+   "move_date": "2026-04-28",
+   "event_ids": [],
+   "reasoning": "No candidate event; routine supply-demand, positioning, or technical flows may have driven the move, but no event-backed cause is identifiable.",
+   "confidence": 20,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-04T06:04:28Z",
    "events": []
   },
   {
@@ -2853,6 +2853,19 @@
    "outcome": null
   },
   {
+   "id": "pred-ba69827a4e73",
+   "event_id": "evt-48fca9d5479c",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 51,
+   "reasoning": "Continued Gaza violence can add a geopolitical risk premium to global crude supply concerns.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-9dd300bd15c1",
    "event_id": "evt-64425da022eb",
    "created_at": "2026-10-02",
@@ -2879,6 +2892,19 @@
    "outcome": null
   },
   {
+   "id": "pred-8ff2eacb7c35",
+   "event_id": "evt-857300e3f695",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 56,
+   "reasoning": "Iran and Houthi escalation raises Gulf and Red Sea supply-risk premiums after Brent's 3.7% weekly drop.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-ba2d688bd795",
    "event_id": "evt-7863edb533c6",
    "created_at": "2026-10-02",
@@ -2901,6 +2927,19 @@
    "threshold_pct": 2.0,
    "confidence": 56,
    "reasoning": "Israeli election uncertainty may add a small risk premium, but it is unlikely to outweigh broader oil-supply forces.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-3a0a94a5d565",
+   "event_id": "evt-5ad13c84109f",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 65,
+   "reasoning": "Yemen oil disruption may lift Brent prices.",
    "status": "open",
    "outcome": null
   },
@@ -2944,6 +2983,19 @@
    "outcome": null
   },
   {
+   "id": "pred-a705f9ef0fc7",
+   "event_id": "evt-11fe3160c6c8",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 60,
+   "reasoning": "Aramco hit may tighten global oil supply, boosting Brent",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-e0e6f7f0d1d2",
    "event_id": "evt-554152664685",
    "created_at": "2026-10-02",
@@ -2953,6 +3005,19 @@
    "threshold_pct": 2.0,
    "confidence": 44,
    "reasoning": "Conflict spillover involving Eritrea could increase Red Sea shipping risks and the regional crude risk premium.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-1eaef5bf8ee4",
+   "event_id": "evt-47f4055870e2",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 0.5,
+   "confidence": 35,
+   "reasoning": "Small quake near oil fields may cause minor supply concerns, slight downward pressure.",
    "status": "open",
    "outcome": null
   },
@@ -3267,84 +3332,9 @@
    "reasoning": "Joint press conference signals possible production restraint, boosting global Brent.",
    "status": "resolved",
    "outcome": "miss"
-  },
-  {
-   "id": "pred-0f8bd88540d8",
-   "event_id": "evt-663255993872",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Strategic chokepoint threat tightens global oil flow, boosting Brent prices.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-0fbc54f079a7",
-   "event_id": "evt-5f2cc20b7777",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 2.0,
-   "confidence": 65,
-   "reasoning": "Global oil supply concerns from Russian activity raise Brent prices.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-c36df4a8f28e",
-   "event_id": "evt-54b2f069f0ef",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 70,
-   "reasoning": "Geopolitical tension in the region increases supply uncertainty, lifting Brent.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-33b31b0e2f11",
-   "event_id": "evt-a1a95136ab48",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 2.0,
-   "confidence": 57,
-   "reasoning": "Heightened geopolitical tension lifts Brent as investors price supply concerns.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-dc8fa70addf0",
-   "event_id": "evt-7d02fae6d45b",
-   "created_at": "2026-09-11",
-   "expires_at": "2026-09-18",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 65,
-   "reasoning": "Middle East conflict raises supply risk, pushing Brent higher.",
-   "status": "resolved",
-   "outcome": "miss"
   }
  ],
  "events": [
-  {
-   "id": "evt-53989364a1bd",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T19:05:32Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Tesla investors were reminded of an upcoming event on October 15, prompting attention to the stock.",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNenZzMnNzNy14NTNwZVo4SzZRaGZpTFRzaExVTTJxd201bGFyUDlpYmVOZWd6TmFubnVVSWd4UmlHaUZsZVYxOUI0UHNlVDA0clUyY2huQ09Da2stREpabmZ1RWpOQW5hRUQtQWxYT0Zndlg5WWxSN3hYOURUQUlDS3AwQ1ZQalNjdVFiRm9UaFEtUFVoYUVsLTdrcUVscW9uMWc?oc=5"
-  },
   {
    "id": "evt-a9ba423458c5",
    "date": "2026-10-02",
@@ -3564,6 +3554,16 @@
    "region": "Europe",
    "summary": "Intensified Russian missile strikes have heavily damaged Kyiv’s critical infrastructure, with mayor Vitaliy Klitschko warning of a dramatic situation.",
    "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-6d7eb1d5c07f",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T01:05:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Netflix shares fell 14% in September, its biggest monthly decline this year.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNmplR201OWhUZHJxN05tdmVQbUJMUTB0Ni15QzVEeDNXWmNuVi1yVHBGYm1RbGJ1YzNvNUptTms3d0ZNQmFMaWpoNEVxMHhNS3Q4VFVVY1p3NmNCdzY0d01JUzROZ2ZtTlZmWUthUzktZXB5QUs1MjM4cGhwOVNMTGNDNUxyNlUyQTF4NkhhVWRzTVlZS3VWMFFB?oc=5"
   },
   {
    "id": "evt-8ac279ca0017",

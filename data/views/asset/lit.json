@@ -2398,6 +2398,30 @@
  ],
  "causal_notes": [
   {
+   "id": "note-14c0d232dc9c",
+   "kind": "causal_notes",
+   "asset": "LIT",
+   "move_id": "move-LIT-2026-09-23",
+   "move_date": "2026-09-23",
+   "event_ids": [
+    "evt-c971067917d5"
+   ],
+   "reasoning": "A 10% drop in China's lithium inventory signals potential supply tightening, prompting market sell‑off on lithium stocks.",
+   "confidence": 60,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-04T06:04:25Z",
+   "events": [
+    {
+     "id": "evt-c971067917d5",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "China",
+     "summary": "China's lithium inventory declined 10%, prompting analysis of the implications for future supply.",
+     "date": "2026-09-23"
+    }
+   ]
+  },
+  {
    "id": "note-1c2de84613f3",
    "kind": "causal_notes",
    "asset": "LIT",
@@ -2471,6 +2495,19 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-13T15:18:37Z",
+   "events": []
+  },
+  {
+   "id": "note-0403e633013e",
+   "kind": "causal_notes",
+   "asset": "LIT",
+   "move_id": "move-LIT-2026-08-04",
+   "move_date": "2026-08-04",
+   "event_ids": [],
+   "reasoning": "No specific event; likely a general market rally or supply concern affecting lithium prices.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-04T06:04:38Z",
    "events": []
   },
   {
@@ -2764,16 +2801,6 @@
  ],
  "events": [
   {
-   "id": "evt-53989364a1bd",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T19:05:32Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Tesla investors were reminded of an upcoming event on October 15, prompting attention to the stock.",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNenZzMnNzNy14NTNwZVo4SzZRaGZpTFRzaExVTTJxd201bGFyUDlpYmVOZWd6TmFubnVVSWd4UmlHaUZsZVYxOUI0UHNlVDA0clUyY2huQ09Da2stREpabmZ1RWpOQW5hRUQtQWxYT0Zndlg5WWxSN3hYOURUQUlDS3AwQ1ZQalNjdVFiRm9UaFEtUFVoYUVsLTdrcUVscW9uMWc?oc=5"
-  },
-  {
    "id": "evt-a9ba423458c5",
    "date": "2026-10-02",
    "dt": "2026-10-02T18:30:15Z",
@@ -2992,6 +3019,16 @@
    "region": "Europe",
    "summary": "Intensified Russian missile strikes have heavily damaged Kyiv’s critical infrastructure, with mayor Vitaliy Klitschko warning of a dramatic situation.",
    "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-6d7eb1d5c07f",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T01:05:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Netflix shares fell 14% in September, its biggest monthly decline this year.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNmplR201OWhUZHJxN05tdmVQbUJMUTB0Ni15QzVEeDNXWmNuVi1yVHBGYm1RbGJ1YzNvNUptTms3d0ZNQmFMaWpoNEVxMHhNS3Q4VFVVY1p3NmNCdzY0d01JUzROZ2ZtTlZmWUthUzktZXB5QUs1MjM4cGhwOVNMTGNDNUxyNlUyQTF4NkhhVWRzTVlZS3VWMFFB?oc=5"
   },
   {
    "id": "evt-8ac279ca0017",

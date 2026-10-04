@@ -2736,6 +2736,19 @@
    "outcome": null
   },
   {
+   "id": "pred-978ef5a235b6",
+   "event_id": "evt-11fe3160c6c8",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Energy sector likely benefits from higher oil prices after Saudi incident",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-61e724efaf9e",
    "event_id": "evt-ab22d1ea195b",
    "created_at": "2026-10-02",
@@ -2762,6 +2775,32 @@
    "outcome": null
   },
   {
+   "id": "pred-5f3d7a977aef",
+   "event_id": "evt-47f4055870e2",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 30,
+   "reasoning": "Limited quake impact on global oil supply; energy sector likely flat.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-fa4e0de8ab31",
+   "event_id": "evt-e0ceb7e2c1e3",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.0,
+   "confidence": 45,
+   "reasoning": "Risk‑off sentiment from the election narrows reduces exposure to energy equities.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-b50bb605f02a",
    "event_id": "evt-714ebae10fa8",
    "created_at": "2026-10-02",
@@ -2771,6 +2810,19 @@
    "threshold_pct": 1.0,
    "confidence": 50,
    "reasoning": "Energy stocks tend to rally with oil price gains from Middle‑East risk.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-5451c48a0b14",
+   "event_id": "evt-de482458efec",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "range",
+   "threshold_pct": 0.5,
+   "confidence": 40,
+   "reasoning": "Mixed impact on energy firms from altered electricity load patterns due to permanent DST.",
    "status": "open",
    "outcome": null
   },
@@ -2810,6 +2862,19 @@
    "threshold_pct": 1.0,
    "confidence": 45,
    "reasoning": "Energy sector ETF may benefit from rising oil prices driven by Sudanese conflict‑related supply worries.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-0ba28e9773f9",
+   "event_id": "evt-5ad13c84109f",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Energy sector ETF gains from higher oil prices.",
    "status": "open",
    "outcome": null
   },
@@ -3137,84 +3202,9 @@
    "reasoning": "Energy sector ETF likely to benefit from any oil price uplift driven by Middle‑East geopolitical concerns.",
    "status": "resolved",
    "outcome": "hit"
-  },
-  {
-   "id": "pred-59d41a30c2e4",
-   "event_id": "evt-0efba5c27192",
-   "created_at": "2026-09-04",
-   "expires_at": "2026-09-11",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Political backlash may trigger short-term sell-off in US equities, affecting energy sector.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-5589092dd6d2",
-   "event_id": "evt-29acdf1994ff",
-   "created_at": "2026-09-04",
-   "expires_at": "2026-09-11",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Energy ETF benefits from higher crude and gasoline prices.",
-   "status": "resolved",
-   "outcome": "hit"
-  },
-  {
-   "id": "pred-efcc8d86e652",
-   "event_id": "evt-1c807a10890d",
-   "created_at": "2026-09-04",
-   "expires_at": "2026-09-11",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Uncertainty over policy ahead of 2026 midterms may weigh on US energy stocks.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-875416cea49e",
-   "event_id": "evt-3092f85f077a",
-   "created_at": "2026-09-04",
-   "expires_at": "2026-09-11",
-   "horizon_days": 7,
-   "direction": "range",
-   "threshold_pct": 0.5,
-   "confidence": 45,
-   "reasoning": "Uncertain German policy could affect energy sector; unclear net impact.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-40d0678ab11d",
-   "event_id": "evt-ceb2ed694b95",
-   "created_at": "2026-09-04",
-   "expires_at": "2026-09-11",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 2.0,
-   "confidence": 50,
-   "reasoning": "Broad energy demand surge from power outages and heating needs lifts the energy sector index.",
-   "status": "resolved",
-   "outcome": "miss"
   }
  ],
  "events": [
-  {
-   "id": "evt-53989364a1bd",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T19:05:32Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Tesla investors were reminded of an upcoming event on October 15, prompting attention to the stock.",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNenZzMnNzNy14NTNwZVo4SzZRaGZpTFRzaExVTTJxd201bGFyUDlpYmVOZWd6TmFubnVVSWd4UmlHaUZsZVYxOUI0UHNlVDA0clUyY2huQ09Da2stREpabmZ1RWpOQW5hRUQtQWxYT0Zndlg5WWxSN3hYOURUQUlDS3AwQ1ZQalNjdVFiRm9UaFEtUFVoYUVsLTdrcUVscW9uMWc?oc=5"
-  },
   {
    "id": "evt-a9ba423458c5",
    "date": "2026-10-02",
@@ -3434,6 +3424,16 @@
    "region": "Europe",
    "summary": "Intensified Russian missile strikes have heavily damaged Kyiv’s critical infrastructure, with mayor Vitaliy Klitschko warning of a dramatic situation.",
    "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-6d7eb1d5c07f",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T01:05:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Netflix shares fell 14% in September, its biggest monthly decline this year.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNmplR201OWhUZHJxN05tdmVQbUJMUTB0Ni15QzVEeDNXWmNuVi1yVHBGYm1RbGJ1YzNvNUptTms3d0ZNQmFMaWpoNEVxMHhNS3Q4VFVVY1p3NmNCdzY0d01JUzROZ2ZtTlZmWUthUzktZXB5QUs1MjM4cGhwOVNMTGNDNUxyNlUyQTF4NkhhVWRzTVlZS3VWMFFB?oc=5"
   },
   {
    "id": "evt-8ac279ca0017",

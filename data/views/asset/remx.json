@@ -2398,30 +2398,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-fe4f8d181451",
-   "kind": "causal_notes",
-   "asset": "REMX",
-   "move_id": "move-REMX-2026-09-10",
-   "move_date": "2026-09-10",
-   "event_ids": [
-    "evt-cabeb2e7a1c6"
-   ],
-   "reasoning": "US-Iran conflict risk off triggered sell of risk assets, including rare earths, causing REMX drop.",
-   "confidence": 60,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-15T03:02:53Z",
-   "events": [
-    {
-     "id": "evt-cabeb2e7a1c6",
-     "event_type": "political",
-     "severity": 2,
-     "region": "US",
-     "summary": "US leaders marked the 25th anniversary of the 9/11 attacks, with remarks linking to the current US-Iran conflict.",
-     "date": "2026-09-11"
-    }
-   ]
-  },
-  {
    "id": "note-e689eaaf9073",
    "kind": "causal_notes",
    "asset": "REMX",
@@ -2625,6 +2601,19 @@
    "confidence": 55,
    "hypothesis_status": "proposed",
    "written_at": "2026-09-06T14:39:14Z",
+   "events": []
+  },
+  {
+   "id": "note-8753d9ea34d5",
+   "kind": "causal_notes",
+   "asset": "REMX",
+   "move_id": "move-REMX-2026-05-28",
+   "move_date": "2026-05-28",
+   "event_ids": [],
+   "reasoning": "No candidate events found; price move likely driven by broader market factors or undisclosed news.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-04T06:04:39Z",
    "events": []
   },
   {
@@ -2839,16 +2828,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-53989364a1bd",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T19:05:32Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Tesla investors were reminded of an upcoming event on October 15, prompting attention to the stock.",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNenZzMnNzNy14NTNwZVo4SzZRaGZpTFRzaExVTTJxd201bGFyUDlpYmVOZWd6TmFubnVVSWd4UmlHaUZsZVYxOUI0UHNlVDA0clUyY2huQ09Da2stREpabmZ1RWpOQW5hRUQtQWxYT0Zndlg5WWxSN3hYOURUQUlDS3AwQ1ZQalNjdVFiRm9UaFEtUFVoYUVsLTdrcUVscW9uMWc?oc=5"
-  },
   {
    "id": "evt-a9ba423458c5",
    "date": "2026-10-02",
@@ -3068,6 +3047,16 @@
    "region": "Europe",
    "summary": "Intensified Russian missile strikes have heavily damaged Kyiv’s critical infrastructure, with mayor Vitaliy Klitschko warning of a dramatic situation.",
    "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-6d7eb1d5c07f",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T01:05:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Netflix shares fell 14% in September, its biggest monthly decline this year.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNmplR201OWhUZHJxN05tdmVQbUJMUTB0Ni15QzVEeDNXWmNuVi1yVHBGYm1RbGJ1YzNvNUptTms3d0ZNQmFMaWpoNEVxMHhNS3Q4VFVVY1p3NmNCdzY0d01JUzROZ2ZtTlZmWUthUzktZXB5QUs1MjM4cGhwOVNMTGNDNUxyNlUyQTF4NkhhVWRzTVlZS3VWMFFB?oc=5"
   },
   {
    "id": "evt-8ac279ca0017",

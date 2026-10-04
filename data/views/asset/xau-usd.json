@@ -2654,6 +2654,19 @@
    "events": []
   },
   {
+   "id": "note-42fd8ab0953b",
+   "kind": "causal_notes",
+   "asset": "XAU/USD",
+   "move_id": "move-XAU/USD-2026-04-01",
+   "move_date": "2026-04-01",
+   "event_ids": [],
+   "reasoning": "No candidate events found; price move likely driven by broader market factors or data releases not captured in the list.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-04T06:04:40Z",
+   "events": []
+  },
+  {
    "id": "note-be00af81ef05",
    "kind": "causal_notes",
    "asset": "XAU/USD",
@@ -2773,6 +2786,32 @@
    "outcome": null
   },
   {
+   "id": "pred-f3255369cdf9",
+   "event_id": "evt-15a9bb0e1881",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 53,
+   "reasoning": "Localized damage may trigger brief safe-haven demand, but Indonesia's limited economic disruption tempers the impact.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-d9bb6f6925ad",
+   "event_id": "evt-e0ceb7e2c1e3",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Brazil election uncertainty boosts safe‑haven demand, supporting gold prices.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-7550ca8445d4",
    "event_id": "evt-8a5e1661b6b6",
    "created_at": "2026-10-02",
@@ -2795,6 +2834,19 @@
    "threshold_pct": 1.5,
    "confidence": 56,
    "reasoning": "Worsening humanitarian conditions may increase geopolitical risk aversion and safe-haven demand for gold, though the direct market impact is limited.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-d27a5346e320",
+   "event_id": "evt-0e8eb15786cd",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 52,
+   "reasoning": "West Bank violence may lift safe-haven gold demand, though its local scale and gold's recent weakness limit conviction.",
    "status": "open",
    "outcome": null
   },
@@ -2838,6 +2890,19 @@
    "outcome": null
   },
   {
+   "id": "pred-3aa7c951da81",
+   "event_id": "evt-aa07d9872b66",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.2,
+   "confidence": 50,
+   "reasoning": "Natural disaster heightens risk aversion; investors often seek gold as a safe‑haven amid uncertainty.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-d6ed94568b1c",
    "event_id": "evt-cc3430a0d1a2",
    "created_at": "2026-10-02",
@@ -2847,6 +2912,19 @@
    "threshold_pct": 1.5,
    "confidence": 65,
    "reasoning": "UK terror threat raises geopolitical risk, boosting gold as a safe‑haven.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-631ea643137c",
+   "event_id": "evt-48fca9d5479c",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 57,
+   "reasoning": "Gaza casualties may reinforce geopolitical risk aversion, supporting safe-haven gold demand.",
    "status": "open",
    "outcome": null
   },
@@ -2981,6 +3059,32 @@
    "outcome": null
   },
   {
+   "id": "pred-88a9ee2458ac",
+   "event_id": "evt-ce86be76ab89",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-16",
+   "horizon_days": 14,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Regional natural disaster may prompt investors to seek safe‑haven gold, modestly boosting its price.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-b9ffc4776693",
+   "event_id": "evt-60dae5e448ab",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 52,
+   "reasoning": "Prolonged fighting in Ethiopia may support safe-haven gold demand, though the localized conflict limits global impact.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-686390eefeef",
    "event_id": "evt-8d4f3ce3e777",
    "created_at": "2026-10-02",
@@ -3003,6 +3107,19 @@
    "threshold_pct": 1.5,
    "confidence": 58,
    "reasoning": "Regional escalation could lift safe-haven demand and help reverse gold's recent 7-day decline.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-a0c1c053d99b",
+   "event_id": "evt-857300e3f695",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Strikes and Iran warnings lift safe-haven demand; gold's 2.9% weekly decline leaves room for a relief bounce.",
    "status": "open",
    "outcome": null
   },
@@ -3135,123 +3252,9 @@
    "reasoning": "Ongoing war uncertainty supports safe‑haven demand, likely lifting gold modestly.",
    "status": "resolved",
    "outcome": "miss"
-  },
-  {
-   "id": "pred-f95e6e7a65b2",
-   "event_id": "evt-f0e6221868c8",
-   "created_at": "2026-09-14",
-   "expires_at": "2026-09-21",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "European political violence raises risk sentiment, driving a flight to gold.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-b5f4fd5c4b87",
-   "event_id": "evt-a5587e5a9d00",
-   "created_at": "2026-09-14",
-   "expires_at": "2026-09-21",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 60,
-   "reasoning": "Escalating violence in Mexico raises geopolitical risk, driving investors toward gold as a global safe haven.",
-   "status": "resolved",
-   "outcome": "hit"
-  },
-  {
-   "id": "pred-f5f4df99dfda",
-   "event_id": "evt-53a8fe2fc126",
-   "created_at": "2026-09-14",
-   "expires_at": "2026-09-28",
-   "horizon_days": 14,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 45,
-   "reasoning": "Natural‑disaster risk boosts safe‑haven demand for gold in the short term.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-31ca823d597d",
-   "event_id": "evt-02786a90e2ba",
-   "created_at": "2026-09-14",
-   "expires_at": "2026-09-21",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.0,
-   "confidence": 55,
-   "reasoning": "Geopolitical tension fuels safe‑haven demand, lifting gold.",
-   "status": "resolved",
-   "outcome": "hit"
-  },
-  {
-   "id": "pred-316a65f8ef13",
-   "event_id": "evt-d8cdd921f991",
-   "created_at": "2026-09-14",
-   "expires_at": "2026-09-21",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 55,
-   "reasoning": "Higher inflation boosts demand for gold as an inflation hedge despite potential rate rise.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-c498e8f3b514",
-   "event_id": "evt-8652d8de8628",
-   "created_at": "2026-09-14",
-   "expires_at": "2026-09-21",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 1.5,
-   "confidence": 58,
-   "reasoning": "Analyst talk of sub‑$4,000 gold adds downside pressure; recent -3.1% 7d trend supports further dip.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-8b49aaf9876a",
-   "event_id": "evt-e3365a8b2b0c",
-   "created_at": "2026-09-14",
-   "expires_at": "2026-09-28",
-   "horizon_days": 14,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 45,
-   "reasoning": "Inflation worries from soaring oil prices lift gold as a hedge.",
-   "status": "resolved",
-   "outcome": "miss"
-  },
-  {
-   "id": "pred-d39e250db24e",
-   "event_id": "evt-b22e16baf1a3",
-   "created_at": "2026-09-14",
-   "expires_at": "2026-09-21",
-   "horizon_days": 7,
-   "direction": "up",
-   "threshold_pct": 1.5,
-   "confidence": 60,
-   "reasoning": "Tech sell‑off fuels risk‑off sentiment, boosting gold as a safe‑haven asset.",
-   "status": "resolved",
-   "outcome": "miss"
   }
  ],
  "events": [
-  {
-   "id": "evt-53989364a1bd",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T19:05:32Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Tesla investors were reminded of an upcoming event on October 15, prompting attention to the stock.",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNenZzMnNzNy14NTNwZVo4SzZRaGZpTFRzaExVTTJxd201bGFyUDlpYmVOZWd6TmFubnVVSWd4UmlHaUZsZVYxOUI0UHNlVDA0clUyY2huQ09Da2stREpabmZ1RWpOQW5hRUQtQWxYT0Zndlg5WWxSN3hYOURUQUlDS3AwQ1ZQalNjdVFiRm9UaFEtUFVoYUVsLTdrcUVscW9uMWc?oc=5"
-  },
   {
    "id": "evt-a9ba423458c5",
    "date": "2026-10-02",
@@ -3471,6 +3474,16 @@
    "region": "Europe",
    "summary": "Intensified Russian missile strikes have heavily damaged Kyiv’s critical infrastructure, with mayor Vitaliy Klitschko warning of a dramatic situation.",
    "url": "https://www.bbc.co.uk/news/articles/c6wyv44y4ywjo?at_medium=RSS&at_campaign=rss"
+  },
+  {
+   "id": "evt-6d7eb1d5c07f",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T01:05:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Netflix shares fell 14% in September, its biggest monthly decline this year.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNmplR201OWhUZHJxN05tdmVQbUJMUTB0Ni15QzVEeDNXWmNuVi1yVHBGYm1RbGJ1YzNvNUptTms3d0ZNQmFMaWpoNEVxMHhNS3Q4VFVVY1p3NmNCdzY0d01JUzROZ2ZtTlZmWUthUzktZXB5QUs1MjM4cGhwOVNMTGNDNUxyNlUyQTF4NkhhVWRzTVlZS3VWMFFB?oc=5"
   },
   {
    "id": "evt-8ac279ca0017",
