@@ -2398,32 +2398,6 @@
  ],
  "causal_notes": [
   {
-   "id": "note-f32ef2ca85fc",
-   "kind": "causal_notes",
-   "asset": "GDX",
-   "move_id": "move-GDX-2026-08-03",
-   "move_date": "2026-08-03",
-   "event_ids": [],
-   "reasoning": "No candidate events; likely driven by sector rotation or macro sentiment affecting gold miners.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-04T01:53:24Z",
-   "events": []
-  },
-  {
-   "id": "note-a3570cd678d1",
-   "kind": "causal_notes",
-   "asset": "GDX",
-   "move_id": "move-GDX-2026-07-31",
-   "move_date": "2026-07-31",
-   "event_ids": [],
-   "reasoning": "No specific event; likely sector rotation or macro market decline impacting gold miners.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-05T01:52:51Z",
-   "events": []
-  },
-  {
    "id": "note-c17ccfb0206c",
    "kind": "causal_notes",
    "asset": "GDX",
@@ -2593,6 +2567,19 @@
    "events": []
   },
   {
+   "id": "note-45335340fbd1",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-05-20",
+   "move_date": "2026-05-20",
+   "event_ids": [],
+   "reasoning": "No specific event; likely driven by broader gold price rally and sector rotation.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-05T05:52:18Z",
+   "events": []
+  },
+  {
    "id": "note-b3ba91c4ab95",
    "kind": "causal_notes",
    "asset": "GDX",
@@ -2642,6 +2629,19 @@
    "confidence": 30,
    "hypothesis_status": "proposed",
    "written_at": "2026-10-03T16:37:15Z",
+   "events": []
+  },
+  {
+   "id": "note-f8003ccff01c",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-04-29",
+   "move_date": "2026-04-29",
+   "event_ids": [],
+   "reasoning": "No candidate events; likely a general market sell‑off or sector rotation affecting gold miners.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-05T05:52:27Z",
    "events": []
   },
   {
@@ -2829,6 +2829,32 @@
    "outcome": null
   },
   {
+   "id": "pred-411c7bc5fc59",
+   "event_id": "evt-089686a143c5",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Gold miners benefit from rising gold prices due to political risk.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-9280339508bc",
+   "event_id": "evt-b9e7d2ba85da",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 55,
+   "reasoning": "Gold‑miner ETF follows gold's safe‑haven rally on heightened risk sentiment.",
+   "status": "open",
+   "outcome": null
+  },
+  {
    "id": "pred-01cc44611b8e",
    "event_id": "evt-05d526e343d0",
    "created_at": "2026-10-02",
@@ -2838,6 +2864,19 @@
    "threshold_pct": 2.0,
    "confidence": 50,
    "reasoning": "Gold-equity beta can amplify safe-haven strength in miners, though equity risk and recent weakness limit conviction.",
+   "status": "open",
+   "outcome": null
+  },
+  {
+   "id": "pred-dd91f4fd50f0",
+   "event_id": "evt-73cd588eb5c6",
+   "created_at": "2026-10-02",
+   "expires_at": "2026-10-09",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.0,
+   "confidence": 50,
+   "reasoning": "Gold miners hit by falling gold, expect GDX to decline.",
    "status": "open",
    "outcome": null
   },
@@ -2948,26 +2987,6 @@
  ],
  "events": [
   {
-   "id": "evt-e850144ffa3f",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T09:04:00Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "US",
-   "summary": "Sharp heating‑oil price increases could leave millions of Americans without adequate warmth this winter.",
-   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNVzlwX1ZuWUZJb1hyRGU1Um1PLTFoSkx5STFITTYwbTRId00yWGl5QTJWQXZjVXlUX1FOanpBbkFKZlZuM2QxNDhPYll6S29xTlZ1dktiekg5NVU3eUZfN0c5cWx1eE9UbUJoMjRfZDZZcHZVa3pFLUhmZzdGeUtmeTZQWlVCdEJTMHM5Rm00amhjU2Q3cVEzUzFxTnBzT1p0bGxhTnF1TmlRdw?oc=5"
-  },
-  {
-   "id": "evt-4e5df5ac95fc",
-   "date": "2026-10-02",
-   "dt": "2026-10-02T16:02:39Z",
-   "event_type": "political",
-   "severity": 2,
-   "region": "US",
-   "summary": "Cornell University faces scrutiny over its handling of sexual assault allegations.",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/2/does-the-punishment-fit-the-crime-controversy-erupts-around-cornell?traffic_source=rss"
-  },
-  {
    "id": "evt-098360b820ed",
    "date": "2026-10-02",
    "dt": "2026-10-02T19:00:30Z",
@@ -2978,6 +2997,16 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032535"
   },
   {
+   "id": "evt-fa3604e886dd",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T22:29:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Tesla delivered more electric vehicles than Wall Street expected, sending its stock higher.",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbTk1OFU1SHk2Z2daZzY2dlhmX09NbHZhSHFsREVidjhLX3pGRVUxQTh1SlRqWFRsTGJycXhydTRYalNuWjZUMlc2ZzdiUFBjR3BsaVZXNlFYOGNkcHJmTnpRUkhYU2FvVVNLaVhlWi1UWnBDMUEwUUh6TW03dWdtOHFvUjBrQ0ZoaVFOQkcyVklEOXE4OVVWb2ttLUU1bnhBalVpX0tTRUpucjVEeEo2a2p1R1Q?oc=5"
+  },
+  {
    "id": "evt-df0f5f5bf041",
    "date": "2026-10-02",
    "dt": "2026-10-02T15:20:00Z",
@@ -2986,6 +3015,16 @@
    "region": "US",
    "summary": "Alphabet’s shares fell 15% from their all‑time high, prompting analysts to view the dip as a buying opportunity.",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPclNlV1RZV2lKbUhvbzVJZ3hmYXRISzAyVzdfZng1eUx0bXZOcm5WNjJIb3Y2YjVEVE5HYW9jeEJZQk1zUS1EeVZvWkJxckx5UGtjRkdpMDFTVHZibHQ1aGt2dnRSa1F3ZkhpY1p3WTZZb3hGeXp5dlVMRXlfUi1EVk1qbFhvbTdtTkR2N3pxbDBVTXVFUnlv?oc=5"
+  },
+  {
+   "id": "evt-60ffbc983424",
+   "date": "2026-10-02",
+   "dt": "2026-10-02T12:00:04Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Yahoo Finance highlights JPMorgan Chase as a trending stock and presents investor-relevant company facts.",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPc0w2N2wyeW92S0pTSDhEaXh3TFNwVDhDMUxWbkhCRHRDWW5QYVJXS2NSQmt1UWROUjJyQzdNZHhCQVdZT3hTQko5ZFBLMzdrWlFCWlYwdU8weHd1cHZZcDhfSVVNMDNNbGYydlB0TFIzQkJMNUJka1JIYkR1Z0tBbnl3WnVjYWg5Q0VJZnZubklZc2RFR21uWl9QVQ?oc=5"
   },
   {
    "id": "evt-01357122b9ec",
