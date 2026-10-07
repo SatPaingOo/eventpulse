@@ -12,9 +12,15 @@ document.addEventListener('DOMContentLoaded',function(){
   function epLocal(iso){ if(!iso) return ''; var d=new Date(iso); if(isNaN(d)) return iso;
     return d.toLocaleString(undefined,{year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}); }
   function epRel(iso){ if(!iso) return ''; var d=new Date(iso); if(isNaN(d)) return '';
-    var s=(Date.now()-d.getTime())/1000; if(s<45) return 'just now';
-    var m=s/60; if(m<60) return Math.round(m)+'m ago'; var h=m/60; if(h<24) return Math.round(h)+'h ago';
-    var da=h/24; if(da<30) return Math.round(da)+'d ago'; return d.toLocaleDateString(); }
+    // works both ways: past stamps read "3h ago", future deadlines "in 2d".
+    var s=(Date.now()-d.getTime())/1000, future=s<0; if(future) s=-s;
+    if(s<45) return future?'now':'just now';
+    var span; var m=s/60;
+    if(m<60) span=Math.round(m)+'m';
+    else { var h=m/60;
+      if(h<24) span=Math.round(h)+'h';
+      else { var da=h/24; if(da>=30) return d.toLocaleDateString(); span=Math.round(da)+'d'; } }
+    return future?'in '+span:span+' ago'; }
   function epDT(iso){ if(!iso) return ''; var d=new Date(iso); if(isNaN(d)) return iso;
     return d.toLocaleString(undefined,{year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}); }
   document.querySelectorAll('[data-utc]').forEach(function(el){
