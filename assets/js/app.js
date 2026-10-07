@@ -21,14 +21,16 @@ document.addEventListener('DOMContentLoaded',function(){
       if(h<24) span=Math.round(h)+'h';
       else { var da=h/24; if(da>=30) return d.toLocaleDateString(); span=Math.round(da)+'d'; } }
     return future?'in '+span:span+' ago'; }
+  // Timestamps render in UTC to match the UTC day the record is filed under
+  // (local time could read a day off its day header); the local time is on hover.
   function epDT(iso){ if(!iso) return ''; var d=new Date(iso); if(isNaN(d)) return iso;
-    return d.toLocaleString(undefined,{year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'}); }
+    return d.toLocaleString('en-US',{timeZone:'UTC',year:'numeric',month:'short',day:'numeric',hour:'2-digit',minute:'2-digit'})+' UTC'; }
   document.querySelectorAll('[data-utc]').forEach(function(el){
     var iso=el.getAttribute('data-utc'); if(!iso) return;
     var loc=epLocal(iso), rel=epRel(iso);
     if (el.hasAttribute('data-dt')){
       el.textContent=epDT(iso);
-      el.setAttribute('title',rel+' (local time)');
+      el.setAttribute('title',loc+' (your local time) · '+rel);
     } else {
       el.textContent=rel?rel:loc;
       el.setAttribute('title',loc+' (local time)');
