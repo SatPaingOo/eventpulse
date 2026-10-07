@@ -2447,6 +2447,56 @@
    "pct_change": -6.102
   },
   {
+   "id": "note-3eded56c2b0c",
+   "kind": "causal_notes",
+   "asset": "CAT",
+   "move_id": "move-CAT-2026-10-06",
+   "move_date": "2026-10-06",
+   "event_ids": [
+    "evt-6f6bd8e01e3c"
+   ],
+   "reasoning": "Oil price climb signals economic strength, boosting demand for construction equipment and lifting Caterpillar shares.",
+   "confidence": 60,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-07T19:01:42Z",
+   "events": [
+    {
+     "id": "evt-6f6bd8e01e3c",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Oil prices climb as investors weigh potential supply threats.",
+     "date": "2026-10-07"
+    }
+   ],
+   "pct_change": 2.088
+  },
+  {
+   "id": "note-2a5e479cf5ff",
+   "kind": "causal_notes",
+   "asset": "CAT",
+   "move_id": "move-CAT-2026-10-02",
+   "move_date": "2026-10-02",
+   "event_ids": [
+    "evt-c09aed4147dd"
+   ],
+   "reasoning": "Rising oil prices lifted the energy sector, boosting demand for Caterpillar's equipment and pushing its stock higher.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-07T19:01:52Z",
+   "events": [
+    {
+     "id": "evt-c09aed4147dd",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Energy sector outperformed the S&P 500 in Q3 as oil prices rose.",
+     "date": "2026-10-03"
+    }
+   ],
+   "pct_change": 2.308
+  },
+  {
    "id": "note-e4cd4711a096",
    "kind": "causal_notes",
    "asset": "CAT",
@@ -2845,45 +2895,6 @@
    "written_at": "2026-09-03T21:12:13Z",
    "events": [],
    "pct_change": -1.674
-  },
-  {
-   "id": "note-f04568033a93",
-   "kind": "causal_notes",
-   "asset": "CAT",
-   "move_id": "move-CAT-2026-04-23",
-   "move_date": "2026-04-23",
-   "event_ids": [
-    "evt-06da6cdaac87"
-   ],
-   "reasoning": "US rare‑earth price‑floor policy may raise supply costs, affecting Caterpillar’s production and stock price.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-10-06T18:32:16Z",
-   "events": [
-    {
-     "id": "evt-06da6cdaac87",
-     "event_type": "political",
-     "severity": 3,
-     "region": "US",
-     "summary": "Analysis of a proposed U.S. price‑floor policy aimed at securing domestic rare‑earth supply and reducing reliance on imports.",
-     "date": "2026-04-22"
-    }
-   ],
-   "pct_change": 3.26
-  },
-  {
-   "id": "note-f2bbe72b26ba",
-   "kind": "causal_notes",
-   "asset": "CAT",
-   "move_id": "move-CAT-2026-04-15",
-   "move_date": "2026-04-15",
-   "event_ids": [],
-   "reasoning": "No candidate events; likely sector-wide sell‑off or macro news affecting heavy‑equipment stocks.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-13T01:53:55Z",
-   "events": [],
-   "pct_change": -3.032
   }
  ],
  "predictions": [
@@ -2955,66 +2966,6 @@
  ],
  "events": [
   {
-   "id": "evt-03cd35025034",
-   "date": "2026-10-07",
-   "dt": "2026-10-07T15:50:21Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Silver prices plunged, pulling Canadian mining stocks lower as the broader metal rally weakens.",
-   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPX1B5ZVN0MTBXdW1Mb3h5czF2cUY3SS1rT29UTWJRZG41ZnlRdENqMDdlTWt2TzVVT2dTNzVUUUs2Nk5QZm9PRXMyLWllOEdCS3JOYjRDSDdhNktSZWt2SVVjMThySmxWeHlaQ2RPdzgzSUxseGdreEd1Q2l3T2ROYTJWRUVEVzZxLWNqRVNxUUVaSExXZ2dyVjZ3YWhuYzZrRmpFUFQ2MFRiRkNBN1BBZGgyNmZLVEFOTVlOTHRaMVBaT1U?oc=5"
-  },
-  {
-   "id": "evt-e30e34bcdf9f",
-   "date": "2026-10-07",
-   "dt": "2026-10-07T03:03:16Z",
-   "event_type": "other",
-   "severity": 1,
-   "region": "South America",
-   "summary": "Lionel Messi played his farewell match for Argentina in a friendly against Benin in Buenos Aires, ending a 21‑year international career.",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/7/10-7-messi-final-game-sv-mp4?traffic_source=rss"
-  },
-  {
-   "id": "evt-e2f67aa64678",
-   "date": "2026-10-07",
-   "dt": "2026-10-07T02:17:07Z",
-   "event_type": "political",
-   "severity": 2,
-   "region": "Australia",
-   "summary": "Australia's High Court rejects expansion of a coal mine, citing climate harm.",
-   "url": "https://www.aljazeera.com/news/2026/10/7/australia-top-court-rules-against-coal-mine-expansion-citing-climate-harm?traffic_source=rss"
-  },
-  {
-   "id": "evt-bbc86b20e65d",
-   "date": "2026-10-07",
-   "dt": "2026-10-07T11:42:27Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Analysts say Procter & Gamble shares could trade at a discount despite a new packaging initiative, potentially affecting the stock price.",
-   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNUHZqaEtZM2s2ZWdYc0tURkJmNHYta0t6OThuLTNpM1ZjNWI0bnRPME41THJZcjVIT0FROVJEeWNOZ3NwVE1YZmNIaDhSSlhaaVp1cWJGUk1FYU9XRFhpdlZ1TFAyV29uZDRJbExIck9Jdld1WFA0Ni1EVUJhaVgzX21vVnFQd3JiSHdHVjR3UnpTNjY3X1FQV28xTmtxYlFjZkxZVWdLR3FFMWJ0TDk0dlBrcjFBay15U3hVWjBsbTYxajU3cWZ0d3ZR0gHPAUFVX3lxTE5zenF5QmtkODZDeXJiNC1RS1I3SUU3UnNubG9MZVYtRHJDb3hIUmdaUTFuTzBCSVVYVnRyYWNGMWJhbE5MYmtjd1J6M1pfRVZ6djZZa3llRTJCeDh6MWJJM0hJelZQTmZDZjNwTEtsaDliRGVTN19RZllfODltcEFKRFNROGNPRmJUNU5ZZXh6MmxxU0JjSWMzMUVOSGE2T1ZCTFdKdW9KNGVaa2VhNjlreFhLTGJMUDZwS21hSlJGMTgwdlNCclZKUDgydlBGaw?oc=5"
-  },
-  {
-   "id": "evt-8caf6ea6ebb8",
-   "date": "2026-10-07",
-   "dt": "2026-10-07T14:32:44Z",
-   "event_type": "economic",
-   "severity": 4,
-   "region": "Global",
-   "summary": "Copper and nickel prices could double by 2035 per report.",
-   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE40S0hSMERHWlFlb3VhYUV3TVZ6NG1PS2VNUmxWS1JLWmV1TWhUNThRNGdUU0xGRm80OUt2aTZ4R1hPdXJMeTlId1dNY1h5WDFJVmhtWjFadnpTcVFyWE9sVUpBMHhxNkFtX1kzc29EQWNRWGVkeF9UUXN4NFo?oc=5"
-  },
-  {
-   "id": "evt-f94ff0ca9237",
-   "date": "2026-10-07",
-   "dt": "2026-10-07T03:16:32Z",
-   "event_type": "military",
-   "severity": 3,
-   "region": "Middle East",
-   "summary": "Oman rescued injured crew from the tanker On Peace after it was attacked in the Strait of Hormuz; 11 of 12 injured are Indian nationals.",
-   "url": "https://www.aljazeera.com/news/2026/10/7/oman-evacuates-injured-crew-from-attacked-tanker-in-strait-of-hormuz?traffic_source=rss"
-  },
-  {
    "id": "evt-69c6547f72f5",
    "date": "2026-10-07",
    "dt": "2026-10-07T02:23:03Z",
@@ -3053,6 +3004,16 @@
    "region": "Global",
    "summary": "An analysis compares Visa and Mastercard, highlighting Mastercard's 241% return on equity and assessing which may be the better buy.",
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNEdjM3AwVmRiaG1JUVk2VHQzZloxYVBvOEVqeWttZjRaX0s3WFB3a3R2cDFKTVZIZ2xESDZoRWRzZ295S3NDLXNkVjZ6OXo1Q3h1c1kxZHphMUF5TDhQblc3SWpNWC1hZkRMd3hEZTAySDNBSUY1V3J1Q2tnalB6TTc0cnYzZDVPZVJnaWNTOEhCb0QyT1p3?oc=5"
+  },
+  {
+   "id": "evt-05ff26f72917",
+   "date": "2026-10-07",
+   "dt": "2026-10-07T09:26:01Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "US",
+   "summary": "Berkshire Hathaway reportedly reduced positions in Alphabet and Broadcom while allocating over 17% of assets to another strategy.",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPVzFvZy03clVaRDhjNXZZdV9OY3AyR21MSXRPLTFEc0pFN1hvMFJ6cHpzSU1zLTdzYklZZW1NaG5YQzNNUzVaUWtsUksxY3dYLTE2SmtUclZBel9SWmF4VDYwY1pZMFkyT0FmdnhPMFJuakU4a3R0RHFkd1ZFd1lfZVhVRlFfU3k5VlRZeTZoVTRBNzRCMnptelplaEdsOE9M?oc=5"
   },
   {
    "id": "evt-22454311b8b1",
@@ -3245,6 +3206,16 @@
    "url": "https://www.aljazeera.com/economy/2026/10/7/us-mortgage-rates-hit-their-highest-level-in-three-years?traffic_source=rss"
   },
   {
+   "id": "evt-45f151cb0b80",
+   "date": "2026-10-07",
+   "dt": "2026-10-07T14:04:00Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "US",
+   "summary": "Alcoa prepares its Q3 earnings as new aluminum tariffs influence pricing, signaling potential impacts on the metal market.",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQLUthVEN1d0NvY0FoSWFEVWM2WjU3ckc4R29pMnpHajVhVXlDNjFhODFJY1Z4LWxId1I3VS1qUzB0d2wzOVRkc0Zna01pMEpMblpsbzJ6TVVCdHdZbU1PVzY1OFZyT3IxdDRDWm1qQkVxMG5weW44UmNwTTRlQWtxT2ZVWmRKVFdUblBXN2dlMDRnbThkZGprWkl3bk1RTGdoZzVmYXdGQjhhYXViTWlhMGwyR1ZzX1d2bzg0VDE2RU5pREVpYlE?oc=5"
+  },
+  {
    "id": "evt-c0dcf226da00",
    "date": "2026-10-07",
    "dt": "2026-10-07T00:30:08Z",
@@ -3265,6 +3236,16 @@
    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032592"
   },
   {
+   "id": "evt-8ad13ffdc893",
+   "date": "2026-10-07",
+   "dt": "2026-10-07T18:47:00Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "US",
+   "summary": "Chevron CEO warns that oil reserves are depleting, potentially affecting future production.",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNFdUZkdITVpxY0VONTRwTFpJX25zNnkyWWhjZDZYbjBDQUh4bDNYSl9EaElWVGZscnNtM1JhME5FNU1YR283OHZFZGJFQ0FoLW15RU4xdzhvT0R3UnBxNWVJNWVaMjdPTXVyVF8wcnpjUEtSYjlOMWxfb2ZwNmVXQVJfb0VHOHdsZGtEMGIyeDFJc2YzMDY1clJ2aUpoN3VWbHVOcQ?oc=5"
+  },
+  {
    "id": "evt-c42b6f64d06e",
    "date": "2026-10-07",
    "dt": "2026-10-07T08:59:47Z",
@@ -3273,6 +3254,16 @@
    "region": "Europe",
    "summary": "European gas prices rise slightly as cooler forecasts counter storage injections.",
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOazR5ZFo1LUxZd25PRnJqeVRqcVI5Z0R6cWRvNnhwUHA1NFVjeWFISzVRS2NEdFpPRGtDelZwUGZtYUpMVHJRS1NtN1E2aFpLNEVGNjhybXNkWEpTRlBvWlhZWEJVQzV4YkY2cFRfMkRPM1RKMHpnd29FZHREU2RnZGJicUJlWjVUUEZMN3dKNGs0VldGZlRhUlZLdjVHQ1hETFh0WXQ2MFEzaTRSRU5xNm01VDZOY1VXTzZMcXVQVS1IRkk3akpvdHgzZTk?oc=5"
+  },
+  {
+   "id": "evt-30bcbd14d879",
+   "date": "2026-10-07",
+   "dt": "2026-10-07T09:32:54Z",
+   "event_type": "economic",
+   "severity": 4,
+   "region": "US",
+   "summary": "Heating oil prices have risen 86 % over the past year, prompting Connecticut officials to warn consumers about rising costs.",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSUw1dEZIV0Z1SlFwNnRkbVlqckR6ZW5QZFRabHdOZUN6MjlyelJQNm04NFNZUFFyR2ZkTXVCdGhkYkZfa0VKcUxtNG9VQkVZOWtDMnh2VmtYWG13Y3lCNXhBUGJHZy1Pb24wSTlQQlBEamZEekR6MEw5Ul9tbzNrV2JOSkE0LTk0UmU1NjdLd0tsd3E1X0Y3MnRtZkdhWkJXZ2ZNUm5icEhvelpESno1aQ?oc=5"
   },
   {
    "id": "evt-73ba6cdbcfca",
@@ -3365,6 +3356,16 @@
    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQeGY3aDV2dUMwcFRYRmlUX3czUmhXd0FPQ0ZQd3AyRzVuSEZkc0NyQXAwT2pEaUllWTdyY1VISnMyamQyMlBIT00yQ1Q3SUR5dkNWT0d6SGRpdzdWMy1jMHBwaEFSTFZXdjBlYmJUV3NLeWxSWnJZMGVxVkNMcm14MUpoOE1QYk9MSzZHM3FRVHktb3QtNjZrdjVodFU?oc=5"
   },
   {
+   "id": "evt-6e4965842a39",
+   "date": "2026-10-07",
+   "dt": "2026-10-07T17:47:45Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "Global",
+   "summary": "Gold ETFs surged, offsetting an 8.5% drop in gold prices, indicating strong demand for physical gold.",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9TR1RZNm5wZFlrWm15cUVTOTd1Z0FsX3B0ZTRRMjgxQ2ZCd3NtMkdpX2VPazNHRnJCZzVLekFEQ3VyNW8tRVZ5ZE5uMWxIQ0ZPTGd0UXNqMFI5d3c0MDVxMUFVRWRKTDJkQlhvSXFtaDdiVXM?oc=5"
+  },
+  {
    "id": "evt-445d357d4bd1",
    "date": "2026-10-07",
    "dt": "2026-10-07T17:18:19Z",
@@ -3423,6 +3424,16 @@
    "region": "Africa",
    "summary": "A forest fire started in Angola on 05 Oct and was active until 06 Oct 2026.",
    "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1032591"
+  },
+  {
+   "id": "evt-5a0f90690dd3",
+   "date": "2026-10-07",
+   "dt": "2026-10-07T18:01:35Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "SpaceX may partner with Nvidia in a $40B deal, potentially boosting Nvidia's earnings and GPU supply chain.",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbzNNcFJJZ1haVnFOQ0hESl9Sc2Vra1MxVGRuU0dyVFRmc3hIVHl6ejJhVHdLVWdCd3F1Z0p6d0ZpWlZWSTZGdHM5Q2JMcHctMHNCU1NDZ1dJcWZZTXo4emtWcElrZ0d5NTcxampqTlBTdzE4d0lKT3E4c3VMZHRiYmtpTFFtRUxvVlFCbjdzYjlMdTN5YTkxSmVB?oc=5"
   },
   {
    "id": "evt-916295583d31",
