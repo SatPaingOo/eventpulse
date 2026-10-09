@@ -1,32 +1,32 @@
 {
- "generated_at": "2026-10-08T19:02:35Z",
- "total_resolved": 674,
- "hits": 214,
- "misses": 460,
- "accuracy": 31.8,
+ "generated_at": "2026-10-09T06:24:20Z",
+ "total_resolved": 794,
+ "hits": 240,
+ "misses": 554,
+ "accuracy": 30.2,
  "baseline": {
   "random_pct": 33.3,
-  "best_naive_pct": 34.0,
-  "best_naive_strategy": "up"
+  "best_naive_pct": 39.2,
+  "best_naive_strategy": "range"
  },
  "by_confidence": [
   {
    "value": "high (≥70)",
-   "n": 40,
-   "hits": 22,
-   "accuracy": 55.0
+   "n": 48,
+   "hits": 24,
+   "accuracy": 50.0
   },
   {
    "value": "medium (50–69)",
-   "n": 518,
-   "hits": 163,
-   "accuracy": 31.5
+   "n": 619,
+   "hits": 184,
+   "accuracy": 29.7
   },
   {
    "value": "low (<50)",
-   "n": 116,
-   "hits": 29,
-   "accuracy": 25.0
+   "n": 127,
+   "hits": 32,
+   "accuracy": 25.2
   }
  ],
  "by_dimension": {
@@ -34,32 +34,32 @@
    {
     "dimension": "event_type",
     "value": "unknown",
-    "n": 674,
-    "hits": 214,
-    "accuracy": 31.8
+    "n": 794,
+    "hits": 240,
+    "accuracy": 30.2
    }
   ],
   "direction": [
    {
     "dimension": "direction",
     "value": "down",
-    "n": 123,
-    "hits": 34,
-    "accuracy": 27.6
+    "n": 140,
+    "hits": 37,
+    "accuracy": 26.4
    },
    {
     "dimension": "direction",
     "value": "range",
-    "n": 36,
-    "hits": 9,
-    "accuracy": 25.0
+    "n": 39,
+    "hits": 11,
+    "accuracy": 28.2
    },
    {
     "dimension": "direction",
     "value": "up",
-    "n": 515,
-    "hits": 171,
-    "accuracy": 33.2
+    "n": 615,
+    "hits": 192,
+    "accuracy": 31.2
    }
   ],
   "asset": [
@@ -94,9 +94,9 @@
    {
     "dimension": "asset",
     "value": "Brent",
-    "n": 81,
-    "hits": 37,
-    "accuracy": 45.7
+    "n": 103,
+    "hits": 38,
+    "accuracy": 36.9
    },
    {
     "dimension": "asset",
@@ -108,9 +108,9 @@
    {
     "dimension": "asset",
     "value": "COPPER",
-    "n": 33,
-    "hits": 7,
-    "accuracy": 21.2
+    "n": 37,
+    "hits": 9,
+    "accuracy": 24.3
    },
    {
     "dimension": "asset",
@@ -122,9 +122,9 @@
    {
     "dimension": "asset",
     "value": "GASOLINE",
-    "n": 9,
-    "hits": 2,
-    "accuracy": 22.2
+    "n": 11,
+    "hits": 4,
+    "accuracy": 36.4
    },
    {
     "dimension": "asset",
@@ -150,9 +150,9 @@
    {
     "dimension": "asset",
     "value": "HEATOIL",
-    "n": 7,
-    "hits": 4,
-    "accuracy": 57.1
+    "n": 11,
+    "hits": 6,
+    "accuracy": 54.5
    },
    {
     "dimension": "asset",
@@ -178,9 +178,9 @@
    {
     "dimension": "asset",
     "value": "NATGAS",
-    "n": 8,
-    "hits": 1,
-    "accuracy": 12.5
+    "n": 13,
+    "hits": 5,
+    "accuracy": 38.5
    },
    {
     "dimension": "asset",
@@ -206,7 +206,7 @@
    {
     "dimension": "asset",
     "value": "PLAT",
-    "n": 2,
+    "n": 4,
     "hits": 0,
     "accuracy": 0.0
    },
@@ -269,23 +269,23 @@
    {
     "dimension": "asset",
     "value": "WTI",
-    "n": 153,
-    "hits": 84,
-    "accuracy": 54.9
+    "n": 182,
+    "hits": 86,
+    "accuracy": 47.3
    },
    {
     "dimension": "asset",
     "value": "XAG/USD",
-    "n": 25,
+    "n": 34,
     "hits": 12,
-    "accuracy": 48.0
+    "accuracy": 35.3
    },
    {
     "dimension": "asset",
     "value": "XAU/USD",
-    "n": 135,
-    "hits": 11,
-    "accuracy": 8.1
+    "n": 178,
+    "hits": 24,
+    "accuracy": 13.5
    },
    {
     "dimension": "asset",
