@@ -2488,6 +2488,31 @@
    "pct_change": 1.532
   },
   {
+   "id": "note-04ce18b7ac49",
+   "kind": "causal_notes",
+   "asset": "CVX",
+   "move_id": "move-CVX-2026-09-21",
+   "move_date": "2026-09-21",
+   "event_ids": [
+    "evt-1a81c8ece82a"
+   ],
+   "reasoning": "Exxon Mobil fell on the same day, signaling sector weakness that likely pressured CVX lower.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-11T17:47:17Z",
+   "events": [
+    {
+     "id": "evt-1a81c8ece82a",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Exxon Mobil shares fell even as the broader stock market posted gains.",
+     "date": "2026-09-21"
+    }
+   ],
+   "pct_change": -2.787
+  },
+  {
    "id": "note-df59c910e24d",
    "kind": "causal_notes",
    "asset": "CVX",
@@ -2839,6 +2864,19 @@
   }
  ],
  "predictions": [
+  {
+   "id": "pred-86ae862c895c",
+   "event_id": "evt-4fb9b74b89c3",
+   "created_at": "2026-10-09",
+   "expires_at": "2026-10-16",
+   "horizon_days": 7,
+   "direction": "down",
+   "threshold_pct": 1.0,
+   "confidence": 60,
+   "reasoning": "Gulf shutdowns cut production, lowering earnings outlook for Chevron.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-1e64ab893dbb",
    "event_id": "evt-8ad13ffdc893",

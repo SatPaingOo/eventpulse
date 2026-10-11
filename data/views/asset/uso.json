@@ -2693,6 +2693,31 @@
    "pct_change": -2.754
   },
   {
+   "id": "note-769e833ad7f0",
+   "kind": "causal_notes",
+   "asset": "USO",
+   "move_id": "move-USO-2026-09-21",
+   "move_date": "2026-09-21",
+   "event_ids": [
+    "evt-1a81c8ece82a"
+   ],
+   "reasoning": "Exxon Mobil shares fell, signaling negative sentiment for the oil sector and prompting investors to sell the crude oil ETF USO.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-11T17:47:10Z",
+   "events": [
+    {
+     "id": "evt-1a81c8ece82a",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Exxon Mobil shares fell even as the broader stock market posted gains.",
+     "date": "2026-09-21"
+    }
+   ],
+   "pct_change": -3.68
+  },
+  {
    "id": "note-59ae3717bea7",
    "kind": "causal_notes",
    "asset": "USO",
@@ -2979,20 +3004,6 @@
    "written_at": "2026-09-09T02:01:47Z",
    "events": [],
    "pct_change": -3.364
-  },
-  {
-   "id": "note-49d1928697e1",
-   "kind": "causal_notes",
-   "asset": "USO",
-   "move_id": "move-USO-2026-06-12",
-   "move_date": "2026-06-12",
-   "event_ids": [],
-   "reasoning": "No candidate events; likely due to broader market sentiment or oil supply concerns affecting USO.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-11T15:30:59Z",
-   "events": [],
-   "pct_change": -2.639
   }
  ],
  "predictions": [

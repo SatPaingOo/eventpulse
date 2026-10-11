@@ -2543,6 +2543,47 @@
    "pct_change": -1.543
   },
   {
+   "id": "note-8eb75266a636",
+   "kind": "causal_notes",
+   "asset": "TSLA",
+   "move_id": "move-TSLA-2026-09-21",
+   "move_date": "2026-09-21",
+   "event_ids": [
+    "71234b35c986"
+   ],
+   "reasoning": "Morningstar's energy stock roundup likely highlighted Tesla's energy division, prompting buying pressure and a 3% rise.",
+   "confidence": 60,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-11T17:47:13Z",
+   "events": [],
+   "pct_change": 3.028
+  },
+  {
+   "id": "note-b7dced85a4be",
+   "kind": "causal_notes",
+   "asset": "TSLA",
+   "move_id": "move-TSLA-2026-09-17",
+   "move_date": "2026-09-17",
+   "event_ids": [
+    "evt-1236b7aa765c"
+   ],
+   "reasoning": "Positive news from Yahoo Finance on Sept 14 lifted investor sentiment, leading to 2.268% rise.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-11T17:48:31Z",
+   "events": [
+    {
+     "id": "evt-1236b7aa765c",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Yahoo Finance reports positive news boosting Tesla stock, energizing its investors.",
+     "date": "2026-09-14"
+    }
+   ],
+   "pct_change": 2.268
+  },
+  {
    "id": "note-3a956abc6c0b",
    "kind": "causal_notes",
    "asset": "TSLA",
@@ -2874,34 +2915,6 @@
    "written_at": "2026-10-05T05:52:18Z",
    "events": [],
    "pct_change": -1.593
-  },
-  {
-   "id": "note-849a6bf89096",
-   "kind": "causal_notes",
-   "asset": "TSLA",
-   "move_id": "move-TSLA-2026-06-23",
-   "move_date": "2026-06-23",
-   "event_ids": [],
-   "reasoning": "No candidate events; likely earnings miss or broader tech sell‑off caused the 5.8% drop.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-14T02:11:34Z",
-   "events": [],
-   "pct_change": -5.787
-  },
-  {
-   "id": "note-87b78d4ce52e",
-   "kind": "causal_notes",
-   "asset": "TSLA",
-   "move_id": "move-TSLA-2026-06-17",
-   "move_date": "2026-06-17",
-   "event_ids": [],
-   "reasoning": "No candidate events; likely a general market factor or unreported corporate news.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T11:47:49Z",
-   "events": [],
-   "pct_change": -2.046
   }
  ],
  "predictions": [

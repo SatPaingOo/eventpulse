@@ -2577,6 +2577,45 @@
    "pct_change": -1.808
   },
   {
+   "id": "note-7a733b380e1e",
+   "kind": "causal_notes",
+   "asset": "SLX",
+   "move_id": "move-SLX-2026-09-18",
+   "move_date": "2026-09-18",
+   "event_ids": [],
+   "reasoning": "No listed event directly impacts SLX; price drop likely due to other factors.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-11T17:48:29Z",
+   "events": [],
+   "pct_change": -2.104
+  },
+  {
+   "id": "note-37102c683dc6",
+   "kind": "causal_notes",
+   "asset": "SLX",
+   "move_id": "move-SLX-2026-09-17",
+   "move_date": "2026-09-17",
+   "event_ids": [
+    "evt-005b51e4d0f4"
+   ],
+   "reasoning": "Global supply tightening forecast spurs price rise, boosting SLX.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-11T17:48:33Z",
+   "events": [
+    {
+     "id": "evt-005b51e4d0f4",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Steel prices expected to rise as supply tightens, affecting construction and manufacturing worldwide.",
+     "date": "2026-09-17"
+    }
+   ],
+   "pct_change": 2.053
+  },
+  {
    "id": "note-046eac12c910",
    "kind": "causal_notes",
    "asset": "SLX",

@@ -2538,6 +2538,31 @@
    "pct_change": -2.351
   },
   {
+   "id": "note-5e58c85d036d",
+   "kind": "causal_notes",
+   "asset": "XAG/USD",
+   "move_id": "move-XAG/USD-2026-09-18",
+   "move_date": "2026-09-18",
+   "event_ids": [
+    "evt-22d204f6662e"
+   ],
+   "reasoning": "Fed rate‑decision anticipation lifted precious metals; earlier silver rise on Sep 15 signaled momentum that extended to Sep 18.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-11T17:47:23Z",
+   "events": [
+    {
+     "id": "evt-22d204f6662e",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Gold steadied at $4,300/oz, silver rose 0.1% and platinum fell as markets await the Federal Reserve's interest‑rate decision.",
+     "date": "2026-09-15"
+    }
+   ],
+   "pct_change": 1.659
+  },
+  {
    "id": "note-f1543ba697f0",
    "kind": "causal_notes",
    "asset": "XAG/USD",
@@ -2897,20 +2922,6 @@
    "written_at": "2026-09-09T02:01:46Z",
    "events": [],
    "pct_change": 3.984
-  },
-  {
-   "id": "note-3aca313e6dd7",
-   "kind": "causal_notes",
-   "asset": "XAG/USD",
-   "move_id": "move-XAG/USD-2026-04-14",
-   "move_date": "2026-04-14",
-   "event_ids": [],
-   "reasoning": "No candidate events found near 2026-04-14; the silver surge lacks an identified trigger.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-14T21:35:06Z",
-   "events": [],
-   "pct_change": 5.122
   }
  ],
  "predictions": [
