@@ -1,108 +1,98 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-10-10T17:30:16Z",
- "run_id": "run-2026-10-10T1730",
+ "updated_at": "2026-10-11T06:02:45Z",
+ "run_id": "run-2026-10-11T0602",
  "healthy": true,
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
    "message": "0 new price snapshots",
-   "started_at": "2026-10-10T17:22:42Z",
-   "ended_at": "2026-10-10T17:22:53Z",
+   "started_at": "2026-10-11T05:56:16Z",
+   "ended_at": "2026-10-11T05:56:25Z",
    "count": 0
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "126 new items (rss 40, gdelt 0, disasters 36, asset 50, pruned 6)",
-   "started_at": "2026-10-10T17:22:53Z",
-   "ended_at": "2026-10-10T17:23:43Z",
-   "count": 126
+   "message": "103 new items (rss 30, gdelt 0, disasters 21, asset 52, pruned 7)",
+   "started_at": "2026-10-11T05:56:25Z",
+   "ended_at": "2026-10-11T05:57:16Z",
+   "count": 103
   },
   "extract": {
    "stage": "extract",
    "ok": true,
-   "message": "120 events extracted from 120 items",
-   "started_at": "2026-10-10T17:23:43Z",
-   "ended_at": "2026-10-10T17:26:39Z",
-   "count": 120
+   "message": "94 events extracted from 94 items",
+   "started_at": "2026-10-11T05:57:16Z",
+   "ended_at": "2026-10-11T05:59:12Z",
+   "count": 94
   },
   "explain": {
    "stage": "explain",
    "ok": true,
    "message": "0 new moves, 20 new causal notes",
-   "started_at": "2026-10-10T17:26:39Z",
-   "ended_at": "2026-10-10T17:27:20Z",
+   "started_at": "2026-10-11T05:59:12Z",
+   "ended_at": "2026-10-11T06:00:26Z",
    "count": 20
   },
   "predict": {
    "stage": "predict",
    "ok": true,
-   "message": "4 predictions from 16 events; 1 duplicate call(s) dropped; 71 new events left for next run",
-   "started_at": "2026-10-10T17:27:20Z",
-   "ended_at": "2026-10-10T17:30:05Z",
-   "count": 4
+   "message": "2 predictions from 16 events; 2 duplicate call(s) dropped; 63 new events left for next run",
+   "started_at": "2026-10-11T06:00:26Z",
+   "ended_at": "2026-10-11T06:02:17Z",
+   "count": 2
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
    "message": "0 resolved, 0 voided, 0 waiting for a close",
-   "started_at": "2026-10-10T17:30:05Z",
-   "ended_at": "2026-10-10T17:30:05Z",
+   "started_at": "2026-10-11T06:02:17Z",
+   "ended_at": "2026-10-11T06:02:17Z",
    "count": 0
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
    "message": "accuracy 30.7% (261/850), 1 reflection note(s)",
-   "started_at": "2026-10-10T17:30:05Z",
-   "ended_at": "2026-10-10T17:30:16Z",
+   "started_at": "2026-10-11T06:02:17Z",
+   "ended_at": "2026-10-11T06:02:45Z",
    "count": 1
   }
  },
  "llm_usage": {
-  "run_started_utc": "2026-10-10T17:22:42Z",
+  "run_started_utc": "2026-10-11T05:56:16Z",
   "by_model": [
    {
     "provider": "groq",
     "model": "openai/gpt-oss-120b",
-    "calls": 32,
+    "calls": 31,
     "ok": 24,
-    "errors": 8,
-    "prompt_tokens": 27490,
-    "completion_tokens": 19422,
-    "total_tokens": 46912
+    "errors": 7,
+    "prompt_tokens": 28147,
+    "completion_tokens": 18612,
+    "total_tokens": 46759
    },
    {
     "provider": "groq",
     "model": "openai/gpt-oss-20b",
-    "calls": 35,
-    "ok": 25,
+    "calls": 32,
+    "ok": 22,
     "errors": 10,
-    "prompt_tokens": 26643,
-    "completion_tokens": 23708,
-    "total_tokens": 50351
-   },
-   {
-    "provider": "openrouter",
-    "model": "apodex/apodex-1.1-mini:free",
-    "calls": 3,
-    "ok": 3,
-    "errors": 0,
-    "prompt_tokens": 5836,
-    "completion_tokens": 13891,
-    "total_tokens": 19727
+    "prompt_tokens": 24417,
+    "completion_tokens": 23006,
+    "total_tokens": 47423
    },
    {
     "provider": "openrouter",
     "model": "dots-studio/dots-3-note-preview:free",
-    "calls": 6,
-    "ok": 5,
-    "errors": 1,
-    "prompt_tokens": 7390,
-    "completion_tokens": 14386,
-    "total_tokens": 21776
+    "calls": 7,
+    "ok": 7,
+    "errors": 0,
+    "prompt_tokens": 9883,
+    "completion_tokens": 17953,
+    "total_tokens": 27836
    }
   ]
  }
