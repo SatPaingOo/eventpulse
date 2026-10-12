@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-12T06:14:58Z",
- "total_resolved": 878,
- "hits": 268,
- "misses": 610,
- "accuracy": 30.5,
+ "generated_at": "2026-10-12T21:27:10Z",
+ "total_resolved": 891,
+ "hits": 271,
+ "misses": 620,
+ "accuracy": 30.4,
  "baseline": {
   "random_pct": 33.3,
-  "best_naive_pct": 39.3,
+  "best_naive_pct": 39.1,
   "best_naive_strategy": "range"
  },
  "by_confidence": [
@@ -18,15 +18,15 @@
   },
   {
    "value": "medium (50–69)",
-   "n": 682,
-   "hits": 206,
-   "accuracy": 30.2
+   "n": 694,
+   "hits": 209,
+   "accuracy": 30.1
   },
   {
    "value": "low (<50)",
-   "n": 144,
+   "n": 145,
    "hits": 38,
-   "accuracy": 26.4
+   "accuracy": 26.2
   }
  ],
  "by_dimension": {
@@ -34,18 +34,18 @@
    {
     "dimension": "event_type",
     "value": "unknown",
-    "n": 878,
-    "hits": 268,
-    "accuracy": 30.5
+    "n": 891,
+    "hits": 271,
+    "accuracy": 30.4
    }
   ],
   "direction": [
    {
     "dimension": "direction",
     "value": "down",
-    "n": 165,
+    "n": 168,
     "hits": 40,
-    "accuracy": 24.2
+    "accuracy": 23.8
    },
    {
     "dimension": "direction",
@@ -57,8 +57,8 @@
    {
     "dimension": "direction",
     "value": "up",
-    "n": 672,
-    "hits": 217,
+    "n": 682,
+    "hits": 220,
     "accuracy": 32.3
    }
   ],
@@ -87,9 +87,9 @@
    {
     "dimension": "asset",
     "value": "BA",
-    "n": 25,
+    "n": 28,
     "hits": 8,
-    "accuracy": 32.0
+    "accuracy": 28.6
    },
    {
     "dimension": "asset",
@@ -129,9 +129,9 @@
    {
     "dimension": "asset",
     "value": "GDX",
-    "n": 15,
+    "n": 17,
     "hits": 4,
-    "accuracy": 26.7
+    "accuracy": 23.5
    },
    {
     "dimension": "asset",
@@ -199,9 +199,9 @@
    {
     "dimension": "asset",
     "value": "NVDA",
-    "n": 15,
+    "n": 16,
     "hits": 5,
-    "accuracy": 33.3
+    "accuracy": 31.2
    },
    {
     "dimension": "asset",
@@ -234,9 +234,9 @@
    {
     "dimension": "asset",
     "value": "SLX",
-    "n": 23,
+    "n": 24,
     "hits": 2,
-    "accuracy": 8.7
+    "accuracy": 8.3
    },
    {
     "dimension": "asset",
@@ -262,9 +262,9 @@
    {
     "dimension": "asset",
     "value": "USO",
-    "n": 31,
-    "hits": 11,
-    "accuracy": 35.5
+    "n": 32,
+    "hits": 12,
+    "accuracy": 37.5
    },
    {
     "dimension": "asset",
@@ -297,8 +297,8 @@
    {
     "dimension": "asset",
     "value": "XLE",
-    "n": 58,
-    "hits": 23,
+    "n": 63,
+    "hits": 25,
     "accuracy": 39.7
    },
    {
