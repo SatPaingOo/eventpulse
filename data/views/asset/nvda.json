@@ -2527,6 +2527,40 @@
    "pct_change": 2.299
   },
   {
+   "id": "note-ff31af94f89d",
+   "kind": "causal_notes",
+   "asset": "NVDA",
+   "move_id": "move-NVDA-2026-09-17",
+   "move_date": "2026-09-17",
+   "event_ids": [
+    "evt-9159a0bc8cee",
+    "evt-8240f2a6f502"
+   ],
+   "reasoning": "Trump's endorsement dismissing AI fears and a strong‑buy analyst note lifted sentiment, driving NVDA up.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-12T06:11:41Z",
+   "events": [
+    {
+     "id": "evt-9159a0bc8cee",
+     "event_type": "political",
+     "severity": 3,
+     "region": "US",
+     "summary": "President Trump calls Nvidia CEO during a live event to claim AI fears are a hoax.",
+     "date": "2026-09-15"
+    },
+    {
+     "id": "evt-8240f2a6f502",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Nvidia stock is highlighted as a strong buy amid AI slowdown, while Broadcom and AMD decline.",
+     "date": "2026-09-14"
+    }
+   ],
+   "pct_change": 2.543
+  },
+  {
    "id": "note-8513576ef67c",
    "kind": "causal_notes",
    "asset": "NVDA",
@@ -2897,20 +2931,6 @@
    "written_at": "2026-09-03T10:53:58Z",
    "events": [],
    "pct_change": 3.651
-  },
-  {
-   "id": "note-973bb20517f5",
-   "kind": "causal_notes",
-   "asset": "NVDA",
-   "move_id": "move-NVDA-2026-06-30",
-   "move_date": "2026-06-30",
-   "event_ids": [],
-   "reasoning": "No candidate events; likely driven by broader market sentiment or pending earnings expectations.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T11:32:18Z",
-   "events": [],
-   "pct_change": 2.626
   }
  ],
  "predictions": [

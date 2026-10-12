@@ -2502,6 +2502,31 @@
    "pct_change": -3.204
   },
   {
+   "id": "note-7dc8a795593d",
+   "kind": "causal_notes",
+   "asset": "XOM",
+   "move_id": "move-XOM-2026-09-16",
+   "move_date": "2026-09-16",
+   "event_ids": [
+    "evt-413ad2283bbf"
+   ],
+   "reasoning": "Refinery shutdown cuts output, raising supply concerns and driving XOM down.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-12T06:12:48Z",
+   "events": [
+    {
+     "id": "evt-413ad2283bbf",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Exxon Mobil shut down its Joliet refinery after a power outage.",
+     "date": "2026-09-14"
+    }
+   ],
+   "pct_change": -3.544
+  },
+  {
    "id": "note-67c911b64f8b",
    "kind": "causal_notes",
    "asset": "XOM",

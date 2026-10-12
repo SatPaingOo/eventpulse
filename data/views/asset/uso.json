@@ -2718,6 +2718,31 @@
    "pct_change": -3.68
   },
   {
+   "id": "note-eed1c4b7216a",
+   "kind": "causal_notes",
+   "asset": "USO",
+   "move_id": "move-USO-2026-09-16",
+   "move_date": "2026-09-16",
+   "event_ids": [
+    "evt-beabf2b3b7a2"
+   ],
+   "reasoning": "The Globe and Mail report of unusually heavy trading in oil ETFs likely spurred sell‑offs in USO, causing the -3.5% drop.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-12T06:11:52Z",
+   "events": [
+    {
+     "id": "evt-beabf2b3b7a2",
+     "event_type": "economic",
+     "severity": 1,
+     "region": "Global",
+     "summary": "The Globe and Mail highlighted two energy and crude-oil ETFs as potential sources of unusually heavy trading volume.",
+     "date": "2026-09-15"
+    }
+   ],
+   "pct_change": -3.515
+  },
+  {
    "id": "note-59ae3717bea7",
    "kind": "causal_notes",
    "asset": "USO",
@@ -2990,20 +3015,6 @@
    "written_at": "2026-09-14T02:12:34Z",
    "events": [],
    "pct_change": -4.736
-  },
-  {
-   "id": "note-6e32f5976c32",
-   "kind": "causal_notes",
-   "asset": "USO",
-   "move_id": "move-USO-2026-06-15",
-   "move_date": "2026-06-15",
-   "event_ids": [],
-   "reasoning": "No candidate events; move likely due to market noise or unrelated factors.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-09T02:01:47Z",
-   "events": [],
-   "pct_change": -3.364
   }
  ],
  "predictions": [

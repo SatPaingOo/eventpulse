@@ -2604,6 +2604,40 @@
    "pct_change": 4.487
   },
   {
+   "id": "note-e0d8172d0542",
+   "kind": "causal_notes",
+   "asset": "SIL",
+   "move_id": "move-SIL-2026-09-16",
+   "move_date": "2026-09-16",
+   "event_ids": [
+    "evt-5ec3b791f1d1",
+    "evt-402bf0fb1d18"
+   ],
+   "reasoning": "Oil surge and hawkish Fed expectations on 14 Sep pressured silver, causing miner decline on 16 Sep.",
+   "confidence": 60,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-12T06:11:46Z",
+   "events": [
+    {
+     "id": "evt-5ec3b791f1d1",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Gold and silver prices fell as oil surged, while inflation worries and potential rate hikes weighed on markets.",
+     "date": "2026-09-14"
+    },
+    {
+     "id": "evt-402bf0fb1d18",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Silver remains near $63 support, but a hawkish Fed and rising oil prices could push it lower.",
+     "date": "2026-09-14"
+    }
+   ],
+   "pct_change": -1.92
+  },
+  {
    "id": "note-796d349cedb3",
    "kind": "causal_notes",
    "asset": "SIL",
@@ -2954,20 +2988,6 @@
    "written_at": "2026-09-07T01:43:54Z",
    "events": [],
    "pct_change": 3.275
-  },
-  {
-   "id": "note-3e27e147fca2",
-   "kind": "causal_notes",
-   "asset": "SIL",
-   "move_id": "move-SIL-2026-06-10",
-   "move_date": "2026-06-10",
-   "event_ids": [],
-   "reasoning": "No candidate events found; price move likely due to broader market sentiment or unrelated factors.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-10-03T05:34:03Z",
-   "events": [],
-   "pct_change": -4.538
   }
  ],
  "predictions": [

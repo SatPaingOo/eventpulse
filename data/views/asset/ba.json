@@ -2568,6 +2568,56 @@
    "pct_change": -1.705
   },
   {
+   "id": "note-bbb228b1a7e0",
+   "kind": "causal_notes",
+   "asset": "BA",
+   "move_id": "move-BA-2026-09-17",
+   "move_date": "2026-09-17",
+   "event_ids": [
+    "evt-005b51e4d0f4"
+   ],
+   "reasoning": "Steel price rise hikes Boeing’s production costs, squeezing margins and prompting a sell‑off.",
+   "confidence": 60,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-12T06:11:39Z",
+   "events": [
+    {
+     "id": "evt-005b51e4d0f4",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Steel prices expected to rise as supply tightens, affecting construction and manufacturing worldwide.",
+     "date": "2026-09-17"
+    }
+   ],
+   "pct_change": -2.456
+  },
+  {
+   "id": "note-39810f434dd4",
+   "kind": "causal_notes",
+   "asset": "BA",
+   "move_id": "move-BA-2026-09-16",
+   "move_date": "2026-09-16",
+   "event_ids": [
+    "evt-eaca748e98b6"
+   ],
+   "reasoning": "The Sep 14 note that Boeing stock fluctuated signals recent negative sentiment, which likely carried into the Sep 16 sell‑off.",
+   "confidence": 60,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-12T06:11:44Z",
+   "events": [
+    {
+     "id": "evt-eaca748e98b6",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Boeing stock fluctuated on Monday.",
+     "date": "2026-09-14"
+    }
+   ],
+   "pct_change": -3.686
+  },
+  {
    "id": "note-7075875bbf31",
    "kind": "causal_notes",
    "asset": "BA",
@@ -2874,34 +2924,6 @@
    "written_at": "2026-09-11T01:56:29Z",
    "events": [],
    "pct_change": -3.804
-  },
-  {
-   "id": "note-7c8defa2ebbb",
-   "kind": "causal_notes",
-   "asset": "BA",
-   "move_id": "move-BA-2026-05-13",
-   "move_date": "2026-05-13",
-   "event_ids": [],
-   "reasoning": "No candidate events; move likely due to market microstructure or broader sector sentiment.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-08T20:31:15Z",
-   "events": [],
-   "pct_change": 1.575
-  },
-  {
-   "id": "note-cca5bbc2600b",
-   "kind": "causal_notes",
-   "asset": "BA",
-   "move_id": "move-BA-2026-05-06",
-   "move_date": "2026-05-06",
-   "event_ids": [],
-   "reasoning": "No events in window; move likely due to broader market or company-specific factors.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-07T16:53:08Z",
-   "events": [],
-   "pct_change": 2.473
   }
  ],
  "predictions": [

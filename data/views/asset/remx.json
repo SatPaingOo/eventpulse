@@ -2605,6 +2605,31 @@
    "pct_change": 1.752
   },
   {
+   "id": "note-de500a878642",
+   "kind": "causal_notes",
+   "asset": "REMX",
+   "move_id": "move-REMX-2026-09-17",
+   "move_date": "2026-09-17",
+   "event_ids": [
+    "evt-005b51e4d0f4"
+   ],
+   "reasoning": "Steel price rise signals tightening supply, boosting demand for rare‑earth alloys used in steel production, lifting REMX.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-12T06:11:34Z",
+   "events": [
+    {
+     "id": "evt-005b51e4d0f4",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Steel prices expected to rise as supply tightens, affecting construction and manufacturing worldwide.",
+     "date": "2026-09-17"
+    }
+   ],
+   "pct_change": 2.204
+  },
+  {
    "id": "note-0dca276a6ed0",
    "kind": "causal_notes",
    "asset": "REMX",
@@ -2930,20 +2955,6 @@
    "written_at": "2026-10-04T06:04:39Z",
    "events": [],
    "pct_change": 3.54
-  },
-  {
-   "id": "note-1bcf56b81489",
-   "kind": "causal_notes",
-   "asset": "REMX",
-   "move_id": "move-REMX-2026-05-19",
-   "move_date": "2026-05-19",
-   "event_ids": [],
-   "reasoning": "No specific event identified; move likely due to broader market volatility or sector rotation.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-12T02:01:38Z",
-   "events": [],
-   "pct_change": -2.704
   }
  ],
  "predictions": [

@@ -2513,6 +2513,31 @@
    "pct_change": -2.299
   },
   {
+   "id": "note-d9f0c49e6153",
+   "kind": "causal_notes",
+   "asset": "XLE",
+   "move_id": "move-XLE-2026-09-16",
+   "move_date": "2026-09-16",
+   "event_ids": [
+    "evt-3f5caa84835f"
+   ],
+   "reasoning": "Geopolitical agreement to avoid targeting energy assets reduced supply risk, leading to lower fuel prices and a sell-off in XLE.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-12T06:12:47Z",
+   "events": [
+    {
+     "id": "evt-3f5caa84835f",
+     "event_type": "geopolitical",
+     "severity": 3,
+     "region": "Europe",
+     "summary": "President Trump said Russia and Ukraine have agreed to avoid targeting each other's energy assets as fuel prices climb.",
+     "date": "2026-09-14"
+    }
+   ],
+   "pct_change": -2.882
+  },
+  {
    "id": "note-027ff4edbfbb",
    "kind": "causal_notes",
    "asset": "XLE",

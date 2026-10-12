@@ -2579,6 +2579,31 @@
    "pct_change": 3.601
   },
   {
+   "id": "note-79743e1d0457",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-09-17",
+   "move_date": "2026-09-17",
+   "event_ids": [
+    "evt-db95e529d3fc"
+   ],
+   "reasoning": "VanEck ETF launch increased demand for gold mining stocks, lifting GDX.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-12T06:11:36Z",
+   "events": [
+    {
+     "id": "evt-db95e529d3fc",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "VanEck launches Gold Miners ETF (GDX) tracking gold mining stocks.",
+     "date": "2026-09-15"
+    }
+   ],
+   "pct_change": 3.362
+  },
+  {
    "id": "note-8c2e7b67b3c5",
    "kind": "causal_notes",
    "asset": "GDX",
@@ -2966,20 +2991,6 @@
    "written_at": "2026-09-11T01:56:32Z",
    "events": [],
    "pct_change": -3.464
-  },
-  {
-   "id": "note-595d84e9036f",
-   "kind": "causal_notes",
-   "asset": "GDX",
-   "move_id": "move-GDX-2026-06-02",
-   "move_date": "2026-06-02",
-   "event_ids": [],
-   "reasoning": "No specific events; likely driven by broader gold price rise or sector rotation into miners.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-04T01:52:56Z",
-   "events": [],
-   "pct_change": 1.581
   }
  ],
  "predictions": [
