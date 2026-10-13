@@ -1264,6 +1264,14 @@
    "date": "2026-10-12",
    "close": 90.809998,
    "written_at": "2026-10-12T06:07:16Z"
+  },
+  {
+   "id": "snap-WTI-2026-10-13",
+   "kind": "snapshot",
+   "asset": "WTI",
+   "date": "2026-10-13",
+   "close": 92.419998,
+   "written_at": "2026-10-13T06:52:15Z"
   }
  ],
  "moves": [
@@ -2470,6 +2478,40 @@
  ],
  "causal_notes": [
   {
+   "id": "note-5d0cb0986e0f",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-10-13",
+   "move_date": "2026-10-13",
+   "event_ids": [
+    "evt-7c7997fb927e",
+    "evt-5a9397f262f5"
+   ],
+   "reasoning": "Tanker cost rise widened Brent-WTI spread, plus global conflicts boosted demand, lifting WTI.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-13T06:56:23Z",
+   "events": [
+    {
+     "id": "evt-7c7997fb927e",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Brent and WTI spread widened to $13 as tanker costs rise, splitting the oil market and affecting pricing.",
+     "date": "2026-10-12"
+    },
+    {
+     "id": "evt-5a9397f262f5",
+     "event_type": "geopolitical",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Global conflicts have pushed oil prices up, lifting energy stocks such as Brent futures.",
+     "date": "2026-10-12"
+    }
+   ],
+   "pct_change": 1.773
+  },
+  {
    "id": "note-38ea8f7f156f",
    "kind": "causal_notes",
    "asset": "WTI",
@@ -2750,6 +2792,74 @@
    "pct_change": 3.36
   },
   {
+   "id": "note-f5889a5382a2",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-09-13",
+   "move_date": "2026-09-13",
+   "event_ids": [
+    "evt-f695a1d290fc",
+    "evt-6570b1b060bd"
+   ],
+   "reasoning": "Bullish analyst projections on Friday indicated strong prices, driving market sentiment and leading to a price increase on Sunday.",
+   "confidence": 65,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-13T06:57:38Z",
+   "events": [
+    {
+     "id": "evt-f695a1d290fc",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Oil analysts project WTI and Brent prices to remain leading market drivers, shaping global energy outlook.",
+     "date": "2026-09-11"
+    },
+    {
+     "id": "evt-6570b1b060bd",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "WTI and Brent crude prices expected to remain strong, driving market sentiment in global oil trading.",
+     "date": "2026-09-11"
+    }
+   ],
+   "pct_change": 2.628
+  },
+  {
+   "id": "note-dd971d0ec9b3",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-09-11",
+   "move_date": "2026-09-11",
+   "event_ids": [
+    "evt-02a2cf1bba9f",
+    "evt-ae638d59dcdf"
+   ],
+   "reasoning": "WTI crossed $100 on 10 Sep, sparking a rally that pushed prices up on 11 Sep.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-13T06:57:40Z",
+   "events": [
+    {
+     "id": "evt-02a2cf1bba9f",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "West Texas Intermediate crude oil price breaks $100 a barrel, signaling a continued rally.",
+     "date": "2026-09-10"
+    },
+    {
+     "id": "evt-ae638d59dcdf",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "WTI crude oil price crosses $100 as markets price a dual threat to the Strait of Hormuz and Red Sea exit, a scenario flagged by Goldman Sachs.",
+     "date": "2026-09-10"
+    }
+   ],
+   "pct_change": 2.099
+  },
+  {
    "id": "note-9c8f8b5973f1",
    "kind": "causal_notes",
    "asset": "WTI",
@@ -2983,51 +3093,22 @@
    "written_at": "2026-09-03T15:25:33Z",
    "events": [],
    "pct_change": 1.536
-  },
-  {
-   "id": "note-cc9db5e847da",
-   "kind": "causal_notes",
-   "asset": "WTI",
-   "move_id": "move-WTI-2026-07-13",
-   "move_date": "2026-07-13",
-   "event_ids": [],
-   "reasoning": "No candidate events; likely driven by broader market sentiment or macro factors affecting oil demand/supply.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T15:25:34Z",
-   "events": [],
-   "pct_change": 9.424
-  },
-  {
-   "id": "note-3684d96ff3c1",
-   "kind": "causal_notes",
-   "asset": "WTI",
-   "move_id": "move-WTI-2026-07-07",
-   "move_date": "2026-07-07",
-   "event_ids": [],
-   "reasoning": "No listed events; likely driven by market speculation or supply concerns, e.g., OPEC+ meeting rumors or inventory data.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-13T10:49:48Z",
-   "events": [],
-   "pct_change": 2.757
-  },
-  {
-   "id": "note-9a1be6dd2c1c",
-   "kind": "causal_notes",
-   "asset": "WTI",
-   "move_id": "move-WTI-2026-06-29",
-   "move_date": "2026-06-29",
-   "event_ids": [],
-   "reasoning": "No events identified; price move likely due to market speculation or unreported supply/demand shifts.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T10:53:32Z",
-   "events": [],
-   "pct_change": 2.196
   }
  ],
  "predictions": [
+  {
+   "id": "pred-d36d0d6e3bb9",
+   "event_id": "evt-450303439410",
+   "created_at": "2026-10-13",
+   "expires_at": "2026-10-20",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 2.0,
+   "confidence": 60,
+   "reasoning": "Houthi attacks threaten Saudi supply, likely push oil prices higher in next week",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-d266a118867b",
    "event_id": "evt-2bc6bf416b8a",
@@ -3181,8 +3262,8 @@
    "threshold_pct": 2.0,
    "confidence": 55,
    "reasoning": "Iran‑US strain threatens Middle‑East oil flow, prompting short‑term price rise.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "hit"
   },
   {
    "id": "pred-a60cdb3b4bcb",
@@ -3194,8 +3275,8 @@
    "threshold_pct": 2.0,
    "confidence": 50,
    "reasoning": "Shipping disruptions in Hormuz raise crude supply concerns, modestly supporting oil prices.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "hit"
   },
   {
    "id": "pred-71d72986cfd9",
@@ -3207,8 +3288,8 @@
    "threshold_pct": 1.0,
    "confidence": 55,
    "reasoning": "Middle East conflict raises supply risk, pushing crude prices higher.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "hit"
   },
   {
    "id": "pred-3d33dfab7460",
@@ -3220,8 +3301,8 @@
    "threshold_pct": 2.0,
    "confidence": 65,
    "reasoning": "Middle East tensions raise risk of supply disruptions, supporting higher crude prices.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "hit"
   },
   {
    "id": "pred-a6cd931e485e",
@@ -3233,8 +3314,8 @@
    "threshold_pct": 2.0,
    "confidence": 60,
    "reasoning": "Uncertainty may dampen Canadian oil demand, slightly lowering global WTI prices.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "miss"
   },
   {
    "id": "pred-2d77ca09d4b7",
@@ -3246,8 +3327,8 @@
    "threshold_pct": 2.0,
    "confidence": 58,
    "reasoning": "Red Sea secured, lowering supply‑risk and easing crude oil demand outlook.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "miss"
   },
   {
    "id": "pred-07bdedebfaaa",
@@ -3259,8 +3340,8 @@
    "threshold_pct": 2.0,
    "confidence": 55,
    "reasoning": "Yemen fighting threatens Red Sea oil flows, tightening near‑term crude supply and lifting WTI.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "hit"
   },
   {
    "id": "pred-2c9b2f455eec",
@@ -3272,8 +3353,8 @@
    "threshold_pct": 1.0,
    "confidence": 50,
    "reasoning": "Increased risk to U.S. refineries' Black Sea shipments may lift WTI prices in short term.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "hit"
   },
   {
    "id": "pred-3d188e51306c",
@@ -3285,8 +3366,8 @@
    "threshold_pct": 1.5,
    "confidence": 55,
    "reasoning": "Easing supply risks reduce upward pressure; analysts cautious, likely a modest 1–2% dip.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "miss"
   },
   {
    "id": "pred-425b4499aa86",
@@ -3298,8 +3379,8 @@
    "threshold_pct": 1.5,
    "confidence": 50,
    "reasoning": "Uncertainty over Canadian pipeline approvals could lower demand, pressuring crude prices.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "miss"
   },
   {
    "id": "pred-a72cde5612ec",
@@ -3311,8 +3392,8 @@
    "threshold_pct": 1.0,
    "confidence": 50,
    "reasoning": "Political uncertainty dampens commodity demand, pulling oil lower.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "miss"
   },
   {
    "id": "pred-7b21bea5bc28",
@@ -3324,8 +3405,8 @@
    "threshold_pct": 1.0,
    "confidence": 60,
    "reasoning": "Oil price rise from Gulf tensions lifts WTI demand and price.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "hit"
   },
   {
    "id": "pred-637215f1cef1",
@@ -3337,8 +3418,8 @@
    "threshold_pct": 2.0,
    "confidence": 55,
    "reasoning": "Middle‑East conflict heightens oil supply concerns, supporting WTI.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "hit"
   },
   {
    "id": "pred-be224e7734a3",
@@ -3350,8 +3431,8 @@
    "threshold_pct": 3.0,
    "confidence": 55,
    "reasoning": "Forecasted $120‑$150 price implies near‑term bullish pressure on spot WTI.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "hit"
   },
   {
    "id": "pred-7a87d5440bc1",
@@ -3363,8 +3444,8 @@
    "threshold_pct": 1.2,
    "confidence": 58,
    "reasoning": "Ukraine tension increases oil supply concerns, driving WTI higher.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "hit"
   },
   {
    "id": "pred-e771e7e0be55",
@@ -3376,8 +3457,8 @@
    "threshold_pct": 1.5,
    "confidence": 50,
    "reasoning": "Risk sentiment dampens commodity demand, putting pressure on oil prices.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "miss"
   },
   {
    "id": "pred-e8955e1b90d3",
@@ -3389,8 +3470,8 @@
    "threshold_pct": 1.5,
    "confidence": 55,
    "reasoning": "Sudan oil supply risk may push WTI higher.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "hit"
   },
   {
    "id": "pred-d993b6af6064",
@@ -3402,8 +3483,8 @@
    "threshold_pct": 2.0,
    "confidence": 58,
    "reasoning": "Yemen offensive risk heightens Middle East supply concerns, likely lifting crude prices.",
-   "status": "open",
-   "outcome": null
+   "status": "resolved",
+   "outcome": "hit"
   },
   {
    "id": "pred-0fa0fafca282",
@@ -3534,343 +3615,9 @@
    "reasoning": "G-7 oil release cuts supply, driving WTI down.",
    "status": "resolved",
    "outcome": "miss"
-  },
-  {
-   "id": "pred-5ee0aa9bd91d",
-   "event_id": "evt-47f4055870e2",
-   "created_at": "2026-10-02",
-   "expires_at": "2026-10-09",
-   "horizon_days": 7,
-   "direction": "down",
-   "threshold_pct": 0.5,
-   "confidence": 35,
-   "reasoning": "Small quake near oil fields may cause minor supply concerns, slight downward pressure.",
-   "status": "resolved",
-   "outcome": "hit"
   }
  ],
  "events": [
-  {
-   "id": "evt-46b5db40077e",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T12:00:00Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Forecast of Johnson & Johnson stock movement after earnings.",
-   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRU9WYWN6LW5ISHVGVS1pbTR6cFY4MEh3SzdMRmk3X04xYl9SM3BiUlBxcHJfY2FYRnRGcGR1anBKRFZuSmRiYkpSaGtleHVlOWdoa0FPRzVaZGk3Y1RscHAtTU9EUGF4WU9iWjd4MFpZaThhMGowTjNZNjYzZDBpRlp6eWFPYVNuSnA1dnowS0xxRXdIcjdPQjRTWTZvZXJ3Wnc?oc=5"
-  },
-  {
-   "id": "evt-a57087d12eed",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T21:07:25Z",
-   "event_type": "geopolitical",
-   "severity": 3,
-   "region": "Europe",
-   "summary": "US President Donald Trump announces a diesel supply deal with Russia and an energy ceasefire between Russia and Ukraine.",
-   "url": "https://www.bbc.co.uk/news/articles/cqgm087rkze2o?at_medium=RSS&at_campaign=rss"
-  },
-  {
-   "id": "evt-cf38d4e67e89",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T03:16:17Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "Europe",
-   "summary": "Steel price revisions could alter valuation of Austrian steelmaker Voestalpine.",
-   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNMjdIeGpoY3hUcy10M3VOc3piYk5OSktzcXI0T0MycTBYN1BWd3RPLWxCSnVBUnFocFNVMHhHbE85UDh6S1V4Z0laNEFXWkRRZkVOYnNIN01vVV9XQWtCU09oTzdDc1BxZjFudl8yMGY2c1QzTjk3UWlvbTNlRmx6OU1INWVvTEFncFhTSlQwNTNaTmdLX1NXOGJzUmxJbTE5d0E1ZHI5WlN0RWRmLW1pUTd3VUpIX2p1SnlhMFlPanZqaXJYTE1mQlZGYmN6UjdJc1BV0gHTAUFVX3lxTE0yN0h4amhjeFRzLXQzdU5zemJiTk5KS3NxcjRPQzJxMFg3UFZ3dE8tbEJKdUFScWhwU1UweEdsTzlQOHpLVXhnSVo0QVdaRFFmRU5ic0g3TW9VX1dBa0JTT2hPN0NzUHFmMW52XzIwZjZzVDNOOTdRaW9tM2VGbHo5TUg1ZW9MQWdwWFNKVDA1M1pOZ0tfU1c4YnNSbEltMTl3QTVkcjlaU3RFZGYtbWlRN3dVSkhfanVKeWEwWU9qdmppclhMTWZCVkZiY3pSN0lzUFU?oc=5"
-  },
-  {
-   "id": "evt-aceade8de7ea",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T00:07:00Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Goldman Sachs reiterated its support for Netflix despite a recent decline in viewership numbers.",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRmhVZ04xSkxYMklOVkxuRGNfZXBCYzl0Y04waEVJemI5NHI4REJkaE5tOEkxQWJ5NFVtODA4YVlNTnd5aXdEWG1qQlZEdk1FNWtoZlRrOUdnaHlVZnljLW5uT0F6dWRrTmlxX0ZITVJEZjNFeG5Xb1lfUkg3RzJHQ3gtUm4wdU5fanA0NDl4WGI0ZW9XYjVMM3lzTzNVYTR5V3pwUVo2bS1MMXM?oc=5"
-  },
-  {
-   "id": "evt-bab0aacdd7d1",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T10:59:10Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "ConocoPhillips and Chevron were given A+ profitability grades in a new energy‑stock rating by Seeking Alpha.",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZUN4Q0pfN0NjNFFzVnBuU3p5NFRLRTctOVdEaVAyTy13YmctLWk0VzVDcnJzMDNnQzRiYWVGRlZTajQwYk5XQU1VMi1iUmphUTFpMEYtMUR2VExFcDAtUUtOMHhDU0RUbWJoYzhGMEtldmVZbFNSSlFQZGsyV3MtdG15LUxSa0xDTG1Qd2JmXzhuZGhjZ0UybEd4U2FNeVQ5U3RhQUYyZ1R2X1FFRnFhRjZTQlA?oc=5"
-  },
-  {
-   "id": "evt-280c985d3a46",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T02:17:35Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "US natural gas spot prices slipped on Oct 12, 2026, easing earlier price gains.",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMV9KYWVLaVNkVi15MWlxVy1EN3ZtSkw3MENUQkhXejRJWUlyRFhNS3plc01YTndXRXdjSlFNakhhbVBfUDBpQUg2RXJ3QjRmUUxyVmdzY05zTmhCMVFoV2RrUjhDN2xYU0NTR010R3piMXdRdndPSERNZTlqS0p3QTNFQQ?oc=5"
-  },
-  {
-   "id": "evt-6e18c827a705",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T14:32:41Z",
-   "event_type": "economic",
-   "severity": 4,
-   "region": "Global",
-   "summary": "Natural gas prices rose 6.1% over a week, drawing attention to related stocks.",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTFV1NHR2cUlhal82S0QtWnFPQWRYbFFfVXBaRHZHNnB1LWpyMGY2R2tSSUtVNFB4dkc2eUFHNnJoOWxxVHdZNF9LbjN1S2JDRlBySVdjbmxNTVMzVGpGalNMeVY1VjBna2hqQWo4SHM4NHYzd2p6Uk9ySlJ4b1JjY1pSdG1MZllpNUxGV2g3RmkwS1FSZ09XbUNoYw?oc=5"
-  },
-  {
-   "id": "evt-2e352db52b3a",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T16:14:34Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Copper futures hit all‑time COT extreme; analysis of positioning trends.",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQURPOXRxT1lsRmNxa3QzLTcyZFBWYjQ5MU12aUhKYldIZm1UakFsNWJIYVh2RmhjVndtQzdfT1dQeUY2MDJwMy1PS2hVTmpOWUM5VndkSEJGRDFvZjItdDRzT0VjeTNuWjl4QlhYVjJ3X2Ytc3BGMG1XSzVmbDg0MVpydmJzc213ZGZOUUtxWWoyeDRLNXZtd0pBd1kxSFlmanMtdTJlNWgydW5aOEc2amNZYXo?oc=5"
-  },
-  {
-   "id": "evt-326cb681d6e5",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T18:35:56Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Analysts discuss Johnson & Johnson's stock trajectory following its Q3 earnings report.",
-   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPS3lTMkVQVS1BemM3S28zVjJNalFMc1luc3gzV0dnODRkSkR0RjFDTDRkUDJubmhvdnhHX1huZzRiNVNpODhBQ0VQeGlnN2JDM0xJZVZjVk1UTjV0QThBVlpuRE9nX3FlVnhxNjB4SlVva0gwQloySTdKOFZQcTRwd1J5VHRnM2E5NjF6V1JoY244YktHZmc?oc=5"
-  },
-  {
-   "id": "evt-5437c3cfd1e3",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T03:24:00Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "US",
-   "summary": "UnitedHealth is set to release its earnings report tomorrow, with analysts previewing expectations.",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWmVma3FPOUYyTXQzRENEVmwtNlVOWENmUk5UMzdGQzg5dUpJYXVsdUFoR3RiMXRmeEdTZWFab0JCODBLZzVEU3dBOHlXMEd5QWhBV3BNNnR2VjlWSUh4bHBob1FyM2dOdlA4LTEtMW92cXg0TkRwUVFobmtvb2hZSFpZYmJEczUxbjVxdldCZllYSnZIai1tTTNWajdaWkJrWU9GTjZpRWNlNlE?oc=5"
-  },
-  {
-   "id": "evt-25fd214a121e",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T13:29:00Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "US",
-   "summary": "Amazon is in talks to acquire AI startup Decart for about $7 billion, expanding its generative AI capabilities.",
-   "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPLUVOekYtQXRZQ0pzTXdMR194YTNGRnNEaUVCU2Zsb0hFSGRfT0haQ3dTSDRqcVhWVEs2cnlWWkplOWk2cUphV0h6TFlCQ18wcjhkenl3SEZpYVE5ZjFqd0E3QUFkMUlhZWhydC1FWGYzNnN0TXlSMUYydHdxUXA0NEVFMA?oc=5"
-  },
-  {
-   "id": "evt-665616518840",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T16:02:35Z",
-   "event_type": "political",
-   "severity": 3,
-   "region": "Europe",
-   "summary": "UK PM Andy Burnham vows to renegotiate post-Brexit trade deal with EU.",
-   "url": "https://www.aljazeera.com/news/2026/10/12/uk-pm-andy-burnham-vows-to-renegotiate-post-brexit-trade-deal-with-eu?traffic_source=rss"
-  },
-  {
-   "id": "evt-c7d3ba7e5172",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T16:42:13Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "UnitedHealth shares show unusual trading activity ahead of earnings release.",
-   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQQXpWNlgtbmFQem9NandsSk52YnpkZElJd2RYTDQ2NzVzR1otUGxOUUFjWVVrcjNuVGczZnRxdHMyeDNySXpod3dRSUk0ZURWazNYQ1RKS0VINC00TW9kMUY1VlVhNzNpUDNKR1JkMTMtU0pHZWt6ZmRxek1FVmQtUzVaeGlZZ2dlZ1dtM2lacVh4QW1WSEV1Tm4ydkVZcUtJTVlNaNIBqgFBVV95cUxQeWRVbEE1enh4OEt2QzRuY0U1UUpBZlV5Ny11dkp1WUdkMEZTcEZSZ2VxNWJORXcyNTV3RC1ZazVOVmF0b1p3cDljcWExWmkwT1V1WkcyN3BqZlE2VEtaOUVfUTRKY1RwcTgyaEh5aTVNdTRZV2puaVdWTzhBOHhuWEpMNFhwdGs2X19PMkVZbjZWbkN2ZWxUMERSZmp2WFRfVkJHY3JZUjRtZw?oc=5"
-  },
-  {
-   "id": "evt-7a85c1d8663c",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T16:36:37Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "JPMorgan cuts Steel Dynamics price target to $260 from $272.",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd3RzQV9Gc0hnbk9MeFc0ZEtuOVBBM0VrZUlqbE9VNlQyTDdFdzZQdWpyX1JheHBhX05pN3EySWhfTDk0NUk1WFJQRlB2SnoxTGVrbzVBYThtLXhMUGJVRFR5MDJuRTBCRERYMElfSkdnZEV6NWZuYmF4cmZ4Umw4ckZnTVV4bGRkdk1LYmlMT2kzZUI1dS0zVHdIU0tjWTFjVENrRTYtZkIzOVJhcldTSGVlcw?oc=5"
-  },
-  {
-   "id": "evt-9ee2223cdb60",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T14:02:21Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "US",
-   "summary": "Meta Platforms shares rallied on Monday, driven by strong earnings and positive analyst sentiment.",
-   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZjVDanlnR3RUM2QtbGxYY19rMndoQVhUcHdRNUQ5bG9ZdFVFNGhmZUtpeVpmMlNYeU56SDFEcVVUNXU4LUdQUGV0T2VZOE80V25UTTFOY1JMSkZOa2pVU1hXcUU3clRjcFN5WEc3NExoTzh2UF95S0dxSzZWeko3em05WHB3UU9uMVZqQkJ5ZDZObUtMQkRPS0k3UWRrTk15aENfa0dSOA?oc=5"
-  },
-  {
-   "id": "evt-896962ccf568",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T11:52:00Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "US",
-   "summary": "Wall Street analysts set a new price target for Tesla’s shares following recent market activity.",
-   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3TkdKRzVvbVlKU1B2OWgwY2VuTzl3ck9fYWFPaTF0Wm9nY3JZS0VnWDVXUmM5aGtxZ0tjcjBnS24zb3FydmxDZjAtNDJOWFZuMEhJWDdWb0IwS0xtX2NTWHlDejZPUks4dTJfVTBQRVpNdw?oc=5"
-  },
-  {
-   "id": "evt-051fe2eb7a82",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T08:43:00Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "China",
-   "summary": "Chinese lithium prices tumbled to nearly a 10-month low due to demand concerns.",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYmhzb1JuUUpJb2xud3VFcFJxbDFHODA1bUFTOTh1N3RWdXJlUnhfU3pOUkNLbUk2N2hHX1plZ2JKNnVsLXo5SWtTYVRBS2UzcnBRbktqM3FfSEdxaVVNUUpFWGlwS2wyWEk1LUdWTGRjTTJ4U0wzaGhwLWdPcHdZS0RCZmtpN1FKU3JaYzhOeFVqZTIzZGtCVFNEUV90UHd1aWN5MHhzQUNKWkhSYktEX2Z5bzlEejR5T0lJ?oc=5",
-   "similar_count": 1
-  },
-  {
-   "id": "evt-b670788f17f7",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T18:51:18Z",
-   "event_type": "geopolitical",
-   "severity": 3,
-   "region": "Europe",
-   "summary": "The UK accuses Iran of plotting against a British airbase and sanctions two Iranian nationals.",
-   "url": "https://www.aljazeera.com/news/2026/10/12/uk-blames-iran-for-airbase-plot-sanctions-two-iranian-nationals?traffic_source=rss"
-  },
-  {
-   "id": "evt-e4f1fb5dae2f",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T03:00:00Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "JPMorgan Chase releases Q3 earnings guidance.",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcUVIRTZqSjMtbXhmT05NVnJCekxhS1dQbjc5ZnBpdU4wVjFaTWRZNXkzbXdzSnQ1b3V6c3JGbFRON2NlM2Exc09rbzBZZ08yVGoxSkFidUU0RUVUVXZqeVBycVBZS2pncTJfRHp3UG8zNER3U1ZVMmtsMFVMeUptUkVabExCSDJjdzVJYzdkTGxfQXNneG9JUEJHWWZyb1UzSEg4UElZSll0ck9pWXVsUW9aaw?oc=5"
-  },
-  {
-   "id": "evt-6fe7dc5704ac",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T06:02:00Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "JPMorgan issues neutral rating on Beach Energy.",
-   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUFI3d0VpemhyLU42dkhCQk9pM2plTGdTZDB1eHZ0WDRTQ3pGbjViWGNGaHowRkJlTnhxc0M4clFPZTJsLXlsM2pMaTN6Z1BabjdiLUEzTk5XNG0yVHBnR0xlTkdvZmdOTlFkbUEwZXZDVlFDdnV4eFJQSlVuc0NxeGtsT2h3dEhlQTdWdzRWcF9aNXF5RzFRMmlmN2lWbFVxeXZUMWI4T0pQQ3drWWpJQ0Z1TnhhLW9TbjQxeWpuU0hLOHJhYnc?oc=5"
-  },
-  {
-   "id": "evt-2b606a0a39e0",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T16:45:57Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Meta's new Muse AI agent attracted 73% of new users, nearly double the rate of ChatGPT, highlighting strong platform growth.",
-   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPeGxtUG55U1Frb2ZCbjhwWUFiMkpfV3cyaGtCV3YwNjByMkJWMnFiekZqa3RYY1RDd1gzcXhEUy1MTVlVdjU2ZjJXemUyTDFDR0VTWXM0dERxZ2F2QVFFaXZMRkdzZXlZOFdZN2ktZ1NtT0JwN0piY0VjaW84Nk91emxIazJXd3RhbnRKdlR0d192NUJFd1ZFQ1NvUjVfWWZla0w4LXpVZVF6akE2NWlRSTUyRkpCeEVrRllFOVVWV1JsbTdkNkZ0ZmkxRmhDdjJhM0E?oc=5"
-  },
-  {
-   "id": "evt-54e679f31cac",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T13:51:23Z",
-   "event_type": "economic",
-   "severity": 4,
-   "region": "Global",
-   "summary": "Defense export limits and rising robotics demand intensify competition for rare‑earth minerals worldwide.",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZFg4ckpmb1pxa25XQ2stWXdkcGRFZk5jM25vekNOVWFWWmNfX2tKMkEySDM1RURNdi13aWxmRGJnQ3gtSmN0b21HMTl4d2N1TTR5OS1KNDlDQnZNOEozV2M1b3BySmE4d0M3V050Vm5WMUxMWXdFMGllVjN5X0wyREhzbVlZN3R1OEE?oc=5"
-  },
-  {
-   "id": "evt-64eddcfc0791",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T18:24:49Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Visa shares are on pace for a record close, driven by investor sentiment.",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeXlmRlEwYWRvU1QtaUw0d25IMTR6cEkzdk9fOHp2NlQzZ1JNYlZjRWxUUDg1MlJPZFAzdXI1WlpxN0xMamRaSW5xUHJZdUMxb01sc0tYRVNjMmdkVTdzVk1wZFA0NEZUcHlFVlB2MzlLUXBKdTRxUFBTVjZLQVlwa25UaUNEM3VJMHRsYWpMR3huTlhWV3VDdWRVZ24xenAxMXBHQmRmNFdIYldXVndHeA?oc=5"
-  },
-  {
-   "id": "evt-12b9d0924f68",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T02:11:21Z",
-   "event_type": "geopolitical",
-   "severity": 3,
-   "region": "Middle East",
-   "summary": "Strike on King Khalid International airport in Riyadh kills one Pakistani national and injures 11.",
-   "url": "https://www.aljazeera.com/news/2026/10/12/saudi-arabia-says-1-dead-11-injured-in-latest-attack-on-riyadh-airport?traffic_source=rss"
-  },
-  {
-   "id": "evt-864f8154fbf8",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T13:04:44Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Albemarle shares drop amid China lithium price slump.",
-   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQX0JxdjB2WHRzQ1lOX1V0UENmaWMyWWJjMUszMExlNUh5NHVDRnpTODJNX1BqOGhNbmIwNzlzSEliUThkNjk4ZWpKWS1xLXYxcjEyeWZuSS1zQzFiOEhKSDJSblRPS2lnUkx6ZUE4X1VXODRRQ2lrdTEyaHRoR2ctY0ZDYkJuaS1Ddk5KbXd3dVVqZ1ZDdUdlVHhUYTBHNWRYWFo1MGlrQUZXcFd4NXNNcVV1cThVS2JvdnhnbXlaRkI?oc=5"
-  },
-  {
-   "id": "evt-743a6d6134ea",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T05:27:22Z",
-   "event_type": "military",
-   "severity": 4,
-   "region": "Middle East",
-   "summary": "Houthis advanced toward Taiz, Yemen, sparking heavy clashes with Yemeni forces near the strategic city.",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/12/clashes-reported-in-yemen-as-houthis-advance-towards-taiz?traffic_source=rss"
-  },
-  {
-   "id": "evt-5a8e71e36ba6",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T00:39:08Z",
-   "event_type": "geopolitical",
-   "severity": 3,
-   "region": "Middle East",
-   "summary": "Iran’s foreign minister offered to mediate talks between Saudi Arabia and Yemen’s Houthis after recent deadly Saudi strikes, urging diplomatic solutions.",
-   "url": "https://www.aljazeera.com/news/2026/10/12/irans-fm-urges-diplomacy-in-call-with-saudi-counterpart?traffic_source=rss"
-  },
-  {
-   "id": "evt-820cc69014a7",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T05:16:01Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "US",
-   "summary": "Caterpillar's bull case may shift after North Carolina plant expansion, potentially impacting its stock.",
-   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTW9QLWxRelhydVhrbEMyUHNoM1BiV3ZkYU92RXJxVGRpdTlOTGRrbF9zVFQ1RTFEUmM0RmxJU1NxZ2xVVWRYRV9fRks0RFZnV0xDbVFDU2tseW5GdVJ6c2lFdmgwTDZobWZEdlBsaFkwU3luMWhiWDkyc1BpaG5rYldRbzhrVGluQkZBTUlfZXJVbjFwOF9uOWN1U3BCOWRnbUl2U2JWV3g5QVZEYVdLSGFSRlZHbWdVQktpMWRFMTNTNjhnMWhNXzZiVFBpLVXSAdQBQVVfeXFMTkZXSGFYYlMzcTBSbUxkRmgzem9hSUw4NmFXOTQtejd3R2E0endBRkp2amtTT0JJa3FVMV81SlU2RXVERlhQNDhzcXRlRFFtLWgycm1mX09UcDYxZlpPWmhya2ZtWDgtTUlMR2Via3hFM0dEdXJ1UERtTDVRUHpiV3JZT3QteDhRWE1scG5GUGRvVklaREliRUJpLTh6VXBoNFM0UDdieGQtYTMzYzdhRnR5QkNCWWVJTnZ2blB6NHUwVUVKTVVxVFlkS2NIbGhWNmVia0Y?oc=5"
-  },
-  {
-   "id": "evt-2bc6bf416b8a",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T05:27:55Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "US",
-   "summary": "Heating oil prices have risen, causing hardship for rural West communities in the US.",
-   "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9lejJyY2NtaWM2Y0thbkZPYU91WkgwM3ZfY01wcTFjVVdkN2xxY2ZHMkswaVlyME5fcVJYVGE3eXBLcFVzMVRvWC1qSGdmZmFFRVJPcmdMUTJlUU0?oc=5"
-  },
-  {
-   "id": "evt-97162ed10642",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T02:42:00Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Oil prices retreat, dragging energy stocks lower after Trump claims Russia-Ukraine ceasefire.",
-   "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNaTdWVy0wUGR5eDdSX0swZnJGNlhvOHZtTHdUT1Rya3N5aFFTZWdQbkNhaWp1ODRORUNhRVdvcUlvbUtCMkFBejRmZVdQcDE0anE4TWQ2T045YTBoc3ZDeTFiblEweVdiN3FiNzJxRC1SNWNna0FUVDZQNkw3UnA1RTY1bWdzNmxyMFFHMUdMMmVHZ2Y3TFIyNWVWSmlVaW11S3o2SGJCOU5wZHZXRnNHeXJLdkJrWjlkNV8xcUZBVEw5aUhWa0NLR0Y1NlBGOVBQQUNrLUZ1akliUzBoUU04QmlGdGpTR09JMjNPVmRzNHVlUQ?oc=5"
-  },
-  {
-   "id": "evt-45bf1bad7199",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T14:23:07Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Europe",
-   "summary": "Trasteel CEO warns CBAM could add up to €5bn annual cost to steel production.",
-   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQOHpsR3BrMDVzR2VuWG14Ukp3UkFXMm1ZMmUyOEYtTHM2VWo4NURhTnhKNlpkWEJNYzRVbS1YTUtqdjBYaGdFeWVUMTA3TUlranlZSmJUZG1DZTNrbDVUWmtGbnBZQTNHSUM2WFRNSEYzdFdaNEhBcWQ4NFgzRHU3NjB4UHg2YzVLTWM2SmV6ejVWS1I2MUxrbA?oc=5"
-  },
-  {
-   "id": "evt-04c20a0dbe09",
-   "date": "2026-10-12",
-   "dt": "2026-10-12T17:32:13Z",
-   "event_type": "military",
-   "severity": 4,
-   "region": "Europe",
-   "summary": "Ukraine says six of its energy sites have been struck by Russia since the US president announced a ceasefire.",
-   "url": "https://www.bbc.co.uk/news/articles/cvlyd4pdlwkxo?at_medium=RSS&at_campaign=rss"
-  },
   {
    "id": "evt-6a5f698aa4de",
    "date": "2026-10-12",
@@ -3880,6 +3627,17 @@
    "region": "Global",
    "summary": "LME aluminium cash price fell to $3,055 per tonne on 9 Oct, with warehouse stocks at 238,875 t.",
    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOU2o2RV9SMmVYMXFDSHVnamNsOHdWdFN1SjBlM2RhbWlQTVRfRF9fVEs2RWcwbTRJb1dFUE54VWhwOFg0ZXlwRnhpc1dPN3VtZmVxMUZvYUJZdm1QREZfaGdMMzRfSTB3ODM1dDN6dUlPdnhVb0NhZDYxRlVzWFJzTXF0aDdKSEVKOUJSLXhhY1F2QzcwY3JYOWY3N0t2dFhhWUxvbnVmblFkVFdGaGQzMmRoOGdHQ0poVXFPQw?oc=5"
+  },
+  {
+   "id": "evt-54cb1f7b058b",
+   "date": "2026-10-12",
+   "dt": "2026-10-12T16:05:34Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "FactSet preview of Q3 2026 earnings for S&P 500 energy companies.",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sZ3dDbmFNNXNKaWNYbE80T1VSRkdiY1JOeGlfM3FFSmZQczJ2bmgwWTlidmRJMmg1TUEzYV93OEdHalZpODNhNkRzeXJ6b3dRYno1aXBlWHNSY3d4Zk9xZmR3eUhZRTd5TGFpWXNRMVRZRDJhVEtqb05fc0U5Z9IBjgFBVV95cUxOZlNyS0kwajlHbHc0UndHYlVaN1Y1NEtKTlJzcHlPbXFyTFdCUG1PcmF5eVpscUkyWG9vMkl4djhZVDdaTTBmQmJtcDRmcm5qZHAwWmp5TWRJeWRyVW1lanRkSWpEM0FWZDFsVkh2WjhLT0ZNWG5Ob2VCbG05S2pLeU8tSGZlYlpfOVpUQklR?oc=5",
+   "similar_count": 1
   },
   {
    "id": "evt-c3710f94d4c6",
@@ -3892,14 +3650,14 @@
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdEFRVEo0UW9wUGpzUHpCNEM0cmdGeGZLa29FOW9kbGxhRk9oWU9wczlCM29YSEFVbnlDN3FtVnNtN3lnRVFfMTMtZ1BsalNXd1dyeVlsX0hOX1FCR0puQnM4Tm9WallKbTJRZkpRQWNYNWdia1NaanhZSU1EV2RaaTFBSzlMZ1lMemdfT092SDY?oc=5"
   },
   {
-   "id": "evt-7b5b3524d056",
+   "id": "evt-ac1534e53d69",
    "date": "2026-10-12",
-   "dt": "2026-10-12T16:06:26Z",
+   "dt": "2026-10-12T14:22:43Z",
    "event_type": "economic",
-   "severity": 2,
+   "severity": 4,
    "region": "US",
-   "summary": "FactSet S&P 500 Energy Sector earnings preview for Q3 2026.",
-   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZlNyS0kwajlHbHc0UndHYlVaN1Y1NEtKTlJzcHlPbXFyTFdCUG1PcmF5eVpscUkyWG9vMkl4djhZVDdaTTBmQmJtcDRmcm5qZHAwWmp5TWRJeWRyVW1lanRkSWpEM0FWZDFsVkh2WjhLT0ZNWG5Ob2VCbG05S2pLeU8tSGZlYlpfOVpUQklR0gGOAUFVX3lxTE5mU3JLSTBqOUdsdzRSd0diVVo3VjU0S0pOUnNweU9tcXJMV0JQbU9yYXl5WmxxSTJYb28ySXh2OFlUN1pNMGZCYm1wNGZybmpkcDBaanlNZEl5ZHJVbWVqdGRJakQzQVZkMWxWSHZaOEtPRk1Ybk5vZUJsbTlLakt5Ty1IZmViWl85WlRCSVE?oc=5"
+   "summary": "Microsoft's market capitalization has risen to $4 trillion, surpassing competitors.",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRTZqXzd2QXZwRV8wbUlKWllJdHozYVJKTjB5Wk9WNXdtTzRyUkNlVjRrc2Vob19JcjNTclFISjlwQ0lvLVdPTFVVMW5WakpFanB1MnZVaV9OOVVvUE9mZnNSdWdZTHhNT2NlWklpcmttUnZOS09wXzRxVEtRRS04amFMaXd0Z1E2cjZNbmQyeElXRWREWjdUUlU3VHJGRnQ5cHc?oc=5"
   },
   {
    "id": "evt-6534d9e53aec",
@@ -3932,6 +3690,26 @@
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTDBoWDBnZlQxT0tLNGU5R1dZZ1dUUlZwamxGZFRJbWh4bTNnRmpDYjA3b0ptME9UaHh2cXo1X3VCR3BOMGdHTjE1U0dFcEJkNl9tR0NIS0xST0puZG1aMzJhVmtmSTNuNHFBS2x5TGJGTnB2UUdBZjRfTnJnQUNiQXFlRFJ5RDFCa2JYM3RpMElYbWtpVzF1MXFwdWRaMndudFlkUGJWYWZuenlHcUhkay1kU3kweGVWbTc5WEJNSVJkRWNEenotZ0ZmcXNHYTA?oc=5"
   },
   {
+   "id": "evt-17bbb22c2fac",
+   "date": "2026-10-12",
+   "dt": "2026-10-12T21:33:13Z",
+   "event_type": "political",
+   "severity": 2,
+   "region": "Canada",
+   "summary": "Canadian PM Carney calls for unity ahead of Alberta secession vote.",
+   "url": "https://www.aljazeera.com/news/2026/10/12/canadas-carney-calls-for-unity-as-alberta-prepares-for-secession-vote?traffic_source=rss"
+  },
+  {
+   "id": "evt-40f96d291bc1",
+   "date": "2026-10-12",
+   "dt": "2026-10-12T12:00:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Investopedia projects Johnson & Johnson’s post‑earnings stock to move within a defined range after its quarterly report.",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUElpRkZ1REw5MGhDdUJobWhPWm9YUnlXWXg5MjN0UFFMRUFNb0NSSC11RGtyRjVHbFc0TXphd2NGR2x6SUJMdUpTTm1zVXFyTFJWeTdUM2MzMm9Yc0xMYUl0cGRuUTJLRTZVeVRiUGtCNDNwc2xUSWVGU1djWWROTEhyXzNFSHBNUnRpRzlneVFaczlMamc3T2J2aUF4cFVJaEJLM1dBWXU0SFJUOFRxTkh1VGtuU0VDa1QyMzU1ajllMWtOaVpYcg?oc=5"
+  },
+  {
    "id": "evt-e5c749b4b9f4",
    "date": "2026-10-12",
    "dt": "2026-10-12T02:51:26Z",
@@ -3952,6 +3730,16 @@
    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYUNxdUxmaThaQ0FLdXRxaWdHNE0tMm5OZjVZenR0X1h2cEtmODNEckpiejRHc0dtZXZnajFRZUQyLVo5ckgyR1lyTEN4YzdNNVo4OGptVC1QMkxUYUVGMDJzZnR0RXFZcXZ2NU9JMDNhVDlmLWQyMmhwZHVSRnRXWWVyTnBfX2Z3UXlxT3JRTnZ3R0xMRktqb0gwTWZRVXl4emZqU1NzWHMxX0hBeVE?oc=5"
   },
   {
+   "id": "evt-75145efc8c3c",
+   "date": "2026-10-12",
+   "dt": "2026-10-12T19:26:44Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "US",
+   "summary": "U.S. natural gas futures fall 3% after lower demand forecast and Pennsylvania spot prices hit lowest since 2020.",
+   "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQV3VUMmNpZDI1Yk1zNEdTMUZNbWw2dFdrdlR6dHJoZWI4bXJnVUhYVFJ3M09EWTdsdEVKTnpVTFpnSTkxdC03SGJDWWY0a1FibC1yLThLZElnUzV1QndtUmVod1AzRFhEaVJURHg5ejAySS1fYmV4eVN3d3M4Y0RxNEFJU2kzSG5ROE4zUmo2YU1HS3ZIUUhCYmJhcEJtazY5U3lFVk9Rc2RiaG5INEFqZVg4T0l3RVV6YWE4elVEZVMzc2tMMS10emRLV0c1b2lOQkFUMXhSZlBEQ0JaX2JDaVdn?oc=5"
+  },
+  {
    "id": "evt-9b201c6067a3",
    "date": "2026-10-12",
    "dt": "2026-10-12T03:19:59Z",
@@ -3960,6 +3748,16 @@
    "region": "Global",
    "summary": "FXStreet forecasts gold (XAU/USD) buyers maintain control as the US CPI data week begins.",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMUR0djUyMENGY1RKcGp4aG9QQ2NqM3IxSnJNZEJSRUlhall2SlpsT19yR1dnOTZBZUJtcnR3MTBVZ09jWDFGQVhlS2xTTGNlVUhETW1pRHpINzJ2ZVJEX2Z3bUlMa3VjR2lyc3NzYnRhTm5mem9hZk5SeGZua0hCZzdHMmFnckZBOFBMT2dzWm5MWjhsTS1DZlh5Njg2dEEtakd5aDA2clZlbkFsOFltMTJ3YjJYcjJidVA1RTJtaw?oc=5"
+  },
+  {
+   "id": "evt-f65b7fdebc29",
+   "date": "2026-10-12",
+   "dt": "2026-10-12T06:16:12Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "US",
+   "summary": "Yahoo Finance discusses expected Apple TV and HomePod Mini for AAPL stock impact.",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQY2t0Z0lFdi0ycHFxQnJ3T3NEclFrNkY5cTRwRWNXRnhIY3pNQVlkeFJOOW9qNjUwT1gzWmJLZU1HdjlzMl9XMXgxOEpXODF1N3J3NlhFdlNUTE5fMldEU2RNUlE0SzFtRXBMWThVRzhJbzhxX3FPcTVxc0RldmVDTzR2dENVeDM5Wmk5MXE0MmZsd0xzNV9PdlR3NA?oc=5"
   },
   {
    "id": "evt-eacc33d15a4c",
@@ -3990,6 +3788,36 @@
    "region": "China",
    "summary": "Release of China Rare Earth Price Index vs ex-China market.",
    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ud3dfaHhGbFpBZFhUMVNhMll0TGM3VHp2Z3ZNZUJnQXdkYm5nWDJXWVNBNzFkRnYyc3c3OU5Cai1sVEZMSUNZSFd2ZG1LNXkwRlNWSFdlYVBCX1A0V19TV3FtZWIyekMwWHA0aUV6M2R5Zk93TTBKZ1V3dzhOSDA?oc=5"
+  },
+  {
+   "id": "evt-e8b612d9e5c8",
+   "date": "2026-10-12",
+   "dt": "2026-10-12T22:20:10Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "US",
+   "summary": "Analysts cut Caterpillar Inc.’s 12‑month price target to $984.88, implying a 23% upside and potentially influencing the stock’s market perception.",
+   "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWHJNQk5IVFdiTzZCUF9wUENTSzg3NlVEeE1kblJXZEFILXdfZlJicU9mX05QSEVLWURwNkp3ZVZyaGJ6R1lxRGRtaFo4eW1IZkJKU1FBcEl6eGFEREVkVFpGMUFmaERPZnRHcTNSMHBuRy1EQTdCVmtoRTE1X2lpQ0luaFVmUW9DY2xwT0pHaXRRVWVESVVqTGFPbHdvZV9FcWU2M28zTG9kek5YclZNV2ZfaGp2LVpleWozR1N6cUl5ZWJCTU1tOHJiUVpzSkNPUllv?oc=5"
+  },
+  {
+   "id": "evt-450303439410",
+   "date": "2026-10-12",
+   "dt": "2026-10-12T21:30:00Z",
+   "event_type": "military",
+   "severity": 5,
+   "region": "Middle East",
+   "summary": "Houthi attacks on Saudi airports have triggered a spike in oil prices.",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPTTZ5RGNoVEhkQU9PWXZCMWlyaTB2NFJmb2dZa2FMSkl3VWdrTUZrY3dTTU9scnJ6TUxWazRLbjluTUNFUVFKUFFGaDdjUng4QWczcERLUXhlNEFMWTNBVWs2bDJWYXZZZU5yX2hvdmdOandqZVJiVWhKYzg0QTRhZm1LNFFhajFfRVlpajdicE_SAZYBQVVfeXFMT1hrMExFRVMxY2V5MF80bTRKbVRpMzR1eVQyRjVFQnBTOTJjTkVwb3RHTm1KOGRxNEE2Yl9ieWkxQ0t4SFQ5SFB2enFyTlVsTTdOZjZZWEVTMU81ZkhjSHVBOUlCUi1hUVViV1JhaWZxbWNBSGdJMlA0XzdoalFsM2dLOXpPSVdMdUhScE9CQ0tnVjZNVmZR?oc=5"
+  },
+  {
+   "id": "evt-f91784b58045",
+   "date": "2026-10-12",
+   "dt": "2026-10-12T11:06:00Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "US",
+   "summary": "Nvidia and Micron Technology are facing unexpected negative developments, raising concerns for their semiconductor businesses.",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWlcyNzRVcXpNVzBQclJNNTllUV9na0ZlbkRNNmxOaE1UY2RLWTg1X1dOa1UwUTRxQnV3bmlQazdjLUhYRlMzdk9ULWtZbmdqUVFDUENOaTBKMDJWZWNiSTQ2OXNrdG5ibWR2NEhFSGRQbzRmNFdFTkJhaXVDOTUwTkxhVmxvWVF6VW9JMzVaX29yWDNsNF9tRQ?oc=5"
   },
   {
    "id": "evt-7d471c9a291e",
@@ -4040,6 +3868,26 @@
    "region": "Global",
    "summary": "Palladium prices have risen quietly amid gold and silver dominating headlines.",
    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVUNjbmt6Nnl5RjRHV1JOdnNRQ2NMemNnM2lqR2NJWFg5X21RM1ZncTJvWUJaUEhCc0l2Sjdvd1VVNDViQkxZU2hTcktTM1JwSnBfZWhQUjllRkV6d3ZIVnNaTW5QbmstNFR4YzR4akxfU0tXRVVlSWZTcEx4cWRTdnJNdVRxVkZWNDl1WTdiNkNHaXZRODZWajAtaE9fZw?oc=5"
+  },
+  {
+   "id": "evt-dd37fa916258",
+   "date": "2026-10-12",
+   "dt": "2026-10-12T17:15:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "J.P. Morgan upgraded Biogen to Buy, forecasting a potential 28% price increase.",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrZ1FvNlFjbWdLVzFLQWhONTFRdkN3VFJaUmQ4OW5hM2lXSzJkWlpXeVlxc1ZWT0VqSkN3SEtMampDYllIbTNlbk1vMGJ2Q3BuMUd4QnVSTzJ1Y1FkUEFYTWtrdzRrZGdvdWk3dDlVQ0tHbGFPNVNBMmRQRlIydWs?oc=5"
+  },
+  {
+   "id": "evt-50cee6a089c3",
+   "date": "2026-10-12",
+   "dt": "2026-10-12T13:05:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Tesla shares climbed 2.1% to $382.70, reflecting recent positive market sentiment.",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9MVDVmLUNrY3Etbmd0UXQyVThYdHJZM3VwbHNpaHBrVUZUdVpaTVM4UUU1aXg4OHA4cERlbmZGY29tREp5U2JHYlFfa0l6Q09aOVo2ZExuUFl5d3dRdkhURmZwc3JROVJlbldmNTlsV2luc0w2WkMzS3lFV3hHUQ?oc=5"
   },
   {
    "id": "evt-eed8d32b3117",
@@ -4142,6 +3990,26 @@
    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPYVM0emRtalZfZ3Nab01KbzVVQlZ3ZWVOZVJnV2ZrTFU5SDdvV0NJVGpWVU9CR29CcHdzUlB2akQxVXJ2R2lFNzlzTmVoakNXLUlXUHphWXBvX0pka0pRTW10amVtNTVaa1dWS0p0cUxQNkF2dlRfbTRsMTlGdC1hUkxzVFhnaURkQkNXaGExZllMWFNvd3FDZzdhSGZMS1NrSFV0eTQ0UjdHUWdyYjdJc2g4TTh0ZXZwZ3JPbmpR?oc=5"
   },
   {
+   "id": "evt-3e65a4120dbd",
+   "date": "2026-10-12",
+   "dt": "2026-10-12T18:10:17Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Mastercard shares rise 1.58% on stablecoin optimism and strong GF Score.",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONHhMaElseVhHUENuNk54bXNERnZfT3lMcWdzdENrZ0FaRkU0Y2lZbFRiUE5ON1lhdzZQMVp6MW9jOFZkbHVZWUxJN1VPcGhfY1FDdF9SbE5SS0JTVGVuRFlfNGRsRWNubHVWdGU0Sk5iYUpFaXFHSWp0TGZnR3hvdm9HaUJhZFJ6MmNtbEpVVHM5RWZRd3YwTFlVZm5hVTlRcW01NTMwMTZiMlQyTExlUWR3Tk4?oc=5"
+  },
+  {
+   "id": "evt-2f60f75d535a",
+   "date": "2026-10-12",
+   "dt": "2026-10-12T19:10:13Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "China",
+   "summary": "Chinese lithium prices fall to near 10-month low amid demand concerns.",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUhuVVNvV2Z2NWpmYkktOHhYR05zcFU2UkkyWVlESF80WGcwYUNFb3B1ZFp5X0lCYk5nUF9kZDVGRmpsT3VlYnNLUlFIT2cxQVFMNnd6eWlveVNPaHZ2QVNkQnRBeVZVVnhaYWpaRF9ZTjl2TGM3Ri1mcC13UEE4R0ZRN05NYVJUU0pKR3NudERkMzBrLWdCTkpZQlRGbFZlalNrS0psbER3MXRmNHc0bGdMdHNVSGs?oc=5"
+  },
+  {
    "id": "evt-a8d57c37268e",
    "date": "2026-10-12",
    "dt": "2026-10-12T05:55:00Z",
@@ -4150,6 +4018,206 @@
    "region": "Global",
    "summary": "Palladium prices fell 30% YoY, while Nornickel's single site processes 40% of global refining capacity, highlighting supply concentration risk.",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLYVd4bHRIMnp3d1lNcUJ0MGJWTXgxRlBGYjdEcllrN2MxSHJEeXcxNU0ydUJwLW5EcW5kMW1sT2xYOFl6LWhTRXVNUC0zeHBrdU9SajlVODVDX0VyMzBIZGEwYkVENjFMbGhZNmdyTFRtczRCaWc?oc=5"
+  },
+  {
+   "id": "evt-fc86d3666e6b",
+   "date": "2026-10-12",
+   "dt": "2026-10-12T22:56:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "Global",
+   "summary": "Mastercard shares rose near their 2026 high, leading a list of top‑performing stocks.",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOXzF6OFBfb2dFMjJRRkdZMVcwR1lqNWFuTC0zeElZVVhDeW1Wc205cEI3S20wOFRmRUN2QkhIY1NHRUdUaHBzenJTRmFuZjJlTXYwdzVFTlBrcUM0UktOYThVS20ta0ZLVGFrVDA0X2JwWjJMQzJmOXFTTjZqZXBlbw?oc=5"
+  },
+  {
+   "id": "evt-9a81572464bb",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T05:40:10Z",
+   "event_type": "political",
+   "severity": 3,
+   "region": "Middle East",
+   "summary": "US President Trump refrains from endorsing Israeli Prime Minister Netanyahu ahead of the 27 Oct election.",
+   "url": "https://www.aljazeera.com/news/2026/10/13/despite-long-history-with-netanyahu-trump-hedges-as-israel-vote-nears?traffic_source=rss"
+  },
+  {
+   "id": "evt-7bb4eac6f56a",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T05:29:47Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "Global",
+   "summary": "FXEmpire forecasts WTI crude near $94.34/bbl, Brent possibly above $107/bbl, and natural gas around $3.35/MMBtu.",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPemlHQlpqNkRSNUFxNy11a1YtaFc0ZnFQZ2o3SkVIdkthLXJHN2xGMF81QXo2cGI0R05nZnU2aFo4aXhxZDVyUURhZFRNZmxKQ0NqeW5HekRRYmVKVVdnMXNaUEZkdzNaTExiMGxFY2RoLXlPRXlsS0ZjdHFyYnJxbzlPZ1B5TjBkdVN6dDBWRmlsT1Y2N1l5VGNNN3A5Z3dXTU94ckVIOWpqeEtoejd3R3VfcTJicTdqVmM1bi01NVNlbmNxb193ZGJ0NjY?oc=5"
+  },
+  {
+   "id": "evt-da7e93af073e",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T00:00:00Z",
+   "event_type": "geopolitical",
+   "severity": 3,
+   "region": "Middle East",
+   "summary": "US President Trump condemned Yemen's Houthis amid escalating attacks, prompting Saudi Arabia to halt flights at Riyadh airport.",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/10/13/iran-war-live-trump-says-houthis-misbehaving-as-riyadh-flights-halted?traffic_source=rss"
+  },
+  {
+   "id": "evt-89f565218372",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T01:32:15Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "United States",
+   "summary": "Procter & Gamble releases a stock forecast predicting earnings outlook for the upcoming quarter.",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMGlWT1J0alpVV1BMY2o5ZUtQZ3FXUXljOVBPMjBVMm5BeGQzbWlPYVdVekRRbzdqT08wNDZGQjFuUmQ4UEo0ajVSNzFtaGRmVzBiX093bFVFZHRoeUJQMFEwTTZXcVBMbnY0OWVHczZweUFvTTV1SzZjMGhKQjByNnVjNUZmWW9zRU4tTg?oc=5"
+  },
+  {
+   "id": "evt-34c39b4f02ff",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T04:41:44Z",
+   "event_type": "economic",
+   "severity": 4,
+   "region": "Australia",
+   "summary": "Lithium stock PLS fell by half in four months, with peers MinRes, IGO and Liontown also declining.",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOW9hcXRFNzV5ZkZsd2tycWxvTk82RlFMR2t2Nlk1WFlTd2tkVTBkTUdPcUkxcEF1NmFWTE5uRUVrc0lKb01wWnpOaW15QjdpcmV2V001a0ZJWFFoSU1zdjNYSVR6ZF9ZdkN6NmxaNmJhTXVDZU9BeEhMQmlWemdzSzlrTG4zMmJraE9fNmZ1VGhNOXJCdDZLbGRBMkc2cm56RDZKc3ZtVXotYS01ZkpxUHZlSWhwZmpZWTBmbE55RmJDUk0?oc=5"
+  },
+  {
+   "id": "evt-6aca3c0e73e8",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T02:02:04Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "Global",
+   "summary": "Copper prices remain steady as the US dollar strengthens, impacting metal markets.",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORDZMaGlqSWx2WUFxTFBIaW1rV2M3UzNkUDF0VnhkV0hwUlJHLXNBbjh1dW1FU1g0T2RielptcjdaYTBmU2ZFb2lpMG1yTHZ2STh1MjUwQUpPQkIxYzM2UnF6bmJ1bEkybUVwa1RlckFLazR3MWFJT3VOYWl6SFNqUkhVVnY0NjJl?oc=5"
+  },
+  {
+   "id": "evt-4ad0685fdc0a",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T05:01:04Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "Global",
+   "summary": "FXStreet projects WTI crude to stay below $92 per barrel, maintaining a bullish outlook.",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcldjQ0liRjF6V3VRclZTWTJ1WDJtVTNsaFJQcVpoakpFNlVXU1g1V09sdGRRTUFtNXlHUi1aS29kZ25iaWJDN292ZXJGRUVyLU9PcVVBcjJIY0E4NHQweU9JdXo2LWE4SmJaVE5GR1JWajJ0emZ4dUNuMDljOHRRSU94N2JRWWo4c3BseGV4RW15dTZaQXZiMHZHVXR5QVlZT2hrcHhZa0VsUXRETDFOWXpmWVFUSW1ETHFtVA?oc=5"
+  },
+  {
+   "id": "evt-c9feef47f36f",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T06:00:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "Global",
+   "summary": "LME aluminium price fell to $3,055 per tonne; Asian reference price rose 0.13% on 12 Oct 2026.",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMU1JWHBTTzZxRUxRZzUxS042c3p0UDU0a2FfXzRoRkdsMjAybzB2VTdPZnM2cFR3aEk1VXZxaWxGdzNSZWM5dW9mV3FIREtJanpybmVMdlVjR0d3SUFPY09uRXdvNHFpZDVGa0hXM0tmMDl0Ym9pTUVXaGZOSFBiVkw5WGJMU2ZnT2tCMlZ3X0djbzV3TlNVaWMwcDZGVkp5NVVHOEJRTDhHQ1JOcVRpeTJKbExiS1Mtd1ZGZ1E0TQ?oc=5"
+  },
+  {
+   "id": "evt-fb96c9f3ea2e",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T05:59:48Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "Middle East and Central Asia",
+   "summary": "IMF forecasts GDP decline for Iraq, Bahrain, Kuwait and Qatar in 2026 due to fallout from the US-Israel war on Iran.",
+   "url": "https://www.aljazeera.com/economy/2026/10/13/middle-east-and-central-asias-economy-to-shrink-in-2026-amid-war-imf-says?traffic_source=rss"
+  },
+  {
+   "id": "evt-780b865eef8e",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T01:46:25Z",
+   "event_type": "geopolitical",
+   "severity": 3,
+   "region": "Middle East",
+   "summary": "Ethiopia's Tigray conflict puts UAE's backing and Saudi Arabia's diplomatic role under scrutiny.",
+   "url": "https://www.aljazeera.com/news/2026/10/13/ethiopias-tigray-war-where-do-the-uae-and-saudi-arabia-stand?traffic_source=rss"
+  },
+  {
+   "id": "evt-11059b5e173f",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T02:06:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "Global",
+   "summary": "Cobalt and lithium raw material price trends diverge with varying supply-demand support for battery materials.",
+   "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQZ19GQTdpQWpsaU9pSUZHbk43UHBkMlo4XzJ2bEgzbG5DdUMtMDV2WFNWUFlRUkF4S2dXeTdBeTN2eS0yelFqM2R5clBla3ZMaUxnN21paG5tV28tUlpOS0FpZ1ktSVpnc0h0TFBIaVR4SWx0TXhZb2VYZE1LV194d0FJcnhBcjZmWW1JdE1yRHg5T0RzYTQzVWFxSWdlbmVGUVoyTFUxcjJyUTE1VFl4ckpueDc0Q1pycHZqb3ZuYmt0OHRiVXVKcEZOWUtTaUY1bVBaU1NEazE2Y1VXZHR2VkxkWnUzQVJsdWZkaUJtNTdSMFVaa19KUHZmOUh4ajZzZ19LWE1WV3N3QlZqZGdUeDBn?oc=5"
+  },
+  {
+   "id": "evt-1a307fb8662a",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T02:27:51Z",
+   "event_type": "economic",
+   "severity": 4,
+   "region": "Europe",
+   "summary": "Lithium prices dropped 8% after Europe announced measures to curb Chinese hybrid vehicle imports.",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMjdkaFFsaFR6bHJneUNib2tUeHgzSC1IaFA5T1pPRVd0MU1kQlpILXd4a0lUUDViazVJYmludnhXTnVQQ0Nxbkt3VklLaHBiX25kZTNjcFpDblUyM3c5YUR4R3FZLWJiYWFBdVlvb3pvNW1QdGEyMGp1SnYzNHJ6dmxlT1M1Mi1VNWhQa0ZCXzA5RFpQRm5lRkk3MXpnaWx0TUdZLUU2ZE51RlViNGJkYVNQYmxicXlyUHgzYUpR?oc=5"
+  },
+  {
+   "id": "evt-d774f1474997",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T03:51:24Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "Global",
+   "summary": "FXEmpire forecasts natural gas support at $3.41 per MMBtu, with bulls targeting that price level.",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMDBTVDNQNVVHYV91QjU0cTZBV19CaFBiVVRmMHl4VWJyVFhuaVZ0aE0wMFJPVmNBaWdjSW9lUmRQNGhzLVZHM1lTS3NyazMxMHJwTFo1N1lRSC1jdkVpRFFwdmJJRUpNZ2JUbnJrWnhqbldZVkRmZTB6aFpVY3hkamMzMVkxUWVnc3RMV3ZOUFd3OHl4enpHVzZnVmVqWmxtV3BXdVR4TzhoS2Z5MDNtRFRtNA?oc=5"
+  },
+  {
+   "id": "evt-11c8048c3797",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T03:01:53Z",
+   "event_type": "other",
+   "severity": 3,
+   "region": "Europe",
+   "summary": "A cyberattack on French supermarket refrigeration systems caused fires and caused millions of euros in losses.",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/12-10-sv-france-supermarket-fridges-targeted?traffic_source=rss"
+  },
+  {
+   "id": "evt-8be148783575",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T04:35:10Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "India",
+   "summary": "Gold price in India reported on October 13.",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVVc3YTNCWElDWUNSeVVvMTliSmlMRTlzdE51RWxJMl9EN1hTelZFMHNOMWNGYmlJMDdZNjc4RXBNMUNJVXpnSVJVN0laUXRfSFFIQk1May1rSnhFNlhDQ0JQRnhYZU1DR1lJUWhIUHFkQVJTUkFWdmwtNXp5MGlYV1JUS3YzQU14VmoyRVlXX1NXTFdlNFFZNnBDa1lTZEh1enhNdUx3?oc=5"
+  },
+  {
+   "id": "evt-462d0425329e",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T03:11:19Z",
+   "event_type": "geopolitical",
+   "severity": 4,
+   "region": "Europe",
+   "summary": "Ukraine’s president says Russian attacks on Ukrainian energy infrastructure continue, casting doubt on the agreed energy ceasefire.",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/russia-and-ukraine-trade-strikes-amid-doubt-over-energy?traffic_source=rss"
+  },
+  {
+   "id": "evt-c20c58606291",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T04:56:35Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Walmart EVP Daniel Bartlett sold $416,595 worth of Walmart stock.",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQmx4U2xJeFhiZk4xOVJZenRsUjBfbGRyaU55Vll1SUNxWmY2VEdIeTVRalhQVndSdEZ5NTZQZHRyRlAzWTZKT0hiMTZiMmtsZUEzbVFyNUxRLWJ3akszV29qRW9lbUIzanhyVUhxZF9QWmlPc0FiRExFQndsNlZLanhmRjN2ajlQN0JUekd1bEt2TlJ6bkhFdlFWM1EzdnIwR09XdFFNczNNLXRVNThnMW0xUEU?oc=5"
+  },
+  {
+   "id": "evt-c314220002cb",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T02:37:10Z",
+   "event_type": "other",
+   "severity": 3,
+   "region": "Europe",
+   "summary": "Hundreds of French supermarkets were hit by a large‑scale cyberattack that raised fridge temperatures, sparking fires and spoiling food.",
+   "url": "https://www.aljazeera.com/news/2026/10/13/unprecedented-cyberattack-hits-french-supermarkets-causing-food-losses?traffic_source=rss"
+  },
+  {
+   "id": "evt-824f66a5ad71",
+   "date": "2026-10-13",
+   "dt": "2026-10-13T03:30:23Z",
+   "event_type": "geopolitical",
+   "severity": 4,
+   "region": "Europe",
+   "summary": "US President Trump urged Ukraine’s Zelenskyy and Russia’s Putin to honor an energy ceasefire, despite new Russian strikes on Ukrainian sites.",
+   "url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes?traffic_source=rss"
   }
  ]
 }
