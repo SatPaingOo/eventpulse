@@ -1,128 +1,98 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-10-14T05:08:29Z",
- "run_id": "run-2026-10-14T0508",
+ "updated_at": "2026-10-14T17:27:30Z",
+ "run_id": "run-2026-10-14T1727",
  "healthy": true,
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
-   "message": "10 new price snapshots",
-   "started_at": "2026-10-14T05:00:42Z",
-   "ended_at": "2026-10-14T05:00:50Z",
-   "count": 10
+   "message": "29 new price snapshots",
+   "started_at": "2026-10-14T17:18:38Z",
+   "ended_at": "2026-10-14T17:18:47Z",
+   "count": 29
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "137 new items (rss 38, gdelt 0, disasters 17, asset 82, pruned 12)",
-   "started_at": "2026-10-14T05:00:50Z",
-   "ended_at": "2026-10-14T05:01:49Z",
-   "count": 137
+   "message": "166 new items (rss 43, gdelt 0, disasters 26, asset 97, pruned 7)",
+   "started_at": "2026-10-14T17:18:47Z",
+   "ended_at": "2026-10-14T17:19:40Z",
+   "count": 166
   },
   "extract": {
    "stage": "extract",
    "ok": true,
-   "message": "137 events extracted from 137 items; 6 unread left for next run",
-   "started_at": "2026-10-14T05:01:49Z",
-   "ended_at": "2026-10-14T05:05:51Z",
-   "count": 137
+   "message": "168 events extracted from 168 items",
+   "started_at": "2026-10-14T17:19:40Z",
+   "ended_at": "2026-10-14T17:23:28Z",
+   "count": 168
   },
   "explain": {
    "stage": "explain",
    "ok": true,
-   "message": "10 new moves, 20 new causal notes",
-   "started_at": "2026-10-14T05:05:51Z",
-   "ended_at": "2026-10-14T05:06:50Z",
+   "message": "29 new moves, 20 new causal notes",
+   "started_at": "2026-10-14T17:23:28Z",
+   "ended_at": "2026-10-14T17:25:11Z",
    "count": 20
   },
   "predict": {
    "stage": "predict",
    "ok": true,
-   "message": "4 predictions from 16 events; 85 new events left for next run",
-   "started_at": "2026-10-14T05:06:50Z",
-   "ended_at": "2026-10-14T05:08:27Z",
-   "count": 4
+   "message": "5 predictions from 16 events; 4 duplicate call(s) dropped; 104 new events left for next run",
+   "started_at": "2026-10-14T17:25:11Z",
+   "ended_at": "2026-10-14T17:26:59Z",
+   "count": 5
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
-   "message": "32 resolved, 0 voided, 19 waiting for a close",
-   "started_at": "2026-10-14T05:08:27Z",
-   "ended_at": "2026-10-14T05:08:28Z",
-   "count": 32
+   "message": "19 resolved, 0 voided, 0 waiting for a close",
+   "started_at": "2026-10-14T17:26:59Z",
+   "ended_at": "2026-10-14T17:26:59Z",
+   "count": 19
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
-   "message": "accuracy 33.1% (333/1006), 1 reflection note(s)",
-   "started_at": "2026-10-14T05:08:28Z",
-   "ended_at": "2026-10-14T05:08:29Z",
+   "message": "accuracy 33.4% (342/1025), 1 reflection note(s)",
+   "started_at": "2026-10-14T17:26:59Z",
+   "ended_at": "2026-10-14T17:27:30Z",
    "count": 1
   }
  },
  "llm_usage": {
-  "run_started_utc": "2026-10-14T05:00:42Z",
+  "run_started_utc": "2026-10-14T17:18:38Z",
   "by_model": [
    {
     "provider": "groq",
     "model": "openai/gpt-oss-120b",
-    "calls": 35,
-    "ok": 25,
+    "calls": 38,
+    "ok": 28,
     "errors": 10,
-    "prompt_tokens": 26759,
-    "completion_tokens": 23396,
-    "total_tokens": 50155
+    "prompt_tokens": 34479,
+    "completion_tokens": 26115,
+    "total_tokens": 60594
    },
    {
     "provider": "groq",
     "model": "openai/gpt-oss-20b",
-    "calls": 36,
-    "ok": 22,
+    "calls": 41,
+    "ok": 27,
     "errors": 14,
-    "prompt_tokens": 27837,
-    "completion_tokens": 25404,
-    "total_tokens": 53241
+    "prompt_tokens": 34260,
+    "completion_tokens": 29165,
+    "total_tokens": 63425
    },
    {
     "provider": "openrouter",
     "model": "dots-studio/dots-3-note-preview:free",
-    "calls": 4,
-    "ok": 3,
-    "errors": 1,
-    "prompt_tokens": 4304,
-    "completion_tokens": 8965,
-    "total_tokens": 13269
-   },
-   {
-    "provider": "openrouter",
-    "model": "google/gemma-4-26b-a4b-it:free",
-    "calls": 6,
-    "ok": 0,
-    "errors": 6,
-    "prompt_tokens": 0,
-    "completion_tokens": 0,
-    "total_tokens": 0
-   },
-   {
-    "provider": "openrouter",
-    "model": "google/gemma-4-31b-it:free",
-    "calls": 6,
-    "ok": 0,
-    "errors": 6,
-    "prompt_tokens": 0,
-    "completion_tokens": 0,
-    "total_tokens": 0
-   },
-   {
-    "provider": "openrouter",
-    "model": "nvidia/nemotron-3-super-120b-a12b:free",
-    "calls": 11,
-    "ok": 11,
+    "calls": 10,
+    "ok": 10,
     "errors": 0,
-    "prompt_tokens": 19952,
-    "completion_tokens": 9159,
-    "total_tokens": 29111
+    "prompt_tokens": 14674,
+    "completion_tokens": 26429,
+    "total_tokens": 41103
    }
   ]
  }
