@@ -1,6 +1,333 @@
 {
  "days": [
   {
+   "date": "2026-10-14",
+   "events": [
+    {
+     "id": "evt-5ddbaeea367a",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T00:45:16Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "Israeli forces carried out attacks in Gaza, killing one and wounding journalists in the occupied West Bank, amid ongoing cease‑fire tensions.",
+     "url": "https://www.aljazeera.com/news/2026/10/14/israeli-attacks-kill-one-in-gaza-wound-journalists-in-occupied-west-bank?traffic_source=rss",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 2.0,
+       "confidence": 60,
+       "expires_at": "2026-10-21",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-eed76d945767",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T03:12:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Gold prices remain steady ahead of U.S. inflation data release.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZkM3NGdUajlORC1ZZjBNcFZtNjYwa2JRaFczS1V4OVRORGhzZG1NUGxaY3ppRjdfQlFvUmREakJQM1RGaDNZZmZFMnJrY2Rtemc2Z1dBY1pPRy1ZbnBJVzNfTG1MMGJ5TXY5VzFpaDd6UENqd1pUOVdlTm1sS241QkFzNm1kdDJXTjl5emhLV200WUI1QVh4RQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-26a62d5af928",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T01:27:00Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "Iran introduced new tactics to attack vessels in the Strait of Hormuz, pushing oil prices higher as shipping risk rises.",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON0hPaGRDOW9haXRKcUJ3WVU5dVdwSjB2ZzNMZTVWd0lRYV9ZUjRNRTI4VjVXeERGeW1XVU1GanZidjZneXhKeFh1dWM0OUJ6ZGltVXFXdHJNVk52MDN5M3NvRnhUUWN6aEFiSldFUWxfeHNPYmQ2R21JMGlhaUNaWEFNckc0T0ItSFpYcHA3MmM4UUdnTVd0VFg0NWhtbm91MllPWllha0pqdVBjZlRldDgxaG5PclVud0xtNQ?oc=5",
+     "moved": [
+      {
+       "asset": "HEATOIL",
+       "asset_label": "Heating Oil",
+       "date": "2026-10-14",
+       "pct_change": 6.154,
+       "direction": "up",
+       "reasoning": "Iran's new attack tactics in the Strait of Hormuz raised shipping risk on Oct 14, tightening crude supply and lifting heating oil prices.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-26a62d5af928"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-6aa393254701",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T02:19:52Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Analysts view Apple as a leading AI investment as its valuation nears $5 trillion amid a semiconductor slump.",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVmJBT1V1M2Q0aXNPZHUwLWtzZVdJX0VSdlQ3WkJGRXhTSzJPSzJ0eTlTRUxOTVVPMzk3ODg3ODQycS0zUFFvbW91QW5zQ0xFX0N0RXJLNU83V240RGFkNnAwWENDU3ltSkl5RnQzU1NxUGdmb1l2SkZzaE9adzV1c0VPbUdXbm1QOVBpMGU3ZlR6UlhxbENvaHc3cVpmeEZNbldsVA?oc=5",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "AAPL",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 65,
+       "expires_at": "2026-10-20",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-32238d01e6b7",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T04:05:00Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "Citi cuts 3-month aluminium price forecast.",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYnljNUZILTlubjRzTU9rVWFPTnBkdXgyYWdrWlR4OVJMZnRhaFV3NnR2R2lJLXpKNE1KbXBSMmNXc1pXZjBTWE9SWk5jRllvSXNxc05CWVd5cjhvelk3UGkzNFhDdXBPY1hJYkktdjlMemwwMXBaWXB3VFoyTzdnV2FJdWhnTU9ock9RTHJHVkhCdy11QWotZEhxc3FKbGRtZXNmQ2JrXzdYNEVMVXhncEp6Q1prWWJ6Rnc?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e35e775d73ed",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T04:05:08Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "Natural gas price forecast suggests breakout to $3.40 per MMBtu.",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQSU9uUnVHUDVVY19ocUpmLVhYOU5JUU9fY0pvSGlNNm5jcG1tcm9RcTBpUnhhSkw2VWN6dy0waGM3MlVuenVwNmlIaXpSRjNxTTlwN2k5eHFFOHBKTjlOY0dGTWw3RU5QUkZWcXdzdmp4N3ZIaGRQNUFiMFN5UnktUG82MkZraG54MGtLUHlHNzNWTzRnb3hkX19sVGF0SWZ2Tkg4clhlODVuVXJiODJrNTJReExYa2VKeHdQSkNn?oc=5",
+     "moved": [
+      {
+       "asset": "NATGAS",
+       "asset_label": "Natural Gas",
+       "date": "2026-10-14",
+       "pct_change": 4.663,
+       "direction": "up",
+       "reasoning": "Same‑day forecast breakout to $3.40/Mmbtu signaled bullish market, driving 4.7% price jump.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-e35e775d73ed"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-0e631fe0b0ae",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T01:15:30Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "US",
+     "summary": "US regulators impose a $1.2 billion fine on Bank of America for money‑laundering and sanctions violations.",
+     "url": "https://www.aljazeera.com/news/2026/10/14/us-fines-bank-of-america-1-2bn-for-money-laundering-sanctions-violations?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-2066c26206ba",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T02:05:32Z",
+     "event_type": "political",
+     "severity": 3,
+     "region": "US",
+     "summary": "US Treasury fined Bank of America $1.2 bn for inadequate anti‑money‑laundering controls linked to Chinese networks.",
+     "url": "https://www.bbc.co.uk/news/articles/cm3wvxy6n3z8o?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-add3da8b19a9",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T03:16:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Africa",
+     "summary": "Paladin Uranium's output fell 19% in Namibia as costs rose, impacting uranium supply.",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM2hvdGgxOVRQSzk2RnZwaWlKdEYwdElqTGpCaGtoLU14dGc4QkdST1hQOXNYekJKTE9ReWtwdTdZQTN3REJwRWw1QXREUERDSTl3R1FFanBiaWZ0X3RUVFJaQWlIYW5QRjdwWHlyTFVPeF9OclBkQllNZUtWTXMxZ1ZHWUE5OGc4cmJ6dzlieVhidw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-55aaf36347df",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T00:00:00Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "Saudi-led coalition struck Houthi assets in Yemen; a Saudi Aramco office in Dhahran was hit, raising concerns over oil production and regional security.",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/14/iran-war-live-saudi-coalition-hits-houthi-sites-aramco-office-hit-in-east?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-ef32ebde5fc6",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T04:05:08Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "Forecast indicates WTI crude oil prices may rise further due to reversal signals.",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOY3N1ZE1tMnI1NmNtLU9fTkRLSjE1bTliWF8xRFN4NGpMWTBmbXROTmNiTm5nUnpwRXJwS0p5cEZUa0M5c2diY2RKR3lIYVp2MWtLdzNoSDNvSGFBOXVVV1ZIRXEtdDVvU1Znb3ZEU1gxb2x3ZVpHY2gyZW9HU3BwTnA4TkFxeHJraUR2NmRYak5tTlhkbzA4OC1fd3VZSGM0SWh1eGt0YlJ4MGwzNXk2T1BJVzY4RHMydGVZ?oc=5",
+     "moved": [
+      {
+       "asset": "WTI",
+       "asset_label": "Crude Oil (WTI)",
+       "date": "2026-10-14",
+       "pct_change": 2.478,
+       "direction": "up",
+       "reasoning": "A same‑day forecast signaled a reversal in WTI pricing, triggering buying pressure that lifted the price by ~2.5%.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-ef32ebde5fc6"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-3a58ce3eea85",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T03:53:32Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Fed hike risk could push gold and silver prices higher ahead of CPI data.",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkdKTFlVd2dzcW5iaXd2SWdldy1NOElJRXdPUGh3NDAwZlB1dzJURFFEMEFSbF9GRVgtYkh1cG0zbXhKVGQ4eTc2RW4wS2xhWmpiNzFGN2NwQUdrYmVnX1haV3VvSk9kQzV6ZnZlbEk5TzBCZVBHaGkzNk9DUVRUODkwNDlnNHlBVzlGbkdReXRXMUoyQTJveWotcGtyR2xzVk53SlhEWjM1dTF1LUg1TkVsSmY?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a7453fddb357",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T01:07:46Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Africa",
+     "summary": "Namibia confronts a foot‑and‑mouth disease outbreak in cattle, prompting the EU to suspend several meat imports.",
+     "url": "https://www.aljazeera.com/news/2026/10/14/namibia-battles-cattle-disease-outbreak-as-eu-suspends-several-meat-imports?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-15b920288c19",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T03:09:46Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "Saudi Arabia intercepted Houthi missiles targeting Riyadh and Dhahran, injuring civilians.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-missiles-intercepted-over-saudi-arabia-as-battles-intensify?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e81cb7e9b104",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T04:36:06Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Europe",
+     "summary": "Russian ballistic missile strikes hit a key power plant in Kyiv, Ukraine, with no early warning from partners, according to President Zelensky.",
+     "url": "https://www.bbc.co.uk/news/articles/ck20r9qpw505o?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "NATGAS",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 65,
+       "expires_at": "2026-10-21",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-b4dd99f2e027",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T03:03:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Shanghai Metals Market reports that September metal price spreads narrowed and expects further narrowing in October.",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPdEdhZEh5WTF6SEVmZ3o1VFEtQUtUT3V5UnpocGlPeUd1T2lQN2NGS0lfeHhNaXhibmlWdnF4ZVhyeDZTZDA4MzNiZC1URzdDNnI5bHU3aGFWdmlrclFBaW9pTWhQYW92Nmw2ZVQtZFh3dmdRSUdzc29fSmM4bDZBV0NxY3ZDaGQxdzN5Yy1CcDFZVk9JSEc1Y2pVNE44S2I3UC1ubExIemlESVllZElJZE5sRjhhM1F5OFFNRnFFSmxXQ2plc2M0czdJOFlWMjNCTm1EVmE4bw?oc=5",
+     "moved": [],
+     "calls": []
+    }
+   ],
+   "events_total": 16,
+   "moves": [
+    {
+     "asset": "HEATOIL",
+     "asset_label": "Heating Oil",
+     "date": "2026-10-14",
+     "pct_change": 6.154,
+     "direction": "up",
+     "reasoning": "Iran's new attack tactics in the Strait of Hormuz raised shipping risk on Oct 14, tightening crude supply and lifting heating oil prices.",
+     "confidence": 80,
+     "linked_event_ids": [
+      "evt-26a62d5af928"
+     ]
+    },
+    {
+     "asset": "XAG/USD",
+     "asset_label": "Silver",
+     "date": "2026-10-14",
+     "pct_change": -1.765,
+     "direction": "down",
+     "reasoning": "Easing oil prices lowered inflation expectations, prompting investors to reduce safe‑haven demand, pushing silver down.",
+     "confidence": 45,
+     "linked_event_ids": [
+      "evt-11c8b7f21fb5"
+     ]
+    },
+    {
+     "asset": "NATGAS",
+     "asset_label": "Natural Gas",
+     "date": "2026-10-14",
+     "pct_change": 4.663,
+     "direction": "up",
+     "reasoning": "Same‑day forecast breakout to $3.40/Mmbtu signaled bullish market, driving 4.7% price jump.",
+     "confidence": 80,
+     "linked_event_ids": [
+      "evt-e35e775d73ed"
+     ]
+    },
+    {
+     "asset": "WTI",
+     "asset_label": "Crude Oil (WTI)",
+     "date": "2026-10-14",
+     "pct_change": 2.478,
+     "direction": "up",
+     "reasoning": "A same‑day forecast signaled a reversal in WTI pricing, triggering buying pressure that lifted the price by ~2.5%.",
+     "confidence": 80,
+     "linked_event_ids": [
+      "evt-ef32ebde5fc6"
+     ]
+    },
+    {
+     "asset": "PLAT",
+     "asset_label": "Platinum",
+     "date": "2026-10-14",
+     "pct_change": -1.673,
+     "direction": "down",
+     "reasoning": "Analysts cut platinum price target to $1,900 citing a sharp slump in Chinese car sales, reducing demand and pushing price down.",
+     "confidence": 80,
+     "linked_event_ids": [
+      "evt-4b709dac3c31",
+      "evt-745f5e81501c"
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-13",
    "events": [
     {
@@ -20,6 +347,27 @@
        "threshold_pct": 2.0,
        "confidence": 60,
        "expires_at": "2026-10-19",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-ff1c5c147d6f",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T20:28:43Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Meta's stock rose after launching the Muse Wonder AI model family, signaling potential growth.",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yWGw1MVlfR3M5Um1mTWM4YXYtMno1WDJ4T1FJV1hpOW85S2VpYUJDTER6dlM4bk8tdG1zWUcxc2pYZmVPVDFrck5lTV8tbGFPLUQySU5IVkNrdWs5WEJybVBjUHhlN1JNWk5XaQ?oc=5",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "META",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-10-20",
        "status": "open"
       }
      ]
@@ -65,6 +413,58 @@
        "confidence": 65,
        "linked_event_ids": [
         "evt-3f841bc92a67"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-745f5e81501c",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T08:15:02Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Asia",
+     "summary": "Platinum price forecast lowered to $1,900 per ounce as China car sales slump reduces demand.",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS0NJbEd6dnlIZ2J4dklGYTJ5VXh4MnNGU1dtN0Q4X2Fib0R5NnB6NXhGQ0xQR0ZucU5nZ3RNX2luZXVqUkRVY1llUy0wY3hRUVVGZlV6TDFTN2FjR29NWHhLUlBTSWo4MWJ1LWFodDRRNWFCbnRkSmY0bVNhdG5SRm5XVDBnUkdYdC1ITi1YS09PLVdubmVXR200TEJfVG1mcEd2cFlVWVhMZ0F2Q00wZnFFV29pODlkS1JWa0RlRzE?oc=5",
+     "moved": [
+      {
+       "asset": "PLAT",
+       "asset_label": "Platinum",
+       "date": "2026-10-14",
+       "pct_change": -1.673,
+       "direction": "down",
+       "reasoning": "Analysts cut platinum price target to $1,900 citing a sharp slump in Chinese car sales, reducing demand and pushing price down.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-4b709dac3c31",
+        "evt-745f5e81501c"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-4b709dac3c31",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T08:14:30Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "China",
+     "summary": "Analysts lowered the 2026 platinum price target to $1,900, blaming a sharp slump in Chinese car sales.",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZE51S2hjOTh4TUMydDNVUGNWYnhhektMZ1hBelpWNHREaGZfOG9VUm94bGptR0lxMGluV2V6ZktWaExnYlVuZGpyVXd5VmVNdzh3RUtvcHUyd1NsbXZ2R3h2cEhyS29UbzZ6LVFkQWVHZ2dKWFdqVVRYWWlFQ2ZxNURGekFiTGs4dVpjWVVmeUY3c3ByRmpnZi1iZTl4TThGN1RvazhRQTEwTmJKbndjbmFOazlKbGhyUEJnaDhhampQc1FOek9RcTZVR0V4Zw?oc=5",
+     "moved": [
+      {
+       "asset": "PLAT",
+       "asset_label": "Platinum",
+       "date": "2026-10-14",
+       "pct_change": -1.673,
+       "direction": "down",
+       "reasoning": "Analysts cut platinum price target to $1,900 citing a sharp slump in Chinese car sales, reducing demand and pushing price down.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-4b709dac3c31",
+        "evt-745f5e81501c"
        ]
       }
      ],
@@ -149,6 +549,31 @@
      "calls": []
     },
     {
+     "id": "evt-11c8b7f21fb5",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T12:49:33Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Silver prices trim losses as oil prices ease, while investors watch US CPI data for a possible relief rally.",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQUUpYU0NfWndYRUx6WDJHck1RRkxmdjBZd3JtRW1ieWNsZ0ZOQkYtb2F2TmRFa3hCOVhjbjl4ZVFPa0JmbE9yUjhUbTV5RHJiNUk5b2MxbklZN3NnOVEtV2FNa3FLUlZqRnNvX0VzQlZ2TFR2UXhkWHZ5M0gxa3czc0VzZDhWSllOeTgxY0xQbDRyNHQ5VnBZVWk0djJYbmlOc21TcUV5bmd4ZEYzdlA1Vmg2b2tPN3pTQlNMOUpKSXBDcWNybm8yMnFQTUVvbjVCMFpXaU9hUDRmNkFFcGdhM2xaQUREZkVy?oc=5",
+     "moved": [
+      {
+       "asset": "XAG/USD",
+       "asset_label": "Silver",
+       "date": "2026-10-14",
+       "pct_change": -1.765,
+       "direction": "down",
+       "reasoning": "Easing oil prices lowered inflation expectations, prompting investors to reduce safe‑haven demand, pushing silver down.",
+       "confidence": 45,
+       "linked_event_ids": [
+        "evt-11c8b7f21fb5"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
      "id": "evt-c007d29569a3",
      "date": "2026-10-13",
      "dt": "2026-10-13T10:52:05Z",
@@ -197,6 +622,18 @@
        ]
       }
      ],
+     "calls": []
+    },
+    {
+     "id": "evt-d963e4dfacc5",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T20:16:00Z",
+     "event_type": "geopolitical",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "Johnson & Johnson shares fell as Middle East conflict dampened medtech sales, impacting revenue.",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPNndQamZJWXA0V0t6c3RPeGJvOXI3V3h0bDF2MlhGVWRoM091OTNLeW5yYU5Pby00VnZmMDBOT1U3bWlMLUVTZHE4UjhhZ1pxSTVkcGVZMXFMYnFQTmJOR0FUYVdrUWlycU1SNkQ1NzdTbVR2b3BNSmxYZW5sMWwyTEc3SnZuX0lIcEVTellB?oc=5",
+     "moved": [],
      "calls": []
     },
     {
@@ -320,6 +757,90 @@
      "calls": []
     },
     {
+     "id": "evt-2af6d0917efc",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T21:40:16Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "SMU steel price ranges rose further as a tightening supply squeeze pushes the market higher.",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQmQ3MmVwa2xrdzhzNjZaSjZFWDBjdTlzV25PbTFfSDJXZE9pSGhta0tVRDN6dzRQUzJia3ZKMVM3U3lnVUR4QUNXVk5QZEZGeFgzV3pXbGJDT18xN1NNVFpZVDBtWUgxSGdIaldIZ2ZQZ0VGaVlOaVBaVXhkeWQyazRsYl9hWldiNnNOOHZmajVOQTZEZHFxVWt3Vmx3alhrdW9QYXNHdlBqWmNyOUE?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-81b2b9c739e4",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T20:03:26Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Gold prices remained steady as U.S. existing home sales increased 1.5%, indicating stable demand.",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbURsam5LMHFfSk8xaWhMLWdKLW1pamowaEhTRUdhcWN6ZmwtSnVjSXlGS3VZdy13dUljUDRfdk9mWDNwX1ZKdUV1ZFB5TnVNQkFfWktOdXU1a3FlTTZ6YzliZENXeTc4LUUxRy1BbXI0VzFBNzcta0NicVF3dWpMMjJIRDhJS3hUYk9QSWpMaTdhS0hQemt6MTF2cE5kRVc3dGJORw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-1bb463c8f64e",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T19:16:13Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "US LNG export ramp-up pushes natural gas prices higher.",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQXRKZ1BmN1ROblRpLXdWZnBncDdFbmdadExvNy1uaW9tM1JzSHdOUHlBbnl0RkJMWEtCbG1hbnNTckpKQlRVS3kyck04a0oxbWFybHJrcU93NVE0NkVWb1oxdU5PR1BNS2Fmd3AxVjRJbFlVNzNSSXVyV0FOQW5GWE9BTU5hNGlKWVJoRHBDa1NPdw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-6136bfca8a67",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T19:12:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Industry roundtables warn of an upcoming aluminum scrap shortage, which could boost recycling firms' margins.",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMnRuSkxxZUk5WnBLS2Z3bXZtVzY3QkI2bFl3X2FLNXJTSjlHT2dqcGhPQVdock93X2llaWFaMW1RYk54cHJRSWFBRXdyUng1VFpweGFjTjdkNGY3V2VHcGlVd3FQVUZkZFBDTFdOaGpCRzV6MXM5dHo0aUNPbGM4dkV3a0d3VXA0aUVEX2FBOEQ5a2ZsTlk1VnFYTkdrbm1vdGlFRllYdlpXcnhTUXpKbHJQbw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-ba8fe199e631",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T18:59:20Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Natural gas prices fell after renewed LNG demand and higher storage forecasts, signaling a shift in market balance.",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWTJ1UWRDLUxYYml3djhrVGhuRlZJWlNlNWQxcGcwcDNXMVlSSmlzMWVmazByVGEzUnFsZEV2MXVCWWFIMElWenVmT1FyWlktSk9ZcFNWSWQxUTk4d2J5UGVYTXk4T3BzVEw4cEV3XzNqZTQwMHRtLUIyakVMeGRyYXNwUVRNdE9ocnlKSHBQLTA1b2FCcmFXY3Q5dTdJeUVBZGZvZ0NUcw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-cb08ce76d80d",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T18:56:45Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Analyst Zhu of Sprott says rising industrial demand and limited free float could drive silver prices higher, but supply may lag.",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNOHlkaG1KcEVNMXpMNDBIaWRaLWJtby0ycS11ZnFfMEJzLUFtcV9ycDRneUlqOEN1SU5nbTBRc2NmYWVLTGdfdE5SWXNYT2hEUU5EZFBvNm9tLUozRVJCY3RHS1hDaWJvT2FVcF9QVkEtZWpRZ1BJak15dWhvLUhmdmNRR3RnS1YxWElwZWZXNWFQbnRJVmRlOWVoaW56RjliSFE2X1BNYVNUUFZrMmdnTGVDbEQzM0pvNWFr?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-4c6134f59a5a",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T18:55:50Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Saudi coalition strikes fuel depot near Yemen's capital; Houthis threaten retaliation targeting Riyadh and Dammam.",
+     "url": "https://www.bbc.co.uk/news/articles/crx2d60y1py3o?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-b73ace2d3675",
      "date": "2026-10-13",
      "dt": "2026-10-13T18:53:00Z",
@@ -380,6 +901,55 @@
      "calls": []
     },
     {
+     "id": "evt-b0f0fc27707d",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T18:07:05Z",
+     "event_type": "geopolitical",
+     "severity": 3,
+     "region": "Global",
+     "summary": "US and Europe disagree on ending Russia's war on Ukraine, affecting energy ceasefire.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/why-trumps-energy-ceasefire-upset-europe?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-bf985f3b2723",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T17:55:34Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Metals weaken as front‑end yields rise, Hormuz risk offsets softer dollar.",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQelNlVGxGUi1zVHF6VmttSGxpcXA5R0dzSU1hQWZobi0zTHI4WmxRY21RSmVhQ1VZM2sxVjN5TmllMGZwQVl5eC14a0dXaU9OdThubG9LRlBpWVZyQzdxQ0pDN0R6R2FQWVlDdDhoWWIyNkVYYUVFZzhuYzhHcExjTXkyVG5obVBIUTBaVVc1V3FOSXhGNFh3dU5XVG5va0FfeTBGaU5Wams5ZUxFSjJGY1FucDBKT1oyc3c?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-84a149d48c05",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T17:53:05Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Visa stock attracts attention; article explores China angle.",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdXRIZG9kb3JDSldfUWxzWmRFOFhKMEFWYzk1dUpvYjhGSHBQQnJ5bjJoQm5MUTdEUXFvX01DQkFack1WYUp0eHZpODhGVFQtZ0QyOHNWS2RYdktsMm4xSWhNeVRMRnNXczNHOFZodzZnbzBCckxtV19fRTByRVlsSm5ucmhSbWNXLWIxTnVaajd6NmRwNGRpd2pkOFFKdV9pZVI5WlprblZIWF9QcDZSSk1US0paWEoxMVNCWXduQjlYbnZ2MkR3TA?oc=5",
+     "moved": [],
+     "calls": [],
+     "similar_count": 1
+    },
+    {
+     "id": "evt-2b9c4605b692",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T16:13:09Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "JPMorgan Chase posted a quarterly profit miss on Oct 13, 2026, citing weaker dealmaking and bond‑trading revenue.",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPWkpHWW54ak0tS25QWlJYZDQxbUdyaWdmcjU0bnFaUU12R0YtSDhmcmpwZ0FEVVZRUHhUa2pueVVRNVdaUlVPU0VmaU5IMHFoNWNjbF9EMDh5TkpobENoQzR2d2t6eUtTeW5PckM5QkNQakhyNFo0MlpFbnlGdldqTk1zUi1vbnNmVHlVNnp3NmJIdGh1dDdPTF9FVHJ6bUtwOVR0N2NiUEo3YVF4SldvVg?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-cb57322b132f",
      "date": "2026-10-13",
      "dt": "2026-10-13T16:06:56Z",
@@ -390,201 +960,9 @@
      "url": "https://www.aljazeera.com/news/2026/10/13/uk-spy-chief-says-iran-is-stepping-up-targeting-of-military-bases?traffic_source=rss",
      "moved": [],
      "calls": []
-    },
-    {
-     "id": "evt-fdce43e4d9ce",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T15:53:35Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Asia",
-     "summary": "Kazakhstan announced plans to sell part of its gold holdings, now representing 78% of its official reserves.",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOenFCUzlpUWVOMVAwTk9BUU5YM1ZhWGVuY3BpR2pkQzR5SlcySEtKSm4zRVNSZ0FkUzlOUXBrbG05Y2Y5N1NxZ0JpOEQwMGhJUVZ3dGJTTHdBYkljLWNlcm5CTFdyT0t1MEJpd3lxbkJRX1I1MGNyd2NTQ0ZKV2lWSUtVbkIweUpCbmVhbXJIbVVFbThGQm5YUkxKVS1vbHlQM3cySmxCbl9mYTlMSGhpc1hYajE?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-a1e6604bce09",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T15:44:44Z",
-     "event_type": "geopolitical",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "French authorities seized a tanker they say belongs to Russia's shadow fleet, citing sanctions violations.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/13/france-seizes-tanker-suspected-of-belonging-to-russias-shadow-fleet?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-ccfff371e926",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T15:42:56Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "JPMorgan reported Q3 profit below analysts' expectations, and CEO Jamie Dimon said underlying economic forces are shifting.",
-     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQTmR0OXdsZUNtZTNkbFJURF92ZDlLcUMyYlgwOTlNM1haRUxaanEzUldWekt6VVVFQjRhQlByQ0tJdlBQZU5pYl9wUklrUktkUk5jamRtT3VtTVd6ZmxRZWpHMTFEM2huMHBxR1E0RzZNRmRrNzduQXdhR05oYW1wQllCa0cwcllwTGVhUVZKeU9xNGFwVnlsTFFyZ2dHYUY5OUtkTG5BOE9HWFh1NVNEc183UnZsQ1RuYWJiN2J6QUM4Y0tVLUpvcVp3MC02ZmhZaFRITVJwa002NEwxNmRyMzdvNWFvTnZ5S3Yxd2I4QQ?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-cdef5155c7a9",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T14:51:59Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "Bulgaria summons Russian ambassador after a merchant ship sinks in Black Sea drone attack.",
-     "url": "https://www.bbc.co.uk/news/articles/cmn06w5x9g25o?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-48dc996902cb",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T14:42:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "Procter & Gamble reports improving business trends and raises its 2026 growth outlook, indicating stronger earnings potential.",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPLWRueVJWdm5ZMHFIZXY0cGwxd1dDYWc2TXpYZU1CUWE0bnhydVVRcENEY281eXdyUDA3WTZESGI1NmtvZ2l5MTlLUTM4S2RlYXlOYmhxcjNDVVRqTEJUdm9jS0x6WFN6S29SekRCUXpCd1pKQTByRWxZNlQ4dEstRTVYSG1oUHpYVjlYQlV2R1JKUWtlSjAzd29jOTlpTHFxaWd0TkZaYm1SNThJWW5JNkZLUmdCQ2pG?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-889822916b64",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T14:36:51Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "Caterpillar announces a $1 billion investment to expand manufacturing facilities in North Carolina, aiming to boost production capacity.",
-     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPd29ia1l5Ry1IVHExMUJHSTktVGhjaXNHdm53M18wbDNuQko0OHNGMGZIRGlyOUx0MnBoNVV4M1ktazFRdEhKVUMtX2hxZC1rUXRLcVp1MW9jREo0UWpYUkt3V2kzZ19IM29FSmNJSGw0ZlY2bkVzMVFtYURVWFFfMlBXRVBacmhmaUNHSkUzRS1wMDFLQW1Td09IekhyWUVrZk5GSWM2SHR0aExyaTV2Zm1EX3dPdGJQdWk1a05QZmlid1k2aE5hUWt3YlDSAdIBQVVfeXFMUG1OSklrQkxPaFU0SjJ3Wm42LWthQ3A2VXpGYU9iYk9ZOVctOTl6bk1BclRuWkxaVzhGVld6WkQ2dHUtRGIyX3J6MjhUeVdRUzR2bUl4cExPWTJOMng4NkdMb0pfRjMzb09WbmtoVUZRQ2paNGhPQ1NVc1JQXzN3RkRieGRfcG1TVndCanlxczQxY1E2elJMWG5XdnBSR1I1OFRnOVRwQ2pVc2FvMFpJdTBZNzM1VWg1YjM5VlAtUEZoZUh0NWJyYzNWQ19TRk5qUlBB?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-6a1bb7ab5157",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T14:20:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Bloomberg analyst McGlone forecasts silver prices could climb back to $50 per ounce, driven by market demand and investor sentiment.",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdlBMYV9QTmU1UlEtb2tsU3VsakZBaHFmWXdWMnBfSEo0Q0k2cWVlQ3pHRHF2YjBWaHhCN05vZmFsV3NRVFdOallXMGZUakx5bnR3Z0xJNV9MakFHLWVLV1UzTGZWNGNMbU11aUUxam5nOGl2aHgwY3JTZ3FBbXgyblRlS0c5cVNyUk5vbS1rcW1UNnZlcXFvSFJTYzBHNzVQT1NURw?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-3c9ad1952a0e",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T14:13:20Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "South America",
-     "summary": "World's top copper mine in final bid to avert strike as copper prices rally.",
-     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOYTNCbDJYbFlQbDBKV0c2Znh2T3U2WEN6Vmt1bDdQbnhLWnc2VVZXek9qM0FDX3pWM3JZb3F0WXVjU29BM01lSUpERDNLeEczajJjNTh2REI5YU95ZWpwMGlTYVA2eHFnel9zTS0zNlAyUlA2a2FvLXFST3JubmozY085UHdvRTNuUUFMU3R5LXFTeHVDdmVRelZtT25Cb1VpQWpoUlo5aDY3WXBOcU5ITG43Tnk1X0xXakE?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-4659cf5b6ea5",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T14:00:43Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "JPMorgan profit misses estimates due to fixed-income trading revenue disappointment.",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeXZMWU0xNWxjRDVyUWF2MUtzdnlfT0ZJeGU5TVhQUmRMSjBJOTlRbjA3bW5oMVQtOHVKQXRwaDgtSU5SRDdjQ2ZlNVM3M2xQZklhck1YYlZ5aUNjNnMyZXdpY0ZzdFpJT2NsdWoxb0laVW1aeDlTcUxCMnkwZ3haSTJQZGV0MmpQcVl2Rnk3OF9xdjNSc2RacjRrQ2hfUWxhODM2RzVONlRZZU85OWFzRQ?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-a0420871f43a",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T13:46:58Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "UnitedHealth Group reports strong earnings, driving a rise in its shares.",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZzgtUTF0NVVDYnp2VzZUTG4zZXpSMHBMYXlNYlRuRnJpa2JNY0NOaHB2Szl6QmhPUWtYU2plRGRwNVUzSjkxRTROSGppN2N0bUtFUV9TSU9qd3g1eFU5SEdhRkZRejBoT2lDaEF1TDczTFUyUVUta293Y1B6c3lkYWc5dk9MTzZGT0JkU185U0hjaHZmUFdENnRZTVdfeGRYUC1zQzFWbmY?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-3c133f9cbbe5",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T13:41:47Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Gold price forecast shows continued movement driven by interest rates.",
-     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUWtTWEdkTU5mRk5aZ2huY3c4VHhmZDFCMWZtekRYU3VrQW9sSVc1djRxRWI0MTlBaEM1WTkwMU53ZGIxcDlqcUtTSHpnamVkZkVjM203RDJpb2JXbEFLMl80bnNydGNYN0E1bEFnOThCM2FaSUVOR2JtX3dDOVZEV1h4dnJlMDk0c05kaHI2MTNYZ2N5SVJMeG9BR2Z4bUd3NE42MA?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-b75dc3dfca65",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T13:37:25Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "Mastercard shares hit a 52‑week high at $601.59.",
-     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORTV3ZkJGZGFUWm5SSVlkLUlpM0lWVUlhUHdfb01wenpaOE00OXA1UDlZcXVuX1NRZWJrOVdSZ1RYSjNGaFc4RHhhY1FLWUFSbG53MzQ3ZUZVVFpUa1N0WC14c3hyTm5oWTNPZW9ZRHY2S0xEclJ0Q214NS01SlVkUDJNeEN6TXZYSWxkaWY2d09yOURISXZGMkoxUzMyVUQ1N3E5VXdR?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-01de52b936b8",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T13:37:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "Henry Hub natural gas prices lag profitability, but output remains strong.",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSEVYUmJzQWNRSmhxODRhSU9kRmJYNzJOaXdLRmE2NTVZRmxra1RvSnJtdkxGLVIyRjkxeHVYZGxSSXNwRW81ZnZoZ3p3YjhpM282WFlWTndhaHRwVUtsdHJnMG1Ea1VRZEVoR2kzSEZESVduemJzSjN4aFhZeG1QbnZHeFM5LVBhSW5EaDhDMlJTOUt2Y041NEZDX1dwdDNTdGpvWEkwbE1HMjBfcHc?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-e866a7c2586b",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T13:32:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "UnitedHealth Group lifts 2026 profit forecast due to easing cost pressures.",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZkFlTG1ienFMOWNLY3lrcEJzTUxadWZ5YWVyNkVlZTRNNlE4M3A1M1hybHVTMVJXamR6ejdTRFZDLXgzTkxpV3NuUmRFUDJDelVtRmhDUGFQMWhjSVYzM2JHenhtWXJnS3RxdVdlUjBicXMzX2x6LVY4NGt2VzVUZlJBeGs5aE9MRDZVYS1vNjZrbEkwTlE?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-5e926757ed4d",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T12:23:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "Barron's lists four key factors to watch for Tesla's upcoming earnings report.",
-     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUGpfRWdkT19valFKZk8tR1Y2czlQUUhsZmFCaldsSkxNd19kVDFpXzAxcXBPYXZHQjAyajJzT2lkRURaWExCUXZ3cXJfLTNCSHhEczdLNWdnX2lFRjRVMTB3YkhFdXBTZXYwSWlMNGRicXptbm1RUDV0M2VuWTlKcWdvSW5rZw?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-e31f872c09da",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T11:53:25Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Investors are increasing positions in uranium, driving speculation and price pressure on the metal.",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ2pMSE43b0xCaVBrQUpGR0ZJbHVKQ1RNckpPSXBpeS1SRnJnY0hFSGh4cGc1X01ITlM2X2RwdDU3eUdQQmp0WE1IT21nb1NSQmNJN0pfVm80TkRkdU15UUpaRjBuOTEwM1J6MGpOdFZudnNkb0R1OFB4dTJ3TmFkZkpNOXFQS1FSTGFtclBsc0dSakpKOENrMWtsZzY4TTQxRzlrdHNfamZqXzF1c3g0YzVjMGhSUHFjM194cDR3?oc=5",
-     "moved": [],
-     "calls": []
     }
    ],
-   "events_total": 84,
+   "events_total": 114,
    "moves": [
     {
      "asset": "CAT",
@@ -1271,6 +1649,30 @@
      "calls": []
     },
     {
+     "id": "evt-b9e395158dca",
+     "date": "2026-10-12",
+     "dt": "2026-10-12T21:19:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Shares of Nvidia and AMD fell after new AI announcements failed to boost investor sentiment.",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQXZzMHlabWpaZHpJVFo0dkxhUUpKbDRod2NNYmJPYzJ3Qk5aeWVMMkJUM3JyR3pNM3QxWmlFbVJOVUtLWnppX05vakw2ckNjdHExYmN4M1F5UUd1NU13Vl92dWtIenNJNHRaSlJOU3QzdkxndGI3UmFXclNIM1pxWFJ4UkhXczZmVnN2TlN6YzYtQ3NWX3JVS0FGNW5MVHd1WWNHbVJiX3NYeDRkeElOcnZRbXpaQUU4UU9Kcjg4M1Q?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-e4188b6d6db4",
+     "date": "2026-10-12",
+     "dt": "2026-10-12T21:08:40Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Trefis analysis suggests Walmart stock may increase market risk for investors.",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMzNnaGhCUjdQS3JPRGJGNkZva3ZZNTQwRm5MOTIwSTZIdXFMX0kzcGlEMXVVS1gtWHpxcjJjakhHSTE3VllnVVZiX0tCSjZxZlpsMmhaOWJUQ09BM2RnbjhCd1BTVkJ4LWpURTFKSHJBSTJfTDBNRU9QdmZickVab1RQOWROQi1WUG81OTlCVm9fZTRmdVFYNlVYclFSR1FLOEN6b2s3OA?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-76b09876f655",
      "date": "2026-10-12",
      "dt": "2026-10-12T20:54:35Z",
@@ -1377,33 +1779,9 @@
      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZFJtdzhERmZ4U0tnYzQ3MEZUcFF0SGIzYjYta3VTc29LTk5jeXJtYnlBQVpwWERPUTdYUWplMml4TW0tZi0zdWVuNVBwLTRMLUYyYWVwYVVNQ2RpTHl3NUY3Tm9YSU5IRlVSNVprSF9iYlhUM1lfUDA4THBDaUltRGQ0WVB5WEdZczVUeExiS1VBQk9TQlljYVJRcUZfUmRPOUE?oc=5",
      "moved": [],
      "calls": []
-    },
-    {
-     "id": "evt-af7c71b99d9f",
-     "date": "2026-10-12",
-     "dt": "2026-10-12T17:00:20Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Gold and silver prices fell as markets priced in a possible December Federal Reserve rate hike.",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOMm9vWUZmMnhWUlpnZWtuaC14TkxWb0NVX0kxcUhDOVZZaGVKV2oyaFl0Umh1RjBTdGZtbDdlQzBUSEpJRHpkcDVOYng0SGJZRm9xZVlDQnV5dkRaSURzNXB4c2tyRTVIUVdhOS1MeTZZOXNPcmlxQmE2ME5CTXNMVXFzRFFUWFFwRElRTGpQREVFbXZwSWwxd1hXcnFoSVJRaXF2bVZnWVFSejRiYzJuaFNRdXQxYWFf?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-2e352db52b3a",
-     "date": "2026-10-12",
-     "dt": "2026-10-12T16:14:34Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Copper futures hit all‑time COT extreme; analysis of positioning trends.",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQURPOXRxT1lsRmNxa3QzLTcyZFBWYjQ5MU12aUhKYldIZm1UakFsNWJIYVh2RmhjVndtQzdfT1dQeUY2MDJwMy1PS2hVTmpOWUM5VndkSEJGRDFvZjItdDRzT0VjeTNuWjl4QlhYVjJ3X2Ytc3BGMG1XSzVmbDg0MVpydmJzc213ZGZOUUtxWWoyeDRLNXZtd0pBd1kxSFlmanMtdTJlNWgydW5aOEc2amNZYXo?oc=5",
-     "moved": [],
-     "calls": []
     }
    ],
-   "events_total": 119,
+   "events_total": 121,
    "moves": [
     {
      "asset": "HEATOIL",
@@ -4477,7 +4855,7 @@
        "threshold_pct": 1.0,
        "confidence": 55,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "WTI",
@@ -4485,7 +4863,7 @@
        "threshold_pct": 0.8,
        "confidence": 50,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "XAU/USD",
@@ -4493,7 +4871,7 @@
        "threshold_pct": 1.0,
        "confidence": 60,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -4539,7 +4917,7 @@
        "threshold_pct": 1.5,
        "confidence": 70,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -4560,7 +4938,7 @@
        "threshold_pct": 1.0,
        "confidence": 65,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "Brent",
@@ -4568,7 +4946,7 @@
        "threshold_pct": 1.2,
        "confidence": 60,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "XAU/USD",
@@ -4576,7 +4954,7 @@
        "threshold_pct": 1.5,
        "confidence": 55,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -4597,7 +4975,7 @@
        "threshold_pct": 2.0,
        "confidence": 55,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "Brent",
@@ -4605,7 +4983,7 @@
        "threshold_pct": 2.5,
        "confidence": 50,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "XAU/USD",
@@ -4647,7 +5025,7 @@
        "threshold_pct": 1.2,
        "confidence": 58,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "XOM",
@@ -4684,7 +5062,7 @@
        "threshold_pct": 0.5,
        "confidence": 55,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "WTI",
@@ -4692,7 +5070,7 @@
        "threshold_pct": 1.0,
        "confidence": 60,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "Brent",
@@ -4700,7 +5078,7 @@
        "threshold_pct": 1.0,
        "confidence": 60,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -5159,7 +5537,7 @@
        "threshold_pct": 1.5,
        "confidence": 55,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "SIL",
@@ -5188,7 +5566,7 @@
        "threshold_pct": 2.0,
        "confidence": 45,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -5259,7 +5637,7 @@
        "threshold_pct": 0.5,
        "confidence": 45,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "XLE",
@@ -5396,7 +5774,7 @@
        "threshold_pct": 2.0,
        "confidence": 52,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -5417,7 +5795,7 @@
        "threshold_pct": 1.5,
        "confidence": 55,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "XLE",
@@ -5433,7 +5811,7 @@
        "threshold_pct": 1.0,
        "confidence": 58,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -5507,7 +5885,7 @@
        "threshold_pct": 1.0,
        "confidence": 55,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -5536,7 +5914,7 @@
        "threshold_pct": 1.0,
        "confidence": 55,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "Brent",
@@ -5544,7 +5922,7 @@
        "threshold_pct": 1.0,
        "confidence": 55,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -5565,7 +5943,7 @@
        "threshold_pct": 1.0,
        "confidence": 55,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "USO",
@@ -5581,7 +5959,7 @@
        "threshold_pct": 1.5,
        "confidence": 50,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -5602,7 +5980,7 @@
        "threshold_pct": 1.5,
        "confidence": 55,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "XAG/USD",
@@ -5610,7 +5988,7 @@
        "threshold_pct": 0.8,
        "confidence": 60,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "XAU/USD",
@@ -5618,7 +5996,7 @@
        "threshold_pct": 1.0,
        "confidence": 65,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -5676,7 +6054,7 @@
        "threshold_pct": 1.5,
        "confidence": 55,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "XAU/USD",
@@ -5684,7 +6062,7 @@
        "threshold_pct": 1.5,
        "confidence": 60,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -5817,7 +6195,7 @@
        "threshold_pct": 1.5,
        "confidence": 55,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "Brent",
@@ -5825,7 +6203,7 @@
        "threshold_pct": 1.0,
        "confidence": 60,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       },
       {
        "asset": "WTI",
@@ -5833,7 +6211,7 @@
        "threshold_pct": 1.0,
        "confidence": 60,
        "expires_at": "2026-10-14",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -19828,932 +20206,6 @@
      ]
     }
    ]
-  },
-  {
-   "date": "2026-09-12",
-   "events": [
-    {
-     "id": "evt-5f2cc20b7777",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T23:51:05Z",
-     "event_type": "military",
-     "severity": 4,
-     "region": "Ukraine",
-     "summary": "More than 300 Russians missing after 2024 Kursk offensive in Ukraine, officials say.",
-     "url": "https://www.bbc.co.uk/news/articles/c62ene9kr71o?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "Brent",
-       "direction": "up",
-       "threshold_pct": 2.0,
-       "confidence": 65,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "SLX",
-       "direction": "up",
-       "threshold_pct": 2.0,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 2.0,
-       "confidence": 70,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-2c2058f536ad",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T19:56:09Z",
-     "event_type": "military",
-     "severity": 4,
-     "region": "Middle East",
-     "summary": "Israel launched airstrikes on southern Lebanon after the next round of US‑mediated talks was postponed.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/israel-bombs-southern-lebanon-as-talks-postponed?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 70,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "Brent",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 70,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 60,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-71f7a48116a4",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T23:03:30Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Indonesia",
-     "summary": "Forest fire reported in Indonesia from 09/09/2026 to 12/09/2026.",
-     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031925",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "ALUM",
-       "direction": "up",
-       "threshold_pct": 1.2,
-       "confidence": 55,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "COPPER",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 50,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 45,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-098acaaa9bc4",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T23:02:31Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Southern Africa",
-     "summary": "A forest fire started on 09/09/2026 in Angola and continued until 12/09/2026.",
-     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031923",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "USO",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 55,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "Brent",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-580d429cacaf",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T22:40:25Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Oceania",
-     "summary": "Magnitude 4.3 earthquake struck 31 km ESE of Lata, Solomon Islands.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th23",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "range",
-       "threshold_pct": 1.0,
-       "confidence": 30,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "COPPER",
-       "direction": "range",
-       "threshold_pct": 1.0,
-       "confidence": 30,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "ALUM",
-       "direction": "range",
-       "threshold_pct": 1.0,
-       "confidence": 30,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-fe62e6137f5e",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T22:37:03Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "Tens of thousands protest across Germany demanding ban of AfD.",
-     "url": "https://www.aljazeera.com/news/2026/9/12/tens-of-thousands-march-across-germany-to-protest-far-right-party-afd?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAG/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 50,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 55,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-13728314e167",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T19:34:04Z",
-     "event_type": "geopolitical",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "Bahrain announces it will not attend Iran's proposed meeting in the Strait of Hormuz.",
-     "url": "https://www.aljazeera.com/news/2026/9/12/bahrain-says-it-will-not-participate-in-irans-proposed-hormuz-meeting?traffic_source=rss",
-     "moved": [
-      {
-       "asset": "GASOLINE",
-       "asset_label": "Gasoline",
-       "date": "2026-09-11",
-       "pct_change": 2.507,
-       "direction": "up",
-       "reasoning": "Tensions in the Strait of Hormuz may tighten oil supply, driving gasoline prices up.",
-       "confidence": 55,
-       "linked_event_ids": [
-        "evt-13728314e167"
-       ]
-      }
-     ],
-     "calls": [
-      {
-       "asset": "Brent",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "USO",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-663255993872",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T19:17:37Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "Houthi forces seize Yemen's Red Sea coast, securing Bab al-Mandeb strait, potentially giving Iran leverage.",
-     "url": "https://www.aljazeera.com/video/inside-story/2026/9/12/will-houthi-advances-in-yemen-give-iran-leverage-in-its-war-with-the-us?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "Brent",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 55,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-5038a20e8ac5",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T18:53:31Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "Iraq probes drone strikes on Saudi Arabia and shuts three crossings to Iran.",
-     "url": "https://www.aljazeera.com/news/2026/9/12/iraq-probes-drone-strikes-on-saudi-arabia-shuts-three-crossings-to-iran?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "USO",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 55,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "Brent",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-679fe02213d9",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T18:36:17Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "Iran’s president met UAE’s crown prince at the BRICS summit, their first high‑level talks since the war began.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/09-12-clip-uae-iran-brics-talks-mp4?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "Brent",
-       "direction": "down",
-       "threshold_pct": 2.0,
-       "confidence": 55,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "down",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "down",
-       "threshold_pct": 2.0,
-       "confidence": 58,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-325cb637424d",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T13:02:15Z",
-     "event_type": "geopolitical",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "Donald Trump predicts the Iran war will end soon after the U.S. midterm elections and that oil prices will fall sharply.",
-     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNnNmT0R6dktjR19lNm1jYUVSaTk5dmJTTWhsZXNoeVFwT2haX0JRZFBhT3lXUTA2V3Myem1NTEEwQ2RNRGZMcVdnaTYxZzlySVJyaW82Mm1TcmRjQmRJSmc0ZXV5V3V6TE90RjlVc3JPS1hMdG95dS05R1lMNFV3OWc5bmtPQlJzTkhod3lBRnFLZklfeVlJSXpKVkMzd9IBowFBVV95cUxPU3BrdUFqUUl0UkctWHNVOXFjcUZFWkZaYlFXWlJTNGJrQWpjMTNERXdxX09Oa0IxQmVqTzZsSDdkZl9MQS1JaTlsa1prbWdxNkZ4aGhZOEZjeExHd0Vjc095QXBXaWpuRjZSZV8xaGZpUFpKSklQM3dESXVOSGtYNWs4NFQzR1doRmtzaXFjcEtqbHVkS3A3VWIyZlZsenVZTXFB?oc=5",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "COPPER",
-       "direction": "down",
-       "threshold_pct": 2.0,
-       "confidence": 45,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "XLE",
-       "direction": "down",
-       "threshold_pct": 2.0,
-       "confidence": 50,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "down",
-       "threshold_pct": 2.5,
-       "confidence": 55,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-e8d8652391a6",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T11:32:02Z",
-     "event_type": "geopolitical",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "Yemen's Iran-aligned Houthis celebrate seizing control of the Red Sea coast after a rapid offensive.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/houthis-celebrate-seizing-control-of-yemens-red-sea-coast?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 50,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 55,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "Brent",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 55,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-fcae3d1daeca",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T10:00:05Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Africa",
-     "summary": "Kenya's crackdown on foreign traders has sparked fear, prompting migrants to flee the country.",
-     "url": "https://www.bbc.co.uk/news/articles/c4g5kxw4wd7o?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "ALUM",
-       "direction": "down",
-       "threshold_pct": 1.3,
-       "confidence": 53,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "COPPER",
-       "direction": "down",
-       "threshold_pct": 1.5,
-       "confidence": 55,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "down",
-       "threshold_pct": 1.0,
-       "confidence": 50,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-5dddce01e9e4",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T07:44:06Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Global",
-     "summary": "US President Trump could inadvertently strengthen BRICS, according to analysts.",
-     "url": "https://www.aljazeera.com/opinions/2026/9/12/trump-may-be-bricss-best-recruitment-agent?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "COPPER",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 55,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "Brent",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-c62e183de367",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T06:30:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Investor Michael Burry warns of a potential 1987-style decline in AI stocks, remaining short on Nvidia, Palantir, and Tesla.",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxORF9XSEdlbE5wYlZQS1JzTE9xNmhBeUtiY1hXN3NseEt4SXhaY0htUGRxYjBPSGU5M0hDRTZjQmQ5b2VpbFJhV04zN0JqNzljYllzM2VKUnBIQkNZN0dXX2xYb1hHN0ZrMzJ4Mm5qdmZfNWNibjVQaTJQVG9QSkFxbk4yeF9zOWdtV1k3MXhnNVpDNVZKZ05GeQ?oc=5",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "TSLA",
-       "direction": "down",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "NVDA",
-       "direction": "down",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "PAL",
-       "direction": "down",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-52f77a84106e",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T04:00:23Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Afghanistan",
-     "summary": "Former US diplomat says Washington wants to keep Afghanistan from becoming a hub for anti-US groups.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/12-09-quotable-this-is-america-911-us-khalilzad-taliban?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "BA",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 50,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-da6dfb667b4f",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T02:25:59Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "East Asia",
-     "summary": "North Korea launched ballistic missiles off its eastern coast; South Korea reports close information exchange with the US and Japan.",
-     "url": "https://www.aljazeera.com/news/2026/9/12/north-korea-fires-ballistic-missiles-off-eastern-coast-seoul-says?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "BA",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 55,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "XLE",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 45,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "CAT",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 50,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-8652d8de8628",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T01:00:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Analysts discuss whether gold prices could drop below $4,000 amid renewed economic risks.",
-     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5oTnZic080dHlRaHhOVHgzMnNZdmhfb0V0c3FKZ1ZocEUzdWt2Zmt4aURaOEFfYzBHLTRtaXQyTUkwbGNoczJZbnk3c1MtRW4yY3Q1WUdOMHFrN2JDYmluVzdTY2k0U3Vsbk5tclZ1dnVnTlZ2M0xR?oc=5",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "GDX",
-       "direction": "down",
-       "threshold_pct": 2.0,
-       "confidence": 55,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "down",
-       "threshold_pct": 1.5,
-       "confidence": 58,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "XAG/USD",
-       "direction": "down",
-       "threshold_pct": 1.5,
-       "confidence": 53,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-899fb34f07d3",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T21:19:11Z",
-     "event_type": "political",
-     "severity": 4,
-     "region": "US",
-     "summary": "An Afghan woman was deported from the United States under the newly used ‘alien terrorist’ court, despite never being charged with a crime.",
-     "url": "https://www.bbc.co.uk/news/articles/c3eqpd9zgl9o?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-478255409d40",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T17:31:56Z",
-     "event_type": "military",
-     "severity": 4,
-     "region": "Middle East",
-     "summary": "Iran war increasingly difficult for Trump administration to justify.",
-     "url": "https://www.aljazeera.com/video/the-listening-post/2026/9/12/selling-the-war-purges-polygraphs-and-propaganda?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-5d7a6245795d",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T15:58:53Z",
-     "event_type": "other",
-     "severity": 4,
-     "region": "Africa",
-     "summary": "DR Congo reports over 7,000 cases of the Bundibugyo strain of Ebola, with nearly 3,400 deaths, marking the worst outbreak in the country.",
-     "url": "https://www.aljazeera.com/news/2026/9/12/dr-congos-worst-ebola-epidemic-ever-passes-7000-cases?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-994ac2e3d5bf",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T14:49:48Z",
-     "event_type": "geopolitical",
-     "severity": 4,
-     "region": "Middle East",
-     "summary": "An Iranian official said the IAEA resolution on Tehran’s nuclear safeguards was imposed by the US and Israel.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/09-12-clip-iranian-fm-spox-aj?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-6f8d454a1438",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T12:10:13Z",
-     "event_type": "geopolitical",
-     "severity": 4,
-     "region": "Middle East",
-     "summary": "Former President Trump suggested Iran was likely behind a Saudi oil pipeline attack.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/trump-iran-probably-behind-saudi-oil-pipeline-attack?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-8a02e092d906",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T09:30:46Z",
-     "event_type": "military",
-     "severity": 4,
-     "region": "Yemen",
-     "summary": "Yemen conflict sees renewed fighting, killing or injuring over 900 people and displacing 5,000 families in less than a week.",
-     "url": "https://www.aljazeera.com/news/2026/9/12/fighting-re-erupts-in-yemen-and-civilians-are-paying-the-price?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-2ed2c57cdbec",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T00:00:00Z",
-     "event_type": "geopolitical",
-     "severity": 4,
-     "region": "Middle East",
-     "summary": "Houthis seize Yemen's Red Sea coast; Saudi Arabia shuts oil pipeline after drone attack.",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/9/12/iran-war-live-houthis-control-red-sea-coast-saudi-pipeline-shut-down?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-5648469a382f",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T23:18:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "A Motley Fool analysis shows a $10,000 Tesla investment at its S&P 500 entry would be worth about $15,700 today, while an index fund would have performed better.",
-     "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNYnF0OUhxaC1JOE9IUE5pNTJXZ0dnY2s1NG5fT2xOakJ2cjBzUkNSN1Vaenc5cGFMRTJIRFJVZ0M0N0RjZzJWVWdYQWZNZDFaS2hvUnNkbkFpLWxyWHpjU1JGMXJHOV9hNzZFZUVyNWlGT2tqYlExUXJjTnpkMW9lOVpBbDZMVGhGWnY4czQ5TU5DSDNIbUhhMmhDT3dmSGZHczd3dmt4Nnp4eF9wTDIzbk4zSlk1a3V6amxRaW1sV0dxNWVySEkxQjkzUFNESHEwRnl3YTRnRE1FUEQ3VzByMndWZkh6MEg5aEJpWUxVM2sxdw?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-83ca04d1ec1c",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T22:35:01Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Yahoo Finance highlights a cheap ‘Magnificent Seven’ AI stock that could become the top winner in the trillion‑dollar artificial‑intelligence market.",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTEJxdXgzVHE3TklELU16dkxCVUVoM0Frbk1TOTloRzJzakpnZnJqS1VXRGxxMXVLRzdmUTYySWR2Z0xUWTU1Ylh5TFoxOXdGdk5yc0dGTF9UVzNyYzFpZm5TOUVkZXp4OVFqVjhKTjVMM3Uwb3JremJ5THQ1ekVCa0FDZWhsT1gxa1FPRXBXUXhJYkZpdXc?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-0551511f5be3",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T21:38:24Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "Black Sea",
-     "summary": "The first naval battle between two unmanned surface vessels occurred in the Black Sea.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/first-naval-battle-between-drones-takes-place-in-the-black-sea?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-90e02f7612ca",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T21:25:28Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "US",
-     "summary": "Former US President Trump expressed desire for a unified Ireland, drawing attention across the Atlantic.",
-     "url": "https://www.bbc.co.uk/news/articles/cwyzppd1d5lo?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-dd40406b8edf",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T21:20:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "During SpaceX's earnings call, Elon Musk expressed preference for Nvidia over AMD, sparking discussion of the GPU rivalry.",
-     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaGRpeV9TcmZZZnBjQUxyQThaRk1rWGJsRDdBUVJGZ21jVjNSQ3B1X0d1NXpRMWMwUzRJcWItYUUtcU9jMUN3dDA5QmpUck1pcDBXX2p5bkZfelU5a2xSUDkyYnpxRFIxeEV3Wm9GMVJCcmdkc0d4cmFSMW5tdTJpN1dSZ01MWmRsMFF0bU10YXZqUQ?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-aa7fe2329460",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T20:44:18Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Central Africa",
-     "summary": "Ebola reached a seventh province in the Democratic Republic of Congo after an infected man traveled through Rwanda and Uganda.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/12/09-12-drc-ebola-spread-clip-mp4?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-abeb8facfbc0",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T20:42:23Z",
-     "event_type": "other",
-     "severity": 3,
-     "region": "South America",
-     "summary": "A fire at a nursing home in Chile killed 16 elderly residents, highlighting ongoing safety violations.",
-     "url": "https://www.aljazeera.com/news/2026/9/12/fire-at-nursing-home-in-chile-kills-16-elderly-residents?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-19581f95aeaf",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T20:27:25Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "A Russian missile directly hit a Ukrainian tennis player’s flat in Odesa, leaving only a Roland Garros towel, according to the player.",
-     "url": "https://www.bbc.co.uk/news/articles/c4gr33g3evlo?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-f16fbc884f43",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T19:49:29Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "US",
-     "summary": "A US federal court blocked the Trump administration’s plan to reduce the workforce of a disaster agency, citing legal concerns.",
-     "url": "https://www.aljazeera.com/news/2026/9/12/us-court-blocks-trump-administration-plan-to-cut-disaster-agency-workforce?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-da6c27864630",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T18:56:17Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Alphabet announced that its $200 billion AI investment is beginning to generate significant returns.",
-     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZm1sdThOb3EwekRKVHhHYU9ULUxEVDJ3cU5iVThEeFJsdVpWcXF1QzhZam5kVGZOeGtpWXhtellLWVZWZjl5YUlPZDZ6WWZsOVNsTGFSZ2lzTF9ueERDMWR0RkZpeXRVUmhHZG1SYnBVaHViejBiRjIyN1lpWFk5Sm1aTW9sNkhId09DMkpSWjhjZVFnM2xieUt2Zk0?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-bdf8df108bb3",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T18:00:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Gold prices increased after three consecutive interest-rate cuts, as reported in the XAU/USD market.",
-     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRnExTHFTS1lxeDJ0eUp0bGt2Y1RVbGMwTHN2MXEwYmMxZVhJSlZER01hd1hLYWdpeDd5VjJzNUJLS3BnOGE2OTV5SFItZWJlRUItVEZhWU5kSmJEbDlrWmdPNEpReTZhWVRVR29ZTmxqUlhGS09sV19sakxqQ1Etb2VtNTBxdV9kQmxob2MxX1JXaVNq?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-07c4de4836fc",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T17:38:21Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "Bulgaria is investigating a fire at a weapons site, with the owner alleging sabotage.",
-     "url": "https://www.bbc.co.uk/news/articles/cd94kj17zvwo?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-355c4b1f28eb",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T16:06:48Z",
-     "event_type": "geopolitical",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "Saudi Arabia may trigger the Mecca Pact if Houthi attacks continue, prompting potential intervention by Pakistan and Turkey, though direct involvement in Yemen is unlikely.",
-     "url": "https://www.aljazeera.com/opinions/2026/9/12/will-the-houthi-attacks-activate-the-mecca-pact?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-cd84f069cf8d",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T15:26:48Z",
-     "event_type": "other",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "At least seven inmates died in a prison fire in Kobane, northern Syria, after a riot over the killing of a former Kurdish fighter.",
-     "url": "https://www.aljazeera.com/news/2026/9/12/at-least-seven-killed-in-fire-at-prison-in-northern-syria?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-7fe0de361ae0",
-     "date": "2026-09-12",
-     "dt": "2026-09-12T15:05:53Z",
-     "event_type": "other",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "French authorities investigate a passenger train derailment that injured 44 people, finding a rail fragment on the tracks.",
-     "url": "https://www.bbc.co.uk/news/articles/c33kp533nn6o?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": []
-    }
-   ],
-   "events_total": 218,
-   "moves": []
   }
  ]
 }
