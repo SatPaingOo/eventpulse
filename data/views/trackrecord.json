@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-10-15T04:56:14Z",
- "total_resolved": 1026,
- "hits": 342,
- "misses": 684,
- "accuracy": 33.3,
+ "generated_at": "2026-10-15T17:14:07Z",
+ "total_resolved": 1029,
+ "hits": 344,
+ "misses": 685,
+ "accuracy": 33.4,
  "baseline": {
   "random_pct": 33.3,
   "best_naive_pct": 38.0,
@@ -18,9 +18,9 @@
   },
   {
    "value": "medium (50–69)",
-   "n": 810,
-   "hits": 270,
-   "accuracy": 33.3
+   "n": 813,
+   "hits": 272,
+   "accuracy": 33.5
   },
   {
    "value": "low (<50)",
@@ -34,18 +34,18 @@
    {
     "dimension": "event_type",
     "value": "unknown",
-    "n": 1026,
-    "hits": 342,
-    "accuracy": 33.3
+    "n": 1029,
+    "hits": 344,
+    "accuracy": 33.4
    }
   ],
   "direction": [
    {
     "dimension": "direction",
     "value": "down",
-    "n": 206,
-    "hits": 47,
-    "accuracy": 22.8
+    "n": 207,
+    "hits": 48,
+    "accuracy": 23.2
    },
    {
     "dimension": "direction",
@@ -57,8 +57,8 @@
    {
     "dimension": "direction",
     "value": "up",
-    "n": 778,
-    "hits": 284,
+    "n": 780,
+    "hits": 285,
     "accuracy": 36.5
    }
   ],
@@ -80,9 +80,9 @@
    {
     "dimension": "asset",
     "value": "AMZN",
-    "n": 5,
+    "n": 6,
     "hits": 3,
-    "accuracy": 60.0
+    "accuracy": 50.0
    },
    {
     "dimension": "asset",
@@ -234,9 +234,9 @@
    {
     "dimension": "asset",
     "value": "SIL",
-    "n": 3,
-    "hits": 2,
-    "accuracy": 66.7
+    "n": 4,
+    "hits": 3,
+    "accuracy": 75.0
    },
    {
     "dimension": "asset",
@@ -269,9 +269,9 @@
    {
     "dimension": "asset",
     "value": "USO",
-    "n": 35,
-    "hits": 14,
-    "accuracy": 40.0
+    "n": 36,
+    "hits": 15,
+    "accuracy": 41.7
    },
    {
     "dimension": "asset",

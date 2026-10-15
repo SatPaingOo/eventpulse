@@ -4,6 +4,102 @@
    "date": "2026-10-15",
    "events": [
     {
+     "id": "evt-1aaedc237cdc",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T16:01:43Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "US",
+     "summary": "Skydance shares rose 5% as warrant selloff faded; Netflix up 3%, Disney up 2%.",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVkMyd1ZVZ2FfbkpOQ1BEQ0VZUUEwS01jYy1YSmVLSk5lemVLRU1KeEF3QVZ5OU9HVkp1c2ZjTDJ2cmxGWDVMa2JkSVpTTkdzQmNqdHZjU3pnTWFOUFpHSUp3N1NmbnhQTDVjRXN0WWNPdUxhU21qbzVCZ2c0eVFhQnNZdElvZTJOZHBWejg0Z21hdzRHX3laMXpVYWhmXzMweW1ucEJn?oc=5",
+     "moved": [
+      {
+       "asset": "NFLX",
+       "asset_label": "Netflix",
+       "date": "2026-10-15",
+       "pct_change": 4.32,
+       "direction": "up",
+       "reasoning": "Same‑day market note reported Netflix up ~3% as Skydance warrant sell‑off faded, indicating a sector lift that likely drove the 4.32% rise.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-1aaedc237cdc"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-4e2b3c9bcfe3",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T04:01:10Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "Gold price forecast sees XAU/USD rebound as China’s Treasury buying pushes US yields lower.",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQVjI5Nk00VFNmckdWLUtqRjJTazVYYldyMm5UT3B6b2tqLUJoTlhBTWVzY0hHZXpoVUxqN3haZEJObXVtc2MtbU05Sk13cGI5OHFnQm9lM3BNZlhHMjk2cFBxZUNTczFZNDR0QzdxYlB3YU5pbEZmVVNqUEszbS1sZDQ4ZUVpUi1hUVdKbXVKZWUxZEozTGlLSnpTS1ZaX0hIU0UyUUhvMzl3ajNXczlxN1BMLU5FNzRsb0NPc2RkaTFZeURXeDlNRkNBTlpJUGNhLXVsWHRRbGoyZw?oc=5",
+     "moved": [
+      {
+       "asset": "GDX",
+       "asset_label": "Gold Miners",
+       "date": "2026-10-15",
+       "pct_change": 3.25,
+       "direction": "up",
+       "reasoning": "China Treasury buying lowered US yields, boosting gold and GDX.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-4e2b3c9bcfe3"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-4fcbf36089d2",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T02:38:21Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "Forecast predicts gold prices will bottom in October after a sharp washout.",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmFELXhBRzY5NDhUNWdzWkJLS2FaM0pBN3F2LWU4V3NTT3lwWGxMWU96Mk9ET1NhXzhDdWNWem5lV05kREtNVGticUlXd1l4R05MVk9JMmcwRGptYnhqX0MyYmZsRFVuMElQT1BHUW1SUERpSG9ESUhoOTZXVUprLW1jUWhUUGh2dU15ZnNyRnZfbE00c044blV5V01vanpnV08yZ250OWxRYVdZNU94cg?oc=5",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "XAU/USD",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-10-22",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-4eb0743583b2",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T10:32:34Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "CoreWeave shares plunged, sparking concerns that weaker demand could hurt Nvidia's AI chip sales.",
+     "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRzVES1hFdko3MUN3Z1VTa2JvM0N4ZVpnbXdyV19lTmZ2eHY4U2ZsTFZHN0ZIQ25LWkhCb1hmT2NkeER2T1Btam9EQ25vZWJ0cGpNNUc4OVVlOHg3bUF4d0dSckVPbGk4VkRhSkExNE1FekljQm4xMXJLeVBGWW5QRV85UmllTXBpM3JtbVZ3eXh5ZmlqSGhFX01RTHRzTTNNRzhSeTBqaTBHeWI3YUNfNUxnMlZoZWRyM01OXzFWMlBocWYxVXBqM05hU2dkTWhaWVYw?oc=5",
+     "moved": [
+      {
+       "asset": "NVDA",
+       "asset_label": "NVIDIA",
+       "date": "2026-10-15",
+       "pct_change": -2.253,
+       "direction": "down",
+       "reasoning": "CoreWeave shares plunged same day, sparking weaker-demand concerns that could hurt Nvidia AI chip sales—a negative demand signal for NVDA.",
+       "confidence": 72,
+       "linked_event_ids": [
+        "evt-4eb0743583b2"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
      "id": "evt-a381e6bde533",
      "date": "2026-10-15",
      "dt": "2026-10-15T02:01:35Z",
@@ -26,30 +122,6 @@
        ]
       }
      ],
-     "calls": []
-    },
-    {
-     "id": "evt-9a05e6dca812",
-     "date": "2026-10-15",
-     "dt": "2026-10-15T03:26:36Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Southeast Asia",
-     "summary": "Orange smog from Indonesian wildfires blankets Palangka Raya, affecting air quality.",
-     "url": "https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-34bb5e6959b6",
-     "date": "2026-10-15",
-     "dt": "2026-10-15T03:23:49Z",
-     "event_type": "military",
-     "severity": 4,
-     "region": "East Asia",
-     "summary": "North Korea launches two submarine‑launched missiles, testing its deterrent capabilities.",
-     "url": "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports?traffic_source=rss",
-     "moved": [],
      "calls": []
     },
     {
@@ -92,6 +164,169 @@
      "calls": []
     },
     {
+     "id": "evt-bd167464ad82",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T15:56:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Visa entered a buy zone on the Dow Jones after a breakout move this week, according to Investor's Business Daily.",
+     "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1NLWdOZWhpMTB3SHdBa3Y5OHRHc0xleWd5cW5jXy1nRDNwVUQ3b0tySERMUFlEQW1zYnB1YWxEZWhWS0N6NUhJYnpRZ1hWTGY2VUhvZnVsc1E1V3FKUGhoVFlyUVpiYkFrSk14bGhwT2d2dWVpcnY4?oc=5",
+     "moved": [
+      {
+       "asset": "V",
+       "asset_label": "Visa",
+       "date": "2026-10-15",
+       "pct_change": 1.868,
+       "direction": "up",
+       "reasoning": "Technical buy‑zone signal plus preliminary China regulatory approval raised growth expectations, prompting the 1.9% rise.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-bd167464ad82",
+        "evt-b5833cd8d25c"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-50ba2e0dfed2",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T15:22:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Deutsche Bank upgraded Walmart to Buy, sending its shares higher.",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYmRRNExyWWFjVXFtYnRmcl82NnpNQTB0MlZoZlkwblBmZmtWTDRXQW5vbEpvT25QR1lQdzdMZlZvWlNPMXRRZ19iZ043b1RrM1ZJcFlkY0puQ0lGSXVKNEdqbUVRQzVieTVUYWN6U0tPYUYyTjQwMjRXVTdSTlBQeDdRdkhCLS1YcFNF?oc=5",
+     "moved": [
+      {
+       "asset": "WMT",
+       "asset_label": "Walmart",
+       "date": "2026-10-15",
+       "pct_change": 3.081,
+       "direction": "up",
+       "reasoning": "Deutsche Bank upgraded Walmart to Buy and raised its price target on Oct 15, spurring buying pressure and the 3% rise.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-50ba2e0dfed2",
+        "evt-9ae2487d48f8"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-9ae2487d48f8",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T13:48:10Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Deutsche Bank upgraded Walmart to Buy and raised its price target, sending the stock higher.",
+     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNbmg4dk5WOHZhb25HZ3BHRlBndFhqODl5SjdyS3RBME9YX04tZlhLQkRRcmtpUUZwd0hqMDA3dklRclRLRFp3Vmg0TVFSczdSLW9qRjRLNFlzUzgya01sU05kYzNaekxMOV9ZVXg2M004cnI5bjNfS0RPRmFuSWVaejZ6MHRXRTdzcHJkcHZZYlhZMVNkdFVCOXZBcVJ3VHNhLXlibkZnbVpEV1dRVU1OYm1QSmJaUmZoOEF1cGhlMVR3ZFlKTlI1LTFpWmZZdUVMb3V0bGNrSnJJMFpsWUhF?oc=5",
+     "moved": [
+      {
+       "asset": "WMT",
+       "asset_label": "Walmart",
+       "date": "2026-10-15",
+       "pct_change": 3.081,
+       "direction": "up",
+       "reasoning": "Deutsche Bank upgraded Walmart to Buy and raised its price target on Oct 15, spurring buying pressure and the 3% rise.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-50ba2e0dfed2",
+        "evt-9ae2487d48f8"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-53f5399c6359",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T10:00:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Mastercard introduced a platform allowing businesses to hold fiat and digital currencies together, expanding its services in the payments ecosystem.",
+     "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPM0JLWUJ2NFk2c0g5V2x2SHhJZFhOT2NIZnVocGwyalBDTG84ekhmSnlxTlJtZHN6UkNBRnU5azlURU1YU2tCSjhPUDdnSjZ3a0dmMjJxUmdORl9adEl6X1pwdHAtNzNPZDFXcmQyZUVlVDhmeDdXaXFUcU82V0NlQTZubW5nXzBkZmpfTE1aY2xlVjB3VnNxZGNZMEk1WGxzVmNjZmZraWNBQkNlY1BNX1UweUJjQlU5TXc?oc=5",
+     "moved": [
+      {
+       "asset": "MA",
+       "asset_label": "Mastercard",
+       "date": "2026-10-15",
+       "pct_change": 1.708,
+       "direction": "up",
+       "reasoning": "The same‑day announcement of a platform letting businesses hold fiat and digital currencies expanded Mastercard's services, lifting investor sentiment.",
+       "confidence": 85,
+       "linked_event_ids": [
+        "evt-53f5399c6359"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-c815276d2198",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T16:15:22Z",
+     "event_type": "economic",
+     "severity": 5,
+     "region": "Global",
+     "summary": "Copper prices fell three days running after US inflation shock and reduced Chile strike risk.",
+     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZllTRFB3Wk9fMjQ2Q0RPeTB5SGpsNHFOeGZBMTZOTDZzWTlXQTBXTjg3NmRhejdMU1lKemNsdlRiTVNTODB1QlRMa0FRNFFLMTI0M0ZYejhQeXd0Q2J3djYzZHhIQmZveGdJcnpMSUd1dnp0NTZFVmxFdkNLT3p1UjJSN28xN1hyQU4tVDhfVVRVc1ZxTEdHQ2M0NmJOT3VkcHZPU0xoa2wtelN1NUFBcEZzQVdrc2s?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-26eee2de67f7",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T07:00:00Z",
+     "event_type": "economic",
+     "severity": 5,
+     "region": "Europe/China",
+     "summary": "Lithium prices fell sharply after EU-China trade deal raised demand fears.",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUk4tZFZPdXFBZG55eE5oWS1tSl9lTkNybVlQSEtJaFVoUl9IZWFlY3EwWUVZYThEQndJNjg1OVVVd2pDWWdUcEhON0lLLWtJRW41eXJ2MEphWHNsNFQxWEtuZmJmYWpyUVBLNnlpOXpOd1NqYXNiVWJVSTBuNVpDbGdBQW4yd3l0ZkVzNVV2bmYtZzRPREVUYmhXYVRwS0VHbzhSSldlNXB4b01vMXJsZjhSbGxyTExwWk51LdIBwgFBVV95cUxQRUYybXBRc0I2dHpCWFNDbWJMdWl5MXBDZHJJOF9wb2V6eGRUOW5LUTBUNUdGM2E2SXFod1U3SXdmdVFuc3ZiSWZlS194LWdaXzkzUGlSLWVoTEZHNEdnb0xKSzdBcDlQei11QWxMLVR5cDRtNEpyZjRWbzEtQ1F4clhPZldjMWw1RXlvWW1SQkotVXdYNmh4VGR4UVJKWXVaZUg3bFpkb1VHMjkxVmtWdHR5U2ZTa3k0NUVrbkhnN1M5dw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-440e28736530",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T16:50:18Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Eastern Europe",
+     "summary": "Russia accuses Ukraine of attacking an oil refinery; Zelensky says strikes to resume.",
+     "url": "https://www.bbc.co.uk/news/articles/cqwyrnwd9dw1o?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-695a32342009",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T16:02:42Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "The spread between HR and busheling steel prices widened further in October.",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRkpfMm1FNGE1akl4bi1GajRDUnRvNkRyZEwyeWhnTWtRdmlxUHdjZFZZeHVjYk1TclZMdXA1SG0zbjY3Y1pQU1B6bmttRmt5a3VpcmVfaW4xb04tb3JIOGNKX0w1bUFDZGk5UTF6WE1hSXprcmNGMFR2OHNrS1FjYmxZT3dKNW1lOVRBYS1fc19Xa2t3ZDFXM3NCNW14VkhYTEE?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a3264b5a6e92",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T14:51:30Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Black Sea",
+     "summary": "A drone attack ignited a tanker off Romania’s Black Sea coast, leaving seven crew members missing.",
+     "url": "https://www.bbc.co.uk/news/articles/c60qkgpp592yo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-4ea663cd70b9",
      "date": "2026-10-15",
      "dt": "2026-10-15T03:49:00Z",
@@ -100,6 +335,18 @@
      "region": "Global",
      "summary": "US WTI crude oil price signal reaches Australian fuel markets, affecting commodity pricing.",
      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU2RmTVA3cC0tT0tBTHVqQ2pyLXBRZjlvMFFYZXRoZ2ViY1JoenM2WGJXV3hZa3JjZ1lsZFVrUEtmdjJqVHBUcmVkb0M4NXN3cTRlejBCQ1hRMUo1ZWRucWtoX3VlVmN2ZkNQT0FJNXVNSS1UZmUxajdaR0M4d0ctaG9jTzJjOHhsUnB0bDBiRU1ORmtWLXRzRFRRUlJ6OFRCOHJvbGIySTVKVHBjYlE?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-34bb5e6959b6",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T03:23:49Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "East Asia",
+     "summary": "North Korea launches two submarine‑launched missiles, testing its deterrent capabilities.",
+     "url": "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -116,35 +363,14 @@
      "calls": []
     },
     {
-     "id": "evt-4fcbf36089d2",
+     "id": "evt-f03c34518cb8",
      "date": "2026-10-15",
-     "dt": "2026-10-15T02:38:21Z",
-     "event_type": "economic",
+     "dt": "2026-10-15T01:30:00Z",
+     "event_type": "geopolitical",
      "severity": 4,
      "region": "Global",
-     "summary": "Forecast predicts gold prices will bottom in October after a sharp washout.",
-     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmFELXhBRzY5NDhUNWdzWkJLS2FaM0pBN3F2LWU4V3NTT3lwWGxMWU96Mk9ET1NhXzhDdWNWem5lV05kREtNVGticUlXd1l4R05MVk9JMmcwRGptYnhqX0MyYmZsRFVuMElQT1BHUW1SUERpSG9ESUhoOTZXVUprLW1jUWhUUGh2dU15ZnNyRnZfbE00c044blV5V01vanpnV08yZ250OWxRYVdZNU94cg?oc=5",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-10-22",
-       "status": "open"
-      }
-     ]
-    },
-    {
-     "id": "evt-90ebaf3a75b9",
-     "date": "2026-10-15",
-     "dt": "2026-10-15T01:20:26Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "A ship caught fire in Romanian waters; authorities are probing possible drone involvement amid rising Black Sea attacks.",
-     "url": "https://www.aljazeera.com/news/2026/10/15/ship-catches-fire-in-romanias-waters-amid-rising-attacks-in-the-black-sea?traffic_source=rss",
+     "summary": "Brent crude slipped after the United States signaled possible easing of sanctions on Russia's shadow fleet, which could boost oil supply.",
+     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOakIxN2pXRENBSjFMY1Rtc00zZG84UUVERE54NFBReWdoV2VJMHRpMFlZdzdSLXdzaEFOOEQwbFp5TG44Mk5wMFZyLVdPOTNpNG5nRlY5Q1lITWFlSjZ1RXdBMDdoRTQ1LTdrMy0zQVJlTThsUUJ2anBxWDNLWkpyV3lUbm5VMm5KMVJybkNpTVJuTGl6bTJia0t5UjE1UHNIclJFQUVRZ0FnektCZWxnSXNGc1VSdlhXM2RZ?oc=5",
      "moved": [],
      "calls": []
     },
@@ -159,10 +385,287 @@
      "url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?traffic_source=rss",
      "moved": [],
      "calls": []
+    },
+    {
+     "id": "evt-9ce940684dce",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T16:20:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Nvidia CEO Jensen Huang says CoreWeave cloud provider does not need a backstop.",
+     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSk9TQTJodzlYbzRfUlVmU2dvbUstbGZqbWJrV0RPX1E2ZWk3WXFTcnVPNWxrS19oZTdBX3FHaG93eEQ2Vi1QQU9lcnAzaVBqQVNVWTdMcE9fekZPRlZwY294ZHhfbmpjZGNIekl5aEFzSzVlYTBreHp1RXM5VVhiVGtWcU5uRFZ2eGpWUkhR?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b8f8863b4c51",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T15:46:41Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "US media reports the military is considering deploying the GBU-43/B Massive Ordnance Air Blast (MOAB) bomb against targets in Iran.",
+     "url": "https://www.aljazeera.com/news/2026/10/15/what-is-the-mother-of-all-bombs-us-could-use-in-iran?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-44592939f8d8",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T13:47:57Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Alcoa is set to report earnings, with focus on whether its aluminum segment can offset weaker alumina results.",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONkJuUlVOZldWWWdBckMzWFkxblhHd2VIYlRfZVpLNXRpZ1dtcEpNWVJzRC1oUWFiQzl5b3hKR05KMS1Ca2t1bFRHVUZKQm9jRkZ0LUhvTFpKZzQzbkkxWHlKWjNFbHhnN3FBeHNNRjZ1TG1MTWQtT1ZZTWp6eFlrVTdvQ09zWTM2NWM3XzM4aG02Ym9qZFNJN0tFRmZ3MW9LQTFMdWlnT3V0S0ZDS1dHWnRB?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-50507d0435c1",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T12:49:46Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "US September retail sales beat expectations, supported by higher gasoline prices.",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdEZnMTMydHhjWGswNVBLR3F5dEhkQ09TOW02dkt2eF8yMXVfa2g5dUNwQm5MdmRIZXB6Q0QtNkJrOGg3Zm1JWUh1akw3RGZ5czh4dEk2b2pxeDNLSXg5Sk9wQzJKVFBhanF2ZWtxNDR6T3pvNzgzbVVlRWotSnR5NjVwcjQtYjd3eVBGang1Sk1BWlU1WExpQy1ySndDeUhZSGFUNVFpSkRFZ19meGNuOA?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-6f4d47e9d328",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T12:30:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Record uranium contract prices highlight America's domestic supply gap.",
+     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUkpic2RFMlM5TGxRLXRuZldYdEVRWFZONF9wSTh0ZkppaFZ5ZUhGYVZlQWNMZmZvSllhUjFqSDAxdjBMbWtsblBwNmxoN0I2WmlWb29tUDVEVDFsX0dpRFZmOWg1WDJ6WjNfc09EZ2dOZnRPSTVmcnBRR0oyUjhGczlweW91bmdLQ182aDZQNGVuZDkzNmdTZ2x6MlNQTVhWYzFub0N6N2NJaXE0c21lU2JsQ2JQMXFqZlpJUmh6TTB6RVMxaVlERDlnWW90Y0NQYW9aNF9kX3ZJWFU?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-8ccaa5921fb3",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T11:45:39Z",
+     "event_type": "geopolitical",
+     "severity": 3,
+     "region": "Europe",
+     "summary": "Russian strikes intensify as Ukrainians fear reduced US intelligence warnings amid peace talks.",
+     "url": "https://www.aljazeera.com/news/2026/10/15/ukrainians-fear-us-intelligence-cuts-as-russian-strikes-intensify?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a60cc0f9863a",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T07:55:16Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "WTI and Brent oil ease as the US weighs tanker sanctions relief, per FXEmpire.",
+     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOSE1YenhZbHd4STRxLW5VREIzRWhjNjliUVltVnFmanczVEU0VGMzMWpxNW82S2xiZ29KclJHNTg1N1hnVmZPaExiX2ViLUNEQ09qeXJaSVQxd1hmbnBYYkg1ZGZDcXNHU21CODhhT1JLemdkVFB0a0ItV1BKbGN1VHd3MGhRQ2kxQmN2R2JOZVgtc0tBU2tkemxsYnhqRlBoZkR2Q0JjT0NoaXpFS09CNkhrMkR4WHp3TEJKYWo0YTZodDg?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-65176b8a389f",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T06:24:45Z",
+     "event_type": "geopolitical",
+     "severity": 3,
+     "region": "East Asia",
+     "summary": "North Korea and China opened a new bridge after a 12‑year delay, easing trade amid sanctions.",
+     "url": "https://www.bbc.co.uk/news/articles/ck1exgw3j115o?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-95bd39dd101b",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T05:50:07Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "WTI crude oil is forecast to bounce off the 38.2% Fibonacci level and retake $93 per barrel, keeping a bullish bias.",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSmdXUWdBT2hIMm5XX3FLS1ZuRFMzajZWQnMwVkRXTUxQY2FlV0J3eDFYdjR5a3NRY1ZDTmhtTzhlQXpzSGx1TzNVVmxkTkw0STRhOXhtbmhxY3AxZzlmTGFsYzRHN2R3ZFlwVW91TzZxRk11d0VQZ2tpUnZUMXJWWHQ3aUltRzlHcG5IU2hXMUFiZS1KcXFrSkFiclExeXVmOEhtVV9RQjhtWVlrNVhNS1dVVzZZeE42bm5uaWllWGVBZw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-4ffe116d1179",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T04:19:17Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Anthropic announces revenue surge, raising investor concerns over AI infrastructure costs ahead of its IPO.",
+     "url": "https://www.bbc.co.uk/news/articles/cqzjx448vxkgo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-9a05e6dca812",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T03:26:36Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Southeast Asia",
+     "summary": "Orange smog from Indonesian wildfires blankets Palangka Raya, affecting air quality.",
+     "url": "https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-cfa714955e52",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T02:32:31Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Axios reports US inflation accelerating as gasoline prices surge, pushing overall price growth higher.",
+     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA4bHNNV2RDVHVrUTJTbDVCVzVDU2NSc0lxN0tNdEVFaUl2WEpTQzUzSDk0OFdpQ0pBXzBEeXREZXBPUHhYZUNQQjFWOWhkM1UtdTBzMjR5azdmeXRUVE1KdzQ2WG9lZ2NySkRkdlBYSQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-90ebaf3a75b9",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T01:20:26Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Europe",
+     "summary": "A ship caught fire in Romanian waters; authorities are probing possible drone involvement amid rising Black Sea attacks.",
+     "url": "https://www.aljazeera.com/news/2026/10/15/ship-catches-fire-in-romanias-waters-amid-rising-attacks-in-the-black-sea?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-1d0e188969c6",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T00:42:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Shares of Nvidia, AMD and Micron fell as a broader AI‑related stock sell‑off accelerated.",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaGhRTkZ4cjB1WFcxY0ZaekZ0anhJSW1MYlRMVV9pZzFacHJySWt5QkZaSEFoMmVBbVZKRzc0TmloQXkydmRSaGs5RW1vQjIyZ1hhQzFBSXN1ZGlJVmI1b2VKU1FIaXlZVTJBZHZZMUkxemJ1ZWZUY3E5Q205RWp1WFItS2FJMEx2Zjg4ejRHQy11UjRMbkFPSXJnSkluT01nMVNKbHRn0gGrAUFVX3lxTE1fQkI2UFBBMEExelZWTnRzQ1lzaE1Hdms2R3hjLW9tVmdsZ1hWNGdxRVE1VnlZWVBQU1ZZTW56SUJrYVNYX25QTFFOMExfZmpZY1RCRkpwZmFZX3d6T1BCdU5Rd3ZsME5zdHJhUFRkNG5KUHdkNUsyRHBjX3I1VWNpZkhWRVZ4eFZlS3Jhc1ZoS1dBbVpPRlFyTkRUd1pRNDNqMHNDTWgzV1VGaw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-9fe7d7fbb832",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T17:00:38Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Nvidia stock faces renewed pressure amid rising AI concerns.",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNnAzTHUyMm1aNmxiWm9qcjRHRjR2WS1QSUhZcEpLdktGMENTT3NEamhxSmhDYUlqY3kzdG1QZ2hyVzhCZ2lXWkRIeHpPenhsemNrZWNZMk53a3ZQYW4zaU1hZU1RQ0NXZ2RLekI1Z1RaS1RQZGNsS2FJVXp3TllFR0xTMnozUDhPa1BiN24yTUlVcWV6d2tnM0dWZUxfREJBU2c?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-f7d1ab6e7477",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T16:47:11Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Netflix warns of earnings issues ahead of report.",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWExrN1ZRUkMzdHcyR01fVjVHLUMyeEFlams1aTFtSU1kSXFlN19EOEFTeVpzMTlMOVNNTDhTUVNDWFdXNG8xLXl1VjMzTnJUcnlzbmdnYVBubS1sVDZ3OG5US0NSYkFxemNrUWN6RkUwY2gydThla29IT0NOZ28tWmJPNTJnVEhXd09aVjRkZUEwcmN3Z1IxWmlfR2pZQ0U?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-480243fe43b4",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T16:46:18Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Tesla shares fell nearly 20% year-to-date.",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTzBqaTdPUkh3UmhjcFVydDY1d0tzOVUwaVotTV9seE1US0ZmTHJ4XzVCNmNFTzdaTDRTaTJncUJmUVhDc2hCeW9Iek0xZmxjbUI3ZlBHaWdYVnpObHVuZ2lzNjFNUHRXUkxIQUo1UGQyQ0QyalY0Vm51b3JmM1BhVnBYRUR1NVQ4UnlMVUx4RmVHSXJHbE9qTzlWa2hiQ2w3ck4zMTdFcWZROHdi?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-f24a0bc0cd76",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T16:44:18Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Apple approaches record as iPhone preorders and China AI rollout focus.",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUlR6VTlBaERCcXFhV1gwSmVWZERMLWdqdE5WSDJ4QTlxQlFRYkRFUmEyY0ZKSEJTRzEzdXpndERFVXVNWm1Oc1ZLVU0zZjYzTnl6TDhKNkwzTDQya3JaMUZTbEh5VTJ2aENiSEFTTmdQdzhIQzFhcHhGQmNBeWx1MXR1OTEyZllQckc0dEhRdklpbmxlYlU5UDVVOC02Qm8?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-5a2a6587aac7",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T15:44:38Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Analysts assess how Home Depot's upcoming earnings could shift the narrative around its stock performance.",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQeVlLSGlWRFhpX0dodzQ0SmlwMDAxN1QyVW95UC1seGlQS1lnd043YXBpejVnM2V6NXJQQlM4RjFmQ2VKb1NqLVNKV29vQzBtdVVaZEZwTlBVTzNMSlowRGZNNzZVcnNGaDJ2VlBTcUNEc2RfZ05ScVUxVnVZclV6WkxXNDNIeWlOSjlha09RZ3pGZzhmT29YYmNZZEUzY3NEZXNsMy1qT2hKVWRQWU1xcnpGS2JqVHFtTVRjdWNEMNIBxAFBVV95cUxNbmZQQkpYMnU0eG1JaVZ4U1JacXB4c1VEeTdnanNiNjdKOFFDSi1ROFNkelhOZ2lCOUJDTG04TlBkTHRHOHRwU3Q2emRrSVJZX3h4WTdFbHVBdVJ6WmZOb1ZNMV9nTzhtS0lFNUpnRWNOZVJkcGFSR0h4bl9teGNkYXFqaVI3RWNFRjhqcVQ2TmN1NnpUQUI5YV9ZaHpWZzlaWWNyMDUwcDZval9kR2RIZ1JXeFFXaXNoeGg2NlpITWdjX0Nt?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-d6ef3caaf465",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T15:39:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Yahoo Finance evaluates Procter & Gamble's pre‑Q1 earnings and advises on the attractiveness of buying the stock now.",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS3pZM205azVqc2tNbjNnVzBDa0NUQkh1dEZxSW1BXzhGYUphSXdGeVJhRlhzRXlCc2dvRVJUQUNVLWdGR0dabXBYRlNrdW55X05UVnhkRVBtbExHaFhRak5HT1ZEY01mWGE4VUoySEdaNkJvdEVwYlI1TTBvSVVUQTlfREpMSEdReW5vYlpma1pvZjJWTE5vaHlIbw?oc=5",
+     "moved": [],
+     "calls": []
     }
    ],
-   "events_total": 9,
+   "events_total": 54,
    "moves": [
+    {
+     "asset": "MA",
+     "asset_label": "Mastercard",
+     "date": "2026-10-15",
+     "pct_change": 1.708,
+     "direction": "up",
+     "reasoning": "The same‑day announcement of a platform letting businesses hold fiat and digital currencies expanded Mastercard's services, lifting investor sentiment.",
+     "confidence": 85,
+     "linked_event_ids": [
+      "evt-53f5399c6359"
+     ]
+    },
+    {
+     "asset": "TSLA",
+     "asset_label": "Tesla",
+     "date": "2026-10-15",
+     "pct_change": -1.733,
+     "direction": "down",
+     "reasoning": "Investors grew cautious ahead of the upcoming Roadster launch, prompting sell pressure on the day of the move.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "3cc7ce6ec32d"
+     ]
+    },
+    {
+     "asset": "V",
+     "asset_label": "Visa",
+     "date": "2026-10-15",
+     "pct_change": 1.868,
+     "direction": "up",
+     "reasoning": "Technical buy‑zone signal plus preliminary China regulatory approval raised growth expectations, prompting the 1.9% rise.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-bd167464ad82",
+      "evt-b5833cd8d25c"
+     ]
+    },
     {
      "asset": "COPPER",
      "asset_label": "Copper",
@@ -173,6 +676,42 @@
      "confidence": 90,
      "linked_event_ids": [
       "evt-a381e6bde533"
+     ]
+    },
+    {
+     "asset": "GDX",
+     "asset_label": "Gold Miners",
+     "date": "2026-10-15",
+     "pct_change": 3.25,
+     "direction": "up",
+     "reasoning": "China Treasury buying lowered US yields, boosting gold and GDX.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-4e2b3c9bcfe3"
+     ]
+    },
+    {
+     "asset": "HD",
+     "asset_label": "Home Depot",
+     "date": "2026-10-15",
+     "pct_change": 4.251,
+     "direction": "up",
+     "reasoning": "Dividend announcement on Oct 14 signaled higher shareholder return, prompting buying pressure and a 4.25% rise on Oct 15.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-ed243a01589c"
+     ]
+    },
+    {
+     "asset": "USO",
+     "asset_label": "Crude Oil ETF",
+     "date": "2026-10-15",
+     "pct_change": 2.258,
+     "direction": "up",
+     "reasoning": "Geopolitical conflicts on Oct 12 lifted oil prices, driving USO up on Oct 15.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-5a9397f262f5"
      ]
     },
     {
@@ -214,6 +753,31 @@
      ]
     },
     {
+     "asset": "CAT",
+     "asset_label": "Caterpillar",
+     "date": "2026-10-15",
+     "pct_change": -2.865,
+     "direction": "down",
+     "reasoning": "Bernstein cut Caterpillar's price target on Oct 14, prompting investors to sell, leading to the -2.9% drop on Oct 15.",
+     "confidence": 78,
+     "linked_event_ids": [
+      "evt-f7f4ae389f20"
+     ]
+    },
+    {
+     "asset": "WMT",
+     "asset_label": "Walmart",
+     "date": "2026-10-15",
+     "pct_change": 3.081,
+     "direction": "up",
+     "reasoning": "Deutsche Bank upgraded Walmart to Buy and raised its price target on Oct 15, spurring buying pressure and the 3% rise.",
+     "confidence": 80,
+     "linked_event_ids": [
+      "evt-50ba2e0dfed2",
+      "evt-9ae2487d48f8"
+     ]
+    },
+    {
      "asset": "HEATOIL",
      "asset_label": "Heating Oil",
      "date": "2026-10-15",
@@ -223,6 +787,19 @@
      "confidence": 60,
      "linked_event_ids": [
       "evt-1a73487f9f84"
+     ]
+    },
+    {
+     "asset": "SIL",
+     "asset_label": "Silver Miners",
+     "date": "2026-10-15",
+     "pct_change": 2.089,
+     "direction": "up",
+     "reasoning": "Positive coverage of silver miners on 13 Oct lifted sentiment, boosting SIL shares on 15 Oct.",
+     "confidence": 60,
+     "linked_event_ids": [
+      "evt-3f841bc92a67",
+      "evt-8fd2bb77aca9"
      ]
     },
     {
@@ -248,6 +825,30 @@
      ]
     },
     {
+     "asset": "NFLX",
+     "asset_label": "Netflix",
+     "date": "2026-10-15",
+     "pct_change": 4.32,
+     "direction": "up",
+     "reasoning": "Same‑day market note reported Netflix up ~3% as Skydance warrant sell‑off faded, indicating a sector lift that likely drove the 4.32% rise.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-1aaedc237cdc"
+     ]
+    },
+    {
+     "asset": "NVDA",
+     "asset_label": "NVIDIA",
+     "date": "2026-10-15",
+     "pct_change": -2.253,
+     "direction": "down",
+     "reasoning": "CoreWeave shares plunged same day, sparking weaker-demand concerns that could hurt Nvidia AI chip sales—a negative demand signal for NVDA.",
+     "confidence": 72,
+     "linked_event_ids": [
+      "evt-4eb0743583b2"
+     ]
+    },
+    {
      "asset": "PAL",
      "asset_label": "Palladium",
      "date": "2026-10-15",
@@ -257,6 +858,20 @@
      "confidence": 65,
      "linked_event_ids": [
       "evt-a8d57c37268e"
+     ]
+    },
+    {
+     "asset": "UNH",
+     "asset_label": "UnitedHealth",
+     "date": "2026-10-15",
+     "pct_change": 5.212,
+     "direction": "up",
+     "reasoning": "Q3 earnings beat and margin repair story on Oct 14 lifted sentiment, driving the 5.2% jump.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-71f44c55b651",
+      "evt-5676e8a38823",
+      "evt-b3829d62449e"
      ]
     }
    ]
@@ -559,6 +1174,19 @@
      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeE1NdVJsU3RZQmRuSTU1WnZZdXQzTnhZajl0U3A3UE42cTFQV0E0ZTA5czlNSFQwOEtlaWY3WER6WFNRazNza1lQZkpuV3U2c0lvV3ZNVlIxbTNGbXFuMTFSZk1WbXZiNDUwUnkzTnI3ZXpRLTl3UG01WkE1b080UDk4ZEs2X0p1Y3JSbmphc0RCQVdPM1hHN0E0NFkxQ2RseDE4SXZIZExaNnp5NUlrSzhkbnhVR0FrSW5KcVphSDg?oc=5",
      "moved": [
       {
+       "asset": "XAG/USD",
+       "asset_label": "Silver",
+       "date": "2026-10-15",
+       "pct_change": -5.649,
+       "direction": "down",
+       "reasoning": "Higher-than-expected US CPI on Oct 15 spurred expectations of Fed rate hikes, prompting a sell‑off in silver.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-2ade8f5dfff3",
+        "evt-97cf4e28a37f"
+       ]
+      },
+      {
        "asset": "GDX",
        "asset_label": "Gold Miners",
        "date": "2026-10-14",
@@ -582,19 +1210,6 @@
        "linked_event_ids": [
         "evt-97cf4e28a37f",
         "evt-c1b1193e5092"
-       ]
-      },
-      {
-       "asset": "XAG/USD",
-       "asset_label": "Silver",
-       "date": "2026-10-15",
-       "pct_change": -5.649,
-       "direction": "down",
-       "reasoning": "Higher-than-expected US CPI on Oct 15 spurred expectations of Fed rate hikes, prompting a sell‑off in silver.",
-       "confidence": 80,
-       "linked_event_ids": [
-        "evt-2ade8f5dfff3",
-        "evt-97cf4e28a37f"
        ]
       }
      ],
@@ -644,6 +1259,18 @@
      "summary": "Bernstein lowered Caterpillar’s price target amid booking concerns.",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUXBYNUdGeE5fOWNtc0xRSi04SllMVG14cTZRanRYU0N0b1ExTFFObTY3NXRqSTFMUEl5bzV6bnpiTGpUNE9rNlI0RWU4VVd0VVdfZTFtWEd3MG1hWXFBUDNDeDFHS3BOb05qZW1sQ1hINXN6Z3ZuWGVnWXM0Z3lCcTljaFEyNEsxajcxZUtjZUVIamZvUVM4N2V3cWF2SzBNMklrWHBXR0pCODZVYVFPX2pZZWJYQ29zaS1PcnpidlpyREUt?oc=5",
      "moved": [
+      {
+       "asset": "CAT",
+       "asset_label": "Caterpillar",
+       "date": "2026-10-15",
+       "pct_change": -2.865,
+       "direction": "down",
+       "reasoning": "Bernstein cut Caterpillar's price target on Oct 14, prompting investors to sell, leading to the -2.9% drop on Oct 15.",
+       "confidence": 78,
+       "linked_event_ids": [
+        "evt-f7f4ae389f20"
+       ]
+      },
       {
        "asset": "CAT",
        "asset_label": "Caterpillar",
@@ -868,6 +1495,85 @@
      ]
     },
     {
+     "id": "evt-5676e8a38823",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T22:43:10Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "UnitedHealth shares rise as margin repair story gains credibility.",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUlVlcFFDRVFrbzZNSXp2TEtsVlo3aTY2RWlIT0UwYklYYzVLdk9GcV9MZUdXZE51OTBFdnc3WEtTNGZxSFpGRERfWURINFNpX1lOdHdfTUVqZldNSENtR3FLa2ppelVGSFdPc3l2SHhjNjVaTTdseURiNURzQXpmTE02dEk2T3BMMnNmLU5SbGxsbld5YVNaMm9rOHJzbWhDMHZrc25BU2doSFRDSlR2dEtKNy1PZmxXMTlNb2RQSVFyenZYNEs2eG9nUHBQbDQwczhUUldsSdIB1wFBVV95cUxOUlVlcFFDRVFrbzZNSXp2TEtsVlo3aTY2RWlIT0UwYklYYzVLdk9GcV9MZUdXZE51OTBFdnc3WEtTNGZxSFpGRERfWURINFNpX1lOdHdfTUVqZldNSENtR3FLa2ppelVGSFdPc3l2SHhjNjVaTTdseURiNURzQXpmTE02dEk2T3BMMnNmLU5SbGxsbld5YVNaMm9rOHJzbWhDMHZrc25BU2doSFRDSlR2dEtKNy1PZmxXMTlNb2RQSVFyenZYNEs2eG9nUHBQbDQwczhUUldsSQ?oc=5",
+     "moved": [
+      {
+       "asset": "UNH",
+       "asset_label": "UnitedHealth",
+       "date": "2026-10-15",
+       "pct_change": 5.212,
+       "direction": "up",
+       "reasoning": "Q3 earnings beat and margin repair story on Oct 14 lifted sentiment, driving the 5.2% jump.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-71f44c55b651",
+        "evt-5676e8a38823",
+        "evt-b3829d62449e"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-8fd2bb77aca9",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T18:20:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "North America",
+     "summary": "Santacruz Silver Mining shares rise at open.",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZk5JX1pRZnNwWm9sdjRxTlhiTHA5QnRGd2V2NnBGc2hlU2pPWW9YeUVqU0dnWFFkWXZpYmVOd1ZDX2pBYk9IZUozeG1BTFNnMHYwaXdMWnFSSGI2SHA3eW56UXhIaTAxYUkwU1c2RGM3cHZmZGxsWTU3WGphQlJPZkdwZ2plRjk3LW5iSjhDYkNBLThJSVZlRVMxUi1pM0xLV2xfWmY1OXNFVXJUZVNqYlAxX0o?oc=5",
+     "moved": [
+      {
+       "asset": "SIL",
+       "asset_label": "Silver Miners",
+       "date": "2026-10-15",
+       "pct_change": 2.089,
+       "direction": "up",
+       "reasoning": "Positive coverage of silver miners on 13 Oct lifted sentiment, boosting SIL shares on 15 Oct.",
+       "confidence": 60,
+       "linked_event_ids": [
+        "evt-3f841bc92a67",
+        "evt-8fd2bb77aca9"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-ed243a01589c",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T16:45:07Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Home Depot announces dividend, noted for its impact on retail stocks.",
+     "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMmVPX2FPV2E3dVNLQ2xoWWgwamVFeG44d2VWNlM3MzB1MkxEOUNvUzdRWFJIbjhvdnppSmVsTERoUkIyYUJIeHpiWThPTjk0bXhTcVdJM2huaGxKV3c3NEZjZ1JacXo3NmZUX1cxQ2RTUksxTWszQy1lVVNSU2xjeFktX0Rpdw?oc=5",
+     "moved": [
+      {
+       "asset": "HD",
+       "asset_label": "Home Depot",
+       "date": "2026-10-15",
+       "pct_change": 4.251,
+       "direction": "up",
+       "reasoning": "Dividend announcement on Oct 14 signaled higher shareholder return, prompting buying pressure and a 4.25% rise on Oct 15.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-ed243a01589c"
+       ]
+      }
+     ],
+     "calls": [],
+     "similar_count": 1
+    },
+    {
      "id": "evt-1a4562b1f6d2",
      "date": "2026-10-14",
      "dt": "2026-10-14T16:14:00Z",
@@ -930,6 +1636,20 @@
       {
        "asset": "UNH",
        "asset_label": "UnitedHealth",
+       "date": "2026-10-15",
+       "pct_change": 5.212,
+       "direction": "up",
+       "reasoning": "Q3 earnings beat and margin repair story on Oct 14 lifted sentiment, driving the 5.2% jump.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-71f44c55b651",
+        "evt-5676e8a38823",
+        "evt-b3829d62449e"
+       ]
+      },
+      {
+       "asset": "UNH",
+       "asset_label": "UnitedHealth",
        "date": "2026-10-14",
        "pct_change": 3.492,
        "direction": "up",
@@ -937,6 +1657,33 @@
        "confidence": 90,
        "linked_event_ids": [
         "evt-71f44c55b651"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-b3829d62449e",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T08:42:28Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "UnitedHealth shares rally after Q3 profit and revenue beat estimates.",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZG9LWTFkbmprd0tFeTItMzdGTWQtbmQ4MmNzNWo5WExzNDhvaTRqUjVtOVpudHd1X2xLLUZFQUZtUGtvWE85cnlJNksybEt0Uk8welRPLWFpWlRXNlpuNGQza1pxZWoxWGJmLVQ1anNYSF9BaGlGYWJkRHdVYVJSQ09ka1ZrYmRzdFl5VFdPa1RveUJPYlFKbkJwdmdJYW9BNnI4?oc=5",
+     "moved": [
+      {
+       "asset": "UNH",
+       "asset_label": "UnitedHealth",
+       "date": "2026-10-15",
+       "pct_change": 5.212,
+       "direction": "up",
+       "reasoning": "Q3 earnings beat and margin repair story on Oct 14 lifted sentiment, driving the 5.2% jump.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-71f44c55b651",
+        "evt-5676e8a38823",
+        "evt-b3829d62449e"
        ]
       }
      ],
@@ -1061,57 +1808,9 @@
      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/houthi-missiles-intercepted-over-saudi-arabia-as-battles-intensify?traffic_source=rss",
      "moved": [],
      "calls": []
-    },
-    {
-     "id": "evt-55aaf36347df",
-     "date": "2026-10-14",
-     "dt": "2026-10-14T00:00:00Z",
-     "event_type": "military",
-     "severity": 4,
-     "region": "Middle East",
-     "summary": "Saudi-led coalition struck Houthi assets in Yemen; a Saudi Aramco office in Dhahran was hit, raising concerns over oil production and regional security.",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/10/14/iran-war-live-saudi-coalition-hits-houthi-sites-aramco-office-hit-in-east?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-0b7ddae284d9",
-     "date": "2026-10-14",
-     "dt": "2026-10-14T23:58:13Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "The US destroyed an Iran‑linked dhow in the Gulf of Oman, alleging it was used for surveillance and command‑and‑control activities.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/us-destroys-dhow-suspected-of-iranian-command-and-control?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-65bd937c553d",
-     "date": "2026-10-14",
-     "dt": "2026-10-14T20:45:04Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "Alphabet Inc. shares fell more than the broader market on the day.",
-     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSGRPZDNGT1VGbG9XcFhNQzgyZjdTTlBKZmFEcEtlTmwtT0pjYnhMNmg1U29rbzdRNXB0c1d6YWxRQUVneEsyaVh1Z0x3WW1TUy16X3Rjanl2dldyWnBfbW52cnJuNHNKNDNXamJsdG5RTlkzYXNzcXI3SEFVQklCVnVZZktsSVdGZzRyeFVNMlNqWnVfMlR6bQ?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-f065f12d636a",
-     "date": "2026-10-14",
-     "dt": "2026-10-14T20:45:02Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "Exxon Mobil shares rose as the broader market slipped, reflecting energy sector gains.",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQd1lrMWphQjJJZXNyNlFLTTJ4LVcwWXk3ZmxtRXNHTVlVaEhkQmhHMC1lMGdmNHlqYlJRdDhkWktMUkZjMTdPMUI1ek8zYWowZkZwNXFCRy1pUnB0RjF3NDBFUVV2ajdTZGZvdUNJLU56dmxVeTdlT0ZzS0lzbmFxcjRWTlFFbmk4V0hob2Q2MkxnRnVLTEIwS1ZTa09QVV9VanlRNGpJeXM?oc=5",
-     "moved": [],
-     "calls": []
     }
    ],
-   "events_total": 99,
+   "events_total": 109,
    "moves": [
     {
      "asset": "XOM",
@@ -1553,6 +2252,19 @@
       {
        "asset": "SIL",
        "asset_label": "Silver Miners",
+       "date": "2026-10-15",
+       "pct_change": 2.089,
+       "direction": "up",
+       "reasoning": "Positive coverage of silver miners on 13 Oct lifted sentiment, boosting SIL shares on 15 Oct.",
+       "confidence": 60,
+       "linked_event_ids": [
+        "evt-3f841bc92a67",
+        "evt-8fd2bb77aca9"
+       ]
+      },
+      {
+       "asset": "SIL",
+       "asset_label": "Silver Miners",
        "date": "2026-10-13",
        "pct_change": -1.935,
        "direction": "down",
@@ -1816,6 +2528,32 @@
        "confidence": 45,
        "linked_event_ids": [
         "evt-11c8b7f21fb5"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-b5833cd8d25c",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T12:08:05Z",
+     "event_type": "political",
+     "severity": 2,
+     "region": "Asia",
+     "summary": "Visa received a preliminary regulatory approval to expand its services in China, potentially boosting its market presence.",
+     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tVTJKM2dEbzZLRDJERTg5WXN3am9qUThDVndMTUZQNWVkcjFQZ3Zvc3Y3WmUxUzZxVTF6MHNnLUdfTUVQVG1SRHhoUndveUN0bE9SUGxMY2ZwaVdDaTVsTmlQVG5mNjhzWmc?oc=5",
+     "moved": [
+      {
+       "asset": "V",
+       "asset_label": "Visa",
+       "date": "2026-10-15",
+       "pct_change": 1.868,
+       "direction": "up",
+       "reasoning": "Technical buy‑zone signal plus preliminary China regulatory approval raised growth expectations, prompting the 1.9% rise.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-bd167464ad82",
+        "evt-b5833cd8d25c"
        ]
       }
      ],
@@ -2137,18 +2875,6 @@
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRkt5Y3pFZXJHTFMtVjBsRS03eGdxUkFudlQwQ0JUWjlRT3JHOWxnMXlNaE9vOHhLTUdGWVNMWDFibUhzSDdielo5OThVbU85bTBMdllNZXJYSFNScVZrdEVkYVZSUlVfVGYyS29BR1dwMVM4c1E5eE1nc0JhTy1uRTFXRVZFeEFLNmpmOQ?oc=5",
      "moved": [],
      "calls": []
-    },
-    {
-     "id": "evt-a7174b2b4095",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T18:51:21Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "Johnson & Johnson shares declined after the company reported its quarterly earnings.",
-     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWTM5c0hEWG1YN3lfZmRpQ1dNbVNoaHBjUEFrM1Mtd3RIYWNJMEpsaS1JNldNVUducE1DVVF4QkhwSkNjejlVQ1hCZ21UekxhN2REMnlvZ21PaGJKX0FraVZtMWZJVnlmT3NMUm52SWVuZkxUaV9QMmlnQ0JtN216clpLRTNzb1lramh2OGY2akNXTEk?oc=5",
-     "moved": [],
-     "calls": []
     }
    ],
    "events_total": 131,
@@ -2408,6 +3134,18 @@
      "summary": "Global conflicts have pushed oil prices up, lifting energy stocks such as Brent futures.",
      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQc0JBVExySU9STHJOY2JkTGRjUTRmX1BBclBDMGYtQ2hDQTJRWjhXUVRJQTJEd1lpLVdBMDdIWEVkcV82eVRNaUQ4OWlSQW5XSkJOOGpITXVUZThCSkM2ZmFpcE82cmRILUJIbk9kdEFHUHhHTVNNNlh2VXEtRVduMFZ2REdtQUZEZ2ZvdV9tZGRrcGlvaW5XcUNTUW91XzdCZl80?oc=5",
      "moved": [
+      {
+       "asset": "USO",
+       "asset_label": "Crude Oil ETF",
+       "date": "2026-10-15",
+       "pct_change": 2.258,
+       "direction": "up",
+       "reasoning": "Geopolitical conflicts on Oct 12 lifted oil prices, driving USO up on Oct 15.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-5a9397f262f5"
+       ]
+      },
       {
        "asset": "WTI",
        "asset_label": "Crude Oil (WTI)",
@@ -2947,6 +3685,18 @@
      "calls": []
     },
     {
+     "id": "evt-f98b3d5cbc02",
+     "date": "2026-10-12",
+     "dt": "2026-10-12T23:02:24Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "US heating oil customers face a tough winter despite industry shake-up promises.",
+     "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1ONGJlU3dDdkp4b0F1eUZSY3dhZjB3al9qdno4QlFnc2RTMGk5T2JlaTFVdThHS3RnOXkxMmpCd1N3Q0hHNmdCaW43V01PX3oteV9QVy1QRE9XcWs?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-e8b612d9e5c8",
      "date": "2026-10-12",
      "dt": "2026-10-12T22:20:10Z",
@@ -3029,21 +3779,9 @@
      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbk5xX3lQc0w3TWhsYXdVQm5EZVVQU1lPd0xOQWJldmp0eFRGcl9DdnJGWFZTX3JnVFN2V0lvY1gyeTdhZUt0VFk1ci11SmpnQnZDQWh4Uko2YXNEenYwNUtueGtvZ1ZVSThWZnBWc1VzU0J2dk5qME1JdzNqUU5sbTZTMXlIODZ2S3RoRlVlekJlYWdjTDJhQUFBZUM2Zm9laFFkZjZ2LXJHYzJIQi1ucDlFWEpsd0U4Z1cxWktZNlQ1bFk?oc=5",
      "moved": [],
      "calls": []
-    },
-    {
-     "id": "evt-75145efc8c3c",
-     "date": "2026-10-12",
-     "dt": "2026-10-12T19:26:44Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "U.S. natural gas futures fall 3% after lower demand forecast and Pennsylvania spot prices hit lowest since 2020.",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQV3VUMmNpZDI1Yk1zNEdTMUZNbWw2dFdrdlR6dHJoZWI4bXJnVUhYVFJ3M09EWTdsdEVKTnpVTFpnSTkxdC03SGJDWWY0a1FibC1yLThLZElnUzV1QndtUmVod1AzRFhEaVJURHg5ejAySS1fYmV4eVN3d3M4Y0RxNEFJU2kzSG5ROE4zUmo2YU1HS3ZIUUhCYmJhcEJtazY5U3lFVk9Rc2RiaG5INEFqZVg4T0l3RVV6YWE4elVEZVMzc2tMMS10emRLV0c1b2lOQkFUMXhSZlBEQ0JaX2JDaVdn?oc=5",
-     "moved": [],
-     "calls": []
     }
    ],
-   "events_total": 122,
+   "events_total": 123,
    "moves": [
     {
      "asset": "HEATOIL",
@@ -5280,7 +6018,7 @@
        "threshold_pct": 2.0,
        "confidence": 65,
        "expires_at": "2026-10-15",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -5327,7 +6065,7 @@
        "threshold_pct": 1.0,
        "confidence": 60,
        "expires_at": "2026-10-15",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -5348,7 +6086,7 @@
        "threshold_pct": 1.5,
        "confidence": 60,
        "expires_at": "2026-10-15",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },

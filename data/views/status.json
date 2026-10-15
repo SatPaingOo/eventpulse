@@ -1,98 +1,98 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-10-15T04:56:41Z",
- "run_id": "run-2026-10-15T0456",
+ "updated_at": "2026-10-15T17:14:14Z",
+ "run_id": "run-2026-10-15T1714",
  "healthy": true,
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
-   "message": "10 new price snapshots",
-   "started_at": "2026-10-15T04:49:21Z",
-   "ended_at": "2026-10-15T04:49:30Z",
-   "count": 10
+   "message": "29 new price snapshots",
+   "started_at": "2026-10-15T17:07:47Z",
+   "ended_at": "2026-10-15T17:07:58Z",
+   "count": 29
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "134 new items (rss 35, gdelt 0, disasters 21, asset 78, pruned 7)",
-   "started_at": "2026-10-15T04:49:30Z",
-   "ended_at": "2026-10-15T04:50:22Z",
-   "count": 134
+   "message": "155 new items (rss 43, gdelt 0, disasters 24, asset 88, pruned 8)",
+   "started_at": "2026-10-15T17:07:58Z",
+   "ended_at": "2026-10-15T17:08:53Z",
+   "count": 155
   },
   "extract": {
    "stage": "extract",
    "ok": true,
-   "message": "114 events extracted from 114 items; 12 unread left for next run",
-   "started_at": "2026-10-15T04:50:22Z",
-   "ended_at": "2026-10-15T04:53:05Z",
-   "count": 114
+   "message": "156 events extracted from 156 items; 6 unread left for next run",
+   "started_at": "2026-10-15T17:08:53Z",
+   "ended_at": "2026-10-15T17:11:56Z",
+   "count": 156
   },
   "explain": {
    "stage": "explain",
    "ok": true,
-   "message": "10 new moves, 20 new causal notes",
-   "started_at": "2026-10-15T04:53:05Z",
-   "ended_at": "2026-10-15T04:54:12Z",
+   "message": "29 new moves, 20 new causal notes",
+   "started_at": "2026-10-15T17:11:56Z",
+   "ended_at": "2026-10-15T17:12:50Z",
    "count": 20
   },
   "predict": {
    "stage": "predict",
    "ok": true,
-   "message": "6 predictions from 16 events; 111 new events left for next run",
-   "started_at": "2026-10-15T04:54:12Z",
-   "ended_at": "2026-10-15T04:56:13Z",
-   "count": 6
+   "message": "0 predictions from 16 events; 1 duplicate call(s) dropped; 89 new events left for next run",
+   "started_at": "2026-10-15T17:12:50Z",
+   "ended_at": "2026-10-15T17:14:06Z",
+   "count": 0
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
-   "message": "1 resolved, 0 voided, 3 waiting for a close",
-   "started_at": "2026-10-15T04:56:13Z",
-   "ended_at": "2026-10-15T04:56:14Z",
-   "count": 1
+   "message": "3 resolved, 0 voided, 0 waiting for a close",
+   "started_at": "2026-10-15T17:14:06Z",
+   "ended_at": "2026-10-15T17:14:07Z",
+   "count": 3
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
-   "message": "accuracy 33.3% (342/1026), 1 reflection note(s)",
-   "started_at": "2026-10-15T04:56:14Z",
-   "ended_at": "2026-10-15T04:56:41Z",
+   "message": "accuracy 33.4% (344/1029), 1 reflection note(s)",
+   "started_at": "2026-10-15T17:14:07Z",
+   "ended_at": "2026-10-15T17:14:14Z",
    "count": 1
   }
  },
  "llm_usage": {
-  "run_started_utc": "2026-10-15T04:49:21Z",
+  "run_started_utc": "2026-10-15T17:07:47Z",
   "by_model": [
    {
     "provider": "groq",
     "model": "openai/gpt-oss-120b",
-    "calls": 34,
-    "ok": 25,
-    "errors": 9,
-    "prompt_tokens": 29937,
-    "completion_tokens": 22037,
-    "total_tokens": 51974
+    "calls": 36,
+    "ok": 23,
+    "errors": 13,
+    "prompt_tokens": 25201,
+    "completion_tokens": 21030,
+    "total_tokens": 46231
    },
    {
     "provider": "groq",
     "model": "openai/gpt-oss-20b",
-    "calls": 39,
-    "ok": 24,
-    "errors": 15,
-    "prompt_tokens": 28568,
-    "completion_tokens": 24371,
-    "total_tokens": 52939
+    "calls": 41,
+    "ok": 21,
+    "errors": 20,
+    "prompt_tokens": 24989,
+    "completion_tokens": 23050,
+    "total_tokens": 48039
    },
    {
     "provider": "openrouter",
-    "model": "dots-studio/dots-3-note-preview:free",
-    "calls": 9,
-    "ok": 9,
+    "model": "nvidia/nemotron-3.5-super-vl:free",
+    "calls": 20,
+    "ok": 20,
     "errors": 0,
-    "prompt_tokens": 13613,
-    "completion_tokens": 23325,
-    "total_tokens": 36938
+    "prompt_tokens": 33748,
+    "completion_tokens": 66887,
+    "total_tokens": 100635
    }
   ]
  }
