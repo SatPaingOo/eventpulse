@@ -1,8 +1,327 @@
 {
  "days": [
   {
+   "date": "2026-10-15",
+   "events": [
+    {
+     "id": "evt-a381e6bde533",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T02:01:35Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Copper and aluminum prices fell as renewed concerns over interest‑rate hikes cooled demand expectations.",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSjVSU1BKX3lrVlBiNURPMUIwbWlXaUhlbjhOcWdiVjNNYTZmcDN5cTZMVGtBaHFoZFJHRnVONlVBTVdndGp6cy1Rd2NCeGlEeHFoalhnaUVSUjcwMjlBcjdnMmR5cmR2T0t1eVJhaUs5VExwWGwzaE8wcUxaSDdrZll2ZUlmdFRr?oc=5",
+     "moved": [
+      {
+       "asset": "COPPER",
+       "asset_label": "Copper",
+       "date": "2026-10-15",
+       "pct_change": -2.885,
+       "direction": "down",
+       "reasoning": "Renewed concerns over interest-rate hikes cooled demand expectations, directly causing copper prices to fall on October 15.",
+       "confidence": 90,
+       "linked_event_ids": [
+        "evt-a381e6bde533"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-9a05e6dca812",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T03:26:36Z",
+     "event_type": "natural_disaster",
+     "severity": 3,
+     "region": "Southeast Asia",
+     "summary": "Orange smog from Indonesian wildfires blankets Palangka Raya, affecting air quality.",
+     "url": "https://www.bbc.co.uk/news/videos/c63dj4p4k5dlo?at_medium=RSS&at_campaign=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-34bb5e6959b6",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T03:23:49Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "East Asia",
+     "summary": "North Korea launches two submarine‑launched missiles, testing its deterrent capabilities.",
+     "url": "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-2ade8f5dfff3",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T01:26:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Gold fell as U.S. inflation data came in above expectations, influencing forecasts for gold, silver and platinum.",
+     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQcFlKY3NLRGFEQThDcFBzYVo4YWlWWU82dVRacmY4T3FlTTYzVmhBZEZ2bkRJMWt0aWVfZFplZG1ocl9sVElhWjJHMXdmWER6R2hqdjAwZ0lOQ0ZoWWR3VTJaMm5YMGI2bGNsQjAxNkFMYkwxQVBoWmNBT0IzUlBPV1ROeXJQaXJVQ0l2QmE2RGZpblotZzFMWHh3M2s1dlI1a1pEY1pDUUZjV0xUanBPQVktSVRacWQtTzJlUWI3NmdjZlU5ZW5IOWgwNjNZMS1W?oc=5",
+     "moved": [
+      {
+       "asset": "PLAT",
+       "asset_label": "Platinum",
+       "date": "2026-10-15",
+       "pct_change": -3.696,
+       "direction": "down",
+       "reasoning": "Forecast on Oct 14 set bearish target, causing sell pressure; inflation data also dampened demand.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-68c80d20aef0",
+        "evt-2ade8f5dfff3"
+       ]
+      },
+      {
+       "asset": "XAG/USD",
+       "asset_label": "Silver",
+       "date": "2026-10-15",
+       "pct_change": -5.649,
+       "direction": "down",
+       "reasoning": "Higher-than-expected US CPI on Oct 15 spurred expectations of Fed rate hikes, prompting a sell‑off in silver.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-2ade8f5dfff3",
+        "evt-97cf4e28a37f"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-4ea663cd70b9",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T03:49:00Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "US WTI crude oil price signal reaches Australian fuel markets, affecting commodity pricing.",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU2RmTVA3cC0tT0tBTHVqQ2pyLXBRZjlvMFFYZXRoZ2ViY1JoenM2WGJXV3hZa3JjZ1lsZFVrUEtmdjJqVHBUcmVkb0M4NXN3cTRlejBCQ1hRMUo1ZWRucWtoX3VlVmN2ZkNQT0FJNXVNSS1UZmUxajdaR0M4d0ctaG9jTzJjOHhsUnB0bDBiRU1ORmtWLXRzRFRRUlJ6OFRCOHJvbGIySTVKVHBjYlE?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-828fd2704eb4",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T02:29:55Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "Steel prices are rising, according to a report in SAM Magazine.",
+     "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5vVlVvM0R5S20zOV90c3lQajZKY3czY2llb0tkdXZvSnBxSnhGV0dsSkQ3V3NXdVhSX3VLS2dwejU3cTBpRkF2T1N1Z01aeXJrMjhIcWtNNUdNNHhqZmc?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-4fcbf36089d2",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T02:38:21Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "Forecast predicts gold prices will bottom in October after a sharp washout.",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZmFELXhBRzY5NDhUNWdzWkJLS2FaM0pBN3F2LWU4V3NTT3lwWGxMWU96Mk9ET1NhXzhDdWNWem5lV05kREtNVGticUlXd1l4R05MVk9JMmcwRGptYnhqX0MyYmZsRFVuMElQT1BHUW1SUERpSG9ESUhoOTZXVUprLW1jUWhUUGh2dU15ZnNyRnZfbE00c044blV5V01vanpnV08yZ250OWxRYVdZNU94cg?oc=5",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "XAU/USD",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-10-22",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-90ebaf3a75b9",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T01:20:26Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Europe",
+     "summary": "A ship caught fire in Romanian waters; authorities are probing possible drone involvement amid rising Black Sea attacks.",
+     "url": "https://www.aljazeera.com/news/2026/10/15/ship-catches-fire-in-romanias-waters-amid-rising-attacks-in-the-black-sea?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-84fae8e99519",
+     "date": "2026-10-15",
+     "dt": "2026-10-15T00:00:00Z",
+     "event_type": "geopolitical",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "Iran vowed to keep fighting until the US meets its demands as ships sank in the Strait of Hormuz, heightening regional tensions.",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/15/iran-war-live-tehran-vows-to-fight-until-us-yields-as-ships-sink-in-hormuz?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    }
+   ],
+   "events_total": 9,
+   "moves": [
+    {
+     "asset": "COPPER",
+     "asset_label": "Copper",
+     "date": "2026-10-15",
+     "pct_change": -2.885,
+     "direction": "down",
+     "reasoning": "Renewed concerns over interest-rate hikes cooled demand expectations, directly causing copper prices to fall on October 15.",
+     "confidence": 90,
+     "linked_event_ids": [
+      "evt-a381e6bde533"
+     ]
+    },
+    {
+     "asset": "PLAT",
+     "asset_label": "Platinum",
+     "date": "2026-10-15",
+     "pct_change": -3.696,
+     "direction": "down",
+     "reasoning": "Forecast on Oct 14 set bearish target, causing sell pressure; inflation data also dampened demand.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-68c80d20aef0",
+      "evt-2ade8f5dfff3"
+     ]
+    },
+    {
+     "asset": "Brent",
+     "asset_label": "Brent Crude",
+     "date": "2026-10-15",
+     "pct_change": -1.957,
+     "direction": "down",
+     "reasoning": "A global economic forecast on Oct 14 projected further Brent declines, dampening market sentiment and driving the 1.96% drop on Oct 15.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "1aea39521eb3"
+     ]
+    },
+    {
+     "asset": "XAG/USD",
+     "asset_label": "Silver",
+     "date": "2026-10-15",
+     "pct_change": -5.649,
+     "direction": "down",
+     "reasoning": "Higher-than-expected US CPI on Oct 15 spurred expectations of Fed rate hikes, prompting a sell‑off in silver.",
+     "confidence": 80,
+     "linked_event_ids": [
+      "evt-2ade8f5dfff3",
+      "evt-97cf4e28a37f"
+     ]
+    },
+    {
+     "asset": "HEATOIL",
+     "asset_label": "Heating Oil",
+     "date": "2026-10-15",
+     "pct_change": -1.689,
+     "direction": "down",
+     "reasoning": "Global demand forecast cut reduces expected consumption, lowering heating oil prices.",
+     "confidence": 60,
+     "linked_event_ids": [
+      "evt-1a73487f9f84"
+     ]
+    },
+    {
+     "asset": "GASOLINE",
+     "asset_label": "Gasoline",
+     "date": "2026-10-15",
+     "pct_change": -1.782,
+     "direction": "down",
+     "reasoning": "All candidate events describe gasoline price increases and inflation pressure, which cannot explain the observed price drop.",
+     "confidence": 70,
+     "linked_event_ids": []
+    },
+    {
+     "asset": "NATGAS",
+     "asset_label": "Natural Gas",
+     "date": "2026-10-15",
+     "pct_change": -1.535,
+     "direction": "down",
+     "reasoning": "Renewed LNG demand and higher storage forecasts signaled excess supply, driving natural gas prices lower.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-ba8fe199e631"
+     ]
+    },
+    {
+     "asset": "PAL",
+     "asset_label": "Palladium",
+     "date": "2026-10-15",
+     "pct_change": -2.38,
+     "direction": "down",
+     "reasoning": "Reported Palladium price decline and supply concentration risk triggered selling pressure.",
+     "confidence": 65,
+     "linked_event_ids": [
+      "evt-a8d57c37268e"
+     ]
+    }
+   ]
+  },
+  {
    "date": "2026-10-14",
    "events": [
+    {
+     "id": "evt-4f2c0317d697",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T21:43:47Z",
+     "event_type": "economic",
+     "severity": 5,
+     "region": "US",
+     "summary": "US crude oil inventories fell sharply, prompting a rise in oil prices.",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcG1aeUFSVTFiVzZzbUZuM0t2ajk5TVNFOVFVMjFGdFF0N1Y2VDh5OVFGOVhtWnc2dTYzLUl2Tm1tY2FnWDFQWEJGQ0ZqVThWUENubEwzOEhpQ2k4OTFRLTdraWluYWxvVEFEdWFDQzJPV05mcXVMZzM5aG5mcjZJWDVMNWJSa1hmczFsbWE0M3h4b3JOM084TzJicS1SU1VqRVZN0gGoAUFVX3lxTE8tb2dnNE1rcHZuX3RRNUExM0F4YjVQcDlVS0t4bjBOaUN5S2c1Y0NyNlU1b2F3elBMWmc0ZGotU3lYR3JwZGF3ZjJ4MWE1RnhXdEFaeDdydlZLbF9YcWFSQjhOMVpBdU1UdkNPV0kwLUdWd3pINHZ2cnBnR01FUGwwT01VYnZRT1Jiek43cmUtTUFQV2tOdDYtTUFGamlQVzByQ3RXUjZDQw?oc=5",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "XLE",
+       "direction": "up",
+       "threshold_pct": 4.0,
+       "confidence": 60,
+       "expires_at": "2026-10-21",
+       "status": "open"
+      },
+      {
+       "asset": "USO",
+       "direction": "up",
+       "threshold_pct": 5.0,
+       "confidence": 70,
+       "expires_at": "2026-10-21",
+       "status": "open"
+      },
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 3.0,
+       "confidence": 65,
+       "expires_at": "2026-10-22",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-e298a03eb440",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T20:23:29Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "US",
+     "summary": "Nvidia stock sinks as chip sell-off deepens on hot inflation data.",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQb1ZGcUkyMFZEdXYtUDhENXZ6Rkl6b29Ic3BlOUE2a2U5d3I3UWlPM2ZYRjRnZVYyRVdPRUFjTklPeG9OY2hrdUNZaXc4YU9JWGlsNXY2WFlkQ0lzNHl1VFZoaWNLamlGT3lKQVpyN2VTMm1HVEpRd2FzdUZUN3dTbFBkOEVVUnh6SE05QTZpRmlDTk4xVUoyckJQRjlIRVJaZTBkV2hWalNwd1pKOW9QSFh5ODY4VEVZcE51Wm5RMHZ1RlVnWDVvZw?oc=5",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "NVDA",
+       "direction": "down",
+       "threshold_pct": 2.0,
+       "confidence": 70,
+       "expires_at": "2026-10-21",
+       "status": "open"
+      }
+     ]
+    },
     {
      "id": "evt-b88877321680",
      "date": "2026-10-14",
@@ -163,6 +482,27 @@
      ]
     },
     {
+     "id": "evt-cf95c87f7fda",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T21:50:21Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Century Aluminum's full capacity milestones could influence aluminum supply.",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOLWI1dHQ3X0lTa1BaZUpwS19iVnZWazBqbnV2aExmSTRvQ1RNNTRuM09McTkwWGZhNE5OMG0xeHA1QlpRcTJVaWZicEg2b19weXVDTjhTaDhmbE1VNW9jRjVrY2FjM2R4dGZxUFg1MGt2WTd0ZklER2tIN1NiWVpselV4VFVSOUE2VU4ybG1nVzktN2tSaGNVNjVZYVYybEgzSVMtUmlTd2M3Rk1nSm9jYy04Q1pRa2RFY1FtT2huMW9RVTBRbm5PQzlDamNIN0RVLVHSAdcBQVVfeXFMT3pwTWtlUF8zeUxzaGVEb3BaVW5XaHJCalMzLWpBb2ZvUi12X0xzU3FLam1FWHh4TXRyZWlCajFJM3RUU1FnLWNkRURkWUVpYTRBZUZ3YWdfYU1RZzFvXzZoam9kRXJLV2NBU0J3bnZYeXlqSFVlNE1DUThERUpBa1k0ZXFHMWFSNEdzOGZXT18wQnpncXdKS2VFY3F6X1hWTEFlbzJ4OURLMm5PaDNCWE1PQXBYNVYxbDI3c1JGTlk2S3p6TmxhT0I2eHNOaUhCb2dyMnJ3NU0?oc=5",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "ALUM",
+       "direction": "down",
+       "threshold_pct": 1.5,
+       "confidence": 65,
+       "expires_at": "2026-10-21",
+       "status": "open"
+      }
+     ]
+    },
+    {
      "id": "evt-6d19048a6fb4",
      "date": "2026-10-14",
      "dt": "2026-10-14T15:01:53Z",
@@ -243,6 +583,19 @@
         "evt-97cf4e28a37f",
         "evt-c1b1193e5092"
        ]
+      },
+      {
+       "asset": "XAG/USD",
+       "asset_label": "Silver",
+       "date": "2026-10-15",
+       "pct_change": -5.649,
+       "direction": "down",
+       "reasoning": "Higher-than-expected US CPI on Oct 15 spurred expectations of Fed rate hikes, prompting a sell‑off in silver.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-2ade8f5dfff3",
+        "evt-97cf4e28a37f"
+       ]
       }
      ],
      "calls": [
@@ -255,6 +608,31 @@
        "status": "open"
       }
      ]
+    },
+    {
+     "id": "evt-1a73487f9f84",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T13:26:15Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Energy agency cut global oil demand forecast for the year.",
+     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03ZXV5bkVEUTctNEhaYnBJcnpEbnBKWWpqLXEtVkpzU1BUb3lvaE04R3R4OFEteXFkODhBWXBJdzVUSmxwUG95Um5GR3lHVDd2QmVKbXR6dzJ1UUlxZlY1MVVEeHZWb29LRVZjV1JWQ3k?oc=5",
+     "moved": [
+      {
+       "asset": "HEATOIL",
+       "asset_label": "Heating Oil",
+       "date": "2026-10-15",
+       "pct_change": -1.689,
+       "direction": "down",
+       "reasoning": "Global demand forecast cut reduces expected consumption, lowering heating oil prices.",
+       "confidence": 60,
+       "linked_event_ids": [
+        "evt-1a73487f9f84"
+       ]
+      }
+     ],
+     "calls": []
     },
     {
      "id": "evt-f7f4ae389f20",
@@ -443,6 +821,32 @@
      ]
     },
     {
+     "id": "evt-68c80d20aef0",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T04:27:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Platinum prices hit a bearish target, according to a forecast released on 14 Oct 2026.",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNX3puSnkwSGZHakJPLUNxSFpoY2NOVjFkT0o3MHZYOWZ0R3JiaW1oSW9rSnZuOEVQR2FsaVNEWGdmTjNyZVJnNEI1VVNVODZicURPLVNCMFNyREpNYXg3NU9WelhHM3JhdlNiMEpLM1FzRU04elFTaktrSXFkU1kzUHpFOHc0WWM1SnZYVWZHeHI2X0I3N0hsRUN0T1BVRWlzZGVoQWg0UEpjVk8xWUNQZ1N6Rm5rZGNGMUFPQkIxV0N4UXdLUUcwWTktdDFkRWZBR2ludzhDQjlROVhmRHlpOERySGJ2LU5KRGpYTQ?oc=5",
+     "moved": [
+      {
+       "asset": "PLAT",
+       "asset_label": "Platinum",
+       "date": "2026-10-15",
+       "pct_change": -3.696,
+       "direction": "down",
+       "reasoning": "Forecast on Oct 14 set bearish target, causing sell pressure; inflation data also dampened demand.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-68c80d20aef0",
+        "evt-2ade8f5dfff3"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
      "id": "evt-6aa393254701",
      "date": "2026-10-14",
      "dt": "2026-10-14T02:19:52Z",
@@ -539,6 +943,18 @@
      "calls": []
     },
     {
+     "id": "evt-d6c8fb15e39a",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T20:39:35Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "Gold mining stocks dropped as bullion prices fell on expectations of a Federal Reserve rate hike.",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORmN5a0IzYlYySmkyMW82SHJ6Qmh1dF9fWkUwZTlPUlJzUWYxVGFodzZJRmI2ZDBzamFFV0VQT0NqVnlPaC00TGUzdmwxOGtfejF0OTdQeW5tRDFjWnlmZ21WVE9OVS15MC1LelgxUFA4NU5aSmR1bmZqTjdLRlF6M0xxUHRQUG5hb2ZjYVBqMUNOX3djYmRzM19mamVpR0NaeVhnbGpkOG9lZ0FjVU95YzBEQjktQjZ6bWwybFpVVlU?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-1710b66f2502",
      "date": "2026-10-14",
      "dt": "2026-10-14T16:08:09Z",
@@ -571,6 +987,18 @@
      "region": "Global",
      "summary": "Iron ore prices dropped 20% globally as weakening steel demand in China reduced consumption.",
      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPV2lTQ1NRT2pta3p2aWNUY2FJc0lvdHZzUS1sNk1iZW9wcHFzUnI0MUlObnM0SEluX2sxVHNLZGRlYzdncHJ3d0UtblVEMnFveW4tZVJMaDRYWE94UURRTnRPU2VPemRMSlN5NVpxZU94eHlRMzZhdXNheUYxUWIxQVVlMXV3TlZFbG55Ymw5N0hRcllYSnFTZS02a1d0U1lpbnJXbUJ3YUYtTnZJRWkyM09oMXJDOExDeUNxT01aYmdIblVzWEx0dWZXSzRNNkhlNGpkR0lzWTRBdGlMQTlXVUdjbG4?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-83cf1954d5e1",
+     "date": "2026-10-14",
+     "dt": "2026-10-14T11:30:00Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "South America",
+     "summary": "Copper prices near record highs as a potential strike at Chilean mines threatens supply.",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZXg3LVFjMnlxbE5CbkkwcVhXaktqbWNSQnI5b250QjRGQkxvTERLQ0o3a0lhdXlsSW1NTERkUXhTRUFDYTBjb3I1aEtGQzlrSVZqckZ4dnphVlRBQW9HY2duX1hCNmFFd25LV2FMUnlyTE42Z1E5cFdpbVQyRm5RZFE2eGVYeDdULTgyM0E4QU9BMTdzcUtleGhaUk80d2c4YmNoMGpKWmt5OWM?oc=5",
      "moved": [],
      "calls": []
     },
@@ -647,127 +1075,43 @@
      "calls": []
     },
     {
-     "id": "evt-6292f2c3d312",
+     "id": "evt-0b7ddae284d9",
      "date": "2026-10-14",
-     "dt": "2026-10-14T16:43:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Berkshire Hathaway acquires $37.4B stake in Alphabet, becoming its third-largest shareholder.",
-     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPU1dHNlg0dHFKQ1RVLU5QV1kyTGl1ZEZtRHA2c2Z1S2tFaGUxNzlUSXFfQmhJcVhWZDRkcGU4bGUtZW1ZM3AxUDhPdllHeVh1NTRHU1FXZzhOTm1OVkxmS1VVSWhMV2F3MDdNRVhmbkRHblJOTHJreDJnUXBlQVFmMTRnTzFFNGh3RkQ3QXRVa3hscHJ2VVpjb1ZtNU9jTWE0WUE?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-503e3edc536c",
-     "date": "2026-10-14",
-     "dt": "2026-10-14T16:31:40Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Copper price forecasts for 2026 are lifted, but tariff collapse remains a possibility.",
-     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPUXdLa1dPTUMwTjlJYWRvaWhwQkV4Z0tXVUV0MDRTR0YxTHp0SnBFMjIwWDZBZXBWS0N1azNLeGFOdVA2T0tER2V1N05ZTXN1bW1veWJhU2JUeEVGSEItZFh5d3BxYnNtMGxJbXhQeEtac2RBZTFMTjJCS211bXVZQlptdG9QVF9NN2JXck9zemt2Q29CS2FzaGRpQTZDY3d3WjZ3?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-56ba3545133c",
-     "date": "2026-10-14",
-     "dt": "2026-10-14T15:34:19Z",
+     "dt": "2026-10-14T23:58:13Z",
      "event_type": "military",
      "severity": 3,
      "region": "Middle East",
-     "summary": "Container ship GFS Pride hit by projectile and sank in Strait of Hormuz; all 21 Singapore-flagged crew evacuated safely.",
-     "url": "https://www.bbc.co.uk/news/articles/crkg7q97z078o?at_medium=RSS&at_campaign=rss",
+     "summary": "The US destroyed an Iran‑linked dhow in the Gulf of Oman, alleging it was used for surveillance and command‑and‑control activities.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/14/us-destroys-dhow-suspected-of-iranian-command-and-control?traffic_source=rss",
      "moved": [],
      "calls": []
     },
     {
-     "id": "evt-98471f2dfb8a",
+     "id": "evt-65bd937c553d",
      "date": "2026-10-14",
-     "dt": "2026-10-14T14:54:28Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Gold mining companies reported higher earnings, though their market valuations have not kept pace.",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcVVHX1MyUzJ3ZWFLOEQ3ZFRlUjdRVTRBaEFrV25VOTQ4ZHpnZDRZa01lRV9mcHlGRzlFTlBDRkh0Q2o1aXBIdmlyQ1o3aUxrb1FDWEdNeTMxcDNWeXZwN1kwLXFYNjAwb3ROakQyVU44eXFsa1lHUzYydUFOVGtlcHVFSkdLb1pRMG9KbGJ0ZXZFdGh4WEc1OEN2QmdqczNO?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-37e6467d67a3",
-     "date": "2026-10-14",
-     "dt": "2026-10-14T14:36:48Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "North America",
-     "summary": "The US is increasing imports of potash from Belarus as reliance on Canadian supplies raises farmer costs amid trade tensions.",
-     "url": "https://www.aljazeera.com/news/2026/10/14/what-is-potash-and-why-is-the-us-importing-it-from-belarus?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-491bea649d83",
-     "date": "2026-10-14",
-     "dt": "2026-10-14T13:50:28Z",
-     "event_type": "geopolitical",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "Analysis outlines two possible outcomes for the Yemen war: Houthi retreat or prolonged attrition.",
-     "url": "https://www.aljazeera.com/opinions/2026/10/14/two-scenarios-for-the-yemen-war?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-1a73487f9f84",
-     "date": "2026-10-14",
-     "dt": "2026-10-14T13:26:15Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Energy agency cut global oil demand forecast for the year.",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03ZXV5bkVEUTctNEhaYnBJcnpEbnBKWWpqLXEtVkpzU1BUb3lvaE04R3R4OFEteXFkODhBWXBJdzVUSmxwUG95Um5GR3lHVDd2QmVKbXR6dzJ1UUlxZlY1MVVEeHZWb29LRVZjV1JWQ3k?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-4826a6724e5e",
-     "date": "2026-10-14",
-     "dt": "2026-10-14T13:25:35Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "AI app ArtCraft offers free substitutes for Adobe software, disrupting legacy software economic model.",
-     "url": "https://www.aljazeera.com/news/2026/10/14/how-ai-apps-are-offering-free-substitutes-for-big-tech-software?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-8e0751dd0328",
-     "date": "2026-10-14",
-     "dt": "2026-10-14T13:15:48Z",
+     "dt": "2026-10-14T20:45:04Z",
      "event_type": "economic",
      "severity": 3,
      "region": "US",
-     "summary": "Chevron’s recent rally fails to erase a decade of underperformance.",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbDZhb3EzMUVXWFA0cUFNeEtwWUlzQmpaMzRLQkpmX2lHWWNPUlp6bUljdWc1d1R6N0RwczU1eG5RMVlhQnk2bkdCSG5lVzMxekczOXF1WGFlQnM2bHRkeENnVDBPd0Fxcy01X1RkU0pLa0UxZUlwSXNaMEd5bHhmd3RKb1VxZVBSZHRF?oc=5",
+     "summary": "Alphabet Inc. shares fell more than the broader market on the day.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSGRPZDNGT1VGbG9XcFhNQzgyZjdTTlBKZmFEcEtlTmwtT0pjYnhMNmg1U29rbzdRNXB0c1d6YWxRQUVneEsyaVh1Z0x3WW1TUy16X3Rjanl2dldyWnBfbW52cnJuNHNKNDNXamJsdG5RTlkzYXNzcXI3SEFVQklCVnVZZktsSVdGZzRyeFVNMlNqWnVfMlR6bQ?oc=5",
      "moved": [],
      "calls": []
     },
     {
-     "id": "evt-49112518cdf0",
+     "id": "evt-f065f12d636a",
      "date": "2026-10-14",
-     "dt": "2026-10-14T12:49:56Z",
+     "dt": "2026-10-14T20:45:02Z",
      "event_type": "economic",
      "severity": 3,
-     "region": "Americas",
-     "summary": "Analysts argue the rare‑earth market is over‑optimistic, with prices reflecting success earlier than justified.",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMUF2T0VTbnRla2RuUGxhZWVOaE1KUlhNRXhhNTRvTk85Tkpydk1UN3N3eHd1X2FESGs5UTJSakx2OXNqYlA0ZVNkOHJ3bFFDUEU0bmlQR3BLenljRjh1TlNRZUp1Q2g2cDRsZTZDcmxTeGhZbzdqcThkM2h6YXNsUGVwcjdINnM3NTlJSTVHUzhWOTZjdHRwN2pRZzZWSU1wUkRwT0JIcw?oc=5",
+     "region": "US",
+     "summary": "Exxon Mobil shares rose as the broader market slipped, reflecting energy sector gains.",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQd1lrMWphQjJJZXNyNlFLTTJ4LVcwWXk3ZmxtRXNHTVlVaEhkQmhHMC1lMGdmNHlqYlJRdDhkWktMUkZjMTdPMUI1ek8zYWowZkZwNXFCRy1pUnB0RjF3NDBFUVV2ajdTZGZvdUNJLU56dmxVeTdlT0ZzS0lzbmFxcjRWTlFFbmk4V0hob2Q2MkxnRnVLTEIwS1ZTa09QVV9VanlRNGpJeXM?oc=5",
      "moved": [],
      "calls": []
     }
    ],
-   "events_total": 72,
+   "events_total": 99,
    "moves": [
     {
      "asset": "XOM",
@@ -1124,6 +1468,31 @@
        "status": "open"
       }
      ]
+    },
+    {
+     "id": "evt-ba8fe199e631",
+     "date": "2026-10-13",
+     "dt": "2026-10-13T18:59:20Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Natural gas prices fell after renewed LNG demand and higher storage forecasts, signaling a shift in market balance.",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWTJ1UWRDLUxYYml3djhrVGhuRlZJWlNlNWQxcGcwcDNXMVlSSmlzMWVmazByVGEzUnFsZEV2MXVCWWFIMElWenVmT1FyWlktSk9ZcFNWSWQxUTk4d2J5UGVYTXk4T3BzVEw4cEV3XzNqZTQwMHRtLUIyakVMeGRyYXNwUVRNdE9ocnlKSHBQLTA1b2FCcmFXY3Q5dTdJeUVBZGZvZ0NUcw?oc=5",
+     "moved": [
+      {
+       "asset": "NATGAS",
+       "asset_label": "Natural Gas",
+       "date": "2026-10-15",
+       "pct_change": -1.535,
+       "direction": "down",
+       "reasoning": "Renewed LNG demand and higher storage forecasts signaled excess supply, driving natural gas prices lower.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-ba8fe199e631"
+       ]
+      }
+     ],
+     "calls": []
     },
     {
      "id": "evt-5dd3a40c6e8b",
@@ -1734,18 +2103,6 @@
      "calls": []
     },
     {
-     "id": "evt-ba8fe199e631",
-     "date": "2026-10-13",
-     "dt": "2026-10-13T18:59:20Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Natural gas prices fell after renewed LNG demand and higher storage forecasts, signaling a shift in market balance.",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWTJ1UWRDLUxYYml3djhrVGhuRlZJWlNlNWQxcGcwcDNXMVlSSmlzMWVmazByVGEzUnFsZEV2MXVCWWFIMElWenVmT1FyWlktSk9ZcFNWSWQxUTk4d2J5UGVYTXk4T3BzVEw4cEV3XzNqZTQwMHRtLUIyakVMeGRyYXNwUVRNdE9ocnlKSHBQLTA1b2FCcmFXY3Q5dTdJeUVBZGZvZ0NUcw?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
      "id": "evt-cb08ce76d80d",
      "date": "2026-10-13",
      "dt": "2026-10-13T18:56:45Z",
@@ -1782,19 +2139,19 @@
      "calls": []
     },
     {
-     "id": "evt-02f2d4122a3a",
+     "id": "evt-a7174b2b4095",
      "date": "2026-10-13",
-     "dt": "2026-10-13T18:35:50Z",
+     "dt": "2026-10-13T18:51:21Z",
      "event_type": "economic",
      "severity": 3,
      "region": "US",
-     "summary": "Two US gas stations cut pump prices to as low as $0.97 per gallon, sparking a local price war.",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZVdGbUIwWF9fUk5zWEc4U1dYZnN1UGRwamludzNzZFB2OXhSX05fMXJXQVBOd3JjdUxzVDJ0TEdzZVBLeHdBY1hXdDQzTWl0QWhRRElmeU5YSHREaWNxMjh5UTMwUTgxMUdDQUo2bDNEMUo5dUk5OE9XblZfVzhxbE96dnBWM0dkWDVYc09fdFhSQkNOSDhGYWZTSENyTHFpOEhCaFV2WjVhYzNPbjZzSnRmcDk0eU1D?oc=5",
+     "summary": "Johnson & Johnson shares declined after the company reported its quarterly earnings.",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWTM5c0hEWG1YN3lfZmRpQ1dNbVNoaHBjUEFrM1Mtd3RIYWNJMEpsaS1JNldNVUducE1DVVF4QkhwSkNjejlVQ1hCZ21UekxhN2REMnlvZ21PaGJKX0FraVZtMWZJVnlmT3NMUm52SWVuZkxUaV9QMmlnQ0JtN216clpLRTNzb1lramh2OGY2akNXTEk?oc=5",
      "moved": [],
      "calls": []
     }
    ],
-   "events_total": 128,
+   "events_total": 131,
    "moves": [
     {
      "asset": "CAT",
@@ -2282,6 +2639,31 @@
      "similar_count": 1
     },
     {
+     "id": "evt-a8d57c37268e",
+     "date": "2026-10-12",
+     "dt": "2026-10-12T05:55:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Palladium prices fell 30% YoY, while Nornickel's single site processes 40% of global refining capacity, highlighting supply concentration risk.",
+     "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBLYVd4bHRIMnp3d1lNcUJ0MGJWTXgxRlBGYjdEcllrN2MxSHJEeXcxNU0ydUJwLW5EcW5kMW1sT2xYOFl6LWhTRXVNUC0zeHBrdU9SajlVODVDX0VyMzBIZGEwYkVENjFMbGhZNmdyTFRtczRCaWc?oc=5",
+     "moved": [
+      {
+       "asset": "PAL",
+       "asset_label": "Palladium",
+       "date": "2026-10-15",
+       "pct_change": -2.38,
+       "direction": "down",
+       "reasoning": "Reported Palladium price decline and supply concentration risk triggered selling pressure.",
+       "confidence": 65,
+       "linked_event_ids": [
+        "evt-a8d57c37268e"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
      "id": "evt-2bc6bf416b8a",
      "date": "2026-10-12",
      "dt": "2026-10-12T05:27:55Z",
@@ -2657,18 +3039,6 @@
      "region": "US",
      "summary": "U.S. natural gas futures fall 3% after lower demand forecast and Pennsylvania spot prices hit lowest since 2020.",
      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQV3VUMmNpZDI1Yk1zNEdTMUZNbWw2dFdrdlR6dHJoZWI4bXJnVUhYVFJ3M09EWTdsdEVKTnpVTFpnSTkxdC03SGJDWWY0a1FibC1yLThLZElnUzV1QndtUmVod1AzRFhEaVJURHg5ejAySS1fYmV4eVN3d3M4Y0RxNEFJU2kzSG5ROE4zUmo2YU1HS3ZIUUhCYmJhcEJtazY5U3lFVk9Rc2RiaG5INEFqZVg4T0l3RVV6YWE4elVEZVMzc2tMMS10emRLV0c1b2lOQkFUMXhSZlBEQ0JaX2JDaVdn?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-2f60f75d535a",
-     "date": "2026-10-12",
-     "dt": "2026-10-12T19:10:13Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "China",
-     "summary": "Chinese lithium prices fall to near 10-month low amid demand concerns.",
-     "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYUhuVVNvV2Z2NWpmYkktOHhYR05zcFU2UkkyWVlESF80WGcwYUNFb3B1ZFp5X0lCYk5nUF9kZDVGRmpsT3VlYnNLUlFIT2cxQVFMNnd6eWlveVNPaHZ2QVNkQnRBeVZVVnhaYWpaRF9ZTjl2TGM3Ri1mcC13UEE4R0ZRN05NYVJUU0pKR3NudERkMzBrLWdCTkpZQlRGbFZlalNrS0psbER3MXRmNHc0bGdMdHNVSGs?oc=5",
      "moved": [],
      "calls": []
     }
@@ -4855,7 +5225,7 @@
        "threshold_pct": 1.5,
        "confidence": 60,
        "expires_at": "2026-10-15",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -20196,905 +20566,6 @@
      "confidence": 60,
      "linked_event_ids": [
       "evt-32e6e823cfc2"
-     ]
-    }
-   ]
-  },
-  {
-   "date": "2026-09-13",
-   "events": [
-    {
-     "id": "evt-8961852e0b12",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T22:54:00Z",
-     "event_type": "economic",
-     "severity": 4,
-     "region": "Global",
-     "summary": "Copper prices reached record highs, driven by supply concerns and demand growth.",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdWNPb3Vja2Q2bTdISHBuMURUUVkydVcwY2x5V0ZmUHozZUI1cGY1TkczY1BVTTZYZVZ5V3pOUWRFV19OcFFsakhocUtmTEs1OGxzeDlBZ1RjenlHcUt3SXFmdkUzRXZmYUJIQ29ibjJOek9RUXB4SXVaRHBZbU9ZRkFVMjJTd2N3eWI2M2pzUmp1ZEI1TUlDZXVvdFZGelF1ZGhfbWk2LTFZaTdROUNOQnN4YVpYd9IBvAFBVV95cUxPdmFXd2NFOE9TbjhCR1hSZ3JBdzlqeC1sSU9pYUROSGxFZmFfcFVvcXJxajBOVEdaTjBQWFJ6dUhiX3NqY2wxSWdkSzJLekpFLWg3SkZMSDdVNkI2Q1lCM1RIOUpyMm56ODlSMDFCVVB2V3M1RUdELVo0Q1lMQXNTNVVUeUlYc0RHYWVpczVhNHFnaEFzdXZnbEtLNFdGM1d4Wmp1c1FGcVMxb1FzMEtVRUxMT0JTZTk0UGNXMw?oc=5",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "COPPER",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 55,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "SLX",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 45,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "ALUM",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 50,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-f3c63fbd57f5",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T22:23:00Z",
-     "event_type": "geopolitical",
-     "severity": 4,
-     "region": "Middle East",
-     "summary": "Oil prices rose 3% after a Saudi pipeline outage caused by an attack.",
-     "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOcXNvWlpHUEh2bzNITUYtX04zUG1vclFCeDZ1NVdQTkNXUk5OTmRESElsUXUyQjNsYVU1d2tEMFlNRjB1VXVnenR4UHZzd3F3dEZWR2tWSVZMREFiZXF6NjR5SlB5VmdaNXpTWHQ3UF9POFRGanpoR0NxZUV3ZUU4alAycW9mcGdLak5lQ2NXdlpHQ3I3eDVRM3JDWmI3SGdYUjZsbnJSaUVySHk3UFl4Y3AxVGFZbmg5?oc=5",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 58,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "XLE",
-       "direction": "up",
-       "threshold_pct": 0.8,
-       "confidence": 52,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "USO",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 55,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-1d65eda09828",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T19:14:21Z",
-     "event_type": "geopolitical",
-     "severity": 4,
-     "region": "Europe",
-     "summary": "Russia fired a train on the Polish border, targeting a stationary Ukrainian locomotive, after UK PM Boris Johnson left the station.",
-     "url": "https://www.bbc.co.uk/news/articles/cy5zg41dkqwo?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "NATGAS",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 60,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "Brent",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 70,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 70,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-e3365a8b2b0c",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T06:01:53Z",
-     "event_type": "economic",
-     "severity": 4,
-     "region": "Global",
-     "summary": "Oil prices climb, raising concerns for winter demand and inflation as markets anticipate higher heating costs.",
-     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yMGNfMjdqbU1EN3JxcnNCZ0Z5cTNhUS1kR2JFbjRDSjB5Q3JmTmRQdS10emtZWUNFa1hyc0lnY085UFRDb1p0dERIMUN2cVJqeWd2T1hKY2s4QQ?oc=5",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "HEATOIL",
-       "direction": "up",
-       "threshold_pct": 2.5,
-       "confidence": 60,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 45,
-       "expires_at": "2026-09-28",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 2.0,
-       "confidence": 55,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-a1d39d0a4d34",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T23:33:23Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "An Israeli quadcopter flew low over residential buildings in Gaza City, causing alarm.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/aje-onl-nf_israeli-quadcopter-terrorises-homes-in-gaza-city-130926?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 65,
-       "expires_at": "2026-09-20",
-       "status": "resolved"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 55,
-       "expires_at": "2026-09-20",
-       "status": "resolved"
-      },
-      {
-       "asset": "Brent",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-20",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-7874b98bc761",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T19:50:30Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Apple repurchased over $880B of its shares during Tim Cook's tenure, boosting shareholder returns.",
-     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObXFHS282X0ZSQjR2bzBIUkZuRDVoQVBFRTBOS1ExNy0ycmc2RUJXUVhmdnZSSVAzSWs0ZEVwQ1pLLUxmZmtkWUV4Y2JTY045MHVueXNidWpLSDZFdWZOYTRYckVMUTJkNGVYdmZ1M3R2eDVQSDZZUzRzdzdJU3o3T3o1T3ExdHEwMHlDVWpKR2c?oc=5",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "AAPL",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "MSFT",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 40,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "NVDA",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 40,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-214273649888",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T19:34:36Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "US",
-     "summary": "President Trump announced removal of all Irish whiskey tariffs as his two-day visit ends.",
-     "url": "https://www.bbc.co.uk/news/articles/cx2z79n0eeno?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XLE",
-       "direction": "range",
-       "threshold_pct": 0.5,
-       "confidence": 45,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "WMT",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 55,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "AMZN",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 55,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-b3d498eae30a",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T18:15:12Z",
-     "event_type": "geopolitical",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "US President Trump urged Ukraine's Zelenskyy to halt attacks on Russian diesel infrastructure, citing global fuel shortages.",
-     "url": "https://www.aljazeera.com/economy/2026/9/13/trump-tells-zelenskyy-to-stop-hitting-russian-diesel-supplies?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "GASOLINE",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 55,
-       "expires_at": "2026-09-20",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-20",
-       "status": "resolved"
-      },
-      {
-       "asset": "Brent",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 60,
-       "expires_at": "2026-09-20",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-02786a90e2ba",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T12:04:39Z",
-     "event_type": "geopolitical",
-     "severity": 3,
-     "region": "Global",
-     "summary": "BRICS summit 2026: bloc refrains from condemning US-Israel war on Iran, highlighting internal divisions.",
-     "url": "https://www.aljazeera.com/news/2026/9/13/brics-summit-2026-what-are-the-key-takeaways?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "Brent",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 65,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 55,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 65,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-babd1040bbae",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T11:45:24Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "Iranian families face bleak prospects as US war continues, eroding hope for dignified living.",
-     "url": "https://www.aljazeera.com/economy/2026/9/13/a-dignified-life-is-a-distant-dream-for-many-iranian-families-amid-us-war?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "Brent",
-       "direction": "up",
-       "threshold_pct": 3.0,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 3.0,
-       "confidence": 60,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 2.0,
-       "confidence": 55,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-2420e2ccfb89",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T11:35:04Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Southeast Asia",
-     "summary": "Philippines prepares for historic vote in Bangsamoro region, marking progress after decades of conflict.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/philippines-set-for-historic-vote-in-bangsamoro-after-decades-of-conflict?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "down",
-       "threshold_pct": 0.5,
-       "confidence": 30,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-dc63e042a725",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T07:19:21Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Oceania",
-     "summary": "USGS reports a magnitude 5.2 earthquake 43 km ESE of Port-Olry, Vanuatu.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th4y",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 58,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "XLE",
-       "direction": "down",
-       "threshold_pct": 1.0,
-       "confidence": 45,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "XAG/USD",
-       "direction": "up",
-       "threshold_pct": 2.0,
-       "confidence": 55,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-68cbfb71eb54",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T04:22:41Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "Wildfire rages on Brac Island, Croatia, prompting emergency alert.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/wildfire-rages-on-croatias-dalmatian-coast-island-of-brac?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "HEATOIL",
-       "direction": "up",
-       "threshold_pct": 2.0,
-       "confidence": 55,
-       "expires_at": "2026-09-20",
-       "status": "resolved"
-      },
-      {
-       "asset": "NATGAS",
-       "direction": "up",
-       "threshold_pct": 1.5,
-       "confidence": 58,
-       "expires_at": "2026-09-20",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 52,
-       "expires_at": "2026-09-20",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-9f7c7f9a60d4",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T03:50:32Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Asia",
-     "summary": "M4.9 earthquake strikes Bonin Islands, Japan.",
-     "url": "https://earthquake.usgs.gov/earthquakes/eventpage/us7000th3a",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "XAG/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 50,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "XAU/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 55,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      },
-      {
-       "asset": "WTI",
-       "direction": "range",
-       "threshold_pct": 1.0,
-       "confidence": 40,
-       "expires_at": "2026-09-21",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-a6aa6f8b61b1",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T03:41:14Z",
-     "event_type": "other",
-     "severity": 3,
-     "region": "Oceania",
-     "summary": "Ferry sinks off Vanuatu, one dead, 30 missing.",
-     "url": "https://www.aljazeera.com/news/2026/9/13/one-dead-more-than-30-missing-after-vanuatu-ferry-sinks-pms-office-says?traffic_source=rss",
-     "moved": [],
-     "calls": [
-      {
-       "asset": "SLX",
-       "direction": "range",
-       "threshold_pct": 0.5,
-       "confidence": 30,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "ALUM",
-       "direction": "range",
-       "threshold_pct": 0.5,
-       "confidence": 30,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      },
-      {
-       "asset": "COPPER",
-       "direction": "range",
-       "threshold_pct": 0.5,
-       "confidence": 30,
-       "expires_at": "2026-09-18",
-       "status": "resolved"
-      }
-     ]
-    },
-    {
-     "id": "evt-076e12f2b779",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T13:26:44Z",
-     "event_type": "economic",
-     "severity": 5,
-     "region": "Global",
-     "summary": "A freight fund surged 3,600% after Iran war oil shock.",
-     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUmxsQTBxaVlzOFBJbndPUk5DdlR6NEtGdWJocmhRbWpoUEtsVzBKNnRKTnFkMlNrMWxXWXY0b0w3VWZLemlQc1N4a0x5bFkwYXNiNU1PV29MSVpzWWREOGpvd1MxOVd1ZkpLSHA1bi1qU1dDZWhGN01EN0JJQjVnOW12SnhNaWp40gGOAUFVX3lxTE9JOUpZM0c2bjNIR0ozVGo3cnE1R3lhc2wydU5KVWZYYVl5WExZWm9uZFAzM1RlMW51ampFLVFzekVtUnM3THlaV1JGcG9TMkNRNnp5ck10dW5VTHlYV1lIaDRfSkVOUmpieUlYTkpGdjZnQUwtT3BTMHA5ZkFfZXZFRjNJdnlMNlNDMkNxMVE?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-bbbe73318fea",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T22:08:14Z",
-     "event_type": "economic",
-     "severity": 4,
-     "region": "Middle East",
-     "summary": "Saudi Arabia shut a critical pipeline bypassing the Strait of Hormuz, causing oil prices to rise.",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcWFrNEdSMHhodEJrS2thdWhURmpWejhTNHljZTZEVFpnVUp6cDV2Z202cTA5WVlINW43YVhWeXNjNnRLWFVDVWFlT3BxYk83eGlBWGRzZUVOVTJKbGE5Zl9XelpCOFpLUVRsajFMU1M0WmxaMWo5eVhHeElnZmFpQ2c1U1F3MUFKbks4ag?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-92e1db71e4ac",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T21:10:07Z",
-     "event_type": "military",
-     "severity": 4,
-     "region": "Europe",
-     "summary": "Russia struck a train at the Poland‑Ukraine border, prompting Poland and Ukraine to accuse Moscow of escalation.",
-     "url": "https://www.aljazeera.com/news/2026/9/13/poland-ukraine-accuse-russia-of-escalation-after-strikes-near-border?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-cd1120b7ca5f",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T16:11:43Z",
-     "event_type": "military",
-     "severity": 4,
-     "region": "Ukraine",
-     "summary": "Ukrainian drone evades Russian helicopter fire before striking a Russian oil tanker.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/09-12-ukraine-drone-russian-tanker-sv?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-3ca2361cb008",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T15:41:00Z",
-     "event_type": "economic",
-     "severity": 4,
-     "region": "US",
-     "summary": "JPMorgan note shows most robotaxi funding flows to Tesla.",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPR1lnbnplVnN0X3BXNjlmQ3hDNmVTT2ZrUmpPVG94VXlzNXpmdWJESEhWVnhoNHRYbEdPUkZEVmpieUE4aVo4MmJlRWZJMFhkX3ZWUXk4eGRBSFNTRmNVWm9Eb2VHMHFZNVBCeDZQR1ZEaXE5R2gyTmFCWjY5aEdYUmxkSTBSTzd5UEZaZG5YLTMybnExalJoRFlIN3ctZEUzb2hOcVhoNDBSZkFIdGpGVDN6UFliNmRKTFZfdk5CdVB3bHlyTU1IUV9DaGdDRDJxYnZsQ01vX0IwM09ySk1pOUlMZVZSZmM?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-f5b5f6604c72",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T15:00:47Z",
-     "event_type": "geopolitical",
-     "severity": 4,
-     "region": "Middle East",
-     "summary": "Houthis took control of the Bab al‑Mandeb strait, threatening Suez Canal revenues, prompting refugee flows and exposing regional security gaps.",
-     "url": "https://www.aljazeera.com/economy/2026/9/13/red-sea-nations-watch-as-houthis-seize-bab-al-mandeb-strait?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-df5d38912aeb",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T11:23:42Z",
-     "event_type": "geopolitical",
-     "severity": 4,
-     "region": "Middle East",
-     "summary": "Iran's war reshapes BRICS relationships, revealing divisions and challenges to a new global order.",
-     "url": "https://www.bbc.co.uk/news/articles/ce8767g4jdpo?at_medium=RSS&at_campaign=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-eb350fb98942",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T10:47:19Z",
-     "event_type": "military",
-     "severity": 4,
-     "region": "Middle East",
-     "summary": "Yemen government forces and Saudi Arabia conduct air attacks against Houthis, continuing displacement of thousands.",
-     "url": "https://www.aljazeera.com/news/2026/9/13/fighting-continues-between-yemen-govt-forces-houthis-what-is-the-latest?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-2a1c9739b8ef",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T00:00:40Z",
-     "event_type": "military",
-     "severity": 4,
-     "region": "Middle East",
-     "summary": "Saudi Arabia and Houthis exchange strikes over Bab al-Mandeb amid fears of impact on Riyadh's oil industry.",
-     "url": "https://www.aljazeera.com/news/liveblog/2026/9/13/iran-war-live-saudi-arabia-and-houthis-trade-strikes-over-bab-al-mandeb?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-b77414a193d9",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T22:50:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "Wall Street analysts see strong upside for SpaceX stock while remaining neutral on Apple.",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPODkyQVZNdHNQVzByWWZGUGFfdU9CdnlZU0ZJNTZWN05wN2JvUE1XcEhFdVVaTVpfSTRWWnk4dXVzaVlJZ05RVVBUMUh1QTctQ2NVTHZreHF6encxYW5KWGpSY1ozM2RjREhPYTkzYTktd1BZaFhvX1N5Z2FyTHBFZDBfb1BtVDVldXI4MF94cW9RMndJSEcw?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-d81f9c2d6657",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T22:17:15Z",
-     "event_type": "other",
-     "severity": 3,
-     "region": "Global",
-     "summary": "AI companies warn that their technology could pose an existential threat within a decade.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/ai-apocalypse-warnings-benefit-ai-companies?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-de73804daf0d",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T21:50:50Z",
-     "event_type": "geopolitical",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "Tehran and Muscat postponed talks to seek regional consensus amid tensions in the Strait of Hormuz.",
-     "url": "https://www.aljazeera.com/news/2026/9/13/tehran-and-muscat-delay-talks-citing-regional-consensus-need?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-ba92f769361d",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T21:02:14Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Australia",
-     "summary": "Pro‑Palestine protesters in Sydney called on the Australian government to increase pressure on Israel.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/pro-palestine-protest-demands-australia-increases-pressure-on-israel?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-eabbef4d7350",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T21:00:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Analysts warn that continued oil price spikes could revive recession concerns.",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdERGM1lxRUJ0U1ZNVEZmbWJsNV9takZ5ZHZwZnd2OF96VjZwY01oY2dTMG1pdS0zM3R5WUY5Zi1SeTdYSkNrMWk3a3RscXhtUVhBUHRmZnVmZG9yU2dUeGpObmFSRGZGZGRYRDloclE3MmJhWkplaDRYYXJ3N0lKR1RJUHo4c0NkZGJRNjlLclczdDVkTzM0clRDdHJCQi1N0gGmAUFVX3lxTE5hZ1pkVWx1Zy03Zm13S2tmMjBzZkMzNXMwa2FPcXg1aHRzUVpGQVMtcTc4bGxYTGlVNjVQNnBkZ0pkRWs0Rk1uVjNhSmFTcnlQM3ZDQkd0WWFtUllybUFvMUg5TG83bDFEcWQzZHhoUU12ZkV1aVFLQjFrUHc3bTI4T3BxOUhJLVhIN0hfVC0yUURia1h2NVl0c1FTeU9MakpXZTNucUE?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-11a51e0eb995",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T20:46:34Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "Israeli forces kill a pregnant Palestinian woman in Gaza; settler pogroms intensify across the occupied West Bank.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/jerusalem-daily-pregnant-woman-killed-in-gaza?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-e5c1ebc21323",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T20:29:57Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "US announces removal of Irish whisky tariff, following earlier 5% reduction.",
-     "url": "https://www.aljazeera.com/news/2026/9/13/trump-says-he-plans-to-remove-a-15-tariff-on-irish-whisky?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-6953cf006e0e",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T19:58:11Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Sweden",
-     "summary": "Sweden holds election; far-right could enter government.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/swedes-vote-in-election-that-could-see-far-right-in-government?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-3effc76efbb9",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T19:55:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Guyana",
-     "summary": "Guyana's president reports increased oil revenue amid Iran conflict reshaping global markets.",
-     "url": "https://www.aljazeera.com/video/talk-to-al-jazeera/2026/9/13/guyanas-oil-boom-and-challenges?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-7ae61c7041b4",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T19:25:59Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Sweden",
-     "summary": "Exit polls show Sweden's centre‑left parties leading with 51.3% in the general election.",
-     "url": "https://www.aljazeera.com/news/2026/9/13/centre-left-opposition-bloc-leads-in-swedish-vote-poll-shows?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-738702192d22",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T19:01:49Z",
-     "event_type": "natural_disaster",
-     "severity": 3,
-     "region": "Africa",
-     "summary": "A forest fire started in Mozambique on 10 Sep 2026 and continued until 13 Sep 2026.",
-     "url": "https://www.gdacs.org/report.aspx?eventtype=WF&eventid=1031942",
-     "moved": [],
-     "calls": [],
-     "similar_count": 3
-    },
-    {
-     "id": "evt-8e41077784ab",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T18:30:29Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "A child was killed when a roadside explosive detonated near Damascus, Syria.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/09-13-syrian-child-explosion-clip-mp4?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-7dabc63094be",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T17:15:36Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "France",
-     "summary": "France Televisions removed a program after actress Adèle Haenel criticized Gaza.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/french-tv-programme-pulled-after-actress-speaks-out-on-gaza?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-9fd81fc44458",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T16:28:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Analysts say the Fed’s policy stance, oil prices, the US dollar and the Iran war are the four main factors that could move gold prices next week.",
-     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQdV9IV0tKMVVCcENVTWJkaTB4ejFRRTVjRGhvdnlOTU1kdlFDT25rQ1dsX3ZVOUZQMlpkMGp6Zi04a01yb3JrUmViNktZdHJKTXZSbWM5enh5UHhBX0d2S2NyeUJLMnFWWEE0eXJrc3NjMDM2UWpzeFFCUG1uQkVUUXFJRGJsZks0Mi03ZGpSS01pTGhnWDlzXzZSS1hsZUg4VG1vemljU0Fqd1RGWnhndFpYa1JwVGpLLVh3X3o0UWZKdlBrX09wS2VYVWRqQ3NocWU4MlRTejI5TV9EaEJKZktIM0FocXJjTFl1WNIB8gFBVV95cUxPT3R5WS1JNzhHclpnWnJicEthTkNBVzBHb0dLMHVpNXczN0ducWFicGVvSzNITk96SHVQSnhyLU8zR2JFT0VTc2IxQzk1TlNHOE1vSC16TjlYd2NIOE5wSlpzd2ZUaEI0RjgwSTg2Y2lieFdpUmh4UldUTDU3R0k1R2F6dUhXR0ZzR1B1NmZucENSb2ZOb0RFb19hQ3BEc1VXLUpkYWw0VGJwaUgwV3dqY2FjSVhNVHpYMEViWEU0R2xuYmZQVEw0NmhxR0JlZk8yaFlGWVh6TDg1OWdXQXdEaEJLNGFSd0JXSU5jQjd2b2RKdw?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-9a9b8b68b8f8",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T16:13:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "JPMorgan cuts Adobe's price target.",
-     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYW5DU3ZwOEt3M1Rudk9TT3NvYlZ0VkluQXNYcFI1OXRiQ01DNHk4X25sYnhSeGQ1S1VpeWZLaE9DcnpaTFFUd3BiZlExOWpDajN5dVVieE5EUy1tNFE1a2hlMGNQUy1RUGtHWEFwTUV3cHNSMndMQnB1VWZNdTRCN0tXLVp5ZmdoZURR?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-879fc97a6c83",
-     "date": "2026-09-13",
-     "dt": "2026-09-13T15:50:46Z",
-     "event_type": "other",
-     "severity": 3,
-     "region": "Southeast Asia",
-     "summary": "Passenger ship capsized off Java Sea, Indonesia, killing six and leaving 130 missing.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/9/13/six-killed-130-missing-after-indonesian-passenger-ship-capsizes?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    }
-   ],
-   "events_total": 193,
-   "moves": [
-    {
-     "asset": "NATGAS",
-     "asset_label": "Natural Gas",
-     "date": "2026-09-13",
-     "pct_change": 2.815,
-     "direction": "up",
-     "reasoning": "Arctic drone attacks raised supply‑risk concerns and European gas hitting four‑year highs signaled tighter market, driving US nat‑gas up.",
-     "confidence": 70,
-     "linked_event_ids": [
-      "evt-f6fff62bc71d",
-      "evt-484c0dee9cbb"
-     ]
-    },
-    {
-     "asset": "Brent",
-     "asset_label": "Brent Crude",
-     "date": "2026-09-13",
-     "pct_change": 2.561,
-     "direction": "up",
-     "reasoning": "Market priced in expected supply tightening from Hormuz traffic issues and Saudi pipeline shutdown reported for Sep 14, driving Brent up on Sep 13.",
-     "confidence": 70,
-     "linked_event_ids": [
-      "evt-6f556ee25d2a",
-      "evt-4b9a7c2a4360"
-     ]
-    },
-    {
-     "asset": "WTI",
-     "asset_label": "Crude Oil (WTI)",
-     "date": "2026-09-13",
-     "pct_change": 2.628,
-     "direction": "up",
-     "reasoning": "Bullish analyst projections on Friday indicated strong prices, driving market sentiment and leading to a price increase on Sunday.",
-     "confidence": 65,
-     "linked_event_ids": [
-      "evt-f695a1d290fc",
-      "evt-6570b1b060bd"
-     ]
-    },
-    {
-     "asset": "HEATOIL",
-     "asset_label": "Heating Oil",
-     "date": "2026-09-13",
-     "pct_change": 1.611,
-     "direction": "up",
-     "reasoning": "Houthi advance in Yemen threatens Red Sea shipping lanes, tightening crude supply and lifting heating oil prices.",
-     "confidence": 60,
-     "linked_event_ids": [
-      "evt-0b61c547b03c"
      ]
     }
    ]
