@@ -3057,6 +3057,31 @@
    "pct_change": -2.355
   },
   {
+   "id": "note-64c98720e603",
+   "kind": "causal_notes",
+   "asset": "WTI",
+   "move_id": "move-WTI-2026-08-20",
+   "move_date": "2026-08-20",
+   "event_ids": [
+    "evt-c0c3c6bae25c"
+   ],
+   "reasoning": "Dow fell sharply, prompting investors to rotate into commodities; mining and oil stocks rose, driving WTI up.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-17T15:45:37Z",
+   "events": [
+    {
+     "id": "evt-c0c3c6bae25c",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "US",
+     "summary": "U.S. stock market slipped as the Dow dropped 700 points, while mining and oil stocks rose.",
+     "date": "2026-08-20"
+    }
+   ],
+   "pct_change": 2.33
+  },
+  {
    "id": "note-327c52f3b0f1",
    "kind": "causal_notes",
    "asset": "WTI",
@@ -3139,20 +3164,6 @@
    "written_at": "2026-09-03T10:25:19Z",
    "events": [],
    "pct_change": 6.561
-  },
-  {
-   "id": "note-0b3889727bf4",
-   "kind": "causal_notes",
-   "asset": "WTI",
-   "move_id": "move-WTI-2026-07-28",
-   "move_date": "2026-07-28",
-   "event_ids": [],
-   "reasoning": "No listed events; likely due to unreported supply-demand shifts or market microstructure factors.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-03T11:40:28Z",
-   "events": [],
-   "pct_change": -4.055
   }
  ],
  "predictions": [
@@ -3679,74 +3690,14 @@
  ],
  "events": [
   {
-   "id": "evt-f58fbafdc0ea",
+   "id": "evt-4a61a0dd7851",
    "date": "2026-10-16",
-   "dt": "2026-10-16T16:20:41Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "Brazil",
-   "summary": "Fastmarkets launches assessment of domestic mesh quality for steel wire rods in Brazil.",
-   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPMU5Vd1JMYUJNdWRkSksxYmF5NzJDQ0hXSU9NNHhpWVdhOTQxRHNuWnRzWGNOU3YzYlJ1YUpOdFlXVk1INWZjcE9IcThLbkJFQTF6OHljMTk4MVRVaXVOT0JkUGxNVGpLdWF0cWNGOG1mbGttSU5wTG5OUTlJM0hqWmdMSmZZeW9KWGlEWTBmdm4xblFwbDRTMklNWTVPOC1lQU52WTczQTJVaHFXalJHRkUzbw?oc=5"
-  },
-  {
-   "id": "evt-eff863ea35b1",
-   "date": "2026-10-16",
-   "dt": "2026-10-16T09:15:32Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Analysts examine whether Home Depot's recent sales momentum changes the bullish case for its stock.",
-   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWFpzemhjZFFSZldkVHVtc2doVlRYYndqWW42NUlmSDY0VVh1c21uanZiUUk1MExOTnVkMUJ0MjczOTlyWnJUQzB0NU1ncDBuaGxQcDlrNFNST3BCZVJiajZEbWtUdERnc3FGZmZ6cnF5Wno4ZmhCMU51SjJQcHpBM2VidWxyNndEYnJYalpzQlV4eWJ5d3FjdGNENUM?oc=5"
-  },
-  {
-   "id": "evt-ddfe8ad91399",
-   "date": "2026-10-16",
-   "dt": "2026-10-16T11:40:37Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "WTI crude oil prices held gains near $96 per barrel, reflecting risk premium in the market.",
-   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONThkWF9EZF9ZRmNiMWtNOWcwRER5ZGl1b0s4RzlRbTZvWEV3YWJndlZrcm5HSDd3N0w3bHpTa1d3dkxhMU9JQzdWOHF4TUJCZTVDSTk2cHdlYVExNDZnVlBqWXdRajRkVTB5ZThvVElrbkhORzRzNGpzT3dSVWZDMmxvS3l0T3lxSTM3NmVwU3lvQWFMWWZWU2NPWUVQV1BkdkNlZFNHeDM?oc=5"
-  },
-  {
-   "id": "evt-437468c1414d",
-   "date": "2026-10-16",
-   "dt": "2026-10-16T09:35:53Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Gold prices rebounded, benefiting royalty holders and fuel‑hedged miners as production costs increased.",
-   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONndKTVVEN3EwMzdXQ1BqTFdhbjZTWEdEc1dxSUllNW1PczBVS0hZMHVwZmhrLV9ZWnBJX1poVU8tS1pIX081Z0tTemVrUVp0YlNlU05QQ0sxSTJhUVphS19DMXVNcFRTTjRVMWRhXzFfc3F4eWN4bk1ubjRyaW44OGEwVUVEdzFsbWJ6NGxRdnFHMjNZbjNoSTFBNG5LWmVKdFQzbHNLV2RsNFRX?oc=5"
-  },
-  {
-   "id": "evt-6c69c0612e22",
-   "date": "2026-10-16",
-   "dt": "2026-10-16T20:43:00Z",
-   "event_type": "economic",
+   "dt": "2026-10-16T07:14:13Z",
+   "event_type": "other",
    "severity": 3,
    "region": "US",
-   "summary": "Coca‑Cola, Visa and Mastercard posted record earnings while investors shifted out of semiconductor stocks, boosting the three firms' shares.",
-   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWWxEVm1uYUNxZzg5Wmk1b0xnejRDZnlOMmdxY3h2R2FhcktuR1B3enlZekVELW1KSUlXNWRLZmZ3UUMzVXh5WDJpM2IyaV9ldlQyRFl6anoxbk5RaFVEa0FzME9DWThuVkVwRnJKOTF2UzkzX2RUejNrWmJZbjZVRVRVcldTdElFUi1FN2hwdlNoTzA?oc=5"
-  },
-  {
-   "id": "evt-4abcd26d2e87",
-   "date": "2026-10-16",
-   "dt": "2026-10-16T16:10:04Z",
-   "event_type": "economic",
-   "severity": 5,
-   "region": "Global",
-   "summary": "Steel prices surged globally while diesel costs remained high, impacting manufacturing and transportation sectors.",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeXZfQVdDd3Z0cjZGbWZUOFZ5WjBYS1NJc25FR29FbFVYQUh3cDQzMGw2QjJ5Y2ltM09nUmt0b3lMcERjcFpYZXAwVjVabmlrTUJRazBOdFRwMXFLSkUzWXpvUkp3cEdrMlN3cFAxb2lOSVhZZy1EQVRQNTNZTVpZV1hsdTk3bG1QOE92SnlzT0U5akR5YXJTX25IdXFobkxaLS1fclRNdVE2bkNJb2FKVTlfeGp2bmM?oc=5"
-  },
-  {
-   "id": "evt-6f16cd1fd335",
-   "date": "2026-10-16",
-   "dt": "2026-10-16T11:41:53Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "US",
-   "summary": "Tesla unveiled a Roadster with compressed air thrusters for limited flight, boosting its stock.",
-   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSXZvZEl6TGJvaXBRcVFxQkxRdUN5WHR0aUw4QnpTWThicjhSTm4yaFFGbmpuanpCVE1NeDJkc2pMZjdYX1hlMHlGMm1RdUFMTUx4cHluWXk0TGJFZFB4bVNOT1RldWtfWEZHUjRfejd0a244elJHWWJ2MVk4YWEzMWtSdG1CSGNwUHRIQy01OWlzb0lPeDZPWmlCMFJkTTg3bUlZR1dmWi1VYmFkR1RGenFTZllrbi1nMkRhRWYzcUlwU0FPTkFia2ZxUW5KMUlBMTdvYURMZG5lQ3Y1TEZTazU1QVYwMy1mNkE?oc=5"
+   "summary": "UnitedHealth Group's earnings beat could alter bullish outlook for its stock.",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYTNhOXYzQkRYRVhqZExiLXhmV245VVZ0T3BtREtNZ1ZpbHhta2c3NjZWWmd3UEJ3LXJZV2U0OXN0UGExNmpNZHBKWU1UemVlQUlDSWlnNWtQbmx4VW1uWVFiLXM2ekFwQkNheWpDTzBSVmJ5bnVzeUx0bjQtdlh6d0VVRG9PT1JGUDV1LTdZa1E3VDdjbUlvMg?oc=5"
   },
   {
    "id": "evt-cd5864827550",
@@ -3757,6 +3708,16 @@
    "region": "Global",
    "summary": "Bullish momentum expected for natural gas prices, awaiting a breakout.",
    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMDF3Z0lseWFzY21KZHpIYVNHekZ0OHRGdm1ZUDFIRjdzbnNNcnh2TG5UcUhxOEhmTzgzRk9xLXFpSFREWVVSaXZhUkZMR0lseFktYnR2VC14VXBYNnFCVVFHQVB4Z0N0akEwRWY1RlJkRkZvRVB3ZThHNldSUVBpUlBCdjhLS3RyYlRHZVpGaXVOT1VrQ1QtN2F1U19nQ3lDWXdkY0JXOVNwYW56cjZOQW5iczU?oc=5"
+  },
+  {
+   "id": "evt-4e7d66f0332a",
+   "date": "2026-10-16",
+   "dt": "2026-10-16T19:16:02Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Warm autumn temperatures in the US are weighing on natural gas prices.",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa3BjU1l5SEJQanJIRXJqN0N4bUJ5b2FWS2w0ZlF5c2ktakI2MGtNdndnb1IxcXVJRFpiMmwtX2kyMDVuSURPeXZjRDB6U3ZQVERWbGJPekpXUXJEV0lxdTB4em1TT0VTX04tWUJNWS1fU0h3TFgtOXRhZGRZblhpSTJianIyY0djWTlCSXZ4cU14dw?oc=5"
   },
   {
    "id": "evt-4a4517c14805",
@@ -3787,6 +3748,16 @@
    "region": "Africa",
    "summary": "Artisanal miners in Nigeria’s Nasarawa region are boosting lithium production, supporting the clean energy sector.",
    "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/the-artisanal-miners-behind-nigerias-lithium-boom?traffic_source=rss"
+  },
+  {
+   "id": "evt-b10123a909b6",
+   "date": "2026-10-16",
+   "dt": "2026-10-16T06:08:00Z",
+   "event_type": "other",
+   "severity": 3,
+   "region": "US",
+   "summary": "Netflix announced a 1,000-job cut, its largest staff reduction since 2022.",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdlVrdlBJUGhWelJNVEp5M3ZkZzFITWtGemNydzFkV0U3amZRRE5zYlNyRXIteU5IWUF6R0RMNjlzTGtRbm5YYlY3RXZxNjRneHYtN3JaUkdKVWZ1dkhPcFJaNHNBSGRUZ2VmdVNWdmVraXRpTkVJem5hdS1VajdxckJhUTVyU1BqVWY0RHVNLVZ3bWxyNTQ2VzBfaw?oc=5"
   },
   {
    "id": "evt-64cc20b5ad68",
@@ -4069,6 +4040,26 @@
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPc29TaDdJb0xmRmtEUkdwdlhWc25sd09RY29HLTFQN3hsSWdyQjRJYmtVaVZZMHM3bGVXV0Jsb1p1ZWdGUTVjcWhkOVFpN2RLZEl0c3dndUNzam93aXY2QkpEcUJHc0xvaVRXcE1WU0hCQlo3OW5EQmNNTmVzOVRUV1ROQjE4QnM?oc=5"
   },
   {
+   "id": "evt-edb842fdd1e2",
+   "date": "2026-10-16",
+   "dt": "2026-10-16T23:25:00Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "US",
+   "summary": "U.S. steel prices hit a four-year high, up 52% in a year, driven by Trump tariffs.",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rTWhPREtOYWROM1haSVZ0enlVVDBUcXZ2Vk9VdGJXWWMtTmxkemxzd0kyZWdOZzZ1d1I2SWd6a0VDYUpyVGx1VjNTZkVudVdrUmQ3bkFwcWFZU2xzenR4TjdlRzB0bEJBWFBGbGJfN3ZfbmdwVWc?oc=5"
+  },
+  {
+   "id": "evt-dace95062e6d",
+   "date": "2026-10-16",
+   "dt": "2026-10-16T20:48:00Z",
+   "event_type": "economic",
+   "severity": 5,
+   "region": "Global",
+   "summary": "Oil prices hit $110 per barrel for the first time since May, marking a significant commodity milestone.",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNeTE0b0pIc2J5WkZHNHoxMlFrZEx3NXp2VEp5elEwMUR6el9zWTF6eXA2eFZXS2FYOEphUDdkTS1UcmxIV0lTN1RuYllxelIyNUF2Ym9fbjk0dy1wSjRRdDdZZDhrMEZscFpjRkI2dmhuWTU3d2N0anI5XzVHNl9zSdIBhgFBVV95cUxOeDdTX0ZjQ0N0RlFNYTg5MUVEVDBNRXNvQlRCNF9LeHVEMV9Bd2pqQVVXZWZ2ZzJiMmdaYXNKcllzT2VITmNLZnFyMmZBVlpJZFdRTzVacW45cXdJLXI0c0ZEdUdiWk9zN2FCd25VTFQzN1hUSDZCajhpQjBPWWxSSkhVTnJ2Zw?oc=5"
+  },
+  {
    "id": "evt-d7e876214a71",
    "date": "2026-10-16",
    "dt": "2026-10-16T23:54:35Z",
@@ -4139,6 +4130,16 @@
    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOM0RZajI5Z0Z4TkY3cXl0RUpCbGZrdFdHREtieTROakJ3eWJjVmdfZWttdmlfcVl1LTA4eE95Um1QWUo5QTBuZGpmd1JTSmM0NUlaTUVzRmxzbk0wdjF2QkNMU3k1dEswYU42RjU4ZU4tRzlOX0xvRVhiTUI1OGJzZW1yOHdZcnlKZFF5SXVfeHZYTVNxQkRheExtNlM4U1AwcFVoMGZXd3hOb09SdUlrd05FWGRyNFg0WWc?oc=5"
   },
   {
+   "id": "evt-3744be68500b",
+   "date": "2026-10-16",
+   "dt": "2026-10-16T11:15:00Z",
+   "event_type": "other",
+   "severity": 3,
+   "region": "US",
+   "summary": "Netflix's revenue fell 20% this year, but analyst predicts 88% gains within a year.",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZVJWT0ZGTkUxV0ZFY092WFhER09CUVhIYXFpOWZZbEJzVjhVSHJUSlF6Mk9qcGZNZnRBekVnT0NybWJrbFhHLWdwNFczQ0pWdWd5TlNnSUJxZ29lbzlIdmlqdFIyY004TnR6d1gtZG9BWVJRcUZQaVU0RFEyaTJXZGxnSWZJdEJpZlZ3QmxtdEVuMGF2ZmJJLV9EQTExeUNsbDQtWk1rNXJtaWFUdDJJZUs4dDZjN0cxS2xaQjNQU0JPUldmNGx5N1Vhc091Q09ZLVQwM1lsSDRDX2x6SEFWWU95Q3M?oc=5"
+  },
+  {
    "id": "evt-8564abb64319",
    "date": "2026-10-16",
    "dt": "2026-10-16T18:21:43Z",
@@ -4167,6 +4168,16 @@
    "region": "US",
    "summary": "US steel prices hit a four-year high as tariffs on imports tighten supply, driving up domestic steel costs.",
    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOczJoMXhkQVVoeW1QYmY0eDdON191ajlqZV8zai1WRWtyU0I2U1hyRlVMVnFiOHlVaWJaNmU0MG9zcmFFelpxeGtnbHJvcWY1QzE5Rmt1RlFjc19yUkZ3M0xLcWdMZm5ZbHNuZ0ZTeTFzNWJROFV0cmt2c29Jd1JLZXc1c092a0JkUHNVaGZ3Sko?oc=5"
+  },
+  {
+   "id": "evt-267e4b86d2e2",
+   "date": "2026-10-16",
+   "dt": "2026-10-16T12:32:31Z",
+   "event_type": "other",
+   "severity": 3,
+   "region": "US",
+   "summary": "Tesla CEO Elon Musk unveiled a flying car prototype at a SpaceX facility, showcasing a new vehicle concept.",
+   "url": "https://www.bbc.co.uk/news/videos/ckly4mj1g3n9o?at_medium=RSS&at_campaign=rss"
   },
   {
    "id": "evt-04b98d4b029c",
