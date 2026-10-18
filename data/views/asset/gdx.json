@@ -2969,6 +2969,59 @@
    "pct_change": -3.199
   },
   {
+   "id": "note-13b5234205b6",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-08-17",
+   "move_date": "2026-08-17",
+   "event_ids": [
+    "evt-3a6aa41b6087"
+   ],
+   "reasoning": "Article suggests gold mining ETFs outperform gold, boosting GDX demand.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-18T04:46:20Z",
+   "events": [
+    {
+     "id": "evt-3a6aa41b6087",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "ETF Database article on gold mining ETFs poised to outshine gold prices.",
+     "date": "2026-08-18"
+    }
+   ],
+   "pct_change": 2.134
+  },
+  {
+   "id": "note-dc0740eab1d4",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-08-14",
+   "move_date": "2026-08-14",
+   "event_ids": [],
+   "reasoning": "Platinum inventory decline unlikely to impact gold miners; no direct link to gold prices.",
+   "confidence": 20,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-18T04:46:28Z",
+   "events": [],
+   "pct_change": 1.926
+  },
+  {
+   "id": "note-5e9aee9b72b9",
+   "kind": "causal_notes",
+   "asset": "GDX",
+   "move_id": "move-GDX-2026-08-13",
+   "move_date": "2026-08-13",
+   "event_ids": [],
+   "reasoning": "The event occurs after the GDX drop and concerns platinum, not gold miners, so it cannot plausibly explain the move.",
+   "confidence": 20,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-18T04:46:35Z",
+   "events": [],
+   "pct_change": -2.957
+  },
+  {
    "id": "note-cf0810c58ead",
    "kind": "causal_notes",
    "asset": "GDX",
@@ -3051,48 +3104,6 @@
    "written_at": "2026-09-07T01:44:22Z",
    "events": [],
    "pct_change": -2.86
-  },
-  {
-   "id": "note-81f40d962969",
-   "kind": "causal_notes",
-   "asset": "GDX",
-   "move_id": "move-GDX-2026-07-09",
-   "move_date": "2026-07-09",
-   "event_ids": [],
-   "reasoning": "No candidate events found; the GDX rise likely stems from broader market factors or technical trading dynamics.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-14T21:35:36Z",
-   "events": [],
-   "pct_change": 3.06
-  },
-  {
-   "id": "note-41a39b5b4893",
-   "kind": "causal_notes",
-   "asset": "GDX",
-   "move_id": "move-GDX-2026-06-29",
-   "move_date": "2026-06-29",
-   "event_ids": [],
-   "reasoning": "Sector rotation or weak earnings outlook for gold miners caused a 1.7% drop, absent any specific news.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-11T01:56:02Z",
-   "events": [],
-   "pct_change": -1.714
-  },
-  {
-   "id": "note-449fb7baf4f5",
-   "kind": "causal_notes",
-   "asset": "GDX",
-   "move_id": "move-GDX-2026-06-26",
-   "move_date": "2026-06-26",
-   "event_ids": [],
-   "reasoning": "No specific event; likely driven by broader market sentiment or sector rotation affecting mining stocks.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-10T20:15:58Z",
-   "events": [],
-   "pct_change": 1.758
   }
  ],
  "predictions": [

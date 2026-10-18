@@ -2921,6 +2921,31 @@
    "pct_change": 6.685
   },
   {
+   "id": "note-6581491c3aff",
+   "kind": "causal_notes",
+   "asset": "REMX",
+   "move_id": "move-REMX-2026-08-18",
+   "move_date": "2026-08-18",
+   "event_ids": [
+    "evt-5aa450536708"
+   ],
+   "reasoning": "China’s rare‑earth price divergence signals lower global demand, driving REMX down.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-18T04:46:19Z",
+   "events": [
+    {
+     "id": "evt-5aa450536708",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "China's rare-earth prices no longer match global prices, indicating that China is no longer setting the worldwide benchmark.",
+     "date": "2026-08-18"
+    }
+   ],
+   "pct_change": -3.015
+  },
+  {
    "id": "note-a68a161a04fb",
    "kind": "causal_notes",
    "asset": "REMX",
@@ -3045,20 +3070,6 @@
    "written_at": "2026-09-05T09:40:02Z",
    "events": [],
    "pct_change": -1.739
-  },
-  {
-   "id": "note-fee625ff034d",
-   "kind": "causal_notes",
-   "asset": "REMX",
-   "move_id": "move-REMX-2026-07-07",
-   "move_date": "2026-07-07",
-   "event_ids": [],
-   "reasoning": "No events in window; likely technical or market noise caused the 5% drop.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-06T19:47:10Z",
-   "events": [],
-   "pct_change": -5.015
   }
  ],
  "predictions": [

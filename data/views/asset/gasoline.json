@@ -2964,6 +2964,45 @@
    "pct_change": 2.605
   },
   {
+   "id": "note-f8990f269677",
+   "kind": "causal_notes",
+   "asset": "GASOLINE",
+   "move_id": "move-GASOLINE-2026-08-17",
+   "move_date": "2026-08-17",
+   "event_ids": [
+    "evt-59dbf5db66b9"
+   ],
+   "reasoning": "Morningstar's energy stock buy recommendation spurred demand for gasoline, lifting price.",
+   "confidence": 60,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-18T04:46:21Z",
+   "events": [
+    {
+     "id": "evt-59dbf5db66b9",
+     "event_type": "economic",
+     "severity": 1,
+     "region": "US",
+     "summary": "Morningstar published a roundup of energy stocks it recommends buying.",
+     "date": "2026-08-17"
+    }
+   ],
+   "pct_change": 2.701
+  },
+  {
+   "id": "note-960dcaf71118",
+   "kind": "causal_notes",
+   "asset": "GASOLINE",
+   "move_id": "move-GASOLINE-2026-08-14",
+   "move_date": "2026-08-14",
+   "event_ids": [],
+   "reasoning": "Platinum inventory drop unrelated to gasoline price; no event explains the move.",
+   "confidence": 20,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-18T04:46:29Z",
+   "events": [],
+   "pct_change": 1.793
+  },
+  {
    "id": "note-225bfa7babf5",
    "kind": "causal_notes",
    "asset": "GASOLINE",
@@ -3071,45 +3110,6 @@
    "written_at": "2026-09-05T09:40:02Z",
    "events": [],
    "pct_change": 3.288
-  },
-  {
-   "id": "note-85913a3f60a4",
-   "kind": "causal_notes",
-   "asset": "GASOLINE",
-   "move_id": "move-GASOLINE-2026-07-09",
-   "move_date": "2026-07-09",
-   "event_ids": [],
-   "reasoning": "No candidate events; likely due to broader market factors or supply/demand shifts affecting gasoline prices.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-11T01:56:02Z",
-   "events": [],
-   "pct_change": -2.085
-  },
-  {
-   "id": "note-3ed64116e5aa",
-   "kind": "causal_notes",
-   "asset": "GASOLINE",
-   "move_id": "move-GASOLINE-2026-07-08",
-   "move_date": "2026-07-08",
-   "event_ids": [
-    "evt-db52f4e34648"
-   ],
-   "reasoning": "Middle East tensions push oil up, lifting gasoline prices via supply concerns.",
-   "confidence": 60,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-10-06T18:32:24Z",
-   "events": [
-    {
-     "id": "evt-db52f4e34648",
-     "event_type": "economic",
-     "severity": 2,
-     "region": "Middle East",
-     "summary": "Oil ETFs are recommended for 2026 as Middle East tensions drive higher oil prices, benefiting investors.",
-     "date": "2026-07-09"
-    }
-   ],
-   "pct_change": 5.061
   }
  ],
  "predictions": [

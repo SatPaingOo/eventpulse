@@ -2950,6 +2950,40 @@
    "pct_change": -3.297
   },
   {
+   "id": "note-1375f7694189",
+   "kind": "causal_notes",
+   "asset": "XAG/USD",
+   "move_id": "move-XAG/USD-2026-08-17",
+   "move_date": "2026-08-17",
+   "event_ids": [
+    "evt-8b47dfd02637",
+    "evt-5ad41b123797"
+   ],
+   "reasoning": "Bullish copper outlook and BHP profit jump on higher metal prices signal broader metal demand, lifting silver.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-18T04:46:26Z",
+   "events": [
+    {
+     "id": "evt-8b47dfd02637",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "International Banker assessed whether bullish expectations for copper prices are realistic.",
+     "date": "2026-08-17"
+    },
+    {
+     "id": "evt-5ad41b123797",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Australia",
+     "summary": "BHP profit jumps on higher metal prices as corporate focus shifts to copper.",
+     "date": "2026-08-17"
+    }
+   ],
+   "pct_change": 1.743
+  },
+  {
    "id": "note-dbbeda41dfa0",
    "kind": "causal_notes",
    "asset": "XAG/USD",
@@ -3074,20 +3108,6 @@
    "written_at": "2026-09-05T09:40:00Z",
    "events": [],
    "pct_change": -4.868
-  },
-  {
-   "id": "note-b214a0d73ba2",
-   "kind": "causal_notes",
-   "asset": "XAG/USD",
-   "move_id": "move-XAG/USD-2026-06-03",
-   "move_date": "2026-06-03",
-   "event_ids": [],
-   "reasoning": "General risk-off sentiment, possibly from geopolitical tensions, led to silver sell-off.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-05T01:51:55Z",
-   "events": [],
-   "pct_change": -2.437
   }
  ],
  "predictions": [

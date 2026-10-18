@@ -2748,6 +2748,31 @@
    "pct_change": -2.852
   },
   {
+   "id": "note-b4096fc8dc67",
+   "kind": "causal_notes",
+   "asset": "ALUM",
+   "move_id": "move-ALUM-2026-08-17",
+   "move_date": "2026-08-17",
+   "event_ids": [
+    "evt-5ad41b123797"
+   ],
+   "reasoning": "BHP’s profit jump on higher metal prices signals rising demand, lifting aluminum prices.",
+   "confidence": 60,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-18T04:46:27Z",
+   "events": [
+    {
+     "id": "evt-5ad41b123797",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Australia",
+     "summary": "BHP profit jumps on higher metal prices as corporate focus shifts to copper.",
+     "date": "2026-08-17"
+    }
+   ],
+   "pct_change": 2.138
+  },
+  {
    "id": "note-8c91a013fbf4",
    "kind": "causal_notes",
    "asset": "ALUM",
@@ -3012,20 +3037,6 @@
    "written_at": "2026-09-05T19:48:47Z",
    "events": [],
    "pct_change": -1.886
-  },
-  {
-   "id": "note-4ab8b71c68ee",
-   "kind": "causal_notes",
-   "asset": "ALUM",
-   "move_id": "move-ALUM-2026-05-05",
-   "move_date": "2026-05-05",
-   "event_ids": [],
-   "reasoning": "No events in window; price move likely due to market microstructure or small supply/demand shifts.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-12T09:48:01Z",
-   "events": [],
-   "pct_change": 2.171
   }
  ],
  "predictions": [

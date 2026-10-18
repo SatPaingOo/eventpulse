@@ -2938,6 +2938,20 @@
    "pct_change": 2.358
   },
   {
+   "id": "note-f758c2feace6",
+   "kind": "causal_notes",
+   "asset": "Brent",
+   "move_id": "move-Brent-2026-08-17",
+   "move_date": "2026-08-17",
+   "event_ids": [],
+   "reasoning": "No candidate event directly impacts oil supply/demand; none explain Brent’s 2.655% rise.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-18T04:46:23Z",
+   "events": [],
+   "pct_change": 2.655
+  },
+  {
    "id": "note-4820283e0a11",
    "kind": "causal_notes",
    "asset": "Brent",
@@ -2950,6 +2964,20 @@
    "written_at": "2026-09-14T02:11:35Z",
    "events": [],
    "pct_change": 1.665
+  },
+  {
+   "id": "note-c3aab472b2fc",
+   "kind": "causal_notes",
+   "asset": "Brent",
+   "move_id": "move-Brent-2026-08-13",
+   "move_date": "2026-08-13",
+   "event_ids": [],
+   "reasoning": "The only candidate event occurs on Aug 14 and concerns platinum inventories, not Brent; it post‑dates the move and lacks a direct link to crude prices.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-18T04:46:30Z",
+   "events": [],
+   "pct_change": -2.147
   },
   {
    "id": "note-b5a1c3c4e544",
@@ -3073,34 +3101,6 @@
    "written_at": "2026-09-06T14:39:13Z",
    "events": [],
    "pct_change": -1.851
-  },
-  {
-   "id": "note-303b763859cf",
-   "kind": "causal_notes",
-   "asset": "Brent",
-   "move_id": "move-Brent-2026-06-29",
-   "move_date": "2026-06-29",
-   "event_ids": [],
-   "reasoning": "No events in window; likely driven by market sentiment or inventory data, causing a 1.6% price jump.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-08T15:39:34Z",
-   "events": [],
-   "pct_change": 1.611
-  },
-  {
-   "id": "note-dc5ef17a20f9",
-   "kind": "causal_notes",
-   "asset": "Brent",
-   "move_id": "move-Brent-2026-06-26",
-   "move_date": "2026-06-26",
-   "event_ids": [],
-   "reasoning": "No candidate events; likely driven by broader macro factors or market microstructure.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-08T15:39:38Z",
-   "events": [],
-   "pct_change": -4.345
   }
  ],
  "predictions": [
