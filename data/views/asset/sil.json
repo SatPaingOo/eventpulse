@@ -3093,43 +3093,32 @@
    "pct_change": 6.294
   },
   {
-   "id": "note-db5a7e9f8eb7",
+   "id": "note-94c834ac55b2",
    "kind": "causal_notes",
    "asset": "SIL",
-   "move_id": "move-SIL-2026-07-31",
-   "move_date": "2026-07-31",
+   "move_id": "move-SIL-2026-08-05",
+   "move_date": "2026-08-05",
    "event_ids": [],
-   "reasoning": "No specific event; likely sector rotation or broader market sell‑off affecting silver miners.",
-   "confidence": 55,
+   "reasoning": "Uranium price stability does not directly affect silver miners; no clear causal link to the 6.6% rise.",
+   "confidence": 20,
    "hypothesis_status": "proposed",
-   "written_at": "2026-09-07T21:02:43Z",
+   "written_at": "2026-10-19T04:53:55Z",
    "events": [],
-   "pct_change": -3.203
+   "pct_change": 6.591
   },
   {
-   "id": "note-544d23771fae",
+   "id": "note-f20ab8183b0b",
    "kind": "causal_notes",
    "asset": "SIL",
-   "move_id": "move-SIL-2026-07-22",
-   "move_date": "2026-07-22",
-   "event_ids": [
-    "evt-66609569bbaa"
-   ],
-   "reasoning": "Yahoo Finance article boosts investor confidence in silver miners, driving price up.",
-   "confidence": 70,
+   "move_id": "move-SIL-2026-08-04",
+   "move_date": "2026-08-04",
+   "event_ids": [],
+   "reasoning": "Event concerns uranium, not silver, and is dated 2026-08-05 after the 2026-08-04 SIL move; no causal link.",
+   "confidence": 75,
    "hypothesis_status": "proposed",
-   "written_at": "2026-10-04T06:04:46Z",
-   "events": [
-    {
-     "id": "evt-66609569bbaa",
-     "event_type": "economic",
-     "severity": 2,
-     "region": "Global",
-     "summary": "Yahoo Finance highlights two silver mining stocks as attractive buys amid a challenging industry environment.",
-     "date": "2026-07-22"
-    }
-   ],
-   "pct_change": 2.476
+   "written_at": "2026-10-19T04:54:16Z",
+   "events": [],
+   "pct_change": 3.694
   }
  ],
  "predictions": [
@@ -3188,46 +3177,6 @@
  ],
  "events": [
   {
-   "id": "evt-0eb4c7f09eb0",
-   "date": "2026-10-16",
-   "dt": "2026-10-16T16:23:09Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "Africa",
-   "summary": "Artisanal miners in Nigeria’s Nasarawa region are boosting lithium production, supporting the clean energy sector.",
-   "url": "https://www.aljazeera.com/video/newsfeed/2026/10/16/the-artisanal-miners-behind-nigerias-lithium-boom?traffic_source=rss"
-  },
-  {
-   "id": "evt-b10123a909b6",
-   "date": "2026-10-16",
-   "dt": "2026-10-16T06:08:00Z",
-   "event_type": "other",
-   "severity": 3,
-   "region": "US",
-   "summary": "Netflix announced a 1,000-job cut, its largest staff reduction since 2022.",
-   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdlVrdlBJUGhWelJNVEp5M3ZkZzFITWtGemNydzFkV0U3amZRRE5zYlNyRXIteU5IWUF6R0RMNjlzTGtRbm5YYlY3RXZxNjRneHYtN3JaUkdKVWZ1dkhPcFJaNHNBSGRUZ2VmdVNWdmVraXRpTkVJem5hdS1VajdxckJhUTVyU1BqVWY0RHVNLVZ3bWxyNTQ2VzBfaw?oc=5"
-  },
-  {
-   "id": "evt-64cc20b5ad68",
-   "date": "2026-10-16",
-   "dt": "2026-10-16T21:24:54Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Rising heating oil prices are increasing financial pressure on families in Maine.",
-   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQTW1Kc3FNY2F2Z1owZFBydUswMDdMVXRwbEkwcGN1dFc5TTNfVzRXR2tBR0VneDJJdlBvRFlWLXVEWHl1R0l2TVBib0ZsaXJsR3JzX3ZiU1JPUlVmeHlUR3ItWGhBUUZnVW8xdXFQa2c3UTVFYnVVQ2N1RzM0SHVrVU50OWRLSWdCMF96Z2xZRHR6SFJNM3Zkd1JxTFgzeE4yM1VPREFVTVNZdXVTQkFqejNGNENzMjNHWFh0S0ZxU1VvZG55OXZlNUs5T0R1WFowRFc0ZGRZdUM?oc=5"
-  },
-  {
-   "id": "evt-8a7086d4d284",
-   "date": "2026-10-16",
-   "dt": "2026-10-16T21:21:22Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "Global",
-   "summary": "Gold and silver prices diverge due to Fed pause expectations and rising crude prices.",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDVCeWw1ZXhwRFVhZjliUklxQzV1UW9hRmF2MkdQVzBOTHJRQXZIeW4tZUZtX1Z2VkdMU29STkYzVFVZYVhucDAwNk5NVWtrODdSdUw2V0tzTjFpLWkxc20ya2ZJTVo1bVpEOHVuOHZVT1dUVHJEcC1najhaaktkWGpRa3NJRHgzTFJXUmd1Y1Bkc01fenl5ZC1vYTNkeFl4ZnNqdTVjWnkydUlkMEJUSDV0Wk01czA?oc=5"
-  },
-  {
    "id": "evt-95ae04c75c33",
    "date": "2026-10-16",
    "dt": "2026-10-16T14:06:02Z",
@@ -3266,6 +3215,16 @@
    "region": "Global",
    "summary": "JPMorgan raised its price target for Southern Copper to $154 per share from $141.50, citing improved market outlook.",
    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSnhnUklqbFhEeGFtMjdTMFg2QTVQOU4zZVZoVkNiUVB0TVcxQ2hIUUl1WmdxM3BqSkNVa0JMckprZUFjM1Q3OHpRUHdOSzdVWG83WS02TWEyeS1qTWJyNmwyUFpGNG53a1NBUzlEMnFEektHdUdCLVdzbXI1VEdOLVZtb1FiWGNYcnhNb0p3TEZxZXV3TkVnNEx4Y2pHWVBzTEhVdm4zdGhnTjBWTll2Vi1uZE5oVk0?oc=5"
+  },
+  {
+   "id": "evt-706bcafa11e8",
+   "date": "2026-10-16",
+   "dt": "2026-10-16T16:23:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Nvidia's earnings and product pipeline are expected to outperform the broader chip sector, potentially supporting its stock.",
+   "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PVVcyTUpzN3dWbVBTZ3ZmX19KNHc1UFoyUm9JeGFfa01DWXA3Mkh3VXNtMFJ1ZTZNU1BFN3EzbTk5SnR1VXU0NERRRHlwaW5hSmMxdnhJN0t4cTNNVlNXdG1Wbjd6TG1KMVRONkYtRmY?oc=5"
   },
   {
    "id": "evt-61b8344bd050",
@@ -3386,6 +3345,16 @@
    "region": "US",
    "summary": "ExxonMobil shares rose following preliminary earnings described as mixed by Barron's.",
    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbVU4NDdXMzNlTEw4bGcyUmZseFhMUnBFTVpsRkJDLVJxNjk2Qk5VVm8xWlFMTkY4blpKSFJmbmVBSVFTQS1MZ2tvcjJDbndMbG5HQkI5QjJFVlNlWmtXOEhTRVRLVDFxbjJ1S21NcWQ0eDhCT0NEdXVicG1FS3VWQzZIcXF2QQ?oc=5"
+  },
+  {
+   "id": "evt-1478ea7ba1e3",
+   "date": "2026-10-16",
+   "dt": "2026-10-16T16:45:34Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Alphabet reported strong cloud and AI revenue growth, offsetting capital expenditure concerns and boosting investor sentiment.",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMW1ZRW1CVWNTOVRXVWNpcHNHRVNkWHNLMFJablM0QzJuVGZxbWFfUk9nWHNfVjl3ZmJoNlBFYTNuUWtBSmgtYlpEWnhsOXFycVNyR2t0THJiZWcyWUlreE16X0FEMElQUTl0N2lQZmpDOEhYR2VDa05MSVNNYkdKTWNGZmExTTNYazFSWjNGeWdHb2I0Um5yR21iaVhFblU?oc=5"
   },
   {
    "id": "evt-7e7bcb7d9335",
@@ -3556,6 +3525,16 @@
    "region": "Global",
    "summary": "Palladium price reported for October 19, 2026.",
    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX29Xc0pJQlVacU83ZkRqY0s2emJMWER2WEdBcW9SSGFkSW1HelEtZ1FBQmJNZkZOeW5XeVg3RDlSUHV0QmNRY1h2OFNVT2h6bEVsaFVhbzc1cWVsNXE4TktNWUJMR1B0OGtBMVRnMFQ4aW1zX0VGZExBX2pUTlYzQTZSNmd2a25jdUQ5TEdRNEdBWkxmSWYxNW1qYjUwYTRabzBUcUlPR2g?oc=5"
+  },
+  {
+   "id": "evt-35f028fc3c5f",
+   "date": "2026-10-16",
+   "dt": "2026-10-16T16:07:00Z",
+   "event_type": "economic",
+   "severity": 4,
+   "region": "Global",
+   "summary": "Iron ore prices rebounded from a two‑year low after dip buying, lifting steel margins worldwide.",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQandLVFA1Q3ptUVFZalZKeHU0SWpPR1JIdWdjUXRIdl93aVRkVUFxX2l5cDc2Y1ZsNDB1bFJnaEF2UUhSeTRmeHU4eTJmQzhmQWZqX0VZVkc5QmFpcFhlLXIxMXAxUVU4TVpqU1Q2RXVJOWxrOXYwb1daV0piaVlrbEpSZWQ0eFNMX3hBVF9Ud2VMWk9HZE9YQUFaUUJCdlZ0dXRXcEZETFlIeF9XRy02SEpPbTU?oc=5"
   },
   {
    "id": "evt-5ace50ebac2c",
@@ -3756,6 +3735,16 @@
    "region": "Middle East",
    "summary": "Iraq's parliament confirmed the cabinet appointments of Prime Minister al‑Zaidi, finalising the government amid growing economic concerns.",
    "url": "https://www.aljazeera.com/news/2026/10/16/iraq-parliament-approves-al-zaidis-cabinet-amid-growing-economic-concerns?traffic_source=rss"
+  },
+  {
+   "id": "evt-1ca804d51f86",
+   "date": "2026-10-16",
+   "dt": "2026-10-16T18:13:43Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Apple launched its first foldable iPhone; preorders sold out within minutes, indicating strong demand.",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRDdDR0tESU9lWHZ1eDVyTXJfNWsxRHpPVHpKRUhzbElSV0RvS1ZTNF9QTUtMb05PR2txbUNJRjkzMFR2UjNsdVVIeUhQWldOa0NjZ284QlpBbUlWU21WcklvdkFpS0FoUnNfZFhoOC1odk5Sd20wa1lJNUMwNFBvNmlvbXdvUGlYcTFQYUs0bTlIVzJpRHBqQ0MzN3A2ZVh6TnF2MGtxZFY0Rm1QRnNzTDJCNmIwaEF3bjRLWFhlRXI5djBhZ0JnZw?oc=5"
   },
   {
    "id": "evt-757cf8c95648",
