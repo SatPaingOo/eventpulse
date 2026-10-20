@@ -1,98 +1,98 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-10-19T18:52:27Z",
- "run_id": "run-2026-10-19T1852",
+ "updated_at": "2026-10-20T05:04:21Z",
+ "run_id": "run-2026-10-20T0504",
  "healthy": true,
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
-   "message": "29 new price snapshots",
-   "started_at": "2026-10-19T18:44:47Z",
-   "ended_at": "2026-10-19T18:44:56Z",
-   "count": 29
+   "message": "12 new price snapshots",
+   "started_at": "2026-10-20T04:58:35Z",
+   "ended_at": "2026-10-20T04:58:42Z",
+   "count": 12
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "198 new items (rss 42, gdelt 0, disasters 39, asset 117, pruned 6)",
-   "started_at": "2026-10-19T18:44:56Z",
-   "ended_at": "2026-10-19T18:45:47Z",
-   "count": 198
+   "message": "135 new items (rss 32, gdelt 0, disasters 32, asset 71, pruned 27)",
+   "started_at": "2026-10-20T04:58:42Z",
+   "ended_at": "2026-10-20T04:59:29Z",
+   "count": 135
   },
   "extract": {
    "stage": "extract",
    "ok": true,
-   "message": "186 events extracted from 186 items; 12 unread left for next run",
-   "started_at": "2026-10-19T18:45:47Z",
-   "ended_at": "2026-10-19T18:49:39Z",
-   "count": 186
+   "message": "139 events extracted from 139 items",
+   "started_at": "2026-10-20T04:59:29Z",
+   "ended_at": "2026-10-20T05:01:56Z",
+   "count": 139
   },
   "explain": {
    "stage": "explain",
    "ok": true,
-   "message": "29 new moves, 20 new causal notes",
-   "started_at": "2026-10-19T18:49:39Z",
-   "ended_at": "2026-10-19T18:50:19Z",
+   "message": "12 new moves, 20 new causal notes",
+   "started_at": "2026-10-20T05:01:56Z",
+   "ended_at": "2026-10-20T05:02:28Z",
    "count": 20
   },
   "predict": {
    "stage": "predict",
    "ok": true,
-   "message": "4 predictions from 16 events; 23 new events left for next run",
-   "started_at": "2026-10-19T18:50:19Z",
-   "ended_at": "2026-10-19T18:52:06Z",
-   "count": 4
+   "message": "0 predictions from 16 events; 32 new events left for next run",
+   "started_at": "2026-10-20T05:02:28Z",
+   "ended_at": "2026-10-20T05:04:00Z",
+   "count": 0
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
-   "message": "5 resolved, 0 voided, 0 waiting for a close",
-   "started_at": "2026-10-19T18:52:06Z",
-   "ended_at": "2026-10-19T18:52:06Z",
+   "message": "5 resolved, 0 voided, 6 waiting for a close",
+   "started_at": "2026-10-20T05:04:00Z",
+   "ended_at": "2026-10-20T05:04:00Z",
    "count": 5
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
-   "message": "accuracy 33.8% (361/1069), 1 reflection note(s)",
-   "started_at": "2026-10-19T18:52:06Z",
-   "ended_at": "2026-10-19T18:52:27Z",
+   "message": "accuracy 33.7% (362/1074), 1 reflection note(s)",
+   "started_at": "2026-10-20T05:04:00Z",
+   "ended_at": "2026-10-20T05:04:21Z",
    "count": 1
   }
  },
  "llm_usage": {
-  "run_started_utc": "2026-10-19T18:44:47Z",
+  "run_started_utc": "2026-10-20T04:58:35Z",
   "by_model": [
    {
     "provider": "groq",
     "model": "openai/gpt-oss-120b",
-    "calls": 41,
-    "ok": 25,
-    "errors": 16,
-    "prompt_tokens": 31236,
-    "completion_tokens": 24328,
-    "total_tokens": 55564
+    "calls": 39,
+    "ok": 27,
+    "errors": 12,
+    "prompt_tokens": 24647,
+    "completion_tokens": 17837,
+    "total_tokens": 42484
    },
    {
     "provider": "groq",
     "model": "openai/gpt-oss-20b",
-    "calls": 42,
-    "ok": 25,
-    "errors": 17,
-    "prompt_tokens": 29407,
-    "completion_tokens": 26361,
-    "total_tokens": 55768
+    "calls": 36,
+    "ok": 20,
+    "errors": 16,
+    "prompt_tokens": 23624,
+    "completion_tokens": 18994,
+    "total_tokens": 42618
    },
    {
     "provider": "openrouter",
     "model": "minimax/minimax-m3.1-flash:free",
-    "calls": 20,
-    "ok": 20,
+    "calls": 14,
+    "ok": 14,
     "errors": 0,
-    "prompt_tokens": 28353,
-    "completion_tokens": 29569,
-    "total_tokens": 57922
+    "prompt_tokens": 24296,
+    "completion_tokens": 20048,
+    "total_tokens": 44344
    }
   ]
  }

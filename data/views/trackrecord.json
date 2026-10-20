@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-19T18:52:06Z",
- "total_resolved": 1069,
- "hits": 361,
- "misses": 708,
- "accuracy": 33.8,
+ "generated_at": "2026-10-20T05:04:00Z",
+ "total_resolved": 1074,
+ "hits": 362,
+ "misses": 712,
+ "accuracy": 33.7,
  "baseline": {
   "random_pct": 33.3,
-  "best_naive_pct": 38.0,
+  "best_naive_pct": 37.9,
   "best_naive_strategy": "up"
  },
  "by_confidence": [
@@ -18,15 +18,15 @@
   },
   {
    "value": "medium (50–69)",
-   "n": 843,
-   "hits": 286,
+   "n": 846,
+   "hits": 287,
    "accuracy": 33.9
   },
   {
    "value": "low (<50)",
-   "n": 162,
+   "n": 164,
    "hits": 47,
-   "accuracy": 29.0
+   "accuracy": 28.7
   }
  ],
  "by_dimension": {
@@ -34,9 +34,9 @@
    {
     "dimension": "event_type",
     "value": "unknown",
-    "n": 1069,
-    "hits": 361,
-    "accuracy": 33.8
+    "n": 1074,
+    "hits": 362,
+    "accuracy": 33.7
    }
   ],
   "direction": [
@@ -57,9 +57,9 @@
    {
     "dimension": "direction",
     "value": "up",
-    "n": 811,
-    "hits": 298,
-    "accuracy": 36.7
+    "n": 816,
+    "hits": 299,
+    "accuracy": 36.6
    }
   ],
   "asset": [
@@ -73,9 +73,9 @@
    {
     "dimension": "asset",
     "value": "ALUM",
-    "n": 32,
+    "n": 33,
     "hits": 4,
-    "accuracy": 12.5
+    "accuracy": 12.1
    },
    {
     "dimension": "asset",
@@ -108,9 +108,9 @@
    {
     "dimension": "asset",
     "value": "COPPER",
-    "n": 44,
+    "n": 45,
     "hits": 12,
-    "accuracy": 27.3
+    "accuracy": 26.7
    },
    {
     "dimension": "asset",
@@ -290,9 +290,9 @@
    {
     "dimension": "asset",
     "value": "WTI",
-    "n": 221,
-    "hits": 108,
-    "accuracy": 48.9
+    "n": 222,
+    "hits": 109,
+    "accuracy": 49.1
    },
    {
     "dimension": "asset",
@@ -304,9 +304,9 @@
    {
     "dimension": "asset",
     "value": "XAU/USD",
-    "n": 217,
+    "n": 219,
     "hits": 37,
-    "accuracy": 17.1
+    "accuracy": 16.9
    },
    {
     "dimension": "asset",
