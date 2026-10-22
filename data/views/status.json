@@ -1,98 +1,108 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-10-22T05:05:30Z",
- "run_id": "run-2026-10-22T0505",
+ "updated_at": "2026-10-22T17:25:55Z",
+ "run_id": "run-2026-10-22T1725",
  "healthy": true,
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
-   "message": "10 new price snapshots",
-   "started_at": "2026-10-22T04:58:39Z",
-   "ended_at": "2026-10-22T04:58:48Z",
-   "count": 10
+   "message": "29 new price snapshots",
+   "started_at": "2026-10-22T17:16:53Z",
+   "ended_at": "2026-10-22T17:17:03Z",
+   "count": 29
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "161 new items (rss 40, gdelt 0, disasters 30, asset 91, pruned 74)",
-   "started_at": "2026-10-22T04:58:48Z",
-   "ended_at": "2026-10-22T04:59:40Z",
-   "count": 161
+   "message": "174 new items (rss 46, gdelt 0, disasters 41, asset 87, pruned 6)",
+   "started_at": "2026-10-22T17:17:03Z",
+   "ended_at": "2026-10-22T17:17:57Z",
+   "count": 174
   },
   "extract": {
    "stage": "extract",
    "ok": true,
-   "message": "157 events extracted from 157 items",
-   "started_at": "2026-10-22T04:59:40Z",
-   "ended_at": "2026-10-22T05:02:40Z",
-   "count": 157
+   "message": "156 events extracted from 156 items; 12 unread left for next run",
+   "started_at": "2026-10-22T17:17:57Z",
+   "ended_at": "2026-10-22T17:22:25Z",
+   "count": 156
   },
   "explain": {
    "stage": "explain",
    "ok": true,
-   "message": "10 new moves, 20 new causal notes",
-   "started_at": "2026-10-22T05:02:40Z",
-   "ended_at": "2026-10-22T05:03:27Z",
+   "message": "29 new moves, 20 new causal notes",
+   "started_at": "2026-10-22T17:22:25Z",
+   "ended_at": "2026-10-22T17:23:34Z",
    "count": 20
   },
   "predict": {
    "stage": "predict",
    "ok": true,
-   "message": "4 predictions from 16 events; 97 new events left for next run",
-   "started_at": "2026-10-22T05:03:27Z",
-   "ended_at": "2026-10-22T05:05:28Z",
-   "count": 4
+   "message": "3 predictions from 16 events; 1 duplicate call(s) dropped; 86 new events left for next run",
+   "started_at": "2026-10-22T17:23:34Z",
+   "ended_at": "2026-10-22T17:25:53Z",
+   "count": 3
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
-   "message": "2 resolved, 0 voided, 0 waiting for a close",
-   "started_at": "2026-10-22T05:05:28Z",
-   "ended_at": "2026-10-22T05:05:28Z",
-   "count": 2
+   "message": "0 resolved, 0 voided, 0 waiting for a close",
+   "started_at": "2026-10-22T17:25:53Z",
+   "ended_at": "2026-10-22T17:25:53Z",
+   "count": 0
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
    "message": "accuracy 33.4% (367/1098), 1 reflection note(s)",
-   "started_at": "2026-10-22T05:05:28Z",
-   "ended_at": "2026-10-22T05:05:30Z",
+   "started_at": "2026-10-22T17:25:53Z",
+   "ended_at": "2026-10-22T17:25:55Z",
    "count": 1
   }
  },
  "llm_usage": {
-  "run_started_utc": "2026-10-22T04:58:39Z",
+  "run_started_utc": "2026-10-22T17:16:53Z",
   "by_model": [
    {
     "provider": "groq",
     "model": "openai/gpt-oss-120b",
-    "calls": 38,
-    "ok": 27,
-    "errors": 11,
-    "prompt_tokens": 29355,
-    "completion_tokens": 21688,
-    "total_tokens": 51043
+    "calls": 36,
+    "ok": 26,
+    "errors": 10,
+    "prompt_tokens": 32060,
+    "completion_tokens": 24993,
+    "total_tokens": 57053
    },
    {
     "provider": "groq",
     "model": "openai/gpt-oss-20b",
-    "calls": 39,
-    "ok": 23,
-    "errors": 16,
-    "prompt_tokens": 27691,
-    "completion_tokens": 23922,
-    "total_tokens": 51613
+    "calls": 42,
+    "ok": 29,
+    "errors": 13,
+    "prompt_tokens": 34253,
+    "completion_tokens": 29481,
+    "total_tokens": 63734
    },
    {
     "provider": "openrouter",
-    "model": "minimax/minimax-m3.1-flash:free",
-    "calls": 14,
-    "ok": 14,
+    "model": "dots-studio/dots-3-note-preview:free",
+    "calls": 10,
+    "ok": 10,
     "errors": 0,
-    "prompt_tokens": 21839,
-    "completion_tokens": 21702,
-    "total_tokens": 43541
+    "prompt_tokens": 15206,
+    "completion_tokens": 25400,
+    "total_tokens": 40606
+   },
+   {
+    "provider": "openrouter",
+    "model": "nvidia/nemotron-3.5-super-vl:free",
+    "calls": 1,
+    "ok": 0,
+    "errors": 1,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
    }
   ]
  }
