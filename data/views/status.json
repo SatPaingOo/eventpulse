@@ -1,102 +1,92 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-10-23T05:09:48Z",
- "run_id": "run-2026-10-23T0509",
+ "updated_at": "2026-10-23T17:23:58Z",
+ "run_id": "run-2026-10-23T1723",
  "healthy": true,
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
-   "message": "10 new price snapshots",
-   "started_at": "2026-10-23T04:59:58Z",
-   "ended_at": "2026-10-23T05:00:09Z",
-   "count": 10
+   "message": "29 new price snapshots",
+   "started_at": "2026-10-23T17:14:50Z",
+   "ended_at": "2026-10-23T17:15:02Z",
+   "count": 29
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "152 new items (rss 29, gdelt 0, disasters 33, asset 90, pruned 82)",
-   "started_at": "2026-10-23T05:00:09Z",
-   "ended_at": "2026-10-23T05:01:10Z",
-   "count": 152
+   "message": "148 new items (rss 43, gdelt 0, disasters 22, asset 83, pruned 6)",
+   "started_at": "2026-10-23T17:15:02Z",
+   "ended_at": "2026-10-23T17:15:59Z",
+   "count": 148
   },
   "extract": {
    "stage": "extract",
    "ok": true,
-   "message": "145 events extracted from 145 items; 12 unread left for next run",
-   "started_at": "2026-10-23T05:01:10Z",
-   "ended_at": "2026-10-23T05:06:11Z",
-   "count": 145
+   "message": "144 events extracted from 144 items; 6 unread left for next run",
+   "started_at": "2026-10-23T17:15:59Z",
+   "ended_at": "2026-10-23T17:21:20Z",
+   "count": 144
   },
   "explain": {
    "stage": "explain",
    "ok": true,
-   "message": "10 new moves, 20 new causal notes",
-   "started_at": "2026-10-23T05:06:11Z",
-   "ended_at": "2026-10-23T05:06:56Z",
+   "message": "29 new moves, 20 new causal notes",
+   "started_at": "2026-10-23T17:21:20Z",
+   "ended_at": "2026-10-23T17:22:01Z",
    "count": 20
   },
   "predict": {
    "stage": "predict",
    "ok": true,
-   "message": "4 predictions from 16 events; 107 new events left for next run",
-   "started_at": "2026-10-23T05:06:56Z",
-   "ended_at": "2026-10-23T05:09:46Z",
-   "count": 4
+   "message": "1 predictions from 16 events; 93 new events left for next run",
+   "started_at": "2026-10-23T17:22:01Z",
+   "ended_at": "2026-10-23T17:23:35Z",
+   "count": 1
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
-   "message": "7 resolved, 0 voided, 9 waiting for a close",
-   "started_at": "2026-10-23T05:09:46Z",
-   "ended_at": "2026-10-23T05:09:46Z",
-   "count": 7
+   "message": "9 resolved, 0 voided, 0 waiting for a close",
+   "started_at": "2026-10-23T17:23:35Z",
+   "ended_at": "2026-10-23T17:23:35Z",
+   "count": 9
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
-   "message": "accuracy 33.5% (370/1105), 1 reflection note(s)",
-   "started_at": "2026-10-23T05:09:46Z",
-   "ended_at": "2026-10-23T05:09:48Z",
+   "message": "accuracy 33.5% (373/1114), 1 reflection note(s)",
+   "started_at": "2026-10-23T17:23:35Z",
+   "ended_at": "2026-10-23T17:23:58Z",
    "count": 1
   }
  },
  "llm_usage": {
-  "run_started_utc": "2026-10-23T04:59:58Z",
+  "run_started_utc": "2026-10-23T17:14:50Z",
   "by_model": [
    {
     "provider": "groq",
     "model": "openai/gpt-oss-120b",
     "calls": 37,
-    "ok": 29,
-    "errors": 8,
-    "prompt_tokens": 32774,
-    "completion_tokens": 23835,
-    "total_tokens": 56609
+    "ok": 26,
+    "errors": 11,
+    "prompt_tokens": 28606,
+    "completion_tokens": 23189,
+    "total_tokens": 51795
    },
    {
     "provider": "groq",
     "model": "openai/gpt-oss-20b",
-    "calls": 42,
-    "ok": 27,
-    "errors": 15,
-    "prompt_tokens": 33761,
-    "completion_tokens": 29032,
-    "total_tokens": 62793
+    "calls": 39,
+    "ok": 25,
+    "errors": 14,
+    "prompt_tokens": 28595,
+    "completion_tokens": 24769,
+    "total_tokens": 53364
    },
    {
     "provider": "openrouter",
     "model": "dots-studio/dots-3-note-preview:free",
-    "calls": 8,
-    "ok": 7,
-    "errors": 1,
-    "prompt_tokens": 11417,
-    "completion_tokens": 21433,
-    "total_tokens": 32850
-   },
-   {
-    "provider": "openrouter",
-    "model": "google/gemma-4-26b-a4b-it:free",
     "calls": 1,
     "ok": 0,
     "errors": 1,
@@ -106,10 +96,20 @@
    },
    {
     "provider": "openrouter",
-    "model": "google/gemma-4-31b-it:free",
-    "calls": 1,
+    "model": "google/gemma-4-26b-a4b-it:free",
+    "calls": 8,
     "ok": 0,
-    "errors": 1,
+    "errors": 8,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+   },
+   {
+    "provider": "openrouter",
+    "model": "google/gemma-4-31b-it:free",
+    "calls": 8,
+    "ok": 0,
+    "errors": 8,
     "prompt_tokens": 0,
     "completion_tokens": 0,
     "total_tokens": 0
@@ -137,12 +137,12 @@
    {
     "provider": "openrouter",
     "model": "recursive/flint-v1.0:free",
-    "calls": 1,
-    "ok": 1,
+    "calls": 11,
+    "ok": 11,
     "errors": 0,
-    "prompt_tokens": 1661,
-    "completion_tokens": 3252,
-    "total_tokens": 4913
+    "prompt_tokens": 16893,
+    "completion_tokens": 27075,
+    "total_tokens": 43968
    }
   ]
  }
