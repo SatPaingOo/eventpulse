@@ -3012,6 +3012,31 @@
    "pct_change": 2.258
   },
   {
+   "id": "note-586ac8aff60e",
+   "kind": "causal_notes",
+   "asset": "XOM",
+   "move_id": "move-XOM-2026-07-13",
+   "move_date": "2026-07-13",
+   "event_ids": [
+    "evt-622223078f83"
+   ],
+   "reasoning": "Oil price volatility spurs energy gains, lifting XOM shares.",
+   "confidence": 70,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-25T04:55:50Z",
+   "events": [
+    {
+     "id": "evt-622223078f83",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Oil price volatility offers traders a win‑win strategy, boosting opportunities in the energy market.",
+     "date": "2026-07-13"
+    }
+   ],
+   "pct_change": 4.054
+  },
+  {
    "id": "note-bd666a2379af",
    "kind": "causal_notes",
    "asset": "XOM",
@@ -3094,23 +3119,22 @@
    "written_at": "2026-09-09T20:15:05Z",
    "events": [],
    "pct_change": 1.993
-  },
-  {
-   "id": "note-82e920648642",
-   "kind": "causal_notes",
-   "asset": "XOM",
-   "move_id": "move-XOM-2026-04-14",
-   "move_date": "2026-04-14",
-   "event_ids": [],
-   "reasoning": "No candidate events; likely a broader market sell-off or sector rotation affecting energy stocks.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-10-03T16:37:16Z",
-   "events": [],
-   "pct_change": -2.227
   }
  ],
  "predictions": [
+  {
+   "id": "pred-d19c0dfb9870",
+   "event_id": "evt-245724f935c5",
+   "created_at": "2026-10-23",
+   "expires_at": "2026-10-30",
+   "horizon_days": 7,
+   "direction": "up",
+   "threshold_pct": 1.5,
+   "confidence": 60,
+   "reasoning": "Higher crude prices boost Exxon earnings, pushing the stock up.",
+   "status": "open",
+   "outcome": null
+  },
   {
    "id": "pred-34c0c7d2108a",
    "event_id": "evt-ff559f1fc78c",
@@ -3295,26 +3319,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-fbf20b40d046",
-   "date": "2026-10-23",
-   "dt": "2026-10-23T11:26:36Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Silver prices dropped to the lowest level in nearly a year on Oct 23, 2026.",
-   "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOSnM5VWlZdWhWUW9UWmlXNUNJeWQ0Y2NLa0RBaXJlX2RoaFVTZWJCSWgzWmdTTTFZS0l2NzJ2YTdmSHRXVjE2LWk2SEN5ZTJ1WVowamZHRk55WWF5Y3J4ZGJMbk5IMHViNnZHWHczdmNPbjNCa1JFV0o1ZzJSMWVRdVNJZ0JGbzRWSldTR0VzQzg0X1ljbEx1TVRidVlOUU5iTVVDNkRNYzdaVEZsZXYxWFN4aGN4SzUwOXI3eVhjVHJOVjR3U1lhQjJBYkJ2aVhPLXNkMEVKVU00S1dHN0lrVklZVjNTVE16Z1paUGtTRFI3QjdZU1FBUWs5OVZ5TlJIWllR?oc=5"
-  },
-  {
-   "id": "evt-682a3963ad02",
-   "date": "2026-10-23",
-   "dt": "2026-10-23T17:06:48Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "Global",
-   "summary": "WTI crude topped $103 as Devon Energy, Diamondback Energy and Occidental Petroleum shares rose.",
-   "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE82UFE0SkJ3aXB3SlRVRGlrY0ZMNDlEVTM5OUMtMGN0WDhTWVlTcjJqYnVpdnJVRlhKT0lWZ3UwbktjUmZGb1NLOGlHdjNHY1RmX0tJbkRJLTJheGt4amt3a3p5OFFDUGtFZEtEdUUxVUpyYV96dFpZYkF3?oc=5"
-  },
   {
    "id": "evt-e66d0f5f6675",
    "date": "2026-10-23",
@@ -3606,6 +3610,16 @@
    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNNGNPSUU3OUhUYnpRaDUzdlkxM2lNdjR1WkJLQmV6cWFwVmtBMzBETXhhNDk0YW82Z3ZSeGVSc2t6dWcwYldSWTVRYU40Tl9PMlRoXzg5cG5FQ1B3S1hYN25sSmxKM2ExWHhhSnVBNWdvemVMOXpzWVVZNml6aW55cVhrR3pZMEQtTU4zQU1md0lzUEFheV8xQ2RHSEtNWXhsUXVYWTAzZzRid3JidXFvTTEyWmRBTHh4WTY5T1g2T216WFdKQzUtaVAtUG1RUQ?oc=5"
   },
   {
+   "id": "evt-14b89ecab6ab",
+   "date": "2026-10-23",
+   "dt": "2026-10-23T19:06:21Z",
+   "event_type": "economic",
+   "severity": 4,
+   "region": "North America",
+   "summary": "U.S. natural gas prices dropped 15% over the week as warm weather forecasts reduced demand expectations.",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcVQ2U2g4Y052R2toT0FrdzBRSnRqc0dUT1ExMmk0UGJxcEx6aHhEcjB1NDBTZ0w5RzVWRHRIZ0JNa1NKSEVLMDdnT1JNczNNclJ1czIxSW5CdVY1VG9aSFNLbG5sclFDUHc0VFdhTnpESlJVTldrYnJnUzAwZl8wU09xb2JKeS1IdmY2TWwtQWZYTTZkU29MSWxSSmM5RUxIb01QSg?oc=5"
+  },
+  {
    "id": "evt-c7f293f15a95",
    "date": "2026-10-23",
    "dt": "2026-10-23T12:21:18Z",
@@ -3654,6 +3668,16 @@
    "region": "Middle East",
    "summary": "Israel arrested 36 Palestinians in the West Bank amid escalating attacks on farmers during the olive harvest season.",
    "url": "https://www.aljazeera.com/news/2026/10/23/israel-arrests-36-palestinians-in-the-west-bank-attacks-on-farmers-ramp-up?traffic_source=rss"
+  },
+  {
+   "id": "evt-bbb9f1791423",
+   "date": "2026-10-23",
+   "dt": "2026-10-23T23:03:51Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "Global",
+   "summary": "Copper prices rebound as inventories fall and markets stabilize.",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdVRDWXFQeXhaWC1lck9NcUNsSTdWN3ZhSTNPQndWR0x5UlBabXdSRm4yLVZ2UF92V0JjLTlFLWt5SDF2NTlDYmtCUFlKcUJnZVREdG9JZC1MVTF0d1dpamFXMTFEWFpBUHJWSWlyeXZudkZzUjF2RmFOUl9HeFM2NENRRHdScFdPX052dEl5WHFtQQ?oc=5"
   },
   {
    "id": "evt-2e20af14e941",

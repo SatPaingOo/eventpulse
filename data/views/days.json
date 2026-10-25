@@ -1,8 +1,104 @@
 {
  "days": [
   {
+   "date": "2026-10-25",
+   "events": [
+    {
+     "id": "evt-e85021abad94",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T00:00:00Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "President Trump said the United States is weighing a possible military strike on Iran as early as Sunday, or could instead secure a major deal with Tehran.",
+     "url": "https://www.aljazeera.com/news/liveblog/2026/10/25/iran-war-live-trump-hints-at-possible-sunday-iran-attack-or-deal-reached?traffic_source=rss",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "WTI",
+       "direction": "up",
+       "threshold_pct": 3.0,
+       "confidence": 65,
+       "expires_at": "2026-10-30",
+       "status": "open"
+      },
+      {
+       "asset": "Brent",
+       "direction": "up",
+       "threshold_pct": 3.0,
+       "confidence": 65,
+       "expires_at": "2026-10-30",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-462a89d546b3",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T01:30:01Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Gold and silver prices slipped as several gold ETF fund‑of‑funds temporarily halted new inflows, prompting investors to reassess options.",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdXR1X3c3UTREUER3UlVVTDQ2Y1FZLVZpTzZnSFRIR19YM1RHWnJkOVBpaWZIODRuaVlHOGhzSnBfMk5sOG1XV2FPa3c1aDZrTDVxT29qQzJPb0RaZWJNRnBtcW1QVC13bEtzU094RmcxWmVuRDlZSmxXNjRzeGJmY3lvQXF3XzlZMk4zcUhuZW00Um8xUDRrRTJ4V3BJcERnN2hlZGJJd3RwTTFiY1l4ZHFjd0RxQnVjb1RrX3VrOUdKcUhnd2FmYXp5UDhSSDJNTmdIbUNKMmRyZ9IB4gFBVV95cUxQa3RVVE5DYXRUOHlnOUVJYUpyNnlNRjJRQVVFY3JkVU9EQkVMeUs4WFB0RTAyaHJ0aUhKcmZtN1JSNHR1SjVxRDlmRmJMYXRNUkdsMS1TWUZxUzdNTktpMUxRRWhfVjI5YndSY21yUW1RSzJLQ0FEOGkwNnhIWVQyODROR05LTXZ1ZFpITHpIN3QycXppeFZIOFRwT2ZkXzNDeWRnM21kVFBvOGUway1FdXhiMHVTX19OcEFnV1M5SGZPbXBiRXR6R19zbDJsYjVrTG1KV0FkRHZqZkV3SzA0bEpB?oc=5",
+     "moved": [],
+     "calls": []
+    }
+   ],
+   "events_total": 2,
+   "moves": []
+  },
+  {
    "date": "2026-10-24",
    "events": [
+    {
+     "id": "evt-7dceab7d4b18",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T13:23:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Visa reports Q4 earnings, focusing on dividends, crypto, and margin wars.",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPUzNlMjREci14UGp6QnhNU1ZneC1CSjVVY2NaRUxJcWZraklSSmZVcFh4NzFRUGl2emlaREYyTG9FZGF6aFdDVzYzOV9nT3lvenNjMWZzZVRVMVpxaldKOG5odno2WUhhUzlMWWdkN2RVYTJwY0pZRXd5bnNVZlhUTC14RXNqVHFmZHZUTm5DSnBNRGRROU82WHhlblZ2MzRyMTRXeDVwbVRXRkEtdTdWR3N4MWFSTzhhSnhUNWlLTkFaUEtGZWxXMg?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-0a30fff10d64",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T21:30:11Z",
+     "event_type": "geopolitical",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Iran blames the US for deal failure and warns that limited strikes would trigger a response several times greater.",
+     "url": "https://www.aljazeera.com/news/2026/10/24/iran-blames-us-for-deal-failure-urges-new-try-amid-fear-of-new-attacks?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-1133d3f21a5e",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T17:01:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Analysts compare Booking Holdings and Home Depot stocks, evaluating which sector—travel or home improvement—offers stronger upside.",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPYzNKbGVVbDYzWnZpRWY2OTdNUFFpYUczdmNROTltdHM1cFFoOHY5TE03amduLWN3YnIxVl9OUklkTmtqX0lUa1FrbnRza2RSYy1UVFVLWFNhUkV5T2ZxUXV5UDRQWEZyUlNlVUZmQ3hRSmlOQ0hkTy1JSTExZE5lcHJubWZfZ08tY0toTm1OWjlfRWpZT2FWS2tybk1XUTV1SGQ2ZHpJSl9nQ05yQUxwOFdqQko3SWNmc0xGSERoUTJpNVFkRFI2ZkNoeVl6RFlSX1lRWGxDc0ZuX3ZFMldTck1GM00?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-801cc5ee8799",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T11:37:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Caterpillar's AI segment grew 72%, boosting its earnings outlook.",
+     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPZ1FlVEdpTUsxd3FBQ3VGVTNOZ1Z1TWNHUDBDWHlVYzJQMFBVaEtLQVdLZEZKTFpqemdqb0FTdno1ejVMR1d2dlItU0xZUmZZMXhXY2xTcWlWV2w4bzRZRXNUVHpyUllJR1pDVU9SS09samJNZ1ZDUXdiM3VKdFVXWFdwNWFjYjRiQmdmeFRDME5OcC1EUzVJ?oc=5",
+     "moved": [],
+     "calls": []
+    },
     {
      "id": "evt-dda37b96cc23",
      "date": "2026-10-24",
@@ -76,6 +172,66 @@
      "calls": []
     },
     {
+     "id": "evt-e87eb4f767f7",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T18:11:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "A Motley Fool analysis compares the investment case for Abbott Laboratories versus UnitedHealth.",
+     "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNeVJvU1paTklSVXktc0RWX1JtUGV2MTItV1dRZjJOblg0VFhfWVNmT0pWS1hNdVZ2UU5fTGlNWmZoOEJCaExlSjJReXVxSXphYkZUbHZhbUE0ZGhiQTNlUUtTd0RvNVdibGJIMHR0WFh0NWc5czlLTk43NFJlLXdjbnFnS1RBLWhTMGhrZm5ONVpPUlZPOXg2N3FxN2NhaUpuS0RlSkY2dkdGdWM0VHFPWVF0YXp1XzZCUEJ2QlM4NURXRjFYZWYxS0p1NWdmaUFCbTZqZ3MzN2xObVQ1a21JRlhiYnNhUXVPWUFBSEtnYTdkeTlV?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-f204be28e2aa",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T15:18:03Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Amazon's new AI servers are reportedly waiting on power, with October 29 seen as a key deadline.",
+     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYjd3cU9PTllhWmZURjlxS1pqNzJFWkxnVTBhU3AwbVo5Sm5kTDhxcTJ4TUU5VFZmNE9qN1Q0SnNqdE1xSGxLVm53bmNBa1ZEYURPRTRrSnFOUlFxbFhadTFacmxkb2xsY25ONHlsQ2FYNjRLMTZpTDFJM3lpZS12MnIxekltUVhDY1VnSkZsY3ZZdnFySGJXc1R0TExPQXB6dzE2b3JDaUJOT1BTWldvNWRWNW9TaGVYRUlmS2c2OTE?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-8d352b7fd18d",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T18:45:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Analysts assess whether Netflix, after a 50% drop from its highs, is now a buying opportunity.",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaUxsUFM0YmRJeEtMU3VUTG1kT0FEMVpHckhVenVyMXZ5Y25YZFlhWGc5SklnZWJJNHljMzA0NmlGTGdTU3VYTUtlenBKcFhLcXhYN0MxdGVyQkk4eDZfQU9WZ3hOelJoU01ocnQ3UEQ0R0ZNWWRiSEZIOERkaTBoMnMtY3Jnam9CaTlKMk41OGpPMVdl?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-b056105b247d",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T21:08:51Z",
+     "event_type": "military",
+     "severity": 2,
+     "region": "Middle East",
+     "summary": "Houthi missiles struck targets in Yemen including Aden's airport and a coastguard base, alongside attacks on Saudi Arabia.",
+     "url": "https://www.aljazeera.com/news/2026/10/24/houthis-launch-attacks-on-saudi-arabia-and-yemens-aden?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-4f30d683da87",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T00:14:02Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "ARK Invest sells Alphabet shares and purchases Freenome, altering portfolio exposure.",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONXFNMzNudzRPWWpQSThXdlQ1dm9XcnhyZFFjdDUyX0Iyakk2akwxM3U4bHByc1hIckgxRldTVlBrOXNXanNSZlRYY1ByeDRORDV1bXFOeWlOdkZpX3JtdVhweEQ2UVNJRE9FX2sxM19xYlRWcWlnaUNLM1hjeVJMdklxTHhNeEZ5R1Q3ZTNob2k4aEtHbTQ5VVYtUGdmdUViUlFHRFJzZmhFcVlBbW1GdERja0lBZw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-4969dbd12ce2",
      "date": "2026-10-24",
      "dt": "2026-10-24T10:57:00Z",
@@ -109,6 +265,18 @@
      "calls": []
     },
     {
+     "id": "evt-b1e678599060",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T07:23:38Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Carnegie Investment Counsel reduces JPMorgan holdings, impacting its stock.",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeWRoUlFSZEtLTnhOSVNTM214TDlNSVV1ZXdQdFdYb3BJU0lJSnlhMGdtNHdSS3Q1UXpwRmdPREhvWExQZ1Y5QkQweDM0VF81TVduS29IbXZvNnlrekZueWV6UTc0YTlYX0Vtdk9Yam83VmdBc2dwVFdjdTgzR0N5MkM1WHRNdFFjcTdSQ0pCMklhQUV2ZWkyNGNibjhCeTkyVFJ1eldTS2Y3TUhLc1V5bWRVTl9pVm9pYnZTNzA2UjcwSGU0c1R6aDhIaw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-a0622dda4436",
      "date": "2026-10-24",
      "dt": "2026-10-24T03:16:37Z",
@@ -130,6 +298,42 @@
      ]
     },
     {
+     "id": "evt-0886b5f7849d",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T23:14:38Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Analysts say a tightening uranium supply could depress Yellow Cake Ltd. shares, highlighting broader market risks.",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPQjV2UWxkX0lVZHlBUFV2ZGxvQjJZZWN6a0ZlcnJveFFCZ1lYbVVwUmY4Q3VRd1hZZDZIUjlKSklOMzZfQk43cU9XM1ljZV83RUVTSVdkaXhhNU9EWi1XNFczdU84eUFlTS1UUUxYZW50LUZBbkxQcWtoQXJEWVZaeV9Pa3RWdXVJQ2dNeTNxU0ZnLUNoRXlFQ2RkMVE1UFBPN1JiaVdkZUE?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-08fc7d7081fa",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T21:00:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Asia",
+     "summary": "Fuel oil prices are rising in Asia and may become the next cost shock for the region.",
+     "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQanFVcGU2U2VGclJsa2VSUTlKUFJFalpNTy11QTd5a0pwT1hrX3dhbHZDRVIwaTRrc2sxYTd6Rk5DR3hWOURCZXJmTU16aTBPbUFnZHlKbk5VYjVWc2FmbUFMaHFWOHlhMmRySC1nX1hINS03MEhQZWsxeEFYNkpqM0JoNWkyb1FW0gGOAUFVX3lxTE0zaEoxQm5iMl9qa2RMZ0JSQlQwSVctZkVVblk2SFpTdF8yR0xoN2d2cEdmcVZqSzViMTdORGFoOVc4TjdFbk1Ec2dxempPZEt3ZUk1bmVEd1cyNGVObkx4SXlQakROUTdJZ2FVUWNQcWMtQ2p6R1VxT0wzLUZVbmNtUW8zeTVKLTRHNDFTTXc?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-4d2a4e4af2c3",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T17:11:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Analysts compare Amgen and Johnson & Johnson stocks, assessing which healthcare giant offers a better investment.",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPS29xbHZxZW9HWFNNT0FxX2hzTkFtRzYyOVZKQUY2V0M4aGhoenBnc1k3blJoNGlHU01waURNUTlQZTZjM1ZLaWVYTE4tV2ZqS0hvUjhMZTMza1o5Z1phd1pDVWpTZFR2a2NPTUtCSW53MGVvZFZ4ZXozWUswcHpGWE5uNnF1WFFBUUhQRF9Ibm41OHhMUjkwYlA1UFl3RV9nY0pOZW90cFZaSzJjWndfVmI2aTZiejRFT29CZm85QUpQci1UV1YzT282c04?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-a2926053a7b9",
      "date": "2026-10-24",
      "dt": "2026-10-24T15:22:00Z",
@@ -138,6 +342,18 @@
      "region": "US",
      "summary": "Boeing cleared for departure after FAA win, affecting Q3 earnings outlook.",
      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYWRUTVdSOG1PSGZ0dExkLUJOUWMwVm1icU1ndzk5YUpISUM3TEpPY053ci1MUzdXTk1LbWt4MThRY2lWWmQyRlkxRGdFTzNQNEJDaDlfXzVCaERRZlhHdjNBR2ZDNVNkRVFGellDdHB0SWFhTnNJWkVsZFBxSTZIUFY4X0VrOXkxekFzZ3h5NTY1d0lWNlZoRFlZU3c5c0JWVGhBTnFMbFlzdjhzUGlpUDdlS0VCZE5DZlFnUFNoS09jdHZHcHVGT0FYOUdCTWdIa2tZa3RDYw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a775e580865a",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T19:15:10Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Key financial deals announced this week include agreements by Visa, the London Stock Exchange, Tradeweb Markets, and Salesforce.",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbThUYUxzLWs1bFMzb0NRRkVKbUh4TGs4dXgxX2tnRE1MZEoxR2RLSVU1Qzd3cWloa085SkZjcTNiVEpGVDZvaGM0SlNlWEdiN3hfZHotMUJWVVhsTXJmaDFfNEVhT2ZfemdOUTFZdXdGTVJMbG5BX0k0UEV0T2NINmFCNW9LYU1oNFN0bTRDQWNGM0p0TzF0MGlORHllOHI3bC1aMS1GYkh4d1VZcWNrWUI3azJlLUpDWGh0Z05B?oc=5",
      "moved": [],
      "calls": []
     },
@@ -178,7 +394,7 @@
      "calls": []
     }
    ],
-   "events_total": 13,
+   "events_total": 27,
    "moves": []
   },
   {
@@ -558,6 +774,30 @@
      "calls": []
     },
     {
+     "id": "evt-cdafd450c1d6",
+     "date": "2026-10-23",
+     "dt": "2026-10-23T20:34:18Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "Gold fell below the $4,000 per ounce support level, signaling a potential further sell‑off.",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdHlwU2d3LVl4RlY3dTJCejZMQ1FJM1ctRjdfNzBwTFgwR3VScjZZOUZqOXhoVXlBVDRCd0JpVTVDZ1RPaGtTVEtzY0RHZXk1a21hamtmRFpKM092SnhGR1lCRU1zN0tOQmVPQTJfZnBmRmptbEFQWmNoSjRoNlFhUFAtWlVFXzdic05zVmI5ampCUQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-14b89ecab6ab",
+     "date": "2026-10-23",
+     "dt": "2026-10-23T19:06:21Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "North America",
+     "summary": "U.S. natural gas prices dropped 15% over the week as warm weather forecasts reduced demand expectations.",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPcVQ2U2g4Y052R2toT0FrdzBRSnRqc0dUT1ExMmk0UGJxcEx6aHhEcjB1NDBTZ0w5RzVWRHRIZ0JNa1NKSEVLMDdnT1JNczNNclJ1czIxSW5CdVY1VG9aSFNLbG5sclFDUHc0VFdhTnpESlJVTldrYnJnUzAwZl8wU09xb2JKeS1IdmY2TWwtQWZYTTZkU29MSWxSSmM5RUxIb01QSg?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-bae1c525797f",
      "date": "2026-10-23",
      "dt": "2026-10-23T19:03:00Z",
@@ -726,6 +966,18 @@
      "calls": []
     },
     {
+     "id": "evt-bbb9f1791423",
+     "date": "2026-10-23",
+     "dt": "2026-10-23T23:03:51Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Copper prices rebound as inventories fall and markets stabilize.",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdVRDWXFQeXhaWC1lck9NcUNsSTdWN3ZhSTNPQndWR0x5UlBabXdSRm4yLVZ2UF92V0JjLTlFLWt5SDF2NTlDYmtCUFlKcUJnZVREdG9JZC1MVTF0d1dpamFXMTFEWFpBUHJWSWlyeXZudkZzUjF2RmFOUl9HeFM2NENRRHdScFdPX052dEl5WHFtQQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-a8ee64285d39",
      "date": "2026-10-23",
      "dt": "2026-10-23T22:37:00Z",
@@ -760,45 +1012,9 @@
      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd0w4akc5VUgyejhudzdZN2VkWDRkX1ZIMXA1THBGT2l6NXlWZDJ2WER5cjZScV9SZEw3aEpINy1wQjJ0WllLTXF1WVNMR1ZHaFZjNDlLM1VzcWZDTTVwbjJxT2RlVzJ0bGIyMVNua1NJRmRQck12Q3V0RTc5ZWUwM2ZKNnljYVA1azNpdA?oc=5",
      "moved": [],
      "calls": []
-    },
-    {
-     "id": "evt-abed543d8f7e",
-     "date": "2026-10-23",
-     "dt": "2026-10-23T17:31:38Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "North America",
-     "summary": "Newmont estimates up to $4.8 bn cost for expanding the Red Chris copper mine in British Columbia.",
-     "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9jTkxGQUcxTGoyMDFybWdVQVJnVExXZUxHMkNxdlFidVlUSnZsZ0s3cGZpdkxTT0hhcDRWenN4ZzltcWdoUFoxWldJZUJtam1TcG1wbHo0VFdMZWpoamdGLXEwRm53cWxDT1pTenA1alNkV1VRWUU1YmNVeVk?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-53d216576290",
-     "date": "2026-10-23",
-     "dt": "2026-10-23T17:29:32Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "Apple shares hit a record $351.73 after reports that iPhone Duo production is set to increase 44%.",
-     "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE42YWZvT3p4TXJERy1HVHRZTTROeWlHWURrY3VnV25CTFpFcTJ4dndMSXR3b3owTW9rTy14eXFTLXNFOGtaV2h3MzFKaFYwMkpJWWV4WnpLaG1iTjI0U0ZMYmtnNTRvUEZIZnhfbnZ3Y01aeHBaUmNlSGJn?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-73b9e020fc8d",
-     "date": "2026-10-23",
-     "dt": "2026-10-23T16:50:31Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "JPMorgan upgraded Skydance, suggesting it could outscale Netflix and Disney.",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNV2Q2OE5PV2ZteFdyNzN3TExiTnV4RnRlc1BmMzV4R0NJVnNmdjZMdmpZQjBzTmxSVU1iS1VsRkxEN0JBdF92ME9yQk9PVW5FVDNkWks1Q3JIT1JoeTZFTlpnLWhtY2RMOVh4d1l3OExnWVVnV1hCbF90M2JqczJicjNPYnZBMXhvWlFwZEliN09Na1ZpOG9jelVXVHlpNUFiNnZ4MC0yLXNNT0hpRDFIRGRhdnBFMnB6aGtnZkpabFZ5c2FWbnNPQg?oc=5",
-     "moved": [],
-     "calls": []
     }
    ],
-   "events_total": 80,
+   "events_total": 84,
    "moves": [
     {
      "asset": "PLAT",
@@ -1169,6 +1385,43 @@
        "threshold_pct": 1.0,
        "confidence": 60,
        "expires_at": "2026-10-29",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-245724f935c5",
+     "date": "2026-10-22",
+     "dt": "2026-10-22T21:10:31Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "ExxonMobil and other oil majors' stocks are rising as crude prices climb, reflecting market sensitivity to energy prices.",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxObXQyN0FtMFhGak9GMmlCcGdRblF3Mmt4ak1fbG41VmRVR3RmR19nZVhnSUNHQ0xQeEsyWUNmMFdmcU9fdm9wWHpQc0ZfVW91THdaZ3Q5TlRBTXE2VkJVbHdESkIxWS1GNWEyZUg4c2JOd3VYTFhGTUVLU1N0UDZXSmhudmVPdkZaMnEtMmUyZVk4dG8?oc=5",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "XLE",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-10-30",
+       "status": "open"
+      },
+      {
+       "asset": "CVX",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-10-30",
+       "status": "open"
+      },
+      {
+       "asset": "XOM",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-10-30",
        "status": "open"
       }
      ]
@@ -2019,21 +2272,9 @@
      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM3UwSW1WeXMzOFl4RnY0X25zTXNoZDRiNGRXRmJLV2hzVEcwY1lwTTRCUnRKNENFN0NiU2RZNWNNZU9YRTNxOWt2Z3ltTU81UDd5LVVKVTJGOFRONUdRYmszUTREenh2bDRhcmRBeEVSeHJ5bjJUVEx5QmdScVJDajA1RTNsWnlyYU1LMkNTaVJ0SGV3STdoRkdSWm9qQ0ptUXU1dEJ2VUZlMWNHdFpPWThrQlbSAboBQVVfeXFMTm1sQnQ4MkxDYTgzM2JQUF9pS0dTRWJ0a0lwZ2tzVGRpZFJudXpJRUdWeUV5b251YXRsWTNfSGNXSGNnWER1U01KZjRFeFNXVmJUWlVnRldoeFRfZXBZZGtSMS1pbm5EdUhiNE5BTkhuUVBMeFRLU0FzQzZrZnhlVzlaNEVSTmx1OWNpMkNIM1ZfbmRqU1RXbWdpR0JzN1RMUFgyS05Uc1dXZC00a3pnNDNWamVlblZnMWpB?oc=5",
      "moved": [],
      "calls": []
-    },
-    {
-     "id": "evt-d4870a692cb8",
-     "date": "2026-10-22",
-     "dt": "2026-10-22T14:12:08Z",
-     "event_type": "geopolitical",
-     "severity": 4,
-     "region": "Global",
-     "summary": "Rising geopolitical tensions are driving oil prices higher, boosting oil‑focused ETFs.",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWXRyUnNWMDdwZ3RqX29RbkpoLWN0czdld1o1ZGxVZ0ZRd0c5MzJZSGpXSjBEX0ZWU1NsaW0xR25pVlhkcklwMk9JaGVqLVlwcUJlWl9yOF83dkhRUFR6Zy1yWnlPNUNsdGZteVlFRWU4UFFHM292cHg3VEdOcUphVGQwQk9Lc0tfeHRnVjB0dWdzcW5GLUxVSGdnSUU4UVNJMC0zbFJGbjdhVnllLVE?oc=5",
-     "moved": [],
-     "calls": []
     }
    ],
-   "events_total": 130,
+   "events_total": 136,
    "moves": [
     {
      "asset": "HD",
@@ -3242,7 +3483,7 @@
      "calls": []
     }
    ],
-   "events_total": 118,
+   "events_total": 119,
    "moves": [
     {
      "asset": "NATGAS",
@@ -3830,6 +4071,18 @@
      "calls": []
     },
     {
+     "id": "evt-ec8d084d6cc9",
+     "date": "2026-10-20",
+     "dt": "2026-10-20T21:59:22Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Netflix reported Q3 2026 earnings, showing revenue and subscriber trends that may influence its stock price.",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNU93TkFMc095WnA4Sk5iMi0yT0QwVHhrU2F3M3pNbGFnM2xzUnVFQXY5RGF3dGkzU0xkZFNuVExiWGtTQzU5cWk1NW5waXVfd2x5VzVVQy14QlJ3eFNMdm5EeUFSUnlvMEJQclNnTkhXZEhwazRBaHR3emdBam9BRF9TWkV5VTdUMXNZNmQzTlJVbDBDamhWdEw1ak5sT0FaWHpMQg?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-a5e6185b4787",
      "date": "2026-10-20",
      "dt": "2026-10-20T21:46:00Z",
@@ -3996,21 +4249,9 @@
      "url": "https://www.aljazeera.com/news/2026/10/20/turkiye-moves-to-ratify-mecca-joint-defence-agreement?traffic_source=rss",
      "moved": [],
      "calls": []
-    },
-    {
-     "id": "evt-745b4fd09408",
-     "date": "2026-10-20",
-     "dt": "2026-10-20T16:33:43Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "Europe",
-     "summary": "France secures additional Gulf diesel shipments to curb soaring fuel prices.",
-     "url": "https://www.aljazeera.com/economy/2026/10/20/macron-lines-up-more-gulf-diesel-as-france-battles-soaring-fuel?traffic_source=rss",
-     "moved": [],
-     "calls": []
     }
    ],
-   "events_total": 113,
+   "events_total": 114,
    "moves": [
     {
      "asset": "REMX",
@@ -24223,304 +24464,6 @@
    ],
    "events_total": 4,
    "moves": []
-  },
-  {
-   "date": "2026-09-25",
-   "events": [
-    {
-     "id": "evt-382f8de5efd5",
-     "date": "2026-09-25",
-     "dt": "2026-09-25T07:00:00Z",
-     "event_type": "economic",
-     "severity": 2,
-     "region": "Global",
-     "summary": "Prices for heavy rare earths sourced outside China continued to rise in Q3 2026, according to a market review.",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZDluRm91cE5TaFBXQXhFZjdFTk0yR2xYWi05MF9vVHRndl9ienozblIwSVgxcnNienVpNzAxNXhJQTNNT3I2S3gwZ1ozejkwT1ltajg2WGlGU0VhMjlyMVVDOC1YRG9GVEJpb2RSZmt5T2tERGY5X0loMHVtSFVMOVpHMURZbHpiRnZhSTA0SnktWHpZQ3BlbFNlTDdpeUVuY1VZZW1SWU9VMDZtWGNxZVVLZU9VeHdrZDkxYzlPQQ?oc=5",
-     "moved": [
-      {
-       "asset": "AAPL",
-       "asset_label": "Apple",
-       "date": "2026-09-25",
-       "pct_change": 1.533,
-       "direction": "up",
-       "reasoning": "Rare earth price rise signals supply shock; Apple’s hedging strategy boosts investor confidence, lifting stock.",
-       "confidence": 60,
-       "linked_event_ids": [
-        "evt-382f8de5efd5",
-        "evt-a78bd8d3e353"
-       ]
-      },
-      {
-       "asset": "TSLA",
-       "asset_label": "Tesla",
-       "date": "2026-09-25",
-       "pct_change": -1.543,
-       "direction": "down",
-       "reasoning": "Higher heavy rare earth prices raise EV component costs, pressuring Tesla margins and prompting a sell‑off.",
-       "confidence": 70,
-       "linked_event_ids": [
-        "evt-382f8de5efd5"
-       ]
-      }
-     ],
-     "calls": []
-    },
-    {
-     "id": "evt-a78bd8d3e353",
-     "date": "2026-09-25",
-     "dt": "2026-09-25T18:11:20Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "CNBC outlines new 'super‑cycle' hedging strategies as markets react to supply shocks and inflation.",
-     "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KZG9nNTZXM0JIaGpsN2pWQlh1VkI5djZ2RHZSeTdia1U4OXBualNYSGdOTDNQaUNPLTRnaFBic2lYT0cxclFxQy1SZm5tYm9PUk0ya2hoSzE2cEJub3JOaE1WVGNNVmZaSTY4c3E4WE0xRGZRc1lXT3JISnE2YVnSAYQBQVVfeXFMT3BkbU5Nd1V2U3FzSS0wT1dFRk9WVTN0cVJ0RFB2M1lHTTZTcGFOVVFkV0lwSjh3ckZ2ZGdsSEgwZ202djhVSkRNS0xqdS1VNFFfM2FfdUtxR3JpSGc4dHp2MXdLZDBGMWMxRXZialZKLUJaOHlGOVYzSG15NEw5eEV4UDdt?oc=5",
-     "moved": [
-      {
-       "asset": "AAPL",
-       "asset_label": "Apple",
-       "date": "2026-09-25",
-       "pct_change": 1.533,
-       "direction": "up",
-       "reasoning": "Rare earth price rise signals supply shock; Apple’s hedging strategy boosts investor confidence, lifting stock.",
-       "confidence": 60,
-       "linked_event_ids": [
-        "evt-382f8de5efd5",
-        "evt-a78bd8d3e353"
-       ]
-      },
-      {
-       "asset": "CAT",
-       "asset_label": "Caterpillar",
-       "date": "2026-09-25",
-       "pct_change": 2.028,
-       "direction": "up",
-       "reasoning": "CNBC's super‑cycle hedging story on supply shocks and inflation on Sep 25 prompted investors to buy industrial stocks such as Caterpillar.",
-       "confidence": 70,
-       "linked_event_ids": [
-        "evt-a78bd8d3e353"
-       ]
-      },
-      {
-       "asset": "USO",
-       "asset_label": "Crude Oil ETF",
-       "date": "2026-09-25",
-       "pct_change": -3.109,
-       "direction": "down",
-       "reasoning": "CNBC's new super‑cycle hedging strategy on 25 Sep spurred oil sell‑off as traders cut exposure.",
-       "confidence": 60,
-       "linked_event_ids": [
-        "evt-a78bd8d3e353"
-       ]
-      },
-      {
-       "asset": "META",
-       "asset_label": "Meta",
-       "date": "2026-09-25",
-       "pct_change": -3.335,
-       "direction": "down",
-       "reasoning": "CNBC's super‑cycle hedging narrative highlighted supply‑shock inflation risks, prompting a market‑wide risk off that hit tech stocks like Meta.",
-       "confidence": 60,
-       "linked_event_ids": [
-        "evt-a78bd8d3e353"
-       ]
-      },
-      {
-       "asset": "META",
-       "asset_label": "Meta",
-       "date": "2026-09-24",
-       "pct_change": 4.501,
-       "direction": "up",
-       "reasoning": "Broad market hedging strategies and reactions to supply shocks can lift overall market sentiment, indirectly benefiting Meta.",
-       "confidence": 35,
-       "linked_event_ids": [
-        "evt-a78bd8d3e353"
-       ]
-      }
-     ],
-     "calls": []
-    },
-    {
-     "id": "evt-014dc78f980c",
-     "date": "2026-09-25",
-     "dt": "2026-09-25T07:00:00Z",
-     "event_type": "economic",
-     "severity": 2,
-     "region": "US",
-     "summary": "Henry Hub natural gas prices were 6% lower this summer than last summer.",
-     "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9vS2k4WVNMWkhCQ0FVdzh1QXNPRFhkRklUbURrNUd4eGZyNjdpWk5DX2FSVGtvTXhMVkZkemhuOVAyV3dXc0V5XzBQS2ozWTVwMDJCN3RmRGxuN1VVUl95WkVrbw?oc=5",
-     "moved": [
-      {
-       "asset": "NATGAS",
-       "asset_label": "Natural Gas",
-       "date": "2026-09-25",
-       "pct_change": -3.063,
-       "direction": "down",
-       "reasoning": "Henry Hub prices 6% lower this summer signals weaker demand/over‑supply, driving NATGAS down on 25 Sep.",
-       "confidence": 70,
-       "linked_event_ids": [
-        "evt-014dc78f980c"
-       ]
-      }
-     ],
-     "calls": []
-    },
-    {
-     "id": "evt-a808e0a590a9",
-     "date": "2026-09-25",
-     "dt": "2026-09-25T23:56:00Z",
-     "event_type": "economic",
-     "severity": 2,
-     "region": "US",
-     "summary": "Analysis compares AbbVie and Johnson & Johnson stocks to determine the better healthcare investment in 2026.",
-     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOaUhLdUo2U1UyWDRUekQySGRzWGxjRHlsQi0wbk81bmpRLWRoRGpfekxhemJTcVNXUU9QdkZlOUtBcTIxRlpsLUVTSHlwVEFyMVVCWjZRaG5BUzZROTZRT3RGejdMelNudnB2THZENG1DakVON3B6SkxoTVFlOFFwSktkWHBtSlVlNWJpUVRmNHhiaG1ZMzZGanNwa1c3RnJ1S2hIc1dVNWpUVWVtUU5kTkVDZ2lLa0JLRGZJOUF3TzZuMWc?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-e6d16629e4da",
-     "date": "2026-09-25",
-     "dt": "2026-09-25T20:40:24Z",
-     "event_type": "economic",
-     "severity": 2,
-     "region": "Global",
-     "summary": "Higher lithium prices strengthen J.P. Morgan’s case, though execution remains a concern.",
-     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaUl6ZDBudUNIQ002RkxaN25jNkZnNzZ3b0RKandrQnZINk9sT05RRTNwTzZ1ZDJQaDNUWVFTalFVT2xXNUtvM0stYjV5bTJ2RmwwWFRVeEtZcHZoQThraGdjanZKejhfWmF1cXpRVmo4RTRfbC1vejV4bVpWVnE4TjZRNXBUODRRVVdrYWhMSHBULWRqUnRVTkNtZl9fM19z?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-2ce109607968",
-     "date": "2026-09-25",
-     "dt": "2026-09-25T07:00:00Z",
-     "event_type": "economic",
-     "severity": 2,
-     "region": "US",
-     "summary": "Caterpillar (CAT) faces slowing construction demand but explores AI solutions to sustain growth.",
-     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWnZsSkhlY3JJa0NTQXZadGlJY1RIejVGZzlFUmZ0emlWZWp5SHRtZlBoQzlRSmo3SG9nNXdHWkloclpFNWhkMEpJRGFNd0EtclctN3I0Zmp0TFBKU3JXV0dqTDRIV0dhREZqaW9YUzh3UkJWb2JrTi1IeGpuNFZlWDVTTjg3bUVKLVFpT2NZdHczem5hb3piZUVLcEhXUmZVa043Z3k1R1VsUQ?oc=5",
-     "moved": [],
-     "calls": []
-    }
-   ],
-   "events_total": 6,
-   "moves": [
-    {
-     "asset": "GASOLINE",
-     "asset_label": "Gasoline",
-     "date": "2026-09-25",
-     "pct_change": -4.803,
-     "direction": "down",
-     "reasoning": "No event directly linked to gasoline price drop; none of the listed events affect gasoline supply or demand.",
-     "confidence": 30,
-     "linked_event_ids": []
-    },
-    {
-     "asset": "NATGAS",
-     "asset_label": "Natural Gas",
-     "date": "2026-09-25",
-     "pct_change": -3.063,
-     "direction": "down",
-     "reasoning": "Henry Hub prices 6% lower this summer signals weaker demand/over‑supply, driving NATGAS down on 25 Sep.",
-     "confidence": 70,
-     "linked_event_ids": [
-      "evt-014dc78f980c"
-     ]
-    },
-    {
-     "asset": "AAPL",
-     "asset_label": "Apple",
-     "date": "2026-09-25",
-     "pct_change": 1.533,
-     "direction": "up",
-     "reasoning": "Rare earth price rise signals supply shock; Apple’s hedging strategy boosts investor confidence, lifting stock.",
-     "confidence": 60,
-     "linked_event_ids": [
-      "evt-382f8de5efd5",
-      "evt-a78bd8d3e353"
-     ]
-    },
-    {
-     "asset": "Brent",
-     "asset_label": "Brent Crude",
-     "date": "2026-09-25",
-     "pct_change": -2.139,
-     "direction": "down",
-     "reasoning": "No listed event directly impacts Brent crude price on 2026-09-25; candidates relate to gas forecasts, publications, or unrelated stocks.",
-     "confidence": 30,
-     "linked_event_ids": []
-    },
-    {
-     "asset": "CAT",
-     "asset_label": "Caterpillar",
-     "date": "2026-09-25",
-     "pct_change": 2.028,
-     "direction": "up",
-     "reasoning": "CNBC's super‑cycle hedging story on supply shocks and inflation on Sep 25 prompted investors to buy industrial stocks such as Caterpillar.",
-     "confidence": 70,
-     "linked_event_ids": [
-      "evt-a78bd8d3e353"
-     ]
-    },
-    {
-     "asset": "USO",
-     "asset_label": "Crude Oil ETF",
-     "date": "2026-09-25",
-     "pct_change": -3.109,
-     "direction": "down",
-     "reasoning": "CNBC's new super‑cycle hedging strategy on 25 Sep spurred oil sell‑off as traders cut exposure.",
-     "confidence": 60,
-     "linked_event_ids": [
-      "evt-a78bd8d3e353"
-     ]
-    },
-    {
-     "asset": "TSLA",
-     "asset_label": "Tesla",
-     "date": "2026-09-25",
-     "pct_change": -1.543,
-     "direction": "down",
-     "reasoning": "Higher heavy rare earth prices raise EV component costs, pressuring Tesla margins and prompting a sell‑off.",
-     "confidence": 70,
-     "linked_event_ids": [
-      "evt-382f8de5efd5"
-     ]
-    },
-    {
-     "asset": "WTI",
-     "asset_label": "Crude Oil (WTI)",
-     "date": "2026-09-25",
-     "pct_change": -2.325,
-     "direction": "down",
-     "reasoning": "Forecast of higher European gas prices raises energy cost concerns, dampening oil demand and pushing WTI lower.",
-     "confidence": 60,
-     "linked_event_ids": [
-      "evt-98bc2ed30804"
-     ]
-    },
-    {
-     "asset": "META",
-     "asset_label": "Meta",
-     "date": "2026-09-25",
-     "pct_change": -3.335,
-     "direction": "down",
-     "reasoning": "CNBC's super‑cycle hedging narrative highlighted supply‑shock inflation risks, prompting a market‑wide risk off that hit tech stocks like Meta.",
-     "confidence": 60,
-     "linked_event_ids": [
-      "evt-a78bd8d3e353"
-     ]
-    },
-    {
-     "asset": "MSFT",
-     "asset_label": "Microsoft",
-     "date": "2026-09-25",
-     "pct_change": 3.663,
-     "direction": "up",
-     "reasoning": "Tech rally highlighted Microsoft, boosting sentiment and driving a 3.66% price jump.",
-     "confidence": 70,
-     "linked_event_ids": [
-      "evt-067dcebb1f18"
-     ]
-    }
-   ]
   }
  ]
 }
