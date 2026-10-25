@@ -2844,6 +2844,20 @@
    "pct_change": -2.61
   },
   {
+   "id": "note-a07970346fef",
+   "kind": "causal_notes",
+   "asset": "XAU/USD",
+   "move_id": "move-XAU/USD-2026-07-08",
+   "move_date": "2026-07-08",
+   "event_ids": [],
+   "reasoning": "None of the listed events directly influence gold; no plausible mechanism for a 1.8% drop on 2026-07-08.",
+   "confidence": 20,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-10-25T16:35:47Z",
+   "events": [],
+   "pct_change": -1.795
+  },
+  {
    "id": "note-79dc24ab6980",
    "kind": "causal_notes",
    "asset": "XAU/USD",
@@ -3010,20 +3024,6 @@
    "written_at": "2026-09-03T11:12:04Z",
    "events": [],
    "pct_change": 2.687
-  },
-  {
-   "id": "note-6dee766d16c9",
-   "kind": "causal_notes",
-   "asset": "XAU/USD",
-   "move_id": "move-XAU/USD-2026-03-27",
-   "move_date": "2026-03-27",
-   "event_ids": [],
-   "reasoning": "No candidate events found near 2026-03-27, so the price move lacks an identified driver.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-14T21:35:00Z",
-   "events": [],
-   "pct_change": 2.663
   }
  ],
  "predictions": [
@@ -3550,46 +3550,6 @@
  ],
  "events": [
   {
-   "id": "evt-e66d0f5f6675",
-   "date": "2026-10-23",
-   "dt": "2026-10-23T05:57:00Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "Global",
-   "summary": "Platinum price reaches initial target for 23-10-2026.",
-   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNnBEV2tFLVBGZTNhVkNteXZLcjgwaWUzcTBfbk02a2pBT2JFWjdkYXZaSlZrZXNqWHdlamx2VTd3N0hDUjFucUlHTExETVhLMjVEbGNORzhpWHFzSVo3RjdEcHB6LTdvNTk5R1FkdzFsRjJqcVBYZ01Zc0tfSERCWE1SMl9jS19NWWktNVJSOUxTZmcxSFNyQTVSaGtyZ3U2M0JZTW1OZEhWSzNxR20tYTZOU1lLZ0tudmtpQ19zbFVINW1LWktpRkIyRk9wU3hVR2tSdUtqZVlTa0lKY1VMNlRnYUg?oc=5"
-  },
-  {
-   "id": "evt-e8bb4e6a0e4f",
-   "date": "2026-10-23",
-   "dt": "2026-10-23T15:11:00Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Microsoft, Amazon, ServiceNow, and Intel line up earnings releases.",
-   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPTmtZbk8zbzdsM2RYLTkwT213RlA4Y21lU1RqdUdTVFJNekxDSWxiWWUzUmtpX1lZZGJaY2RteGJKOXhqOXE4aEl1MHM1cENFenBJejRaTlREOFBuX09keDZSZVZyUHFGaHZ1Vm12WUJkLVV5Vnd5Q29JemVmSHpSamNMal9HVjZacDFSNVUxN3V3U0tRTGJ3bko3c2c1VUlId3prQm5iZWc1VEU?oc=5"
-  },
-  {
-   "id": "evt-b269efef3fe3",
-   "date": "2026-10-23",
-   "dt": "2026-10-23T11:35:00Z",
-   "event_type": "geopolitical",
-   "severity": 4,
-   "region": "Middle East",
-   "summary": "Brent crude rose above $115 a barrel as markets feared renewed US strikes on Iran.",
-   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPbjhUWEhFUEhXV2ZVbHVLbmtmUVdDeUxTRzlsZEdYY3JYd09YdVBYOTE0RVFlYnZZUkNNSmZ2MkRTamo3c0g4bTJrNllYbWpXWXBVMHl2MnNrNnlwVGJMdWYwN3I0alFzaTE4M2FXdWM5WEp2ZXFLWHdDUGRsOGRQWG53R2hwTTg5b1RqenVCNkEyd2NzZ3lmdm8yQWRBUQ?oc=5"
-  },
-  {
-   "id": "evt-3df6d9b21b33",
-   "date": "2026-10-23",
-   "dt": "2026-10-23T13:48:00Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "US",
-   "summary": "Positive news for Boeing investors as company reports strong performance.",
-   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Ndkx0M0ZXb3pOOTh2N2lJMG56M0hUV2tUdmN2QXIyVUUwWDBXbU5WS1BKM1hJZGVUYjRqTEtITGRkRnJ4LTZveTBBWnpxbGRUcVByMFQ5WnRrdTMwNjI0UUdYckRFa1FEQ25ZRV91WGc4YXlWTTgxTDZtWWNrbVk?oc=5"
-  },
-  {
    "id": "evt-7fa6666da4dc",
    "date": "2026-10-23",
    "dt": "2026-10-23T14:45:00Z",
@@ -3598,6 +3558,16 @@
    "region": "US",
    "summary": "A lesser‑known chip stock is highlighted as an AI boom secret, with Nvidia and Micron mentioned.",
    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOb01Rb0tTV242ZXZIYWZKcldDVEhKNkZGN1VyMXcyMHlsWXJha24wVTJXd2c4WDNSNlRtOFd2MEFNYlZKbDhZN2Y3cGxtNWxfaDNYemc2WWlhTEVISXdSa2cxY0VXclRKaE5ZbHlaVW9zX3h0OWhDYmxJUG4tRy1aaHIyazk2U3RrWkNiMmxGVlZzLTlmUi12Vw?oc=5"
+  },
+  {
+   "id": "evt-a7c050e178ef",
+   "date": "2026-10-23",
+   "dt": "2026-10-23T16:18:26Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "US",
+   "summary": "Netflix shares fall after layoffs announced at Bay Area headquarters.",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPSmhreF9xQ1JvYlZCd19FWFIxVGdfbHNyZHBvRndkZUhHb05LbjF6dGFVaUpyaldGaHloWTk3b1oyd2pHYTFUdmxpWUdKdmZpQmFoU3c1WG5pUFh4bmIxRjQ4X0lhdldLYzM2MFJKNC1PTHY3N09Iay1CbnhjcGFaSDZOa0VwczVRVlFCSXZTNENqQ1c0d3hVeTlUSEpISkNTb0E?oc=5"
   },
   {
    "id": "evt-a8ee64285d39",
@@ -3618,6 +3588,16 @@
    "region": "Australia",
    "summary": "Australian lithium stocks Pilbara Minerals (PLS), Lithium Technologies (LTR) and Mineral Resources (MIN) entered a sharp decline, marking a third bear market in a decade.",
    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQR2dEV0hKTUtHVlE1OVBfWWw2bjdPeXBDa0UxemlFY2ZnS0gzX3h1RjJYSEZwVDJWQjNJckJlcU1ENlFUd3djb1pmbHdhU0ZGRmg4MjZqQlREV2o0UGpiaTBsNUd5OFNYTVdia0R1d3h6OU9oMXFLNHlSbzByS1RNZkxOZEQ3YVNjWkZRMWtWU2NqMXpPMWlCNkw2OXc2R1V6SGc?oc=5"
+  },
+  {
+   "id": "evt-afde6fdf1b44",
+   "date": "2026-10-23",
+   "dt": "2026-10-23T16:14:27Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "US",
+   "summary": "Texas approves Project Crystal Sun, leading to a drop in Tesla shares.",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQVkRVYUFmV1o0cDRQeFd5bGl5M2NsWjNNZDUyWWFXQlEyQzNiS21qWi1UTXhhVkZRYmtTdWIySkNKTkJNRUtrUHdQQWR5RS14eWMxcVdlemRnRHAtODRURVYxTWJfLS0zUUE1RTlHQm5Bbm5aMmdRR1pqNjhaX1JjSWxsMWNnWDVjSHZlM3Jud0RRWjVldXk5WFZOaTNVb2hTYW00?oc=5"
   },
   {
    "id": "evt-feb8e7ca5e78",
@@ -3768,6 +3748,16 @@
    "region": "East Asia",
    "summary": "Typhoon Champi struck Taiwan, causing one death and hundreds of injuries as destructive winds swept the island’s northeast.",
    "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350?traffic_source=rss"
+  },
+  {
+   "id": "evt-888edfb1049a",
+   "date": "2026-10-23",
+   "dt": "2026-10-23T06:14:00Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "US",
+   "summary": "US start-up claims to produce gold from mercury, potentially impacting gold prices.",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OYzl0VkdycEx6d3JMUU0zOEtIa3gtMGxNUkZTTzRZQzdXMHcySVpuNVNJNzFVM0YtbndxaHFsY3hBX2N4ZDJSSWdEWVQyT3RnUmVGYUdJX3dvRTY1MVZ0QXNxTTdKV3V4NEEtQlctcUo2R0dyRkxBT1RIWV9FQVE?oc=5"
   },
   {
    "id": "evt-268d55e56645",
@@ -3968,6 +3958,16 @@
    "region": "South America",
    "summary": "Fastmarkets proposed new FOB pricing formulas for South American lithium carbonate and hydroxide, aiming to standardize global trade values.",
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTlaYlFvRXJDdGQzZDRIbU5nUE4zSUlSY3JKNHhGUUh1ZXFsN2pYTkhTcmQyWGpzRHB2RWJobHFyZ0lERzVUM21XekEzZUFnTnF0NUVxRWtUSFNuMUFiNVJVUEI4WTJwMGdSRnZ3TEF6SmswVlNrVFhyd2xwV0JzQ2hfNTQ3eW1lcHBKTUo0MWlhak1JY2ZMTnBYU3c3V1k1YWpoMGR4cFMxVE9aZmEzMjVHbWl3LU9hUG41bmNZUQ?oc=5"
+  },
+  {
+   "id": "evt-b8fce6eb5ef8",
+   "date": "2026-10-23",
+   "dt": "2026-10-23T19:01:19Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "Global",
+   "summary": "Silver price forecast predicts a yearly low, potentially pushing price toward $50.",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbi0xRlR5RWZaUFZnczVYZzVvaG5jNFBXTkUzUE9tUno5SEpoLUVITVBRRy1IV2hNREFGSnFYY3MyY0Z3NUZpaFJpa1RFWEVIUnJ0bzhORldUMDd2aEpyQXFadGpVdV8xdkJILWdSUWxVaHpROXZ5b0h5ZkpKc1pnSmQ4OGpmY0RyeTBxbFdGNjY1ZFdqeGs2eTZROWpYeDZhTHRoMXRrQWRvTmpaZzhVOU5FeGR5RE9sOE95NGlDMTRTQVAtUVpv?oc=5"
   },
   {
    "id": "evt-c2823b0b983a",

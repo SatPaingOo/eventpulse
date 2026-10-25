@@ -1,98 +1,108 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-10-25T04:57:49Z",
- "run_id": "run-2026-10-25T0457",
+ "updated_at": "2026-10-25T16:38:04Z",
+ "run_id": "run-2026-10-25T1638",
  "healthy": true,
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
    "message": "0 new price snapshots",
-   "started_at": "2026-10-25T04:51:59Z",
-   "ended_at": "2026-10-25T04:52:07Z",
+   "started_at": "2026-10-25T16:30:48Z",
+   "ended_at": "2026-10-25T16:30:53Z",
    "count": 0
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "117 new items (rss 29, gdelt 0, disasters 35, asset 53, pruned 164)",
-   "started_at": "2026-10-25T04:52:07Z",
-   "ended_at": "2026-10-25T04:53:00Z",
-   "count": 117
+   "message": "124 new items (rss 35, gdelt 0, disasters 33, asset 56, pruned 4)",
+   "started_at": "2026-10-25T16:30:53Z",
+   "ended_at": "2026-10-25T16:31:48Z",
+   "count": 124
   },
   "extract": {
    "stage": "extract",
    "ok": true,
-   "message": "106 events extracted from 106 items",
-   "started_at": "2026-10-25T04:53:00Z",
-   "ended_at": "2026-10-25T04:54:57Z",
-   "count": 106
+   "message": "113 events extracted from 113 items",
+   "started_at": "2026-10-25T16:31:48Z",
+   "ended_at": "2026-10-25T16:34:15Z",
+   "count": 113
   },
   "explain": {
    "stage": "explain",
    "ok": true,
    "message": "0 new moves, 20 new causal notes",
-   "started_at": "2026-10-25T04:54:57Z",
-   "ended_at": "2026-10-25T04:55:59Z",
+   "started_at": "2026-10-25T16:34:15Z",
+   "ended_at": "2026-10-25T16:35:58Z",
    "count": 20
   },
   "predict": {
    "stage": "predict",
    "ok": true,
-   "message": "5 predictions from 16 events; 1 duplicate call(s) dropped; 49 new events left for next run",
-   "started_at": "2026-10-25T04:55:59Z",
-   "ended_at": "2026-10-25T04:57:46Z",
-   "count": 5
+   "message": "1 predictions from 16 events; 4 duplicate call(s) dropped; 22 new events left for next run",
+   "started_at": "2026-10-25T16:35:58Z",
+   "ended_at": "2026-10-25T16:37:47Z",
+   "count": 1
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
    "message": "0 resolved, 0 voided, 0 waiting for a close",
-   "started_at": "2026-10-25T04:57:46Z",
-   "ended_at": "2026-10-25T04:57:47Z",
+   "started_at": "2026-10-25T16:37:47Z",
+   "ended_at": "2026-10-25T16:37:47Z",
    "count": 0
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
    "message": "accuracy 33.5% (373/1114), 1 reflection note(s)",
-   "started_at": "2026-10-25T04:57:47Z",
-   "ended_at": "2026-10-25T04:57:49Z",
+   "started_at": "2026-10-25T16:37:47Z",
+   "ended_at": "2026-10-25T16:38:04Z",
    "count": 1
   }
  },
  "llm_usage": {
-  "run_started_utc": "2026-10-25T04:51:59Z",
+  "run_started_utc": "2026-10-25T16:30:48Z",
   "by_model": [
    {
     "provider": "groq",
     "model": "openai/gpt-oss-120b",
     "calls": 30,
-    "ok": 21,
-    "errors": 9,
-    "prompt_tokens": 23909,
-    "completion_tokens": 16629,
-    "total_tokens": 40538
+    "ok": 23,
+    "errors": 7,
+    "prompt_tokens": 25576,
+    "completion_tokens": 19742,
+    "total_tokens": 45318
    },
    {
     "provider": "groq",
     "model": "openai/gpt-oss-20b",
-    "calls": 37,
-    "ok": 25,
+    "calls": 38,
+    "ok": 26,
     "errors": 12,
-    "prompt_tokens": 23168,
-    "completion_tokens": 21105,
-    "total_tokens": 44273
+    "prompt_tokens": 26573,
+    "completion_tokens": 21855,
+    "total_tokens": 48428
+   },
+   {
+    "provider": "openrouter",
+    "model": "dots-studio/dots-3-note-preview:free",
+    "calls": 5,
+    "ok": 5,
+    "errors": 0,
+    "prompt_tokens": 8357,
+    "completion_tokens": 9469,
+    "total_tokens": 17826
    },
    {
     "provider": "openrouter",
     "model": "nvidia/nemotron-3.5-super-vl:free",
-    "calls": 9,
-    "ok": 9,
-    "errors": 0,
-    "prompt_tokens": 15766,
-    "completion_tokens": 26848,
-    "total_tokens": 42614
+    "calls": 4,
+    "ok": 2,
+    "errors": 2,
+    "prompt_tokens": 3424,
+    "completion_tokens": 8639,
+    "total_tokens": 12063
    }
   ]
  }

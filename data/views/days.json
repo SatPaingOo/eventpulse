@@ -4,6 +4,18 @@
    "date": "2026-10-25",
    "events": [
     {
+     "id": "evt-608210305f04",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T13:50:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Netflix shares have fallen 51% from their recent peak, reflecting a sharp decline in the streaming company's market value.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeW5MLXZUaEFoNFJQeElyX2JzWnlHc1hRS3V2YV9GOFpSLV9La0JJTFdCOUtXaDU1VG05UUhrWXB2M2RzbXgtOTJNVVlPZmpXd3VYOVcwd1Zoc2FlNHhrcGgxMGRFbGxINEU1ZG1fOThTZ2s1WlE4Y1kxb00wZXhqTkdSaHZtS0F6a2RzdjY2TUtiWHV4RzBoXw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-e85021abad94",
      "date": "2026-10-25",
      "dt": "2026-10-25T00:00:00Z",
@@ -33,6 +45,111 @@
      ]
     },
     {
+     "id": "evt-6c835c9bf173",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T15:34:08Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Caterpillar’s $72B backlog is discussed as a potential factor to prevent a 10% stock slump.",
+     "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLUh6NG9OMTl3Tkl1UFRBTy1SN2k0NFZPcGcyb2FSMGlCVXBVQVhwaGRMZk9vMlR1YTBFSzZXN3hSWmlYel92UDg4ODNCS0JPQzMwdzJrSTB4VmUtQ1B0ODFFU0MxbkFZTG1CeGsyTE5XM3VXY1BRSkhVRlBtRTdmN1ZnbDZFb3FvRFJvaGR2ZnZaU2VWOGthaVFxaWV0YUlJLWVUWXl3?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-6123a1d9f2c6",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T11:39:41Z",
+     "event_type": "geopolitical",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "US Central Command reportedly prepared plans for potential strikes on Iran; approval uncertain.",
+     "url": "https://www.aljazeera.com/news/2026/10/25/centcom-reportedly-has-plans-for-iran-strikes-will-trump-approve-them?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-ef2715eea0be",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T14:47:55Z",
+     "event_type": "geopolitical",
+     "severity": 4,
+     "region": "Europe",
+     "summary": "US-Israeli attacks on Iran raise energy costs and protests, increasing European opposition.",
+     "url": "https://www.aljazeera.com/news/2026/10/25/how-is-the-us-israeli-war-on-iran-causing-havoc-in-europe?traffic_source=rss",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "USO",
+       "direction": "up",
+       "threshold_pct": 2.5,
+       "confidence": 60,
+       "expires_at": "2026-10-30",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-8027a9d635cb",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T03:00:00Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "US",
+     "summary": "Former President Trump claimed the United States is profiting from high gasoline prices as oil reaches its highest level in nearly six months.",
+     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB3aHRTallUSC1vQmFYZkJCMmptdzhUWnVQLXdWeEhXZGZ4cWNtT1AydGs5RU50NEtja3gxNWgxanU5TEdIcEl2cWNNMFQ1RU1ydzFiendINW5NWHh4b09fbVlJd0FMbFFOd0JpQ3lPV2ZPZk9JVEdVWg?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-ade0b59e15bc",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T12:05:16Z",
+     "event_type": "natural_disaster",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "An oil slick from a tanker in the Hormuz Strait washed up on UAE beaches, prompting beach closures in Umm Al Quwain.",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/10/25/oil-slick-from-tanker-in-hormuz-strait-washes-up-on-uae-beaches?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-6017807a090e",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T09:30:50Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "Banks raise oil price forecasts amid prolonged Gulf disruptions.",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNkJCUnJ0UGhBRDNCcWRtN1QzR2h5eEl4TEoxWGVaaVowMXA5NWxtM19jYnA5OUtYanNlZTloLUM2VFZTenhiazU5M1VjWU1vM2JXVTM4bUd6NG9FMnlQMWlDRVpWalJIQTY0V2c0QS1KeWdtQVFHa184aW56NEdGMWdPNi1kLUM5eW1YU0xJLU83ZkFWd1E?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-810e917bbc3e",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T13:34:08Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Boeing's 777 freighter production line has been idle for two months, incurring costs and delaying aircraft deliveries.",
+     "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSWNqNG5JV1MzeXhMc3RpbC1qYUJLQ09oX1J2NkZ5aFRlZ3JJM3FPVjZxbnVmVmZPVkpiTlkyZnkwbUhxLVFOOFVSejkyZkZtTGF0Rjg0X25RdV9ZT3FJYmNWeVR1SnRYSHVucmFWOGdKMEVhNTJveGlIczF6ZVhTV0h0T1BTbmNCbjduTnd6QXNBbjZKYTRBalpHSQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-1280c56cb7a1",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T14:11:29Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "South Asia",
+     "summary": "Bangladesh is projected to exceed India’s per‑capita GDP this year, indicating faster economic growth in South Asia.",
+     "url": "https://www.aljazeera.com/news/2026/10/25/bangladesh-per-capita-gdp-forecast-to-outstrip-indias-what-does-it-mean?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-462a89d546b3",
      "date": "2026-10-25",
      "dt": "2026-10-25T01:30:01Z",
@@ -43,9 +160,69 @@
      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdXR1X3c3UTREUER3UlVVTDQ2Y1FZLVZpTzZnSFRIR19YM1RHWnJkOVBpaWZIODRuaVlHOGhzSnBfMk5sOG1XV2FPa3c1aDZrTDVxT29qQzJPb0RaZWJNRnBtcW1QVC13bEtzU094RmcxWmVuRDlZSmxXNjRzeGJmY3lvQXF3XzlZMk4zcUhuZW00Um8xUDRrRTJ4V3BJcERnN2hlZGJJd3RwTTFiY1l4ZHFjd0RxQnVjb1RrX3VrOUdKcUhnd2FmYXp5UDhSSDJNTmdIbUNKMmRyZ9IB4gFBVV95cUxQa3RVVE5DYXRUOHlnOUVJYUpyNnlNRjJRQVVFY3JkVU9EQkVMeUs4WFB0RTAyaHJ0aUhKcmZtN1JSNHR1SjVxRDlmRmJMYXRNUkdsMS1TWUZxUzdNTktpMUxRRWhfVjI5YndSY21yUW1RSzJLQ0FEOGkwNnhIWVQyODROR05LTXZ1ZFpITHpIN3QycXppeFZIOFRwT2ZkXzNDeWRnM21kVFBvOGUway1FdXhiMHVTX19OcEFnV1M5SGZPbXBiRXR6R19zbDJsYjVrTG1KV0FkRHZqZkV3SzA0bEpB?oc=5",
      "moved": [],
      "calls": []
+    },
+    {
+     "id": "evt-5669787a1c04",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T11:54:08Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "Alphabet, Microsoft, Amazon and other major tech firms are set to report earnings this week, impacting market expectations.",
+     "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQb0l5dnFfdUxybkFnYjFMWUtiZFRVWVNieXI2bEJhSi1ZUDhfQmJSa3lDekl5bkQwcDRZTWdhQUF4cnIxc2U5aERBcmk3OTgyMUwtOWxYVTZ0TjhfcllPalFSLV9zTUVueTlhLUZPYThDdzlaeTVhR2QxQkNtOXJ6REpB?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a0a59019c0f8",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T10:42:51Z",
+     "event_type": "military",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "Saudi Civil Defence intercepted Houthi ballistic missiles and drones, causing two injuries in the country’s south.",
+     "url": "https://www.aljazeera.com/news/2026/10/25/saudi-arabia-intercepts-missiles-and-drones-as-fighting-with-houthis-rages?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-6fba5acdb8ea",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T15:28:37Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Caterpillar’s $72B backlog could help offset a 10% stock slump.",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX21MNndFWVE3dG9HNnZHaFBCX042UlJMX2hYaDdfRlRUd1pkWXF5N3o2TXB4dlV3NTgzdWFtcFdiNU9fRDFBci1MbTJMc2ZxRS1GZGx0bHlEbEFYWW1PM0ZjUEZfMzZFMDNDeXB1MXJWal9kVHRLME9VdVRmT3lWdnFILXdiYmlqdFlfYXNqOEdBaXZtcDlnLUFKZEhkWTdm?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a27e7f0aa6fa",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T13:49:33Z",
+     "event_type": "military",
+     "severity": 3,
+     "region": "Middle East",
+     "summary": "Saudi Arabia's air defenses shot down Houthi missile and drone attacks near Mecca as the Yemen war intensifies.",
+     "url": "https://www.aljazeera.com/news/2026/10/25/saudi-air-defences-intercept-houthi-barrage-near-mecca?traffic_source=rss",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-cd09502ab9bb",
+     "date": "2026-10-25",
+     "dt": "2026-10-25T15:37:35Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Mastercard’s Q3 earnings outlook is highlighted, with key metrics near all‑time highs.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQckNib2Z2MGxpblRZRmt6V25RNHhWTUtDb1NtTDg4dEdvakkwLU9QUjhTZFdTVEprcmcxN1BtZGVQRHB1SXYwVU9CQldqN2hKSGVFTkc2YVpRRDFnRjV0RWFlakx3MTJHMFJZR3VTcVB4Q0JCMUdVSmcwTEI2NmVHX3FUTUlwRVJHbWZXWGJtMm9pX2N3YTJVLQ?oc=5",
+     "moved": [],
+     "calls": []
     }
    ],
-   "events_total": 2,
+   "events_total": 16,
    "moves": []
   },
   {
@@ -322,6 +499,18 @@
      "calls": []
     },
     {
+     "id": "evt-2c841d9613b6",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T01:06:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Former Apple CEO Tim Cook's current ownership stake in Apple shares is reported.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMWRjSTRReHFPeDVKa1Y3MUVzOXRIaUxIb2JvYjdmOWhKUGd1dTdDcXItMHYxN2QtSWdqRmNGZlVWNmxqd09PVG92Q0hXUWEzdDBMbV9aU3M1OE5XVnhWVHJxRlVrX0Zjclpwcnlld1ljUEZjMjU0UlgyeVlOa3EwS2Y1M0c1ZTZQNXpmX0gyeVlZMU9hQ1U0VA?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-4d2a4e4af2c3",
      "date": "2026-10-24",
      "dt": "2026-10-24T17:11:00Z",
@@ -354,6 +543,18 @@
      "region": "Global",
      "summary": "Key financial deals announced this week include agreements by Visa, the London Stock Exchange, Tradeweb Markets, and Salesforce.",
      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbThUYUxzLWs1bFMzb0NRRkVKbUh4TGs4dXgxX2tnRE1MZEoxR2RLSVU1Qzd3cWloa085SkZjcTNiVEpGVDZvaGM0SlNlWEdiN3hfZHotMUJWVVhsTXJmaDFfNEVhT2ZfemdOUTFZdXdGTVJMbG5BX0k0UEV0T2NINmFCNW9LYU1oNFN0bTRDQWNGM0p0TzF0MGlORHllOHI3bC1aMS1GYkh4d1VZcWNrWUI3azJlLUpDWGh0Z05B?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-3e543fdd2fc7",
+     "date": "2026-10-24",
+     "dt": "2026-10-24T23:00:00Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "Record high tanker freight rates are limiting U.S. crude oil shipments to Asia, tightening supply and pressuring global oil prices.",
+     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORUF5TG56V3NCLUlWZDEwR1d1Z3J4bEtUSFh2eThCWW9QOTREd3pqX21CN3p1cGNwZTNWVDU5NW52NU1XdkNSNWVBbVo4N2dOZUZGM1o3M0FUUWNNelg2ekNySlVtMHJPVkxTd1lEQ0hxc0RyaFV4NjFBUFpuZ3U1cXBlbkowclJsNkRmVEtGcTNjR3lfZTB0U1FlU0Vsd9IBowFBVV95cUxNdDZ3cW15VlNTc1lKcW5UTi0weUFWMFdESWN0Z3IzR3hJbnBGWFlpM09YZ20wT0NFUkJROWJjTG1aVnJvZV9ZY1kzRzc5WTdwWk9yREljeE9wX0wxSzRwajQ4bUN3NUdaSThzLTBTSzNaZmVNcHljRlB2eFhkcFhBMFlVc2ZKWHBEbE01Z3lOX1ZqNkZsTDZiQnFRSEZKVGlVa3pZ?oc=5",
      "moved": [],
      "calls": []
     },
@@ -394,7 +595,7 @@
      "calls": []
     }
    ],
-   "events_total": 27,
+   "events_total": 29,
    "moves": []
   },
   {
@@ -714,6 +915,18 @@
      "calls": []
     },
     {
+     "id": "evt-10ee6036767a",
+     "date": "2026-10-23",
+     "dt": "2026-10-23T09:02:44Z",
+     "event_type": "geopolitical",
+     "severity": 5,
+     "region": "Middle East",
+     "summary": "Brent crude hits $116 as Middle East tensions rise.",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSVBHUDhjeG5sQkpOblUzQm9hSTdWRkduWHJwNXdibUgyM1FHNEtJeFpnWEVQclk1czRKV2hLbHNGS2FYem5sRzJ0N0sxakctZld4QmN4UnozQ2h3ZGFBcE1NZDdESDVRTkVQSTRVMUdxbUtHTnk2anV6Z3h4cmtmOU5COXTSAYoBQVVfeXFMT1RHRzc0UlM1VlFlakxiSU51Mk9FTXNoYndtX2tpb3RNQVNRQ1J5dGs2YnFYQUFxa0I3UUV4OHNkZFBRTVhGcjJ2SWpuQldna1VuM2VqQngyMHJXTW1YWXlPbUY4UE9CZklMbFdwQzdiMGlhS0xteVoydTEwNGlKdzhDSFRKQnZiNXJR?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-c639a2d341b4",
      "date": "2026-10-23",
      "dt": "2026-10-23T06:16:52Z",
@@ -882,6 +1095,18 @@
      "calls": []
     },
     {
+     "id": "evt-e4f19737c463",
+     "date": "2026-10-23",
+     "dt": "2026-10-23T11:58:19Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "US",
+     "summary": "Exxon Mobil's Joliet refinery issue is driving up Chicago-area gasoline prices.",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQWmtXUE5xdmNhRTZGeXQwTk5oMThSSFhIWGM3T1g5ZkhpeEFSSjBESVFEcUVBS0dYdjlZY2VPTHNVcUFlRnhNRjBKcnkwWlplbFYyRi1IVkVsRlRoZ2ZQaVMxdDhJYmxmNzFUbktlbW8weFpIemtuNlF6NXd3QkxxNG5NVEprQmM5QWZXSTB4Q2o0Wnc?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-b269efef3fe3",
      "date": "2026-10-23",
      "dt": "2026-10-23T11:35:00Z",
@@ -988,33 +1213,9 @@
      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQQXVnYnlTVmxDSXpQTnU4R0dYMk12TVVUcW5wMXNyck5rNzhEZ3JIMFVlT05Qc0JUYmRzdV9rcy1aQXl6QVVJV3QxNWp3Y3hwT25HTmRqQXFFcFgyZG1EaE95Q0dhdVlLS1lydnplYnNmakhlOW81OXhVTks2RlRCUzZFQ1hJd1dMTl82dF8zY0FvUzA?oc=5",
      "moved": [],
      "calls": []
-    },
-    {
-     "id": "evt-569155ba171f",
-     "date": "2026-10-23",
-     "dt": "2026-10-23T20:03:57Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "South America",
-     "summary": "Fastmarkets proposed new FOB pricing formulas for South American lithium carbonate and hydroxide, aiming to standardize global trade values.",
-     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOTlaYlFvRXJDdGQzZDRIbU5nUE4zSUlSY3JKNHhGUUh1ZXFsN2pYTkhTcmQyWGpzRHB2RWJobHFyZ0lERzVUM21XekEzZUFnTnF0NUVxRWtUSFNuMUFiNVJVUEI4WTJwMGdSRnZ3TEF6SmswVlNrVFhyd2xwV0JzQ2hfNTQ3eW1lcHBKTUo0MWlhak1JY2ZMTnBYU3c3V1k1YWpoMGR4cFMxVE9aZmEzMjVHbWl3LU9hUG41bmNZUQ?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-31148c70d0b8",
-     "date": "2026-10-23",
-     "dt": "2026-10-23T18:31:04Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "Analysts project a 42% upside for Boeing stock after the 737 MAX 10 received regulatory approval.",
-     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPd0w4akc5VUgyejhudzdZN2VkWDRkX1ZIMXA1THBGT2l6NXlWZDJ2WER5cjZScV9SZEw3aEpINy1wQjJ0WllLTXF1WVNMR1ZHaFZjNDlLM1VzcWZDTTVwbjJxT2RlVzJ0bGIyMVNua1NJRmRQck12Q3V0RTc5ZWUwM2ZKNnljYVA1azNpdA?oc=5",
-     "moved": [],
-     "calls": []
     }
    ],
-   "events_total": 84,
+   "events_total": 90,
    "moves": [
     {
      "asset": "PLAT",
@@ -2238,6 +2439,18 @@
      "calls": []
     },
     {
+     "id": "evt-5df099adcbde",
+     "date": "2026-10-22",
+     "dt": "2026-10-22T17:37:28Z",
+     "event_type": "geopolitical",
+     "severity": 4,
+     "region": "Americas",
+     "summary": "Gold and silver fall 11% after Hormuz oil shock; Coeur Mining shares drop 8%.",
+     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRDBLMW8wR3Fsc3E3N283REVMa0dHMENsZ3YzUktWVkhad1R3VklVbTZjUWxfcFZ3Q0I1Y0k0NkFmZlZhaVc0bGdfbGZZM2JrN2FuS2JNY08xanFkeVFHN2tkdDJ5b0dLbVRXenVLcm12aWtRR0FQQkxZWFRHUzNUckRFQkVDakNxZjRRTHR4STIzSVJDNVdOMmU1QVBBUjlG?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
      "id": "evt-f66dec24446d",
      "date": "2026-10-22",
      "dt": "2026-10-22T14:55:59Z",
@@ -2260,21 +2473,9 @@
      "url": "http://www.gdacs.org/report.aspx?eventtype=EQ&eventid=1573141",
      "moved": [],
      "calls": []
-    },
-    {
-     "id": "evt-9262331b5987",
-     "date": "2026-10-22",
-     "dt": "2026-10-22T14:30:00Z",
-     "event_type": "geopolitical",
-     "severity": 4,
-     "region": "Europe",
-     "summary": "European natural gas prices rose as tensions escalated in the Middle East, raising supply concerns.",
-     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQM3UwSW1WeXMzOFl4RnY0X25zTXNoZDRiNGRXRmJLV2hzVEcwY1lwTTRCUnRKNENFN0NiU2RZNWNNZU9YRTNxOWt2Z3ltTU81UDd5LVVKVTJGOFRONUdRYmszUTREenh2bDRhcmRBeEVSeHJ5bjJUVEx5QmdScVJDajA1RTNsWnlyYU1LMkNTaVJ0SGV3STdoRkdSWm9qQ0ptUXU1dEJ2VUZlMWNHdFpPWThrQlbSAboBQVVfeXFMTm1sQnQ4MkxDYTgzM2JQUF9pS0dTRWJ0a0lwZ2tzVGRpZFJudXpJRUdWeUV5b251YXRsWTNfSGNXSGNnWER1U01KZjRFeFNXVmJUWlVnRldoeFRfZXBZZGtSMS1pbm5EdUhiNE5BTkhuUVBMeFRLU0FzQzZrZnhlVzlaNEVSTmx1OWNpMkNIM1ZfbmRqU1RXbWdpR0JzN1RMUFgyS05Uc1dXZC00a3pnNDNWamVlblZnMWpB?oc=5",
-     "moved": [],
-     "calls": []
     }
    ],
-   "events_total": 136,
+   "events_total": 140,
    "moves": [
     {
      "asset": "HD",
