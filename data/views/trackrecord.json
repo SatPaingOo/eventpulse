@@ -1,26 +1,26 @@
 {
- "generated_at": "2026-10-26T05:03:24Z",
- "total_resolved": 1116,
- "hits": 374,
- "misses": 742,
+ "generated_at": "2026-10-26T18:53:39Z",
+ "total_resolved": 1118,
+ "hits": 375,
+ "misses": 743,
  "accuracy": 33.5,
  "baseline": {
   "random_pct": 33.3,
-  "best_naive_pct": 37.5,
+  "best_naive_pct": 37.6,
   "best_naive_strategy": "up"
  },
  "by_confidence": [
   {
    "value": "high (≥70)",
-   "n": 67,
-   "hits": 29,
-   "accuracy": 43.3
+   "n": 68,
+   "hits": 30,
+   "accuracy": 44.1
   },
   {
    "value": "medium (50–69)",
-   "n": 882,
+   "n": 883,
    "hits": 297,
-   "accuracy": 33.7
+   "accuracy": 33.6
   },
   {
    "value": "low (<50)",
@@ -34,8 +34,8 @@
    {
     "dimension": "event_type",
     "value": "unknown",
-    "n": 1116,
-    "hits": 374,
+    "n": 1118,
+    "hits": 375,
     "accuracy": 33.5
    }
   ],
@@ -57,8 +57,8 @@
    {
     "dimension": "direction",
     "value": "up",
-    "n": 850,
-    "hits": 309,
+    "n": 852,
+    "hits": 310,
     "accuracy": 36.4
    }
   ],
@@ -115,9 +115,9 @@
    {
     "dimension": "asset",
     "value": "CVX",
-    "n": 5,
-    "hits": 1,
-    "accuracy": 20.0
+    "n": 6,
+    "hits": 2,
+    "accuracy": 33.3
    },
    {
     "dimension": "asset",
@@ -227,7 +227,7 @@
    {
     "dimension": "asset",
     "value": "PG",
-    "n": 1,
+    "n": 2,
     "hits": 0,
     "accuracy": 0.0
    },
