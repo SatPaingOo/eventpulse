@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-28T18:31:15Z",
- "total_resolved": 1123,
- "hits": 379,
- "misses": 744,
+ "generated_at": "2026-10-29T06:04:27Z",
+ "total_resolved": 1126,
+ "hits": 380,
+ "misses": 746,
  "accuracy": 33.7,
  "baseline": {
   "random_pct": 33.3,
-  "best_naive_pct": 37.6,
+  "best_naive_pct": 37.7,
   "best_naive_strategy": "up"
  },
  "by_confidence": [
@@ -18,8 +18,8 @@
   },
   {
    "value": "medium (50–69)",
-   "n": 888,
-   "hits": 301,
+   "n": 891,
+   "hits": 302,
    "accuracy": 33.9
   },
   {
@@ -34,8 +34,8 @@
    {
     "dimension": "event_type",
     "value": "unknown",
-    "n": 1123,
-    "hits": 379,
+    "n": 1126,
+    "hits": 380,
     "accuracy": 33.7
    }
   ],
@@ -43,9 +43,9 @@
    {
     "dimension": "direction",
     "value": "down",
-    "n": 223,
+    "n": 225,
     "hits": 56,
-    "accuracy": 25.1
+    "accuracy": 24.9
    },
    {
     "dimension": "direction",
@@ -57,9 +57,9 @@
    {
     "dimension": "direction",
     "value": "up",
-    "n": 855,
-    "hits": 312,
-    "accuracy": 36.5
+    "n": 856,
+    "hits": 313,
+    "accuracy": 36.6
    }
   ],
   "asset": [
@@ -150,9 +150,9 @@
    {
     "dimension": "asset",
     "value": "HEATOIL",
-    "n": 16,
+    "n": 17,
     "hits": 9,
-    "accuracy": 56.2
+    "accuracy": 52.9
    },
    {
     "dimension": "asset",
@@ -199,9 +199,9 @@
    {
     "dimension": "asset",
     "value": "NATGAS",
-    "n": 21,
+    "n": 22,
     "hits": 9,
-    "accuracy": 42.9
+    "accuracy": 40.9
    },
    {
     "dimension": "asset",
@@ -304,9 +304,9 @@
    {
     "dimension": "asset",
     "value": "WTI",
-    "n": 228,
-    "hits": 115,
-    "accuracy": 50.4
+    "n": 229,
+    "hits": 116,
+    "accuracy": 50.7
    },
    {
     "dimension": "asset",
