@@ -3113,6 +3113,20 @@
    "pct_change": -2.621
   },
   {
+   "id": "note-6a621351f7b6",
+   "kind": "causal_notes",
+   "asset": "ALUM",
+   "move_id": "move-ALUM-2026-06-09",
+   "move_date": "2026-06-09",
+   "event_ids": [],
+   "reasoning": "No events; likely normal market volatility or supply/demand imbalance.",
+   "confidence": 30,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-11-01T06:22:29Z",
+   "events": [],
+   "pct_change": -1.821
+  },
+  {
    "id": "note-90a6df414a29",
    "kind": "causal_notes",
    "asset": "ALUM",
@@ -3125,20 +3139,6 @@
    "written_at": "2026-10-04T16:56:56Z",
    "events": [],
    "pct_change": 1.846
-  },
-  {
-   "id": "note-b11fd0296548",
-   "kind": "causal_notes",
-   "asset": "ALUM",
-   "move_id": "move-ALUM-2026-06-01",
-   "move_date": "2026-06-01",
-   "event_ids": [],
-   "reasoning": "No candidate events in window; price move likely due to market micro‑fluctuations or unreported news.",
-   "confidence": 30,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-09-11T20:15:18Z",
-   "events": [],
-   "pct_change": 1.608
   }
  ],
  "predictions": [
@@ -3587,36 +3587,6 @@
  ],
  "events": [
   {
-   "id": "evt-41b2dc784845",
-   "date": "2026-10-30",
-   "dt": "2026-10-30T21:37:52Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "Global",
-   "summary": "Copper prices are projected to record their first monthly decline since June, as concerns that AI spending may reduce industrial demand weigh on the market.",
-   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSGF3UFNaeGM0UEtsN3NzYTFTQUQyb2JRZVBpZkNmRFozYllkQWFsLXhWRnBwQzRrN29mbHpnQ1czV0F3NlBZUTJYLVR1bGJZMjVUSV96MzRrbTJQVGQwd1I1V2gxazlPbHhqQ0paR21zX3JJaU5kSzVnREpGMnVkZGxqRUp3TTVVc1ZWeGRuRk9yTWNNVHRiTkJWYnRwWm1BMzNjRTVWdlhpSG1TdC12aTVLenZTeHlj?oc=5"
-  },
-  {
-   "id": "evt-9c5a37711214",
-   "date": "2026-10-30",
-   "dt": "2026-10-30T17:50:35Z",
-   "event_type": "economic",
-   "severity": 3,
-   "region": "US",
-   "summary": "US oil majors report record profits as gasoline prices stay high ahead of the November election.",
-   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOOU5SZVJUMWtmRThGVWdONEhkWVNJNnV1NU5ta3UxaXlfR3ZvUzhtUWZUbGw2a0wwdHp5bDZaV3ZpVHZiZ0ZBaVVPOFhKNk5tMk4yNzNfQlo4TVBtbmE1U0JJSFBieDlsNmdZRVJEWFk3ZkhGNVh6NkNjWUxxUW1kN2Y1ZDZSZEVLRXNXSFpoZVJZNGhOSU5tOXEtM3FiZ3lGWkpBOVN1MmhPLVBibU5IWDVBWnUxRFk?oc=5"
-  },
-  {
-   "id": "evt-9d99c9e772c7",
-   "date": "2026-10-30",
-   "dt": "2026-10-30T19:48:01Z",
-   "event_type": "economic",
-   "severity": 5,
-   "region": "US",
-   "summary": "Natural gas prices fell on 30 Oct 2026 as US weather remained warm, per Barchart.",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUHdIdDRYajdFaUtGSWlRX0QyZy1xbXZmOWV3M3FmWHpjbnRfX3BNSnFvbjVNMlhlczczcC1nbjNxMDg0aTVTaFRXUXhUTDQwNDBHTHNHcXp4MF9zRXpzLWhQMjRyWFViM3NzeDY1bGhaLVo5eDg5UGhSLURZOGxXN3BfVk1jQ3dzSnBHd2VBNmxCM284?oc=5"
-  },
-  {
    "id": "evt-3bbad2cc7686",
    "date": "2026-10-30",
    "dt": "2026-10-30T10:16:11Z",
@@ -3787,6 +3757,16 @@
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRjh5WlY0dUdDSy1HSzdSM0pVQVVRLUlpbS0xMThXZDRYVzUzYTdQb0Q3OVh3R1ZGTm1ueWd5XzUzNWE3X3VjemIyZTV4SHJKRWhoeVoteDI1RDV2c1JFWk53Y0J4ZWtBR09VcEkzTC14dTNxTUNBcHNCRmlSa0VZMXByQ3V0cmtWRGNCdy01cEJ6Vmh1OF84Q0Q2UzFOTmpTVW1INFBvR2dLQUc1Qk9N?oc=5"
   },
   {
+   "id": "evt-d186a55d08bb",
+   "date": "2026-10-30",
+   "dt": "2026-10-30T11:33:34Z",
+   "event_type": "economic",
+   "severity": 4,
+   "region": "Global",
+   "summary": "Chevron posted a record $4.93 billion refining profit, beating Q3 forecasts, and its shares rose 2% as global diesel demand tightens.",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPbGZ4YnIxVnBNdGd6VnVVbW9ET2lMeGxHdlloX1lhQ0MzWnJOVFpsak9qSU13c0tPVnVGTERpVk56NTFsR0hJSzRBeV9xV1BTYWM1eFU3aHVZX044akRKeWQ2a0VKLThSWWJOUTJPWTllczA5aWd4WU1JcVFXdHZhRzdxZFRBUHhYS3M1eVE5U3ZuaVVTMEZ6TjcxaXJ5VmJhTlhlNTk5NHNaODFIMDA3SjVZNkpnXzV6bEtoc1FLOVpFZjQySWhab2RVbGxDRGNj?oc=5"
+  },
+  {
    "id": "evt-8c8b4f78c39f",
    "date": "2026-10-30",
    "dt": "2026-10-30T17:17:53Z",
@@ -3805,6 +3785,16 @@
    "region": "US",
    "summary": "Shares of the Magnificent 7 tech giants fell sharply, marking a notable decline in US large‑cap equities.",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcEUzckd3MmtVYVJhbllEZXhXMm1qWDlXV0ZuTHBQamhiZWFTam1saFJLaWVpVm1JaU44ZElTaTQzTktCaGNjTXl6QVJLekJxaUIzRXNxUHNQeVpVeHJYZHN1bldyN0dVakVjNUlvbUQwaFB0OUNwWkszLWZseTd4SkpYLTJwdlMtS1dfMm1zMXNiSzZWOFJ5amJGc1ZiZjRKOXRxQUJKOC1IRms1XzRJ?oc=5"
+  },
+  {
+   "id": "evt-23999779430e",
+   "date": "2026-10-30",
+   "dt": "2026-10-30T21:44:57Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "US",
+   "summary": "S&P revises Meta outlook downward on cash flow and capex concerns",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOS3pBcm5XX1JvYTM0dnpBTjJRV2JnT1ZHRUw0b00wZElzUVVzWGlGbDczNkRpWDJwU0RJYmo2TE4tUDRIWldpbWlFTTlEYjNiRzc4cmV1Vkd0VnRIcnQ0dVM1Z1kxdWNMZWNHWGJjMVk2ZHJRYURWUHNLOWcyVEN6Si1uanRFYWd4Z3FZSm1qNHNUX3dDNUJUb2dZOVloOHFMMXd4aWRn0gGrAUFVX3lxTE1nejdjQ1hZRHZtbWQ4czcza3ktejVBbWFOa29acm1IdWkzdTA2UTllcDl0bkJNblpqOTdwa0g3NUd0ZnlQUUg2UV9FcFliUzdIV0hiQzRpT0xPSHV4QTAxLVpZQlQwU25NOVRDNFZGaDQtY25TUzZvdmtBMXRtVDY2dkoxdUJ0VlBEcHMxTlc5QWNsZkhBMG9kVTlfTmYtdUt4V05sZjl3Vlhlaw?oc=5"
   },
   {
    "id": "evt-38d6d5a28c24",
@@ -4055,6 +4045,16 @@
    "region": "Global",
    "summary": "Silver price was reported on 30 Oct 2026, providing the latest market level for the metal.",
    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LeGpiM1J3S2EyQjhfeHBDOHp6Z0Z4VDlqa3U0WkVPak4zRGRuQ2hBU1RWV0o3NGtmdXo5ZS0xaU5kNVd0NnRZd0xWM3BxbnNoVEVsSDlUQ3FrNW8zdXhLSmNlTnZpLWVfZ0NjWjlvaWo?oc=5"
+  },
+  {
+   "id": "evt-5870d428ecfa",
+   "date": "2026-10-30",
+   "dt": "2026-10-30T20:28:39Z",
+   "event_type": "economic",
+   "severity": 5,
+   "region": "US",
+   "summary": "Apple surpasses Nvidia to become the world's most valuable company.",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNcG83dG41Y0RpLXc2dTNRVkVDY1hSU0Y5UWhWTU5IX2RDUi1MdWNBY3pSY1d6aUVEM2MxOF83c0R0UUlYSG5iR3RvWHR2TVVSTkFrZFhjSU1DU1NFYld4cUlLOG5jbmVGUWdlbFloLXdwdkpNWG1Ba2g2X0xTclpCNXF6Yl9TMG51ejBTQ2VCWWlNNlIxWEFIM1pITm9IcVdCWlE?oc=5"
   },
   {
    "id": "evt-9b68a783b750",
