@@ -3088,6 +3088,20 @@
    "pct_change": 1.935
   },
   {
+   "id": "note-37005e64a607",
+   "kind": "causal_notes",
+   "asset": "MA",
+   "move_id": "move-MA-2026-06-04",
+   "move_date": "2026-06-04",
+   "event_ids": [],
+   "reasoning": "No events in window; likely earnings beat or analyst upgrade drove the jump.",
+   "confidence": 55,
+   "hypothesis_status": "proposed",
+   "written_at": "2026-11-01T17:59:50Z",
+   "events": [],
+   "pct_change": 2.165
+  },
+  {
    "id": "note-1eb132aed91e",
    "kind": "causal_notes",
    "asset": "MA",
@@ -3128,20 +3142,6 @@
    "written_at": "2026-09-14T17:17:14Z",
    "events": [],
    "pct_change": -1.518
-  },
-  {
-   "id": "note-e6385956b7ce",
-   "kind": "causal_notes",
-   "asset": "MA",
-   "move_id": "move-MA-2026-04-30",
-   "move_date": "2026-04-30",
-   "event_ids": [],
-   "reasoning": "No specific event; likely earnings miss or macro slowdown affecting tech/financial sector, causing broader sell‑off.",
-   "confidence": 55,
-   "hypothesis_status": "proposed",
-   "written_at": "2026-10-02T21:34:40Z",
-   "events": [],
-   "pct_change": -4.248
   }
  ],
  "predictions": [
@@ -3199,36 +3199,6 @@
   }
  ],
  "events": [
-  {
-   "id": "evt-3bbad2cc7686",
-   "date": "2026-10-30",
-   "dt": "2026-10-30T10:16:11Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "Procter & Gamble's shares have remained flat since its latest earnings release, indicating limited market reaction to the reported results.",
-   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVXhEUGJTLUc1Q2tGUFdSVzgtVEd3Mkhob2pybmhrQWpScm5TS1Z4Y0NPUEJXbnIwOGp4MVN4akRBaFhyOWhEVnA3Qk0wWjB4VWtPd0d1MmpXS25aMjQ1djRCdjZRY0FnczV1T0l0RmtkWFVmd3NwUy04ZGdPcFlBcmRVdnNPQ3lFYldKOWluMmpMTjc5X1BTelJXUU9PZWJHZHdj?oc=5"
-  },
-  {
-   "id": "evt-525c8169536f",
-   "date": "2026-10-30",
-   "dt": "2026-10-30T18:37:00Z",
-   "event_type": "economic",
-   "severity": 2,
-   "region": "US",
-   "summary": "General Motors announced its move to the Nasdaq exchange, joining other large firms like Walmart.",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVjBEOGF3MExlenlkSG5NM0xoOE9kbk5KQzNNU1pQS2w5LVowN1A1NkZPZ1UyU2N0TFBNaEZNU3gwak1IX0ludURMaTRwY21wbWRQNFBSN2lDamxodThKVjhYVmR5Q0dsVmVqS2R3bTRhN2VNVGRBNWh4MEZlR3NFQlVR?oc=5"
-  },
-  {
-   "id": "evt-7ae5f12ca892",
-   "date": "2026-10-30",
-   "dt": "2026-10-30T22:00:00Z",
-   "event_type": "economic",
-   "severity": 4,
-   "region": "US",
-   "summary": "Gasoline prices rose 34% and heating oil 74% ahead of US midterm elections.",
-   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObTR3Zko1ZTF2cUdQektITkFZclRMRDlRbzFQNEd2clhIcUZud25rcmFhdHQweUx3VTlySm1hcnJ2SmNLS2dHZEtvdnhGVWNMLUhpRUdUVlJFMG8taFVrM2I3WmxseEFvZDJ5N0JGZTNqWlF4b204dzViYjFjUnJuUVRYUzNRLUFrdmtlUm5nbl9UTHhHc29vdVhUYnVWbXppbUowNEFCLXhlZDFVNUxKVdIBtgFBVV95cUxPeFE1LTRPdDZRY3BGeWpoNVVmU3lTQWw5SzBvQzZ3VXpVd3hXd0l4dHJNUFdRUV9MYURMbl9rWlJzSU5tV3hQN0xnOHkzYmxFd2FfUkQwY0lrMk9HbWhOeG5yV1l0QnRhN2xfUFhiUnFoampCTFNzX1AydWhYdGJEZ2VqeXFYVXVaRkpONE1fQWp3X0VGMDY0dGs1RHNtUWJpbC1qNWhmM0RUOC1fWTdybVc1VEpQZw?oc=5"
-  },
   {
    "id": "evt-c2eb74469fc9",
    "date": "2026-10-30",
@@ -3368,6 +3338,16 @@
    "region": "US",
    "summary": "JPMorgan lifts net interest income outlook, analysts question JPM stock valuation.",
    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRjh5WlY0dUdDSy1HSzdSM0pVQVVRLUlpbS0xMThXZDRYVzUzYTdQb0Q3OVh3R1ZGTm1ueWd5XzUzNWE3X3VjemIyZTV4SHJKRWhoeVoteDI1RDV2c1JFWk53Y0J4ZWtBR09VcEkzTC14dTNxTUNBcHNCRmlSa0VZMXByQ3V0cmtWRGNCdy01cEJ6Vmh1OF84Q0Q2UzFOTmpTVW1INFBvR2dLQUc1Qk9N?oc=5"
+  },
+  {
+   "id": "evt-1fe67de556fa",
+   "date": "2026-10-30",
+   "dt": "2026-10-30T19:27:00Z",
+   "event_type": "economic",
+   "severity": 2,
+   "region": "US",
+   "summary": "Analysts noted divergent investor sentiment toward Caterpillar and Deere, with Caterpillar facing pressure over equipment demand while Deere's outlook remains more positive.",
+   "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNaVUwbjFncEJaQ3lBdnBkMXc2dlBsQXRxRzRvMEp1a2ZkQVZhbThJRGpYZWJROHFVVkZTd0xteFNndVlQTmYwWTEyUUc5a09fLU1jOGg5QTFSU0FOZmltQ1gzQWplR3RKRTNEZEZnVmZiakp0RzRKYVN2Y2wwRnBKSW9reXB6TGJXRGRRMEJweXVJNXBMLW5STlF5eVRudExGN2xFcFVzR05wRGJTZXg5ZHpiSHpyN082MW05Z3BlLWpjYkxPY1BlYmtJbThBMlFMc0kzWW9JQVpzNmExVkZkVXAtdWNUNWFZRS1laC1fTzVPZDVwakdDWA?oc=5"
   },
   {
    "id": "evt-d186a55d08bb",
@@ -3518,6 +3498,16 @@
    "region": "US",
    "summary": "Bank of America reported rising quarterly revenue while JPMorgan Chase saw a decline in Q3 2026, highlighting divergent earnings trends.",
    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOM3VYRjNQTk03TG51TWpQVDA0MG9OX2FyWEV4ekU5bDJnVEFwcW9rZEdqSUZsM3BBa3YwV2VLN3dCVlNjMHFBYkwzdFh5ekQzUUppekQ5Y3RQdXh1cWx2UkVOaTM3WmpEOXBxOGY1YlgwM251aWFiSW1tWnM1N2dNOWRiV3R0ZE8tS1l0UDFpMjdZZ0NEdVQ3bm9kSVJsOEdZUnJuZkNoY1NrYUR6a3VuT3ZiYXoyUEt0Z2VCU2hGR3ZPcHJCU2EwWmFYc192cjVQVGxXeHB5cExMMkpY?oc=5"
+  },
+  {
+   "id": "evt-a32252357603",
+   "date": "2026-10-30",
+   "dt": "2026-10-30T20:20:00Z",
+   "event_type": "economic",
+   "severity": 4,
+   "region": "US",
+   "summary": "U.S. equity markets slumped as tech stocks sold off, sending the Nasdaq to its lowest level since June and triggering a broad market decline.",
+   "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ZVVQzRnJqelRyUjFGQjZLZlhIbGsyQUxabzc5TE1TaEx6TWRnaTRRcXVmanBTWXZ0NmhmZWpHeVZFZ3lSX1kyaEhfMnBVMnprQ0xscEpBZzhOWFZLbnZCcUtDUnJJNmdROEhxOVhSRDdFVDd4THg00gF8QVVfeXFMTmgwT1lfNnJpUlczcFVnQW9lanFWbDZzYXRadlNsNmRoS1NSVURVS1VsRjlsWGlZOGhiTkF2X3FJRzJnTllYaTAxdVRCSjgyUlduRGRQTV9kUzNDdFVyQ0VWUHQ3ODU5bW1hZ0hvS2FubEFWMEJnWnAtdUN0bg?oc=5"
   },
   {
    "id": "evt-c942fa9ec685",
@@ -3748,6 +3738,16 @@
    "region": "Global",
    "summary": "The Motley Fool released a report highlighting significant developments for Meta Platforms, Inc., aimed at stock investors.",
    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZUJjVTVVd19qajRKZEtjUEZRUEk3QW1oc2JVRVdVQmNiRVI1VTdJcmxNcXBCQm8weE1oV0lJTjZKejVYaGw5c09FQS1KVy03b3N4cmVJVGZBQXJ4dUUzM2RMdkI0Y3FMMnZPTTl1Wkd2LVlDN29JTGVMNnV6TXR0QlNlYXJabUU?oc=5"
+  },
+  {
+   "id": "evt-3028e84c2d05",
+   "date": "2026-10-30",
+   "dt": "2026-10-30T17:53:25Z",
+   "event_type": "economic",
+   "severity": 3,
+   "region": "Global",
+   "summary": "Silver prices surpassed $50 per ounce for the first time in a year, driven by increased industrial demand and tighter market supplies.",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUW1tekJ0YmNRN050cFc4S3R0alNWUzBidlV2b1VOUm9rVnFBNnFWb2R0d1I4YW1NWFJqVm9URkMtQnp2N2FmZkdQckc0bjV4TFkzUG1XTjlia3lUUzdERXB5TElwQjVrRkZNYzlXMWN3V3ZFYVBOQWxOMmlIeEFjSGdtZ0hlMW9iamVQaUszdE9BazZBeFFSQVhDSVNiTVhuSnc?oc=5"
   },
   {
    "id": "evt-50a666e115f9",
