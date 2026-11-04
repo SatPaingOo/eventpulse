@@ -1,24 +1,24 @@
 {
- "generated_at": "2026-11-03T19:40:34Z",
- "total_resolved": 1155,
+ "generated_at": "2026-11-04T06:41:06Z",
+ "total_resolved": 1158,
  "hits": 388,
- "misses": 767,
- "accuracy": 33.6,
+ "misses": 770,
+ "accuracy": 33.5,
  "baseline": {
   "random_pct": 33.3,
-  "best_naive_pct": 37.1,
+  "best_naive_pct": 37.0,
   "best_naive_strategy": "up"
  },
  "by_confidence": [
   {
    "value": "high (≥70)",
-   "n": 72,
+   "n": 73,
    "hits": 31,
-   "accuracy": 43.1
+   "accuracy": 42.5
   },
   {
    "value": "medium (50–69)",
-   "n": 916,
+   "n": 918,
    "hits": 309,
    "accuracy": 33.7
   },
@@ -34,9 +34,9 @@
    {
     "dimension": "event_type",
     "value": "unknown",
-    "n": 1155,
+    "n": 1158,
     "hits": 388,
-    "accuracy": 33.6
+    "accuracy": 33.5
    }
   ],
   "direction": [
@@ -57,9 +57,9 @@
    {
     "dimension": "direction",
     "value": "up",
-    "n": 880,
+    "n": 883,
     "hits": 318,
-    "accuracy": 36.1
+    "accuracy": 36.0
    }
   ],
   "asset": [
@@ -94,9 +94,9 @@
    {
     "dimension": "asset",
     "value": "Brent",
-    "n": 136,
+    "n": 137,
     "hits": 61,
-    "accuracy": 44.9
+    "accuracy": 44.5
    },
    {
     "dimension": "asset",
@@ -199,9 +199,9 @@
    {
     "dimension": "asset",
     "value": "NATGAS",
-    "n": 25,
+    "n": 26,
     "hits": 10,
-    "accuracy": 40.0
+    "accuracy": 38.5
    },
    {
     "dimension": "asset",
@@ -304,9 +304,9 @@
    {
     "dimension": "asset",
     "value": "WTI",
-    "n": 232,
+    "n": 233,
     "hits": 116,
-    "accuracy": 50.0
+    "accuracy": 49.8
    },
    {
     "dimension": "asset",
