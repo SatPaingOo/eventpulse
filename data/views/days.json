@@ -4,27 +4,338 @@
    "date": "2026-11-09",
    "events": [
     {
-     "id": "evt-5b4b44c0d27a",
+     "id": "evt-dc8fe8362896",
      "date": "2026-11-09",
-     "dt": "2026-11-09T03:16:00Z",
+     "dt": "2026-11-09T19:58:01Z",
      "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "October low‑grade zinc oxide production fell sharply, suggesting November prices will stay high.",
-     "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxOSDRiNHNMZEN0MDJZdGhMZmtVcGxJM09iTmRwTzkzUkFOUzQzdkNqMUlNY3B0R1lXdlNncWJWSjBydEU0WmRBTFh2Sm5fVlpLN2RjNlZ4WXlXUnlTWkFTYnNzcHZGMFRmWDJMR2NYREtLWlNjQ0NTWjFIVDFvajNjZ3FYMTZnSjZYSFBQbUY2aVpzQzNsUVRnOElMQ2xHdjhjQVFCbnBjOVRYR0NhQWQyX0JJdGhLUFlwazZ4YWhRRnpxWE5SLW5BYm8xOFB2MEFkNXJRYW9SQ0VpMGM1YlA1T1Rjdnp6eThvc2xQSWh5TmZmRXdmR3l1TnJqcVRNcW1td0hGWjJLSWM?oc=5",
-     "moved": [],
+     "severity": 5,
+     "region": "US",
+     "summary": "Nvidia shares fall after investigation into CEO Huang's alleged affair with a Chinese spy, wiping hundreds of billions of market value.",
+     "url": "https://www.bbc.co.uk/news/articles/c6zxjx01vyleo?at_medium=RSS&at_campaign=rss",
+     "moved": [
+      {
+       "asset": "NVDA",
+       "asset_label": "NVIDIA",
+       "date": "2026-11-09",
+       "pct_change": -4.684,
+       "direction": "down",
+       "reasoning": "Investigation of CEO Huang's alleged affair with a suspected Chinese spy triggered a sell‑off, causing the 4.7% drop.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-dc8fe8362896",
+        "evt-b2bff36b0b05"
+       ]
+      }
+     ],
      "calls": []
     },
     {
-     "id": "evt-be99a4ef9c30",
+     "id": "evt-b2bff36b0b05",
      "date": "2026-11-09",
-     "dt": "2026-11-09T05:22:00Z",
-     "event_type": "economic",
-     "severity": 2,
+     "dt": "2026-11-09T21:52:28Z",
+     "event_type": "other",
+     "severity": 4,
+     "region": "US",
+     "summary": "Nvidia CEO Jensen Huang faces investigation over alleged affair with a woman suspected of being a Chinese spy.",
+     "url": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
+     "moved": [
+      {
+       "asset": "NVDA",
+       "asset_label": "NVIDIA",
+       "date": "2026-11-09",
+       "pct_change": -4.684,
+       "direction": "down",
+       "reasoning": "Investigation of CEO Huang's alleged affair with a suspected Chinese spy triggered a sell‑off, causing the 4.7% drop.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-dc8fe8362896",
+        "evt-b2bff36b0b05"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-220b80a9b61f",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T20:50:00Z",
+     "event_type": "political",
+     "severity": 4,
      "region": "Global",
-     "summary": "Platinum price hovers near key support level, indicating potential volatility.",
-     "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPYVItYmZHNHBkVkxvNkFUb0dqMnBVYng0YlRtR1RwZjFib2ZiOHVMZzR4VGplaVJjV3F3RVBqTk1WT3FHcHBRcXZFbjdHeVJxSkJ2My1XWVhoUHUtY0Z1dnE0N2g0N2hDQ1F6bDZhSnU3SmZ3TmF0MFE5UVlaX04xSWFiQjdTVmd5Z1dWMHVnM0RERVhCMzlpZDZzaTJxNk5ZVkRpenI2UGNsUDJKcUd4dzNWZDRFT2xmYkFud1YzaUlITGY0b2N1UG0tTHJtUk9XQmRMUTZXMF85dm9NZFE?oc=5",
+     "summary": "Oil futures fell after President Trump said new strikes on Iran unlikely, easing geopolitical risk.",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVFNfSjlGZWFOd01laGhIaG9idVhwaUxEOXctN1hkb1E2Qkd6YXEyaE5DUHFzMEdoT3dqWXNQbkxScXRFb3o2aGU4SEpWdnU5SGdKQUJXTUFMdS1kcHJKVnJPVnBUZk1XUjd6NXRLcnJwSGhXMFZVa2hqQ1VvVWkzM2FxT2tCNlhGN1VYYjgwRTdiY2Z6SElpNmtfMXRmTjF0RW5fX0JVVWhuZVlsX1lWdDBMU1g1ZzBFeXlGT2tZbUNyQjlLUFE?oc=5",
      "moved": [],
+     "calls": [
+      {
+       "asset": "WTI",
+       "direction": "down",
+       "threshold_pct": 2.0,
+       "confidence": 62,
+       "expires_at": "2026-11-16",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-f1bdc9cce143",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T20:15:05Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "US",
+     "summary": "US natural gas prices surged as cooler temperatures reduced demand and LNG export volumes climbed, tightening domestic supply.",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNTlNRaE44MFl5dU9MckdSanpnOHFIRXFlUlZ5T1pqa1BWdzA0R0hKNUtDeENTLUtIMXBtal9sbVVmSnMtMGZkN2R0Rk1LZzMzNlJEUFRnLWExUVdRMDRNT2lKSGFMaEtHdEoyMjVYS0xPVW5TTkpqZzRheFlTOFB5MkE5cTU1UW81a0F4NWV4ZVM2elN1Umg5TnBEdjRDcVhJenlJ?oc=5",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "NATGAS",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 60,
+       "expires_at": "2026-11-16",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-98f0fd376dda",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T16:35:18Z",
+     "event_type": "geopolitical",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "Oil prices dropped to a 10‑week low after former President Donald Trump said an Iranian strike was unlikely, easing geopolitical tension.",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcVdMbllYT0JtVGNxZ2ZKdlpxUjBLMWJESlU0emF1eDk0NDdweHBndXV1MEtYV0I3UlZVTTljS1NoUnBLX1VpMVUwVE5jNmM2OU9iMEV5WklTUENZdTlqTUpGMS1nRlNpNzVyclZxbTJGM3B2ODcwem5xNVhVX1I4NldLVUs?oc=5",
+     "moved": [
+      {
+       "asset": "USO",
+       "asset_label": "Crude Oil ETF",
+       "date": "2026-11-09",
+       "pct_change": -4.165,
+       "direction": "down",
+       "reasoning": "Trump's statement that an Iranian strike was unlikely eased geopolitical tension, prompting a sharp drop in crude prices.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-98f0fd376dda"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-9f6dfdf020ce",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T05:25:07Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Global",
+     "summary": "Brent crude fell below $99 a barrel and WTI hovered near $91 amid speculation that Trump will not impose new sanctions.",
+     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdlZSTkFZUEZaUjcyZWNyS0w0S2lCR25fa1U4dWI1UWRJZVpxTEhpM216WXB3OXlGWmpaLVdicFFTdVlKU3VFcWFBSE1ZMnYzamQ0c2FXNXZWVGNpZWZYUVlMZ2l2WkdCbVZsODFXODBDWGNCcHlEaFdMZy1ka0tFSFhDSzdEVmtkbzROT0lTNEdVcnhRbmFJZWRPX3BMSlQxSGhXM1FjNWJic2tCeWFDdGZ1dVNoa05mNWtLZWd4UlBQdkZCVnAwUjA2bGZicmNBalNEODI5MjRGeFNxQnVXWFJhdHdGWEhBQlVZZ2xTOWxRaV9vRXpjYkNyenFkR2o00gGGAkFVX3lxTFBjWnROQTE3amhpcENCVHc1UEJ6blhHeDBZbnhpdVRCZzd5bmswak9rdEFhSTdWdmZYNHU4djhPWWtiSkptUmJ6dWUwUTdTWHBtMU9RSHlXZmJicXFVMlR3VjFQbzFOd2ZfNzc2Wi1vWlMwMDdSSVBPQ2tKYUJrVTR1b2JzaFloQW5iSzlDa3Z6eWgwQ1V1dXFMWkx1S1RCZ0ZDd2JFakc4OE1BVDJnSV8xMVpoN0ZjbENhZjJQUXhGVXE1ODUwblR1U1piblJSVWlJeGJXWFVyYlU0a01vWlhPTjZxdTlYMURGOEtGcDhBMWtIaTdtbFdIM2N1LUFoQWJEdHZKS1E?oc=5",
+     "moved": [
+      {
+       "asset": "Brent",
+       "asset_label": "Brent Crude",
+       "date": "2026-11-09",
+       "pct_change": -3.341,
+       "direction": "down",
+       "reasoning": "Speculation Trump will not impose new sanctions dampened demand expectations, pushing Brent down.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-9f6dfdf020ce"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-d9dcf60acf70",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T21:07:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Microsoft reports AI-driven revenue growth and higher earnings, signaling strong demand for its cloud and AI services.",
+     "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMmVCU3lEYUFULXFuME9keUgwSm9mb3pudnpEdFFJS092QnJacDZuQi1fdFFNR1lyd3J5WHU1ZUJ0RFZYMGZuUmlWOHBBd0RWVFFzYm02b2t1U3dKZzlZMmRuMEdTTVJYdDZkaGo2ZG9ZWUtubGFhajhTWFlfTW1RSTBsRzBkWC1zX3ZFcFVNYnhKZ1k?oc=5",
+     "moved": [
+      {
+       "asset": "MSFT",
+       "asset_label": "Microsoft",
+       "date": "2026-11-09",
+       "pct_change": 2.301,
+       "direction": "up",
+       "reasoning": "AI-driven revenue growth and higher earnings signaled strong demand for Azure/AI services, lifting investor sentiment.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-d9dcf60acf70"
+       ]
+      }
+     ],
+     "calls": [
+      {
+       "asset": "MSFT",
+       "direction": "up",
+       "threshold_pct": 2.0,
+       "confidence": 60,
+       "expires_at": "2026-11-16",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-d396e32e8585",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T20:28:12Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "US gasoline retail price fell below $4 per gallon, but Thanksgiving demand is expected to push prices to a seasonal record.",
+     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9mMEhwLXl6cnV1SlZZUzNGbE1iOWdYV2lFLWxEVE9CR2MyQnVCTHpuRXJGajR3S1FTZ1h6VHBSSlk2eGZEZ2dMTWY4YjVEbmx2Zm1wYWpQN3lRQU5NWGQ2WWQtdkNRSWJ0OEQ2Rg?oc=5",
+     "moved": [],
+     "calls": [
+      {
+       "asset": "GASOLINE",
+       "direction": "up",
+       "threshold_pct": 1.5,
+       "confidence": 62,
+       "expires_at": "2026-11-16",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-16ae9133e0cd",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T20:26:11Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Uranium spot contracts reached a record high as two mining companies increased drilling activity, boosting supply expectations.",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcm93bERmOGNTSGZ1SWJqSGoyUDFtSFpVZDNMWXZ3c05zTUJQLUVyUG9uemYtcUZVWm9NYUh5dS1nYjBLUVBiM3J0OHlZT29JcnIxVmluMnpwOFJMNzJ5MEdCUC1KbTM2dVBRRWVOdFcwUG12OXVlaHpSQmlvRGRubzlkMFF1SXBZVks1SGVLMVZpbmVSZnN5Yktnb0l3RUNQaXY5VVVEZ3dBVHAzVWlCTU5pYnhLTXN4X0hkMlc2MjViUzdneWhF?oc=5",
+     "moved": [
+      {
+       "asset": "URA",
+       "asset_label": "Uranium",
+       "date": "2026-11-09",
+       "pct_change": 6.299,
+       "direction": "up",
+       "reasoning": "Uranium spot contracts reached a record high on Nov 9, directly lifting uranium equities and the URA ETF.",
+       "confidence": 78,
+       "linked_event_ids": [
+        "evt-16ae9133e0cd"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-2a8ff7aa7c9d",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T19:04:26Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Caterpillar shares jump 6.61% after Anthropic assumes a $3.4 billion generator order.",
+     "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPeHNqTHAxVnZNSjZwbkNvYVRQSGpZTjFfUUhyOGRvVmswVl9Fb2NqaWtSQzc4bWFjb25fZzl3VmhyS0lhV2pHdkNYM3JTdHd4RVEyMkdRa0xPOUdBaFFEXzdDWFVnd1ZMSmtmUURSOTkzaEUtYTEtOVNGNGEzR2VfbG12ci1YeWlENXRDcmlialo5UUQwWW9RYg?oc=5",
+     "moved": [
+      {
+       "asset": "CAT",
+       "asset_label": "Caterpillar",
+       "date": "2026-11-09",
+       "pct_change": 7.098,
+       "direction": "up",
+       "reasoning": "Anthropic's $3.4B generator order announcement triggered a 6.61% jump, aligning with the 7.1% rise.",
+       "confidence": 85,
+       "linked_event_ids": [
+        "evt-2a8ff7aa7c9d"
+       ]
+      }
+     ],
+     "calls": [
+      {
+       "asset": "CAT",
+       "direction": "up",
+       "threshold_pct": 2.0,
+       "confidence": 70,
+       "expires_at": "2026-11-16",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-2cc0caa9ec3d",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T17:41:25Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "UK",
+     "summary": "Meta's stock rises after reports of Muse launch in the UK.",
+     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORVVHQ3NjN3pmQ1dDdFlUZUduN1poVHNVRTdwakFhSnhRU1NLQWY5NldGNWVzZTVmTlNEckdHSGFuZTduaEt5LUNlZG9IeW1KS3V6NjZGQzNyWHNnQnJSMFJFOE5BT05MNXBPYTkxWHNKdEZmX05hRGFZMGpWRkhRX19WUW9hYWZ0U056bUVhY3kxYzZBTDZNMlFvUFdtN3FLV2JDeTBKbkpYVW8?oc=5",
+     "moved": [
+      {
+       "asset": "META",
+       "asset_label": "Meta",
+       "date": "2026-11-09",
+       "pct_change": 3.983,
+       "direction": "up",
+       "reasoning": "Reports of the UK Muse launch suggested fresh revenue, sparking investor optimism and driving the 3.983% rise.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-2cc0caa9ec3d"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-5bbf0150b520",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T17:27:57Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Gold miners remain on track for annual guidance as gold prices rise.",
+     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZHR5VE9uWTJ4bFd4bkJQd3BXd2tUVWY5cnpRSjZpNnJNdmtPZ2ROS2JIMDM5YVNIaGFON2Yxejg2TG5jTGp0OGFSZWpQVUltODl2MXhKcEF2RmthNUtGYjhtTGZoUVB1emNtcDlhbE9yLXp6c1l6bW56TkxDcVZ4UU9yNWFja2VSNU55X3NJMnlZMGFWWUE?oc=5",
+     "moved": [
+      {
+       "asset": "GDX",
+       "asset_label": "Gold Miners",
+       "date": "2026-11-09",
+       "pct_change": 5.272,
+       "direction": "up",
+       "reasoning": "3x leveraged ETF launch spurred demand for miners, plus positive guidance reinforced confidence.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-f3987e6f1281",
+        "evt-5bbf0150b520"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-b50095a9d05a",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T05:51:00Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Steel prices remain closely linked to energy, construction, and manufacturing demand.",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNczYzdnpqZUw4TXJNbV9ncHoxRjBWcUhHTC15X1YtdVlyZnZjTU8wVGkteDBDYVc1WklOUUY4cDVVanN5eUwtLThUWlVsMFQtb2prQzlLQklPcHdfeGp3cm5LVWQtT3lKWUVjVkJuVkMta2YwTG0wZENSVHVObHdidkRrU0czWDRDSG43Q0VmOVVXUnA4MDJyUVhlSnRRdE9mbmdmenc1U3NYY2tzQUU0eHhJNUUtdw?oc=5",
+     "moved": [
+      {
+       "asset": "SLX",
+       "asset_label": "Steel",
+       "date": "2026-11-09",
+       "pct_change": 2.658,
+       "direction": "up",
+       "reasoning": "Italian steel plate price rise signaled stronger demand, lifting SLX; global demand link reinforces the move.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-cfd0428ac9fd",
+        "evt-b50095a9d05a"
+       ]
+      }
+     ],
      "calls": []
     },
     {
@@ -54,27 +365,268 @@
      "calls": []
     },
     {
-     "id": "evt-a65c36c2b42e",
+     "id": "evt-357d51ed1ea0",
      "date": "2026-11-09",
-     "dt": "2026-11-09T04:03:02Z",
-     "event_type": "political",
-     "severity": 4,
-     "region": "Asia",
-     "summary": "Asian stock markets rose after a tech rout eased, following Democrats' sweeping victory in US midterm elections.",
-     "url": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout?traffic_source=rss",
-     "moved": [],
+     "dt": "2026-11-09T03:25:06Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "Global",
+     "summary": "Silver is forecast to rise toward $53 per ounce as lower oil prices ease inflation pressures.",
+     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU2swMkExNlpXQUNNNk8xZXRURUUwcWoyb2FXT3BGT18yRnJ4TE5CNTF0Yno0bC1OSUhtYktHM1BFWFVrODdDRDltcG9acXAwVElGeWZyM1M3eVNEUmJBRnNFZmcyNE1CenUwTW91NHhrWU9nTTU3b0RtZ0hnNEpDa1NJRVZ4Yk1nRlUyV1QtSnFES182am1qNjVoT3V1bGxCSFpDZjd6YTkxNTV0eTVOUTR0VEtvWC00eUQzMFZoVzMzcE9ZWnRWRA?oc=5",
+     "moved": [
+      {
+       "asset": "SIL",
+       "asset_label": "Silver Miners",
+       "date": "2026-11-09",
+       "pct_change": 5.627,
+       "direction": "up",
+       "reasoning": "Positive silver price forecast tied to easing inflation and US CPI expectations lifted miner sentiment.",
+       "confidence": 65,
+       "linked_event_ids": [
+        "evt-357d51ed1ea0",
+        "evt-3a12c6c21362"
+       ]
+      },
+      {
+       "asset": "XAG/USD",
+       "asset_label": "Silver",
+       "date": "2026-11-09",
+       "pct_change": 1.823,
+       "direction": "up",
+       "reasoning": "US CPI data after dollar rally boosts silver; lower oil prices ease inflation, supporting higher silver.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-96f6fcbbd1ab",
+        "evt-357d51ed1ea0"
+       ]
+      }
+     ],
+     "calls": [
+      {
+       "asset": "XAG/USD",
+       "direction": "up",
+       "threshold_pct": 1.0,
+       "confidence": 65,
+       "expires_at": "2026-11-16",
+       "status": "open"
+      }
+     ]
+    },
+    {
+     "id": "evt-35e26ef63024",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T20:02:19Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "US stocks extend recovery; new trial data reported for Lilly and Johnson & Johnson.",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPV1VXUkxRdTdLZXItTkV0MVZxZXBid0kxU0ZVaE1fQVJ5Yk5vMGdtbFkyNl9qa1BHVjJ3MkZJX0VpazJOcjY2WGZnckliQWxqeTI4Vk13cDhCZnZfZkFsdWZlMzV6OUg5bXRQU2phajhSV3pZWUdpb3A0LWlZZGxEX3RWTWJCU1IxeU04Z3E2akFHYWRvaThPREZFSHJJUTJxSlZFTXlaY1Ffa2JscDMycHJxSFUydTRDMkwxdmtKdEdEeGVzekM3cE9Ecmk?oc=5",
+     "moved": [
+      {
+       "asset": "JNJ",
+       "asset_label": "Johnson & Johnson",
+       "date": "2026-11-09",
+       "pct_change": 2.533,
+       "direction": "up",
+       "reasoning": "Positive trial data for Johnson & Johnson reported on Nov 9 lifted sentiment, prompting a 2.5% price rise.",
+       "confidence": 80,
+       "linked_event_ids": [
+        "evt-35e26ef63024"
+       ]
+      }
+     ],
      "calls": []
     },
     {
-     "id": "evt-3774beee57f4",
+     "id": "evt-4117fbe9dad7",
      "date": "2026-11-09",
-     "dt": "2026-11-09T02:32:02Z",
+     "dt": "2026-11-09T19:16:54Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Amazon and Meta stocks jumped after JPMorgan named them top internet picks, boosting investor sentiment.",
+     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZEtKNEpDSmdjNlhoR0xrMGpsd3o1a3dtQWNFQi1yUUpyTU15ajFVWTg4RlpwWHNhN2p0dE1ITG5uUzJQcUo2SV9TMUZjNExKMzlQLWpYellpLVZsS0h6NXdQVzlYbm1YV3o1c0MtZDlIOHVPYS1XU0NpeGw4TGg5bTNNbUtYT2VQNF8wb0JQNUpQTUNudFQ3RE9BMkhfMEVoQnhmOEVRN3FnMUw1RUE?oc=5",
+     "moved": [
+      {
+       "asset": "AMZN",
+       "asset_label": "Amazon",
+       "date": "2026-11-09",
+       "pct_change": 1.924,
+       "direction": "up",
+       "reasoning": "JPMorgan naming Amazon a top internet pick and the CEO's upbeat investor news both boosted sentiment, prompting the 1.9% rise.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-4117fbe9dad7",
+        "evt-fa9609dcf07a"
+       ]
+      },
+      {
+       "asset": "JPM",
+       "asset_label": "JPMorgan",
+       "date": "2026-11-09",
+       "pct_change": 1.627,
+       "direction": "up",
+       "reasoning": "JPM named Amazon & Meta top picks, boosting investor sentiment and JPM shares rose.",
+       "confidence": 60,
+       "linked_event_ids": [
+        "evt-4117fbe9dad7"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-fa9609dcf07a",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T16:59:02Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Amazon CEO Andy Jassy announced positive news for investors, boosting expectations for the company's performance.",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV1B5ZHRwcG82YUxFNk16U2Uxa2VfeHp1SmozU1RvNjdGQlczSnI3b1FjVG1KTk9UWm1CUkNNUXhaRHNuTVhsTGdPbTBRY0lUdWNqZENlQkpMSFlWV1RpcUxqcmtTNjVJRHpPZzNveWRTS3Q4bl9feEJiWTdqWms3M3VMZFNMN0xfcGtkMkxLTkcxbm9vTzh2eV9KS1A1T2Q3WXc?oc=5",
+     "moved": [
+      {
+       "asset": "AMZN",
+       "asset_label": "Amazon",
+       "date": "2026-11-09",
+       "pct_change": 1.924,
+       "direction": "up",
+       "reasoning": "JPMorgan naming Amazon a top internet pick and the CEO's upbeat investor news both boosted sentiment, prompting the 1.9% rise.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-4117fbe9dad7",
+        "evt-fa9609dcf07a"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-f3987e6f1281",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T12:00:32Z",
      "event_type": "economic",
      "severity": 2,
      "region": "Global",
-     "summary": "Gold price up 4% since midterms, analysts predict future direction.",
-     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPSmtkeFJRQ1M2QkFjT1YzZUdmMjV0eXp4ajVBb3dkU1JtNWRTS0NyS3pkTDFsOTBzalRRRk1LRGpGMk5KbkNkMTlCQm1zS0otaEJVUWM3TFlDcnFqWGVsYTJXdjg3dnpHTVVCSUJuSmJ0Q2s5eUZhcXNUd3Uzd1hmQjB0bVp6cUd6NWZRXzlTdnhIeGhha0xkOGRadUZlV1hFT0l6TnFnWU5JMGhKbW9pTmZ6OU9YQ0JabV9YVzBFOEkwdWFLeXJFSUtCT3lFWkV6LThxZC1vcTRreDA1Ujh1dlRWNDFzVWM?oc=5",
-     "moved": [],
+     "summary": "Gold miners offer 3x leveraged ETFs as cash flow surges, boosting investor interest.",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRUpBMWxnTGs5T0NXOUxLb0JaMl9SVlQ2TlJlNktScHlQUEptTXU4NVY3M0ZfcU5neU9PRmVZZUpmLWFmcFdRLTZMUUNTd2s5QWtuMVdRVmJmLWpyUjhHbEs5dmc0YUFSaGlWN1VaT0t6S0x3ay1wMHktNldUSkNrQ1JFTkRUUi1KOExoRmZyZk1EWHZHbGhxWnJyclZtVkxtcTY0eWFhd205QWFQVkV3aGhwSE5JbXYwbGZTWFdKalljVlJxUURhMzV6OXlsdw?oc=5",
+     "moved": [
+      {
+       "asset": "GDX",
+       "asset_label": "Gold Miners",
+       "date": "2026-11-09",
+       "pct_change": 5.272,
+       "direction": "up",
+       "reasoning": "3x leveraged ETF launch spurred demand for miners, plus positive guidance reinforced confidence.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-f3987e6f1281",
+        "evt-5bbf0150b520"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-f0614189dfcd",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T10:51:18Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "US",
+     "summary": "Analyst estimates and ratings for Home Depot stock.",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcXRKZ1lBQ2N4VFl2enZHZlRjeFRySUJVT2o0bXROZ2lTd3FZZDJteG1iNzl0Y3dva2tZRFU1d1J0ZlFtbHpTZm54SXZ3M2RwUzhGU0ZRVGlLWkQxNjJhQl9Jb1owYkxiQ3hKaXBhOUlCMGVmMEIzNy1CdUEtMlBoTmNFamtmUEtweVRpdWppSQ?oc=5",
+     "moved": [
+      {
+       "asset": "HD",
+       "asset_label": "Home Depot",
+       "date": "2026-11-09",
+       "pct_change": 2.885,
+       "direction": "up",
+       "reasoning": "Analyst upgrades and higher earnings estimates for HD spurred buying, driving the 2.9% jump.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-f0614189dfcd"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-cfd0428ac9fd",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T09:00:01Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Europe",
+     "summary": "Italian steel plate prices increased, while Northern Europe remained stable.",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSnlZcTNBNC1ld2RjOFc3UkpQTEhDaFpkZXNqaUVXVXRvb2pocXIydW1wdnlHTXIteXNpZFc2azZ0aTdETldZaXhRYnk1cFB2TEdWdnlVcVlNV2RCb3M3THVLbE5zR0pvSmJHZ1lyNHZzQ0l3ZkRRcE9vUS14M3dkZVNrcDRQeG9GVEtQTmpXZjlZSkYzQjktc1dia203LWVFXzlDZjRqMEt5WDNXNmpWaTNn?oc=5",
+     "moved": [
+      {
+       "asset": "SLX",
+       "asset_label": "Steel",
+       "date": "2026-11-09",
+       "pct_change": 2.658,
+       "direction": "up",
+       "reasoning": "Italian steel plate price rise signaled stronger demand, lifting SLX; global demand link reinforces the move.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-cfd0428ac9fd",
+        "evt-b50095a9d05a"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-562e3fa8f20d",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T08:32:13Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "East Asia",
+     "summary": "Chinese robotics stocks surge on reports of Apple robotics research, per Investing.com.",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTEo1c01fMFpfZElheWJrVExPQXE5djFQOG9aQm9nQWRUdUEyZ0FmbTROSGZ3S1pNUGd6OUp6R05Rd21XMkY5NGpNRlRMSUZzRGkzd19SYlZ6eDctT3lYN2JEdjd2ZUhZSXNCMG1JNHpmel90SXdhZ2Y1N2pVVEROZ2lJZHA2eThiaDVwZWhzZms5SXhKaWVUMl96NEJENXBuTlJhQi1ObHR5RDBnYV91b2Zn?oc=5",
+     "moved": [
+      {
+       "asset": "AAPL",
+       "asset_label": "Apple",
+       "date": "2026-11-09",
+       "pct_change": 1.868,
+       "direction": "up",
+       "reasoning": "Reports of Apple robotics research directly boosted investor confidence and stock demand.",
+       "confidence": 75,
+       "linked_event_ids": [
+        "evt-562e3fa8f20d"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-3a12c6c21362",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T07:13:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Global",
+     "summary": "Gold and silver price forecast ahead of US CPI, potential to reach $4,148 per ounce.",
+     "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNZGIxRk5FUm5ZUDl5TDdNMkJySUoyZ3REY2JteEh0UU1vc2VOck5DbHhMNHVkajJRRnlBbnlZT1pod1hrOVJPRXhOOU5ZcE5odHRBMERiV0lUekRsWFJPOEVzMVo2Qi1JZTE2M19NWVBicXMzakUybmlvNTF5WDNHUnlMc1l3TE1yeGI4QkV2bnpkZ2hqa1Z5c0MzbUdXa3dIRzZ6RlZqdWlfSGprUHphQUhPalNtODduenljRA?oc=5",
+     "moved": [
+      {
+       "asset": "SIL",
+       "asset_label": "Silver Miners",
+       "date": "2026-11-09",
+       "pct_change": 5.627,
+       "direction": "up",
+       "reasoning": "Positive silver price forecast tied to easing inflation and US CPI expectations lifted miner sentiment.",
+       "confidence": 65,
+       "linked_event_ids": [
+        "evt-357d51ed1ea0",
+        "evt-3a12c6c21362"
+       ]
+      }
+     ],
      "calls": []
     },
     {
@@ -103,109 +655,86 @@
      "calls": []
     },
     {
-     "id": "evt-06270586fd1d",
+     "id": "evt-deff1244e4dd",
      "date": "2026-11-09",
-     "dt": "2026-11-09T01:19:09Z",
-     "event_type": "military",
-     "severity": 3,
+     "dt": "2026-11-09T20:10:55Z",
+     "event_type": "geopolitical",
+     "severity": 5,
      "region": "Middle East",
-     "summary": "Drone attack suspended production at Iraq's Khor Mor gasfield, leaving over 70% of Kurdish region without power.",
-     "url": "https://www.aljazeera.com/news/2026/11/9/drone-attack-suspends-production-at-iraqs-khor-mor-gasfield?traffic_source=rss",
+     "summary": "Brent crude fell 7% as hopes for Iran‑Saudi peace were offset by a fresh attack on a Saudi oil pipeline.",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMVkwSk8xdlE0dTF6dGk0Rnp3elNCYkdJV1ZLb2otcnlSa3JfcWhyV1Z0Y1dCeHcxUUxpZzdXYlBRUEQwZTRqdU9GZ21XZ3JXMmVfRzBFbWk0OHJXWmhVc0cybnp1eWZDTTB1S09PLUZ2VjQ5elFhWXVnajlJWEhsa2FpYXkyUlVPSDFtNHRVaTBmcFg2UUU3UEpfTEctWkgxMjIxaEhodW05akVFdmFRTEVuV00zZ0RGaU9xRThZWTVVMGRuVVHSAcsBQVVfeXFMTy03cmFMdmxqNkJ5NG9HM0dDVDBWNzBmd00yWkg5enA2a09Cek16bnYxRXdHQ00tWEhUYTBUUVVYWUxpTUo2ZE5MQzYtLTMtb1N1cGRjN2w4UnNoT3ZieElqS1VYZGFxSUxLbm1yNXpJd3ZLYUZJQ0gtRUJybWdVTWloTmdPMnlEdlFVWlBQdkJ3MjVfSzdtRTU2d0JNV21VQWJobzJTM2NKUkJ4RG4zRUhqeWNfMk5YQ25NM1hBRmoxcF80MnFKTDZBMmM?oc=5",
      "moved": [],
      "calls": []
     },
     {
-     "id": "evt-35b048952648",
+     "id": "evt-28b805bdc13d",
      "date": "2026-11-09",
-     "dt": "2026-11-09T06:35:06Z",
+     "dt": "2026-11-09T22:19:22Z",
      "event_type": "economic",
-     "severity": 2,
+     "severity": 4,
+     "region": "North America",
+     "summary": "Natural gas cash prices rise as exports surge, while production remains modest, boosting market activity.",
+     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPaXRVMEpaZHhhcmRLQ0JHSEpNdmNFUHRGbmhUWHdUa0Mza0RNN1VRa1RWbVFsRXhWY1U5ZzlqYkZ5N3VWXy14RnMtQmowZmJLNm5qN1dOSmlEaFhtRlo0TmFEWUtfbDRtYWZJOHMzcmZPSXpXZnpUTExlR3hFOFdlT2JwVEhZWHhqX21ZWXZCMjUxSXZyYlNtVlFQcGduMENSaEZGenFNd3BzOU9KMlNBbWI2dmlJZw?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-aa98939a830d",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T19:57:30Z",
+     "event_type": "economic",
+     "severity": 4,
      "region": "US",
-     "summary": "GD Aluminum releases a 10‑year total ownership cost study comparing aluminum and wood fences for commercial buyers, highlighting cost advantages of aluminum.",
-     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNFBpQXRRWjFtUVVBMnNVX1BJTEszeFViaGVPQzZTYXZLWmc1bUFBU09VVUVPV2pCUzFwMVA5V0VBdnNXb3lJV2c2U0NyX2VJd2ZPMXJxaWZxN2hTdEdVZ195bTN5aXFqMkNHWTFzTHk5MnphZkNZSW80Vk4xMWV4RmU1djViOTZhNkp4Z0xZZzcxU1RyOXRLbVZxSC03dHpDQmlQVk41ZWxnbjhPMzliRVFfNklfNHUzUFJpM0RyZjZ2REtD?oc=5",
+     "summary": "US natural gas prices rise sharply as cooler forecasts prompt short covering.",
+     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc3IzUEJsQ3VvRTBHOE5kbGduTmJ2SV8wQnN0SDh6X1JzQ1h0bmhaQm1VVFVNQlRUOThUOEM1anRiWm1iTk12T1c4SDFHV19Gek5lNXcwS09yWEtNNkJ6U2otNHQyazVQbW9nLVRpcnFtNzIxZHlCdUs2a2tkdFQzeDktTTI1VUxteV9zc1d0QzRua096eEwwcmZCWVd1M080VXJ3aWIyMUsycVRzMnFYT0sxcV8?oc=5",
      "moved": [],
      "calls": []
     },
     {
-     "id": "evt-357d51ed1ea0",
+     "id": "evt-ac352f0b7d0e",
      "date": "2026-11-09",
-     "dt": "2026-11-09T03:25:06Z",
+     "dt": "2026-11-09T19:46:00Z",
      "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Silver is forecast to rise toward $53 per ounce as lower oil prices ease inflation pressures.",
-     "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOU2swMkExNlpXQUNNNk8xZXRURUUwcWoyb2FXT3BGT18yRnJ4TE5CNTF0Yno0bC1OSUhtYktHM1BFWFVrODdDRDltcG9acXAwVElGeWZyM1M3eVNEUmJBRnNFZmcyNE1CenUwTW91NHhrWU9nTTU3b0RtZ0hnNEpDa1NJRVZ4Yk1nRlUyV1QtSnFES182am1qNjVoT3V1bGxCSFpDZjd6YTkxNTV0eTVOUTR0VEtvWC00eUQzMFZoVzMzcE9ZWnRWRA?oc=5",
-     "moved": [
-      {
-       "asset": "XAG/USD",
-       "asset_label": "Silver",
-       "date": "2026-11-09",
-       "pct_change": 1.823,
-       "direction": "up",
-       "reasoning": "US CPI data after dollar rally boosts silver; lower oil prices ease inflation, supporting higher silver.",
-       "confidence": 70,
-       "linked_event_ids": [
-        "evt-96f6fcbbd1ab",
-        "evt-357d51ed1ea0"
-       ]
-      }
-     ],
-     "calls": [
-      {
-       "asset": "XAG/USD",
-       "direction": "up",
-       "threshold_pct": 1.0,
-       "confidence": 65,
-       "expires_at": "2026-11-16",
-       "status": "open"
-      }
-     ]
-    },
-    {
-     "id": "evt-21517db620a9",
-     "date": "2026-11-09",
-     "dt": "2026-11-09T02:23:11Z",
-     "event_type": "military",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "Drone attack halted production at Khor Mor gas field in northern Iraq, causing widespread power outages.",
-     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/drone-attack-on-iraqi-kurdistan-gas-field-triggers-mass-blackout?traffic_source=rss",
+     "severity": 4,
+     "region": "US",
+     "summary": "US gasoline prices drop below $4 per gallon, but Thanksgiving fuel costs remain the highest since 2000.",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNM2ZCNF9tVEFjeTBkdXYxdTUtMWtNaVNCb1YyM0p2bnZCbHR3cnFlYkpIYnNyWnZsczdvaENOSElMU3lLX3JJQldpTnk3bGYtR2RNMlB6aUtsRm9lcVJwRDhYMWlFZ2R6cEpIeGhxX1MtTVNuZ0ZsSzVEMjhmQkJ2WHRDRVBzeTk5R3RPcTA2bjBpNHB4LTdMTno2YXU5M2dGUHBvNGhaVVlEV2x2WEdwczRyVTJYak1lLVZHRkZzTnBxZHJlQlM1eXIzeFpoSDZQeVg2S3hzWW5VbFVxQkU1Ug?oc=5",
      "moved": [],
      "calls": []
     },
     {
-     "id": "evt-692b6de10bd5",
+     "id": "evt-3dadfc79060f",
      "date": "2026-11-09",
-     "dt": "2026-11-09T05:02:19Z",
+     "dt": "2026-11-09T15:13:59Z",
+     "event_type": "geopolitical",
+     "severity": 4,
+     "region": "Middle East",
+     "summary": "The ongoing Middle East conflict is expected to tighten supply and push Chinese needle‑coke prices to three‑year highs.",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdGNRM1hDVDZNTXJQNTB3Tk5aSG9fU1RlcjM3SXhkMnpOM3U3WTg2YTFzLVBPdE92ci16X3ZmMVp4dDlHY254S1hQNGF2U2d1NHBqMnB5eEwwSWhhSklmcjBBcTJDajZzSnRfX1VxUm0wVzZ6U18zY29NZ19QX0dkbVh6TFhVUmt4VHB5aHp3VTBxdWxNTHhjWnk4VmZmdURpQjdqWlRwenRCeGxTcmI0bU9lOGlwdjhIbzR2M0xB?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-75ddc7da29c5",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T12:17:51Z",
+     "event_type": "economic",
+     "severity": 4,
+     "region": "Southeast Asia",
+     "summary": "Aluminum prices set to decline as supply improves with smelters back in operation in Malaysia.",
+     "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNXFWR3BnZ29OTXQ3X3R5S1U0ZGkzZWVYQjNPbzdleDl0TWxEcWZOS2JiU255V2xBamRmamFDLWg5QmRHbDFOOTBFTjlFRjM4bVAtSTVyX2Z1a0pZbFAyaFIxNWJwc2IyVG9kc0RaN2g0OVQ5WllyemYyb0N4T3RPMzRMUWxIZ0dLNTBxMFY5SlplTE1kVDlSbnluU1lrWVNkdS1xaHRfcWZGNHN4anJJYU5EdURMaGd4Y1lMLUY0ODlsaFI4dUE?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a65c36c2b42e",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T04:03:02Z",
      "event_type": "political",
-     "severity": 3,
-     "region": "Middle East",
-     "summary": "Turkey aims to have electricity meet 35% of global energy demand by 2035, highlighting electrification at the upcoming COP31.",
-     "url": "https://www.aljazeera.com/news/2026/11/9/turkiye-pushes-electrification-top-of-climate-agenda-as-cop31-set-to-open?traffic_source=rss",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-b50095a9d05a",
-     "date": "2026-11-09",
-     "dt": "2026-11-09T05:51:00Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "Global",
-     "summary": "Steel prices remain closely linked to energy, construction, and manufacturing demand.",
-     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNczYzdnpqZUw4TXJNbV9ncHoxRjBWcUhHTC15X1YtdVlyZnZjTU8wVGkteDBDYVc1WklOUUY4cDVVanN5eUwtLThUWlVsMFQtb2prQzlLQklPcHdfeGp3cm5LVWQtT3lKWUVjVkJuVkMta2YwTG0wZENSVHVObHdidkRrU0czWDRDSG43Q0VmOVVXUnA4MDJyUVhlSnRRdE9mbmdmenc1U3NYY2tzQUU0eHhJNUUtdw?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-a47f527c18f7",
-     "date": "2026-11-09",
-     "dt": "2026-11-09T02:20:00Z",
-     "event_type": "economic",
-     "severity": 2,
-     "region": "China",
-     "summary": "Cheap domestic gas in China is curbing LNG buying as winter nears, Bloomberg reports.",
-     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUUZfNGswWTV0QkJuSVdRUXN2bWxsWU9EUG11eFp2OUlOV2YwWEltSEx1el80NHFEWDAzd2t4TE9RTmpzLWRBWDJCZkg1cl9YUFdJTGFfNU1iNGdLeUw4dDhZai1FeWNXVGJIaW9MUDhEQlNZZXdjTU5BaXpENWtGZFJKWmFWU3pTRUZRTXRrcmZUT0VzSFJmajcxakRYcXVWcEdPQ215SW5YUUFBZnFJ?oc=5",
+     "severity": 4,
+     "region": "Asia",
+     "summary": "Asian stock markets rose after a tech rout eased, following Democrats' sweeping victory in US midterm elections.",
+     "url": "https://www.aljazeera.com/economy/2026/11/9/asian-stock-markets-climb-after-earlier-tech-rout?traffic_source=rss",
      "moved": [],
      "calls": []
     },
@@ -222,105 +751,116 @@
      "calls": []
     },
     {
-     "id": "evt-92a6d2f21764",
+     "id": "evt-425a213385ed",
      "date": "2026-11-09",
-     "dt": "2026-11-09T03:34:00Z",
+     "dt": "2026-11-09T21:47:10Z",
      "event_type": "economic",
-     "severity": 2,
+     "severity": 3,
      "region": "US",
-     "summary": "US chip makers AMD, Broadcom, Intel and Micron posted modest gains as investors ignored midterm selloff and Nvidia controversy.",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOa3R5aS1PeTV0Mm1Wc1lTeVAtWVQ3ZGI2ZFFiTDJ5WFNNNllvOUVfa1JHWHMwYXB5MzVfWTJ2aGlGVnBUZUhTSVE2X3hablZoX0MtZExqZ2pjYjBMeWZjT3NISC05eWprZGUySjIxS2VYOHQ2RUlDTHdMU1JWc0RPTGhJbVROVldyWkZwdkRYMA?oc=5",
+     "summary": "A Visa officer proposes selling 1,867 shares acquired through employee stock options.",
+     "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNUUVmZW9EU2N1ZlpELTFDVHAtbHJLdTQxRGFTeDJ4ZlB0U19XT0wzRWNmZTRKYmJxeG9CNk96bV95djQ5aDZwaVhGWURkZGsycXJIMnlpRlIxVjNtT21PU2xuXzdiaXdwN2ZQcE1ublhZMXVGbmlZSmtFbndmX0lLcTJCbFJNbDVqU3c?oc=5",
      "moved": [],
      "calls": []
     },
     {
-     "id": "evt-7811be5b8c8d",
+     "id": "evt-ee7cf279699a",
      "date": "2026-11-09",
-     "dt": "2026-11-09T05:02:24Z",
+     "dt": "2026-11-09T21:15:42Z",
      "event_type": "economic",
-     "severity": 2,
+     "severity": 3,
      "region": "US",
-     "summary": "Analysts discuss upcoming changes to Caterpillar's stock, potentially impacting its price.",
-     "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRERLZzk0WGFxWUlUancxNmg3SEFDbWZQbnNWYTZKTmNyaE5TaHVlN0d5V3g3N1FITFkwVnJ3QVZ2dFFDRkZZMmpoeUs2ck9fQ25lWlBzd2x5eGMzeDgycDkwTlc5dEhsT3p4dEtqQVFWQlNBUGxWZkM0STBUODdlT3ZmQUptSlR4OF9CeEExRWt1VzZvM2RENlNiVEw2Vlo0ZDBKaFpKX2hYOV85NHc?oc=5",
+     "summary": "AEI analysis highlights how fluctuating U.S. gasoline taxes are influencing global crude oil demand and pricing.",
+     "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQW0wNkp0NERvcTQ0U0RuWGNXdHpYUWUxSG5mdVVaYzFPdWJ5aU9FUTFZc2xLTTcyMXVpS3NETjdEQzk3QUR2dGU4cHVGdThJaG9ZbVhsVWlQcEdhRWs0LXVIdndmOEVMMk1uZ1BNby1HVTdhdmRZV1ZCZ3JTQWk3SElGMThKcHN1Y2Z3SnhSSUtPSjc5Rm9uTGJlbEdGREpRMnJUTg?oc=5",
      "moved": [],
      "calls": []
     },
     {
-     "id": "evt-4fb7044cc4b4",
+     "id": "evt-863db140d3cf",
      "date": "2026-11-09",
-     "dt": "2026-11-09T05:30:33Z",
+     "dt": "2026-11-09T20:08:01Z",
      "event_type": "economic",
      "severity": 3,
-     "region": "Philippines",
-     "summary": "Gasoline prices in the Philippines are set to drop by at least P16.80 per liter, with diesel and kerosene also falling.",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWkFxWWVZNmFKbl9zM0xId19JOUVlOWpyYmpYcHRCYXljN1J0MVhTNENGTzMzZjJRRjhUX0xmcTlKQnp6azJiTk11YmF4b2k5ZWhpWVpIZzBwVk5wNUcySmtkZ1hYZ0FHTlM5bDNacEVqdzlBWEh3d2ljX25TNHZGd0JxTVNJajZuRDFEdVNZUWJmMzVVeDZFYjFsWm4wbXotX1NZZUNqY0tGTWtiQTNoWktJaHc2Q3RBT0pDckhJU1dSTnJCem9NUXAzNW1Ud0VMdDUxWFIzZ2dNU0RP?oc=5",
+     "region": "US",
+     "summary": "Analysts say Boeing shares could trade below fair value despite a record jet order boosting revenue.",
+     "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVElnYWQ3WUhMMUhGMDA4REtDUUtlLW1vZE9nNnNFQlk4SzRNT1paQ1c2SUpNdFNXM0RIaUM4ejA5eTM0dHoyOEpIUTFYZG5mb1hvc3l3dWt4d0xQU2I3WjdrdEdVMGZhazRVR2xsTGdkeVV2QnNPQ2VmZkpvQ2JZWC1CX1ZCVHljTjFGSl9BTWM2dw?oc=5",
      "moved": [],
      "calls": []
     },
     {
-     "id": "evt-9f6dfdf020ce",
+     "id": "evt-12523871b9de",
      "date": "2026-11-09",
-     "dt": "2026-11-09T05:25:07Z",
-     "event_type": "economic",
-     "severity": 4,
-     "region": "Global",
-     "summary": "Brent crude fell below $99 a barrel and WTI hovered near $91 amid speculation that Trump will not impose new sanctions.",
-     "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQdlZSTkFZUEZaUjcyZWNyS0w0S2lCR25fa1U4dWI1UWRJZVpxTEhpM216WXB3OXlGWmpaLVdicFFTdVlKU3VFcWFBSE1ZMnYzamQ0c2FXNXZWVGNpZWZYUVlMZ2l2WkdCbVZsODFXODBDWGNCcHlEaFdMZy1ka0tFSFhDSzdEVmtkbzROT0lTNEdVcnhRbmFJZWRPX3BMSlQxSGhXM1FjNWJic2tCeWFDdGZ1dVNoa05mNWtLZWd4UlBQdkZCVnAwUjA2bGZicmNBalNEODI5MjRGeFNxQnVXWFJhdHdGWEhBQlVZZ2xTOWxRaV9vRXpjYkNyenFkR2o00gGGAkFVX3lxTFBjWnROQTE3amhpcENCVHc1UEJ6blhHeDBZbnhpdVRCZzd5bmswak9rdEFhSTdWdmZYNHU4djhPWWtiSkptUmJ6dWUwUTdTWHBtMU9RSHlXZmJicXFVMlR3VjFQbzFOd2ZfNzc2Wi1vWlMwMDdSSVBPQ2tKYUJrVTR1b2JzaFloQW5iSzlDa3Z6eWgwQ1V1dXFMWkx1S1RCZ0ZDd2JFakc4OE1BVDJnSV8xMVpoN0ZjbENhZjJQUXhGVXE1ODUwblR1U1piblJSVWlJeGJXWFVyYlU0a01vWlhPTjZxdTlYMURGOEtGcDhBMWtIaTdtbFdIM2N1LUFoQWJEdHZKS1E?oc=5",
-     "moved": [
-      {
-       "asset": "Brent",
-       "asset_label": "Brent Crude",
-       "date": "2026-11-09",
-       "pct_change": -3.341,
-       "direction": "down",
-       "reasoning": "Speculation Trump will not impose new sanctions dampened demand expectations, pushing Brent down.",
-       "confidence": 70,
-       "linked_event_ids": [
-        "evt-9f6dfdf020ce"
-       ]
-      }
-     ],
-     "calls": []
-    },
-    {
-     "id": "evt-9ef971e29269",
-     "date": "2026-11-09",
-     "dt": "2026-11-09T05:01:42Z",
+     "dt": "2026-11-09T19:39:06Z",
      "event_type": "economic",
      "severity": 3,
-     "region": "Global",
-     "summary": "Chevron's latest quarterly report shows earnings and production trends, influencing oil market expectations.",
-     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVnNFTG1vcS05ZE1rbml3d0tDM055djR4Mi1zODFpSUlUU1NveTVSTmJPV01fbk4tWW0tZWduSkl2MndPYURtM0Q1Qk93Z3JsMllsNUJzN2JaYTcwRDFZS0tNaXB4SjNKbTBSeVQxV0tOUXFMX0VGZFBudFRYWWQ3QXlSTkx2SlBEMmJNTVAyUjN6VDRNczZTZm9ZcVQybzBhWk8wMmpLUkY?oc=5",
+     "region": "Asia",
+     "summary": "Copper prices rebounded sharply, ending the worst weekly decline since March, driven by renewed buying in China.",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPUEszMzZGbFVOdlNTYUZLcHhkUzNYQmVGMFJJdTVXYlNzMDcxdjhmM0JHUEpCejdtOTBWSXlzei1VRk9WWXZ0U0J3Ylo1QnBBNGYzVWpwaUhSeGxWZGJtWm02OHdPb3djZ2VxQUNQYzJhS21TbHF2V2JsLVliRzdQRmluY25CWEpoWml0QjM4VlF4T21XVGd0dGgzcER2RDVrcS0xU3BwMzIxQQ?oc=5",
      "moved": [],
      "calls": []
     },
     {
-     "id": "evt-7df1bde667fd",
+     "id": "evt-ab5aac47b3fb",
      "date": "2026-11-09",
-     "dt": "2026-11-09T02:35:15Z",
-     "event_type": "political",
+     "dt": "2026-11-09T18:37:03Z",
+     "event_type": "military",
      "severity": 3,
-     "region": "Eastern Europe",
-     "summary": "Moldova announces new power line to Romania to reduce dependence on Russia.",
-     "url": "https://www.aljazeera.com/news/2026/11/9/moldova-launches-new-power-line-to-romania-to-cut-reliance-on-russia?traffic_source=rss",
+     "region": "Middle East",
+     "summary": "Yemeni government forces say they advanced on key fronts while Houthi cross‑border attacks intensified.",
+     "url": "https://www.aljazeera.com/news/2026/11/9/yemen-government-forces-claim-new-advances-as-houthi-border-attacks-resume?traffic_source=rss",
      "moved": [],
      "calls": []
     },
     {
-     "id": "evt-ab4aef89ad41",
+     "id": "evt-e8c71faa19a8",
      "date": "2026-11-09",
-     "dt": "2026-11-09T05:25:00Z",
+     "dt": "2026-11-09T17:40:00Z",
      "event_type": "economic",
      "severity": 3,
-     "region": "Global",
-     "summary": "Natural gas prices are expected to move slowly in the coming week according to market forecasts.",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdWtqb1hqaVQ1ZG8zMk9sX3FUN09aa2huSzgyX0FVejBfQ1h3MFRnYWNsT1JkYi12cElGSE1NMWhIelRIaG5vX1VlVUNZYi1peVZKdW03RUcyVFNzYmtGc2NmaTBOckliLV9vSW9KdUVJSlpVSllWU29FdHREWWtJRG9OcEF6THVqVEktOEpnY3ZLTkNRa0I5cDFiY2tNSzREUV9zWEQ1UlJtMjNtaFlnaHhGZmlVOFV0NFF1SVBFSHQ4UXBhcEE4alBIeHluRzlZYzVvcWNCMlY?oc=5",
+     "region": "US",
+     "summary": "Walmart's earnings growth potential extends beyond headline sales, according to UBS.",
+     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYWRGWThnTktuT0dUd0dGNC1Jc1dIQl9ZUGNrTXhLeWNlWkdwd0xtT0gwekNjZXBCWlhjR0lEaFRPOWNUZFRrTXZyRU9MWEtYTU5JbkpVNjk2b0NhdW5sVU5MdVJweHZ6eFVxU2JRUC04RUJIY29iMzctTjRvdTQxamV1SFlXOTJydS10Zkp4S2EzLUpabG9NbXlYdHFvY1BrcWZ1LWVJQ2VnQQ?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-ec055a7ffa3f",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T16:35:39Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Surgery Partners rejected UnitedHealth's takeover bid, maintaining its independence in the U.S. healthcare market.",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcmVnblFhSnZtX21jSFlIc0ZFR1V4TVZDYWRYTm1ISUlVbGtXY21SLUNZYWFnT1NGRm05SDFxZTUwa3BfaWZKLVJRSkpDbW5IekhOSmIwcktvcDhTVnBUcDF4VFE3WktyQW5od3lYWlUzNmx1X1VDN3ZUOURhdTFMalhrU2tzeWZuM1J3QkpQaG5UNVVJWVJwYVBmcnJzczJVcFRGQW84aXZ3a3A5QUJxWA?oc=5",
+     "moved": [],
+     "calls": []
+    },
+    {
+     "id": "evt-a9a80164866e",
+     "date": "2026-11-09",
+     "dt": "2026-11-09T15:16:59Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Caterpillar shares surged sharply after the company reported stronger-than-expected demand and earnings, boosting investor confidence.",
+     "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPek9QMXhfa0liNUN0QnhLbEUySDJaazQyYWpLeDFlVWFRUzlEVjktdEpEaTRzT2RJRzVGV1pab0N3TU9JUTduTm5ZbklMRDFKMUFnUTBCeTRoWUpNR1M3ZkZMamdJdVdWejlTMTZoM3JwSHhybFRtdDlsTVZIa2N4TGZGYkNzOHJPOFFlaTVZNFdHOEZySGZIbTJOSVRIMWExZlE?oc=5",
      "moved": [],
      "calls": []
     }
    ],
-   "events_total": 21,
+   "events_total": 91,
    "moves": [
+    {
+     "asset": "REMX",
+     "asset_label": "Rare Earths",
+     "date": "2026-11-09",
+     "pct_change": 4.737,
+     "direction": "up",
+     "reasoning": "Lynas announced higher rare‑earth prices and strong output, boosting market sentiment and driving REMX up.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-f2c6acae46a7"
+     ]
+    },
     {
      "asset": "GASOLINE",
      "asset_label": "Gasoline",
@@ -358,6 +898,32 @@
      ]
     },
     {
+     "asset": "SLX",
+     "asset_label": "Steel",
+     "date": "2026-11-09",
+     "pct_change": 2.658,
+     "direction": "up",
+     "reasoning": "Italian steel plate price rise signaled stronger demand, lifting SLX; global demand link reinforces the move.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-cfd0428ac9fd",
+      "evt-b50095a9d05a"
+     ]
+    },
+    {
+     "asset": "AMZN",
+     "asset_label": "Amazon",
+     "date": "2026-11-09",
+     "pct_change": 1.924,
+     "direction": "up",
+     "reasoning": "JPMorgan naming Amazon a top internet pick and the CEO's upbeat investor news both boosted sentiment, prompting the 1.9% rise.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-4117fbe9dad7",
+      "evt-fa9609dcf07a"
+     ]
+    },
+    {
      "asset": "PLAT",
      "asset_label": "Platinum",
      "date": "2026-11-09",
@@ -367,6 +933,104 @@
      "confidence": 70,
      "linked_event_ids": [
       "evt-64be2731ad20"
+     ]
+    },
+    {
+     "asset": "META",
+     "asset_label": "Meta",
+     "date": "2026-11-09",
+     "pct_change": 3.983,
+     "direction": "up",
+     "reasoning": "Reports of the UK Muse launch suggested fresh revenue, sparking investor optimism and driving the 3.983% rise.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-2cc0caa9ec3d"
+     ]
+    },
+    {
+     "asset": "GDX",
+     "asset_label": "Gold Miners",
+     "date": "2026-11-09",
+     "pct_change": 5.272,
+     "direction": "up",
+     "reasoning": "3x leveraged ETF launch spurred demand for miners, plus positive guidance reinforced confidence.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-f3987e6f1281",
+      "evt-5bbf0150b520"
+     ]
+    },
+    {
+     "asset": "MSFT",
+     "asset_label": "Microsoft",
+     "date": "2026-11-09",
+     "pct_change": 2.301,
+     "direction": "up",
+     "reasoning": "AI-driven revenue growth and higher earnings signaled strong demand for Azure/AI services, lifting investor sentiment.",
+     "confidence": 80,
+     "linked_event_ids": [
+      "evt-d9dcf60acf70"
+     ]
+    },
+    {
+     "asset": "URA",
+     "asset_label": "Uranium",
+     "date": "2026-11-09",
+     "pct_change": 6.299,
+     "direction": "up",
+     "reasoning": "Uranium spot contracts reached a record high on Nov 9, directly lifting uranium equities and the URA ETF.",
+     "confidence": 78,
+     "linked_event_ids": [
+      "evt-16ae9133e0cd"
+     ]
+    },
+    {
+     "asset": "JPM",
+     "asset_label": "JPMorgan",
+     "date": "2026-11-09",
+     "pct_change": 1.627,
+     "direction": "up",
+     "reasoning": "JPM named Amazon & Meta top picks, boosting investor sentiment and JPM shares rose.",
+     "confidence": 60,
+     "linked_event_ids": [
+      "evt-4117fbe9dad7"
+     ]
+    },
+    {
+     "asset": "SIL",
+     "asset_label": "Silver Miners",
+     "date": "2026-11-09",
+     "pct_change": 5.627,
+     "direction": "up",
+     "reasoning": "Positive silver price forecast tied to easing inflation and US CPI expectations lifted miner sentiment.",
+     "confidence": 65,
+     "linked_event_ids": [
+      "evt-357d51ed1ea0",
+      "evt-3a12c6c21362"
+     ]
+    },
+    {
+     "asset": "CAT",
+     "asset_label": "Caterpillar",
+     "date": "2026-11-09",
+     "pct_change": 7.098,
+     "direction": "up",
+     "reasoning": "Anthropic's $3.4B generator order announcement triggered a 6.61% jump, aligning with the 7.1% rise.",
+     "confidence": 85,
+     "linked_event_ids": [
+      "evt-2a8ff7aa7c9d"
+     ]
+    },
+    {
+     "asset": "TSLA",
+     "asset_label": "Tesla",
+     "date": "2026-11-09",
+     "pct_change": 5.047,
+     "direction": "up",
+     "reasoning": "Musk halted Cybertruck to ramp Cybercab output, boosting demand expectations, lifting TSLA shares.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-e1681e639e02"
      ]
     },
     {
@@ -382,6 +1046,43 @@
      ]
     },
     {
+     "asset": "NVDA",
+     "asset_label": "NVIDIA",
+     "date": "2026-11-09",
+     "pct_change": -4.684,
+     "direction": "down",
+     "reasoning": "Investigation of CEO Huang's alleged affair with a suspected Chinese spy triggered a sell‑off, causing the 4.7% drop.",
+     "confidence": 80,
+     "linked_event_ids": [
+      "evt-dc8fe8362896",
+      "evt-b2bff36b0b05"
+     ]
+    },
+    {
+     "asset": "USO",
+     "asset_label": "Crude Oil ETF",
+     "date": "2026-11-09",
+     "pct_change": -4.165,
+     "direction": "down",
+     "reasoning": "Trump's statement that an Iranian strike was unlikely eased geopolitical tension, prompting a sharp drop in crude prices.",
+     "confidence": 80,
+     "linked_event_ids": [
+      "evt-98f0fd376dda"
+     ]
+    },
+    {
+     "asset": "JNJ",
+     "asset_label": "Johnson & Johnson",
+     "date": "2026-11-09",
+     "pct_change": 2.533,
+     "direction": "up",
+     "reasoning": "Positive trial data for Johnson & Johnson reported on Nov 9 lifted sentiment, prompting a 2.5% price rise.",
+     "confidence": 80,
+     "linked_event_ids": [
+      "evt-35e26ef63024"
+     ]
+    },
+    {
      "asset": "XAG/USD",
      "asset_label": "Silver",
      "date": "2026-11-09",
@@ -392,6 +1093,30 @@
      "linked_event_ids": [
       "evt-96f6fcbbd1ab",
       "evt-357d51ed1ea0"
+     ]
+    },
+    {
+     "asset": "AAPL",
+     "asset_label": "Apple",
+     "date": "2026-11-09",
+     "pct_change": 1.868,
+     "direction": "up",
+     "reasoning": "Reports of Apple robotics research directly boosted investor confidence and stock demand.",
+     "confidence": 75,
+     "linked_event_ids": [
+      "evt-562e3fa8f20d"
+     ]
+    },
+    {
+     "asset": "HD",
+     "asset_label": "Home Depot",
+     "date": "2026-11-09",
+     "pct_change": 2.885,
+     "direction": "up",
+     "reasoning": "Analyst upgrades and higher earnings estimates for HD spurred buying, driving the 2.9% jump.",
+     "confidence": 70,
+     "linked_event_ids": [
+      "evt-f0614189dfcd"
      ]
     },
     {
@@ -1467,6 +2192,31 @@
      ]
     },
     {
+     "id": "evt-e1681e639e02",
+     "date": "2026-11-06",
+     "dt": "2026-11-06T18:28:15Z",
+     "event_type": "economic",
+     "severity": 3,
+     "region": "US",
+     "summary": "Tesla stock rose 5% as Musk halted Cybertruck production to increase output of the newly announced Cybercab.",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNmhETV9ScF82Z3VjT2xYb3oyT2pNbG5PQjRBOWFJVHpMLWtlamRWUjNLektMRHNwZzljT0FBY0JMQk9lbjMzRmdIMlhIdXhOVXVYVUd0cVFTRGxNb091MmhVV0NKRDZlMkJWSjNuSGF2ZkZVQWhuOFV5YmNibUJkZkNSdDlLbm5FaFdYYTAwbC11WFV0OHYxUk1SVzJZZXNqVkJwUWotMllkR2pjeVRtdmtlRQ?oc=5",
+     "moved": [
+      {
+       "asset": "TSLA",
+       "asset_label": "Tesla",
+       "date": "2026-11-09",
+       "pct_change": 5.047,
+       "direction": "up",
+       "reasoning": "Musk halted Cybertruck to ramp Cybercab output, boosting demand expectations, lifting TSLA shares.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-e1681e639e02"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
      "id": "evt-198d1783f3d2",
      "date": "2026-11-06",
      "dt": "2026-11-06T16:44:46Z",
@@ -1712,6 +2462,31 @@
        "confidence": 65,
        "linked_event_ids": [
         "evt-02cc95575075"
+       ]
+      }
+     ],
+     "calls": []
+    },
+    {
+     "id": "evt-f2c6acae46a7",
+     "date": "2026-11-06",
+     "dt": "2026-11-06T01:17:00Z",
+     "event_type": "economic",
+     "severity": 2,
+     "region": "Australia",
+     "summary": "Lynas Rare Earths reports higher prices and heavy rare earth output supporting a more encouraging FY26 outlook.",
+     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQb1hzLTA1TXBzLUxWaWFKaW9RMWVHc0diTnVvZHFKUzI2dVpWYWRiYlZPUDIzQVZvcGQ2eHUyblVuLTBWQXJveGVtWG5MaVR6Tzd0bUhHQU1acWtPRDFJWWc5dnc3NkpaRzRyZ0U3RFNVZFcwQjFHMVdfQ2d6RHFndkhrcXRJZWFYTTNoMkRYbzF2bzJxQlIxUTd3VTE1Wkwxb0FDQVlLMzBNM3BKSTdqOElUbUo3cEdOZ3ozOGw2ZTVMMnNTc0c3dVY0S0pIQWZJN0VSc2I3RTk?oc=5",
+     "moved": [
+      {
+       "asset": "REMX",
+       "asset_label": "Rare Earths",
+       "date": "2026-11-09",
+       "pct_change": 4.737,
+       "direction": "up",
+       "reasoning": "Lynas announced higher rare‑earth prices and strong output, boosting market sentiment and driving REMX up.",
+       "confidence": 70,
+       "linked_event_ids": [
+        "evt-f2c6acae46a7"
        ]
       }
      ],
@@ -1970,18 +2745,6 @@
      "calls": []
     },
     {
-     "id": "evt-e1681e639e02",
-     "date": "2026-11-06",
-     "dt": "2026-11-06T18:28:15Z",
-     "event_type": "economic",
-     "severity": 3,
-     "region": "US",
-     "summary": "Tesla stock rose 5% as Musk halted Cybertruck production to increase output of the newly announced Cybercab.",
-     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNmhETV9ScF82Z3VjT2xYb3oyT2pNbG5PQjRBOWFJVHpMLWtlamRWUjNLektMRHNwZzljT0FBY0JMQk9lbjMzRmdIMlhIdXhOVXVYVUd0cVFTRGxNb091MmhVV0NKRDZlMkJWSjNuSGF2ZkZVQWhuOFV5YmNibUJkZkNSdDlLbm5FaFdYYTAwbC11WFV0OHYxUk1SVzJZZXNqVkJwUWotMllkR2pjeVRtdmtlRQ?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
      "id": "evt-b62a8a503351",
      "date": "2026-11-06",
      "dt": "2026-11-06T17:49:35Z",
@@ -2002,18 +2765,6 @@
      "region": "Global",
      "summary": "Copper prices fell, targeting the worst weekly decline since March as an AI‑related market rout reduced demand expectations.",
      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQzNDWVhoangtRlJ6R0U2aG5tcldob1Q3WGtLNFIyenRKbUVxLTAzZml4c1ZUejljTnhFWDFrcXlKLWVRZlpIT2dhSndFbXlBTUd4cGZCZHFrZEdTZEwxajhtWjdHbW9xVkllRU1lQk9UTHRIQ2RCNHJ2MVlINXhmd2dJZ21pOXlHWS1Tb2NudW1HUkw2?oc=5",
-     "moved": [],
-     "calls": []
-    },
-    {
-     "id": "evt-8d1d79a7a3b8",
-     "date": "2026-11-06",
-     "dt": "2026-11-06T16:52:11Z",
-     "event_type": "political",
-     "severity": 3,
-     "region": "US",
-     "summary": "NVIDIA stock rebounds 6.78% after lawmakers call Jensen Huang to a closed-door briefing.",
-     "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRnZ2Y1c3VTFIcmJCY2kwcjBRdFBzcWMzV1UyaXJzWDN5YkhRWXJweVdpQlF4dXRpRmRaSTZDbk9PeUtUR2tjbjFMYTBVMG9hM1E4ZEgxZVM2TVBYSlMxcEVoaDlxMWFpQkJfS0RKbDB5YXRRaTVYZWdoSmxNSXlxUjRFbW83ajdhcEhRRXpTUHhIVHhuWlE?oc=5",
      "moved": [],
      "calls": []
     }
@@ -5237,7 +5988,7 @@
        "threshold_pct": 2.0,
        "confidence": 60,
        "expires_at": "2026-11-09",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -5365,7 +6116,7 @@
        "threshold_pct": 2.0,
        "confidence": 75,
        "expires_at": "2026-11-09",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
@@ -6232,7 +6983,7 @@
        "threshold_pct": 1.5,
        "confidence": 60,
        "expires_at": "2026-11-09",
-       "status": "open"
+       "status": "resolved"
       }
      ]
     },
