@@ -1,9 +1,9 @@
 {
- "generated_at": "2026-11-12T20:08:24Z",
- "total_resolved": 1211,
- "hits": 406,
- "misses": 805,
- "accuracy": 33.5,
+ "generated_at": "2026-11-13T06:59:25Z",
+ "total_resolved": 1213,
+ "hits": 407,
+ "misses": 806,
+ "accuracy": 33.6,
  "baseline": {
   "random_pct": 33.3,
   "best_naive_pct": 36.9,
@@ -18,9 +18,9 @@
   },
   {
    "value": "medium (50–69)",
-   "n": 963,
-   "hits": 324,
-   "accuracy": 33.6
+   "n": 965,
+   "hits": 325,
+   "accuracy": 33.7
   },
   {
    "value": "low (<50)",
@@ -34,18 +34,18 @@
    {
     "dimension": "event_type",
     "value": "unknown",
-    "n": 1211,
-    "hits": 406,
-    "accuracy": 33.5
+    "n": 1213,
+    "hits": 407,
+    "accuracy": 33.6
    }
   ],
   "direction": [
    {
     "dimension": "direction",
     "value": "down",
-    "n": 246,
+    "n": 247,
     "hits": 65,
-    "accuracy": 26.4
+    "accuracy": 26.3
    },
    {
     "dimension": "direction",
@@ -57,8 +57,8 @@
    {
     "dimension": "direction",
     "value": "up",
-    "n": 920,
-    "hits": 330,
+    "n": 921,
+    "hits": 331,
     "accuracy": 35.9
    }
   ],
@@ -199,9 +199,9 @@
    {
     "dimension": "asset",
     "value": "NATGAS",
-    "n": 27,
-    "hits": 11,
-    "accuracy": 40.7
+    "n": 28,
+    "hits": 12,
+    "accuracy": 42.9
    },
    {
     "dimension": "asset",
@@ -234,9 +234,9 @@
    {
     "dimension": "asset",
     "value": "PLAT",
-    "n": 7,
+    "n": 8,
     "hits": 1,
-    "accuracy": 14.3
+    "accuracy": 12.5
    },
    {
     "dimension": "asset",
