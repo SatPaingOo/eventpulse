@@ -1,108 +1,108 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-11-13T19:57:08Z",
- "run_id": "run-2026-11-13T1957",
+ "updated_at": "2026-11-14T06:43:19Z",
+ "run_id": "run-2026-11-14T0643",
  "healthy": true,
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
-   "message": "29 new price snapshots",
-   "started_at": "2026-11-13T19:49:45Z",
-   "ended_at": "2026-11-13T19:49:51Z",
-   "count": 29
+   "message": "0 new price snapshots",
+   "started_at": "2026-11-14T06:37:34Z",
+   "ended_at": "2026-11-14T06:37:44Z",
+   "count": 0
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "183 new items (rss 45, gdelt 0, disasters 37, asset 101, pruned 8)",
-   "started_at": "2026-11-13T19:49:51Z",
-   "ended_at": "2026-11-13T19:50:39Z",
-   "count": 183
+   "message": "148 new items (rss 36, gdelt 0, disasters 28, asset 84, pruned 288)",
+   "started_at": "2026-11-14T06:37:44Z",
+   "ended_at": "2026-11-14T06:38:35Z",
+   "count": 148
   },
   "extract": {
    "stage": "extract",
    "ok": true,
-   "message": "175 events extracted from 175 items",
-   "started_at": "2026-11-13T19:50:39Z",
-   "ended_at": "2026-11-13T19:54:20Z",
-   "count": 175
+   "message": "132 events extracted from 132 items; 6 unread left for next run",
+   "started_at": "2026-11-14T06:38:35Z",
+   "ended_at": "2026-11-14T06:41:42Z",
+   "count": 132
   },
   "explain": {
    "stage": "explain",
    "ok": true,
-   "message": "29 new moves, 20 new causal notes",
-   "started_at": "2026-11-13T19:54:20Z",
-   "ended_at": "2026-11-13T19:55:05Z",
+   "message": "0 new moves, 20 new causal notes",
+   "started_at": "2026-11-14T06:41:42Z",
+   "ended_at": "2026-11-14T06:42:12Z",
    "count": 20
   },
   "predict": {
    "stage": "predict",
    "ok": true,
-   "message": "4 predictions from 16 events; 1 duplicate call(s) dropped; 78 new events left for next run",
-   "started_at": "2026-11-13T19:55:05Z",
-   "ended_at": "2026-11-13T19:57:06Z",
-   "count": 4
+   "message": "1 predictions from 16 events; 84 new events left for next run",
+   "started_at": "2026-11-14T06:42:12Z",
+   "ended_at": "2026-11-14T06:43:17Z",
+   "count": 1
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
-   "message": "9 resolved, 0 voided, 0 waiting for a close",
-   "started_at": "2026-11-13T19:57:06Z",
-   "ended_at": "2026-11-13T19:57:06Z",
-   "count": 9
+   "message": "0 resolved, 0 voided, 0 waiting for a close",
+   "started_at": "2026-11-14T06:43:17Z",
+   "ended_at": "2026-11-14T06:43:17Z",
+   "count": 0
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
    "message": "accuracy 33.6% (411/1222), 1 reflection note(s)",
-   "started_at": "2026-11-13T19:57:06Z",
-   "ended_at": "2026-11-13T19:57:08Z",
+   "started_at": "2026-11-14T06:43:17Z",
+   "ended_at": "2026-11-14T06:43:19Z",
    "count": 1
   }
  },
  "llm_usage": {
-  "run_started_utc": "2026-11-13T19:49:45Z",
+  "run_started_utc": "2026-11-14T06:37:34Z",
   "by_model": [
    {
     "provider": "groq",
     "model": "openai/gpt-oss-120b",
-    "calls": 38,
-    "ok": 27,
-    "errors": 11,
-    "prompt_tokens": 30555,
-    "completion_tokens": 24625,
-    "total_tokens": 55180
+    "calls": 28,
+    "ok": 21,
+    "errors": 7,
+    "prompt_tokens": 22248,
+    "completion_tokens": 17618,
+    "total_tokens": 39866
    },
    {
     "provider": "groq",
     "model": "openai/gpt-oss-20b",
-    "calls": 47,
-    "ok": 28,
-    "errors": 19,
-    "prompt_tokens": 31272,
-    "completion_tokens": 26229,
-    "total_tokens": 57501
+    "calls": 38,
+    "ok": 22,
+    "errors": 16,
+    "prompt_tokens": 22258,
+    "completion_tokens": 19627,
+    "total_tokens": 41885
    },
    {
     "provider": "openrouter",
     "model": "inclusionai/ling-3.2-flash:free",
-    "calls": 8,
-    "ok": 7,
+    "calls": 2,
+    "ok": 1,
     "errors": 1,
-    "prompt_tokens": 10184,
-    "completion_tokens": 9000,
-    "total_tokens": 19184
+    "prompt_tokens": 1385,
+    "completion_tokens": 913,
+    "total_tokens": 2298
    },
    {
     "provider": "openrouter",
     "model": "particle-ai/particle-1:free",
-    "calls": 5,
-    "ok": 5,
+    "calls": 16,
+    "ok": 16,
     "errors": 0,
-    "prompt_tokens": 8912,
-    "completion_tokens": 2212,
-    "total_tokens": 11124
+    "prompt_tokens": 24253,
+    "completion_tokens": 10728,
+    "total_tokens": 34981
    }
   ]
  }
