@@ -1,108 +1,108 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-11-14T06:43:19Z",
- "run_id": "run-2026-11-14T0643",
+ "updated_at": "2026-11-14T18:19:26Z",
+ "run_id": "run-2026-11-14T1819",
  "healthy": true,
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
    "message": "0 new price snapshots",
-   "started_at": "2026-11-14T06:37:34Z",
-   "ended_at": "2026-11-14T06:37:44Z",
+   "started_at": "2026-11-14T18:13:50Z",
+   "ended_at": "2026-11-14T18:13:59Z",
    "count": 0
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "148 new items (rss 36, gdelt 0, disasters 28, asset 84, pruned 288)",
-   "started_at": "2026-11-14T06:37:44Z",
-   "ended_at": "2026-11-14T06:38:35Z",
-   "count": 148
+   "message": "123 new items (rss 33, gdelt 0, disasters 31, asset 59, pruned 9)",
+   "started_at": "2026-11-14T18:13:59Z",
+   "ended_at": "2026-11-14T18:14:49Z",
+   "count": 123
   },
   "extract": {
    "stage": "extract",
    "ok": true,
-   "message": "132 events extracted from 132 items; 6 unread left for next run",
-   "started_at": "2026-11-14T06:38:35Z",
-   "ended_at": "2026-11-14T06:41:42Z",
-   "count": 132
+   "message": "111 events extracted from 111 items",
+   "started_at": "2026-11-14T18:14:49Z",
+   "ended_at": "2026-11-14T18:17:19Z",
+   "count": 111
   },
   "explain": {
    "stage": "explain",
    "ok": true,
    "message": "0 new moves, 20 new causal notes",
-   "started_at": "2026-11-14T06:41:42Z",
-   "ended_at": "2026-11-14T06:42:12Z",
+   "started_at": "2026-11-14T18:17:19Z",
+   "ended_at": "2026-11-14T18:17:54Z",
    "count": 20
   },
   "predict": {
    "stage": "predict",
    "ok": true,
-   "message": "1 predictions from 16 events; 84 new events left for next run",
-   "started_at": "2026-11-14T06:42:12Z",
-   "ended_at": "2026-11-14T06:43:17Z",
-   "count": 1
+   "message": "2 predictions from 16 events; 1 duplicate call(s) dropped; 75 new events left for next run",
+   "started_at": "2026-11-14T18:17:54Z",
+   "ended_at": "2026-11-14T18:19:12Z",
+   "count": 2
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
    "message": "0 resolved, 0 voided, 0 waiting for a close",
-   "started_at": "2026-11-14T06:43:17Z",
-   "ended_at": "2026-11-14T06:43:17Z",
+   "started_at": "2026-11-14T18:19:12Z",
+   "ended_at": "2026-11-14T18:19:12Z",
    "count": 0
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
    "message": "accuracy 33.6% (411/1222), 1 reflection note(s)",
-   "started_at": "2026-11-14T06:43:17Z",
-   "ended_at": "2026-11-14T06:43:19Z",
+   "started_at": "2026-11-14T18:19:12Z",
+   "ended_at": "2026-11-14T18:19:26Z",
    "count": 1
   }
  },
  "llm_usage": {
-  "run_started_utc": "2026-11-14T06:37:34Z",
+  "run_started_utc": "2026-11-14T18:13:50Z",
   "by_model": [
    {
     "provider": "groq",
     "model": "openai/gpt-oss-120b",
-    "calls": 28,
-    "ok": 21,
-    "errors": 7,
-    "prompt_tokens": 22248,
-    "completion_tokens": 17618,
-    "total_tokens": 39866
+    "calls": 30,
+    "ok": 22,
+    "errors": 8,
+    "prompt_tokens": 19482,
+    "completion_tokens": 15892,
+    "total_tokens": 35374
    },
    {
     "provider": "groq",
     "model": "openai/gpt-oss-20b",
-    "calls": 38,
-    "ok": 22,
-    "errors": 16,
-    "prompt_tokens": 22258,
-    "completion_tokens": 19627,
-    "total_tokens": 41885
+    "calls": 34,
+    "ok": 21,
+    "errors": 13,
+    "prompt_tokens": 21520,
+    "completion_tokens": 19415,
+    "total_tokens": 40935
    },
    {
     "provider": "openrouter",
     "model": "inclusionai/ling-3.2-flash:free",
     "calls": 2,
-    "ok": 1,
-    "errors": 1,
-    "prompt_tokens": 1385,
-    "completion_tokens": 913,
-    "total_tokens": 2298
+    "ok": 0,
+    "errors": 2,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
    },
    {
     "provider": "openrouter",
     "model": "particle-ai/particle-1:free",
-    "calls": 16,
-    "ok": 16,
+    "calls": 13,
+    "ok": 13,
     "errors": 0,
-    "prompt_tokens": 24253,
-    "completion_tokens": 10728,
-    "total_tokens": 34981
+    "prompt_tokens": 19764,
+    "completion_tokens": 9937,
+    "total_tokens": 29701
    }
   ]
  }
