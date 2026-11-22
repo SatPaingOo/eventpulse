@@ -1,118 +1,128 @@
 {
  "project": "EventPulse",
- "updated_at": "2026-11-22T07:04:59Z",
- "run_id": "run-2026-11-22T0704",
+ "updated_at": "2026-11-22T19:52:54Z",
+ "run_id": "run-2026-11-22T1952",
  "healthy": true,
  "stages": {
   "ingest_prices": {
    "stage": "ingest_prices",
    "ok": true,
    "message": "0 new price snapshots",
-   "started_at": "2026-11-22T07:00:23Z",
-   "ended_at": "2026-11-22T07:00:32Z",
+   "started_at": "2026-11-22T19:47:19Z",
+   "ended_at": "2026-11-22T19:47:29Z",
    "count": 0
   },
   "ingest_news": {
    "stage": "ingest_news",
    "ok": true,
-   "message": "98 new items (rss 30, gdelt 0, disasters 17, asset 51, pruned 198)",
-   "started_at": "2026-11-22T07:00:32Z",
-   "ended_at": "2026-11-22T07:01:27Z",
-   "count": 98
+   "message": "136 new items (rss 33, gdelt 0, disasters 23, asset 80, pruned 10)",
+   "started_at": "2026-11-22T19:47:29Z",
+   "ended_at": "2026-11-22T19:48:19Z",
+   "count": 136
   },
   "extract": {
    "stage": "extract",
    "ok": true,
-   "message": "84 events extracted from 84 items",
-   "started_at": "2026-11-22T07:01:27Z",
-   "ended_at": "2026-11-22T07:03:05Z",
-   "count": 84
+   "message": "107 events extracted from 107 items",
+   "started_at": "2026-11-22T19:48:19Z",
+   "ended_at": "2026-11-22T19:50:24Z",
+   "count": 107
   },
   "explain": {
    "stage": "explain",
    "ok": true,
    "message": "0 new moves, 20 new causal notes",
-   "started_at": "2026-11-22T07:03:05Z",
-   "ended_at": "2026-11-22T07:03:35Z",
+   "started_at": "2026-11-22T19:50:24Z",
+   "ended_at": "2026-11-22T19:50:45Z",
    "count": 20
   },
   "predict": {
    "stage": "predict",
    "ok": true,
-   "message": "2 predictions from 16 events; 34 new events left for next run",
-   "started_at": "2026-11-22T07:03:35Z",
-   "ended_at": "2026-11-22T07:04:47Z",
-   "count": 2
+   "message": "0 predictions from 16 events; 5 duplicate call(s) dropped; 21 new events left for next run",
+   "started_at": "2026-11-22T19:50:45Z",
+   "ended_at": "2026-11-22T19:52:40Z",
+   "count": 0
   },
   "resolve": {
    "stage": "resolve",
    "ok": true,
    "message": "0 resolved, 0 voided, 0 waiting for a close",
-   "started_at": "2026-11-22T07:04:47Z",
-   "ended_at": "2026-11-22T07:04:47Z",
+   "started_at": "2026-11-22T19:52:40Z",
+   "ended_at": "2026-11-22T19:52:40Z",
    "count": 0
   },
   "reflect": {
    "stage": "reflect",
    "ok": true,
    "message": "accuracy 33.7% (424/1257), 1 reflection note(s)",
-   "started_at": "2026-11-22T07:04:47Z",
-   "ended_at": "2026-11-22T07:04:59Z",
+   "started_at": "2026-11-22T19:52:40Z",
+   "ended_at": "2026-11-22T19:52:54Z",
    "count": 1
   }
  },
  "llm_usage": {
-  "run_started_utc": "2026-11-22T07:00:23Z",
+  "run_started_utc": "2026-11-22T19:47:19Z",
   "by_model": [
    {
     "provider": "groq",
     "model": "openai/gpt-oss-120b",
-    "calls": 19,
-    "ok": 11,
+    "calls": 28,
+    "ok": 20,
     "errors": 8,
-    "prompt_tokens": 17263,
-    "completion_tokens": 10750,
-    "total_tokens": 28013
+    "prompt_tokens": 22440,
+    "completion_tokens": 14646,
+    "total_tokens": 37086
    },
    {
     "provider": "groq",
     "model": "openai/gpt-oss-20b",
-    "calls": 39,
-    "ok": 29,
-    "errors": 10,
-    "prompt_tokens": 18740,
-    "completion_tokens": 14195,
-    "total_tokens": 32935
+    "calls": 36,
+    "ok": 25,
+    "errors": 11,
+    "prompt_tokens": 21581,
+    "completion_tokens": 15880,
+    "total_tokens": 37461
    },
    {
     "provider": "openrouter",
     "model": "baidu/ernie-5.5-flash-preview:free",
-    "calls": 2,
-    "ok": 2,
-    "errors": 0,
-    "prompt_tokens": 3416,
-    "completion_tokens": 5445,
-    "total_tokens": 8861
+    "calls": 5,
+    "ok": 4,
+    "errors": 1,
+    "prompt_tokens": 6269,
+    "completion_tokens": 9291,
+    "total_tokens": 15560
    },
    {
     "provider": "openrouter",
     "model": "inclusionai/ling-3.2-flash:free",
     "calls": 5,
+    "ok": 0,
+    "errors": 5,
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0
+   },
+   {
+    "provider": "openrouter",
+    "model": "nvidia/nemotron-3.5-super-vl:free",
+    "calls": 1,
     "ok": 1,
-    "errors": 4,
-    "prompt_tokens": 2030,
-    "completion_tokens": 1647,
-    "total_tokens": 3677
+    "errors": 0,
+    "prompt_tokens": 1738,
+    "completion_tokens": 4417,
+    "total_tokens": 6155
    },
    {
     "provider": "openrouter",
     "model": "particle-ai/particle-1:free",
     "calls": 10,
-    "ok": 8,
-    "errors": 2,
-    "prompt_tokens": 13153,
-    "completion_tokens": 7649,
-    "total_tokens": 20802
+    "ok": 5,
+    "errors": 5,
+    "prompt_tokens": 8441,
+    "completion_tokens": 4133,
+    "total_tokens": 12574
    }
   ]
  }
