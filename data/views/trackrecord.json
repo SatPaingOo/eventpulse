@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-11-26T21:44:22Z",
- "total_resolved": 1270,
- "hits": 429,
- "misses": 841,
+ "generated_at": "2026-11-27T08:49:14Z",
+ "total_resolved": 1277,
+ "hits": 432,
+ "misses": 845,
  "accuracy": 33.8,
  "baseline": {
   "random_pct": 33.3,
-  "best_naive_pct": 35.9,
+  "best_naive_pct": 36.2,
   "best_naive_strategy": "up"
  },
  "by_confidence": [
@@ -18,9 +18,9 @@
   },
   {
    "value": "medium (50–69)",
-   "n": 1012,
-   "hits": 343,
-   "accuracy": 33.9
+   "n": 1019,
+   "hits": 346,
+   "accuracy": 34.0
   },
   {
    "value": "low (<50)",
@@ -34,8 +34,8 @@
    {
     "dimension": "event_type",
     "value": "unknown",
-    "n": 1270,
-    "hits": 429,
+    "n": 1277,
+    "hits": 432,
     "accuracy": 33.8
    }
   ],
@@ -43,9 +43,9 @@
    {
     "dimension": "direction",
     "value": "down",
-    "n": 266,
+    "n": 270,
     "hits": 80,
-    "accuracy": 30.1
+    "accuracy": 29.6
    },
    {
     "dimension": "direction",
@@ -57,9 +57,9 @@
    {
     "dimension": "direction",
     "value": "up",
-    "n": 959,
-    "hits": 338,
-    "accuracy": 35.2
+    "n": 962,
+    "hits": 341,
+    "accuracy": 35.4
    }
   ],
   "asset": [
@@ -94,9 +94,9 @@
    {
     "dimension": "asset",
     "value": "Brent",
-    "n": 141,
-    "hits": 61,
-    "accuracy": 43.3
+    "n": 142,
+    "hits": 62,
+    "accuracy": 43.7
    },
    {
     "dimension": "asset",
@@ -108,9 +108,9 @@
    {
     "dimension": "asset",
     "value": "COPPER",
-    "n": 50,
+    "n": 51,
     "hits": 13,
-    "accuracy": 26.0
+    "accuracy": 25.5
    },
    {
     "dimension": "asset",
@@ -122,9 +122,9 @@
    {
     "dimension": "asset",
     "value": "GASOLINE",
-    "n": 22,
+    "n": 23,
     "hits": 5,
-    "accuracy": 22.7
+    "accuracy": 21.7
    },
    {
     "dimension": "asset",
@@ -199,9 +199,9 @@
    {
     "dimension": "asset",
     "value": "NATGAS",
-    "n": 34,
-    "hits": 16,
-    "accuracy": 47.1
+    "n": 35,
+    "hits": 17,
+    "accuracy": 48.6
    },
    {
     "dimension": "asset",
@@ -304,23 +304,23 @@
    {
     "dimension": "asset",
     "value": "WTI",
-    "n": 239,
-    "hits": 117,
-    "accuracy": 49.0
+    "n": 240,
+    "hits": 118,
+    "accuracy": 49.2
    },
    {
     "dimension": "asset",
     "value": "XAG/USD",
-    "n": 49,
+    "n": 50,
     "hits": 18,
-    "accuracy": 36.7
+    "accuracy": 36.0
    },
    {
     "dimension": "asset",
     "value": "XAU/USD",
-    "n": 233,
+    "n": 234,
     "hits": 41,
-    "accuracy": 17.6
+    "accuracy": 17.5
    },
    {
     "dimension": "asset",
